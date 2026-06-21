@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Daji shan immortals-altar poem (sheet 33) (rubbing)</title>
+        <title xml:lang="zh-Hant">大基山仙壇詩（拓本）</title>
+        <editor role="editor">Epiwen import</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Daji_shan_immortals_altar_poem_rubbing_HV4399436.xml</idno>
+        <availability><licence target="https://library.harvard.edu/digital-collections">Harvard Library digital collections — open access</licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country>
+            <settlement>Cambridge, MA</settlement>
+            <repository>Harvard-Yenching Library, Harvard University</repository>
+            <idno type="hollis">9725692</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ink rubbing of the Daji shan immortals-altar poem (sheet 33). Zheng Daozhao Daoist cliff inscription, Daji shan 大基山 (Shandong); one sheet of the Harvard complete set.</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc form="拓本 album">
+              <supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history><origin><origDate>Northern Wei, early 6th c. (Zheng Daozhao 鄭道昭, d. 516)</origDate></origin></history>
+          <additional>
+            <listBibl>
+              <!-- standalone famous stele; no bearer object record in the corpus -->
+              <bibl><ref type="record" target="https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-9725692">Harvard Chinese Rubbings Collection — record</ref></bibl>
+              <bibl><ref type="iiif-manifest" target="https://nrs.harvard.edu/URN-3:FHCL:4399436:MANIFEST:3">IIIF manifest (1-page, deep-zoom)</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc>
+      <change when="2026-06-21" who="#epiwen">Imported from Harvard LibraryCloud (FHCL:4399436, HOLLIS 9725692) via the Epiwen rubbing-discovery workflow; images served live from Harvard IIIF, open access.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://mps.lib.harvard.edu/assets/images/drs:17954622/full/,1000/0/default.jpg"/>
+  </facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the IIIF manifest for the full multi-page, deep-zoom images.</p></div></body></text>
+</TEI>
