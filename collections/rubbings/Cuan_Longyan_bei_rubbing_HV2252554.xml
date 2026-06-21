@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Cuan Longyan bei (rubbing)</title>
+        <title xml:lang="zh-Hant">爨龍顏碑（拓本）</title>
+        <editor role="editor">Epiwen import</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Cuan_Longyan_bei_rubbing_HV2252554.xml</idno>
+        <availability><licence target="https://library.harvard.edu/digital-collections">Harvard Library digital collections — open access</licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country>
+            <settlement>Cambridge, MA</settlement>
+            <repository>Harvard-Yenching Library, Harvard University</repository>
+            <idno type="hollis">9608614</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ink rubbing of the Cuan Longyan bei. Manifest label gives 爨龍顏碑, 南朝宋大明2年[458] — the target stele exactly</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc form="拓本 album">
+              <supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history><origin><origDate>Liu Song, Daming 2 [458]; rubbing 1821-1911; stele in Luliang, Yunnan</origDate></origin></history>
+          <additional>
+            <listBibl>
+              <!-- standalone famous stele; no bearer object record in the corpus -->
+              <bibl><ref type="record" target="https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-9608614">Harvard Chinese Rubbings Collection — record</ref></bibl>
+              <bibl><ref type="iiif-manifest" target="https://nrs.harvard.edu/URN-3:FHCL:2252554:MANIFEST:3">IIIF manifest (1-page, deep-zoom)</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc>
+      <change when="2026-06-21" who="#epiwen">Imported from Harvard LibraryCloud (FHCL:2252554, HOLLIS 9608614) via the Epiwen rubbing-discovery workflow; images served live from Harvard IIIF, open access.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://mps.lib.harvard.edu/assets/images/drs:11286719/full/,1000/0/default.jpg"/>
+  </facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the IIIF manifest for the full multi-page, deep-zoom images.</p></div></body></text>
+</TEI>
