@@ -51,10 +51,20 @@ for fp in glob.glob(DIR+"/*.xml"):
     for pat,en,zh in RULES:
         if re.search(pat,hay,re.I): ins=(en,zh); break
     if not ins: ins=(title or base,"")
-    # short id: FHCL, or filename suffix, or record-id
-    fhcl=re.search(r'FHCL:(\d+)',xml)
-    sid = fhcl.group(1) if fhcl else (re.search(r'_([A-Z]{2,3}[A-Za-z0-9]+)\.xml$',base) or re.search(r'(\d{4,})',base))
-    sid = fhcl.group(1) if fhcl else (sid.group(1) if sid else base[:8])
+    # clean citable id: FHCL number; else the native id from the record/manifest URL; else record-id
+    def clean_id():
+        m=re.search(r'FHCL:(\d+)',xml)
+        if m: return m.group(1)
+        for url in (rec, manifest):
+            if not url: continue
+            mm=re.search(r'/(?:pid|record|artwork|item)/(\d+)', url) or re.search(r'/iiif/(\d+)/', url)
+            if mm: return mm.group(1)
+        rid=field(xml,r'type="record-id">([^<]+)<')
+        if rid:
+            mm=re.search(r'(\d{4,})', rid)
+            return mm.group(1) if mm else re.sub(r'[^A-Za-z0-9]+','',rid)[:12]
+        return re.sub(r'.*_rubbing_','',base).replace('.xml','')[:12]
+    sid=clean_id()
     link = ("viewer.html?manifest="+urllib.parse.quote(manifest,safe="")) if manifest else (rec or "#")
     inst,order=institution(repo)
     key=ins[0]

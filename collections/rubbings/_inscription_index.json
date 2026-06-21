@@ -485,11 +485,11 @@
 "institution": "UC Berkeley",
 "items": [
 {
-"id": "UCB244378",
+"id": "244378",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244378%2Fexport%2Fiiif_manifest"
 },
 {
-"id": "UCB244605",
+"id": "244605",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244605%2Fexport%2Fiiif_manifest"
 }
 ]
@@ -498,19 +498,19 @@
 "institution": "NDL (Japan)",
 "items": [
 {
-"id": "NDL780575",
+"id": "780575",
 "link": "viewer.html?manifest=https%3A%2F%2Fwww.dl.ndl.go.jp%2Fapi%2Fiiif%2F780575%2Fmanifest.json"
 },
 {
-"id": "NDL780576",
+"id": "780576",
 "link": "viewer.html?manifest=https%3A%2F%2Fwww.dl.ndl.go.jp%2Fapi%2Fiiif%2F780576%2Fmanifest.json"
 },
 {
-"id": "NDL780577",
+"id": "780577",
 "link": "viewer.html?manifest=https%3A%2F%2Fwww.dl.ndl.go.jp%2Fapi%2Fiiif%2F780577%2Fmanifest.json"
 },
 {
-"id": "NDL780578",
+"id": "780578",
 "link": "viewer.html?manifest=https%3A%2F%2Fwww.dl.ndl.go.jp%2Fapi%2Fiiif%2F780578%2Fmanifest.json"
 }
 ]
@@ -519,12 +519,12 @@
 "institution": "Japan Search / Daitō Bunka",
 "items": [
 {
-"id": "JPScobas4241",
-"link": "https://colbase.nich.go.jp/collection_items/kyohaku/B%E7%94%B2409?locale=ja"
+"id": "100000118",
+"link": "http://www.i-repository.net/il/meta_pub/G0000721d_DAITOD00269"
 },
 {
-"id": "JPSdaitoR100000118IDAITOD00",
-"link": "http://www.i-repository.net/il/meta_pub/G0000721d_DAITOD00269"
+"id": "4241",
+"link": "https://colbase.nich.go.jp/collection_items/kyohaku/B%E7%94%B2409?locale=ja"
 }
 ]
 },
@@ -532,7 +532,7 @@
 "institution": "Indianapolis MA",
 "items": [
 {
-"id": "IMA45749",
+"id": "45749",
 "link": "https://collections.discovernewfields.org/art/artwork/45749"
 }
 ]
@@ -565,15 +565,15 @@
 "institution": "UC Berkeley",
 "items": [
 {
-"id": "UCB244556",
+"id": "244556",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244556%2Fexport%2Fiiif_manifest"
 },
 {
-"id": "UCB244561",
+"id": "244561",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244561%2Fexport%2Fiiif_manifest"
 },
 {
-"id": "UCB244798",
+"id": "244798",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244798%2Fexport%2Fiiif_manifest"
 }
 ]
@@ -582,7 +582,7 @@
 "institution": "Japan Search / Daitō Bunka",
 "items": [
 {
-"id": "JPSdaitoR100000118I00000089",
+"id": "100000118",
 "link": "http://www.i-repository.net/il/meta_pub/G0000721b_DAITOB20069"
 }
 ]
@@ -591,7 +591,7 @@
 "institution": "ColBase (Japan)",
 "items": [
 {
-"id": "CBcolbase113819tnmTB229key",
+"id": "113819",
 "link": "https://colbase.nich.go.jp/collection_items/tnm/TB-229?locale=ja"
 }
 ]
@@ -620,11 +620,11 @@
 "institution": "UC Berkeley",
 "items": [
 {
-"id": "UCB244548",
+"id": "244548",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244548%2Fexport%2Fiiif_manifest"
 },
 {
-"id": "UCB244549",
+"id": "244549",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244549%2Fexport%2Fiiif_manifest"
 }
 ]
@@ -633,7 +633,7 @@
 "institution": "Japan Search / Daitō Bunka",
 "items": [
 {
-"id": "JPSdaitoR100000118I00000055",
+"id": "100000118",
 "link": "http://www.i-repository.net/il/meta_pub/G0000721f_DAITOF00426"
 }
 ]
@@ -642,7 +642,7 @@
 "institution": "ColBase (Japan)",
 "items": [
 {
-"id": "CBcolbase147075searchid216",
+"id": "147075",
 "link": "https://colbase.nich.go.jp/collection_items/kyohaku/B%E4%B9%99315?locale=ja"
 }
 ]
@@ -671,15 +671,15 @@
 "institution": "UC Berkeley",
 "items": [
 {
-"id": "UCB244384",
+"id": "244384",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244384%2Fexport%2Fiiif_manifest"
 },
 {
-"id": "UCB244401",
+"id": "244401",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244401%2Fexport%2Fiiif_manifest"
 },
 {
-"id": "UCB244436",
+"id": "244436",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244436%2Fexport%2Fiiif_manifest"
 }
 ]
@@ -688,7 +688,7 @@
 "institution": "Japan Search / Daitō Bunka",
 "items": [
 {
-"id": "JPSdaitoR100000118I00000090",
+"id": "100000118",
 "link": "http://www.i-repository.net/il/meta_pub/G0000721b_DAITOB20070"
 }
 ]
@@ -717,7 +717,7 @@
 "institution": "UC Berkeley",
 "items": [
 {
-"id": "UCB244544",
+"id": "244544",
 "link": "viewer.html?manifest=https%3A%2F%2Fdigicoll.lib.berkeley.edu%2Frecord%2F244544%2Fexport%2Fiiif_manifest"
 }
 ]
@@ -726,11 +726,11 @@
 "institution": "Japan Search / Daitō Bunka",
 "items": [
 {
-"id": "JPSdaitoR100000118I00000055",
+"id": "100000118",
 "link": "http://www.i-repository.net/il/meta_pub/G0000721f_DAITOF00426"
 },
 {
-"id": "JPStokyomuseumcolectionedot",
+"id": "82977932",
 "link": "https://museumcollection.tokyo/works/6795506/"
 }
 ]
@@ -763,7 +763,7 @@
 "institution": "UC Berkeley",
 "items": [
 {
-"id": "Cao_Quan",
+"id": "Berkeley",
 "link": "https://digicoll.lib.berkeley.edu/search?p=曹全碑&amp;f=any+field"
 }
 ]
@@ -829,11 +829,11 @@
 "institution": "Japan Search / Daitō Bunka",
 "items": [
 {
-"id": "JPSdaitoR100000118IDAITOD00",
+"id": "100000118",
 "link": "http://www.i-repository.net/il/meta_pub/G0000721d_DAITOD00279"
 },
 {
-"id": "JPSdignl1187089",
+"id": "1187089",
 "link": "viewer.html?manifest=https%3A%2F%2Fdl.ndl.go.jp%2Fapi%2Fiiif%2F1187089%2Fmanifest.json"
 }
 ]
@@ -898,7 +898,7 @@
 "institution": "—",
 "items": [
 {
-"id": "SNS1rub.",
+"id": "SNS1rub",
 "link": "#"
 }
 ]
