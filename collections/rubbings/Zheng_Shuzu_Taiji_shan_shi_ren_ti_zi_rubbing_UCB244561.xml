@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Zheng Shuzu Taiji shan shi ren ti zi (rubbing)</title>
+        <title xml:lang="zh-Hant">太基山(大基山)石人題字（拓本）</title>
+        <editor role="editor">Epiwen import</editor>
+      </titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Zheng_Shuzu_Taiji_shan_shi_ren_ti_zi_rubbing_UCB244561.xml</idno></publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country><settlement>Berkeley, CA</settlement>
+            <repository>C.V. Starr East Asian Library, University of California, Berkeley</repository>
+            <idno type="record-id">244561</idno>
+          </msIdentifier>
+          <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 Daoist cliff inscription: Zheng Shuzu Taiji shan shi ren ti zi. GENUINE Zheng Daozhao. Daji shan (大基山) cliff title inscription — the mountain where Zheng Daozhao carved his Daoist-altar poems. Part of 鄭道昭碑全集 series. Companion records: 244562, 244563, 244564. UC Berkeley EAL Chinese Rubbings Collection.</summary></msContents>
+          <physDesc><objectDesc form="拓本"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+          <history><origin><origDate>Catalogued 565 (see caveat). 'Taiji shan' here = Daji shan 大基山 (Laizhou/Pingdu, Shandong), site of Zheng Daozhao's Daoist altar (中明壇/仙壇) inscriptions.</origDate></origin></history>
+          <additional><listBibl>
+            <bibl><ref type="record" target="https://digicoll.lib.berkeley.edu/record/244561">C.V. Starr East Asian Library, University of California, Berkeley — record</ref></bibl>
+            <bibl><ref type="iiif-manifest" target="https://digicoll.lib.berkeley.edu/record/244561/export/iiif_manifest">IIIF manifest (deep-zoom)</ref></bibl>
+          </listBibl></additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 Daoist cliff inscription; harvested from C.V. Starr East Asian Library, University of California, Berkeley via the Epiwen multi-repository workflow. IIIF deep-zoom, open access (CORS-enabled).</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://digicoll.lib.berkeley.edu/record/244561/files/1-253-Hsin148.5.3.jpg"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>

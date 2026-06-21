@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Yunfeng shan cliff inscription (1): Lun jing shu shi (雲峰山全套) (rubbing)</title>
+        <title xml:lang="zh-Hant">雲峰山刻石 — 論經書詩 (雲峰山全套)（拓本）</title>
+        <editor role="editor">Epiwen import</editor>
+      </titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Yunfeng_shan_cliff_inscription_Lun_jing_shu_shi_rubbing_UCB244436.xml</idno></publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country><settlement>Berkeley, CA</settlement>
+            <repository>C.V. Starr East Asian Library, University of California, Berkeley</repository>
+            <idno type="record-id">244436</idno>
+          </msIdentifier>
+          <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 Daoist cliff inscription: Yunfeng shan cliff inscription (1): Lun jing shu shi (雲峰山全套). GENUINE Zheng Daozhao. A third Berkeley rubbing of the Yunfeng shan Lun jing shu shi, from the 雲峰山全套 (complete Yunfeng shan set). record_url verified; specific image file not separately confirmed — use IIIF manifest. UC Berkeley EAL Chinese Rubbings Collection.</summary></msContents>
+          <physDesc><objectDesc form="拓本"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+          <history><origin><origDate>Northern Wei, 511. Creator 鄭道昭撰並書.</origDate></origin></history>
+          <additional><listBibl>
+            <bibl><ref type="record" target="https://digicoll.lib.berkeley.edu/record/244436">C.V. Starr East Asian Library, University of California, Berkeley — record</ref></bibl>
+            <bibl><ref type="iiif-manifest" target="https://digicoll.lib.berkeley.edu/record/244436/export/iiif_manifest">IIIF manifest (deep-zoom)</ref></bibl>
+          </listBibl></additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 Daoist cliff inscription; harvested from C.V. Starr East Asian Library, University of California, Berkeley via the Epiwen multi-repository workflow. IIIF deep-zoom, open access (CORS-enabled).</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://digicoll.lib.berkeley.edu/record/244436"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title xml:lang="en">Yiyang [=Xingyang] Zheng Wengong inscription (rubbing) (rubbing)</title><title xml:lang="zh-Hant">滎陽鄭文公碑 (拓本)（拓本）</title><editor role="editor">Epiwen import</editor></titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Zheng_Wengong_inscription_rubbing_IMA45749.xml</idno></publicationStmt>
+      <sourceDesc><msDesc type="rubbing">
+        <msIdentifier><country>United States</country><settlement>Indianapolis, IN</settlement>
+          <repository>Indianapolis Museum of Art at Newfields</repository><idno type="record-id">S10095.03.1A / S10095.03.1B (Newfields)</idno></msIdentifier>
+        <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 Daoist cliff inscription: Yiyang [=Xingyang] Zheng Wengong inscription (rubbing). Indianapolis Museum of Art at Newfields, Gift of George F. Staudter. VERIFIED record page resolves (HTTP 200); page data explicitly names Zheng Daozhao 鄭道昭 and 'Yiyang Zheng Wengong inscription'. HONEST LIMITATION: the embedded record JSON shows iiif_manifest:null and images:[] — NO online image and NO IIIF manifest available, so reported as record-only. ('Yiyang' is Newfields' romanization slip for 滎陽 Xingyang.)</summary></msContents>
+        <physDesc><objectDesc form="拓本"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+        <history><origin><origDate>Rubbing of the Zheng Wengong stele text (Northern Wei, original 511 CE), calligraphy by Zheng Daozhao 鄭道昭 (450-516).</origDate></origin></history>
+        <additional><listBibl>
+          <bibl><ref type="provider" target="https://collections.discovernewfields.org/art/artwork/45749">Indianapolis Museum of Art at Newfields — collection record</ref></bibl>
+        </listBibl></additional>
+      </msDesc></sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 Daoist cliff inscription; harvested from the Indianapolis Museum of Art (Newfields) via the Epiwen multi-repository workflow. Provenance-only (no public IIIF image).</change></revisionDesc>
+  </teiHeader>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked collection record.</p></div></body></text>
+</TEI>

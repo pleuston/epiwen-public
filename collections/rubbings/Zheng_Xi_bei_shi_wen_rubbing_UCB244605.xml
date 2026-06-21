@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Zheng Xi bei shi wen (explication of the Zheng Wengong steles) (rubbing)</title>
+        <title xml:lang="zh-Hant">鄭羲碑釋文 / 滎陽鄭文公上下兩碑（拓本）</title>
+        <editor role="editor">Epiwen import</editor>
+      </titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Zheng_Xi_bei_shi_wen_rubbing_UCB244605.xml</idno></publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country><settlement>Berkeley, CA</settlement>
+            <repository>C.V. Starr East Asian Library, University of California, Berkeley</repository>
+            <idno type="record-id">244605</idno>
+          </msIdentifier>
+          <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 Daoist cliff inscription: Zheng Xi bei shi wen (explication of the Zheng Wengong steles). RELATED, not the inscription itself. Useful apparatus: a 19th-c. transcription/commentary on Zheng Daozhao's Zheng Wengong shang/xia bei. Confirms Berkeley holds material on both the upper AND lower Zheng Wengong steles. UC Berkeley EAL Chinese Rubbings Collection (Hsin812).</summary></msContents>
+          <physDesc><objectDesc form="拓本"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+          <history><origin><origDate>1877 (Qing). NOT a rubbing of the Northern Wei stone — a later printed/transcribed 釋文 (explication) of the upper and lower Zheng Wengong steles (滎陽鄭文公上下兩碑).</origDate></origin></history>
+          <additional><listBibl>
+            <bibl><ref type="record" target="https://digicoll.lib.berkeley.edu/record/244605">C.V. Starr East Asian Library, University of California, Berkeley — record</ref></bibl>
+            <bibl><ref type="iiif-manifest" target="https://digicoll.lib.berkeley.edu/record/244605/export/iiif_manifest">IIIF manifest (deep-zoom)</ref></bibl>
+          </listBibl></additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 Daoist cliff inscription; harvested from C.V. Starr East Asian Library, University of California, Berkeley via the Epiwen multi-repository workflow. IIIF deep-zoom, open access (CORS-enabled).</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://digicoll.lib.berkeley.edu/record/244605/files/1-296-Hsin812_000.jpg"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>
