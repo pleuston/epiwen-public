@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title xml:lang="en">Tei Dosh(o) daikoku kyushu — nine cliff inscriptions by Zheng Daozhao (rubbing)</title><title xml:lang="zh-Hant">鄭道昭題刻九種（拓本）</title><editor role="editor">Epiwen import</editor></titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Tei_Dosh_daikoku_kyushu_nine_cliff_inscriptions__rubbing_JPSdaitoR100000118I00000089.xml</idno></publicationStmt>
+      <sourceDesc><msDesc type="rubbing">
+        <msIdentifier><country>Japan</country><settlement>(various, via aggregator)</settlement><repository>Japan Search (ジャパンサーチ) — national aggregator</repository><idno type="record-id">daito-R100000118_I000000899_00</idno></msIdentifier>
+        <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription: Tei Dosh(o) daikoku kyushu — nine cliff inscriptions by Zheng Daozhao. Holding institution: Daito Bunka University Library 大東文化大学板橋校舎図書館 (provider libdaito, i-repository.net), via Japan Search. Genre: 拓本 (rubbing), 書跡. Image verified HTTP 200 image/jpeg. No per-item IIIF manifest in Japan Search; direct JPG only.</summary></msContents>
+        <physDesc><objectDesc form="拓本 / 法帖"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+        <history><origin><origDate>Original carving Northern Wei (北魏); rubbing album (折帖)</origDate></origin></history>
+        <additional><listBibl>
+          <bibl><ref type="provider" target="http://www.i-repository.net/il/meta_pub/G0000721b_DAITOB20069">Japan Search (ジャパンサーチ) — national aggregator — record</ref></bibl>
+        </listBibl></additional>
+      </msDesc></sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription; harvested from Japan Search (ジャパンサーチ) — national aggregator via the Epiwen Japanese-repository workflow. Image served live.</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://www.i-repository.net/il/cont/01/G0000721b/000/923/000923968.jpg"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>

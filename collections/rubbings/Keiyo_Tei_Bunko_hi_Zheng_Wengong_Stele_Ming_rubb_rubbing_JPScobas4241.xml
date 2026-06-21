@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title xml:lang="en">Keiyo Tei Bunko hi (mintaku) — Zheng Wengong Stele, Ming rubbing (rubbing)</title><title xml:lang="zh-Hant">けい陽鄭文公碑（明拓）（拓本）</title><editor role="editor">Epiwen import</editor></titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Keiyo_Tei_Bunko_hi_Zheng_Wengong_Stele_Ming_rubb_rubbing_JPScobas4241.xml</idno></publicationStmt>
+      <sourceDesc><msDesc type="rubbing">
+        <msIdentifier><country>Japan</country><settlement>(various, via aggregator)</settlement><repository>Japan Search (ジャパンサーチ) — national aggregator</repository><idno type="record-id">cobas-4241</idno></msIdentifier>
+        <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription: Keiyo Tei Bunko hi (mintaku) — Zheng Wengong Stele, Ming rubbing. Holding institution: Kyoto National Museum 京都国立博物館 (ColBase / NICH), via Japan Search. 鄭文公碑 (Tei Bunko hi) is Zheng Daozhao's most famous stele. Record page verified HTTP 200. CAUTION: the thumbnail URL supplied by the Japan Search/ColBase API (media/.../slideshow_s/31253_difile1-L.jpg) returned 404, and ColBase exposes no working IIIF manifest (the /manifest endpoint serves SPA HTML); therefore classified record-only rather than image. Licence stated as CC-BY in the index.</summary></msContents>
+        <physDesc><objectDesc form="拓本 / 法帖"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+        <history><origin><origDate>Inscription 5th-6th c. (carved 511); this is a Ming-dynasty 明拓 rubbing; 1 folding album, 32.5x20.1cm</origDate></origin></history>
+        <additional><listBibl>
+          <bibl><ref type="provider" target="https://colbase.nich.go.jp/collection_items/kyohaku/B%E7%94%B2409?locale=ja">Japan Search (ジャパンサーチ) — national aggregator — record</ref></bibl>
+        </listBibl></additional>
+      </msDesc></sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription; harvested from Japan Search (ジャパンサーチ) — national aggregator via the Epiwen Japanese-repository workflow. Provenance-only (no public IIIF image).</change></revisionDesc>
+  </teiHeader>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>

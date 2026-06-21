@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title xml:lang="en">Keiyō Tei-shi hi, vol. 1-2 (rubbing)</title><title xml:lang="zh-Hant">熒陽鄭氏碑　一、二（拓本）</title><editor role="editor">Epiwen import</editor></titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Keiy_Tei_shi_hi_vol_1_2_rubbing_NDL780575.xml</idno></publicationStmt>
+      <sourceDesc><msDesc type="rubbing">
+        <msIdentifier><country>Japan</country><settlement>Tokyo</settlement><repository>National Diet Library (国立国会図書館), NDL Digital Collections</repository><idno type="record-id">780575</idno></msIdentifier>
+        <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription: Keiyō Tei-shi hi, vol. 1-2. Holding institution: National Diet Library (国立国会図書館), NDL Digital Collections. Access Restrictions: PDM (public domain, full image access). Verified IIIF v2 manifest (sequences/canvases present). 熒陽鄭氏碑 is the standard Japanese title for Zheng Daozhao's 鄭文公碑/鄭羲碑; the editor 日下部東作=日下部鳴鶴 is the Meiji calligrapher who transmitted Zheng Daozhao's style in Japan. This is part 1-2 of a 10-fascicle set (pids 780575-780578).</summary></msContents>
+        <physDesc><objectDesc form="拓本 / 法帖"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+        <history><origin><origDate>Rubbing-album reproduction, Meiji 14 (1881), 林安之助 [et al.]; collated (校) by 日下部東作 (Kusakabe Meikaku). Original inscription 511 CE (Northern Wei).</origDate></origin></history>
+        <additional><listBibl>
+          <bibl><ref type="record" target="https://dl.ndl.go.jp/pid/780575">National Diet Library (国立国会図書館), NDL Digital Collections — record</ref></bibl>
+          <bibl><ref type="iiif-manifest" target="https://www.dl.ndl.go.jp/api/iiif/780575/manifest.json">IIIF manifest (deep-zoom)</ref></bibl>
+        </listBibl></additional>
+      </msDesc></sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription; harvested from National Diet Library (国立国会図書館), NDL Digital Collections via the Epiwen Japanese-repository workflow. IIIF deep-zoom (CORS-enabled).</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://dl.ndl.go.jp/api/iiif/780575/R0000001/full/full/0/default.jpg"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>

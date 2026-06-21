@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title xml:lang="en">Unho-zan kankai shi — full IIIF rubbing volume (rubbing)</title><title xml:lang="zh-Hant">雲峰山観海詩（拓本）</title><editor role="editor">Epiwen import</editor></titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Unho_zan_kankai_shi_full_IIIF_rubbing_volume_rubbing_JPSdignl1187089.xml</idno></publicationStmt>
+      <sourceDesc><msDesc type="rubbing">
+        <msIdentifier><country>Japan</country><settlement>(various, via aggregator)</settlement><repository>Japan Search (ジャパンサーチ) — national aggregator</repository><idno type="record-id">dignl-1187089</idno></msIdentifier>
+        <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription: Unho-zan kankai shi — full IIIF rubbing volume. Holding institution: National Diet Library (NDL) 国立国会図書館 (provider ndl), surfaced via Japan Search. Full IIIF Presentation manifest verified: label '雲峰山観海詩', 63 canvases; first canvas image and IIIF thumbnail both verified HTTP 200 image/jpeg.</summary></msContents>
+        <physDesc><objectDesc form="拓本 / 法帖"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+        <history><origin><origDate>Reproduction/rubbing volume of Zheng Daozhao's Yunfengshan 觀海詩; original Northern Wei</origDate></origin></history>
+        <additional><listBibl>
+          <bibl><ref type="provider" target="https://dl.ndl.go.jp/info:ndljp/pid/1187089">Japan Search (ジャパンサーチ) — national aggregator — record</ref></bibl>
+          <bibl><ref type="iiif-manifest" target="https://dl.ndl.go.jp/api/iiif/1187089/manifest.json">IIIF manifest (deep-zoom)</ref></bibl>
+        </listBibl></additional>
+      </msDesc></sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription; harvested from Japan Search (ジャパンサーチ) — national aggregator via the Epiwen Japanese-repository workflow. IIIF deep-zoom (CORS-enabled).</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://www.dl.ndl.go.jp/api/iiif/1187089/R0000001/full/full/0/default.jpg"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>

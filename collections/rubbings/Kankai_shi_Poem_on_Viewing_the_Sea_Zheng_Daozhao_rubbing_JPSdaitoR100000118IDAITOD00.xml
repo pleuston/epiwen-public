@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title xml:lang="en">Kankai(do) shi — Poem on Viewing the Sea, Zheng Daozhao (rubbing)</title><title xml:lang="zh-Hant">鄭道昭・観海童詩（拓本）</title><editor role="editor">Epiwen import</editor></titleStmt>
+      <publicationStmt><authority>Epiwen / Altergraphy</authority><idno type="filename">Kankai_shi_Poem_on_Viewing_the_Sea_Zheng_Daozhao_rubbing_JPSdaitoR100000118IDAITOD00.xml</idno></publicationStmt>
+      <sourceDesc><msDesc type="rubbing">
+        <msIdentifier><country>Japan</country><settlement>(various, via aggregator)</settlement><repository>Japan Search (ジャパンサーチ) — national aggregator</repository><idno type="record-id">daito-R100000118_IDAITOD00279</idno></msIdentifier>
+        <msContents><summary>Ink rubbing of a Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription: Kankai(do) shi — Poem on Viewing the Sea, Zheng Daozhao. Holding institution: Daito Bunka University (libdaito / i-repository.net). This is the 觀海島詩 named in the brief. Image verified HTTP 200 image/jpeg. Record landing page 301-redirects (canonicalisation).</summary></msContents>
+        <physDesc><objectDesc form="拓本 / 法帖"><supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc></objectDesc></physDesc>
+        <history><origin><origDate>Northern Wei, undated (北魏・無紀年)</origDate></origin></history>
+        <additional><listBibl>
+          <bibl><ref type="provider" target="http://www.i-repository.net/il/meta_pub/G0000721d_DAITOD00279">Japan Search (ジャパンサーチ) — national aggregator — record</ref></bibl>
+        </listBibl></additional>
+      </msDesc></sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-21" who="#epiwen">Zheng Daozhao 鄭道昭 (Tei Dōshō) Daoist cliff inscription; harvested from Japan Search (ジャパンサーチ) — national aggregator via the Epiwen Japanese-repository workflow. Image served live.</change></revisionDesc>
+  </teiHeader>
+  <facsimile><graphic url="https://www.i-repository.net/il/cont/01/G0000721d/001/091/001091577.JPG"/></facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the linked record/manifest.</p></div></body></text>
+</TEI>
