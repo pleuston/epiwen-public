@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="shanghai_library">
+    <authority lang="en">
+        <name type="corporate"><namePart>Shanghai Library</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>上海圖書館</namePart></name>
+    </variant>
+    <note>古代碑帖知識庫 (beitie.library.sh.cn) — BIBFRAME, IIIF, Linked Data; the most advanced Chinese rubbing platform.</note>
+    <url>https://beitie.library.sh.cn/home</url>
+</mads>

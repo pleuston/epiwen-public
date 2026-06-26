@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="daito_bunka">
+    <authority lang="en">
+        <name type="corporate"><namePart>Daitō Bunka University</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>大東文化大学</namePart></name>
+    </variant>
+    <note>Tokyo; its i-Repository holds the 宇野雪村文庫 (Uno Sesson) rubbing collection, harvested via Japan Search.</note>
+    <url>https://www.daito.ac.jp/</url>
+</mads>

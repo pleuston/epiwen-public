@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="minpaku">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Museum of Ethnology (Minpaku)</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>国立民族学博物館</namePart></name>
+    </variant>
+    <note>Osaka; rubbings in its object catalogue, harvested via Japan Search.</note>
+    <url>https://www.minpaku.ac.jp/</url>
+</mads>

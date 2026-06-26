@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="palace_museum_beijing">
+    <authority lang="en">
+        <name type="corporate"><namePart>Palace Museum, Beijing</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>故宮博物院</namePart></name>
+    </variant>
+    <note>29,719 rubbings (碑帖) per the official 藏品總目; 數字文物庫 image platform (no bulk export).</note>
+    <url>https://www.dpm.org.cn/</url>
+</mads>

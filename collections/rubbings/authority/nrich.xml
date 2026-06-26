@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="nrich">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Research Institute of Cultural Heritage (Korea)</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>國立文化遺産研究院</namePart></name>
+    </variant>
+    <note>Operates the 금석문 (Korean epigraphy) database (portal.nrich.go.kr) — keyless open API, 6,557 inscriptions.</note>
+    <url>https://portal.nrich.go.kr/</url>
+</mads>

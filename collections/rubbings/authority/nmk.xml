@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="nmk">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Museum of Korea</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>국립중앙박물관</namePart></name>
+    </variant>
+    <note>Its e-museum portal (emuseum.go.kr) aggregates 탁본 across 400+ Korean institutions via an open API (serviceKey).</note>
+    <url>https://www.emuseum.go.kr/</url>
+</mads>

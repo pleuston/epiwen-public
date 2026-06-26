@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="ncl_taiwan">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Central Library (Taipei)</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>國家圖書館（臺北）</namePart></name>
+    </variant>
+    <note>Taipei; 金石拓片資料 (rbook.ncl.edu.tw) with IIIF + institution-level persistent IDs.</note>
+    <url>https://rbook.ncl.edu.tw/</url>
+</mads>

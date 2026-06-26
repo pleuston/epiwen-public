@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="npm_taipei">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Palace Museum, Taipei</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>國立故宮博物院</namePart></name>
+    </variant>
+    <note>故宮典藏資料檢索 with 墨拓本 entries under CC0 / CC BY open licence; many transferred from Beijing pre-1949.</note>
+    <url>https://digitalarchive.npm.gov.tw/</url>
+</mads>

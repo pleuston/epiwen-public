@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="nijl">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Institute of Japanese Literature</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>国文学研究資料館</namePart></name>
+    </variant>
+    <note>Rubbings surfaced via Japan Search / base1.nijl.ac.jp.</note>
+    <url>https://www.nijl.ac.jp/</url>
+</mads>

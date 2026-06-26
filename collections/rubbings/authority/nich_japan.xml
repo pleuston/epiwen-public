@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="nich_japan">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Institutes for Cultural Heritage (ColBase)</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>国立文化財機構</namePart></name>
+    </variant>
+    <note>Operator of ColBase (colbase.nich.go.jp), the integrated portal of Japan's four National Museums (Tokyo, Kyoto, Nara, Kyushu); source of the harvested ColBase rubbings.</note>
+    <url>https://colbase.nich.go.jp/</url>
+</mads>

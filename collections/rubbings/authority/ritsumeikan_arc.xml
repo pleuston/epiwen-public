@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="ritsumeikan_arc">
+    <authority lang="en">
+        <name type="corporate"><namePart>Ritsumeikan University Art Research Center</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>立命館大学アート・リサーチセンター</namePart></name>
+    </variant>
+    <note>Aggregates partner-library rubbings (dh-jac.net); harvested via Japan Search.</note>
+    <url>https://www.dh-jac.net/</url>
+</mads>

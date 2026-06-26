@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="utokyo">
+    <authority lang="en">
+        <name type="corporate"><namePart>University of Tokyo</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>東京大学</namePart></name>
+    </variant>
+    <note>Holds the 東洋文化研究所 拓本文字データベース (~5,000 rubbings) and the學術資産アーカイブ; harvested via Japan Search.</note>
+    <url>https://www.ioc.u-tokyo.ac.jp/database/index.html</url>
+</mads>
