@@ -14,6 +14,15 @@ European institutions.
 - **Per-institution pages** are `SA.php` / `MG.php` / `IHEC.php` / `EFEO.php` /
   `BodL.php` / `BL.php` / `RM.php`.
 
+> **Harvest policy: do NOT harvest the EFEO site directly.** EFEO's database is an
+> **aggregator / finding-aid** — it is *linked* for discovery (with basic info on what
+> it holds), but for actual data Epiwen takes the **detour through each member
+> institution's own online collection** where one exists (IHEC → Salamandre; Bodleian →
+> east-asian.bodleian; British Museum → its collection; Stockholm → Carlotta). Members
+> with **no** independent online collection (Société asiatique, Guimet, British Library,
+> Rietberg, Prague) are marked `via_aggregator: "EFEO"` — discoverable through the EFEO
+> record only, not yet independently harvestable.
+
 > Counts below are the EFEO/published figures where stated, else "—" (confirmed holder,
 > count unpublished). Several institutional sites return HTTP 403 to scripted requests
 > (BnF Gallica, British Museum, NMS, SOAS, Cambridge CUDL) — they work in a browser.
