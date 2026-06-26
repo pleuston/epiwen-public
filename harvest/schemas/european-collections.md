@@ -73,5 +73,28 @@ British Museum, Stockholm, Prague. `est_count` carries the documented estimate s
 overview table sorts them by rubbing count (BnF 10,000 → SA 1,500 → Guimet 1,000 →
 IHEC 700 → Cernuschi 400 → EFEO 379 → …).
 
+### Harvestability (`harvest` field)
+
+- **`api` — open machine API, harvestable** (8): **V&A** (REST, api.vam.ac.uk — ~125
+  Chinese rubbings incl. the Nestorian rubbing), **BnF** (SRU + IIIF, Gallica),
+  **Stockholm MFEA** (K-samsök/SOCH — verified), **Cambridge UL**, **Bodleian** (Digital
+  Bodleian IIIF), **SOAS**, **Ashmolean** (Jameel IIIF), **Heidelberg/stonesutras** (TEI
+  corpus). Each carries `api` (type) + `api_url`.
+- **`request` — data by request, no open API** (9): Société asiatique, Musée Guimet,
+  British Library, Rietberg, National Gallery Prague (only via the EFEO aggregator);
+  Musée Cernuschi, National Museums Scotland; **British Museum** (SPARQL endpoint
+  unreachable); **Vatican (DigiVatLib)** — IIIF *item-level only*, no open search API.
+- **online (no confirmed bulk API)**: IHEC/Collège de France (Salamandre).
+- **aggregator**: the EFEO union database (link only — never harvested directly).
+
+## Korea (한국)
+
+Korean epigraphy is written in literary Chinese, so Korean rubbing collections are in
+scope. **5 added** (Asia ▸ South Korea): **National Museum of Korea** via **e-museum**
+(emuseum.go.kr — open API, verified reachable) and the **Korean Epigraphy DB 한국금석문**
+(gsm.nrich.go.kr; Korea Heritage open data on data.go.kr) → `api`; **Kyujanggak 규장각**
+(SNU), **Jangseogak 장서각** (Academy of Korean Studies), **National Library of Korea**
+→ `request`. (Counts/exact endpoints being verified by follow-up research.)
+
 _US benchmarks for scale (not catalogued here as European): Field Museum >7,500 (Laufer);
 UC Berkeley ~1,500 (harvested: 2,745 records). Source: parallel web research, June 2026._
