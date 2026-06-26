@@ -96,7 +96,11 @@ scope. Verified by follow-up research:
 - **Korean Epigraphy DB 한국금석문 — NRICH** (국립문화유산연구원). The old `gsm.nrich.go.kr`
   is **dead**; live DB on the 지식이음 portal (`portal.nrich.go.kr/.../ksmUsrList.do`),
   **6,557 records**. Best target: **`http://portal.nrich.go.kr/kor/openapi.do?idx=51`** —
-  live XML, **keyless**, CC-BY (data.go.kr mirror 15015633 may need a key).
+  live XML, **keyless**, CC-BY (data.go.kr mirror 15015633 may need a key). **NB: this is
+  an INSCRIPTION database, not a rubbing repository** — each record = a stone monument
+  (title, dynasty, dimensions, location, script) + 판독문 transcription, 해석문
+  interpretation, and 탁본 rubbing/photo images where available. The 6,557 are inscriptions,
+  not rubbings; it maps to Epiwen's inscription/object model, rubbings being one witness.
 - **National Museum of Korea / e-museum** — `kind:aggregator`: e-museum federates **407
   institutions, 2,477 takbon**. OpenAPI base `http://www.emuseum.go.kr/openapi/`
   (**serviceKey** from data.go.kr; list/detail param spec is in an unretrieved .docx —
