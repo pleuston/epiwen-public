@@ -87,14 +87,37 @@ IHEC 700 → Cernuschi 400 → EFEO 379 → …).
 - **online (no confirmed bulk API)**: IHEC/Collège de France (Salamandre).
 - **aggregator**: the EFEO union database (link only — never harvested directly).
 
-## Korea (한국)
+## Korea (한국) — 9 collections (Asia ▸ South Korea)
 
 Korean epigraphy is written in literary Chinese, so Korean rubbing collections are in
-scope. **5 added** (Asia ▸ South Korea): **National Museum of Korea** via **e-museum**
-(emuseum.go.kr — open API, verified reachable) and the **Korean Epigraphy DB 한국금석문**
-(gsm.nrich.go.kr; Korea Heritage open data on data.go.kr) → `api`; **Kyujanggak 규장각**
-(SNU), **Jangseogak 장서각** (Academy of Korean Studies), **National Library of Korea**
-→ `request`. (Counts/exact endpoints being verified by follow-up research.)
+scope. Verified by follow-up research:
+
+**`api` (harvestable):**
+- **Korean Epigraphy DB 한국금석문 — NRICH** (국립문화유산연구원). The old `gsm.nrich.go.kr`
+  is **dead**; live DB on the 지식이음 portal (`portal.nrich.go.kr/.../ksmUsrList.do`),
+  **6,557 records**. Best target: **`http://portal.nrich.go.kr/kor/openapi.do?idx=51`** —
+  live XML, **keyless**, CC-BY (data.go.kr mirror 15015633 may need a key).
+- **National Museum of Korea / e-museum** — `kind:aggregator`: e-museum federates **407
+  institutions, 2,477 takbon**. OpenAPI base `http://www.emuseum.go.kr/openapi/`
+  (**serviceKey** from data.go.kr; list/detail param spec is in an unretrieved .docx —
+  needed before harvesting). NMK's own ~658 + a colonial-era survey (~800 N-Korean +
+  ~1,300 S-Korean rubbings — key witness to inaccessible NK epigraphy).
+- **Jangseogak 장서각** (Academy of Korean Studies) — ~370 rubbings; kostma OpenAPI
+  (`kostma.aks.ac.kr/OpenAPI/OpenAPI.aspx`), rubbing-specific coverage unconfirmed.
+
+**`request` (no open API / web-only):**
+- **Sungkyunkwan University Museum 성균관대학교** — **~1,000 takbon** (Cho Dong-won donation);
+  request-only. (The biggest holding found.)
+- **Seoul Calligraphy Museum 서울서예박물관** (Seoul Arts Center) — 74 pieces / 217 sheets
+  (Ogawa Keikichi → Gana 2011), National-Treasure rank; web DB, no API.
+- **Buddhist Central Museum 불교중앙박물관** (Jogye Order) — ~750+ new rubbings 2014–2023.
+- **Dongguk University Museum 동국대학교** — Buddhist epigraphy; surfaces via e-museum.
+- **Kyujanggak 규장각** (SNU) — mainly books; rubbings **not** a distinct collection (holds
+  the compilation books 大東金石書 / 海東金石苑); web-only.
+- **National Library of Korea 국립중앙도서관** — collects 금석문; APIs are bibliographic only.
+
+No IIIF or OAI-PMH confirmed at any Korean institution. _Leads: SKKU & Buddhist Central
+request-only; Kyung Hee Hyejeong holds an original-stone Gwanggaeto rubbing (single item)._
 
 _US benchmarks for scale (not catalogued here as European): Field Museum >7,500 (Laufer);
 UC Berkeley ~1,500 (harvested: 2,745 records). Source: parallel web research, June 2026._
