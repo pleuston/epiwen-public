@@ -111,4 +111,19 @@ Codes with very few matches or non-rubbing media (video/text/prints) where 拓�
 - **Edo-Tokyo / Tokyo metropolitan museums** (museumcollection.tokyo) — 242.
 - **Kyushu University** 九州大学 — 78; and university repositories: Ibaraki, Niigata, Ryūkoku, Kansai (KU-ORCAS), Keio, Meiji, Ryukyus, Tokushima.
 
+## Catalogued in Epiwen (full sweep)
+
+All genuine institutional rubbing collections from this survey are now in
+`collections.json` — **33 Japanese collections**: 8 harvested (ColBase, NDL, Daitō,
+NIJL, Minpaku, U-Tokyo, Ritsumeikan ARC, misc union), 20 identified-but-not-yet-harvested
+(`connector japan-search`, with `fdb` + `js_browse` + `mentions`), and 5
+catalog-only/database (Tōyō Bunko, Kyoto Jinbun, Tōhoku, Daitō-Uno, Shukutoku). They
+appear on the map and the collections browser.
+
+- **Excluded:** `THERS_da` — its 拓本 hits are botanical specimens (false positive).
+- **Kept with a subject caveat** (genuine rubbings, not stone inscriptions): Paper Museum
+  (woodblock / paper-craft rubbings) and Saitama Pref. Museum (sword-fitting 刀装具 rubbings).
+- The remaining tier-C aggregators (ADEAC, Bunka, jmapps/musetheque shared platforms) and
+  tier-D noise are documented above but not catalogued.
+
 _Generated from the Japan Search `db` facet for 拓本; counts are keyword matches (upper bound)._
