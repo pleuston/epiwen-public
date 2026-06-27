@@ -15,8 +15,9 @@ _Last updated 2026-06-26._
 | Japan Search (ColBase 947, NDL, Daitō, NIJL, Minpaku, U-Tokyo, ARC, +union) | `japansearch-rubbings.json` | 2,116 | jps-cross API, per `f-db` |
 | **NRICH — Korean epigraphy** 한국금석문 | `nrich-inscriptions.json` | **6,557** | keyless XML; range pagination `firstindex`=start … `recordcountperpage`=END |
 | **Shanghai Library — 古代碑帖知識庫** | `shanghai-library-beitie.json` | **45** | `names.library.sh.cn/whzk/beitie/search` (BIBFRAME/JSON-LD); the LOD knowledge-base exemplars (not the ~100k physical holdings) |
+| **Korean Ancient Epigraphy** 한국고대금석문 (NIKH) | `korea-ancient-epigraphy.json` | **386** | file dataset (data.go.kr 15053630), parsed from history.dtd XML; 699 transcriptions + 2,043 tagged entities + interpretations + images |
 
-**Total staged: ~19,881 records** across 5 sources.
+**Total staged: ~20,267 records** across 6 sources.
 
 ## ⛔ Blocked — cannot harvest from here
 
@@ -24,7 +25,7 @@ _Last updated 2026-06-26._
 |---|---|---|
 | **National Library of China** (NLC) | guji.nlc.cn REST | **Geo-blocked** outside China (connection refused). On-site / in-China access only. |
 | **e-museum** (National Museum of Korea) | data.go.kr OpenAPI | Needs a **data.go.kr serviceKey** (free, but registration required). Would unlock 탁본 across 400+ Korean institutions. |
-| **Korean Ancient Epigraphy** (NIKH) | data.go.kr bulk XML (15053630) | Needs a **data.go.kr account/key**. |
+| ~~Korean Ancient Epigraphy (NIKH)~~ | — | **✅ now HARVESTED** — user supplied the file dataset locally (no key needed); see the harvested table above (386 inscriptions). |
 | **Academia Sinica IHP** 傅斯年圖書館 | IHPKMC | **Member-gated** (full 釋文 behind login; session-token URLs). Active data-sharing outreach target — not openly harvestable. |
 | **Jangseogak** (Academy of Korean Studies) | kostma OpenAPI | API exists but **rubbing (탁본) coverage unconfirmed** — the OpenAPI emphasises 고문서/고지도; the 370 rubbings may be browse-only. |
 

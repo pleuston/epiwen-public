@@ -238,5 +238,17 @@
   "gnd": "",
   "dila_authority": "",
   "cbdb": ""
+ },
+ {
+  "id": "nikh",
+  "display_name": "National Institute of Korean History",
+  "name_zh": "國史編纂委員會",
+  "name_pinyin": "National Institute of Korean History",
+  "name_type": "corporate",
+  "wikidata": "",
+  "viaf": "",
+  "gnd": "",
+  "dila_authority": "",
+  "cbdb": ""
  }
 ]

@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="nikh">
+    <authority lang="en">
+        <name type="corporate"><namePart>National Institute of Korean History</namePart></name>
+    </authority>
+    <variant lang="ko" type="other">
+        <name type="corporate"><namePart>國史編纂委員會 국사편찬위원회</namePart></name>
+    </variant>
+    <note>Operates the Korean History DB (db.history.go.kr), incl. 한국고대금석문 (Korean Ancient Epigraphy) — 386 ancient inscriptions with transcriptions, interpretations and references. Distributed as an open file dataset (data.go.kr 15053630, KOGL).</note>
+    <url>https://db.history.go.kr/</url>
+</mads>
