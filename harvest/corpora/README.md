@@ -29,11 +29,22 @@ the `Method & status` notes section, and drops exact-duplicate cross-listings.
 
 ## Output / counts
 
-`modern-corpora.json` — **732 corpora**: 51 national · 495 by province (34 provinces) ·
-186 by site (35 sites). 725 with a year, 192 with ISBN, ~250 with a located holding, 33
-gap-fill (✚) additions. The five `## 補遺` "unplaced" gap-fills are filed into their proper
-geography (浙江 / 安徽 / 甘肅 / 武當山 / national) via `PLACE_SUPP`, keeping the ✚ marker — so
-every record sits in the main geographic run.
+`modern-corpora.json` — **732 corpora**: 22 national · 519 by province · 191 by site.
+725 with a year, 192 with ISBN, ~250 with a located holding, 33 gap-fill (✚) additions.
+
+## Geography (region → province → county/locality → site)
+
+- The five `## 補遺` "unplaced" gap-fills are filed into their proper geography via
+  `PLACE_SUPP`, keeping the ✚ marker.
+- The source `## 全國` section over-collected: only **22** entries are genuinely national
+  (nationwide / by-dynasty / multi-region). The other ~29 are reclassified via `RECLASS` —
+  to a province (廣西/陝西/山東/山西/河南/江蘇/四川/澳門/台灣…), a region (中國西北/西南地區 →
+  region-wide), or a site (響堂山/龍門/房山/泰山/黃山). Each `RECLASS` entry is explicit, so the
+  reassignment is exact.
+- **County/prefecture level**: every place-specific entry gets a `locality` (邯鄲, 廊坊, 蘇州,
+  桂林, 晉城…). Derived from the title's place prefix, gated by the source's admin sub-level
+  (`省級`/`全國`/`專題` → province-wide, no county), with era/topic qualifiers and classical
+  province-aliases (齊魯/三晉…) stripped. Province-section locality leakage: **0**.
 
 ## Field accuracy
 

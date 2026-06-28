@@ -146,6 +146,67 @@ for r in records:
     r["site"] = p.get("site", ""); r["category"] = p.get("category", "")
     r["place"] = p.get("province") or p.get("site") or ("national" if p["section"] == "national" else "")
 
+# ── reclassify mis-filed "national" entries to their real geography ────────────
+REGION = {}
+for reg, provs in {"華北": "北京 天津 河北 山西 內蒙古", "東北": "遼寧 吉林 黑龍江",
+                   "華東": "上海 江蘇 浙江 安徽 福建 江西 山東", "中南": "河南 湖北 湖南 廣東 廣西 海南",
+                   "西南": "重慶 四川 貴州 雲南 西藏", "西北": "陝西 甘肅 青海 寧夏 新疆",
+                   "港澳台": "香港 澳門 台灣"}.items():
+    for p in provs.split(): REGION[p] = reg
+def prov(pn, loc=""): return {"section": "province", "province": pn, "region": REGION.get(pn, ""), "locality": loc}
+def site(s, cat): return {"section": "site", "site": s, "category": cat}
+def regionwide(reg): return {"section": "province", "region": reg, "place": reg + "地區"}
+RECLASS = {  # entries absent here stay genuinely national (nationwide / multi-region / by-dynasty)
+    "廣西石刻總集輯校 (全三冊)": prov("廣西"), "陝西碑刻總目提要初編": prov("陝西"),
+    "陝西藥王山碑刻藝術總集": prov("陝西", "藥王山"), "山東石刻分類全集（全八冊）": prov("山東"),
+    "三晉石刻總目": prov("山西"), "三晉石刻大全": prov("山西"), "千唐誌齋藏誌": prov("河南", "新安"),
+    "澤州碑刻大全": prov("山西", "晉城"), "南京歷代碑刻集成": prov("江蘇", "南京"),
+    "西安碑林全集": prov("陝西", "西安"), "桂林石刻總集輯校": prov("廣西", "桂林"),
+    "西安碑林博物館新藏墓誌彙編 / 續編": prov("陝西", "西安"), "石門石刻大全": prov("陝西", "漢中"),
+    "河南碑刻類編 / 河南碑刻續編": prov("河南"), "四川歷代碑刻": prov("四川"),
+    "晉城金石志": prov("山西", "晉城"), "齊魯碑刻": prov("山東"), "新中國出土墓誌·河南卷": prov("河南"),
+    "澳門記憶（Memória de Macau / Macau Memory）": prov("澳門"), "臺灣古碑拓本": prov("台灣"),
+    "國史館臺灣文獻館 碑碣拓本資料庫": prov("台灣"),
+    "中國西北地區歷代石刻匯編": regionwide("西北"), "中國西南地區歷代石刻匯編": regionwide("西南"),
+    "巴蜀珍稀金石文獻匯刊": regionwide("西南"),
+    "響堂山石窟碑刻題記總錄": site("響堂山", "石窟 grottoes"), "龍門石窟碑刻題記彙錄": site("龍門石窟", "石窟 grottoes"),
+    "房山石經題記匯編 / 房山石經題記整理與研究": site("房山雲居寺", "刻經 sutra-sites"),
+    "泰山石刻 / 泰山石刻大全": site("泰山", "五嶽"),
+    "第一批古代名碑名刻文物名錄（黃山摩崖石刻群）": site("黃山", "摩崖 cliff-clusters"),
+}
+for r in records:
+    if r["section"] != "national": continue
+    p = RECLASS.get(r["title_zh"])
+    if not p: continue
+    r["section"] = p["section"]; r["region"] = p.get("region", ""); r["province"] = p.get("province", "")
+    r["site"] = p.get("site", ""); r["category"] = p.get("category", ""); r["locality"] = p.get("locality", "")
+    r["place"] = p.get("place") or p.get("province") or p.get("site") or r["place"]
+
+# ── county/prefecture level: a `locality` for each entry ───────────────────────
+GENRE = (r"(金石|石刻|碑刻|碑誌|碑志|墓誌|墓志|題記|題刻|題名|摩崖|碑碣|碑帖|碑石|碑銘|貞石|石經|造像|碑林|石窟|"
+         r"畫像石|磚銘|磚文|題跋|拓片|拓本|文物|碑錄|碑版|名碑|誌|志|錄|彙編|匯編|輯録|輯校|總目|總集|大全|"
+         r"集成|全集|類編|選編|選粹|菁華|擷英|考|圖錄|資料|新編|續編|補正|存)")
+ALIASES = {"齊魯", "山右", "三晉", "中州", "中原", "巴蜀", "八閩", "三秦", "燕趙", "荊楚", "嶺南", "關中", "河朔", "日下", "京師", "金陵"}
+def compute_locality(r):
+    if r["section"] == "site": return r.get("site", "")
+    if r["section"] != "province" or not r.get("province"): return ""
+    if r.get("admin") in ("省級", "全國", "專題"): return ""        # province-wide / thematic
+    t = r["title_zh"].split(" ")[0].split("／")[0].split("/")[0]
+    t = re.sub(r"^.{1,9}?(圖書館|博物館|博物院|檔案館|大學|研究院|研究所|文管會|文物局|文化局|文管處|地方誌)[^藏]{0,4}?(藏|新藏|編|)", "", t)
+    t = re.sub(r"^(明清以來|明清|清代|清|明代|明|宋元|元明|歷代|近代|當代|近現代|民國|漢魏|隋唐五代|隋唐|唐宋|北朝|南北朝|新出|新發現|新見|出土)", "", t)
+    t = re.sub("^(" + re.escape(r["province"]) + ")(省|市|地區|區|自治區)?", "", t)
+    m = re.search(GENRE, t); loc = t[:m.start()] if m else t
+    loc = re.sub(r"(省|市|地區|自治區|自治州|盟|區|縣)$", "", loc).strip("（）()·・ 　")
+    for _ in range(4):  # strip trailing era/topic qualifiers left clinging to the place name
+        loc2 = re.sub(r"(歷代|歴代|古代|古刻|新出|新見|出土|道教|佛教|工商業|社會史|農業經濟|縣學|寺廟|地區|地区|選|古)$", "", loc).strip()
+        loc2 = re.sub(r"(地區|地区|區|区|市)$", "", loc2)
+        if loc2 == loc: break
+        loc = loc2
+    if loc in ALIASES: return ""                                    # classical alias == the province itself
+    return loc if re.match(r"^[㐀-鿿]{1,5}$", loc) else ""
+for r in records:
+    if not r.get("locality"): r["locality"] = compute_locality(r)
+
 os.makedirs(OUT, exist_ok=True)
 meta = {"generated": "2026-06-26", "count": len(records),
         "source": "obsidian-vault geographic fan-out: AI epigraphic-corpora-topographic-inventory.md",
