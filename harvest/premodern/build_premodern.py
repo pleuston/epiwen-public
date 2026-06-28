@@ -21,6 +21,7 @@ from collections import defaultdict
 VAULT = "/Users/sassmann/repos/vaults/obsidian-vault"
 KS = VAULT + "/projects/AI responses/kuhn-stahl-dryrun"
 WORKPAGES = VAULT + "/knowledge base/Texts/Epigraphy 金石學"
+SKSLXB_TOC = VAULT + "/knowledge base/Texts/Epigraphy 金石學/Collections, Lists, Bibliographies/《石刻史料新编》第1－4辑目錄.md"
 EDEP = "/Users/sassmann/repos/edep_sino/data-pkg/data"
 OUT = "/Users/sassmann/repos/GitHub/epiwen-public/harvest/premodern"
 APP = "/Users/sassmann/repos/GitHub/epiwen"
@@ -49,34 +50,96 @@ def xml_root(path):
     return ET.fromstring(txt)
 def L(el): return el.tag.split("}")[-1]
 
-# ── 1) K&S + vault spine (unchanged) ─────────────────────────────────────────
+# ── 1) K&S + vault spine ──────────────────────────────────────────────────────
 entries = json.load(open(KS + "/entries.json", encoding="utf-8"))
 ent_by_page = defaultdict(list)
 for e in entries: ent_by_page[e.get("pdf_page")].append(e)
+valid_loc = set(e["locator"] for e in entries if e.get("locator"))
+loc_entry = {e["locator"]: e for e in entries if e.get("locator")}
 conc = json.load(open(KS + "/ks-concordance.json", encoding="utf-8"))
 conc_by_page = defaultdict(list)
 for c in conc: conc_by_page[c.get("page")].append(c)
 
+# locator ↔ clean CJK title from the Apple-Vision OCR (the SKSLXB locator line is followed by
+# the work's CJK title); keep only locators that exist in entries.json. This recovers the page
+# numbers (verified, in K&S) for far more works than the fragile positional alignment did.
+ocrdata = json.load(open(KS + "/ks-applevision-ocr.json", encoding="utf-8"))
+LOC_RE = re.compile(r"^\s*([1-4]\.\d+:\d+(?:-\d+)?)")
+ocr_loc = {}
+for _pg, _lines in ocrdata.items():
+    for i, ln in enumerate(_lines):
+        m = LOC_RE.match((ln or "").strip())
+        if m and m.group(1) in valid_loc and i + 1 < len(_lines):
+            t = cjk_run(_lines[i + 1])
+            if t: ocr_loc.setdefault(norm(t), m.group(1))
+
+# SKSLXB authoritative 目錄 (all four 輯, incl. 第四輯) from the vault TOC
+SER_ZH = {"一": 1, "二": 2, "三": 3, "四": 4}
+NUM = "〇零一二三四五六七八九十百千兩半"
+DYN = ["民國", "北魏", "南朝", "北朝", "三國", "後魏", "五代", "明", "清", "宋", "元", "唐", "漢", "晉", "魏", "隋", "金", "遼", "周", "秦", "梁", "陳", "齊"]
+ROLE = r"(撰校勘記|輯補遺|撰並書|手拓|撰|輯|編|纂|注|集|藏|錄)"
+def cjk_dyn(d):
+    return {"漢": "Han 漢", "魏": "Six Dyn. 魏晉南北朝", "晉": "Six Dyn. 魏晉南北朝", "南朝": "Six Dyn. 魏晉南北朝",
+            "北朝": "Six Dyn. 魏晉南北朝", "北魏": "Six Dyn. 魏晉南北朝", "後魏": "Six Dyn. 魏晉南北朝", "三國": "Six Dyn. 魏晉南北朝",
+            "隋": "Sui–Tang 隋唐", "唐": "Sui–Tang 隋唐", "五代": "Sui–Tang 隋唐", "宋": "Song 宋", "遼": "Song 宋",
+            "金": "Song 宋", "元": "Yuan 元", "明": "Ming 明", "清": "Qing 清", "民國": "modern 近現代"}.get(d, "")
+def parse_toc_entry(line):
+    line = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", line.strip())   # Obsidian wikilinks → text
+    parts = [p.strip() for p in re.split(r"[.．]", line) if p.strip()]
+    if not parts: return None
+    bk = re.search(r"《([^》]+)》", parts[0])
+    if bk:
+        title = bk.group(1).strip()
+    else:
+        jm = re.search(r"([" + NUM + r"]+卷|不分卷)", parts[0])
+        title = (parts[0][:jm.start()] if jm else parts[0]).strip()
+    d = a = ""
+    for i, p in enumerate(parts):
+        if p in DYN:
+            d = p
+            if i + 1 < len(parts): a = re.sub(r"\s*" + ROLE + r"$", "", parts[i + 1]).strip()
+            break
+    if bk and not a: a = cjk_run(parts[0][:bk.start()])
+    return {"title": title, "dynasty": d, "author": a}
+toc_map = {}; toc_works = []
+_ser = 0; _cat = ""
+for raw in open(SKSLXB_TOC, encoding="utf-8"):
+    s = raw.strip()
+    if not s or s.startswith("#") or s.startswith("《石刻史料"): continue
+    m = re.match(r"^石刻史料新編第([一二三四])輯", s)
+    if m: _ser = SER_ZH[m.group(1)]; _cat = ""; continue
+    if re.match(r"^.{1,10}類$", s): _cat = s; continue
+    if "新文豐出版公司" in s or s.startswith("景印") or re.match(r"^\d+册", s) or _ser == 0: continue
+    e = parse_toc_entry(s)
+    if e and e["title"] and re.search("[" + CJK + "]", e["title"]):
+        e["series"] = _ser; e["category"] = _cat
+        toc_map.setdefault(norm(e["title"]), e); toc_works.append(e)
+
 reg = []; seen = set()
 for page, clist in conc_by_page.items():
     elist = ent_by_page.get(page, [])
+    equal = (len(elist) == len(clist))
     for k, c in enumerate(clist):
-        e = elist[k] if k < len(elist) and len(elist) == len(clist) else None
         title = (c.get("title") or "").strip()
         if not norm(title): continue
         seen.add(norm(title))
+        e_pos = elist[k] if (equal and k < len(elist)) else None
+        loc = ocr_loc.get(norm(title), "") or (e_pos.get("locator") if e_pos else "")   # OCR-CJK first, positional fallback
+        e = loc_entry.get(loc) or e_pos
+        t = toc_map.get(norm(title))
+        ser = (int(loc.split(".")[0]) if loc else (t["series"] if t else (e.get("series") if e else c.get("series"))))
         author_zh = author_py = vault_page = ""
         if c.get("match"):
             vault_page = c["match"]; _, author_zh, author_py = parse_wp(c["match"])
-        loc = e.get("locator") if e else ""
-        yr = birth(e.get("author_dates")) if e else None
+        if t and t.get("author") and not author_zh: author_zh = t["author"]
+        dyn_lbl = (cjk_dyn(t["dynasty"]) if t and t.get("dynasty") else "") or dyn(birth(e.get("author_dates")) if e else None)
         reg.append({
-            "id": slug(loc, "ks") if loc else slug(c.get("title"), "ks-t") + "-" + str(page),
+            "id": slug(loc, "ks") if loc else slug(title, "ks-t") + "-" + str(page),
             "title_zh": title, "title_pinyin": "", "author_zh": author_zh, "author_pinyin": author_py,
-            "author_id": "", "work_id": "", "dynasty": dyn(yr), "juan": (e.get("juan") if e else None),
-            "in_skslxb": True, "skslxb_series": (e.get("series") if e else c.get("series")),
-            "skslxb_locator": loc,
+            "author_id": "", "work_id": "", "dynasty": dyn_lbl, "juan": (e.get("juan") if e else None),
+            "in_skslxb": True, "skslxb_series": ser, "skslxb_locator": loc,
             "skslxb_pages": (str(e.get("page_start")) + "-" + str(e.get("page_end")) if e and e.get("page_start") else ""),
+            "skslxb_category": (t["category"] if t else ""),
             "period_covered": (e.get("period_covered") if e else None),
             "author_dates": (e.get("author_dates") if e else None),
             "transcriptions": (e.get("transcriptions") if e else None),
@@ -96,6 +159,40 @@ for p in sorted(glob.glob(WORKPAGES + "/*《*》*.md")):
                 "dynasty": "", "juan": None, "in_skslxb": False, "skslxb_series": None, "skslxb_locator": "",
                 "catalogue": {}, "editions": [], "relations": [],
                 "vault_page": os.path.basename(p)[:-3], "source": "vault epigraphy work page"})
+
+# ── TOC overlay: authoritative 輯 (incl. 第四輯) + add SKSLXB works still missing ──
+for w in reg:
+    t = toc_map.get(norm(w["title_zh"]))
+    if not t: continue
+    if not w["in_skslxb"]:
+        w["in_skslxb"] = True
+        w["source"] = "石刻史料新編 (目錄) / vault"
+        loc = ocr_loc.get(norm(w["title_zh"]), "")
+        if loc: w["skslxb_locator"] = loc
+    w["skslxb_series"] = (int(w["skslxb_locator"].split(".")[0]) if w["skslxb_locator"] else t["series"])
+    w.setdefault("skslxb_category", ""); w["skslxb_category"] = w["skslxb_category"] or t["category"]
+    if t.get("dynasty") and not w.get("dynasty"): w["dynasty"] = cjk_dyn(t["dynasty"])
+    if t.get("author") and not w.get("author_zh"): w["author_zh"] = t["author"]
+tadd = 0
+for t in toc_works:
+    nt = norm(t["title"])
+    if nt in seen: continue
+    seen.add(nt); tadd += 1
+    loc = ocr_loc.get(nt, ""); e = loc_entry.get(loc)
+    reg.append({
+        "id": slug(loc, "ks") if loc else slug(t["title"], "toc") + "-" + str(tadd),
+        "title_zh": t["title"], "title_pinyin": "", "author_zh": t.get("author", ""), "author_pinyin": "",
+        "author_id": "", "work_id": "", "dynasty": cjk_dyn(t.get("dynasty", "")),
+        "juan": (e.get("juan") if e else None), "in_skslxb": True,
+        "skslxb_series": (int(loc.split(".")[0]) if loc else t["series"]), "skslxb_locator": loc,
+        "skslxb_pages": (str(e.get("page_start")) + "-" + str(e.get("page_end")) if e and e.get("page_start") else ""),
+        "skslxb_category": t["category"],
+        "period_covered": (e.get("period_covered") if e else None), "author_dates": (e.get("author_dates") if e else None),
+        "transcriptions": (e.get("transcriptions") if e else None), "has_epitaphs": (e.get("has_epitaphs") if e else None),
+        "catalogue": {k2: v for k2, v in ((e.get("catalogue") if e else {}) or {}).items() if v not in (None, "", False)},
+        "editions": [], "relations": [], "ks_page": None, "ks_date": None,
+        "vault_page": "", "source": "石刻史料新編 (目錄)",
+    })
 
 # ── 2) merge curated edep_sino works.xml by Chinese title ─────────────────────
 works_root = xml_root(EDEP + "/registers/works.xml")
