@@ -128,6 +128,24 @@ for r in records:
     seen.add(k); dedup.append(r)
 records = dedup
 
+# place the "補遺 — gap-fill additions (unplaced)" entries into the main geographic run
+# (keep gapfill=True so they still carry the ✚ marker). Their place is unambiguous from
+# the title; mapped explicitly to stay exact.
+PLACE_SUPP = {
+    "遼代石刻文編": {"section": "national"},                                            # Liao-dynasty corpus, national
+    "杭州花港摩崖萃編": {"section": "province", "region": "華東", "province": "浙江"},     # Hangzhou
+    "徽州文物圖錄": {"section": "province", "region": "華東", "province": "安徽"},         # Huizhou
+    "武當山碑刻": {"section": "site", "category": "道教名山", "site": "武當山"},           # Wudangshan
+    "麥積區金石校注": {"section": "province", "region": "西北", "province": "甘肅"},       # Maiji, Tianshui
+}
+for r in records:
+    if r["section"] != "supplement": continue
+    p = PLACE_SUPP.get(re.sub("[^" + CJK + "]", "", r["title_zh"]))
+    if not p: continue
+    r["section"] = p["section"]; r["region"] = p.get("region", ""); r["province"] = p.get("province", "")
+    r["site"] = p.get("site", ""); r["category"] = p.get("category", "")
+    r["place"] = p.get("province") or p.get("site") or ("national" if p["section"] == "national" else "")
+
 os.makedirs(OUT, exist_ok=True)
 meta = {"generated": "2026-06-26", "count": len(records),
         "source": "obsidian-vault geographic fan-out: AI epigraphic-corpora-topographic-inventory.md",

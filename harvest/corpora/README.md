@@ -29,9 +29,11 @@ the `Method & status` notes section, and drops exact-duplicate cross-listings.
 
 ## Output / counts
 
-`modern-corpora.json` — **732 corpora**: 50 national · 492 by province (34 provinces) ·
-185 by site (35 sites) · 5 supplement. 639 with a year, 192 with ISBN, ~250 with a located
-holding, 33 gap-fill (✚) additions.
+`modern-corpora.json` — **732 corpora**: 51 national · 495 by province (34 provinces) ·
+186 by site (35 sites). 725 with a year, 192 with ISBN, ~250 with a located holding, 33
+gap-fill (✚) additions. The five `## 補遺` "unplaced" gap-fills are filed into their proper
+geography (浙江 / 安徽 / 甘肅 / 武當山 / national) via `PLACE_SUPP`, keeping the ✚ marker — so
+every record sits in the main geographic run.
 
 ## Field accuracy
 
