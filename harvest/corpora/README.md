@@ -29,8 +29,15 @@ the `Method & status` notes section, and drops exact-duplicate cross-listings.
 
 ## Output / counts
 
-`modern-corpora.json` — **732 corpora**: 22 national · 519 by province · 191 by site.
-725 with a year, 192 with ISBN, ~250 with a located holding, 33 gap-fill (✚) additions.
+`modern-corpora.json` — **1,358 corpora**: 22 national · 1,145 by province · 191 by site,
+across **663 distinct counties/localities**. 250 with a located holding, 33 gap-fill (✚).
+
+Two sources are merged:
+- the original topographic inventory (732, holdings-checked); plus
+- **`fanout-counties.json`** — a 34-province multi-agent web fan-out (896 raw → **626 new**
+  after title-dedup vs the verified set) targeting county/prefecture-level works. Every
+  fan-out row carries an `evidence` URL and is flagged `web:true` (shown with a "web ↗"
+  badge, not library-verified). Verified rows always win a title collision.
 
 ## Geography (region → province → county/locality → site)
 

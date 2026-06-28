@@ -120,6 +120,32 @@ for raw in open(SRC, encoding="utf-8"):
                       else "補遺 (gap-fill)" if section == "supplement" else region) or "")
         records.append(e)
 
+# ── append the county/prefecture web fan-out (broad-then-narrow, evidence-required) ──
+# These come AFTER the holdings-verified inventory, so the dedup below keeps the verified
+# row when a title appears in both. They carry their own county locality + an evidence URL,
+# and are flagged web=True (not library-located) so the UI can distinguish them.
+def clean_loc(s):
+    s = re.split(r"[／/、]", s or "")[0]
+    s = re.sub(r"（[^）]*）|\([^)]*\)", "", s)
+    return re.sub(r"(地區|地区|自治州|自治區|盟|區|区|市|縣|县)$", "", s).strip()
+try:
+    fo = json.load(open(OUT + "/fanout-counties.json", encoding="utf-8")).get("corpora", [])
+except Exception:
+    fo = []
+for k, x in enumerate(fo):
+    if not x.get("title_zh") or not x.get("province"): continue
+    records.append({
+        "title_zh": x["title_zh"], "title_pinyin": x.get("title_pinyin", ""), "author": x.get("author", ""),
+        "year": x.get("year", ""), "publisher": x.get("publisher", ""), "scope": "",
+        "isbn": ([re.sub(r"[\s\-]", "", x["isbn"])] if x.get("isbn") else []),
+        "gapfill": False, "web": True, "evidence": x.get("evidence", ""),
+        "id": slug(x.get("title_pinyin") or x["title_zh"], 10000 + k),
+        "section": "province", "region": x.get("region", ""), "province": x["province"],
+        "site": "", "category": "", "admin": x.get("admin", ""),
+        "locality": clean_loc(x.get("locality", "")), "place": x["province"],
+        "holdings": {"vault": False, "sbb": False, "k10plus": False, "harvard": False},
+    })
+
 # drop exact-duplicate rows (a national/site series cross-listed under a province)
 seen = set(); dedup = []
 for r in records:
@@ -127,6 +153,19 @@ for r in records:
     if k in seen: continue
     seen.add(k); dedup.append(r)
 records = dedup
+
+# narrow the web fan-out: drop a web row whose title already exists in the holdings-verified
+# inventory (keep the verified one) or duplicates another web row (multi-volume titles differ,
+# so they survive). Non-web rows are untouched (multi-volume same-title sets are preserved).
+nonweb = [r for r in records if not r.get("web")]
+nonweb_titles = set(re.sub("[^" + CJK + "]", "", r["title_zh"]) for r in nonweb)
+web_kept = []; web_seen = set()
+for r in records:
+    if not r.get("web"): continue
+    t = re.sub("[^" + CJK + "]", "", r["title_zh"])
+    if not t or t in nonweb_titles or t in web_seen: continue
+    web_seen.add(t); web_kept.append(r)
+records = nonweb + web_kept
 
 # place the "補遺 — gap-fill additions (unplaced)" entries into the main geographic run
 # (keep gapfill=True so they still carry the ✚ marker). Their place is unambiguous from
