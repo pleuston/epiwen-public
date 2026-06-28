@@ -201,18 +201,30 @@ for pf in glob.glob("/Users/sassmann/repos/edep_sino/data-pkg/data/people/*.xml"
     if L(el) == "person" and el.get(XMLID):
         pid, f = parse_person(el); add_person(pid, f)
 
-# works-authored per person, from the merge
+# works-authored per person: explicit author@corresp link OR exact author-name-token match
+# (recovers epigraphers whose works.xml author wasn't corresp-linked; exact tokens avoid the
+# substring false matches that "王素" in "王素芳" would cause).
+name_pids = {}
+for pid, p in persons.items():
+    if p.get("name_zh"): name_pids.setdefault(p["name_zh"], []).append(pid)
+def author_tokens(az):
+    return set(t for t in re.split(r"[、,，;；/／·\s()（）]+", az or "") if re.search("[" + CJK + "]", t))
 works_by_person = defaultdict(list)
 for w in reg:
-    if w.get("author_id"):
-        works_by_person[w["author_id"]].append({"id": w["id"], "title_zh": w["title_zh"],
-            "year": (w.get("compiled") or {}).get("when") or "", "skslxb": w["in_skslxb"]})
+    pids = set()
+    if w.get("author_id"): pids.add(w["author_id"])
+    for tok in author_tokens(w.get("author_zh")):
+        for pid in name_pids.get(tok, []): pids.add(pid)
+    rec = {"id": w["id"], "title_zh": w["title_zh"], "year": (w.get("compiled") or {}).get("when") or "", "skslxb": w["in_skslxb"]}
+    for pid in pids: works_by_person[pid].append(rec)
 for pid, p in persons.items():
     ws = sorted(works_by_person.get(pid, []), key=lambda x: (x["year"] or "9999"))
     p["works"] = ws; p["work_count"] = len(ws)
 
-# keep persons that have a name; sort by birth year then sort-name
-plist = [p for p in persons.values() if p.get("name_zh")]
+# EPIGRAPHERS ONLY: a person belongs here iff they authored >=1 work in the register.
+# persons.xml is a general authority (monks, officials, calligraphers, inscription subjects) —
+# those non-authors are excluded.
+plist = [p for p in persons.values() if p.get("name_zh") and p.get("work_count", 0) >= 1]
 def pyear(p): return int(p["birth"]["when"]) if p.get("birth") and (p["birth"].get("when") or "").lstrip("-").isdigit() else 99999
 plist.sort(key=lambda p: (pyear(p), p.get("sort") or ""))
 
