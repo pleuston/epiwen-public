@@ -1,0 +1,126 @@
+# -*- coding: utf-8 -*-
+"""Modern epigraphic corpora register — from the obsidian-vault geographic fan-out.
+READ-ONLY. Parses the bullet-list topographic inventory into a flat JSON table.
+
+Source: obsidian-vault/projects/AI responses/AI epigraphic-corpora-topographic-inventory.md
+  # title
+  ## 全國 — national / multi-province series           → section national
+  ## 省 — by province → ### region → #### 北京 (23)      → section province (region, province)
+       *省級:* / *府/市級:* / *縣級:* / *專題:* / …        → admin level
+  ## 名山與重要遺址 → ### 五嶽 → #### 泰山                → section site (category, site)
+  entry: - [✚] **title 漢字** (Pinyin) · author · year · publisher · ≈scope · ISBN … — _holdings_
+
+Output: corpora.json (copied to the app for relative no-auth fetch).
+"""
+import json, os, re, shutil
+
+SRC = "/Users/sassmann/repos/vaults/obsidian-vault/projects/AI responses/AI epigraphic-corpora-topographic-inventory.md"
+OUT = "/Users/sassmann/repos/GitHub/epiwen-public/harvest/corpora"
+APP = "/Users/sassmann/repos/GitHub/epiwen"
+CJK = "㐀-鿿豈-﫿"
+
+def slug(s, i):
+    return "mc-" + (re.sub(r"[^0-9a-z]+", "-", (s or "").lower()).strip("-")[:24] or "x") + "-" + str(i)
+
+def parse_entry(line):
+    gap = bool(re.match(r"^✚\s+", line)); line = re.sub(r"^✚\s+", "", line)
+    holdings = ""
+    m = re.search(r"\s+—\s+_(.+?)_\s*$", line)
+    if m: holdings = m.group(1); line = line[:m.start()]
+    isbns = re.findall(r"ISBN(?:\s+set)?\s*([0-9Xx][0-9Xx\- ]{8,16}[0-9Xx])", line)
+    chunks = [c.strip() for c in line.split(" · ")]
+    head = chunks[0]
+    tz = re.search(r"\*\*(.+?)\*\*", head)
+    title_zh = tz.group(1).strip() if tz else re.sub(r"\*", "", head).strip()
+    py = re.search(r"\(([^)]+)\)", head[tz.end():] if tz else head)
+    title_py = py.group(1).strip() if py else ""
+    rest = chunks[1:]
+    author = rest[0] if len(rest) > 0 else ""
+    # year = first remaining chunk that looks like a date
+    year = ""; yidx = -1
+    for i, c in enumerate(rest):
+        if re.search(r"\b(1[5-9]\d\d|20\d\d)\b", c) and len(c) < 60 and i >= 1:
+            year = c; yidx = i; break
+    publisher = rest[yidx + 1] if 0 <= yidx and yidx + 1 < len(rest) else (rest[2] if len(rest) > 2 else "")
+    scope = ""
+    for c in rest:
+        if c.startswith("≈"): scope = c.lstrip("≈").strip(); break
+    h = holdings
+    return {
+        "title_zh": title_zh, "title_pinyin": re.sub(r"\s+", " ", title_py),
+        "author": author, "year": year, "publisher": publisher, "scope": scope,
+        "isbn": [re.sub(r"[\s\-]", "", x) for x in isbns], "gapfill": gap,
+        "holdings": {
+            "vault": ("in vault" in h or "📁" in h),
+            "sbb": ("SBB" in h or "📗" in h or "Staatsbib" in h),
+            "k10plus": ("K10plus" in h),
+            "harvard": ("Harvard" in h or "🎓" in h),
+        },
+    }
+
+records = []
+section = region = province = site = admin = ""
+i = 0
+for raw in open(SRC, encoding="utf-8"):
+    line = raw.rstrip("\n")
+    s = line.strip()
+    if s.startswith("## "):
+        h = s[3:].strip()
+        region = province = site = admin = ""
+        if h.startswith("全國"): section = "national"
+        elif h.startswith("省"): section = "province"
+        elif h.startswith("名山") or "遺址" in h: section = "site"
+        elif h.startswith("補遺"): section = "supplement"
+        else: section = "meta"   # "Method & status" etc. — not corpora
+        continue
+    if s.startswith("### "):
+        region = re.sub(r"\s*\(.*\)$", "", s[4:].strip()); province = site = ""; admin = ""
+        continue
+    if s.startswith("#### "):
+        name = re.sub(r"\s*\(\d+\)\s*$", "", s[5:].strip())
+        if section == "site": site = name
+        else: province = name
+        admin = ""
+        continue
+    am = re.match(r"^\*(.+?):\*$", s)
+    if am: admin = am.group(1).strip(); continue
+    if s.startswith("- "):
+        if section not in ("national", "province", "site", "supplement"): continue
+        e = parse_entry(s[2:].strip())
+        if not e["title_zh"]: continue
+        i += 1
+        e["id"] = slug(e["title_pinyin"] or e["title_zh"], i)
+        e["section"] = section
+        e["region"] = region
+        e["province"] = province if section == "province" else ""
+        e["site"] = site if section == "site" else ""
+        e["category"] = region if section == "site" else ""
+        e["admin"] = admin if section == "province" else ""
+        e["place"] = (province or site or ("national" if section == "national"
+                      else "補遺 (gap-fill)" if section == "supplement" else region) or "")
+        records.append(e)
+
+# drop exact-duplicate rows (a national/site series cross-listed under a province)
+seen = set(); dedup = []
+for r in records:
+    k = (re.sub("[^" + CJK + "]", "", r["title_zh"]), r["author"], r["year"])
+    if k in seen: continue
+    seen.add(k); dedup.append(r)
+records = dedup
+
+os.makedirs(OUT, exist_ok=True)
+meta = {"generated": "2026-06-26", "count": len(records),
+        "source": "obsidian-vault geographic fan-out: AI epigraphic-corpora-topographic-inventory.md",
+        "note": "Modern (20th–21st c.) published epigraphic corpora of China, by geography (national / province / site). Holdings checked against Harvard-Yenching, Staatsbibliothek Berlin, K10plus.",
+        "corpora": records}
+json.dump(meta, open(OUT + "/corpora.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+shutil.copy(OUT + "/corpora.json", APP + "/modern-corpora.json")
+
+bysec = {}
+for r in records: bysec[r["section"]] = bysec.get(r["section"], 0) + 1
+print("corpora:", len(records), "| by section:", bysec)
+print("with year:", sum(1 for r in records if r["year"]), "| with ISBN:", sum(1 for r in records if r["isbn"]),
+      "| holdings(any):", sum(1 for r in records if any(r["holdings"].values())), "| gapfill:", sum(1 for r in records if r["gapfill"]))
+print("provinces:", len(set(r["province"] for r in records if r["province"])),
+      "| sites:", len(set(r["site"] for r in records if r["site"])))
+print("sample:", json.dumps({k: records[20][k] for k in ("title_zh", "author", "year", "publisher", "place", "region", "holdings")}, ensure_ascii=False))
