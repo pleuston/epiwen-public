@@ -35,16 +35,36 @@ def parse_entry(line):
     py = re.search(r"\(([^)]+)\)", head[tz.end():] if tz else head)
     title_py = py.group(1).strip() if py else ""
     rest = chunks[1:]
-    author = rest[0] if len(rest) > 0 else ""
-    # year = first remaining chunk that looks like a date
-    year = ""; yidx = -1
-    for i, c in enumerate(rest):
-        if re.search(r"\b(1[5-9]\d\d|20\d\d)\b", c) and len(c) < 60 and i >= 1:
-            year = c; yidx = i; break
-    publisher = rest[yidx + 1] if 0 <= yidx and yidx + 1 < len(rest) else (rest[2] if len(rest) > 2 else "")
-    scope = ""
-    for c in rest:
-        if c.startswith("≈"): scope = c.lstrip("≈").strip(); break
+    # Fields appear in fixed order: [author] · [year] · [publisher] · [≈scope] · [ISBN].
+    # The year is the reliable anchor — author is everything before it, publisher the first
+    # real chunk after it. Author and publisher share vocabulary (圖書館/研究所/編輯部 occur in
+    # both institutional authors and presses), so only position — not content — can separate them.
+    def is_scope(c): return c.lstrip().startswith("≈")
+    def is_isbn(c): return "ISBN" in c
+    def is_date(c):
+        # The date FIELD begins with a year/decade/century/circa or an explicit dating phrase.
+        # An author with parenthetical dates ("李恆法 (…, 2011)") starts with a name, so is excluded.
+        core = re.sub(r"^[(（✚\s]+", "", c.strip())
+        core = re.sub(r"^(c\.|ca\.|circa|約|约)\s*", "", core, flags=re.I)
+        return bool(re.match(r"(1[5-9]\d\d|20[0-3]\d)\b", core)          # 2011 · 2011; 2002 · 1977–2006
+                    or re.match(r"(1[5-9]\d0s|20[0-3]0s)", core)          # 1990s · 2000s
+                    or re.match(r"(1[0-9]|2[01])(th|st|nd|rd)\b", core)   # 20th · 21st
+                    or (re.match(r"(unknown|in progress|in prep|forthcoming|pending|n\.?d\.?|undated|待考|擬|Republican)", core, re.I)
+                        and re.search(r"\d", core)))
+    yidx = next((i for i, c in enumerate(rest) if is_date(c)), -1)
+    if yidx >= 0:
+        author = " · ".join(rest[:yidx]).strip()
+        year = rest[yidx].strip()
+        after = rest[yidx + 1:]
+    else:  # genuinely undated
+        author = rest[0].strip() if (rest and not is_scope(rest[0]) and not is_isbn(rest[0])) else ""
+        year = ""
+        after = rest[1:] if author else rest[:]
+    publisher = ""
+    for c in after:
+        if is_scope(c) or is_isbn(c): continue
+        publisher = c.strip(); break
+    scope = next((c.lstrip().lstrip("≈").strip() for c in rest if is_scope(c)), "")
     h = holdings
     return {
         "title_zh": title_zh, "title_pinyin": re.sub(r"\s+", " ", title_py),

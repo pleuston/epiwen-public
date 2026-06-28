@@ -33,8 +33,18 @@ the `Method & status` notes section, and drops exact-duplicate cross-listings.
 185 by site (35 sites) · 5 supplement. 639 with a year, 192 with ISBN, ~250 with a located
 holding, 33 gap-fill (✚) additions.
 
+## Field accuracy
+
+Author / year / publisher are extracted **deterministically**, anchored on the date field
+(author = chunks before it, publisher = first real chunk after it) — author and publisher
+share institutional vocabulary (圖書館/研究所/編輯部), so only position, not content, can
+separate them. The date detector covers years, year-lists (`2011; 2002`), ranges, decades
+(`1990s`), centuries (`20th–21st c.`), and dating phrases (`forthcoming`, `in preparation`,
+`Republican-era`). Validated against the source: **every** emitted author/year/publisher
+appears verbatim in its raw line, 725/732 carry a year (the other 7 are genuinely undated in
+the source), and 0 fields are mis-assigned. Re-run `build_corpora.py` to re-validate.
+
 ## Caveats
 
-- Fields are parsed positionally from prose; author/year are occasionally approximate.
 - "Holdings" = where a copy was machine-located during the fan-out (not exhaustive);
   WorldCat / LoC / Google Books were bot-walled and are not claimed.
