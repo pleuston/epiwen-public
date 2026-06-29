@@ -19,6 +19,16 @@ OUT = "/Users/sassmann/repos/GitHub/epiwen-public/harvest/corpora"
 APP = "/Users/sassmann/repos/GitHub/epiwen"
 CJK = "㐀-鿿豈-﫿"
 
+# canonical dedup key: CJK-only, folded to SIMPLIFIED so traditional/simplified forms of the
+# same title collapse (the 海交史 bibliography is traditional; much of the register is simplified).
+def _cjk(s): return re.sub("[^" + CJK + "]", "", s or "")
+try:
+    from opencc import OpenCC
+    _t2s = OpenCC("t2s")
+    def canon(s): return _t2s.convert(_cjk(s))
+except Exception:
+    def canon(s): return _cjk(s)
+
 def slug(s, i):
     return "mc-" + (re.sub(r"[^0-9a-z]+", "-", (s or "").lower()).strip("-")[:24] or "x") + "-" + str(i)
 
@@ -182,7 +192,7 @@ for k, x in enumerate(fo):
 # drop exact-duplicate rows (a national/site series cross-listed under a province)
 seen = set(); dedup = []
 for r in records:
-    k = (re.sub("[^" + CJK + "]", "", r["title_zh"]), r["author"], r["year"])
+    k = (canon(r["title_zh"]), r["author"], r["year"])
     if k in seen: continue
     seen.add(k); dedup.append(r)
 records = dedup
@@ -191,11 +201,11 @@ records = dedup
 # inventory (keep the verified one) or duplicates another web row (multi-volume titles differ,
 # so they survive). Non-web rows are untouched (multi-volume same-title sets are preserved).
 nonweb = [r for r in records if not r.get("web")]
-nonweb_titles = set(re.sub("[^" + CJK + "]", "", r["title_zh"]) for r in nonweb)
+nonweb_titles = set(canon(r["title_zh"]) for r in nonweb)
 web_kept = []; web_seen = set()
 for r in records:
     if not r.get("web"): continue
-    t = re.sub("[^" + CJK + "]", "", r["title_zh"])
+    t = canon(r["title_zh"])
     if not t or t in nonweb_titles or t in web_seen: continue
     web_seen.add(t); web_kept.append(r)
 records = nonweb + web_kept
@@ -271,10 +281,10 @@ try:
     bibcat = {v["id"]: v for v in json.load(open(OUT + "/biblio-catalog-verify.json", encoding="utf-8")).get("results", []) if v.get("id")}
 except Exception:
     bibcat = {}
-present = set(re.sub("[^" + CJK + "]", "", r["title_zh"]) for r in records)
+present = set(canon(r["title_zh"]) for r in records)
 badd = 0
 for e in biblio:
-    t = (e.get("title") or "").strip(); nt = re.sub("[^" + CJK + "]", "", t)
+    t = (e.get("title") or "").strip(); nt = canon(t)
     if not nt or nt in present: continue
     present.add(nt); badd += 1
     sec, reg, prov = bib_place(e.get("province", ""))
