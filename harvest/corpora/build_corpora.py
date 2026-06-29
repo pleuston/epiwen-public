@@ -21,13 +21,20 @@ CJK = "㐀-鿿豈-﫿"
 
 # canonical dedup key: CJK-only, folded to SIMPLIFIED so traditional/simplified forms of the
 # same title collapse (the 海交史 bibliography is traditional; much of the register is simplified).
+# Uses OpenCC if installed (phrase-accurate); otherwise the vendored single-char map
+# t2s-charmap.json (generated from OpenCC) so the build is self-contained / reproducible.
+_HERE = os.path.dirname(os.path.abspath(__file__))
 def _cjk(s): return re.sub("[^" + CJK + "]", "", s or "")
 try:
     from opencc import OpenCC
-    _t2s = OpenCC("t2s")
-    def canon(s): return _t2s.convert(_cjk(s))
+    _conv = OpenCC("t2s").convert
 except Exception:
-    def canon(s): return _cjk(s)
+    try:
+        _T2S = json.load(open(os.path.join(_HERE, "t2s-charmap.json"), encoding="utf-8"))
+    except Exception:
+        _T2S = {}
+    def _conv(s): return "".join(_T2S.get(ch, ch) for ch in s)
+def canon(s): return _conv(_cjk(s))
 
 def slug(s, i):
     return "mc-" + (re.sub(r"[^0-9a-z]+", "-", (s or "").lower()).strip("-")[:24] or "x") + "-" + str(i)

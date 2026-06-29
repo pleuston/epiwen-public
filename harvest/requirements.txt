@@ -1,0 +1,13 @@
+# Optional build-time dependencies for the harvest scripts.
+#
+# The builds are self-contained and run on a bare `python3` — these only IMPROVE accuracy:
+#
+#   opencc-python-reimplemented
+#     Phrase-accurate Traditional→Simplified folding for the modern-corpora dedup
+#     (build_corpora.py). If absent, the script falls back to the vendored single-char
+#     map corpora/t2s-charmap.json (generated from OpenCC), which reproduces the same
+#     1,580-row result for the current data.
+#
+# Install (PEP-668 systems need a venv):
+#   python3 -m venv .venv && .venv/bin/pip install -r harvest/requirements.txt
+opencc-python-reimplemented

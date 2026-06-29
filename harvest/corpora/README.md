@@ -48,6 +48,15 @@ publications); metadata corrected from the catalogues (publishers, years, ISBNs,
 (`web_catalog`) + record URL (shown as e.g. "NDL ✓ ↗"). Verified rows lose a title collision
 to a holdings-checked row.
 
+### Reproducibility — Traditional/Simplified folding
+
+Dedup uses an OpenCC `t2s` canonical key so 繁/简 forms of a title collapse. The build is
+**self-contained**: if `opencc` isn't installed it loads the vendored single-char map
+**`t2s-charmap.json`** (3,751 mappings, generated from OpenCC) — a bare `python3 build_corpora.py`
+reproduces the same 1,580-row result. Install `opencc` (see `../requirements.txt`) only for
+phrase-accurate folding. Verification ran in **both** character forms (136 of 230 catalogue
+hits matched only via the simplified form).
+
 ## Geography (region → province → county/locality → site)
 
 - The five `## 補遺` "unplaced" gap-fills are filed into their proper geography via
