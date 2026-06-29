@@ -1,7 +1,7 @@
 {
  "generated": "2026-06-29",
- "source": "corpora-verify workflow (partial; 8 batches failed)",
- "count": 386,
+ "source": "corpora-verify + corpora-verify2 workflows (complete)",
+ "count": 626,
  "results": [
   {
    "id": "mc-fangshan-beike-tongzhi-d-10000",
@@ -3118,6 +3118,1936 @@
    "confirmed_source": "https://zh.wikipedia.org/zh-cn/南瀛文化研究叢書 (第26冊《南瀛古碑志》何培夫, 2001年6月) ; govbooks.com.tw National Network Bookstore listing '南瀛古碑誌－南瀛文化研究叢書26 - 何培夫' (https://www.govbooks.com.tw/books/60172)",
    "corrections": {},
    "note": "Real. 南瀛古碑誌 (also written 南瀛古碑志, variant char), 南瀛文化研究叢書 vol.26, by 何培夫, pub. 臺南縣政府文化局, 2001年6月 — author/year/publisher/series all match. govbooks.com.tw page returned empty on direct fetch but appears with exact title in search and is corroborated by Wikipedia."
+  },
+  {
+   "id": "mc-haotaiwang-bei-xin-kao-10226",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "zhangqiaokeyan book record (https://www.zhangqiaokeyan.com/book-cn/08150736764.html) + douban; 耿铁华《好太王碑新考》吉林人民出版社 1994.6, 401pp, ISBN 7206021042",
+   "corrections": {
+    "isbn": "7206021042"
+   },
+   "note": "Real monograph on the Gwanggaeto Stele. Confirmed publisher/year/author exactly. ISBN added (7206021042)."
+  },
+  {
+   "id": "mc-tonghua-shi-wenwu-zhi-10229",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 BA40200643 (https://ci.nii.ac.jp/ncid/BA40200643): 通化市文物志 1986.12, ed. 吉林省文物志编委会, pub. Changchun",
+   "corrections": {},
+   "note": "Confirmed in series record, 1986.12. Author/year/publisher as listed."
+  },
+  {
+   "id": "mc-tonghua-xian-wenwu-zhi-10230",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 BA40200643: 通化县文物志 1987.9, ed. 吉林省文物志编委会",
+   "corrections": {},
+   "note": "Confirmed in series record, 1987.9. As listed."
+  },
+  {
+   "id": "mc-changchun-shi-wenwu-zhi-10231",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 BA40200643: 长春市文物志 1987.10, ed. 吉林省文物志编委会",
+   "corrections": {},
+   "note": "Confirmed in series record, 1987.10. As listed."
+  },
+  {
+   "id": "mc-nong-an-xian-wenwu-zhi-10232",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 BA40200643: 农安县文物志 1987.6, ed. 吉林省文物志编委会",
+   "corrections": {},
+   "note": "Confirmed in series record, 1987.6. As listed."
+  },
+  {
+   "id": "mc-fuyu-xian-wenwu-zhi-10233",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "lscangku 历史仓库 book_detail id=20453 (扶余县文物志) + xianzhidaquan XFZ18542; eds 陳相偉、李殿福, 1984.1",
+   "corrections": {
+    "author": "陳相偉、李殿福 (吉林省文物志編委會)",
+    "year": "1984"
+   },
+   "note": "Real volume. lscangku gives editors 陳相偉、李殿福 and year 1984.1 (item said '1980s'); publisher remains the series committee."
+  },
+  {
+   "id": "mc-yongji-xian-wenwu-zhi-10234",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "xianzhidaquan XFZ18546 永吉县文物志 (https://www.xianzhidaquan.com/article.php?id=3230); part of 吉林省文物志叢書",
+   "corrections": {},
+   "note": "Volume confirmed by catalog (XFZ18546). Search snippet suggests internal-material draft c.1983; no firm month. Year kept as '1980s'."
+  },
+  {
+   "id": "mc-jilin-shi-shiqu-wenwu-zh-10235",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "xianzhidaquan XFZ18543 吉林市市区文物志 (https://www.xianzhidaquan.com/article.php?id=3230); part of 吉林省文物志叢書",
+   "corrections": {},
+   "note": "Volume confirmed by catalog (XFZ18543) as part of the series. No precise year found; '1980s' retained."
+  },
+  {
+   "id": "mc-jilin-shi-jiaoqu-wenwu-z-10236",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban book subject 26364805 (https://book.douban.com/subject/26364805/): 吉林市郊区文物志, ed. 吉林省文物志编修委员会, 1984.10, 263pp",
+   "corrections": {
+    "year": "1984"
+   },
+   "note": "Confirmed via douban; published 1984.10 (item said '1980s'). Editor = series committee (编修委员会)."
+  },
+  {
+   "id": "mc-siping-shi-wenwu-zhi-10237",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 BA40200643: 四平市文物志 1988.8, ed. 吉林省文物志编委会",
+   "corrections": {},
+   "note": "Confirmed in series record, 1988.8. As listed."
+  },
+  {
+   "id": "mc-lishu-xian-wenwu-zhi-10238",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "HAL.science academic paper (Sebillaud et al. 2020, 偏脸城 excavation report) bibliography cites 《梨树县文物志》吉林省文物志编委会编, 1984 (内部资料) — https://hal.science/hal-03086066/document",
+   "note": "Confirmed as 1984 internal materials (内部资料); part of 吉林省文物志叢書. Author/year/publisher as given are correct."
+  },
+  {
+   "id": "mc-liaoyuan-shi-wenwu-zhi-10239",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record 吉林省文物志叢書 BA40200643: 辽源市文物志 1988.8 — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms title and 1988.8 directly. Matches given year/publisher."
+  },
+  {
+   "id": "mc-dongfeng-xian-wenwu-zhi-10240",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 东丰县文物志 1987.6 — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 1987.6. Matches given year (1987) and publisher."
+  },
+  {
+   "id": "mc-dongliao-xian-wenwu-zhi-10241",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 东辽县文物志 [1987] — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 东辽县文物志 dated [1987]. Matches given year/publisher."
+  },
+  {
+   "id": "mc-hailong-xian-wenwu-zhi-10242",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "lscangku 历史仓库 book record id=38982 海龙县文物志, 吉林省文物志编委会, 1984.12, 157pp, part of 吉林省文物志丛书 — https://lscangku.com/book_detail?id=38982",
+   "corrections": {
+    "year": "1984"
+   },
+   "note": "Year refined from given '1980s' to concrete 1984 (December). Author/publisher confirmed."
+  },
+  {
+   "id": "mc-huinan-xian-wenwu-zhi-10243",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 辉南县文物志 1987.10 — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 1987.10. Matches given year (1987) and publisher."
+  },
+  {
+   "id": "mc-liuhe-xian-wenwu-zhi-10244",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 柳河县文物志 1987 (entries 1987.6 and 1987.12) — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 柳河县文物志 1987. Matches given year/publisher."
+  },
+  {
+   "id": "mc-panshi-xian-wenwu-zhi-10245",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 磐石县文物志 1987.5 — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 1987.5. Matches given year (1987) and publisher."
+  },
+  {
+   "id": "mc-huadian-xian-wenwu-zhi-10246",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 桦甸县文物志 1987.5 — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 1987.5. Matches given year (1987) and publisher."
+  },
+  {
+   "id": "mc-jiaohe-xian-wenwu-zhi-10247",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii series record BA40200643: 蛟河县文物志 1987.5 — https://ci.nii.ac.jp/ncid/BA40200643",
+   "note": "CiNii confirms 1987.5. Matches given year (1987) and publisher."
+  },
+  {
+   "id": "mc-shulan-xian-wenwu-zhi-10248",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Bunsei fangzhi e-book list (bunsei.co.jp/fangzhi/jilin/): 舒兰县文物志 1985/12; part of 吉林省文物志叢書",
+   "corrections": {},
+   "note": "Confirmed real. Internal-circulation gazetteer (内部资料), ~197pp, 1985.12. Series-issuing body = 吉林省文物志編委會, consistent with cited author/publisher."
+  },
+  {
+   "id": "mc-hunjiang-shi-wenwu-zhi-10249",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 (ci.nii.ac.jp/ncid/BA40200643): 浑江市文物志 1987.2",
+   "corrections": {},
+   "note": "Confirmed. Hunjiang (now 白山市) volume in the 44-vol series, 1987.2 matches cited 1987."
+  },
+  {
+   "id": "mc-fusong-xian-wenwu-zhi-10250",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 (ci.nii.ac.jp/ncid/BA40200643): 抚松县文物志 1988.1",
+   "corrections": {},
+   "note": "Confirmed at exact title+year via CiNii series record. Caution: Bunsei separately lists a 抚松县志 (1994) — a different work (general gazetteer), not this 文物志."
+  },
+  {
+   "id": "mc-jingyu-xian-wenwu-zhi-10251",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii 吉林省文物志叢書 (ci.nii.ac.jp/ncid/BA40200643): 靖宇县文物志 1988.4",
+   "corrections": {},
+   "note": "Confirmed at exact title+year via CiNii series record. Distinct from the later 靖宇县志 (general gazetteer); cited 1988 matches 1988.4."
+  },
+  {
+   "id": "mc-changshu-fojiao-siyuan-l-10294",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) — page repeatedly surfaced as the top hit for this exact title+author+year",
+   "corrections": {},
+   "note": "Confirmed via the cited bibliography (Google indexes this title to that page). Could not extract the exact line via fetch (very long mixed-language page), but search evidence is consistent; no contradicting metadata found. 常熟佛教協會 2013."
+  },
+  {
+   "id": "mc-changshu-moya-shike-10295",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) — top hit for 常熟摩崖石刻 張軍 蘇州大學出版社 2017",
+   "corrections": {},
+   "note": "Confirmed via cited bibliography; 蘇州大學出版社 (Suzhou Univ. Press) is a real publisher of Suzhou-region stone-inscription works. No conflicting metadata."
+  },
+  {
+   "id": "mc-changshu-ruxue-beike-ji-10296",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) — top hit for 常熟儒學碑刻集 陳穎 蘇州大學出版社",
+   "corrections": {},
+   "note": "Confirmed via cited bibliography, 2017, 蘇州大學出版社. No conflicting metadata."
+  },
+  {
+   "id": "mc-kunshan-beike-jicun-10297",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) — top hit for 昆山碑刻輯存 姚偉宏 上海書店出版社",
+   "corrections": {},
+   "note": "Confirmed via cited bibliography, 2014, 上海書店出版社. No conflicting metadata."
+  },
+  {
+   "id": "mc-wujiang-xianxue-beizhi-j-10299",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) — top hit for 吳江縣學碑誌孑遺 徐楓 上海文化出版社",
+   "corrections": {},
+   "note": "Confirmed via cited bibliography, 徐楓主編, 2019, 上海文化出版社. No conflicting metadata."
+  },
+  {
+   "id": "mc-jiangning-lidai-chutu-mu-10306",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 + 贺云翱 preface '《江宁出土历代墓志考释（一）》序' (blog.sina.com.cn/s/blog_5ff507c90100sjmr.html); 南京江寧博物館, 南京出版社",
+   "corrections": {},
+   "note": "Confirmed real. Note title-word-order variant: the actual published title is 江寧出土歷代墓誌考釋 (vol. 一), compiled by 江寧博物館 (周維林 secretary, 許長生 director). Cited form 江寧歷代出土墓誌考釋 transposes 出土/歷代 but refers to the same work; 2011, 南京出版社 correct."
+  },
+  {
+   "id": "mc-jiangning-lidai-beike-ji-10307",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "江宁政协 official site njjnzx.gov.cn (江宁文史: 江宁历代碑刻精选之三, http://www.njjnzx.gov.cn/jnwsh/38517.htm)",
+   "note": "Real. Compiled by 江宁区政协教卫文体和文史委, 江苏凤凰美术出版社. Official CPPCC page confirms a multi-volume 江宁历代碑刻精选 series."
+  },
+  {
+   "id": "mc-ming-xiaoling-beike-10309",
+   "verified": false,
+   "confidence": "low-medium",
+   "confirmed_source": "",
+   "note": "Plausible but only attested in the Academia Sinica 新編碑刻集書目 (the seed source) and its haijiaoshi.com mirror. No independent bookseller/library/douban listing surfaced. 廣陵書社 is consistent with Ming Xiaoling materials; treat as unconfirmed."
+  },
+  {
+   "id": "mc-jiangnan-gongyuan-beike-10310",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "贺云翱, 读《江南贡院碑刻》有感(代序), sina blog (http://blog.sina.com.cn/s/blog_5ff507c90101lxn3.html)",
+   "note": "Real. 馮家紅, 文匯出版社. An independent preface/review of the book confirms its existence beyond the Sinica list."
+  },
+  {
+   "id": "mc-jiangnan-gongyuan-beike--10311",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "孔夫子旧书网 listing (http://book.kongfz.com/61477/1487608069/)",
+   "note": "Real. 南京中国科举博物馆 编, 江苏人民出版社. Kongfz bookseller listing confirms 江南贡院碑刻法书选."
+  },
+  {
+   "id": "mc-bei-ushan-beiwen-xuan-10314",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "百度百科 dedicated entry (https://baike.baidu.com/item/北固山碑文选/16336763)",
+   "note": "Real. Baike entry: '2013年4月1日江苏大学出版社出版，作者镇江北固山风景区' — matches seed exactly."
+  },
+  {
+   "id": "mc-jingjiang-yizhu-dantu-da-10315",
+   "verified": false,
+   "confidence": "low-medium",
+   "confirmed_source": "",
+   "note": "Plausible. A Japanese academic bookseller 朋友書店 (hoyubook.co.jp id=22591) returned a search hit but the page failed to load (ECONNREFUSED), so content unconfirmed. Otherwise only in the Sinica list. Details (竇啟榮, 江蘇大學出版社, 2013) consistent; not independently verified."
+  },
+  {
+   "id": "mc-zhenjiang-dongxiang-beim-10316",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "金山网 jsw.com.cn news '《镇江东乡碑铭集》正式出版' (http://www.jsw.com.cn/2021/0114/1603043.shtml); also sohu.com & tianyancha",
+   "note": "Real. 镇江新区档案馆编, 中国文联出版社, 2021. Multiple news sources confirm: 300+ rubbings/images, 西周早期至民国初期."
+  },
+  {
+   "id": "mc-zhenjiang-shi-wenwu-zhi-10317",
+   "verified": true,
+   "confidence": "medium-high",
+   "confirmed_source": "Amazon JP & Amazon US listings, ISBN 9787568410540 (https://www.amazon.com/-/es/dp/7568410544)",
+   "note": "Real. 镇江市文物志(精), 江苏大学出版社. ISBN 9787568410540.",
+   "corrections": {
+    "isbn": "9787568410540",
+    "year": "2018",
+    "author": "镇江市文化广电新闻出版局 编"
+   }
+  },
+  {
+   "id": "mc-wuxi-yuanlin-beike-xuan-10320",
+   "verified": false,
+   "confidence": "low-medium",
+   "confirmed_source": "",
+   "note": "Plausible but only attested in the Academia Sinica 新編碑刻集書目 (seed source). No independent bookseller/library/douban listing surfaced. 古吳軒出版社 (Suzhou) plausibly publishes such regional inscription works; treat as unconfirmed."
+  },
+  {
+   "id": "mc-yixing-beike-ji-10321",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CiNii (https://ci.nii.ac.jp/ncid/BC14681141), silkroads.org.cn book DB, multiple JP booksellers (kosho.or.jp, ato-shoten, hoyubook); ISBN 9787573200112",
+   "note": "Real. 宜興碑刻集 全3冊, 上海古籍出版社, 2021.10, ~450组600通石刻. Per CiNii/silkroads the editor is 宜興市文物管理委員會辦公室.",
+   "corrections": {
+    "isbn": "9787573200112",
+    "author": "宜興市文物管理委員會辦公室 編"
+   }
+  },
+  {
+   "id": "mc-taixing-shi-beike-ji-10322",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) lists '1994 高浚源書《泰興市碑刻集》江蘇古籍出版社'",
+   "note": "Plausible and matches the cited bibliography, but that is the same Sinica source being verified; no independent catalogue (Douban/Kongfz/WorldCat) hit found in budget. Note 高浚源 here is the calligrapher/書者; the 編 body for a 市碑刻集 is usually a local committee. Year/publisher/author as given are consistent."
+  },
+  {
+   "id": "mc-huai-an-jinshi-lu-10324",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 lists '2008《淮安金石錄》編纂委員會，南京大學出版社'",
+   "note": "Matches cited bibliography only; no independent bookseller/library record surfaced in budget. Entry is internally consistent and the committee/publisher pairing is plausible."
+  },
+  {
+   "id": "mc-huai-an-shike-beike-juan-10325",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Sinica 新編碑刻集書目 + corroboration: Baidu Baike 淮安市博物館 (museum's 'existing ancient stone inscriptions of Huai'an' project) and Japanese bookseller ato-shoten listing the sibling volume 《淮安石刻·石雕卷》 (文物出版社) confirm the series exists",
+   "note": "Two-volume set 碑刻卷 / 石雕卷 by 淮安市博物館. Caveat: the independently-catalogued sibling volume (石雕卷) is shown by ato-shoten as 文物出版社; the 碑刻卷 publisher 江蘇文藝出版社 (2019) comes from the Sinica bibliography. Publisher of the 碑刻卷 worth re-checking but no correction asserted."
+  },
+  {
+   "id": "mc-hongzehu-dadi-shike-yicu-10326",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban book subject page https://book.douban.com/subject/33420554/ — 《洪泽湖大堤石刻遗存》, 中國文史出版社, 2016 (Apr), 248pp, ISBN 9787503476808; plus Jiangsu/Sina news coverage of the 洪澤湖大堤 stone-inscription project",
+   "note": "Fully confirmed by an independent catalogue (Douban) with ISBN. Compiling bodies (洪澤縣政協 etc.) match. ISBN added.",
+   "corrections": {
+    "isbn": "9787503476808"
+   }
+  },
+  {
+   "id": "mc-haizhou-shike-jiangjunya-10327",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Multiple independent Lianyungang cultural-heritage sources (wglj.lyg.gov.cn; Baidu Baike 海州区文物保护单位; Sina blog on 孔望山摩崖石刻) confirm 《海州石刻：將軍崖岩畫與孔望山摩崖造像》, 連雲港市博物館編, 李洪甫·武可榮著, 文物出版社, 1990",
+   "note": "Author/editor, title, publisher and 1990 date all corroborated independently of the citing bibliography."
+  },
+  {
+   "id": "mc-shi-shang-moyun-lianyung-10328",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 lists '2013 連雲港市重點文物保護研究所《石上墨韻：連雲港石刻拓片精選》'",
+   "note": "Self-published exhibition/rubbing selection by the research institute (no commercial publisher), so a catalogue record is unlikely; only the cited bibliography confirms it. Internally consistent."
+  },
+  {
+   "id": "mc-lianyungang-shike-diaoch-10329",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 lists '2015 連雲港市重點文物保護研究所《連雲港石刻調查與研究》上海古籍出版社'",
+   "note": "Matches cited bibliography; no independent Douban/Kongfz hit found in budget. 上海古籍出版社 publishing this institute's survey is plausible. Treat as likely-real, not independently confirmed."
+  },
+  {
+   "id": "mc-lianyungang-beiming-dagu-10330",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 lists '2015 連雲港市重點文物保護研究所《連雲港碑銘大觀》中國文史出版社'",
+   "note": "Matches cited bibliography only; no independent catalogue record surfaced. Consistent with the same institute's 2015 output. Likely-real, not independently confirmed."
+  },
+  {
+   "id": "mc-yongjiachang-muzhi-jilu-10337",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 lists '2011 孫建勝《永嘉場墓志集錄》黃山書社'; also referenced by haijiaoshi.com/archives/13932",
+   "note": "Two bibliographies (Sinica + Haijiaoshi) list it, but both are aggregators rather than a primary catalogue; no Douban/Kongfz/library record confirmed in budget. Author/publisher/year internally consistent. 永嘉場 = Wenzhou (Yongjia/Longwan) salt-field area, fits 浙江."
+  },
+  {
+   "id": "mc-cangnan-beizhi-10339",
+   "verified": false,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 + haijiaoshi.com/archives/13932 list '2003《蒼南碑志》政協浙江省蒼南縣文史資料委員會' (a 文史資料 internal compilation)",
+   "note": "As a county CPPCC 文史資料 volume (self-issued), commercial catalogue records are not expected; only the two cited bibliographies confirm it. Consistent and plausible; not independently confirmed."
+  },
+  {
+   "id": "mc-yueqing-lidai-beizhi-xua-10341",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "note": "Title/author 陳緯/2004/中國民族攝影藝術出版社 all match the Academia Sinica stone-inscription bibliography. No corrections."
+  },
+  {
+   "id": "mc-xianyan-lidai-mingsheng--10344",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "note": "仙岩歷代名勝碑志詩文, 浙江古籍出版社, 2017 confirmed in Academia Sinica bibliography. No author listed in source either; consistent."
+  },
+  {
+   "id": "mc-shunxi-chenshi-zongci-be-10345",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm); corroborated by nanchens.com Pingyang Shunxi Chen-lineage pages",
+   "note": "Real but niche: 順溪陳氏宗祠碑林集, 陳聖駒 編, 2001, private printer 水頭匯文排版社. Listed in Academia Sinica register and supported by Shunxi Chen-clan genealogy sources. Lower confidence only due to the small private typesetting house."
+  },
+  {
+   "id": "mc-xihu-mingbei-10348",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "中国图书网 bookschina.com/5825283.htm",
+   "note": "西湖名碑, 杜正賢/陳進/胡建良 主編, 2013, 杭州出版社; 265pp, 16開, with full chapter description in commercial catalogue. No corrections."
+  },
+  {
+   "id": "mc-hangzhou-huagang-moya-sh-10351",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目; Zhejiang news (zjnews.zjol.com.cn / thehour.cn) describing the 2018 volume",
+   "note": "杭州花港摩崖石刻萃編, 浙江古籍出版社, 2018 confirmed; executive editor 邵群 (item lists no author, consistent). No corrections."
+  },
+  {
+   "id": "mc-hangzhou-shiwudong-wuyue-10352",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "note": "杭州石屋洞吳越國題刻, 浙江省博物館 編, 2019, 中國書店 all match the Academia Sinica bibliography. No corrections."
+  },
+  {
+   "id": "mc-hangzhou-fenghuangsi-can-10354",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "books.com.tw/products/CN11315525; douban; dushu.com/book/13131683; 中國出版集團 news (cnpubg.com)",
+   "note": "杭州鳳凰寺藏阿拉伯文、波斯文碑銘釋讀譯注, 中華書局, 2015. Authors per item '莫爾頓 等' = A.H. Morton et al., consistent with described authorship. Strong multi-source confirmation. No corrections."
+  },
+  {
+   "id": "mc-fuyang-shike-yicun-10355",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目; Google Books entry for 富陽石刻遺存",
+   "note": "富陽石刻遺存, 政協富陽市委員會 編, 2015, 西泠印社出版社 confirmed. No corrections."
+  },
+  {
+   "id": "mc-tonglu-shike-beizhi-jing-10356",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "note": "桐廬石刻碑志精粹, 吳宏偉 編, 2017, 西泠印社出版社 all match. No corrections."
+  },
+  {
+   "id": "mc-fenshui-fangbei-lu-10357",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "note": "分水訪碑錄, 王順慶 編, 2009, 浙江大學出版社 all match the Academia Sinica bibliography. No corrections."
+  },
+  {
+   "id": "mc-yanzhou-jinshi-10359",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli); douban book/26780199; ruten listing with ISBN 9787556513321",
+   "corrections": {
+    "isbn": "9787556513321"
+   },
+   "note": "嚴州金石(增訂), 葉欣/繆承潮, 杭州出版社 2020 confirmed. Increment/expansion of earlier 2012 ed.; 杭州出版社 ISBN 9787556513321."
+  },
+  {
+   "id": "mc-ningbo-xiancun-beike-bei-10363",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban book/1804267; Google Books id XvEYAAAAYAAJ; Academia Sinica 新編碑刻集書目",
+   "corrections": {
+    "isbn": "9787806029688"
+   },
+   "note": "宁波现存碑刻碑文所见录, 龚烈沸, 宁波出版社 2006-03, 183pp, ISBN 9787806029688. Index of 2,670 inscriptions."
+  },
+  {
+   "id": "mc-ningbo-guqiao-beike-ji-10364",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "China Ningbo News cnnb.com.cn (2021-11-17 announcement); douban book/35567305; Google Books id 2Pnf0AEACAAJ",
+   "corrections": {},
+   "note": "宁波古桥碑刻集, 朱永宁, 宁波出版社 2021. 193 bridge inscriptions from 140 bridges; Ming–Republic."
+  },
+  {
+   "id": "mc-beiming-xieying-yinzhou--10365",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目; qudiandi auction listing describing 六开巨册精装《碑铭撷英———鄞州碑铭》",
+   "corrections": {},
+   "note": "碑銘擷英：鄞州碑碣精品集, 馬兆祥 主編, 人民美術出版社 2003. Large hardcover; ~60 entries (114 steles, 43 epitaphs, 5 couplets). Note title uses 鄞州 not 鄞洲."
+  },
+  {
+   "id": "mc-yinzhou-beike-xuanlu-10366",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (entry 67)",
+   "corrections": {},
+   "note": "鄞州碑刻選錄, 寧波市鄞州區人民政府地方志編研室 + 鄞州區文物保護管理中心 編, 浙江古籍出版社 2021. Confirmed in Sinica bibliography; no separate douban/catalogue snippet but consistent."
+  },
+  {
+   "id": "mc-cixi-beijie-muzhi-huibia-10367",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban book/27618187; Academia Sinica 新編碑刻集書目; library catalogues (NEFU/Tongji)",
+   "corrections": {
+    "isbn": "9787554010556"
+   },
+   "note": "慈溪碑碣墓志汇编, 厉祖浩 編, 浙江古籍出版社 2017-09, 1293pp, ISBN 9787554010556. 上林湖 series; 459 inscriptions Tang–Republic. Title char 彙=汇."
+  },
+  {
+   "id": "mc-cixi-beizhi-10368",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Google Books id GIHuzgEACAAJ; Tongji OPAC (厉祖浩/宁波出版社); Academia Sinica 新編碑刻集書目; OverDrive library2go",
+   "corrections": {},
+   "note": "慈溪碑志, 厉祖浩 編著, 宁波出版社 2019. Confirmed via Google Books + library OPAC + Sinica list."
+  },
+  {
+   "id": "mc-gu-xiancheng-cicheng-bei-10369",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目",
+   "corrections": {},
+   "note": "古縣城慈城碑文集遺, 慈城鎮文學藝術界聯合會 編/印, 2007. Confirmed only in Sinica bibliography (internal/local publication, no ISBN/commercial listing); plausible given Cicheng cultural-publications program."
+  },
+  {
+   "id": "mc-beilun-lidai-beike-xuanz-10370",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (entry 61)",
+   "corrections": {},
+   "note": "北侖歷代碑刻選注, 北侖區地方志編纂委員會 編, 寧波出版社 2019. Confirmed in Sinica bibliography."
+  },
+  {
+   "id": "mc-fenghua-xiancun-beike-zh-10371",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Ningbo Cultural Heritage Protection Network nbwb.net/info.aspx?Id=39873 (《奉化现存碑刻知见录》正式出版); Academia Sinica 新編碑刻集書目",
+   "corrections": {},
+   "note": "奉化現存碑刻知見錄, 奉化區文保所 + 奉化區志辦 編, 現代出版社 2016. Official publication announcement confirms."
+  },
+  {
+   "id": "mc-yaojiang-beijie-10372",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目); also博客來/浙江古籍出版社 listings",
+   "note": "Title 姚江碑碣 (葉樹望編, 浙江古籍出版社, 2011) confirmed via the Sinica 新編碑刻集書目 register and Zhejiang Guji listings. NOTE: the cited haijiaoshi entry 33 is WRONG — archives/13932 entry 33 is 《石刻史料新編》, not this book."
+  },
+  {
+   "id": "mc-baoguosi-zhuandiao-yu-sh-10374",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "note": "No concrete catalogue/bookseller record found for a publication titled 保國寺磚雕與石刻 (文物出版社, 2001). The temple displays brick/stone carvings but the book itself is unconfirmed. Cited haijiaoshi entry 5 is WRONG (entry 5 = 《辽宁碑志》, 王晶辰, 2002). Treat as unverified pending a library catalogue hit."
+  },
+  {
+   "id": "mc-tiantong-chansi-yinglian-10375",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目)",
+   "note": "《天童禪寺楹聯匾額碑刻集》(天童禪寺編, 內部印行, 2004) confirmed in the Sinica register. Plausible as an internal temple publication (no ISBN expected). Cited haijiaoshi entry 14 is WRONG (entry 14 = 《上海佛教碑刻文献集》)."
+  },
+  {
+   "id": "mc-changxing-chawenhua-beik-10379",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目)",
+   "note": "《長興茶文化碑刻集》(張夢新主編, 西泠印社出版社, 2008) confirmed in the Sinica register. Cited haijiaoshi entry 25 is WRONG (entry 25 = 《彝文金石图录》)."
+  },
+  {
+   "id": "mc-nanhu-yanyulou-beike-10381",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "http://reading.udn.com/v2/bookDesc.do?id=34156 (udn 讀書吧 ebook); https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm",
+   "note": "《南湖煙雨樓碑刻》(嘉興南湖革命紀念館編, 上海辭書出版社, 2007) confirmed via udn 讀書吧 ebook listing and the Sinica register. Cited haijiaoshi entry 20 is WRONG (entry 20 = 《恩施自治州碑刻大观》)."
+  },
+  {
+   "id": "mc-nanhu-lanxiuyuan-beike-10382",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目); 嘉興南湖革命紀念館 publications",
+   "note": "《南湖攬秀園碑刻》(嘉興南湖革命紀念館編, 上海辭書出版社, 2008) confirmed in the Sinica register (companion volume to 南湖煙雨樓碑刻). Cited haijiaoshi entry 24 is WRONG (entry 24 = 《宜州碑刻集》)."
+  },
+  {
+   "id": "mc-taizhou-muzhi-jilu-10384",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目)",
+   "note": "《台州墓誌集錄》(1988, 內部出版) confirmed in the Sinica register. Title written with 墓志 in item vs 墓誌 in source (variant form, same work). Cited haijiaoshi entry 2 is WRONG (entry 2 = 《吉林碑刻考录》)."
+  },
+  {
+   "id": "mc-huangyan-jinshi-zhi-10385",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://book.douban.com/subject/30130308/",
+   "note": "《黄岩金石志》(金渭迪, 中國文史出版社) confirmed on douban with ISBN 9787503436437. douban gives Nov 2012 — consistent with item's 2012.",
+   "corrections": {
+    "isbn": "9787503436437"
+   }
+  },
+  {
+   "id": "mc-songyang-jinshi-zhi-10389",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目)",
+   "note": "《松陽金石志》(吳偉民, 中國文史出版社, 2016) confirmed in the Sinica register. haijiaoshi entry 49 citation is WRONG (entry 49 = 《中国碑刻全集》), but the Sinica source (also cited in item) confirms it."
+  },
+  {
+   "id": "mc-luolin-jinshi-zhi-10390",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "note": "Could not independently confirm 椤林金石志 (雲和縣政協文史委編, 西泠印社, 2018). No douban/kongfz/读秀 hit; variant readings 楮林/樗林/和林 also returned nothing. The Sinica register (cited in item) likely lists it but I could not extract the entry to confirm. haijiaoshi entry 55 citation is WRONG (entry 55 = 《历代金石录集成》). Verify the title characters and a library record before trusting."
+  },
+  {
+   "id": "mc-pujiang-lidai-beike-shiy-10392",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm); haijiaoshi.com entry 69",
+   "corrections": {},
+   "note": "浦江歷代碑刻拾遺, 鐘聲/汪東放 編, 浙江人民美術出版社 2021 — title/author/publisher/year all confirm."
+  },
+  {
+   "id": "mc-shaoxing-beike-wenxian-y-10395",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "thep.com.tw book record (1210651); Academia Sinica 新編碑刻集書目",
+   "corrections": {
+    "isbn": "9787308204705"
+   },
+   "note": "紹興碑刻文獻研究, 尚磊明, 浙江大學出版社 2021. ISBN 9787308204705 (added)."
+  },
+  {
+   "id": "mc-shaoxing-beike-wenhua-ya-10396",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "thep.com.tw book record (1173196); Academia Sinica 新編碑刻集書目",
+   "corrections": {
+    "isbn": "9787010221175"
+   },
+   "note": "紹興碑刻文化研究, 王曉亮, 人民出版社 2020. ISBN 9787010221175, 定價498元 (added)."
+  },
+  {
+   "id": "mc-shaoxing-tushuguan-guanc-10397",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目; haijiaoshi.com entry 17",
+   "corrections": {},
+   "note": "紹興圖書館館藏地方碑拓選, 俞苗榮/龔天力 編, 西泠印社出版社. Year mostly cited as 2006 (one source gives 2007); kept 2006 per task — slight ambiguity."
+  },
+  {
+   "id": "mc-songdai-muzhi-10398",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "kosho.or.jp (日本の古本屋) product 418598076; Academia Sinica 新編碑刻集書目",
+   "corrections": {
+    "isbn": "9787550823204"
+   },
+   "note": "宋代墓志, 紹興市檔案局(館)/會稽金石博物館 編, 西泠印社出版社 2018-10. ISBN 9787550823204; 120 Song epitaph rubbings."
+  },
+  {
+   "id": "mc-yue-fei-mumiao-beike-10399",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "corrections": {},
+   "note": "岳飛墓廟碑刻, 岳飛研究會/岳飛墓廟文物保管所 編, 當代中國出版社 1999 — all fields confirm."
+  },
+  {
+   "id": "mc-wannan-fosi-beike-jilu-10403",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "yuntaigo.com 芸台购 book record (ISBN 9787518813391); silkroads.org.cn book DB (aid 80048)",
+   "corrections": {},
+   "note": "皖南佛寺碑刻輯録 (精, 水西文叢), 宗教文化出版社 2023-07, 423頁, ISBN 9787518813391. >200 southern-Anhui Buddhist-temple inscriptions. Fully confirmed."
+  },
+  {
+   "id": "mc-huizhou-beike-jilu-10404",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "先晓书院/SSAP e-book platform (xianxiao.ssap.com.cn catalogs 1721220, 5668484, bookid 1848400); 王振忠 article, Sina Finance 2023-02-06",
+   "corrections": {},
+   "note": "徽州碑刻輯録 (multi-vol 之一至之八), 邵寶振 (歙縣黨史和地方志研究室), 社會科學文獻出版社 2018-2024. Real SSAP series; published as e-book/database volumes."
+  },
+  {
+   "id": "mc-fujian-zongjiao-beiming--10406",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban book 30436090; Xiamen Univ. 民间历史文献研究中心 (crlhd.xmu.edu.cn/info/1035/4148); fjskl.org.cn prize; Sudoc 102219222",
+   "corrections": {
+    "isbn": "9787211081172"
+   },
+   "note": "福建宗教碑銘彙編·漳州府分冊, 鄭振滿/丁荷生(Kenneth Dean) 編纂, 福建人民出版社 2018, 4 vols, 1771 inscriptions, ISBN 9787211081172. Confirmed."
+  },
+  {
+   "id": "mc-fujian-zongjiao-beiming--10407",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Xiamen Univ. 民间历史文献研究中心 (crlhd.xmu.edu.cn); 光明网/中华读书报 2023-02-08; jendow wiki",
+   "corrections": {},
+   "note": "福建宗教碑銘彙編·興化府分冊, 鄭振滿/丁荷生 編纂, 福建人民出版社 1995 — first volume of the series, year/publisher/authors confirm."
+  },
+  {
+   "id": "mc-jinjiang-beike-ji-10408",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban book (ISBN 9787510815584) + haijiaoshi.com 新编碑刻集书目 register; dokumen.pub listing",
+   "corrections": {
+    "isbn": "9787510815584"
+   },
+   "note": "《晋江碑刻集》, 粘良图/陈聪艺 (晋江市政协文史委), 九州出版社 2012, 619pp, ISBN 9787510815584. All fields confirmed."
+  },
+  {
+   "id": "mc-jinjiang-beike-xuan-10409",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2002，粘良图、吴幼雄，《晋江碑刻选》，厦门大学出版社'",
+   "corrections": {},
+   "note": "Exact author/year/publisher match in scholarly register. 粘良图 confirmed as a real Jinjiang epigraphy author (also 晋江草庵研究, 厦大社)."
+  },
+  {
+   "id": "mc-nan-an-beike-10410",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2003，潘英南、吕荣哲，《南安碑刻》，作家出版社'; cited in mnwhstq.com Quanzhou wenshi",
+   "corrections": {},
+   "note": "All fields match. Author surname is 吕荣哲 (item gives 呂榮哲 — same name, traditional form)."
+  },
+  {
+   "id": "mc-xianyou-lidai-beike-10411",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2017，茅玉香，《仙游历代碑刻》，海峡书局'; douban carved-stone doulist",
+   "corrections": {},
+   "note": "Confirmed. Aug 2017, 海峡书局. (Some snippets co-name 海潮摄影艺术出版社 as co-printer, but 海峡书局 is the stated publisher — no correction needed.)"
+  },
+  {
+   "id": "mc-minhou-lidai-beike-10412",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2013，曾江、林展飞，《闽侯历代碑刻》，福建美术出版社'",
+   "corrections": {},
+   "note": "Author/year/publisher all match the register. 林展飞 = 林展飛 (traditional)."
+  },
+  {
+   "id": "mc-changle-jinshi-zhi-10413",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "lscangku.com county-records repository entry '《长乐金石志》' (id=8173); compilation by committee members + 张善贵 noted in snippet",
+   "corrections": {},
+   "note": "Work exists (县志/金石 compilation). NOT listed in haijiaoshi register, and lscangku is a download aggregator not a library catalogue, so the specific 长乐市政协 attribution and 2005 year are NOT independently confirmed — treat year/publisher as plausible but unverified."
+  },
+  {
+   "id": "mc-zhangpu-lidai-beike-10414",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '1994，王文径编，《漳浦历代碑刻》，漳浦县博物馆'",
+   "corrections": {},
+   "note": "Confirmed. 王文径 is the real, well-documented director/archaeologist of 漳浦县博物馆 (rescue excavations, 石刻拓片展). Title is 漳浦历代碑刻 (not 集/选)."
+  },
+  {
+   "id": "mc-nanjing-shike-ji-10415",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2007，南靖县地方志编篡委员会，《南靖石刻集》，海潮摄影艺术出版社'",
+   "corrections": {},
+   "note": "All fields match. Compiler is 南靖县地方志编纂委员会 (register prints 编篡, a common variant)."
+  },
+  {
+   "id": "mc-taining-gudai-beike-shij-10416",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2013，连小琴、卢衍珙，《泰宁古代碑刻史籍选萃》，海峡书局'",
+   "corrections": {},
+   "note": "Exact author/year/publisher match (连小琴/卢衍珙 = 連小琴/盧衍珙)."
+  },
+  {
+   "id": "mc-dongshan-fengwu-congshu--10417",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目: '2013，王君艳等，《东山风物丛书：历代石刻》，海风出版社'",
+   "corrections": {},
+   "note": "All fields match. Part of 东山风物丛书 series, 海风出版社, 2013."
+  },
+  {
+   "id": "mc-lianjiang-gubei-10418",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932 (海交史 当代新修地方金石碑刻书备忘录 — specialist bibliography of newly-compiled local epigraphy)",
+   "corrections": {},
+   "note": "Confirmed by the haijiaoshi specialist memorandum (author 連江縣政協文史資料委員會, 2010). No independent bookstore/library catalogue listing found; publisher likely the compiling body (內部資料/non-commercial), so medium confidence."
+  },
+  {
+   "id": "mc-fujian-shanyang-cunluo-b-10419",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932",
+   "corrections": {},
+   "note": "Confirmed by haijiaoshi memorandum: 福建杉洋村落碑銘, 張小軍・余理民, 2003, 華南研究出版社 (HKUST South China Research). Authors張小軍/余理民 are documented Shanyang-village researchers. Independent catalogue listing not surfaced; medium confidence."
+  },
+  {
+   "id": "mc-taimu-shike-wenshu-10420",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Amazon.ca + Google Books + Xiamen Univ. CRLHD (crlhd.xmu.edu.cn/2017/0120/c11791a261986) — ISBN 9787561563786",
+   "corrections": {},
+   "note": "Strongly confirmed: 太姥石刻文書, 張先清・董思思, 廈門大學出版社, ISBN 9787561563786. Multiple library OPACs list it. Note haijiaoshi lists the short title 太姥石刻; catalogued title is 太姥石刻文書 as given."
+  },
+  {
+   "id": "mc-taimu-shike-10421",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://book.douban.com/subject/35743573/ + Suning product listing",
+   "corrections": {
+    "year": "2021"
+   },
+   "note": "Confirmed: 太姥石刻, 高健斌・白榮敏, 福建教育出版社, ISBN 9787533492007. Douban and Suning both give pub date Dec 2021, not 2022. Distinct work from the Zhang Xianqing 太姥石刻文書."
+  },
+  {
+   "id": "mc-xiamen-beizhi-huibian-10422",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932 (corroborated by 新編碑刻集書目 idv.sinica.edu.tw/ryli)",
+   "corrections": {},
+   "note": "Confirmed: 廈門碑志彙編, 何丙仲 編纂, 2004, 中國廣播電視出版社 (廈門文史叢書). Widely cited in Xiamen epigraphy scholarship; an expanded 增訂本 was later reissued by 廈門大學出版社."
+  },
+  {
+   "id": "mc-xiamen-muzhiming-huicui-10424",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://www.sanmin.com.tw/product/index/002740676 (廈門墓誌銘匯粹) — ISBN 9787561541654",
+   "corrections": {},
+   "note": "Confirmed: 廈門墓誌銘彙粹/匯粹, 何丙仲・吳鶴立, 廈門大學出版社, 2011-11, ISBN 9787561541654. 160+ epitaphs Tang–1958. Title uses simplified 匯 in catalogue; 彙 in input is the traditional equivalent."
+  },
+  {
+   "id": "mc-xiamen-moya-shike-10425",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932",
+   "corrections": {},
+   "note": "Confirmed: 廈門摩崖石刻, 廈門市政協文史和學習宣傳委員會, 2001, 福建美術出版社. Publisher is documented for Fujian 摩崖石刻 series of this period."
+  },
+  {
+   "id": "mc-jimei-xunzhen-lidai-beik-10426",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/8970 + /13932 (海交史 金石碑刻书备忘录)",
+   "corrections": {},
+   "note": "Confirmed by haijiaoshi memorandum: 集美尋珍·歷代碑刻拓片薈萃 (vol. 3 of 集美尋珍), 許金頂・李玉清, 2016, 河海大學出版社. Used as a reference in Xiamen epigraphy studies. No standalone bookstore page surfaced; medium confidence."
+  },
+  {
+   "id": "mc-riguangyan-shuzhuang-hua-10427",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://www.sanmin.com.tw/Product/index/007159689 (日光岩菽莊花園摩崖石刻)",
+   "corrections": {},
+   "note": "Confirmed: 日光岩菽莊花園摩崖石刻, 廈門市鼓浪嶼遊覽區管理處, 2018, 廈門大學出版社. 46 Ming–Qing–Republican carvings with rubbings; listed in Taiwan bookstore catalogue."
+  },
+  {
+   "id": "mc-mingji-haicang-haicang-y-10428",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932",
+   "corrections": {},
+   "note": "Confirmed by haijiaoshi memorandum: 銘記海滄·海滄楹聯碑刻精選彙編, 滄江文庫編委會, 2021, 知識產權出版社 (上冊宮廟篇/下冊宗祠家廟篇). No independent retail listing surfaced (likely limited 內部/regional distribution); medium confidence."
+  },
+  {
+   "id": "mc-fuzhou-moya-shike-10429",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban works/1091861; kongfz book.kongfz.com/163751/2105717938 (黄荣春《福州摩崖石刻【增订本】》福建美术出版社); fznews profile of 黄荣春",
+   "corrections": {},
+   "note": "Confirmed: 黃榮春, 福建美術出版社, original 1999, 增訂本 2011. All fields match."
+  },
+  {
+   "id": "mc-gulou-moya-beike-10431",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com/archives/13932 lists '2019 鼓樓摩崖碑刻 (福州鼓樓區政協)'",
+   "corrections": {},
+   "note": "Confirmed in the cited haijiaoshi bibliography as a 2019 Gulou District CPPCC publication. No separate ISBN/Douban record found (internal/local CPPCC 文史 publication), hence medium confidence."
+  },
+  {
+   "id": "mc-gushan-tike-10432",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "note": "Could NOT confirm. Publisher 海風出版社 (Fuzhou) exists, but no catalogue record (Douban/kongfz/讀秀/haijiaoshi) for a book titled 鼓山題刻 by 林和 (2002). Title/author/year combination unverified. Possibly a confusion with 鼓山摩崖石刻 materials or a minor local imprint."
+  },
+  {
+   "id": "mc-min-an-shike-diaocha-yu--10433",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932 lists '2013 閩安石刻調查與研究 (福州馬尾區政協) 福建教育出版社'",
+   "corrections": {},
+   "note": "Confirmed: 閩安石刻調查與研究, 2013, 福建教育出版社, edited by 福州市馬尾區委宣傳部/文化體育局 (Mawei District CPPCC). Distinct from item 10434."
+  },
+  {
+   "id": "mc-min-an-shike-diaocha-10434",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com/archives/13932 lists '2018 閩安石刻調查 高健斌 福建教育出版社'; chineselibrary.store + Google Books confirm 高健斌 as author in the '福建與海洋' 福建教育出版社 series",
+   "corrections": {},
+   "note": "Confirmed: 高健斌, 福建教育出版社, 2018, part of '福建與海洋' series (companion to his 南澳石刻調查, same series/publisher/year). Title appears as 閩安石刻調查 in the source. Note potential title overlap/confusion with the 2013 committee work (item 10433); some bios phrase 高健斌's work as 閩安石刻調查與研究, but the cited bibliography distinguishes them. Author+publisher confirmed."
+  },
+  {
+   "id": "mc-sanming-moya-shike-10435",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com/archives/13932 lists '2005 三明摩崖石刻 (三明市政協文史委) 福建美術出版社'",
+   "corrections": {},
+   "note": "Confirmed in cited bibliography: 三明摩崖石刻, 2005, 福建美術出版社, 三明市政協文史資料委員會. No separate ISBN found (CPPCC 文史 publication)."
+  },
+  {
+   "id": "mc-puxian-moya-tike-10436",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932 ('2005 莆仙摩崖題刻 蔣維錟、朱合浦 中國文史出版社'); Academia Sinica stone-inscription bibliography (idv.sinica.edu.tw/ryli/stoneinscriptions.htm)",
+   "corrections": {},
+   "note": "Confirmed: 莆仙摩崖題刻, 蔣維錟、朱合浦, 中國文史出版社, 2005. All fields match."
+  },
+  {
+   "id": "mc-putian-jinshi-muke-tuobe-10437",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932 ('1981 莆田金石木刻拓本志, 莆田縣志委員會'); PDF scans available (book.fengshui86.com/page/483285, 上册)",
+   "corrections": {},
+   "note": "Confirmed: 莆田金石木刻拓本志, 1981, compiled by the Putian County gazetteer committee. Real, multi-volume; digitized scans exist."
+  },
+  {
+   "id": "mc-quanzhou-zongjiao-shike-10438",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban subject/1690463; Semantic Scholar review of 吳文良原著/吳幼雄增訂《泉州宗教石刻》; xiangshi123 (增訂本)",
+   "corrections": {},
+   "note": "Confirmed: 泉州宗教石刻, 吳文良 原著 / 吳幼雄 增訂, 科學出版社. Original 1957; 增訂本 2005. All fields match."
+  },
+  {
+   "id": "mc-quanzhou-yisilanjiao-shi-10439",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932 ('1984 ...伊斯蘭教石刻, 寧夏/福建人民'); dokumen.pub copy of 泉州伊斯蘭教石刻; world10k.com 中西交通史 bibliography",
+   "corrections": {},
+   "note": "Confirmed: 泉州伊斯蘭教石刻, 陳達生 主撰 (Quanzhou Maritime Museum), 寧夏人民出版社 + 福建人民出版社, 1984. All fields match."
+  },
+  {
+   "id": "mc-quanzhou-moya-shike-10440",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932 (新编碑刻集书目, 福建): \"1991，庄炳章，《泉州摩崖诗刻》，福建人民出版社\" — exact author/year/publisher match",
+   "corrections": {},
+   "note": "Listed verbatim in the cited 新编碑刻集书目. No corroborating douban/kongfz copy surfaced but the bibliographic entry is precise and matches."
+  },
+  {
+   "id": "mc-quanjun-beike-baipian-yi-10441",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932: \"2014，陈立献、王焕民、孙陈清，《泉郡碑刻百篇译注》，中国文联出版社\" — exact match on all fields",
+   "corrections": {},
+   "note": "Three authors, year, publisher all match the cited bibliography exactly."
+  },
+  {
+   "id": "mc-quanzhou-fu-wenmiao-beiw-10442",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932: \"2009，泉州府文庙文物保护管理处，《泉州府文庙碑文录》，海潮摄影艺术出版社\" — exact match",
+   "corrections": {},
+   "note": "Corporate author (泉州府文廟文物保護管理處), year and publisher match. Item gives 管理處 vs source 管理处 (same, simplified)."
+  },
+  {
+   "id": "mc-jiurishan-moya-shike-qua-10443",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932: \"2002，黄威廉，《九日山摩崖石刻诠释》，本书编委会\" — match",
+   "corrections": {},
+   "note": "Author 黃威廉, 2002, publisher given as 本書編委會 (self-published by editorial committee) — all match the cited bibliography. No commercial catalogue copy found, consistent with a committee imprint."
+  },
+  {
+   "id": "mc-qingyuanshan-moya-xuancu-10444",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932: \"2004，清源山风景名胜区管理委员会，《清源山摩崖选粹》，中华书局\"; also corroborated by mnwhstq.com 《清源山志》及《清源山摩崖选粹》编纂记略",
+   "corrections": {},
+   "note": "Existence independently corroborated by a 編纂記略 (compilation memoir) article. Author/year/publisher (中華書局) match the cited bibliography."
+  },
+  {
+   "id": "mc-luoyangqiao-shike-10445",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com/archives/13932: \"2016，出宝阳，《洛阳桥石刻》，海峡书局海潮摄影艺术出版社\"",
+   "corrections": {
+    "publisher": "海峽書局／海潮攝影藝術出版社"
+   },
+   "note": "Author 出寶陽 and year 2016 match. Source lists publisher as the fuller '海峡书局海潮摄影艺术出版社' (co-imprint 海峽書局 + 海潮攝影藝術出版社); item gives only 海潮攝影藝術出版社, which is part of it."
+  },
+  {
+   "id": "mc-fujian-hua-an-xianzitan--10448",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban book/subject/4818104 and Baidu Baike: 福建省考古博物馆学会, 1990, 中央民族学院出版社, ISBN 9787810011969, 326pp",
+   "corrections": {
+    "isbn": "9787810011969"
+   },
+   "note": "Strongly corroborated (Douban + Baidu Baike). Author 福建省考古博物館學會, year, publisher all match. ISBN 9787810011969 added."
+  },
+  {
+   "id": "mc-min-ke-jiaojie-de-zhao-a-10449",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Baidu Baike (闽客交界的诏安), Douban book/subject/26305470, and publisher DB xianxiao.ssap.com.cn/bibliography/1872200 — 杨彦杰, 2014, 社会科学文献出版社, 全2册",
+   "corrections": {},
+   "note": "Well corroborated incl. the publisher's own (社科文献) database. Lead author 楊彥杰, 2014, 社會科學文獻出版社 all match; one source also names co-author 譚偉倫. The附碑刻集成 (Hakka-region inscription corpus appendix) is consistent with its田野/碑铭 scope."
+  },
+  {
+   "id": "mc-anping-beituo-lu-10450",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com/archives/13932: \"2010，许着华，《安平碑拓录》，风雅图书出版公司\"",
+   "corrections": {},
+   "note": "Listed verbatim in the cited bibliography (Taiwan/Anping 安平 = 晉江安海 in Fujian context). Author 許着華, 2010, 風雅圖書出版公司 match. No independent library-catalogue copy surfaced quickly, hence medium confidence, but the bibliographic line is precise."
+  },
+  {
+   "id": "mc-lushan-jinshi-kao-10451",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "孔夫子旧书网 (kongfz) listing book.kongfz.com/46721/403065075 (physical copy for sale) + haijiaoshi.com/archives/13932 (江西 section)",
+   "corrections": {},
+   "note": "A physical copy is listed for sale on 孔夫子, confirming the work exists: 徐新杰, 1985, 星子县政协文史资料研究委员会 (inaugural 文史资料 issue). Author/year/publisher match."
+  },
+  {
+   "id": "mc-bailudong-shuyuan-beike--10452",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932, 江西 section); 北京燕山出版社 confirmed as a real CASS-area publisher of epigraphy/archaeology titles",
+   "corrections": {},
+   "note": "Title/author/year/publisher consistent with the cited 新编碑刻集书目 bibliography. No standalone douban/library record surfaced, but the bibliography entry is concrete; medium confidence."
+  },
+  {
+   "id": "mc-bailudong-shuyuan-beiji--10453",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/1023544/ ; baike.baidu.com/item/白鹿洞书院碑记集 ; dushu.com/book/10121740",
+   "corrections": {},
+   "note": "李才栋, 江西教育出版社, 1995-08, 310pp, ISBN 9787539210766. Fully confirmed."
+  },
+  {
+   "id": "mc-lushan-mingsheng-shike-10454",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "baike.baidu.com/item/庐山名胜石刻 ; 新编碑刻集书目 (haijiaoshi.com)",
+   "corrections": {},
+   "note": "徐新杰, 江西人民出版社, 1996-05. Confirmed by baidu baike; based on 5 yrs fieldwork from 1980."
+  },
+  {
+   "id": "mc-lushan-shiwen-jinshi-gua-10455",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/1063706/ ; baike.baidu.com/item/庐山诗文金石广存 ; Google Books id=aIQSAQAAMAAJ",
+   "corrections": {},
+   "note": "胡迎建/宗九奇, 江西人民出版社, 1996 (some sources say Sept 1996). Based on 吴宗慈 庐山志; ~700,000 chars. Confirmed."
+  },
+  {
+   "id": "mc-shizhongshan-jinshi-lu-10456",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932, 江西 section); Academia Sinica 新編碑刻集書目 list",
+   "corrections": {},
+   "note": "秦华南/王奔春, 江西高校出版社, 2005. Appears in the regional epigraphy bibliography; no separate douban/library hit surfaced. Medium confidence."
+  },
+  {
+   "id": "mc-luling-gu-bei-lu-10457",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "baike.baidu.com/item/庐陵古碑录/16440600 ; yuntu.io/book/7179803073627 ; gujiwu.cn",
+   "corrections": {},
+   "note": "高立人(主编)/刘晓东, 江西人民出版社, 2007, ISBN 978-7-210-03673-9. Confirmed. A 2008 printing also exists."
+  },
+  {
+   "id": "mc-lushan-lidai-shike-10458",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Search-confirmed: 陶勇清(编), text by 胡迎建, 江西美术出版社, 2010; cited in 新编碑刻集书目 and Zhongguo Wenwu Bao coverage",
+   "corrections": {},
+   "note": "陶勇清 as editor/主编 (translations/notes by 胡迎建). ~300 selected Lushan inscriptions; Xingzi County fieldwork. Confirmed."
+  },
+  {
+   "id": "mc-shishang-chunqiu-taihe-g-10459",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932); Academia Sinica 新編碑刻集書目 list",
+   "corrections": {},
+   "note": "萧用桁, 石上春秋：泰和古碑录, 江西人民出版社, 2013. Confirmed via the regional epigraphy bibliography (and as the parent vol. of the 2016 续编). Medium confidence."
+  },
+  {
+   "id": "mc-shishang-chunqiu-taihe-g-10460",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932); Academia Sinica 新編碑刻集書目 list",
+   "corrections": {},
+   "note": "萧用桁, 石上春秋：泰和古存续编 (sequel to the 2013 vol.), 江西人民出版社, 2016. Confirmed via bibliography. Medium confidence."
+  },
+  {
+   "id": "mc-qinglian-gucha-beike-yin-10461",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "The temple 青莲寺/青莲古刹 (Ningdu, 江西) and its 20+ Ming-Qing 碑刻 are real (baidu baike, jxsfjxh.cn, ningdu.gov.cn), but NO catalogue record for the publication 青莲古刹碑刻楹联集要 (2014) surfaced — consistent with its stated 内部编印 (internal printing). Subject is genuine; the book itself is unverified as a published work."
+  },
+  {
+   "id": "mc-xingzi-lishi-wenhua-cong-10464",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) and 海交史 新编碑刻集书目 (haijiaoshi.com/archives/13932); search snippets confirm 陈再阳《星子历史文化丛书：摩崖碑刻》江西人民出版社 2019",
+   "corrections": {},
+   "note": "Part of 星子历史文化丛书 series (cf. confirmed sibling 星子史话 9787210111740, 江西人民出版社). Real; no commercial-catalog page surfaced but two scholarly bibliographies list it with matching author/year/publisher."
+  },
+  {
+   "id": "mc-bailudong-shuyuan-moya-s-10465",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "海交史 新编碑刻集书目 (haijiaoshi.com/archives/13932) and corroborating coverage of 白鹿洞书院摩崖石刻 in 白鹿洞书院文化旅游丛书 (xinhuanet.com/book/2020-03/17/c_138887570.htm; zhongguowenwubao.com 2023-04-14)",
+   "corrections": {},
+   "note": "Subject (60 摩崖石刻 at Bailudong) and series context confirmed; douban page not surfaced. Author given 陈岌、陈礼; plausibly 陈礼 is part of a longer name. Real per bibliography."
+  },
+  {
+   "id": "mc-fuliang-lidai-beiming-hu-10467",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Sina Finance compilation account (finance.sina.com.cn/jjxw/2022-03-15/doc-imcwiwss6101492.shtml) + Sohu (sohu.com/a/529873523_260616): 浮梁县博物馆 commissioned the rubbing/compilation, project 2018–2020, titled 浮梁历代碑铭汇编; listed 即出 in 海交史 bibliography",
+   "corrections": {},
+   "note": "Compilation history fully documented; book was forthcoming (即出) as of 2022 with no finalized publisher/year — matches the 'publication info undetermined' entry. 张金林 named in compilation account."
+  },
+  {
+   "id": "mc-qufu-rujia-beike-wenxian-10468",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban (book.douban.com/subject/36081551/) and 儒家网 (rujiazg.com/article/26677): 曲阜儒家碑刻文献集成, 杨朝明主编, 齐鲁书社 2022-09, ISBN 9787533346065, 精装全三册, ~700 inscriptions",
+   "corrections": {},
+   "note": "Fully confirmed incl. ISBN 9787533346065. National social-science key project; won 2022 华东地区古籍优秀图书特等奖."
+  },
+  {
+   "id": "mc-qufu-rujia-beike-wenxian-10469",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "微信读书 / weread.qq.com (曲阜儒家碑刻文献辑录 第1辑, 杨朝明, 齐鲁书社 2015-10); 东方书店 detail for 第4辑 2018 (ISBN 9787533340537); 海交史 bibliography lists 第一至五辑 2015–2019",
+   "corrections": {},
+   "note": "Multi-volume series (第一至五辑) confirmed; 第1辑 2015 and 第4辑 2018 individually verified. Distinct from the 2022 集成. 2015–2019 range corroborated."
+  },
+  {
+   "id": "mc-shitou-shang-de-rujia-we-10471",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "海交史 新编碑刻集书目 (haijiaoshi.com/archives/13932); corroborated by scholarly references describing 骆承烈《石头上的儒家文献——曲阜碑文录》齐鲁书社 2001 (transcriptions of 1000+ Qufu steles)",
+   "corrections": {},
+   "note": "Author 骆承烈 is a confirmed Qufu epigraphy scholar; title/year/publisher consistent across sources. No douban/catalog page surfaced but well-attested."
+  },
+  {
+   "id": "mc-qufu-beimu-jilu-10472",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "海交史 新编碑刻集书目 (haijiaoshi.com/archives/13932) and Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli/stoneinscriptions.htm): 1981, 骆承烈, 曲阜碑目集录, 曲阜师院孔子研究室",
+   "corrections": {},
+   "note": "1981 internal/institutional publication (曲阜师院孔子研究室, not a commercial press) — does not appear in OPAC/读秀 snippets, but listed identically in two independent scholarly bibliographies; author confirmed real. Plausible institutional imprint."
+  },
+  {
+   "id": "mc-mengzi-linmiao-lidai-shi-10474",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "百度百科 孟子林庙历代石刻集 (孟子研究文库) (baike.baidu.com/item/孟子林庙历代石刻集/.../16032586); 海交史 bibliography. 作者 刘培桂, 齐鲁书社 2005",
+   "corrections": {},
+   "note": "Confirmed; part of 孟子研究文库. Author 刘培桂 (Zoucheng Mencius scholar) verified."
+  },
+  {
+   "id": "mc-mengmiao-mengfu-menglin--10475",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "海交史 新编碑刻集书目 (haijiaoshi.com/archives/13932) and Academia Sinica 新編碑刻集書目; corroborated by 郑建芳 bio listing 孟庙孟府孟林碑刻集 among her works. 李彬、郑建芳、侯新建, 齐鲁书社 2019",
+   "corrections": {},
+   "note": "Confirmed via two bibliographies plus editor biography (郑建芳, Zoucheng 文物保护中心). Covers 三孟 (孟庙/孟府/孟林) steles."
+  },
+  {
+   "id": "mc-zou-lu-shike-yinglian-hu-10476",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban (book.douban.com/subject/27048562/): 邹鲁石刻楹联荟萃 (邹鲁文化丛书), 郑建芳, 齐鲁书社 2016-12, 362页, ISBN 9787533336622",
+   "corrections": {
+    "isbn": "9787533336622"
+   },
+   "note": "Fully confirmed incl. ISBN 9787533336622 (added). Part of 邹鲁文化丛书; covers Zoucheng/Qufu 石刻楹联."
+  },
+  {
+   "id": "mc-yishan-beike-ji-10477",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm (新編碑刻集書目, Academia Sinica) — also listed in haijiaoshi 新编碑刻集书目",
+   "corrections": {},
+   "note": "Listed in the Sinica/haijiaoshi scholarly union bibliography of stone-inscription collections (王川, 齐鲁书社, 2016). No independent bookseller/library catalog record surfaced, hence medium confidence."
+  },
+  {
+   "id": "mc-jining-lidai-muzhiming-10478",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://www.books.com.tw/products/CN10737951 (博客來) and http://www.silkroads.org.cn/portal.php?mod=view&aid=62971",
+   "corrections": {},
+   "note": "All metadata matches: 李恒法、解华英编著, 齐鲁书社, 2011, ISBN 9787533324841, 399pp."
+  },
+  {
+   "id": "mc-tengzhou-lidai-shike-10480",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://book.douban.com/subject/33420542/ (豆瓣)",
+   "corrections": {},
+   "note": "滕州历代石刻, 滕州市汉画像石馆编, 中华书局, 2019-2, ISBN 9787101137644. Confirmed."
+  },
+  {
+   "id": "mc-yanzhou-lidai-beike-kaol-10481",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://catalog.ancientbooks.cn/article.jspx?libId=1 (石刻总目数据库) and haijiaoshi 新编碑刻集书目",
+   "corrections": {},
+   "note": "Work confirmed: 樊英民, 齐鲁书社, 2013. Note title-character order: catalog gives 《兖州历代碑刻录考》(錄考) vs entry's 碑刻考録; likely same work, minor ordering variance."
+  },
+  {
+   "id": "mc-yanzhou-jinkouba-keshi-y-10482",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "http://www.jnnews.tv/jining/p/2016-12/08/550826.html (济宁新闻网) and https://k.sina.cn/article_1619180225_6082bac1001001qk2.html",
+   "corrections": {},
+   "note": "王大中《兖州金口坝刻石遗珍》, 中国文史出版社, 2016 (published Dec 2016). Won Shandong provincial 优秀文史书刊 first prize. Confirmed."
+  },
+  {
+   "id": "mc-jinan-lidai-muzhiming-10488",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "http://item.kongfz.com/book/70562756.html (孔夫子旧书网)",
+   "corrections": {},
+   "note": "济南历代墓志铭, 韩明祥, 黄河出版社, 2002-12, ISBN 9787801524485. Confirmed via kongfz listing."
+  },
+  {
+   "id": "mc-baotuquan-beike-10489",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://book.douban.com/subject/1810360/ (豆瓣)",
+   "corrections": {},
+   "note": "趵突泉碑刻, 朱传东, 济南出版社, 2006-1, ISBN 9787807102533, 58pp. Confirmed."
+  },
+  {
+   "id": "mc-jinan-yuanlin-beike-10490",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932 (海交史 新编碑刻集书目)",
+   "corrections": {},
+   "note": "Listed in haijiaoshi scholarly bibliography (孙培森, 济南园林碑刻, 济南出版社, 2006). No independent bookseller/library catalog record surfaced; medium confidence."
+  },
+  {
+   "id": "mc-jinan-fuxue-wenmiao-xian-10491",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "Could NOT confirm this exact title. Searches surfaced a different, well-attested book — 《儒风长存：济南府学文庙研究》(中国文庙研究丛书) — and confirm 济南府学文庙 + 山东人民出版社 exist, but no catalog/bookseller record for a documentary carved-inscription volume titled 《济南府学文庙现存碑刻文献》(2015). Source is only the haijiaoshi list per the entry; treat as unverified pending a catalog record."
+  },
+  {
+   "id": "mc-changqing-beike-10492",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "https://www.haijiaoshi.com/archives/13932 (海交史 新编碑刻集书目) — cf. companion list haijiaoshi/archives/8970",
+   "corrections": {},
+   "note": "Listed in haijiaoshi scholarly bibliography (张朝森、政协济南市长清区委员会, 长清碑刻, 济南出版社, 2020). No independent bookseller/library catalog record surfaced; medium confidence."
+  },
+  {
+   "id": "mc-pingyin-xian-beike-jiche-10493",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Academia Sinica 新編碑刻集書目 register (idv.sinica.edu.tw/ryli/stoneinscriptions.htm) lists 趙敬成 ed., 2021, 政協平陰縣委員會, in multi-town volumes (孔村鎮/孝直鎮 etc.); corroborated by zhaobiaoku tender for 《平阴县碑刻集成》第一卷印刷项目 (zhaobiaoku.net/D/267847874)",
+   "note": "Internal/PPCC-printed multi-volume set; title, year, editor, publisher all match.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-baimaiquan-beike-ji-10494",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "note": "Only attested in the haijiaoshi 新编碑刻集书目 register as a 2000 internal compilation (內部編印) by 章丘百脈泉公園. No independent library, vendor (douban/kongfz/worldcat), or catalog record found in search. Plausible internal edition but no concrete confirming bibliographic source.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-zhangqiu-lidai-beike-xua-10495",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "note": "Only attested in the haijiaoshi 新编碑刻集书目 register (2006, 中国文史出版社). No independent library/vendor catalog record surfaced for 章丘歷代碑刻選粹. 中國文史出版社 is a real publisher and the title is plausible, but unverified by a concrete second source.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-qingzhou-shi-wenwu-zhi-10497",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Amazon.co.jp dp/7501066736 and myace.jp (株式会社エース 2101-103): 青州市文物志, 青州市博物館, 文物出版社, ISBN 7501066736 / 9787501066735, pub. 2020",
+   "note": "ISBN, author, publisher, year all confirmed by vendor catalog records.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10498",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi 新编碑刻集书目 + Academia Sinica register: 2010, 赵卫东、庄明军, 山东道教碑刻集（青州、昌乐卷）, 齐鲁书社; series corroborated across vendor listings (books.com.tw/sanmin)",
+   "note": "Part of well-documented 山東道教碑刻集 series; all fields match.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10499",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "三民網路書店 sanmin.com.tw/product/index/002618797 (山東道教碑刻集：臨朐卷, 趙衛東/宮德傑, 齊魯書社, 2011); also haijiaoshi register",
+   "note": "Vendor catalog record confirms author, publisher, year.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10500",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "博客來 books.com.tw/products/CN11133186 and 三民 sanmin.com.tw/Product/index/004476336 (山東道教碑刻集·博山卷, 趙衛東/王予幻/秦國帥, 齊魯書社, 2013)",
+   "note": "Vendor records confirm all fields.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10501",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "QQ news 新书简介 (xw.qq.com/cmsid/20210120A0D7CE00): 《山东道教碑刻集·肥城卷》, 赵卫东主编, 齐鲁书社, 2020年11月; also haijiaoshi register",
+   "note": "Publisher announcement confirms editor, publisher, 2020. ~470k chars, 194 inscriptions.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10530",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "silkroads.org.cn book review 新书 第439期 (silkroads.org.cn/portal.php?mod=view&aid=53165): 洛阳明清碑志（栾川卷）, 王璐 ed., 洛阳市文物勘探中心、洛阳师范学院 comp., 中州古籍出版社, 87 inscriptions",
+   "note": "Editor, compilers, publisher all confirmed. Year 2021 consistent with national古籍 funding lists.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10531",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi 新编碑刻集书目 (haijiaoshi.com/archives/13932), the cited source, lists 洛阳明清碑志宜阳卷, 张博, 2021, 中州古籍出版社; series + publisher independently corroborated (市区卷 at Sichuan Univ. library lib.scu.edu.cn/node/114651; 栾川卷 confirmed via silkroads)",
+   "note": "No standalone vendor/library record for the 宜阳卷 itself surfaced, but the series, publisher, editor pattern, and register entry are consistent. Slightly lower confidence than栾川卷.",
+   "corrections": {}
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10532",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "kaogct inscription-book catalog (book.kaogct.com/212263) + Luoyang news (news.lyd.com.cn) confirming the 洛阳明清碑志·嵩县卷 volume; series catalogued at Sichuan Univ. Library",
+   "corrections": {
+    "author": "吕劲松、周海涛 主编 (洛阳师范学院 / 洛阳市文物钻探管理办公室 is the institutional compiler of the series)",
+    "year": "2020",
+    "isbn": "9787534894220"
+   },
+   "note": "Real book, publisher 中州古籍出版社 confirmed. Named chief editors are 吕劲松、周海涛; pub year is 2020-09 (not 2018). 331pp."
+  },
+  {
+   "id": "mc-luoyang-fojiao-beike-jic-10533",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932): \"2020，李随森，《洛阳佛教碑刻集萃》，中州古籍出版社。\"",
+   "corrections": {},
+   "note": "Exact match on title, author, publisher, year in the standard regional inscription-book bibliography."
+  },
+  {
+   "id": "mc-henan-simiao-daoguan-bei-10534",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi) + douban subject 35108149: 《河南寺庙道观碑刻集成》洛阳卷一, 杨振威 主编, 中州古籍出版社, 2019",
+   "corrections": {},
+   "note": "Exact match. Vol. 1 (洛阳卷一), 2019."
+  },
+  {
+   "id": "mc-henan-simiao-daoguan-bei-10535",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi) + Suning product 12429782984 (ISBN 9787534891755): 《河南寺庙道观碑刻集成》洛阳卷二, 杨振威 主编, 中州古籍出版社, 2020",
+   "corrections": {},
+   "note": "Exact match. Vol. 2 (洛阳卷二), 2020, 392pp, ISBN 9787534891755."
+  },
+  {
+   "id": "mc-guanlin-10536",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932): \"1994，洛阳关林管理委员会编，《关林》，中州古籍出版社。\"",
+   "corrections": {},
+   "note": "Exact match on title, editor, publisher, year."
+  },
+  {
+   "id": "mc-xin-zhongguo-chutu-muzhi-10537",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "silkroads.org.cn/portal.php?aid=70902 + douban series 29059: 《新中国出土墓志·河南叁·千唐志斋》, 中国文物研究所、千唐志斋博物馆 编, 文物出版社, 2008, ISBN 9787501021864",
+   "corrections": {},
+   "note": "Exact match. 2008, 620pp, ISBN 9787501021864. Part of the 新中国出土墓志 series."
+  },
+  {
+   "id": "mc-qiantangzhizhai-cang-zhi-10538",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "silkroads.org.cn/portal.php?aid=62951 + douban 25833226: 《千唐志斋藏志》, 河南省文物研究所 (+洛阳地区文管处), 文物出版社, 1984",
+   "corrections": {},
+   "note": "Real, exact match on title/publisher/year (1984). 2 vols, 1360pp."
+  },
+  {
+   "id": "mc-yanshi-beizhi-jingxuan-10539",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "kaogusd.com/product/10659.html: 《偃师碑志精选》, 周剑曙、郭宏涛, 湖北美术出版社, 2004-04, ISBN 9787539415314",
+   "corrections": {},
+   "note": "Exact match on title, authors, publisher, year. 38 inscriptions Eastern Han–Northern Song."
+  },
+  {
+   "id": "mc-yanshi-beizhi-xuancui-10540",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Xinhua/wenxuan vendor listing (souyingpian item 44503235228) + zhihu answer 30424159641: 《偃师碑志选粹》, 郭宏涛、周剑曙 编著, 中州古籍出版社",
+   "corrections": {},
+   "note": "Title, authors, publisher confirmed. Year 2014 from listing/data; consistent across sources. Companion to 偃师碑志精选."
+  },
+  {
+   "id": "mc-ciyunsi-shike-10541",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "新编碑刻集书目 (haijiaoshi.com/archives/13932): \"2019，张瑞峰，《慈云寺石刻》，中华书局。\"",
+   "corrections": {},
+   "note": "Exact match on title, author, publisher, year. 慈云寺 is in Gongyi 巩义, Henan."
+  },
+  {
+   "id": "mc-zhanjie-laocheng-beike-j-10542",
+   "verified": true,
+   "confidence": "low",
+   "confirmed_source": "Academia Sinica 李仁淵《新編碑刻集書目》(idv.sinica.edu.tw/ryli/stoneinscriptions.htm) lists 站街老城碑刻集, 孙宪周, 2000",
+   "corrections": {},
+   "note": "Internal/limited Gongyi Zhanjie publication (no ISBN). Existence corroborated only by specialist compiled bibliography; could not find a commercial catalog or library record."
+  },
+  {
+   "id": "mc-zhengzhou-gudai-beike-10543",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "302edu book detail + multiple sources: 郑州古代碑刻, 阎铁成 主编, 河南人民出版社, 2017, K877.42, 108元",
+   "corrections": {},
+   "note": "Solidly confirmed. Author also written 闫铁成."
+  },
+  {
+   "id": "mc-zhengzhou-lidai-beike-hu-10544",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 + kongfz/dpm references: 郑州历代碑刻汇选, 郑州博物馆 编, 大象出版社, 2019",
+   "corrections": {},
+   "note": "Main volume (2019). The companion 精品卷 (2020) is separately confirmed with ISBN 9787571103576."
+  },
+  {
+   "id": "mc-zhengzhou-lidai-beike-hu-10545",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "孔夫子旧书网 book.kongfz.com/23875/3104261865/: 郑州历代碑刻汇选·精品卷, 郑州博物馆 编, 大象出版社, ISBN 9787571103576, 版权 2020-10",
+   "corrections": {
+    "isbn": "9787571103576"
+   },
+   "note": "Confirmed with ISBN. Copyright date Oct 2020 matches given year."
+  },
+  {
+   "id": "mc-zhengzhou-kaiyuansi-beis-10546",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 + search confirmation: 郑州开元寺北宋石刻艺术, 海燕出版社, 2013",
+   "corrections": {},
+   "note": "Title/publisher/year corroborated by specialist bibliography; could not independently confirm exact editor attribution (郑州市文物考古研究院) in a catalog record."
+  },
+  {
+   "id": "mc-xinzheng-beike-wenji-10547",
+   "verified": true,
+   "confidence": "low",
+   "confirmed_source": "haijiaoshi.com 当代新修地方金石碑刻书备忘录 + Academia Sinica list reference: 新郑碑刻文集, 新郑市文物管理局, 2004",
+   "corrections": {},
+   "note": "Internal-type publication; publisher '香港国际出版社' is unusual and NOT independently verified. Existence corroborated only by compiled bibliographies; treat publisher with caution."
+  },
+  {
+   "id": "mc-xinmi-gucheng-beike-10548",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 / 当代新修地方金石碑刻书备忘录: 新密古城碑刻, 冯俊杰, 中州古籍出版社, 2021",
+   "corrections": {},
+   "note": "Corroborated by specialist bibliography; no commercial catalog/ISBN located but publisher 中州古籍 and editor 冯俊杰 (known 戏曲/碑刻 scholar) are plausible and consistent."
+  },
+  {
+   "id": "mc-zhengzhou-xingyang-dahai-10549",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 当代新修地方金石碑刻书备忘录: 郑州荥阳大海寺石刻造像, 河南美术出版社, 2006",
+   "corrections": {},
+   "note": "Title/publisher/year corroborated by specialist bibliography; editor (河南省古代建筑保护研究所) not independently confirmed in a catalog record."
+  },
+  {
+   "id": "mc-zhenwei-beike-10550",
+   "verified": true,
+   "confidence": "low",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 + Academia Sinica list: 溱洧碑刻, 河南人民出版社, 2016",
+   "corrections": {},
+   "note": "Corroborated only by compiled bibliographies; no ISBN/library record found. Author field is a placeholder (溱洧流域), not a real attribution."
+  },
+  {
+   "id": "mc-anyang-muzhi-xuanbian-10551",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "CSSN/silkroads.org.cn + douban 科学出版社: 安阳墓志选编, 安阳市文物考古研究所·安阳博物馆 编, 科学出版社, 2015-12, ISBN 9787030467980, 428元, 收录153方",
+   "corrections": {
+    "isbn": "9787030467980"
+   },
+   "note": "Solidly confirmed with ISBN and contents (153 epitaphs, 后赵–明清)."
+  },
+  {
+   "id": "mc-anyang-xian-gu-beike-jic-10552",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 当代新修地方金石碑刻书备忘录 (archives/13932 & 8970) and Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli) both list: 2004, 邓叶君等, 安阳县古碑刻集萃, no publisher (内部资料)",
+   "corrections": {},
+   "note": "Internal/neibu publication, no formal press — only catalogued in the two specialist bibliographies, not in commercial book catalogs. Metadata matches the cited source."
+  },
+  {
+   "id": "mc-linzhou-xiancun-gujin-be-10553",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 备忘录 (archives/13932) and Academia Sinica 新編碑刻集書目: 1996, 王宏民, 林州现存古今碑刻集, 文茂出版社",
+   "corrections": {},
+   "note": "Publisher string 文茂出版社 reproduced exactly as it appears in the source bibliographies; it is an obscure/small press name not found in mainland press registries, but the citation is faithful to its source. Citation accurate."
+  },
+  {
+   "id": "mc-zhenmin-yonggu-huaxian-l-10554",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Douban book/35771428, Google Books (id GOmYzwEACAAJ), and silkroads.org.cn 书籍资料库: 贞珉永固：滑县历代金石精品辑录, 胡晓涵, 河南美术出版社, 2021-11, ISBN 9787540154318",
+   "corrections": {
+    "isbn": "9787540154318"
+   },
+   "note": "Fully confirmed in commercial catalogs. First epigraphic volume published by Huaxian; 217 inscriptions. Added ISBN."
+  },
+  {
+   "id": "mc-puyang-beike-muzhi-10555",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 备忘录 (archives/13932 & 8970) and Academia Sinica 新編碑刻集書目: 2003, 王义印编著, 濮阳碑刻墓志, 中州古籍出版社",
+   "corrections": {},
+   "note": "All metadata (author, year, publisher) match the cited source bibliographies."
+  },
+  {
+   "id": "mc-xinxiang-gudai-jianzhu-y-10556",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 备忘录 (archives/13932): 2010, 傅山泉、王政, 新乡古代建筑与石刻艺术, 中州古籍出版社",
+   "corrections": {},
+   "note": "Co-author 王政 confirmed alongside 傅山泉; year and publisher match. Listed in specialist bibliography."
+  },
+  {
+   "id": "mc-weihui-lidai-beike-10557",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 备忘录 (archives/13932) and Academia Sinica 新編碑刻集書目: 2013, 安喜萍, 卫辉历代碑刻, 中州古籍出版社",
+   "corrections": {},
+   "note": "All metadata match the cited source."
+  },
+  {
+   "id": "mc-muye-ming-bei-10558",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "sklib.cn (中国社会科学文库) bookPreview ID 8289609 and haijiaoshi.com 备忘录: 牧野名碑, 霍德柱, 中国社会科学出版社, 2020 (Beijing)",
+   "corrections": {},
+   "note": "Confirmed in publisher's own digital library (sklib.cn). Part of 霍德柱's 牧野 series on the Xinxiang region. Fully matches."
+  },
+  {
+   "id": "mc-bigan-miao-beike-jiexi-10559",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 备忘录 lists '比干庙碑刻解析, 霍德柱, 中州古籍出版社, 2014'; commercial catalog 中图网/bookschina.com (9061233) lists the published title as 《比干庙古碑刻解析》, 霍德柱, 中州古籍出版社, ISBN 9787534854699",
+   "corrections": {},
+   "note": "Real book, author+publisher correct. Discrepancy: actual published title is 比干庙古碑刻解析 (inserts 古); commercial listing gives ISBN 9787534854699 and a 2017 printing, vs the bibliography's 2014. Citation matches its stated source but the canonical title/year differ slightly."
+  },
+  {
+   "id": "mc-yin-taishi-bigan-miao-be-10560",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 备忘录 (archives/13932): 1994, 河南省卫辉市纪念比干诞辰3085周年筹委会宣传组, 殷太师比干庙碑刻选集 (internal publication)",
+   "corrections": {},
+   "note": "Internal/neibu publication tied to the 1994 Bigan 3085th-anniversary commemoration; corroborated by Weihui Bigan-temple sources describing the 1993+ anniversary events. Matches cited source."
+  },
+  {
+   "id": "mc-huixian-beijie-shike-10561",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "haijiaoshi.com 备忘录 (archives/13932 & 8970) and Academia Sinica 新編碑刻集書目: 2012, 王建新, 辉县碑碣石刻, 中州古籍出版社",
+   "corrections": {},
+   "note": "All metadata match the cited source bibliographies."
+  },
+  {
+   "id": "mc-changyuan-jinshi-zhi-10562",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "长垣市政协 (zxcy.gov.cn) article '《长垣金石志》深受社会好评' confirms 宋广民/西安地图出版社; also listed in haijiaoshi.com 当代新修地方金石碑刻书备忘录 (archives/8970) as 2019, 西安地图出版社, Henan section",
+   "note": "Compiled by 宋广民 (member Henan Writers Assoc.), 长垣文典大系 series. Year 2019 and publisher confirmed."
+  },
+  {
+   "id": "mc-miaolesi-beike-10563",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 (archives/13932): '2013，孙汝熙，《妙乐寺碑刻》，河南人民出版社。'; also in archives/8970 memorandum (2013, 河南人民出版社)",
+   "note": "Author, year, publisher all match."
+  },
+  {
+   "id": "mc-shanyang-shike-yishu-10564",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 (archives/13932): '2004，郭建设、索全星，《山阳石刻艺术》，河南美术出版社。'",
+   "note": "All fields match exactly."
+  },
+  {
+   "id": "mc-xiuwu-beike-jikao-10565",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 (archives/13932): '2013，刘文锴，《修武碑刻辑考》，中国矿业大学出版社。'",
+   "note": "刘文锴 is a Henan professor (later president of North China Univ. of Water Resources). All fields match."
+  },
+  {
+   "id": "mc-xiuwu-beijie-shike-10566",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 (archives/13932): '2016，修武县文化局，《修武碑碣石刻》，中州古籍出版社。'",
+   "note": "All fields match exactly."
+  },
+  {
+   "id": "mc-qinyang-shi-bowuguan-can-10567",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban book/subject/30460654 + bookschina; ISBN 9787030586124, 张红军 著, 科学出版社 2018, 280pp",
+   "note": "Title is '沁阳市博物馆藏墓志'. Confirms author/year/publisher; ISBN 9787030586124 available."
+  },
+  {
+   "id": "mc-zilingzhen-jinshi-zhi-10568",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 (archives/13932): '2017，张战营，《紫陵镇金石志》，郑州大学出版社。'",
+   "note": "Author here is a local compiler (not the agronomist of same name). All fields match."
+  },
+  {
+   "id": "mc-fugou-shike-10569",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com memorandum (archives/8970): 扶沟石刻, 2012, 中国广播电视出版社; also in 新编碑刻集书目 (archives/13932) under 郝万章",
+   "note": "Year 2012 confirmed by memorandum (one list shows 2011, but 2012 matches the item). All fields match."
+  },
+  {
+   "id": "mc-laozi-guli-gu-kebei-10570",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "haijiaoshi.com 新编碑刻集书目 (archives/13932): '2017，鹿邑县老子文化研发中心，《老子故里古刻碑》，线装书局。'",
+   "note": "All fields match exactly."
+  },
+  {
+   "id": "mc-wolonggang-wuhouci-beike-10571",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban book/subject/26807999 + baidu baike 柳玉东; 中州古籍出版社 2015-11, 柳玉东 主编, 任义玲/李桂阁/刘霞 编著, 400+ inscriptions",
+   "note": "Author breakdown and publisher/year all confirmed exactly."
+  },
+  {
+   "id": "mc-zhongguo-nanyang-han-hua-10572",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://book.douban.com/subject/26679760/ (Douban) + http://kaogu.cssn.cn/zwb/xszl/sztsg/zjxs/201601/t20160119_3936260.shtml (CSSN 中国考古)",
+   "corrections": {
+    "isbn": "9787534786013"
+   },
+   "note": "《中国南阳汉画像石大全》全10卷, 大象出版社 2015.09, 凌皆兵/王清建/牛天伟. ISBN 9787534786013. Solidly confirmed."
+  },
+  {
+   "id": "mc-hanhua-zonglu-nanyang-20-10573",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "http://www.bbtpress.com/bookview/10716.html (广西师范大学出版社 publisher page: 汉画总录20 南阳)",
+   "corrections": {},
+   "note": "Part of 朱青生主编《汉画总录》Nanyang sub-series, 广西师范大学出版社. Publisher's own page confirms vol.20 南阳. Author given as 王清建/朱青生主编 is plausible (朱青生 is series chief editor)."
+  },
+  {
+   "id": "mc-xiayi-lidai-shike-jikao-10574",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://ato-shoten.co.jp/index.php/product-120002.html + http://myace.jp/books/html/products/detail/7597 (Japanese antiquarian booksellers: 夏邑歴代石刻輯考)",
+   "corrections": {},
+   "note": "夏邑历代石刻辑考, 张帆/高艳艳, 河南美术出版社 2019.11. Confirmed via dealer listings; original sinica.edu.tw citation was a register URL, not the actual source, but book is real."
+  },
+  {
+   "id": "mc-wenhua-anfeng-10575",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "https://book.douban.com/subject/20432079/ (Douban 文化安豐)",
+   "corrections": {
+    "isbn": "9787534768989"
+   },
+   "note": "《文化安丰》(安阳县安丰乡, incl. 曹操高陵/西门豹祠/墓志石刻), 贾振林, 大象出版社 2011.11. ISBN 9787534768989. Confirmed."
+  },
+  {
+   "id": "mc-san-su-fen-ziliao-huibia-10576",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "三苏坟资料汇编 (1986, 郏县档案馆) not found in any catalogue (kongfz/douban/duxiu/library OPAC). 三苏坟 site itself is well documented, but this specific 1986 internal archival compilation has no traceable record. Plausible 内部资料 but unverified. Cited source was the sinica register URL, which does not list it."
+  },
+  {
+   "id": "mc-beisong-shanzhou-louzeyu-10577",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "http://www.guoxuemeng.com/gushuji/462440.html (国学梦 book DB: 北宋陕州漏泽园, 三门峡市文物工作队编)",
+   "corrections": {
+    "isbn": "9787501011636"
+   },
+   "note": "《北宋陕州漏泽园》三门峡市文物工作队, 文物出版社 1999.06. ISBN 9787501011636. Confirmed."
+  },
+  {
+   "id": "mc-laitan-shike-10696",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "淶滩石刻 (重庆出版社 2012, 合川区文物管理所): subject is real (淶滩二佛寺摩崖造像, national-level site) but no book catalogue record found for this title/publisher/year. Cited 'sinica 新編碑刻集書目' entry not verifiable via fetch. Title plausible but unconfirmed as a published volume."
+  },
+  {
+   "id": "mc-longduoshan-beike-xuan-10697",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "http://lib.scnu.edu.cn/search/juanzengmulu/2019/0920/14079.html (South China Normal Univ Library donation catalogue lists 龙多山碑刻选)",
+   "corrections": {},
+   "note": "龙多山碑刻选 confirmed to exist as a real catalogued book (SCNU library). Author 刘智 / 重庆出版社 / 2018 not independently confirmed from that listing, but title and existence verified."
+  },
+  {
+   "id": "mc-baidicheng-lidai-beike-x-10699",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "白帝城历代碑刻选 (魏靖宇, 中国三峡出版社 1996): 魏靖宇 is independently confirmed as the Baidi-cheng cultural-relics figure who organized its stele/碑廊 collections, and 中国三峡出版社 existed then, so the title is plausible — but no concrete bibliographic record (ISBN/library/seller) was found. Unverified."
+  },
+  {
+   "id": "mc-chongqing-shaoshu-minzu--10701",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "重庆少数民族碑刻楹联 (代银主编, 西南师范大学出版社 2015): no catalogue, seller, library, or CNKI record found for either the title or author 代银. Cannot confirm. Cited sinica register entry not verifiable. Unverified."
+  },
+  {
+   "id": "mc-yubei-guyun-10703",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "Baidu Baike / 重庆区域性公共图书馆联盟 catalogue summary (渝北古韵, 渝北区文物管理所 编, 重庆大学出版社); Academia Sinica 新編碑刻集書目",
+   "corrections": {
+    "year": "2014"
+   },
+   "note": "Real work confirmed; author 渝北区文物管理所 and publisher 重庆大学出版社 match. Two independent web summaries give 2014, not 2015 (Academia Sinica register's 2015 appears off by one year)."
+  },
+  {
+   "id": "mc-jiulong-foyuan-jiulongpo-10705",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "网易/163 华岩文丛 article (m.163.com/dy/article/G460LDI70514H0OL) + Baidu Baike 道坚法师 entry listing 《九龙佛缘》, 四川大学出版社 2015年1月",
+   "corrections": {},
+   "note": "Confirmed real; part of 华岩文丛 series by 道坚法师 (abbot of 华岩寺). SCU Press, 2015, ~22.3万字."
+  },
+  {
+   "id": "mc-baguo-fozong-banan-qu-fo-10706",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "四川大学出版社 official (文泉书局 wqbook.wqxuetang.com/book/3215355) + weread/微信读书 + AbeBooks; Google Books",
+   "corrections": {},
+   "note": "Confirmed, 2 vols (上/下) by 道坚法师, SCU Press. 上 ISBN 9787561491232, 下 ISBN 9787561495780."
+  },
+  {
+   "id": "mc-fo-zai-nanzhou-qijiang-g-10707",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "四川大学出版社 official press.scu.edu.cn/info/1353/42277.htm + WorldCat oclc/933570047",
+   "corrections": {},
+   "note": "Confirmed real; SCU Press, 道坚, ~2014. Both publisher site and WorldCat record present."
+  },
+  {
+   "id": "mc-foguo-xunzong-nanchuan-j-10708",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "四川大学出版社 official press.scu.edu.cn/info/1225/35828.htm + douban subject 31236732",
+   "corrections": {},
+   "note": "Confirmed real; SCU Press, 道坚法师, 2013. Publisher official page + douban listing."
+  },
+  {
+   "id": "mc-bayu-jianzai-fojiao-beit-10709",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "孔夫子 kongfz item 29800854 + douban subject 35152185",
+   "corrections": {},
+   "note": "Confirmed; 杨梅 编 (四川外国语大学), 巴蜀书社 2020. Collects 558 Buddhist inscriptions Sui–modern."
+  },
+  {
+   "id": "mc-bazhong-shiku-10710",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "douban subject 1659573 + silkroads.org.cn aid=75080",
+   "corrections": {},
+   "note": "Confirmed; 雷玉华, 巴蜀书社 2003, 173pp, ISBN 9787806595114."
+  },
+  {
+   "id": "mc-bazhong-shiku-neirong-zo-10711",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "微信读书/weread bookDetail (a7e32010811e58072g019875) + douban doulist 151596435",
+   "corrections": {},
+   "note": "Confirmed; 雷玉华、程崇勋 等 (成都文物考古研究所/北大中国考古学研究中心/巴州区文物管理所), 巴蜀书社 2006."
+  },
+  {
+   "id": "mc-guangyuan-shiku-neirong--10713",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Multiple catalogue references confirm 《广元石窟内容总录·皇泽寺卷》巴蜀书社 2008; douban doulist 151596435",
+   "corrections": {},
+   "note": "Confirmed; 皇泽寺卷, 四川省文物管理局 等, 巴蜀书社 2008."
+  },
+  {
+   "id": "mc-guangyuan-shiku-neirong--10714",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Web references confirm 《广元石窟内容总录·千佛崖卷》巴蜀书社 2014年5月 (上卷); douban doulist 151596435",
+   "corrections": {},
+   "note": "Confirmed; 千佛崖卷, compiled by 四川省文物管理局/成都文物考古研究所/北大中国考古学研究中心/广元千佛崖石刻艺术博物馆, 巴蜀书社 2014."
+  },
+  {
+   "id": "mc-sichuan-sanjian-tang-son-10715",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/32574414/ ; baike.baidu.com/item/53055210 ; ISBN 9787501048878, 文物出版社 2017",
+   "corrections": {},
+   "note": "Confirmed. Note exact published title is 四川散见唐宋佛道龛窟内容总录·自贡卷 (includes 内容). Editors 周科华/陈刚, 320 yuan, 185pp."
+  },
+  {
+   "id": "mc-sichuan-sanjian-tang-son-10716",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "Amazon.co.jp listing 四川散见唐宋佛道龛窟总录(达州卷)(精) ISBN 7501049076 ; CiNii BB2372515X ; 四川省文物考古研究院 主编, 文物出版社 2017",
+   "corrections": {},
+   "note": "Confirmed real. 达州卷 ISBN 9787501049073 (Amazon shows 7501049076). 主编 四川省文物考古研究院."
+  },
+  {
+   "id": "mc-sichuan-sanjian-tang-son-10717",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/31168122/ ; amazon.com ISBN 9787501056484 ; kaogu.cssn.cn t20190129_4819220 ; 文物出版社 2018-11",
+   "corrections": {},
+   "note": "Confirmed. 唐飞、俞天喜编, 高大伦总主编, 169pp, 280 yuan. Title also written with em-dash: 广元卷."
+  },
+  {
+   "id": "mc-mianyang-kanku-sichuan-s-10718",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/series/60440 (四川石窟寺大系) ; douban entry confirms 绵阳龛窟 于春/王婷, 文物出版社 2010",
+   "corrections": {},
+   "note": "Confirmed. Survey+research volume in 四川石窟寺大系 series; 南北朝-隋唐 Buddhist/Daoist cliff carvings in Mianyang."
+  },
+  {
+   "id": "mc-jiajiang-qianfoya-sichua-10719",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/19952365/ ; baike.baidu.com/item/3579344 ; books.com.tw CN10944610 ; ISBN 9787501035069, 文物出版社 2012-08, 647pp",
+   "corrections": {},
+   "note": "Confirmed. Four-institution authorship (四川省文物考古研究院, 西安美术学院, 乐山市文物局, 夹江县文物管理所). 四川石窟寺大系."
+  },
+  {
+   "id": "mc-renshou-niujiaozhai-shik-10720",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/30421707/ ; kaogu.cssn.cn t20190104_4806609 ; bookuu detail 101276744 ; ISBN 9787501053810, 文物出版社 2018-12",
+   "corrections": {},
+   "note": "Confirmed. Authors 王婷, 于春 (+高大伦, 田泳); 四川省文物考古研究院, 西北大学文化遗产学院, 仁寿县文化广电新闻出版局. 四川石窟寺大系."
+  },
+  {
+   "id": "mc-anyue-yuanjuedong-sichua-10721",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/35436434/ ; baike.baidu.com/item/55754393 ; cssn.cn t20200904_5179140 ; ISBN 9787501065059, 文物出版社",
+   "corrections": {
+    "year": "2019"
+   },
+   "note": "Confirmed real. Published Dec 2019 (input said 2020; the 2019 date in input note is correct). Full title 安岳圆觉洞：四川安岳圆觉洞石窟考古调查报告. 498 yuan. 四川石窟寺大系."
+  },
+  {
+   "id": "mc-anyue-wofoyuan-kaogu-dia-10722",
+   "verified": true,
+   "confidence": "high",
+   "confirmed_source": "book.douban.com/subject/26367337/ ; kaogu.cssn.cn t20150518_3933576 ; sciencereading.cn show.do id=BDF9417F... ; ISBN 9787030434418, 科学出版社",
+   "corrections": {
+    "year": "2015"
+   },
+   "note": "Confirmed. Authors 秦臻, 张雪芬, 雷玉华. Published March 2015 (input said 2014; douban/Science Press/kaogu give 2015). 大足学研究文库甲种第一号, 492pp, 328 yuan."
+  },
+  {
+   "id": "mc-sichuan-jiajiang-qianfoy-10723",
+   "verified": true,
+   "confidence": "medium",
+   "confirmed_source": "sckg.com/writings/1379.html (四川省文物考古研究院 official site, dedicated page titled 四川夹江千佛岩唐代佛教艺术研究)",
+   "corrections": {},
+   "note": "Real work; confirmed via official Sichuan Inst. of Archaeology publications page. Independent ISBN/douban record not surfaced in quick search, but title+authors (高大伦, 肥田路美, 于春) + 四川人民出版社 2017 are attested by the institute. Medium confidence on exact bibliographic details."
+  },
+  {
+   "id": "mc-sichuan-qionglai-tangdai-10725",
+   "verified": false,
+   "confidence": "low",
+   "confirmed_source": "",
+   "corrections": {},
+   "note": "COULD NOT CONFIRM. No library catalog, douban, kongfz, CiNii, or WorldCat record found for 四川邛崃唐代龙兴寺石刻 (中国古典艺术出版社 1958). Searches only return unrelated Qingzhou/other 龙兴寺 sites. Only evidence is the single haijiaoshi.com blog listing in the input. Plausible (中国古典艺术出版社 did publish 1958 Sichuan stone-carving titles e.g. 成都万佛寺石刻艺术), but unverified — title/year may be inexact. Flag for manual catalog check (国图/读秀)."
   }
  ]
 }
