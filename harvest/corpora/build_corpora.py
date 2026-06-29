@@ -132,26 +132,47 @@ try:
     fo = json.load(open(OUT + "/fanout-counties.json", encoding="utf-8")).get("corpora", [])
 except Exception:
     fo = []
-# verification verdicts (from the corpora-verify workflow), keyed by build id. If present,
-# drop rows that failed verification, apply metadata corrections, and flag web_verified.
+# Verification verdicts. A web row is kept ONLY if confirmed in a real LIBRARY CATALOG:
+#  - verify-results.json: confirmed_source matching CAT_RE (already a catalog), or
+#  - catalog-verify-results.json: in_catalog == true (CiNii / NDL / WorldCat / K10plus / NLC …).
+# Booksellers (douban/kongfz), blogs, news, publisher pages, and bibliographies do NOT count.
+CAT_RE = re.compile(r"ci\.nii|cinii|worldcat|k10plus|kxp\.k10|opac\.k10|gvk|d-nb|dnb|stabikat|hollis|lib\.harvard"
+                    r"|ndl\.go|ndlsearch|iss\.ndl|nlc\.cn|opac\.nlc|read\.nlc|find\.nlc|国家图书馆|國家圖書館|国图"
+                    r"|ncl\.edu\.tw|duxiu|读秀|讀秀|calis|\.lib\.|opac|图书馆|圖書館|联合目录|聯合目錄|union catalog|library catalog", re.I)
 try:
     verdicts = {v["id"]: v for v in json.load(open(OUT + "/verify-results.json", encoding="utf-8")).get("results", []) if v.get("id")}
 except Exception:
     verdicts = {}
+try:
+    catverdicts = {v["id"]: v for v in json.load(open(OUT + "/catalog-verify-results.json", encoding="utf-8")).get("results", []) if v.get("id")}
+except Exception:
+    catverdicts = {}
 for k, x in enumerate(fo):
     if not x.get("title_zh") or not x.get("province"): continue
     rid = slug(x.get("title_pinyin") or x["title_zh"], 10000 + k)
     v = verdicts.get(rid)
-    if verdicts and v and not v.get("verified"): continue          # verification dropped it
-    corr = (v or {}).get("corrections") or {}
+    if verdicts and not (v and v.get("verified")): continue        # must be verified at all
+    cv = catverdicts.get(rid)
+    in_cat = bool((v and CAT_RE.search(v.get("confirmed_source") or "")) or (cv and cv.get("in_catalog")))
+    if catverdicts and not in_cat: continue                        # catalog-only, once the catalog pass exists
+    corr = (cv and cv.get("corrections")) or (v and v.get("corrections")) or {}
     isbn_src = corr.get("isbn") or x.get("isbn")
+    def catname(s):
+        s = s or ""
+        for pat, nm in [(r"ci\.nii|cinii", "CiNii"), (r"ndl", "NDL"), (r"worldcat", "WorldCat"),
+                        (r"k10|gvk|d-nb|dnb", "K10plus"), (r"nlc|国家图书馆|國家圖書館|国图", "NLC"),
+                        (r"hollis|lib\.harvard", "Harvard"), (r"stabikat", "SBB"), (r"duxiu|读秀|讀秀", "讀秀")]:
+            if re.search(pat, s, re.I): return nm
+        return "catalog" if CAT_RE.search(s) else ""
+    catalog = (cv and cv.get("catalog")) or catname(v.get("confirmed_source") if v else "")
+    cat_url = (cv and cv.get("catalog_url")) or (v and v.get("confirmed_source")) or x.get("evidence", "")
     records.append({
         "title_zh": x["title_zh"], "title_pinyin": x.get("title_pinyin", ""),
         "author": corr.get("author") or x.get("author", ""), "year": corr.get("year") or x.get("year", ""),
         "publisher": corr.get("publisher") or x.get("publisher", ""), "scope": "",
         "isbn": ([re.sub(r"[\s\-]", "", isbn_src)] if isbn_src else []),
-        "gapfill": False, "web": True, "web_verified": bool(v and v.get("verified")),
-        "evidence": (v or {}).get("confirmed_source") or x.get("evidence", ""),
+        "gapfill": False, "web": True, "web_verified": True, "web_catalog": catalog,
+        "evidence": cat_url,
         "id": rid, "section": "province", "region": x.get("region", ""), "province": x["province"],
         "site": "", "category": "", "admin": x.get("admin", ""),
         "locality": clean_loc(x.get("locality", "")), "place": x["province"],

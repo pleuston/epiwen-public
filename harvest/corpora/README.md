@@ -29,20 +29,24 @@ the `Method & status` notes section, and drops exact-duplicate cross-listings.
 
 ## Output / counts
 
-`modern-corpora.json` — **1,330 corpora**: 22 national · 1,117 by province · 191 by site,
-across **650 distinct counties/localities**. 250 with a located holding, 33 gap-fill (✚).
+`modern-corpora.json` — **1,070 corpora**: 22 national · 857 by province · 191 by site,
+across **519 distinct counties/localities**. 250 with a located holding, 33 gap-fill (✚).
 
 Two sources are merged:
 - the original topographic inventory (732, holdings-checked); plus
 - **`fanout-counties.json`** — a 34-province multi-agent web fan-out (896 raw → 626 new after
   title-dedup vs the verified set) targeting county/prefecture-level works.
 
-**Verification** (`verify-results.json`, two workflow passes): each of the 626 fan-out rows
-was checked against an online source (douban / kongfz / CiNii / Academia Sinica / library
-catalogues / publisher). **598 confirmed → kept and flagged `web_verified` (shown "web ✓");
-28 unconfirmable → dropped; 63 metadata corrections applied** (ISBNs added, years refined,
-etc.). `build_corpora.py` consumes the verdicts (drop / correct / flag). Verified rows lose
-a title collision to a holdings-checked row.
+**Verification — library catalogues only.** Three workflow passes (`verify-results.json` +
+`catalog-verify-results.json`): each fan-out row had to be confirmed in an **actual library
+catalogue** — CiNii Books, **NDL**, WorldCat, K10plus/GVK, NLC (国图), 讀秀, or a university
+OPAC. Booksellers (douban/kongfz), blogs, news, publisher pages, and scholarly bibliographies
+do **not** count. **338 kept** (CiNii ~228, NDL ~72, plus WorldCat / K10plus / NLC / Shanghai
+/ Fujian / Stanford OPACs); **288 dropped** as uncatalogued (mostly local 内部資料 / committee
+publications); metadata corrected from the catalogues (publishers, years, ISBNs, editors).
+`build_corpora.py` keeps a web row only if catalog-confirmed and stores the catalogue
+(`web_catalog`) + record URL (shown as e.g. "NDL ✓ ↗"). Verified rows lose a title collision
+to a holdings-checked row.
 
 ## Geography (region → province → county/locality → site)
 

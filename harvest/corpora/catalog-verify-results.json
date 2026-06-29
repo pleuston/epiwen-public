@@ -1,0 +1,3675 @@
+{
+ "generated": "2026-06-29",
+ "source": "corpora-catverify workflow (CiNii/NDL/WorldCat/K10plus/NLC/讀秀/OPACs)",
+ "count": 553,
+ "in_catalog": 293,
+ "results": [
+  {
+   "id": "mc-fangshan-beike-tongzhi-d-10000",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB2728883X",
+   "note": "房山碑刻通志 (楊亦武) confirmed in CiNii Books, NCID BB2728883X; multi-volume set published 2018 by 社會科學文獻出版社 (vol.1) and later volumes by 學苑出版社 2020-2022. Also appears in NDL. This is vol.1 (2018, 社科文獻)."
+  },
+  {
+   "id": "mc-fangshan-beike-tongzhi-j-10001",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB2728883X",
+   "note": "房山碑刻通志 (楊亦武) multi-volume set in CiNii Books NCID BB2728883X (9 volume entries) and NDL. Note: CiNii/NDL record the later volumes (incl. these vols 2/3/5) as published by 學苑出版社 2020-2022, NOT 社會科學文獻出版社. Possible publisher correction for these volumes.",
+   "corrections": {
+    "publisher": "學苑出版社 (per CiNii/NDL for the 2020-2022 volumes; item lists 社會科學文獻出版社)"
+   }
+  },
+  {
+   "id": "mc-xin-rixia-fangbei-lu-fan-10002",
+   "in_catalog": false,
+   "note": "新日下訪碑録（房山卷）not found in CiNii Books, NDL, or WorldCat (WorldCat domain-restricted search returned only unrelated records). Only the 大興/通州/順義 volume of the series is catalogued in CiNii/NDL. Found only on publisher page (beijing.gov.cn), baidu baike, and the sinica bibliography — none are catalogs."
+  },
+  {
+   "id": "mc-xin-rixia-fangbei-lu-shi-10003",
+   "in_catalog": false,
+   "note": "新日下訪碑録（石景山卷、門頭溝卷）not found in CiNii Books, NDL, or WorldCat. Found only at booksellers (sanmin.com.tw) and bibliographies (sinica 新編碑刻集書目) — not catalogs. Only the 大興/通州/順義 volume of the series is catalogued."
+  },
+  {
+   "id": "mc-xin-rixia-fangbei-lu-dax-10004",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB22962783",
+   "note": "新日下訪碑録（大興卷、通州卷、順義卷）, 北京石刻藝術博物館編著, 北京燕山出版社 2016.4. Confirmed CiNii Books NCID BB22962783 (held by 3 libraries) and NDL."
+  },
+  {
+   "id": "mc-pinggu-shike-10006",
+   "in_catalog": false,
+   "note": "平谷石刻 (北京市平谷區文化委員會, 北京燕山出版社 2010) not found in CiNii Books or NDL. WorldCat unreachable (persistent HTTP 429), but domain-restricted searches surfaced nothing. Appears only in bibliographies (sinica, haijiaoshi) and douban — not catalogs. Likely a local committee publication."
+  },
+  {
+   "id": "mc-beijing-shijingshan-qu-l-10007",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA83416972",
+   "note": "北京市石景山区历代碑志选 (中共石景山区委宣传部 et al.), 同心出版社 2003.12. Confirmed CiNii Books NCID BA83416972, held by 8 libraries. CiNii title carries a leading 北京市 prefix vs. the item's 北京石景山區歷代碑誌選."
+  },
+  {
+   "id": "mc-shijingshan-lidai-jinshi-10008",
+   "in_catalog": false,
+   "note": "石景山歷代金石碑刻 (石景山文史第二十七輯), 政協北京市石景山區委員會, 北京日報出版社 2021 — not found in CiNii Books or NDL. WorldCat unreachable. As a 文史資料 committee series volume it is almost certainly uncatalogued internationally."
+  },
+  {
+   "id": "mc-huairou-beike-xuan-10010",
+   "in_catalog": false,
+   "note": "懷柔碑刻選 (北京市懷柔區文史資料委員會 2007) not found in CiNii Books or NDL. Self-published by the district 文史資料委員會 (publisher = compiler), a classic 内部資料 item; not held by any catalog checked."
+  },
+  {
+   "id": "mc-fangshan-shijing-tiji-zh-10011",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BC14537699",
+   "note": "房山石經題記整理與研究 (吳夢麟、張永強), 文物出版社 2021, all three volumes confirmed in CiNii Books, held by 13 libraries: 題記卷 BC14537699, 研究卷 BC14537790, 圖録卷 BC14537939."
+  },
+  {
+   "id": "mc-tianjin-shi-hongqiao-qu--10014",
+   "in_catalog": true,
+   "catalog": "Nankai University Library OPAC",
+   "catalog_url": "https://space.nankai.edu.cn/mspace/searchDetailLocal/mae5d4528d503c09bc0e0f56b7fba8b81",
+   "note": "天津市紅橋區碑石銘刻輯録及釋文 (2011). NOT in CiNii Books or NDL. Nankai University Library's own OPAC search index returned this title's catalog detail page for the 碑石銘刻/紅橋 query, indicating it is held there, but the record page (and opac.nankai.edu.cn item.php) is campus-restricted/unreachable from here, so the MARC record itself could not be opened. Marked in_catalog=true on the strength of the live university-OPAC index hit. WorldCat unreachable (429) for an independent cross-check."
+  },
+  {
+   "id": "mc-handan-yunhe-beike-10018",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB12757711",
+   "note": "邯郸运河碑刻 (王兴、李亚 eds.), 河北美术出版社 2012.1. Confirmed CiNii Books NCID BB12757711, held by 4 libraries."
+  },
+  {
+   "id": "mc-handan-diqu-sui-tang-wud-10019",
+   "in_catalog": false,
+   "note": "邯鄲地區隋唐五代碑刻校錄 (任乃宏, 中國文聯出版社 2014) not found in CiNii Books, NDL, or WorldCat (domain-restricted search returned only unrelated records). The related 校釋 (2018) edition also uncatalogued. Found only in scholarly bibliographies/douban, which do not count."
+  },
+  {
+   "id": "mc-handan-diqu-sui-tang-wud-10020",
+   "in_catalog": false,
+   "note": "邯鄲地區隋唐五代碑刻校釋（上下冊）(任乃宏、張潤澤、王興, 中國文史出版社 2018, ISBN 9787503495526, 875pp) not found in CiNii Books, NDL, or WorldCat. Appears only on douban, Handan cultural-relics bureau site, blogs, and a NPPA grant list — none are catalogs.",
+   "corrections": {
+    "isbn": "9787503495526"
+   }
+  },
+  {
+   "id": "mc-shexian-shike-jingcui-10021",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or WorldCat. Appears only in scholarly bibliographies (Academia Sinica 新編碑刻集書目, haijiaoshi, douban) and on kongfz/孔夫子 — none of which count as library catalogs. 河北人民出版社 2018, 牛永芳 confirmed via non-catalog sources."
+  },
+  {
+   "id": "mc-shexian-beike-jilu-10022",
+   "in_catalog": false,
+   "note": "Committee publication (政協涉縣委員會) via 中國文史出版社 2020. Not located in any library catalog (CiNii/NDL/WorldCat); only listed in scholarly inscription bibliographies."
+  },
+  {
+   "id": "mc-shexian-beiqi-kejing-10023",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=涉県北斉刻経",
+   "corrections": {
+    "author": "歐陽中石（編）"
+   },
+   "note": "Found in CiNii Books (3 records: upper vol., lower vol., complete set; up to 3 libraries). Editor is 歐陽中石 (item had blank author). 萬卷出版公司 2009.9 confirmed."
+  },
+  {
+   "id": "mc-qiuxian-beike-10024",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or WorldCat (searched title and title+author 韓愛峰). 人民美術出版社 2018 confirmed only via non-catalog sources; no library holding located."
+  },
+  {
+   "id": "mc-qinghe-beike-10025",
+   "in_catalog": false,
+   "note": "Local cultural-bureau / 武松文化工作室 production, 2011. Not found in any library catalog (CiNii/NDL/WorldCat); appears only in inscription bibliographies."
+  },
+  {
+   "id": "mc-weixian-gu-beike-xuan-10026",
+   "in_catalog": false,
+   "note": "Self-published by the editorial committee (威縣古碑刻選編委員會) 2015, an internal/committee 内部資料-type work. Not held in any catalog (CiNii no results); only in scholarly bibliographies."
+  },
+  {
+   "id": "mc-hebei-baixiang-jinshi-lu-10027",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=河北柏郷金石録",
+   "corrections": {
+    "author": "柏鄉縣人民政府編著；史雲征、史磊主編"
+   },
+   "note": "Found in CiNii Books (2 libraries). Editors per catalog: 柏鄉縣人民政府編著, 史雲征・史磊主編 (item had blank author). 文物出版社 2006.10 confirmed."
+  },
+  {
+   "id": "mc-longyao-beizhi-jiyao-10029",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=隆堯碑志輯要",
+   "note": "Found in CiNii Books (2 libraries). 戴建兵主編, 天津人民美術出版社 2016.12 — matches item metadata."
+  },
+  {
+   "id": "mc-ningjin-xian-jinshi-zhi-10030",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (tried 寧晋県金石志 and 寧晋金石志), NDL, or WorldCat. 中州古籍出版社 2015 attested only in scholarly bibliographies (sinica 新編碑刻集書目, haijiaoshi), not a catalog."
+  },
+  {
+   "id": "mc-lincheng-xian-beike-jilu-10031",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books. 河北美術出版社 2019 attested only in inscription bibliographies (sinica, haijiaoshi, douban); no library holding located."
+  },
+  {
+   "id": "mc-neiqiu-beike-jilu-10032",
+   "in_catalog": false,
+   "note": "Self-published by 內丘縣政協文史委員會 2019 (committee 内部資料). Not found in any library catalog (CiNii no results)."
+  },
+  {
+   "id": "mc-xingtai-kaiyuansi-jinshi-10033",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=邢台開元寺金石志",
+   "note": "Found in CiNii Books (7 libraries — the best-held item). 冀金剛・趙福壽, 國家圖書館出版社 (National Library of China Press) 2013.9 — matches item metadata."
+  },
+  {
+   "id": "mc-jingxing-beishi-wenxuan-10036",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or WorldCat. 政協井陘縣委員會 / 河北人民出版社 2012 attested only in scholarly inscription bibliographies (haijiaoshi 新編碑刻集書目), not a catalog."
+  },
+  {
+   "id": "mc-shijiazhuang-shi-luquan--10038",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=石家荘市鹿泉碑刻輯録",
+   "note": "Found in CiNii Books (1 library). 戴建兵主編, 河北人民出版社 2018.12, series 河北金石文化叢書·太行山系列 — matches item metadata."
+  },
+  {
+   "id": "mc-lingshou-beike-jilu-10039",
+   "in_catalog": false,
+   "note": "Checked CiNii Books (0), NDL (0), and K10plus/GVK SRU (0 records) for both 靈壽碑刻輯錄 and 灵寿碑刻辑录. Only non-catalog sources appear (publisher pages, sinica 新編碑刻集書目 bibliography, donation news). WorldCat could not be checked (persistent HTTP 429). Part of 河北金石文化丛书 / 太行山系; an obscure regional compilation not held by any verifiable library catalog."
+  },
+  {
+   "id": "mc-shenze-beike-jilu-10040",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB28356378",
+   "note": "深澤碑刻輯録, ed. 戴建兵, 河北人民出版社 2017.9; held at 2 libraries per CiNii. Metadata matches."
+  },
+  {
+   "id": "mc-dingzhou-kaiyuansi-ta-sh-10042",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB31359057",
+   "note": "定州開元寺塔石刻題記, ed. 定州開元寺塔文物保護管理局, 文物出版社 2019.12 (定州历史文化丛书); held at 6 libraries. Metadata matches."
+  },
+  {
+   "id": "mc-zhuozhou-beiming-muzhi-10043",
+   "in_catalog": false,
+   "note": "Checked CiNii Books (0), NDL (0), and K10plus/GVK SRU (0) for 涿州碑銘墓志 and 涿州碑铭墓志. No catalog record found; only general/non-catalog hits. WorldCat unreachable (429). A 1991 河北教育出版社 local publication; appears unheld by verifiable catalogs."
+  },
+  {
+   "id": "mc-zhuozhou-zhenshi-lu-10044",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA84332641",
+   "note": "涿州贞石录, ed. 涿州市文物保管所, 北京燕山出版社 2005.10 (涿州历史文化丛书); held at 6 libraries. Metadata matches."
+  },
+  {
+   "id": "mc-gu-zhuozhou-fojiao-keshi-10045",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA86306438",
+   "note": "古涿州佛教刻石, 杨卫东, 河北教育出版社 2007.5; held at 7 libraries. Metadata matches."
+  },
+  {
+   "id": "mc-yuxian-beiming-jilu-10046",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA91254399",
+   "note": "蔚縣碑銘輯录, 广西师范大学出版社 2009.6; held at 11 libraries. CiNii lists 鄧慶平 as compiler (編録) and 趙世瑜 as reviewer (審訂); catalog author 趙世瑜、鄧慶平 is consistent."
+  },
+  {
+   "id": "mc-mancheng-xian-lidai-beis-10047",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB11719105",
+   "note": "滿城歷代碑石刻辑录, ed. 范福生, 河北教育出版社 2011.12; held at 3 libraries. Metadata matches (CiNii title displays without 縣)."
+  },
+  {
+   "id": "mc-baoding-chutu-muzhi-xuan-10048",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA66602030",
+   "note": "保定出土墓志选注, ed. 侯璐, 河北美术出版社 2003.4; held at 6 libraries. Metadata matches."
+  },
+  {
+   "id": "mc-gu-lianchi-beike-cuiji-10049",
+   "in_catalog": false,
+   "note": "Checked CiNii Books (0), NDL (0), and K10plus/GVK SRU (0) for 古蓮池碑刻萃集 and 古莲池碑刻萃集. Only non-catalog sources (sinica 新編碑刻集書目 bibliography, 莲池书院博物馆 site, baike, news). WorldCat unreachable (429). 1999 花山文藝出版社 local publication; unheld by verifiable catalogs."
+  },
+  {
+   "id": "mc-beiyuemiao-bei-xuanzhu-10050",
+   "in_catalog": false,
+   "note": "Checked CiNii Books (0), NDL (0), and K10plus/GVK SRU (0) for 北岳廟碑選注 and 北岳庙碑选注. Only the sinica 新編碑刻集書目 bibliography (not a catalog) references it. WorldCat unreachable (429). 2003 中國文聯出版社; appears unheld by verifiable catalogs."
+  },
+  {
+   "id": "mc-gu-beiyue-yicun-beishi-l-10051",
+   "in_catalog": false,
+   "note": "Checked CiNii Books (0), NDL (0), and K10plus/GVK SRU (0) for 古北岳遺存碑石錄 and 古北岳遗存碑石录. Only a sohu article cites it as a reference work; no catalog record. WorldCat unreachable (429). Publisher is 曲陽縣文物保管所 (2007) — a county cultural-relics office internal publication, typical 内部資料 unheld by any catalog."
+  },
+  {
+   "id": "mc-quyang-baishi-zaoxiang-y-10052",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA77584509",
+   "note": "曲阳白石造像研究, 冯贺军, 紫禁城出版社 2005.9 (紫禁書系 第2辑7); held at 7 libraries. Metadata matches."
+  },
+  {
+   "id": "mc-quni-gouchen-shunping-be-10053",
+   "in_catalog": false,
+   "note": "Checked CiNii Books (0), NDL (0), and K10plus/GVK SRU (0) for 順平碑刻文化 and 曲逆钩沉. Only the sinica 新編碑刻集書目 bibliography references it (not a catalog). WorldCat unreachable (429). Recent 2021 河北大學出版社 regional publication; not yet found in any verifiable library catalog."
+  },
+  {
+   "id": "mc-hejian-jinshi-yilu-10054",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=河間金石遺錄",
+   "note": "Confirmed in CiNii Books (河間金石遺録, 田國福編, 河北教育出版社, 2008.1); held by 10 libraries. Title/author/publisher/year all match."
+  },
+  {
+   "id": "mc-cangzhou-chutu-muzhi-10055",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=滄州出土墓誌",
+   "note": "Confirmed in CiNii Books (沧州出土墓志, 滄州市文物局編, 科学出版社, 2007.8, 沧州历史文化丛书); held by 19 libraries. Also independently confirmed in NDL Search. All metadata matches."
+  },
+  {
+   "id": "mc-beiming-jicui-nanpi-beim-10057",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. Local 政協南皮縣委員會 committee publication (2020); not found in any real library catalog checked."
+  },
+  {
+   "id": "mc-jiedi-yubeiyuan-beike-ji-10059",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. Issued by 河北省南運河河務中心 (a water-administration body, not a publisher); not found in any real library catalog."
+  },
+  {
+   "id": "mc-hengshui-chutu-muzhi-10060",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL Search; no match in scoped WorldCat/K10plus searches (K10plus/WorldCat direct fetch blocked by anti-bot). Not located in any catalog despite 河北美術出版社 imprint."
+  },
+  {
+   "id": "mc-shenzhou-fangbei-lu-10061",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL Search; no WorldCat/K10plus match in scoped searches. Local publication via 深州市文化廣電新聞出版局 / 北京時代華文書局 (2014); not found in any catalog."
+  },
+  {
+   "id": "mc-zaoqiang-beike-10062",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL Search. 河北人民出版社 imprint claimed but no catalog record found anywhere checked."
+  },
+  {
+   "id": "mc-zaoqiang-yimin-beike-10063",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL Search. 黃河水利出版社 imprint claimed but no catalog record found anywhere checked."
+  },
+  {
+   "id": "mc-tangshan-beike-xuanjie-10065",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. 唐山市政協文史資料委員會 committee publication (文史資料, 內部資料 type); not held in any real library catalog."
+  },
+  {
+   "id": "mc-fengrun-beike-jicui-10066",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. Explicitly 內部資料 from 政協唐山市豐潤區委員會 (2004); not in any library catalog."
+  },
+  {
+   "id": "mc-qianxi-shike-10067",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL Search; scoped WorldCat search returned only unrelated works (kongfz reseller and Sinica bibliography do not count). 百花文藝出版社 imprint claimed but no catalog record located."
+  },
+  {
+   "id": "mc-zunhua-gu-beijie-10068",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. 政協遵化市委員會 committee publication (2013); not held in any real library catalog."
+  },
+  {
+   "id": "mc-luanzhou-beike-xuanjie-10069",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. 政協滦縣委員會 committee publication (2015); not held in any real library catalog."
+  },
+  {
+   "id": "mc-luannan-gujin-bei-xuan-10070",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books. 政協滦南縣委員會 committee publication (2015); not held in any real library catalog."
+  },
+  {
+   "id": "mc-ming-jizhen-changcheng-s-10071",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB26524471",
+   "note": "明薊镇长城石刻, ed. 河北省文物研究所 (chief ed. 郑绍宗), 文物出版社 2017.11. Held in 4 CiNii libraries. Title/author/year/publisher all match."
+  },
+  {
+   "id": "mc-bishu-shanzhuang-beiwen--10072",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA57891276",
+   "corrections": {
+    "author": "楊天在 (Yang Tianzai) — CiNii records the author as 杨天在, not 楊天佐"
+   },
+   "note": "避暑山庄碑文释译, 紫禁城出版社 1985.8. Held in 10 CiNii libraries. Catalog spells the author 杨天在; the supplied form 楊天佐 also circulates in epigraphy bibliographies. Same work either way."
+  },
+  {
+   "id": "mc-wai-bamiao-beiwen-zhuyi-10073",
+   "in_catalog": true,
+   "catalog": "NDL (also CiNii Books)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/books/R100000002-Ia0000020450",
+   "note": "外八庙碑文注译, 齐敬之, 紫禁城出版社 1985 (NDL call no. GE218-C1). Also CiNii BA56412811 (14 libraries). All fields match."
+  },
+  {
+   "id": "mc-mulan-weichang-beiwen-sh-10074",
+   "in_catalog": false,
+   "note": "木蘭圍場碑文釋譯 (袁丽坪/韩利, 天津大学出版社 1998). 0 results in NDL and 0 in CiNii Books. Web search surfaces only the Academia Sinica 新編碑刻集書目 (idv.sinica.edu.tw/ryli), a scholarly bibliography that does not count. WorldCat could not be checked (persistent HTTP 429). No real library catalog record found — likely an obscure local committee publication."
+  },
+  {
+   "id": "mc-wei-zheng-gongyuan-beike-10075",
+   "in_catalog": false,
+   "note": "魏徵公園碑刻萃集 (孟慧贤, 河北美术出版社 2009). 0 results in NDL and 0 in CiNii Books. Web search only surfaces the Academia Sinica 新編碑刻集書目 bibliography (does not count). WorldCat could not be checked (persistent HTTP 429); K10plus blocked by Anubis. No real library catalog record found — a local park inscription compilation."
+  },
+  {
+   "id": "mc-yecheng-beiwuzhuang-chut-10076",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB28870043",
+   "note": "邺城北吴庄出土佛教造像, 中国社会科学院考古研究所 + 河北省文物研究所, 科学出版社 2019.7. Held in 14 CiNii libraries. All fields match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10077",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB03832576",
+   "note": "三晋石刻大全·临汾市洪洞县卷, 山西出版集团:三晋出版社 2009.8. Held in 9 CiNii libraries. Matches (upper+lower bound under one record)."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-dato-10078",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB03124474",
+   "note": "三晋石刻大全·大同市灵丘县卷 (ed. 高凤山), 三晋出版社, 2010.1-. Held in 11 CiNii libraries. This record spans 2010.1- and includes both 正编 and 续编."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-dato-10079",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB03124474",
+   "note": "三晋石刻大全·大同市灵丘县卷续编 (2012). No separate CiNii record; the supplement (续编) is cataloged together with the main 灵丘县卷 under NCID BB03124474 (described as 2010.1-, 正编+续编, 11 libraries). Held in a catalog, bundled with the main volume."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-xinz-10080",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB03124871",
+   "note": "三晋石刻大全·忻州市宁武县卷, 三晋出版社 2010.1. Held in 8 CiNii libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yang-10081",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB05537668",
+   "note": "三晋石刻大全·阳泉市盂县卷 (ed. 李晶明/Li Jingming), 三晋出版社 2010.9. Held in 7 CiNii libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10082",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB03831777",
+   "note": "三晋石刻大全·晋中市寿阳县卷, 三晋出版社 2010.4. Held in 9 CiNii libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10083",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB05379272",
+   "note": "三晋石刻大全·晋中市灵石县卷, 三晋出版社 2010.7. Held in 9 CiNii libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10084",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB05465738",
+   "note": "三晋石刻大全·晋中市左权县卷, 三晋出版社 2010.9. Held in 9 CiNii libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10085",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 鹽湖",
+   "note": "三晋石刻大全 運城市鹽湖區卷, 張培蓮 主編, 三晋出版社, 2010.10. Confirmed in NDL; also CiNii Books NCID BB06936512 (held in 11 libraries). Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-taiy-10086",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 杏花岭",
+   "note": "三晋石刻大全 太原市杏花嶺區卷, 魏民 主編, 三晋出版社, 2011.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10087",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 沁源",
+   "note": "三晋石刻大全 長治市沁源縣卷, 杜天云 主編, 三晋出版社, 2011.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinc-10088",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 高平",
+   "corrections": {
+    "year": "2010"
+   },
+   "note": "三晋石刻大全 晉城市高平市卷 (上下 / set), 常書銘 主編, 三晋出版社. Editor matches. NDL records year as 2010.11 (input gave 2011) — possible correction; some sources list 2011, so treat as uncertain."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10089",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 尧都",
+   "note": "三晋石刻大全 臨汾市堯都區卷, 王天然 主編, 三晋出版社, 2011.11. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10090",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 侯马",
+   "note": "三晋石刻大全 臨汾市侯馬市卷, 高青山 主編, 三晋出版社, 2011.2. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10091",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 曲沃",
+   "note": "三晋石刻大全 臨汾市曲沃縣卷, 雷濤、孫永和 主編, 三晋出版社, 2011.10. Editors and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-dato-10092",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 左云",
+   "note": "三晋石刻大全 大同市左雲縣卷, 閆榮 主編, 三晋出版社, 2012.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-shuo-10093",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 平鲁",
+   "note": "三晋石刻大全 朔州市平魯區卷, 周亮 主編, 山西出版傳媒集團三晋出版社, 2012.3. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-taiy-10094",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 尖草坪",
+   "note": "三晋石刻大全 太原市尖草坪區卷, 苗元隆 主編, 三晋出版社, 2012.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-taiy-10095",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 古交",
+   "note": "三晋石刻大全 太原市古交市卷, 李文清 主編, 三晋出版社, 2012.3. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10096",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 榆次",
+   "note": "三晋石刻大全 晉中市榆次區卷, 王琳玉 主編 (闫震 執行主編), 山西出版傳媒集團三晋出版社, 2012.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10097",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 和顺",
+   "note": "三晋石刻大全 晉中市和順縣卷, 馮錦昌 主編, 山西出版傳媒集團三晋出版社, 2012.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-l-li-10098",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 孝义",
+   "note": "三晋石刻大全 呂梁市孝義市卷 (上下 / set), 杜紅濤 主編, 三晋出版社, 2012.12. Editor and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10099",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library) + CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB15063956",
+   "note": "长治市长治县卷, 2012.12, 三晋出版社, ed. 賈圪堆. Held in NDL and 7 CiNii Books libraries. Matches catalog data."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10100",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library) + CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB15063796",
+   "note": "长治市长治县炎帝碑林卷, 2012.12, 三晋出版社, ed. 賈圪堆. Held in NDL and 7 CiNii Books libraries. Matches catalog data."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10101",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970304959863671733",
+   "note": "长治市黎城县卷, 2012.12, 三晋出版社. Part of 三晋石刻大全 series. Found in NDL."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10102",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970304959960212864",
+   "note": "长治市屯留县卷, 2012.12, 三晋出版社, eds. 冯贵兴/徐松林. Found in NDL; editors match catalog data."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinc-10103",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970586434840929163",
+   "note": "晋城市城区卷, 2012.12, 山西出版传媒集团三晋出版社, eds. 杨晓波/李永红. Found in NDL; editors match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinc-10104",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1971993809701640727",
+   "note": "晋城市沁水县卷, 2012 (NDL gives 2012.4), 三晋出版社, ed. 车国梁. Found in NDL; year matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinc-10105",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970023484878290818",
+   "note": "晋城市泽州县卷 [セット/上下], 2012.12, 山西出版传媒集团三晋出版社, ed. 王麗. Found in NDL as a set (上下 matches); editor matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinc-10106",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1971149384746144026",
+   "corrections": {
+    "year": "2013"
+   },
+   "note": "晋城市陵川县卷, 三晋出版社, ed. 王立新. Found in NDL, which dates it 2013.4 (catalog data says 2012); editor matches. Year correction suggested."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinc-10107",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970586434888704436",
+   "note": "晋城市阳城县卷, 2012 (NDL gives 2012.4), 三晋出版社, ed. 卫伟林. Found in NDL; year matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10108",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970586434832005167",
+   "note": "临汾市古县卷, 2012.12, 三晋出版社, ed. 曹廷元. Found in NDL; editor matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10109",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970867909865299126",
+   "note": "临汾市安泽县卷, 2012 (NDL gives 2012.1), 三晋出版社, ed. 高剑峰. Found in NDL; year and editor match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10110",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970586434840333765",
+   "note": "临汾市浮山县卷, 2012 (NDL gives 2012.9), 三晋出版社, eds. 张金科/姚锦玉/邢爱勤. Found in NDL; editors match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-dato-10111",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970586434794019878",
+   "note": "大同市广灵县卷, 2013.12, 三晋出版社, ed. 刘祖福. Found in NDL; year and editor match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-taiy-10113",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1970023484985203387",
+   "note": "太原市万柏林区卷, 2013.12, 三晋出版社, ed. 张新. Found in NDL; year and editor match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-l-li-10114",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 柳林县",
+   "note": "NDL record: 三晋石刻大全 吕梁市柳林县卷, 高继平 editor, 三晋出版社, 2013.12. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10115",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 平顺县",
+   "note": "NDL record: 三晋石刻大全 长治市平顺县卷, 申树森 editor, 三晋出版社, 2013.5. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10116",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 武乡县",
+   "note": "NDL record: 三晋石刻大全 长治市武乡县卷, 李树生 editor, 三晋出版社, 2013.8. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10117",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 长子县",
+   "note": "NDL record: 三晋石刻大全 长治市长子县卷, 申修福 editor, 三晋出版社, 2013.8. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10118",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 蒲县",
+   "note": "NDL record: 三晋石刻大全 临汾市蒲县卷, 王东全 editor, 三晋出版社, 2013.12. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-dato-10119",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 南郊区",
+   "note": "NDL record: 三晋石刻大全 大同市南郊区卷, 许德合 editor, 三晋出版社, 2014.8. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-dato-10120",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 大同县",
+   "note": "NDL record: 三晋石刻大全 大同市大同县卷, 梁斌龙 editor, 三晋出版社, 2014.9. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-shuo-10121",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 怀仁县",
+   "note": "NDL record: 三晋石刻大全 朔州市怀仁县卷, 周志强 editor, 三晋出版社, 2014.12. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-taiy-10122",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 迎泽区",
+   "note": "NDL record: 三晋石刻大全 太原市迎泽区卷, 刘文华 editor, 三晋出版社, 2014.9. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-l-li-10123",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 石楼县",
+   "note": "NDL record: 三晋石刻大全 吕梁市石楼县卷, 刘应刚 editor (马洪 exec. ed.), 三晋出版社, 2014.4. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10124",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 壶关县",
+   "note": "NDL record: 三晋石刻大全 长治市壶关县卷, 张平和 editor, 三晋出版社, 2014.8. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10125",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 霍州市",
+   "note": "NDL record: 三晋石刻大全 临汾市霍州市卷, 段新莲 editor, 三晋出版社, 2014.12. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10126",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 乡宁县",
+   "note": "NDL record: 三晋石刻大全 临汾市乡宁县卷, 杜银安 editor, 三晋出版社, 2014.12. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10127",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=三晋石刻大全 大宁县",
+   "note": "NDL record: 三晋石刻大全 临汾市大宁县卷, 李宁莲 editor, 三晋出版社, 2014.12. Author and year match."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10128",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB18453141",
+   "note": "三晋石刻大全 运城市绛县卷, 柴广胜主编, 三晋出版社 2014.12. Also held by NDL (National Diet Library). 7 holding libraries on CiNii. Part of series 三晋石刻大全 (刘泽民总主编). Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-l-li-10130",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB20630261",
+   "note": "三晋石刻大全 吕梁市方山县卷, 武有平主编, 三晋出版社 2015.7. 8 holding libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-chan-10131",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB21342207",
+   "note": "三晋石刻大全 长治市襄垣县卷, 赵栓庆主编, 三晋出版社 2015.11. 6 holding libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10132",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB23373948",
+   "note": "三晋石刻大全 临汾市永和县卷, 杨年玉主编, 三晋出版社 2015.6. 7 holding libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10133",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB22991500",
+   "note": "三晋石刻大全 运城市新绛县卷, 王国杰主编, 三晋出版社 2015.10. 8 holding libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-shuo-10134",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB26058798",
+   "note": "三晋石刻大全 朔州市朔城区卷, 杜启贵主编, 三晋出版社 2017.3. 8 holding libraries. Matches given metadata (上下 = 2 vols)."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-l-li-10135",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB26548902",
+   "note": "三晋石刻大全 吕梁市汾阳市卷, 武登云主编, 三晋出版社 2017.9. 5 holding libraries. 全三册 (3 vols, 上/中/下). Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10136",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB26335672",
+   "note": "三晋石刻大全 临汾市吉县卷, 冯吉平主编, 三晋出版社 2017.7. 7 holding libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10137",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB29118058",
+   "note": "三晋石刻大全 运城市芮城县卷, 李燕妮主编, 三晋出版社 2018.11. 7 holding libraries. Also appears in NDL search. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10138",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=%E4%B8%89%E6%99%8B%E7%9F%B3%E5%88%BB%E5%A4%A7%E5%85%A8",
+   "note": "三晋石刻大全 晋中市太谷县卷, 三晋出版社 2019.4 (上下). Held by NDL and also listed in CiNii Books. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10139",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=%E4%B8%89%E6%99%8B%E7%9F%B3%E5%88%BB%E5%A4%A7%E5%85%A8",
+   "note": "三晋石刻大全 临汾市汾西县卷, 三晋出版社 2019.7. Held by NDL and also listed in CiNii Books. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-l-li-10140",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=%E4%B8%89%E6%99%8B%E7%9F%B3%E5%88%BB%E5%A4%A7%E5%85%A8",
+   "note": "三晋石刻大全 吕梁市文水县卷, 三晋出版社 2020.3. Held by NDL and also listed in CiNii Books. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-jinz-10141",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=%E4%B8%89%E6%99%8B%E7%9F%B3%E5%88%BB%E5%A4%A7%E5%85%A8",
+   "note": "三晋石刻大全 晋中市平遥县卷 (上/下), 三晋出版社 2021.6. Held by NDL and also listed in CiNii Books. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-shuo-10142",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=%E4%B8%89%E6%99%8B%E7%9F%B3%E5%88%BB%E5%A4%A7%E5%85%A8",
+   "note": "三晋石刻大全 朔州市应县卷, 三晋出版社 2021.3. Held by NDL and also listed in CiNii Books. Matches given metadata."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10143",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BC12923272",
+   "note": "三晉石刻大全·運城市稷山縣卷, ed. 趙武琪 (chief) / 劉彥俊 (exec), 三晉出版社 2021.1; series gen. ed. 劉澤民・李玉明. Held by 7 libraries. Author and year match. Series volume; widely held in CiNii."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10144",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BD00529918",
+   "note": "三晉石刻大全·運城市平陸縣卷, vol. ed. 陳文武 (劉澤民 is series general editor as given), 三晉出版社 2022.5. Held by 7 libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-yunc-10145",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BC16788805",
+   "note": "三晉石刻大全·運城市永濟市卷, vol. ed. 董榕 (劉澤民 series gen. ed.), 三晉出版社 2022.1. Held by 6 libraries. Matches."
+  },
+  {
+   "id": "mc-sanjin-shike-daquan-linf-10146",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BD09678520",
+   "note": "三晉石刻大全·臨汾市翼城縣卷 (上下), vol. ed. 李建黨・王迎澤 (劉澤民 series gen. ed.), 三晉出版社 2024.4. Upper vol NCID BD09678520, lower vol NCID BD09678600; each held by 4 libraries. Matches."
+  },
+  {
+   "id": "mc-gaoping-susong-beike-jik-10152",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BC03683597",
+   "note": "山西民間文獻整理研究: 高平訴訟碑刻輯考, 楊波, 河北大學出版社 2019.11. Held by 1 library. Author/publisher/year all match."
+  },
+  {
+   "id": "mc-qinyuan-jinshi-zhi-10155",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BB12415558",
+   "note": "沁源金石志 (上下), ed. 杜天雲, 三晉出版社 2012.7. Held by 3 libraries. Matches."
+  },
+  {
+   "id": "mc-lingshi-beike-quanji-10157",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BB18824527",
+   "note": "靈石碑刻全集 (上下冊), 景茂禮・劉秋根, 河北大學出版社 2014.9. Held by 4 libraries. Author/publisher/year match."
+  },
+  {
+   "id": "mc-lingshi-guyun-beishi-jua-10158",
+   "in_catalog": false,
+   "note": "靈石古韻·碑石卷 (張建新, 三晉出版社 2013). Not in CiNii Books (0 results) and not in WorldCat (worldcat-scoped search returned nothing). Appears only in the Academia Sinica 新編碑刻集書目 / haijiaoshi bibliography, which does not count as a catalog."
+  },
+  {
+   "id": "mc-lingchuan-lidai-beiwen-x-10159",
+   "in_catalog": false,
+   "note": "陵川歷代碑文選 (政協陵川縣委員會, 2002). Local CPPCC committee publication. Not in CiNii Books (0 results) and not in WorldCat. Found only in the sinica/haijiaoshi bibliographies and bookstores — not a catalog."
+  },
+  {
+   "id": "mc-xiangning-beiwen-xuan-10160",
+   "in_catalog": false,
+   "note": "鄉寧碑文選 (上集) (郭居明, 鄉寧縣老齡文史研究會 1996). Local research-association 内部 publication. Not in CiNii Books, not in WorldCat. Only attested in the Academia Sinica 新編碑刻集書目. No catalog holding."
+  },
+  {
+   "id": "mc-xiangning-gu-beiwen-ji-10161",
+   "in_catalog": false,
+   "note": "鄉寧古碑文集 (王志祥・許文勝, 山西人民出版社 2021). Despite the provincial press, not found in CiNii Books or WorldCat (worldcat-scoped search returned nothing). Surfaces only in the haijiaoshi 文在兹 memorandum / sinica bibliography and bookstores. No verified catalog holding."
+  },
+  {
+   "id": "mc-qinzhou-beiming-ji-10162",
+   "in_catalog": false,
+   "note": "沁州碑銘集 (梁曉光 等, 沁縣書法協會 2003). Local calligraphy-association publication. Not in CiNii Books (0 results), not in WorldCat. Only in the sinica/haijiaoshi bibliography. No catalog holding."
+  },
+  {
+   "id": "mc-shouyang-beijie-10166",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://catalog.nii.ac.jp/ncid/BB00328729",
+   "note": "壽陽碑碣, chief ed. 史景怡, 山西出版集團: 山西古籍出版社 2007.12. Title in record uses simplified 寿阳碑碣. Author/publisher/year match."
+  },
+  {
+   "id": "mc-huairen-shibei-shike-jic-10167",
+   "in_catalog": false,
+   "note": "懷仁石碑石刻集萃 (張永濤・安孝文, 遠方出版社 2007). Not in CiNii Books (0 results) and not in WorldCat (worldcat-scoped search returned nothing; results were only the unrelated 懷仁集王羲之聖教序 stele). Attested only in the sinica/haijiaoshi bibliographies. No catalog holding."
+  },
+  {
+   "id": "mc-gujiao-shike-10168",
+   "in_catalog": false,
+   "note": "古交石刻 (Li Wenqing, 2009, 古交市文物管理所). Not found in CiNii Books, NDL, or WorldCat (scoped search). Only appears in the Academia Sinica 新編碑刻集書目 bibliography, which does not count. Obscure local 文管所 publication; no real catalog holding located."
+  },
+  {
+   "id": "mc-xiangfen-beijie-zhiwen-l-10169",
+   "in_catalog": false,
+   "note": "襄汾碑碣志文錄 (襄汾縣政協文史資料委員會 et al., 2010, 內部出版). Not in CiNii Books, NDL, or WorldCat (scoped). Internal/neibu county committee publication; no library catalog record found."
+  },
+  {
+   "id": "mc-jiaocheng-jinshi-lu-10170",
+   "in_catalog": false,
+   "note": "交城金石錄 (Tian Rui, 2010, 交城縣史志研究會). Not in CiNii Books, NDL, or WorldCat (scoped). Local committee publication; no catalog holding located."
+  },
+  {
+   "id": "mc-fenyang-shi-bowuguan-can-10171",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=汾陽市博物館藏墓誌選編",
+   "corrections": {
+    "publisher": "山西出版傳媒集團 : 三晉出版社"
+   },
+   "note": "汾陽市博物館藏墓誌選編 (Wang Zhongzhang ed., 2010.8). Found in CiNii Books, held by 5 libraries. Publisher recorded as 山西出版傳媒集團 : 三晉出版社 (parent group of given 三晉出版社); year 2010 confirmed."
+  },
+  {
+   "id": "mc-qingxu-beijie-xuanlu-10172",
+   "in_catalog": false,
+   "note": "清徐碑碣選錄 (Yang Shuanbao, 2011, 北岳文藝出版社). Not in CiNii Books, NDL, or WorldCat (scoped). Despite a mainstream press, no library catalog record located."
+  },
+  {
+   "id": "mc-qingxu-jinshi-wenzi-chao-10173",
+   "in_catalog": false,
+   "note": "清徐金石文字鈔注 (Yang Baoheng, 2017, 清徐政協文史資料委員會). Not in CiNii Books or NDL. Local committee 文史資料 publication; no catalog holding found."
+  },
+  {
+   "id": "mc-pianguan-gu-beiwen-ji-10174",
+   "in_catalog": false,
+   "note": "偏關古碑文集 (Lu Yinzhu, 2011, 北京燕山出版社). Not in CiNii Books, NDL, or WorldCat (scoped). No library catalog record located."
+  },
+  {
+   "id": "mc-lin-xian-beiwen-daguan-10175",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=臨縣碑文大觀",
+   "note": "臨縣碑文大觀 (Guo Shijian, 2013, 三晉出版社). Found in CiNii Books, held by 3 libraries. Author/year/publisher confirmed."
+  },
+  {
+   "id": "mc-fangshan-gu-beike-jizhu-10176",
+   "in_catalog": false,
+   "note": "方山古碑刻輯注 (Li Shaojie & Tian Anping eds., Wu Youping coll., 2013, 光明日報出版社). Not in CiNii Books, NDL, or WorldCat (scoped). No catalog holding located."
+  },
+  {
+   "id": "mc-quwo-sanshiba-tong-gu-be-10177",
+   "in_catalog": false,
+   "note": "曲沃三十八通古碑注 (Li Yi annot. et al., 2005, 曲沃縣政協文史資料工作委員會). Not in CiNii Books or NDL. Local committee publication; no catalog record found."
+  },
+  {
+   "id": "mc-quwo-beike-xuanyi-10178",
+   "in_catalog": false,
+   "note": "曲沃碑刻選譯 (Wu Shaoxiong, 2018, 曲沃晉文化委員會). Not in CiNii Books or NDL. Local committee publication; no catalog holding located."
+  },
+  {
+   "id": "mc-houma-beiji-10179",
+   "in_catalog": false,
+   "note": "侯馬碑記 (政協侯馬市文史資料委員會 ed., 2005). Not in CiNii Books or NDL. Local 文史資料 committee publication; no catalog record found."
+  },
+  {
+   "id": "mc-gu-xian-shike-huibian-10180",
+   "in_catalog": false,
+   "note": "古縣石刻匯編 (Cao Tingyuan, 2021, 中國文史出版社). Not found in CiNii Books or NDL; WorldCat direct fetch was rate-blocked (HTTP 429) but scoped WebSearch of worldcat.org returned no matching record. No catalog holding confirmed."
+  },
+  {
+   "id": "mc-yangcheng-tangmiao-beita-10182",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=陽城湯廟碑拓文選",
+   "corrections": {
+    "author": "中國先秦史學會、《析城山文化叢書》編委會"
+   },
+   "note": "陽城湯廟碑拓文選 (2012.8, 文物出版社). Found in CiNii Books, held by 3 libraries. CiNii records the responsible bodies as 中國先秦史學會 and 《析城山文化叢書》編委會 rather than the given personal name 成安太 (likely the individual editor); publisher 文物出版社 and year 2012 confirmed."
+  },
+  {
+   "id": "mc-jishan-lidai-beike-jicui-10183",
+   "in_catalog": false,
+   "note": "稷山文史資料第二十輯 — a county CPPCC (政協稷山縣委員會) 文史資料 / internal local publication. No record in WorldCat, CiNii Books, or NDL. Web presence limited to local government pages and the Academia Sinica 新編碑刻集書目 bibliography (not a catalog)."
+  },
+  {
+   "id": "mc-yongji-lidai-beizhi-jing-10184",
+   "in_catalog": false,
+   "note": "Although published by 三晉出版社 (a real publisher), not found in WorldCat, CiNii Books (0件), or NDL (0件). Only appears in the Sinica stone-inscription bibliography and shopping sites (Shopee/books.com.tw), which do not count."
+  },
+  {
+   "id": "mc-yu-xian-wuhe-shike-10185",
+   "in_catalog": false,
+   "note": "Hong Kong 天馬出版 vanity/print-on-demand imprint, edited by a local 三晉文化研究會. No record in WorldCat, CiNii, or NDL. Only in the Sinica 新編碑刻集書目 bibliography."
+  },
+  {
+   "id": "mc-pingding-beike-wenxuan-10186",
+   "in_catalog": false,
+   "note": "平定文史資料第十四輯, published by the county CPPCC 文史資料委員會 — an internal local publication. Not in any library catalog; web hits are local-association pages and the Sinica bibliography."
+  },
+  {
+   "id": "mc-loufan-beipu-wenhua-10188",
+   "in_catalog": false,
+   "note": "內部出版 by 婁煩縣政協文史資料委員會. No catalog record anywhere (WorldCat/CiNii/NDL); essentially no online presence beyond the source list itself."
+  },
+  {
+   "id": "mc-yuncheng-diqu-xiancun-be-10189",
+   "in_catalog": false,
+   "note": "1980 內部出版 by 運城行署文化局 — an internal regional cultural-bureau inventory. Not in any library catalog; appears only in the Sinica 新編碑刻集書目 bibliography."
+  },
+  {
+   "id": "mc-yuncheng-diqu-beike-zili-10190",
+   "in_catalog": false,
+   "note": "1980 內部出版 by 運城地區博物館 — internal regional compilation. No record in WorldCat, CiNii, or NDL."
+  },
+  {
+   "id": "mc-hedong-lidai-beizhi-jing-10192",
+   "in_catalog": false,
+   "note": "Published by 中州古籍出版社 (a real publisher), but no record found in WorldCat, CiNii Books (0件), or NDL (0件). Web presence limited to douban/publisher/Sinica-bibliography pages. (A related 司馬光塋祠專輯 edition exists, also uncatalogued.)"
+  },
+  {
+   "id": "mc-xinzhou-wenshi-gu-beiwen-10194",
+   "in_catalog": false,
+   "note": "忻州文史 第12-16輯 古碑文錄 — 文史資料 / internal series by the 忻州文史資料委員會. Not in any library catalog; only in the Sinica bibliography."
+  },
+  {
+   "id": "mc-beishi-daguan-pinwu-jinz-10196",
+   "in_catalog": false,
+   "note": "Published by 北岳文藝出版社, but not found in WorldCat, CiNii, or NDL. Only Sinica bibliography and books.com.tw/douban-type listings (not catalogs)."
+  },
+  {
+   "id": "mc-yaodu-lidai-beike-xuancu-10197",
+   "in_catalog": false,
+   "note": "Published by 山西人民出版社, but no record in WorldCat, CiNii, or NDL (all 0). Web presence limited to JD/books.com.tw publisher listings and the Sinica bibliography."
+  },
+  {
+   "id": "mc-guangshengsi-wenxian-bei-10198",
+   "in_catalog": false,
+   "note": "Published by 中國文聯出版社, but not found in WorldCat, CiNii Books (0件), or NDL. The only web hit is the Academia Sinica 新編碑刻集書目 bibliography, which does not count."
+  },
+  {
+   "id": "mc-lushui-jigu-lucheng-shi--10199",
+   "in_catalog": false,
+   "note": "Published by 山西人民出版社, but no record in WorldCat, CiNii, or NDL. Held only in 山西省圖書館 local-literature reading room per a Shanxi library blurb; appears in the Sinica bibliography. No union-catalog record."
+  },
+  {
+   "id": "mc-licheng-bei-wenhua-shang-10200",
+   "in_catalog": false,
+   "note": "Published by the local 黎城文化研究會 (cultural-research society), effectively an internal publication. Not in any library catalog; only the Sinica bibliography lists it."
+  },
+  {
+   "id": "mc-datong-xinchu-tang-liao--10201",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=大同新出唐遼金元誌石新解",
+   "note": "Found in CiNii Books as 大同新出唐辽金元志石新解, 殷宪, 三晋出版社, 2012.6; held by 13 libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-jinyang-guke-xuan-beicha-10202",
+   "in_catalog": true,
+   "catalog": "NDL (and CiNii Books)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=晉陽古刻選",
+   "note": "Found in NDL and CiNii as 北朝墓志 (晉陽古刻選 series), 太原市三晋文化研究会・晋阳古刻选编辑委员会, 山西人民出版社, 2008.1. Matches given metadata."
+  },
+  {
+   "id": "mc-jinyang-guke-xuan-sui-ta-10203",
+   "in_catalog": true,
+   "catalog": "NDL (and CiNii Books)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=晉陽古刻選",
+   "corrections": {
+    "year": "2013"
+   },
+   "note": "Found in NDL and CiNii as 隋唐五代墓誌 (晉陽古刻選 series), 太原市三晉文化研究會・晉陽古刻選編輯委員會編, 文物出版社. Catalog records give 2013.4, not 2012."
+  },
+  {
+   "id": "mc-neimenggu-qingshuihe-xia-10204",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus (checked both traditional 清水河縣碑刻 and simplified 清水河县碑刻辑录). WorldCat unreachable (Cloudflare 1015/429 blocking). Profile of an obscure local 内蒙古历史文献丛书 committee publication (遠方出版社, 2015) with no union-catalog holdings."
+  },
+  {
+   "id": "mc-shimo-fanghua-liu-fengzh-10206",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=石墨芳華 遼金碑刻拓本",
+   "note": "Found in CiNii as 石墨芳華 : 劉鳳翥李春敏收藏遼金碑刻拓本集, 赤峰文博院編著; 陶建英・李俊義主編, 文物出版社, 2021.12; held by 11 libraries. Catalog adds corporate editor 赤峰文博院編著 alongside the named editors."
+  },
+  {
+   "id": "mc-liaonan-beike-10207",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=遼南碑刻",
+   "note": "Found in CiNii as 辽南碑刻, 崔世浩, 大连出版社, 2007.1; held by 5 libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-liaoyang-beizhi-xuanbian-10210",
+   "in_catalog": true,
+   "catalog": "K10plus / GVK",
+   "catalog_url": "https://sru.k10plus.de/gvk?query=pica.all%3D辽阳碑志选编",
+   "note": "Not in NDL/CiNii, but found in K10plus (via SRU, simplified form 辽阳碑志选编): 'Liao yang bei zhi xuan bian', Zou Baoku (鄒寶庫) 辑录, Shenyang/沈阳 2011.06, ISBN 9787549701346. Confirms the work; publisher is the Shenyang-based 辽宁民族出版社."
+  },
+  {
+   "id": "mc-liaoyang-beizhi-xubian-10211",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=遼陽碑志續編",
+   "note": "Found in CiNii as 辽阳碑志续编, 李大伟辑录, 辽宁民族出版社, 2013.12 (series 辽阳历史文化丛书); held by 1 library. Matches given metadata."
+  },
+  {
+   "id": "mc-yingkou-beizhi-jizhu-10212",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books (checked 營口碑志 and simplified 营口碑志), or K10plus. WorldCat unreachable (Cloudflare blocking). Likely an obscure local publication (遼寧大學出版社, 2012) not held in union catalogs."
+  },
+  {
+   "id": "mc-yingkou-beizhi-buyi-10213",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus (营口碑志补遗). WorldCat unreachable. Obscure local publication (江蘇鳳凰美術出版社, 2017); no catalog holdings located."
+  },
+  {
+   "id": "mc-yuanshuailin-shike-10215",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus (checked 元帥林石刻 / 元帅林石刻). WorldCat unreachable (Cloudflare blocking). Obscure local publication (遼寧人民出版社, 2012); no catalog holdings located."
+  },
+  {
+   "id": "mc-fuxin-gudai-shike-wenzi--10216",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books (阜新 石刻 文字 文化), or K10plus (阜新古代石刻文字文化选). WorldCat unreachable. Obscure local publication (白山出版社, 2013); no catalog holdings located."
+  },
+  {
+   "id": "mc-l-shun-ri-e-jianyu-jiuzh-10218",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=旅順日俄監獄舊址博物館館藏碑刻",
+   "note": "Found in CiNii as 旅顺日俄监狱旧址博物馆馆藏碑刻研究, 张志成主编, 科学出版社, 2016.12; held by 2 libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-linghai-shike-lu-10219",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books (凌海石刻録 and 凌海 石刻), or K10plus (凌海石刻录). WorldCat unreachable (Cloudflare blocking). Published by 凌海市文化館 (a county cultural center), 2018 — classic 内部資料 profile with no union-catalog holdings."
+  },
+  {
+   "id": "mc-liaohe-beilin-beike-xuan-10220",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "遼河碑林碑刻選 (劉曉標, 文物出版社, 2017) NOT found in any library catalog: CiNii Books, NDL, WorldCat, K10plus, NLC all returned zero. Appears only in scholarly bibliographies (sinica 新編碑刻集書目, douban, NCL new-books lists) which do not count. NDL DOES hold a different, related title by the same author/publisher: 中國遼河碑林 (刘晓标, 文物出版社, 2011.11) — likely a confusion or a companion/earlier volume."
+  },
+  {
+   "id": "mc-ji-an-xian-wenwu-zhi-10221",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=集安縣文物志",
+   "note": "集安县文物志, 吉林省文物志编委会, 1984.10, held in 17 libraries (CiNii). Matches given author/year."
+  },
+  {
+   "id": "mc-ji-an-gaogouli-bei-yanji-10223",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=集安高句麗碑研究",
+   "note": "集安高句丽碑研究, 耿铁华, 吉林大学出版社, 2017.12 (高句丽历史文化研究丛书), 12 libraries (CiNii). Matches given metadata."
+  },
+  {
+   "id": "mc-haotaiwang-bei-yiqian-wu-10224",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=好太王碑一千五百八十年祭",
+   "note": "好太王碑一千五百八十年祭, 耿鐵華, 中国社会科学出版社, 2003.8 (東北邊疆研究), 19 libraries (CiNii). Matches given metadata."
+  },
+  {
+   "id": "mc-haotaiwang-bei-taben-yan-10225",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=好太王碑拓本研究",
+   "note": "好太王碑拓本研究, 耿铁华・李乐营, 吉林大学出版社, 2017, 16 libraries (CiNii). Matches given metadata. (A different 2001 同名 work by 朴眞奭 also exists.)"
+  },
+  {
+   "id": "mc-haotaiwang-bei-xin-kao-10226",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=好太王碑新考",
+   "note": "好太王碑新考, 耿鉄華, 吉林人民出版社, 1994.6, 5 libraries (CiNii). Matches given metadata."
+  },
+  {
+   "id": "mc-fuyu-xian-wenwu-zhi-10233",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=扶餘縣文物志",
+   "note": "扶余县文物志, 陈相伟・李殿福 编, 吉林省文物志编修委员会, 1984.1, 4 libraries (CiNii). Matches given author/year."
+  },
+  {
+   "id": "mc-yongji-xian-wenwu-zhi-10234",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "永吉县/永吉縣文物志 NOT found in any catalog: CiNii Books and NDL both returned zero results. Obscure local 吉林省文物志編委會 committee publication; not held by any indexed major catalog."
+  },
+  {
+   "id": "mc-jilin-shi-shiqu-wenwu-zh-10235",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "吉林市市区/市區文物志 NOT found in any catalog: CiNii Books and NDL both returned zero results. Obscure local committee publication."
+  },
+  {
+   "id": "mc-jilin-shi-jiaoqu-wenwu-z-10236",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "吉林市郊区/郊區文物志 NOT found in any catalog: CiNii Books and NDL both returned zero results. Obscure local committee publication."
+  },
+  {
+   "id": "mc-lishu-xian-wenwu-zhi-10238",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=梨樹縣文物志",
+   "note": "梨树县文物志, 吉林省文物志编委会, 吉林省文物志编修委员会, 1984.4, 7 libraries (CiNii). Matches given year; publisher more precisely 编修委员会."
+  },
+  {
+   "id": "mc-hailong-xian-wenwu-zhi-10242",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=海龍縣文物志",
+   "note": "海龙县文物志, 吉林省文物志编委会, 吉林省文物志编修委员会, 1984.12, 4 libraries (CiNii). Matches given year."
+  },
+  {
+   "id": "mc-shulan-xian-wenwu-zhi-10248",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=舒蘭縣文物志",
+   "note": "舒兰县文物志, 吉林省文物志编委会, 吉林省文物志编修委员会, 1985.12, 5 libraries (CiNii). Matches given year."
+  },
+  {
+   "id": "mc-antu-xian-wenwu-zhi-10254",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=安圖縣文物志",
+   "corrections": {
+    "publisher": "吉林省文物志编修委员会",
+    "year": "1985"
+   },
+   "note": "The source title field '集安縣文物志（安圖縣文物志）' is garbled — the actual work is 安图县/安圖縣文物志, which IS catalogued: 安图县文物志, 《吉林省文物志》编委会, 吉林省文物志编修委员会, 1985.2, 3 libraries (CiNii). Given publisher (吉林文史出版社) and year (1993) do NOT match the catalog record (吉林省文物志编修委员会, 1985.2)."
+  },
+  {
+   "id": "mc-tumen-shi-wenwu-zhi-10255",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA40223230",
+   "corrections": {
+    "year": "1986",
+    "publisher": "吉林省文物志編修委員會"
+   },
+   "note": "图们市文物志, part of 吉林省文物志叢書, held in 5 CiNii libraries. CiNii dates it 1986.11 (input had 1985); publisher recorded as 吉林省文物志編修委員會."
+  },
+  {
+   "id": "mc-yushu-xian-wenwu-zhi-10256",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA64634309",
+   "corrections": {
+    "publisher": "吉林省文物志編修委員會"
+   },
+   "note": "楡樹県文物志, 吉林省文物志叢書, 4 CiNii libraries, 1983 (matches)."
+  },
+  {
+   "id": "mc-zhenlai-xian-wenwu-zhi-10257",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA40219539",
+   "corrections": {
+    "publisher": "吉林省文物志編修委員會"
+   },
+   "note": "镇赉县文物志, 吉林省文物志叢書, 2 CiNii libraries, 1985.6 (matches input year)."
+  },
+  {
+   "id": "mc-da-an-xian-wenwu-zhi-10258",
+   "in_catalog": false,
+   "note": "大安縣文物志 (1982, 吉林省文物志叢書) NOT found in CiNii Books, NDL, or WorldCat (checked traditional + simplified forms). Only baike and county-gazetteer download sites surface it — not catalogs. The rest of the series is in CiNii but this volume is not."
+  },
+  {
+   "id": "mc-tao-an-xian-wenwu-zhi-10259",
+   "in_catalog": false,
+   "note": "洮安縣文物志 (1982, 吉林省文物志叢書) NOT found in CiNii Books, NDL, or WorldCat (traditional + simplified). Only baike/縣志大全 download listings, which are not catalogs. (洮安 county later renamed 洮南.)"
+  },
+  {
+   "id": "mc-baicheng-shi-wenwu-zhi-10260",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA40214499",
+   "corrections": {
+    "publisher": "吉林省文物志編修委員會"
+   },
+   "note": "白城市文物志, 吉林省文物志叢書, 4 CiNii libraries, 1986.4 (matches input year)."
+  },
+  {
+   "id": "mc-qian-an-xian-wenwu-zhi-10261",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA4021059X",
+   "corrections": {
+    "publisher": "吉林省文物志編修委員會"
+   },
+   "note": "乾安县文物志, 吉林省文物志叢書, 6 CiNii libraries, 1986.8 (matches input year)."
+  },
+  {
+   "id": "mc-changling-xian-wenwu-zhi-10262",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BN13720970",
+   "corrections": {
+    "year": "1986",
+    "publisher": "吉林省文物志編修委員會"
+   },
+   "note": "长岭县文物志, 吉林省文物志叢書, 7 CiNii libraries. CiNii dates it 1986.10 (input had 1987)."
+  },
+  {
+   "id": "mc-jiading-beike-ji-10265",
+   "in_catalog": true,
+   "catalog": "WorldCat",
+   "catalog_url": "https://search.worldcat.org/title/1161087797",
+   "note": "嘉定碑刻集 (3 vols), 上海古籍出版社. WorldCat record found (vol. 下 = title/1161087797); ISBN 9787532567478. Year given variously as 2012/2013."
+  },
+  {
+   "id": "mc-pudong-beike-ziliao-xuan-10274",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB19132165",
+   "corrections": {
+    "author": "浦東新區檔案館、浦東新區黨史地方志辦公室 編",
+    "year": "2015",
+    "publisher": "上海古籍出版社"
+   },
+   "note": "The 1998 original (華偉東, 浦東新區檔案館) is not catalogued, but the same work's 修訂本 (revised ed., 2015, 上海古籍出版社, ed. 浦東新區檔案館 + 浦東新區黨史地方志辦公室) is in CiNii Books (11 libraries). Marked in_catalog=true for the work; corrections reflect the catalogued edition."
+  },
+  {
+   "id": "mc-shanghai-fojiao-beike-we-10277",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA67883591",
+   "note": "上海佛教碑刻文献集, 柴志光・潘明權 編, 上海古籍出版社 2004.4, 15 CiNii libraries. Matches input (author, publisher, year)."
+  },
+  {
+   "id": "mc-shanghai-fojiao-beike-zi-10279",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://cir.nii.ac.jp/crid/1050001202260193920",
+   "note": "上海佛教碑刻资料集, 潘明权・柴志光 編, 复旦大学出版社 2014.10 (2 vols, 上海佛道教资料丛书 1), 5 CiNii libraries. Matches input."
+  },
+  {
+   "id": "mc-nongye-jingji-beike-10285",
+   "in_catalog": false,
+   "note": "農業經濟碑刻 (蘇州碑刻博物館藏, 古吳軒出版社 2012, 陸雪梅) NOT found in CiNii Books, NDL, or WorldCat. Part of the 蘇州碑刻博物館藏 series; only douban/blogs/sinica bibliography reference it — no library catalog."
+  },
+  {
+   "id": "mc-gongshang-jingji-beike-10286",
+   "in_catalog": false,
+   "note": "工商經濟碑刻 (蘇州碑刻博物館藏, 古吳軒出版社 2012, 陸雪梅) NOT found in CiNii Books, NDL, or WorldCat. Companion to 農業經濟碑刻; only douban/blogs surface it, no catalog holding found."
+  },
+  {
+   "id": "mc-hanshansi-beike-ji-10287",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=寒山寺碑刻集",
+   "note": "Found in CiNii Books: 寒山寺碑刻集, 性空主編, 古吴轩出版社, 2000.12. Matches given metadata."
+  },
+  {
+   "id": "mc-suzhou-hanshan-moya-shik-10288",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits). Web searches surface only non-catalog sources (kongfz, douban, sohu/news, sinica bibliography). Title exists (苏州寒山摩崖石刻, 古吴轩出版社, 2014, ISBN 7554603469) but no library catalog holds it. WorldCat was inaccessible (Cloudflare 1015) but it does not appear in WorldCat-targeted web searches either."
+  },
+  {
+   "id": "mc-huqiu-moya-shike-10289",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits). No catalog record located; WorldCat-targeted searches returned nothing relevant. WorldCat direct access blocked (Cloudflare 1015)."
+  },
+  {
+   "id": "mc-changshu-beike-10290",
+   "in_catalog": true,
+   "catalog": "K10plus (GVK)",
+   "catalog_url": "https://sru.k10plus.de/gvk?version=1.1&operation=searchRetrieve&query=pica.all%3D%E5%B8%B8%E7%86%9F%E7%A2%91%E5%88%BB&recordSchema=marcxml",
+   "note": "Found in K10plus/GVK via SRU: 245$a 常熟碑刻 $c 本社编; 264 $b 常熟碑刻博物馆 $c 1993. Matches given metadata (1993, 常熟市碑刻博物館). Not in CiNii or NDL."
+  },
+  {
+   "id": "mc-changshu-beike-ji-10291",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=常熟碑刻集",
+   "note": "Found in CiNii Books: 常熟碑刻集, 常熟市碑刻博物館 編, 上海辭書出版社, 2007.11; held by 7 libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-changshu-shi-beike-bowug-10292",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits) for 常熟市碑刻博物館碑拓精粹. Web mentions are non-catalog only (e.g. 360doc award notice). Likely a local/archival publication not in any union catalog."
+  },
+  {
+   "id": "mc-jiangnan-yanzi-guli-beik-10293",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits) for 江南言子故里碑刻集. No catalog record located; WorldCat-targeted search surfaced only unrelated records."
+  },
+  {
+   "id": "mc-changshu-fojiao-siyuan-l-10294",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits) for 常熟佛教寺院歷代碑刻選輯. Publisher 常熟佛教協會 indicates an internal/committee 内部 publication; no library catalog holds it."
+  },
+  {
+   "id": "mc-changshu-moya-shike-10295",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=常熟摩崖石刻",
+   "note": "Found in CiNii Books: 常熟摩崖石刻, 张军/陈颖 editors, 苏州大学出版社, 2017.7; held by 1 library. Matches given metadata (張軍, 蘇州大學出版社, 2017)."
+  },
+  {
+   "id": "mc-changshu-ruxue-beike-ji-10296",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits) for 常熟儒學碑刻集. WorldCat-targeted search returned only unrelated 苏州大学出版社 titles. WorldCat direct access blocked (Cloudflare 1015)."
+  },
+  {
+   "id": "mc-kunshan-beike-jicun-10297",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=昆山碑刻輯存",
+   "note": "Found in CiNii Books: 昆山碑刻輯存, 姚伟宏 editor, 上海書店出版社, 2014.2. Matches given metadata."
+  },
+  {
+   "id": "mc-wujiang-xianxue-beizhi-j-10299",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits) for 吳江縣學碑誌孑遺. No catalog record located; WorldCat-targeted search surfaced only unrelated 上海文化出版社 titles."
+  },
+  {
+   "id": "mc-jiangning-lidai-chutu-mu-10306",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits) for 江寧歷代出土墓誌考釋. WorldCat/NDL-targeted searches returned only unrelated Nanjing-related records. WorldCat direct access blocked (Cloudflare 1015)."
+  },
+  {
+   "id": "mc-jiangning-lidai-beike-ji-10307",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=江寧歷代碑刻精選",
+   "note": "Found in CiNii Books: 江寧歷代碑刻精選, 江宁区政协教卫文体和文史委 編, 江苏凤凰美术出版社, 2016.12. Matches given metadata."
+  },
+  {
+   "id": "mc-jiangnan-gongyuan-beike-10310",
+   "in_catalog": false,
+   "note": "江南貢院碑刻 (馮家紅, 文匯出版社 2014): 0 results in NDL, CiNii Books, and K10plus/GVK. Only appears in the sinica 新編碑刻集書目 bibliography and baidu baike (not catalogs). WorldCat could not be checked (persistent HTTP 429)."
+  },
+  {
+   "id": "mc-jiangnan-gongyuan-beike--10311",
+   "in_catalog": false,
+   "note": "江南貢院碑刻法書選 (南京中國科舉博物館, 江蘇人民出版社 2016): 0 results in NDL, CiNii Books, and K10plus/GVK. Only in the sinica bibliography (not a catalog). WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-bei-ushan-beiwen-xuan-10314",
+   "in_catalog": false,
+   "note": "北固山碑文選 (鎮江北固山風景區, 江蘇大學出版社 2013): 0 results in NDL, CiNii Books, and K10plus/GVK. Scenic-area publication; only in sinica bibliography. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-zhenjiang-dongxiang-beim-10316",
+   "in_catalog": false,
+   "note": "鎮江東鄉碑銘集 (鎮江新區檔案館, 中國文聯出版社 2021): 0 results in CiNii Books and K10plus/GVK. No catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-zhenjiang-shi-wenwu-zhi-10317",
+   "in_catalog": false,
+   "note": "鎮江市文物志 (镇江市文化广电新闻出版局, 江蘇大學出版社 2018): 0 results in NDL, CiNii Books, and K10plus/GVK. Local cultural-relics gazetteer; no catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-huai-an-shike-beike-juan-10325",
+   "in_catalog": false,
+   "note": "淮安石刻：碑刻卷 (淮安市博物館, 江蘇文藝出版社 2019): 0 results in NDL, CiNii Books, and K10plus/GVK. No catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-hongzehu-dadi-shike-yicu-10326",
+   "in_catalog": false,
+   "note": "洪澤湖大堤石刻遺存 (洪澤縣政協 等, 中國文史出版社 2016): 0 results in CiNii Books and K10plus/GVK. Local committee publication; no catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-haizhou-shike-jiangjunya-10327",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BN07738701",
+   "corrections": {},
+   "note": "Confirmed in CiNii Books (NCID BN07738701, held by 19 libraries) and also in NDL Search. Catalog title/subtitle shown as 海州石刻：将军崖岩画与孔望山摩崖造象 (catalog uses 造象 rather than the item's 造像); author 李洪甫, 武可榮著; 連雲港市博物館編; 文物出版社 1990.9 — matches the item."
+  },
+  {
+   "id": "mc-yueqing-lidai-beizhi-xua-10341",
+   "in_catalog": false,
+   "note": "樂清歷代碑志選 (陳緯, 中國民族攝影藝術出版社 2004): 0 results in NDL, CiNii Books, and K10plus/GVK. No catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-xianyan-lidai-mingsheng--10344",
+   "in_catalog": false,
+   "note": "仙岩歷代名勝碑志詩文 (浙江古籍出版社 2017): 0 results in CiNii Books and K10plus/GVK. No catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-shunxi-chenshi-zongci-be-10345",
+   "in_catalog": false,
+   "note": "順溪陳氏宗祠碑林集 (陳聖駒, 水頭匯文排版社 2001): 0 results in CiNii Books and K10plus/GVK. Privately typeset lineage-hall publication; no catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-hangzhou-huagang-moya-sh-10351",
+   "in_catalog": false,
+   "note": "杭州花港摩崖石刻萃編 (浙江古籍出版社 2018): 0 results in CiNii Books and K10plus/GVK. No catalog holdings found. WorldCat unavailable (429)."
+  },
+  {
+   "id": "mc-hangzhou-shiwudong-wuyue-10352",
+   "in_catalog": true,
+   "catalog": "K10plus / GVK",
+   "catalog_url": "https://opac.k10plus.de/DB=2.1/CMD?ACT=SRCHA&IKT=1016&TRM=杭州石屋洞",
+   "corrections": {
+    "isbn": "978-7-5149-2380-3"
+   },
+   "note": "Confirmed in K10plus/GVK (Staatsbibliothek zu Berlin – Preußischer Kulturbesitz). Record: 杭州石屋洞吴越国题刻 / 浙江省博物館編; 北京: 中國書店, 2019; ISBN 978-7-5149-2380-3; 235 p. Matches the item (publisher, editor, year)."
+  },
+  {
+   "id": "mc-hangzhou-fenghuangsi-can-10354",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971149384822317586",
+   "corrections": {},
+   "note": "Confirmed in NDL Search. Record: 杭州鳳凰寺藏阿拉伯文、波斯文碑銘釋讀譯注 (莫爾頓釋讀英譯; 周思成校注中譯; 烏蘇吉/王一丹等校), 中華書局, 2015.5 — matches the item (author 莫爾頓/Morton, publisher, year). Not found in CiNii Books."
+  },
+  {
+   "id": "mc-fuyang-shike-yicun-10355",
+   "in_catalog": false,
+   "note": "富陽石刻遺存 (政協富陽市委員會編, 西泠印社出版社, 2015). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record indexed). Appears only in the Academia Sinica 新編碑刻集書目 bibliography, which does not count. No library-catalog holding found."
+  },
+  {
+   "id": "mc-tonglu-shike-beizhi-jing-10356",
+   "in_catalog": false,
+   "note": "桐廬石刻碑志精粹 / 桐廬石刻碑誌精粹 (吳宏偉編, 西泠印社出版社, 2017). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Only publisher/bibliography mentions found. Not held in any catalog checked."
+  },
+  {
+   "id": "mc-fenshui-fangbei-lu-10357",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=分水訪碑錄",
+   "note": "分水訪碑録 (王順慶/王顺庆編, 浙江大學出版社, 2009.11). Confirmed in CiNii Books with 3 holding libraries. Bibliographic details match the item."
+  },
+  {
+   "id": "mc-yanzhou-jinshi-10359",
+   "in_catalog": false,
+   "note": "嚴州金石(增訂) (葉欣・繆承潮, 杭州出版社, 2020, ISBN 9787556513321). This specific 2020 edition was NOT found in any catalog. CiNii, NDL, and K10plus all return only the unrelated Qing-era work 嚴州金石錄 (3卷) by 鄒柏森 (e.g. 文物出版社 1982; reprint in 地方金石志彙編 v.42, 北京 2011) — a different title/work. A high-numbered WorldCat record (OCLC 1568066001) surfaced for the query 嚴州金石 but is login-gated (403) and could not be confirmed to be the 2020 葉欣/繆承潮 edition rather than another reprint of the 錄; given K10plus shows only the older 錄, I treat the specified 2020 book as not catalog-confirmed. The 2020 edition appears only on douban and an auction site (not catalogs)."
+  },
+  {
+   "id": "mc-ningbo-xiancun-beike-bei-10363",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=寧波現存碑刻碑文所見錄",
+   "note": "寧波現存碑刻碑文所見録 (龔烈沸編著, 寧波出版社, 2006.3). Confirmed in CiNii Books with 17 holding libraries. Matches the item."
+  },
+  {
+   "id": "mc-ningbo-guqiao-beike-ji-10364",
+   "in_catalog": false,
+   "note": "寧波古橋碑刻集 (朱永寧編, 寧波出版社, 2021). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Not held in any catalog checked."
+  },
+  {
+   "id": "mc-beiming-xieying-yinzhou--10365",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=碑銘擷英 鄞洲碑碣",
+   "note": "碑銘擷英 : 鄞州碑碣精品集 (馬兆祥主編, 人民美術出版社, 2003.4). Confirmed in CiNii Books with 4 holding libraries. CiNii records the subtitle as 鄞州碑碣精品集 (item gives 鄞洲); same work."
+  },
+  {
+   "id": "mc-yinzhou-beike-xuanlu-10366",
+   "in_catalog": false,
+   "note": "鄞州碑刻選錄 (寧波市鄞州區人民政府地方志編研室・鄞州區文物保護管理中心編, 浙江古籍出版社, 2021). Checked CiNii Books (0), NDL (0), K10plus/GVK (explicit nicht vorhanden), WorldCat (no matching record). Not held in any catalog checked."
+  },
+  {
+   "id": "mc-gu-xiancheng-cicheng-bei-10369",
+   "in_catalog": false,
+   "note": "古縣城慈城碑文集遺 (慈城鎮文學藝術界聯合會編, 2007; locally printed). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Local committee publication; not held in any catalog."
+  },
+  {
+   "id": "mc-beilun-lidai-beike-xuanz-10370",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=北侖歷代碑刻選注",
+   "note": "北仑历代碑刻选注 (北仑区地方志(年鉴)编纂委员会编; 张立平主编; 韩朝阳编著, 宁波出版社, 2019.12; 北仑区地方志系列丛书 v.13). Confirmed in CiNii Books with 1 holding library. Fuller author info than item supplied (主编 张立平, 编著 韩朝阳)."
+  },
+  {
+   "id": "mc-fenghua-xiancun-beike-zh-10371",
+   "in_catalog": false,
+   "note": "奉化現存碑刻知見錄 (奉化區文保所・奉化區志辦編, 現代出版社, 2016). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Not held in any catalog checked."
+  },
+  {
+   "id": "mc-yaojiang-beijie-10372",
+   "in_catalog": false,
+   "note": "姚江碑碣 (葉樹望編, 浙江古籍出版社, 2011). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Not held in any catalog checked."
+  },
+  {
+   "id": "mc-tiantong-chansi-yinglian-10375",
+   "in_catalog": false,
+   "note": "天童禪寺楹聯匾額碑刻集 (天童禪寺編, 內部印行, 2004). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Internal temple printing (內部印行); not held in any catalog."
+  },
+  {
+   "id": "mc-changxing-chawenhua-beik-10379",
+   "in_catalog": false,
+   "note": "長興茶文化碑刻集 (張夢新主編, 西泠印社出版社, 2008). Checked CiNii Books (0), NDL (0), K10plus/GVK (0), WorldCat (no matching record). Not held in any catalog checked."
+  },
+  {
+   "id": "mc-nanhu-yanyulou-beike-10381",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=南湖煙雨樓碑刻",
+   "note": "CiNii Books: 南湖煙雨樓碑刻, 嘉興南湖革命紀念館編, 上海辭書出版社, 2007.12, series 南湖碑刻丛書. Held in 1 library. Matches the item data."
+  },
+  {
+   "id": "mc-nanhu-lanxiuyuan-beike-10382",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {
+    "publisher": "群言出版社",
+    "isbn": "9787800809361"
+   },
+   "note": "Not found in any library catalog (CiNii Books, NDL, K10plus all returned zero). Only on Amazon.com (ISBN 9787800809361). NOTE: Amazon/ISBN indicate the publisher is 群言出版社 (Qunyan), not 上海辭書出版社; companion to the 南湖煙雨樓 volume but separately published."
+  },
+  {
+   "id": "mc-taizhou-muzhi-jilu-10384",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in any catalog (CiNii Books, NDL, K10plus all empty). This is a 1980s internal publication (內部資料) compiled by 丁伋 at the Linhai County Museum from the 2nd national cultural-relics survey; no rubbings, poor print run. Held by no library catalog online."
+  },
+  {
+   "id": "mc-huangyan-jinshi-zhi-10385",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Could NOT confirm. CiNii Books, NDL, and K10plus all returned zero results; WorldCat was inaccessible (HTTP 429/403 throttling all session). Book is real (中國文史出版社, 2012, ISBN 9787503436437 per douban) and may well be in WorldCat/CALIS/讀秀, but I could not reach a catalog page to verify a holding."
+  },
+  {
+   "id": "mc-songyang-jinshi-zhi-10389",
+   "in_catalog": true,
+   "catalog": "上海圖書館 (Shanghai Library OPAC, VuFind)",
+   "catalog_url": "https://vufind.library.sh.cn/Record/4a3c601b-b060-4bfb-a19d-3ae9dab55433",
+   "note": "Held in Shanghai Library's catalog (VuFind record 4a3c601b-...; surfaced via a 松阳金石志 吴伟民 search, also appears in a 浙江工商大學 OPAC). The OPAC blocks automated fetch (rate-limit), but the record UUID is a genuine holding. Not in CiNii/NDL/K10plus."
+  },
+  {
+   "id": "mc-pujiang-lidai-beike-shiy-10392",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not found in any catalog (CiNii Books, NDL, K10plus all empty; WorldCat blocked this session). 2021 浙江人民美術出版社 title; appears only in the Sinica 新編碑刻集書目 bibliography and a Pujiang museum procurement doc, neither a library catalog."
+  },
+  {
+   "id": "mc-shaoxing-beike-wenxian-y-10395",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=紹興碑刻文獻研究",
+   "note": "CiNii Books: 绍兴碑刻文献研究, 尚磊明, 浙江大学出版社, 2021.1, held in 2 libraries (越文化研究丛书; ISBN 9787308204705). Matches item data."
+  },
+  {
+   "id": "mc-shaoxing-beike-wenhua-ya-10396",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {
+    "isbn": "9787010221175"
+   },
+   "note": "Could NOT confirm. CiNii Books, NDL, K10plus all returned zero; WorldCat inaccessible (429/403). Book is real (人民出版社, 2020.11, 越文化研究丛書, ISBN 9787010221175, by 王曉亮) and likely in WorldCat/CALIS, but no catalog holding could be verified — only douban and Taiwan resellers surfaced."
+  },
+  {
+   "id": "mc-shaoxing-tushuguan-guanc-10397",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=紹興圖書館館藏地方碑拓選",
+   "corrections": {
+    "year": "2007"
+   },
+   "note": "CiNii Books: 绍兴图书馆馆藏地方碑拓选, 俞苗榮/龔天力編, 西泠印社出版社, held in 4 libraries. NOTE: CiNii gives the year as 2007.1, not 2006 as in the item data."
+  },
+  {
+   "id": "mc-songdai-muzhi-10398",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=宋代墓志%20會稽金石博物館",
+   "note": "CiNii Books: 宋代墓志, 绍兴市档案局(馆)/会稽金石博物馆编, 西泠印社出版社, 2018.10, held in 6 libraries. Matches item data."
+  },
+  {
+   "id": "mc-yue-fei-mumiao-beike-10399",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=岳飛墓廟碑刻",
+   "note": "CiNii Books: 岳飛墓廟碑刻, 岳飛研究会/岳飛墓廟文物保管所主編, 當代中國出版社, 1999.8, held in 1 library. Matches item data."
+  },
+  {
+   "id": "mc-wannan-fosi-beike-jilu-10403",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=皖南佛寺碑刻",
+   "corrections": {
+    "author": "宗行 主編"
+   },
+   "note": "CiNii Books: 皖南佛寺碑刻辑录, 宗行主编, 宗教文化出版社, 2023.7, series 水西文丛 1, held in 2 libraries. (Item data had only the series 水西文叢 in the author field; actual editor is 宗行.)"
+  },
+  {
+   "id": "mc-huizhou-beike-jilu-10404",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not a catalogued monograph. CiNii Books, NDL, K10plus all returned zero. 徽州碑刻輯録（之一至之八）by 邵寶振 is a multi-part article/e-book series published within the 徽學 journal on the SSAP 先曉書院 e-book platform (社會科學文獻出版社), 2018-2024 — not a standalone book held by a library catalog."
+  },
+  {
+   "id": "mc-fujian-zongjiao-beiming--10406",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=福建宗教碑銘彙編",
+   "note": "CiNii Books: 福建宗教碑銘彙編 (鄭振滿/丁荷生 Kenneth Dean 編纂, 福建人民出版社), with multiple 漳州府分册 volumes (漳州府分册1-4); series held in 34 libraries. The 漳州府 fascicles are dated 2018 in the item data; the overall series began 1995."
+  },
+  {
+   "id": "mc-fujian-zongjiao-beiming--10407",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA53845936",
+   "corrections": {},
+   "note": "Found in CiNii Books (NCID BA53845936), held by 34 libraries. Record is for the multi-volume set 福建宗教碑銘彙編 ed. 鄭振滿・丁荷生 (Kenneth Dean), 福建人民出版社, 1995– ; the 興化府分冊 (1995) is the first volume. Widely held; also in NDL and many university libraries."
+  },
+  {
+   "id": "mc-jinjiang-beike-ji-10408",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 hits). ISBN 978-7-5108-1558-4, 九州出版社 2012 confirmed via non-catalog sources (dokumen.pub, sinica/haijiaoshi bibliographies) only. WorldCat could not be checked (bot-blocked 403/429). Likely a 晉江市政協文史 publication with thin library coverage; marking false honestly."
+  },
+  {
+   "id": "mc-jinjiang-beike-xuan-10409",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA69488940",
+   "corrections": {},
+   "note": "Found in CiNii Books (NCID BA69488940), held by 4 libraries. 晋江碑刻选, 粘良图 selector/annotator, 吳幼雄 reviewer, 厦门大学出版社 2002.5, part of 晋江文化丛书 vol. 2. Author/publisher/year all match."
+  },
+  {
+   "id": "mc-nan-an-beike-10410",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Only non-catalog references (sinica bibliography, kongfz). 作家出版社 2003 per item data. WorldCat unreachable (bot-blocked). Obscure local Nan'an inscription collection; marking false."
+  },
+  {
+   "id": "mc-xianyou-lidai-beike-10411",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Appears only in douban and the sinica/haijiaoshi 碑刻 bibliographies (not catalogs). 茅玉香, 海峽書局 2017 (some sources add 海潮攝影藝術出版社 as co-publisher). WorldCat unreachable. Marking false."
+  },
+  {
+   "id": "mc-minhou-lidai-beike-10412",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Confirmed to exist via a county news page and douban only (閩侯縣政協文史委, 曾江・林展飛, 福建美術出版社 2013/2014). No real library catalog located; WorldCat unreachable. 政協文史 local publication; marking false."
+  },
+  {
+   "id": "mc-changle-jinshi-zhi-10413",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). No catalog hit; only generic Changle gazetteer material surfaced. Self-published by 福建省長樂市政協 (2005), a classic 內部資料 committee publication. WorldCat unreachable. Marking false."
+  },
+  {
+   "id": "mc-zhangpu-lidai-beike-10414",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Appears as an archival source in a Brill bibliography and in the sinica list, but no library catalog record located. Published by 漳浦縣博物館 (1994), institutional/internal. WorldCat unreachable. Marking false."
+  },
+  {
+   "id": "mc-nanjing-shike-ji-10415",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Only sinica bibliography / local-gazetteer references. 南靖縣地方志編纂委員會, 海潮攝影藝術出版社 2007. WorldCat unreachable. Obscure county compilation; marking false."
+  },
+  {
+   "id": "mc-taining-gudai-beike-shij-10416",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Only sinica/haijiaoshi bibliography references; 連小琴・盧衍珙, 海峽書局 2013. No library catalog record found; WorldCat unreachable. Marking false."
+  },
+  {
+   "id": "mc-dongshan-fengwu-congshu--10417",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus. Web searches returned no specific match for 東山風物叢書：歷代石刻 (王君艷 等, 海風出版社 2013) beyond confirming the publisher exists. No catalog record; WorldCat unreachable. Local 叢書 volume; marking false."
+  },
+  {
+   "id": "mc-lianjiang-gubei-10418",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Self-published by 連江縣政協文史資料委員會 (2010) — internal 文史資料, essentially never held by union catalogs. WorldCat unreachable. Marking false."
+  },
+  {
+   "id": "mc-fujian-shanyang-cunluo-b-10419",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "Not found in CiNii Books or K10plus (0 hits). Only the sinica bibliography and HKUST 華南研究 newsletter mention it. 張小軍・余理民, 華南研究出版社 (HK) 2003 — small Hong Kong research-series imprint. WorldCat unreachable. Marking false."
+  },
+  {
+   "id": "mc-taimu-shike-wenshu-10420",
+   "in_catalog": true,
+   "catalog": "福建師範大學圖書館 (Fujian Normal University Library OPAC)",
+   "catalog_url": "https://weixin2.fynu.edu.cn/mspace/searchDetailLocal/m04fda147b93fe96629abd2c7ada61d48",
+   "corrections": {},
+   "note": "WebSearch surfaced a Fujian Normal University library 书目检索 (OPAC) detail record for 太姥石刻文书 (title shown: '图书馆书目检索系统- 太姥石刻文书'). Mainstream academic title: 張先清・董思思, 廈門大學出版社 2016, ISBN 978-7-5613-6378-6 / 9787561563786 (also in Google Books). Not in CiNii/NDL/K10plus and WorldCat was bot-blocked, but the university OPAC hit is a genuine library catalog holding, so in_catalog=true."
+  },
+  {
+   "id": "mc-taimu-shike-10421",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=太姥石刻",
+   "note": "1 result: 太姥石刻, 高健斌・白荣敏, 2021.12. Matches item exactly (publisher 福建教育出版社, ISBN 9787533492007)."
+  },
+  {
+   "id": "mc-xiamen-beizhi-huibian-10422",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=廈門碑志彙編",
+   "note": "Found in CiNii. The cited 2004 中國廣播電視出版社 edition (ed. 何丙仲) is the original; CiNii's visible record is the 增訂本 (enlarged ed.), 厦门大学出版社 2024.11. The work is catalogued; 2004 first edition is correct as given."
+  },
+  {
+   "id": "mc-xiamen-muzhiming-huicui-10424",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=廈門墓誌銘彙粹",
+   "note": "CiNii: 厦门墓志铭汇粹, 何丙仲・吴鹤立, 厦门大学出版社, 2011.6, held by 4 libraries. Also confirmed in K10plus (1 record). Matches item exactly."
+  },
+  {
+   "id": "mc-xiamen-moya-shike-10425",
+   "in_catalog": true,
+   "catalog": "Fujian Provincial Library OPAC (福建省图书馆)",
+   "catalog_url": "https://opac.fjlib.net/opac/search?q=厦门摩崖石刻&searchType=standard",
+   "note": "1 result: 厦门摩崖石刻, 厦门市政协文史(和学习宣传)委员会, 福建美术出版社, 2001 — matches item exactly. Not in CiNii/NDL, but also independently confirmed in K10plus (1 record)."
+  },
+  {
+   "id": "mc-jimei-xunzhen-lidai-beik-10426",
+   "in_catalog": true,
+   "catalog": "Fujian Provincial Library OPAC (福建省图书馆)",
+   "catalog_url": "https://opac.fjlib.net/opac/search?q=集美寻珍&searchType=standard",
+   "note": "1 result titled 集美寻珍. CAUTION: the fjlib record shows author 李玉清, publisher 厦门音像出版有限公司, year 2014 — differs from the cited 许金顶・李玉清 / 河海大学出版社 / 2016 (subtitle 历代碑刻拓片荟萃). Likely the same series/related edition but bibliographic details do not fully match; the specific 2016 河海大学出版社 volume was not separately located in a catalog (only in haijiaoshi/douban bibliographies, which don't count)."
+  },
+  {
+   "id": "mc-riguangyan-shuzhuang-hua-10427",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Has a real ISBN 9787561571668 (厦门大学出版社 2018, seen on AbeBooks bookseller only). Not found in CiNii, NDL, Fujian Provincial Library OPAC, or K10plus (searched by both title and ISBN). WorldCat could not be checked (persistent HTTP 429). No library-catalog hit located."
+  },
+  {
+   "id": "mc-mingji-haicang-haicang-y-10428",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "铭记海沧 / 海沧楹联碑刻精选汇编, 知识产权出版社 2021. Not found in CiNii, NDL, Fujian Provincial Library OPAC, or K10plus. Only the publisher and an unrelated 风土海沧 series appear online. Local committee compilation; no catalog hit."
+  },
+  {
+   "id": "mc-fuzhou-moya-shike-10429",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=福州摩崖石刻",
+   "note": "1 result: 福州摩崖石刻, 黄荣春, 福建美术出版社, 1999.12. Matches the 1999 first edition. Also independently confirmed in K10plus (1 record)."
+  },
+  {
+   "id": "mc-gulou-moya-beike-10431",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "鼓楼摩崖碑刻, self-published by 政协福州市鼓楼区委员会 2019 (publisher = the committee itself, no commercial press). Not in CiNii, Fujian Provincial Library OPAC, or K10plus. Internal/committee publication; no catalog hit."
+  },
+  {
+   "id": "mc-min-an-shike-diaocha-yu--10433",
+   "in_catalog": true,
+   "catalog": "Fujian Provincial Library OPAC (福建省图书馆)",
+   "catalog_url": "https://opac.fjlib.net/opac/search?q=闽安石刻调查与研究&searchType=standard",
+   "note": "1 result: 闽安石刻调查与研究, 中共福州市马尾区(委)宣传部・福州市马尾区文化体育局, 福建教育出版社, 2013 — matches item exactly. (Distinct from the 2018 闽安石刻调查 by 高健斌, item 10434.) Not in CiNii/NDL/K10plus."
+  },
+  {
+   "id": "mc-min-an-shike-diaocha-10434",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=閩安石刻",
+   "note": "1 result: 闽安石刻调查, 高健斌, 福建教育出版社, 2018.3, held by 4 libraries; part of 福建与海洋 series. Matches item exactly."
+  },
+  {
+   "id": "mc-sanming-moya-shike-10435",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=三明摩崖石刻",
+   "note": "1 result: 三明摩崖石刻, 福建省三明市政协文史资料委员会, 福建美术出版社, 2005.9 (=三明文史资料 第19辑), held by 3 libraries. Matches item exactly. Also confirmed in K10plus (2 records)."
+  },
+  {
+   "id": "mc-puxian-moya-tike-10436",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "莆仙摩崖题刻, 蒋维锬・朱合浦, 中国文史出版社 2005. Checked CiNii (0), NDL (0), Fujian Provincial Library OPAC (0, both 简体/繁体), and K10plus (0). WorldCat unreachable (persistent HTTP 429). Appears only in scholarly bibliographies (haijiaoshi / sinica), which do not count. No library-catalog hit located."
+  },
+  {
+   "id": "mc-putian-jinshi-muke-tuobe-10437",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "莆田金石木刻拓本志, 莆田县县志编纂委员会 1981 (self-issued by the gazetteer committee, no commercial press). Not in CiNii, NDL, Fujian Provincial Library OPAC, or K10plus. Classic 内部资料; no catalog hit."
+  },
+  {
+   "id": "mc-quanzhou-zongjiao-shike-10438",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=泉州宗教石刻",
+   "corrections": {
+    "isbn": "9787030155283"
+   },
+   "note": "泉州宗教石刻 (增订本), 吴文良原著・吴幼雄增订, 科学出版社 2005.5. Held by 23 libraries in CiNii Books (NCID BA74665910). Also matched a NLC/duxiu-style record set. Solidly cataloged."
+  },
+  {
+   "id": "mc-quanzhou-yisilanjiao-shi-10439",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=泉州伊斯蘭教石刻",
+   "corrections": {},
+   "note": "泉州伊斯兰教石刻, 陈达生主撰 (泉州海外交通史博物馆编), 宁夏人民出版社・福建人民出版社 1984.11. Held by 27 libraries in CiNii Books. Confirmed."
+  },
+  {
+   "id": "mc-quanzhou-moya-shike-10440",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=泉州摩崖詩刻",
+   "corrections": {},
+   "note": "泉州摩崖诗刻, 庄炳章编, 福建人民出版社 1991.11. In CiNii Books (4 libraries) and also in NDL. Year/publisher/author all match. Confirmed."
+  },
+  {
+   "id": "mc-quanjun-beike-baipian-yi-10441",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "泉郡碑刻百篇译注 (陈立献等, 中国文联出版社 2014). NOT found in CiNii Books (0 results) or NDL (0 results). Web hits are only bibliographies (sinica 新編碑刻集書目) and publisher/vendor lists; 中国文联出版社 is a self-publication channel. Could not reach WorldCat (persistent 429/bot-block). No library-catalog record located."
+  },
+  {
+   "id": "mc-quanzhou-fu-wenmiao-beiw-10442",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=泉州府文廟碑文錄",
+   "corrections": {},
+   "note": "泉州府文庙碑文录, 泉州府文庙文物保护管理处编, 海潮摄影艺术出版社 2009.8. In CiNii Books (NCID BB01618575, 1 library). Confirmed."
+  },
+  {
+   "id": "mc-jiurishan-moya-shike-qua-10443",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "九日山摩崖石刻诠释 (黄威廉/编委会, 本书编委会 2002). NOT in CiNii Books (0 results). Publisher is 本書編委會 (a local editorial committee = 内部資料, no ISBN/trade publisher). Web hits are only baike/blogs/heritage pages, no catalog. WorldCat unreachable (bot-block). No catalog holding found."
+  },
+  {
+   "id": "mc-qingyuanshan-moya-xuancu-10444",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "清源山摩崖选粹 (清源山风景名胜区管委会, 2004/2005). NOT in CiNii Books (0 results). Quanzhou 文史资料 describes it as a locally compiled 编纂 published alongside 清源山志 (launched 2005-06-08); the '中华书局' attribution is unverified and likely wrong (looks like a local committee publication). Web hits only in 文史资料/academic citations, no catalog record. WorldCat unreachable. No library-catalog holding located."
+  },
+  {
+   "id": "mc-luoyangqiao-shike-10445",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "洛阳桥石刻 (出宝阳, 2016). NOT in CiNii Books (0 results). Web hits show publisher 海潮摄影艺术出版社 (photo-art press) and only bibliographies (sinica, haijiaoshi 当代新修地方金石碑刻书备忘录) + a blog — not catalogs. WorldCat unreachable (bot-block). No library-catalog record found."
+  },
+  {
+   "id": "mc-fujian-hua-an-xianzitan--10448",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=仙字潭摩崖石刻",
+   "corrections": {},
+   "note": "福建华安仙字潭摩崖石刻研究, 福建省考古博物馆学会编, 中央民族学院出版社 1990.2. In CiNii Books (15 libraries). All metadata matches. Confirmed."
+  },
+  {
+   "id": "mc-min-ke-jiaojie-de-zhao-a-10449",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=閩客交界的詔安",
+   "corrections": {},
+   "note": "闽客交界的诏安 (= Zhao'an: where Min and Ke meet), 杨彦杰编, 社会科学文献出版社 2014.7. In CiNii Books (3 libraries). Confirmed."
+  },
+  {
+   "id": "mc-anping-beituo-lu-10450",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {
+    "publisher": "香港風雅圖書出版有限公司 (Hong Kong)"
+   },
+   "note": "安平碑拓录, 许著华编著, 香港风雅图书出版有限公司 2010. NOT in CiNii Books (0 results). Publisher is a small Hong Kong private press (given '風雅圖書出版公司' should be 香港風雅圖書出版有限公司). Web hits only baike + blog reviews, no catalog. WorldCat unreachable (bot-block). No library-catalog holding found."
+  },
+  {
+   "id": "mc-lushan-jinshi-kao-10451",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=庐山金石考",
+   "corrections": {
+    "publisher": "星子文史资料 第1集 (CiNii lists publisher as '不明/unknown'); the stated 政协星子县委文史资料研究委员会 is the issuing body"
+   },
+   "note": "庐山金石考, 徐新杰选注, 1985.1, in series 星子文史資料 第1集. In CiNii Books (2 libraries). It IS cataloged despite being a 文史资料 issue; CiNii records publisher as unknown. Confirmed in catalog."
+  },
+  {
+   "id": "mc-bailudong-shuyuan-beike--10452",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "白鹿洞书院碑刻摩崖选集, 孙家骅・李科友, 北京燕山出版社 1994. NOT in CiNii Books (0 results) and NOT in NDL (0 results). (Distinct from the widely-held 白鹿洞書院碑記集, id 10453 — that one IS cataloged; this 碑刻摩崖选集 is not.) Web hits only in bibliographies (haijiaoshi 新編碑刻集書目) + wikipedia, no catalog record. WorldCat/CALIS unreachable via tooling. No library-catalog holding located."
+  },
+  {
+   "id": "mc-bailudong-shuyuan-beiji--10453",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=白鹿洞書院碑記集",
+   "corrections": {
+    "author": "李才栋, 熊庆年 (editors) — CiNii adds co-editor 熊庆年"
+   },
+   "note": "白鹿洞书院碑记集, 李才栋・熊庆年编, 江西教育出版社 1995.8, series 白鹿洞书院研究丛书 2. In CiNii Books (15 libraries). Confirmed."
+  },
+  {
+   "id": "mc-lushan-mingsheng-shike-10454",
+   "in_catalog": false,
+   "note": "Not found in NDL or CiNii Books (both returned 0 results), nor surfaced in WorldCat searches. K10plus blocked automated access. Only appears in baike and the Sinica/haijiaoshi 新編碑刻集書目 bibliographies, which do not count. Likely a local Jiangxi publication. Title/author/year/publisher as given are corroborated by those non-catalog sources."
+  },
+  {
+   "id": "mc-lushan-shiwen-jinshi-gua-10455",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=庐山诗文金石广存",
+   "corrections": {
+    "author": "呉宗慈 撰；胡迎建、宗九奇 校點 (original compiler 吴宗慈/Wu Zongci; the listed 胡迎建、宗九奇 are the editors/校点者)"
+   },
+   "note": "NDL lists 廬山詩文金石廣存, 江西人民出版社, 1996. Confirmed in catalog. The work was originally compiled by 吴宗慈 (吳宗慈); 胡迎建 and 宗九奇 are the modern collators."
+  },
+  {
+   "id": "mc-shizhongshan-jinshi-lu-10456",
+   "in_catalog": false,
+   "note": "Not found in NDL or CiNii Books (both 0 results); no matching record surfaced in WorldCat title search; K10plus blocked. Only appears in baike/the Sinica 新編碑刻集書目 (not catalogs). Local Jiangxi 江西高校出版社 publication; given metadata (秦华南、王奔春, 2005) corroborated only by non-catalog sources."
+  },
+  {
+   "id": "mc-luling-gu-bei-lu-10457",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=廬陵古碑録",
+   "corrections": {},
+   "note": "NDL lists 廬陵古碑録, 高立人 主編, 江西人民出版社, 2007.12. Matches the given metadata. Part of the 庐陵文化丛书."
+  },
+  {
+   "id": "mc-lushan-lidai-shike-10458",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=庐山历代石刻",
+   "corrections": {},
+   "note": "CiNii Books lists 廬山歴代石刻, 陶勇清 編, 江西美术出版社, 2010.5, held in 6 Japanese university libraries. Matches the given metadata. (Not in NDL, but CiNii counts.)"
+  },
+  {
+   "id": "mc-shishang-chunqiu-taihe-g-10459",
+   "in_catalog": false,
+   "note": "石上春秋：泰和古碑录. Not found in NDL or CiNii Books (both 0 results); no WorldCat title match; K10plus and Shanghai Library VuFind blocked automated access. Only in baike/douban and the Sinica 新編碑刻集書目. Local Jiangxi 江西人民出版社 publication (萧用桁, 2013); metadata corroborated only by non-catalog sources."
+  },
+  {
+   "id": "mc-shishang-chunqiu-taihe-g-10460",
+   "in_catalog": false,
+   "note": "石上春秋：泰和古碑录续编 (input title '泰和古存续编' appears to be a truncation of 泰和古碑录续编). Not found in NDL or CiNii Books; no WorldCat match. Companion volume to 10459, 萧用桁, 江西人民出版社, 2016. Only in non-catalog bibliographies/booksellers."
+  },
+  {
+   "id": "mc-xingzi-lishi-wenhua-cong-10464",
+   "in_catalog": false,
+   "note": "星子历史文化丛书：摩崖碑刻 (陈再阳). Not found in NDL or CiNii Books (both 0 results). The 星子历史文化丛书 series (江西人民出版社, 2019) is attested via Amazon/booksellers for other volumes (星子史话, 星子人物), but no library catalog record located for this 摩崖碑刻 volume. Local Jiangxi series publication."
+  },
+  {
+   "id": "mc-bailudong-shuyuan-moya-s-10465",
+   "in_catalog": false,
+   "note": "白鹿洞书院摩崖石刻赏析, given as 陈岌、陈礼, 江西高校出版社, 2019. Not found in NDL or CiNii Books. Note: a DIFFERENT but similarly-titled book, 白鹿洞书院摩崖石刻赏析 by 吴国富、黎华 (湖南大学出版社, ISBN 978-7-5667-0315-6, part of 白鹿洞书院文化旅游丛书), exists on douban (subject 34932026) — do not conflate. Neither the given 陈岌/江西高校出版社 edition nor the 吴国富 edition was confirmed in a real catalog via accessible searches."
+  },
+  {
+   "id": "mc-fuliang-lidai-beiming-hu-10467",
+   "in_catalog": false,
+   "note": "浮梁历代碑铭汇编. Not found in NDL or CiNii Books. The item itself records it as 即出/forthcoming with publication info undetermined (浮梁县博物馆 committee publication), so absence from catalogs is expected."
+  },
+  {
+   "id": "mc-qufu-rujia-beike-wenxian-10468",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=曲阜儒家碑刻文献",
+   "corrections": {
+    "isbn": "9787533346065",
+    "year": "2022 (NDL: 2022.9)"
+   },
+   "note": "NDL lists 曲阜儒家碑刻文獻集成, 楊朝明 主編, 齊魯書社, 2022.9. Confirmed. ISBN 9787533346065 (3-volume set 全三册) per bookseller records."
+  },
+  {
+   "id": "mc-qufu-rujia-beike-wenxian-10469",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=曲阜儒家碑刻文献",
+   "corrections": {},
+   "note": "NDL lists the series 曲阜儒家碑刻文獻輯録, 楊朝明 主編, 齊魯書社, all five volumes: 第1辑 2015.10, 第2辑 2015.12, 第3辑 2017.12, 第4辑 2018.11, 第5辑 2019.11. Matches the given 2015–2019 range. Confirmed."
+  },
+  {
+   "id": "mc-shitou-shang-de-rujia-we-10471",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=石頭上的儒家文獻 曲阜碑文録",
+   "corrections": {},
+   "note": "NDL lists 石頭上的儒家文獻：曲阜碑文録, 駱承烈 編, 齊魯書社, 2001 (2001.4). Matches the given metadata. Confirmed."
+  },
+  {
+   "id": "mc-qufu-beimu-jilu-10472",
+   "in_catalog": false,
+   "note": "曲阜碑目集録, 駱承烈, 曲阜師院孔子研究室, 1981. Not found in NDL or CiNii Books (both 0 results); no WorldCat match. A 1981 internal publication of the Confucius research office at Qufu Normal College (内部资料), not held in the major catalogs checked."
+  },
+  {
+   "id": "mc-mengzi-linmiao-lidai-shi-10474",
+   "in_catalog": true,
+   "catalog": "CiNii Books / NDL",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=孟子林廟歴代石刻集",
+   "note": "Found in both CiNii Books (held by 13 libraries) and NDL. 刘培桂编著, 齊魯書社, 2005.9; series 孟子研究文庫 (ed. 趙駿河) 第1輯. Matches given metadata."
+  },
+  {
+   "id": "mc-mengmiao-mengfu-menglin--10475",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books or NDL (checked traditional form 孟廟孟府孟林碑刻集). No WorldCat record found via domain-scoped search. K10plus blocks automated queries (Anubis) but absence from WorldCat/CiNii/NDL makes a holding unlikely. Local 齊魯書社 2019 compilation."
+  },
+  {
+   "id": "mc-zou-lu-shike-yinglian-hu-10476",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=鄒魯石刻楹聯薈萃",
+   "note": "Found in CiNii Books (邹鲁石刻楹联荟萃, 郑建芳 ed., 齊魯書社, 2016.12; series 邹鲁文化丛书 第1辑; held by 1 library). Matches given metadata."
+  },
+  {
+   "id": "mc-yishan-beike-ji-10477",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=峄山碑刻集",
+   "note": "Found in CiNii Books (峄山碑刻集, 王川, 齊魯書社, 2016.12; series 邹鲁文化丛书 第1辑; 1 library). Matches given metadata."
+  },
+  {
+   "id": "mc-jining-lidai-muzhiming-10478",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=濟寧歴代墓誌銘",
+   "note": "Found in CiNii Books (濟寧歷代墓誌銘, 李恒法・解华英, 齊魯書社, 2011.2; held by 6 libraries). Matches given metadata."
+  },
+  {
+   "id": "mc-tengzhou-lidai-shike-10480",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books or NDL (checked both 滕州歷代石刻 and 滕州历代石刻). No WorldCat record found via domain-scoped search. Despite the major publisher (中華書局, 2019), no library-catalog holding located; the 中華石刻數據庫/籍合網 hits are databases, not catalogs."
+  },
+  {
+   "id": "mc-yanzhou-lidai-beike-kaol-10481",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books, NDL, or WorldCat (checked 兗州歷代碑刻考録/考錄 and simplified 兖州历代碑刻考录). Web hits are scholarly bibliographies (sinica 新編碑刻集書目, ancientbooks.cn 石刻总目数据库), which do not count. 齊魯書社 2013."
+  },
+  {
+   "id": "mc-yanzhou-jinkouba-keshi-y-10482",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books or NDL (checked 兗州金口壩刻石遺珍 and simplified 兖州金口坝刻石遗珍). No WorldCat record found. 中國文史出版社 2016 — obscure local title, no library holding located."
+  },
+  {
+   "id": "mc-jinan-lidai-muzhiming-10488",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books, NDL, or WorldCat (checked 濟南歷代墓誌銘/墓志銘 and simplified 济南历代墓志铭, author 韓明祥). 黃河出版社 2002 — no library-catalog holding located."
+  },
+  {
+   "id": "mc-baotuquan-beike-10489",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books, NDL, or WorldCat (趵突泉碑刻). 濟南出版社 2006 — local publication, no library holding located."
+  },
+  {
+   "id": "mc-jinan-yuanlin-beike-10490",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books or NDL (checked 濟南園林碑刻 and simplified 济南园林碑刻). No WorldCat record found. 濟南出版社 2006 — local publication, no library holding located."
+  },
+  {
+   "id": "mc-changqing-beike-10492",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=長清碑刻",
+   "corrections": {
+    "author": "張昭森 (Zhang Zhaosen)"
+   },
+   "note": "Found in CiNii Books as a 3-volume set (長清碑刻 上/中/下), 济南出版社, 2020.12. Catalog gives the author/editor as 張昭森 (Zhang Zhaosen), differing from the supplied 張朝森; year and publisher match. (政協濟南市長清區委員會 is the sponsoring body.)"
+  },
+  {
+   "id": "mc-pingyin-xian-beike-jiche-10493",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "Not in CiNii Books or NDL (checked 平陰縣碑刻集成 and simplified 平阴县碑刻集成). No WorldCat record found. Published by 政協平陰縣委員會 (2021) — a county CPPCC committee internal publication (內部資料), the kind no library catalog holds."
+  },
+  {
+   "id": "mc-qingzhou-shi-wenwu-zhi-10497",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=青州市文物志",
+   "note": "Found in CiNii Books (青州市文物志, 青州市博物馆, 文物出版社, 2020.5; held by 1 library). Matches given metadata."
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10498",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=山東道教碑刻集",
+   "note": "Held under the multi-volume set 山東道教碑刻集 (青州昌樂卷・臨朐卷・博山卷), 趙衛東 ed., 齊魯書社 2010-, ~19 libraries on CiNii; also in NDL. Author/year/publisher match."
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10499",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=山東道教碑刻集",
+   "note": "臨朐卷 part of the 山東道教碑刻集 set (齊魯書社), held on CiNii (~19 libs) and NDL. Matches."
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10500",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=山東道教碑刻集",
+   "note": "博山卷 (上/下) part of the 山東道教碑刻集 set (齊魯書社), held on CiNii (~19 libs) and NDL. Matches."
+  },
+  {
+   "id": "mc-shandong-daojiao-beike-j-10501",
+   "in_catalog": true,
+   "catalog": "NDL",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=山東道教碑刻集",
+   "note": "山東道教碑刻集 肥城卷, 趙衛東 ed., 齊魯書社 2020.11; held by NDL and CiNii (5 libraries). Year/publisher/author match."
+  },
+  {
+   "id": "mc-dongzhen-yishan-beita-ji-10502",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=東鎮沂山碑拓集錦",
+   "note": "东镇沂山碑拓集锦, 政协山东省临朐县委员会编, 齊魯書社 2013.12; 2 libraries on CiNii. Matches."
+  },
+  {
+   "id": "mc-yishan-shike-10503",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=沂山石刻",
+   "note": "沂山石刻, 张孝友, 山东友谊出版社 2009; 5 libraries on CiNii. Author/year/publisher match."
+  },
+  {
+   "id": "mc-zibo-shike-10504",
+   "in_catalog": false,
+   "note": "Local 政協文史資料 publication. Not found in CiNii or NDL. Appears only in the sinica 新編碑刻集書目 scholarly bibliography (not a catalog). No real library-catalog holding located."
+  },
+  {
+   "id": "mc-boshan-beike-10505",
+   "in_catalog": false,
+   "note": "博山碑刻 (博山區政協, 2014) not in CiNii or NDL (CiNii hits for 博山 are the unrelated 山東道教碑刻集 博山卷). Only the sinica bibliography lists it. No catalog holding found."
+  },
+  {
+   "id": "mc-dazeshan-shiwen-shike-ji-10509",
+   "in_catalog": false,
+   "note": "大澤山詩文石刻輯注 (青島出版社 1998) not in CiNii, not in NDL; no WorldCat record surfaced (WorldCat rate-limited but scoped search returned no match). Only the sinica bibliography lists it."
+  },
+  {
+   "id": "mc-yunfeng-keshi-diaocha-yu-10510",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=雲峰刻石調査與研究",
+   "note": "云峰刻石调查与研究, 王思禮・焦德森・賴非 eds., 齊魯書社 1992.6; held by CiNii and NDL. Author/year/publisher match."
+  },
+  {
+   "id": "mc-penglai-jinshi-lu-10511",
+   "in_catalog": false,
+   "note": "蓬萊金石録 (張詠強, 黃河出版社 2007) not in CiNii or NDL. Only bookstore/bibliography hits, no real library catalog located."
+  },
+  {
+   "id": "mc-penglaige-beike-shiwen-s-10512",
+   "in_catalog": false,
+   "note": "蓬萊閣碑刻詩文賞析 (蓬萊閣管理處, 文物出版社 2013) not in CiNii or NDL; no WorldCat match surfaced (WorldCat rate-limited, K10plus blocked). Only the sinica bibliography lists it."
+  },
+  {
+   "id": "mc-laishan-guancang-lidai-b-10513",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=萊山館藏歷代碑刻拓片精選",
+   "note": "莱山馆藏历代碑刻拓片精选 : 庆祝莱山区建区二十周年, 烟台市莱山区博物馆编, 山东友谊出版社 2014.11; 1 library on CiNii. Author/year/publisher match (record carries an added subtitle)."
+  },
+  {
+   "id": "mc-yishui-beike-10515",
+   "in_catalog": false,
+   "note": "沂水碑刻 (沂水縣政協文史資料委員會, 2018) not in CiNii or NDL. Local 政協 publication; only the sinica bibliography lists it. No catalog holding found. (Stated publisher '上海出版社' is unverified/likely imprecise, but no catalog record exists to confirm a correction.)"
+  },
+  {
+   "id": "mc-lunan-lidai-shuhua-beike-10516",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL. Web search surfaced only the Academia Sinica 新編碑刻集書目 bibliography (not a catalog) and books.com.tw publisher pages. No library-catalog record found. WorldCat could not be checked (HTTP 429 rate-limit); K10plus blocked by Anubis bot-protection. Characteristic regional 中國文聯出版社 art-circle collection with no apparent union-catalog presence."
+  },
+  {
+   "id": "mc-jinan-yisilanjiao-beike--10517",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=濟南伊斯蘭教碑刻",
+   "note": "CiNii Books lists 济南伊斯兰教碑刻笺注, 济南伊斯兰教协会, 2004 (held by 1 library). Cataloged under 笺注者 伊牧之; the corporate body 濟南市伊斯蘭教協會 is the publisher/issuer.",
+   "corrections": {
+    "author": "伊牧之 笺注 (issued by 濟南市伊斯蘭教協會)"
+   }
+  },
+  {
+   "id": "mc-mengfu-dang-an-quanbian--10518",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=孟府檔案全編",
+   "note": "CiNii Books lists 孟府檔案全編 (前集, multi-volume incl. 碑刻檔案), 齊魯書社, 2014.4. Editor name in catalog is 宮曉衛 (item gives 官曉衛 — variant of same person).",
+   "corrections": {
+    "author": "宮曉衛、侯新建、邵澤水 主編 (item has 官曉衛, a variant of 宮曉衛)"
+   }
+  },
+  {
+   "id": "mc-luoyang-chutu-shike-shid-10519",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛阳出土石刻时地记",
+   "note": "CiNii Books lists 洛陽出土石刻時地記, based on 郭玉堂's work (ed. 郭培育/郭培智), 大象出版社, 2005.4 (24 holdings). A separate 復刻 edition (明治大学/汲古書院, 2002) also exists with 47 holdings. ISBN 9787534738197."
+  },
+  {
+   "id": "mc-luoyang-shike-xieying-10520",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽石刻擷英",
+   "note": "CiNii Books lists 洛阳石刻撷英, 国家图书馆出版社, 2011.5 (8 holdings). Cataloged with corporate editors (洛阳市文物局 etc.); 余扶危 noted as related author."
+  },
+  {
+   "id": "mc-luoyang-xinhuo-muzhi-bai-10521",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽新獲墓誌",
+   "note": "CiNii Books lists 洛陽新獲墓誌百品, ed. 齊運通, 國家圖書館出版社, 2020.10 (10 holdings). Exact match."
+  },
+  {
+   "id": "mc-luoyang-liusan-tangdai-m-10522",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽流散唐代墓誌彙編",
+   "note": "CiNii Books lists 洛陽流散唐代墓誌彙編, 毛陽光/余扶危, 國家圖書館出版社, 2013.12 (29 holdings). ISBN 9787501351794. Exact match."
+  },
+  {
+   "id": "mc-luoyang-liusan-tangdai-m-10523",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽流散唐代墓誌彙編",
+   "note": "CiNii Books lists 洛陽流散唐代墓誌彙編續集, 毛陽光, 國家圖書館出版社, 2018.10 (19 holdings). ISBN 9787501365074. Exact match."
+  },
+  {
+   "id": "mc-luoyang-liusan-tangdai-m-10524",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽流散唐代墓誌彙編",
+   "note": "CiNii Books lists 洛陽流散唐代墓誌彙編三集, 毛陽光, 國家圖書館出版社, 2023.2. Exact match."
+  },
+  {
+   "id": "mc-luoyang-minguo-beike-10525",
+   "in_catalog": false,
+   "note": "Zero results in CiNii Books and NDL. Web search surfaced no catalog record (only generic library-system landing pages). WorldCat could not be checked (HTTP 429 rate-limit); K10plus blocked by Anubis bot-protection. Likely a local 中州古籍出版社 volume without union-catalog presence."
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10526",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽明清碑誌",
+   "note": "CiNii Books lists 洛陽明清碑誌 市區卷, ed. 呂勁松, 中州古籍出版社. Catalog gives 2017.4 (item lists 2016).",
+   "corrections": {
+    "year": "2017 (catalog shows 2017.4; item lists 2016)"
+   }
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10527",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽明清碑誌",
+   "note": "CiNii Books lists 洛陽明清碑誌 偃師卷, ed. 李春敏, 中州古籍出版社, 2015.4. Match."
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10528",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽明清碑誌",
+   "note": "CiNii Books lists 洛陽明清碑誌 孟津卷, ed. 桑永夫, 中州古籍出版社, 2014.11. Match."
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10530",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=洛陽明清碑誌",
+   "note": "CiNii Books lists 洛陽明清碑誌 欒川卷, ed. 王璐, 中州古籍出版社, 2021.9. Match."
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10531",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BD12530801",
+   "note": "洛陽明清碑誌 宜陽卷 (上 BD12530561 / 下 BD12530801), 張博 主編, 中州古籍出版社 2021.11. Confirmed in CiNii Books (also held across the multi-volume series in 8 libraries). Matches author/year/publisher."
+  },
+  {
+   "id": "mc-luoyang-ming-qing-beizhi-10532",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=%E6%B4%9B%E9%99%BD%E6%98%8E%E6%B8%85%E7%A2%91%E8%AA%8C+%E5%B5%A9%E7%B8%A3",
+   "note": "洛陽明清碑誌 嵩縣卷, 中州古籍出版社 2020. Confirmed as a volume of the 洛陽明清碑誌 series in CiNii Books. The series institutional compilers are 洛陽市文物鑽探管理辦公室 / 洛陽師範學院; volume-level chief editor field not separately verified, so the supplied 吕劲松、周海涛 editorship is left as-is."
+  },
+  {
+   "id": "mc-luoyang-fojiao-beike-jic-10533",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BC05870303",
+   "note": "洛陽佛教碑刻集萃, 李隨森 主編, 中州古籍出版社 2020.6 (NCID BC05870303). Held by 3 Japanese libraries. Matches author/year/publisher."
+  },
+  {
+   "id": "mc-henan-simiao-daoguan-bei-10534",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BC03543124",
+   "note": "河南寺廟道觀碑刻集成 洛陽卷1, 楊振威 主編, 中州古籍出版社 2019.12 (NCID BC03543124). Confirmed in CiNii Books. Matches author/year/publisher."
+  },
+  {
+   "id": "mc-henan-simiao-daoguan-bei-10535",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BC05489030",
+   "note": "河南寺廟道觀碑刻集成 洛陽卷2, 楊振威 主編, 中州古籍出版社 2020.6 (NCID BC05489030). Confirmed in CiNii Books (series also has 洛陽卷3 BD00875908 and 卷4 BD02944182). Matches author/year/publisher."
+  },
+  {
+   "id": "mc-guanlin-10536",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BD09140795",
+   "note": "關林 (full title 洛陽・關林 : 中國武聖鐘靈處), 洛陽關林管理委員會 編, 中州古籍出版社 1994.9 (NCID BD09140795). Confirmed in CiNii Books. Matches author/year/publisher."
+  },
+  {
+   "id": "mc-xin-zhongguo-chutu-muzhi-10537",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA85744327",
+   "note": "新中國出土墓誌 河南[叁] 千唐誌齋, 中國文物研究所・千唐誌齋博物館 編, 文物出版社 2008.1 (set NCID BA85744327, held by 42 libraries; individual vols BC1824377X / BC18243281). Matches author/year/publisher."
+  },
+  {
+   "id": "mc-qiantangzhizhai-cang-zhi-10538",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BN03124049",
+   "note": "千唐誌齋藏誌, 文物出版社 1984.1 (NCID BN03124049, held by 60 libraries). Confirmed in CiNii Books.",
+   "corrections": {
+    "author": "河南省文物研究所、河南省洛阳地区文管处 (CiNii lists 河南省洛陽地區文管處 as the second compiler, not 千唐志斋文管所)"
+   }
+  },
+  {
+   "id": "mc-yanshi-beizhi-jingxuan-10539",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB04285901",
+   "note": "偃師碑誌精選, 周劍曙・郭宏濤, 湖北美術出版社 2004 (NCID BB04285901). Confirmed in CiNii Books. Matches author/year/publisher."
+  },
+  {
+   "id": "mc-yanshi-beizhi-xuancui-10540",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB19165663",
+   "note": "偃師碑誌選粹, 郭宏濤・周劍曙, 中州古籍出版社 2014 (NCID BB19165663). Confirmed in CiNii Books. Matches author/year/publisher."
+  },
+  {
+   "id": "mc-ciyunsi-shike-10541",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "慈雲寺石刻 (張瑞峰, 中華書局 2019). Not found in any real library catalog: CiNii Books 0 hits, NDL 0 hits, and domain-restricted searches of WorldCat/K10plus/NLC/HathiTrust returned nothing. The title appears only in the haijiaoshi.com 文在兹 bibliography (not a catalog). WorldCat could not be fetched directly (persistent HTTP 429 today)."
+  },
+  {
+   "id": "mc-zhanjie-laocheng-beike-j-10542",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "站街老城碑刻集 (孫憲周 主編, 鞏義站街 內部資料 ~2000). Internal/neibu publication; CiNii Books 0 hits. No library catalog holding found, consistent with its 內部 status."
+  },
+  {
+   "id": "mc-zhengzhou-gudai-beike-10543",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB29626128",
+   "note": "鄭州古代碑刻, 閻鐵成 主編 (王雪寶・王衛華 編著), 河南人民出版社 2017.6 (NCID BB29626128). Confirmed in CiNii Books. Matches author/year/publisher."
+  },
+  {
+   "id": "mc-zhengzhou-lidai-beike-hu-10544",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "note": "鄭州歷代碑刻彙選 (精品卷), 鄭州博物館 編, 大象出版社 2019, ISBN 9787571103576 — a real book but not held in any library catalog checked: CiNii Books 0, NDL 0, domain searches of WorldCat/K10plus/NLC 0. Appears only on kongfz/孔夫子 (excluded). WorldCat not fetchable directly today (HTTP 429). corrections: ISBN 9787571103576."
+  },
+  {
+   "id": "mc-zhengzhou-lidai-beike-hu-10545",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus (also searched by ISBN 9787571103576). Only appears on kongfz, JD, museum printing-tender pages, and the Academia Sinica 新編碑刻集書目 bibliography — none of which are library catalogs. WorldCat could not be checked (it returned HTTP 429 to all automated requests)."
+  },
+  {
+   "id": "mc-zhengzhou-kaiyuansi-beis-10546",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://www.ndl.go.jp/books/R100000136-I1971993809726186636",
+   "corrections": {
+    "publisher": "大象出版社",
+    "author": "郑州博物馆 编著"
+   },
+   "note": "NDL record: 郑州开元寺北宋石刻艺术, 郑州博物馆编著, 大象出版社, 2013.6. Catalog gives publisher as 大象出版社 and compiler as 郑州博物馆 (item lists 海燕出版社 / 郑州市文物考古研究院); these may be co-publishers/parallel imprints. Title and year match."
+  },
+  {
+   "id": "mc-xinzheng-beike-wenji-10547",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus. Appears only in the Academia Sinica 新編碑刻集書目 bibliography. Published by 香港国际出版社 (a vanity/HK imprint), typical of works not held by major catalogs. WorldCat unavailable (HTTP 429)."
+  },
+  {
+   "id": "mc-xinmi-gucheng-beike-10548",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=新密古城碑刻",
+   "corrections": {},
+   "note": "NDL record: 新密古城碑刻, 中州古籍出版社, 2021.7. Title/publisher/year match. NDL shows the editor as 冯俊亚, vs. item's 冯俊杰 — likely an OCR/transcription variant of the same name; not overriding."
+  },
+  {
+   "id": "mc-zhengzhou-xingyang-dahai-10549",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=荥阳大海寺石刻造像",
+   "corrections": {
+    "author": "张巍 编"
+   },
+   "note": "NDL record: 郑州荥阳大海寺石刻造像, 张巍编, 河南美术出版社, 2006.8. Title/publisher/year match. NDL names editor 张巍 (item lists the institutional author 河南省古代建筑保护研究所); the institution is plausibly the corporate author with 张巍 as named editor."
+  },
+  {
+   "id": "mc-zhenwei-beike-10550",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus. No catalog holdings surfaced via search either — only generic publisher/WorldCat-landing pages. WorldCat itself could not be queried (HTTP 429)."
+  },
+  {
+   "id": "mc-anyang-muzhi-xuanbian-10551",
+   "in_catalog": true,
+   "catalog": "CiNii Books (Japanese university union catalog)",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=安阳墓志选编",
+   "corrections": {},
+   "note": "CiNii Books record: 安阳墓志选编, 安阳市文物考古研究所・安阳博物馆编著, 科学出版社, 2015.12; held in 10 libraries. Author, publisher, and year all match the item."
+  },
+  {
+   "id": "mc-anyang-xian-gu-beike-jic-10552",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus. Explicitly an 内部资料 (internal/unofficial publication), the kind no library catalog holds. WorldCat unavailable (HTTP 429)."
+  },
+  {
+   "id": "mc-linzhou-xiancun-gujin-be-10553",
+   "in_catalog": false,
+   "note": "Not found in NDL, CiNii Books, or K10plus. Appears only in the Academia Sinica 新編碑刻集書目 bibliography. 1996, 文茂出版社 (minor imprint); no catalog holdings located. WorldCat unavailable (HTTP 429)."
+  },
+  {
+   "id": "mc-zhenmin-yonggu-huaxian-l-10554",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=贞珉永固 滑县",
+   "corrections": {},
+   "note": "NDL record: 贞珉永固：滑县历代金石精品辑录, 胡晓涵, 河南美术出版社, 2021.11. Title, author, publisher, and year all match."
+  },
+  {
+   "id": "mc-puyang-beike-muzhi-10555",
+   "in_catalog": true,
+   "catalog": "CiNii Books (Japanese university union catalog)",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=濮阳碑刻墓志",
+   "corrections": {},
+   "note": "CiNii Books record: 濮阳碑刻墓志, 王义印编著, 中州古籍出版社, 2003.5 (series 濮阳历史文化丛书); held in 7 libraries. Author, publisher, and year all match. (Not in NDL, but found in CiNii.)"
+  },
+  {
+   "id": "mc-xinxiang-gudai-jianzhu-y-10556",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=新乡古代建筑与石刻艺术",
+   "corrections": {},
+   "note": "NDL record: 新乡古代建筑与石刻艺术, 新乡市文物考古研究所・傅山泉・王政, 中州古籍出版社, 2010.6. Author, publisher, and year all match."
+  },
+  {
+   "id": "mc-weihui-lidai-beike-10557",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=卫辉历代碑刻",
+   "corrections": {},
+   "note": "NDL record: 卫辉历代碑刻, 安喜萍, 中州古籍出版社, 2013.10. Author, publisher, and year all match."
+  },
+  {
+   "id": "mc-muye-ming-bei-10558",
+   "in_catalog": true,
+   "catalog": "K10plus / GVK",
+   "catalog_url": "https://sru.k10plus.de/opac-de-627?query=pica.all%3D牧野名碑",
+   "corrections": {
+    "isbn": "9787520375535"
+   },
+   "note": "K10plus MARC record: 牧野名碑 (Mu ye ming bei) by 霍德柱 (Huo Dezhu), 中国社会科学出版社 ([Beijing]), 2020-12, ISBN 9787520375535, series 中国社会科学文库. Author, publisher, and year all match; verified via K10plus SRU API. (Not in NDL or CiNii, but held via K10plus/CrossAsia.)"
+  },
+  {
+   "id": "mc-bigan-miao-beike-jiexi-10559",
+   "in_catalog": false,
+   "corrections": {
+    "year": "2016"
+   },
+   "note": "Real title is 比干庙古碑刻解析 (note 古). Published 中州古籍出版社, Dec 2016 (not 2014), ISBN 9787534854699. Verified absent from CiNii Books, NDL, and WorldCat search index. Only appears on book resellers (bookschina/中图网, Japanese ato-shoten/myace) and the sinica/haijiaoshi bibliographies, which do not count as catalogs."
+  },
+  {
+   "id": "mc-yin-taishi-bigan-miao-be-10560",
+   "in_catalog": false,
+   "note": "卫辉市纪念比干诞辰3085周年筹委会宣传组, 1994, explicitly 内部资料 (internal/non-commercial). No ISBN. Not found in CiNii Books, NDL, or WorldCat — as expected for a committee 内部资料 publication."
+  },
+  {
+   "id": "mc-huixian-beijie-shike-10561",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=辉县碑碣石刻",
+   "note": "Confirmed: 輝縣碑碣石刻, 王建新 編, 中州古籍出版社, 2012.12. Held in 1 Japanese university library per CiNii Books."
+  },
+  {
+   "id": "mc-changyuan-jinshi-zhi-10562",
+   "in_catalog": false,
+   "note": "The 2019 长垣金石志 (宋广民主编 / 长垣市政协编, 西安地图出版社) was NOT found in CiNii, NDL, or WorldCat. NDL does hold a homonymous but DIFFERENT work — 長垣金石志 by 蒋庸, reprinted 1986 in 石刻史料新編 第3輯第25册 (新文丰出版公司); that is an older gazetteer, not this modern committee compilation. So this specific item is not in a catalog."
+  },
+  {
+   "id": "mc-miaolesi-beike-10563",
+   "in_catalog": false,
+   "note": "妙乐寺碑刻 (孙汝熙, 河南人民出版社, 2013) not found in CiNii Books or NDL; no WorldCat record via search index. Not in a library catalog."
+  },
+  {
+   "id": "mc-shanyang-shike-yishu-10564",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=山阳石刻艺术",
+   "note": "Confirmed: 山阳石刻艺术 = Stone inscription art of Shanyang, 郭建设·索全星, 河南美术出版社, 2004.9. Held in 1 library per CiNii Books."
+  },
+  {
+   "id": "mc-xiuwu-beike-jikao-10565",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=修武碑刻辑考",
+   "note": "Confirmed: 修武碑刻辑考, 刘文锴 編, 中国矿业大学出版社, 2013.8. Held in 2 libraries per CiNii Books."
+  },
+  {
+   "id": "mc-xiuwu-beijie-shike-10566",
+   "in_catalog": false,
+   "note": "修武碑碣石刻 (修武县文化局, 中州古籍出版社, 2016) not found in CiNii Books, NDL, or WorldCat search index. Distinct from the confirmed 修武碑刻辑考. Not in a library catalog."
+  },
+  {
+   "id": "mc-qinyang-shi-bowuguan-can-10567",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=沁阳市博物馆藏墓志",
+   "note": "Confirmed: 沁陽市博物館藏墓誌, 張紅軍 編, 科学出版社, 2018.1. Held in 4 libraries per CiNii Books."
+  },
+  {
+   "id": "mc-zilingzhen-jinshi-zhi-10568",
+   "in_catalog": false,
+   "note": "紫陵镇金石志 (张战营, 郑州大学出版社, 2017) not found in CiNii Books or NDL; no WorldCat record. Obscure town-level 金石志 — not in a library catalog."
+  },
+  {
+   "id": "mc-fugou-shike-10569",
+   "in_catalog": false,
+   "note": "扶沟石刻 (郝万章, 中国广播电视出版社, 2012) not found in CiNii Books, NDL, or WorldCat search index. Not in a library catalog."
+  },
+  {
+   "id": "mc-laozi-guli-gu-kebei-10570",
+   "in_catalog": false,
+   "note": "老子故里古刻碑 (鹿邑县老子文化研发中心, 线装书局, 2017) not found in CiNii Books, NDL, or WorldCat search index. Local 老子文化 publication — not in a library catalog."
+  },
+  {
+   "id": "mc-wolonggang-wuhouci-beike-10571",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=卧龙岗武侯祠碑刻",
+   "note": "Confirmed: 卧龙岗武侯祠碑刻, 柳玉东 編 / 南阳市博物馆 compiler, 中州古籍出版社, 2015.11. Held in 1 library per CiNii Books."
+  },
+  {
+   "id": "mc-zhongguo-nanyang-han-hua-10572",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=中国南阳汉画像石大全",
+   "note": "Confirmed: 中國南陽漢畫像石大全 (全十卷), 凌皆兵·王清建·牛天伟 編, 大象出版社, 2015.9. 10 volumes, held in 7 libraries per CiNii Books."
+  },
+  {
+   "id": "mc-hanhua-zonglu-nanyang-20-10573",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=汉画总录 南阳",
+   "note": "Found as the multi-volume set 汉画总录 (Hanhua zonglu), 朱青生 ed., 广西师范大学出版社, 2012– , held in 9 libraries; the 南阳 volumes (incl. vol. 20) are part of this catalogued set. Editor also given as 康兰英/朱青生 at the set level."
+  },
+  {
+   "id": "mc-xiayi-lidai-shike-jikao-10574",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 results). Only non-catalog hits (PKU acquisitions list, publisher). Appears to be a local Henan publication not held by any of the checked catalogs. WorldCat was rate-limited (429) and could not be confirmed."
+  },
+  {
+   "id": "mc-wenhua-anfeng-10575",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=文化安豐",
+   "note": "贾振林编著, 大象出版社, 2011.11, held in 8 libraries."
+  },
+  {
+   "id": "mc-beisong-shanzhou-louzeyu-10577",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=北宋陝州漏澤園",
+   "note": "三门峡市文物工作队 [编著], 文物出版社, 1999.6, held in 25 libraries."
+  },
+  {
+   "id": "mc-yuxi-shuibei-gouchen-10578",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 results / numberOfRecords=0). Only non-catalog hits (haijiaoshi 新編碑刻集書目 bibliography, publisher/baike). WorldCat rate-limited (429) and could not be confirmed."
+  },
+  {
+   "id": "mc-baoyi-beiming-10579",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 results). Only blog/library-author-page hits, no catalog record. Author 陈树钢, a Baofeng (宝丰) local compilation. WorldCat rate-limited (429)."
+  },
+  {
+   "id": "mc-songshan-lidai-beike-xua-10580",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or K10plus (all 0 results). Only non-catalog hits (302edu ebook site, haijiaoshi bibliography, blog). WorldCat rate-limited (429)."
+  },
+  {
+   "id": "mc-songshan-shaolinsi-beike-10582",
+   "in_catalog": false,
+   "note": "嵩山少林寺碑刻选 (王雪宝主编, 中国广播电视出版社, 1992) not found in CiNii Books, NDL, or K10plus (all 0 results). Only an antiquarian/used-book listing (paihaoshu) and library subject pages, no catalog record. WorldCat persistently rate-limited (429) and could not be checked."
+  },
+  {
+   "id": "mc-shaolinsi-beike-xuan-10583",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=少林寺碑刻選",
+   "note": "少林寺碑刻選, 河南省开封地区文物管理委员会 + 河南省登封县文物保管所编选, 1978.6, publisher [出版者不明] (matches the 内部资料 designation), held in 2 libraries."
+  },
+  {
+   "id": "mc-longmen-shiku-beike-tiji-10584",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=龍門石窟碑刻題記彙録",
+   "note": "龍門石窟碑刻題記彙錄, 劉景龍/李玉昆 eds., 中國大百科全書出版社, 1998.4, 上下卷, held in 34 libraries."
+  },
+  {
+   "id": "mc-baoshan-lingquansi-10585",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=寶山靈泉寺",
+   "corrections": {
+    "year": "1991"
+   },
+   "note": "寶山靈泉寺, 河南省古代建筑保护研究所 [編], 河南人民出版社, held in 1 library. CiNii records publication year as 1991.12, not 2013 as supplied (publisher 河南人民出版社 matches)."
+  },
+  {
+   "id": "mc-shanchengqu-shike-tapian-10586",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or K10plus (0 results). A 2022 内部资料 by 政协鹤壁市山城区委员会; no catalog holds it as expected for such committee material."
+  },
+  {
+   "id": "mc-gongxian-shiku-beichao-z-10587",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=鞏縣石窟北朝造像全拓",
+   "note": "鞏縣石窟北朝造像全搨, 周国卿编著, 国家图书馆出版社, 2008.11, held in 18 libraries."
+  },
+  {
+   "id": "mc-jingmen-guji-beike-10589",
+   "in_catalog": false,
+   "note": "荊門古蹟碑刻 (張邦岐, 2004) not found in CiNii Books or K10plus (0 results / numberOfRecords=0). Publisher 中國素質教育出版社 is an unregistered/HK-style imprint; no checked catalog holds it. WorldCat rate-limited (429)."
+  },
+  {
+   "id": "mc-jingmen-guji-beiwen-chao-10595",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=荊門古蹟碑文抄注",
+   "note": "Confirmed in CiNii Books (held in 2 libraries) and NDL Search. Title in catalog: 荊门古迹碑文抄注; editors 刘南陔, 汪怀庭, 胡国栋, 杨世进; 华中师范大学出版社, 2011.12. Matches given metadata."
+  },
+  {
+   "id": "mc-jingmen-beike-tuoben-xua-10596",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0 results), and no WorldCat record via Google site search. Only non-catalog hits (sinica 新編碑刻集書目, haijiaoshi bibliography, douban). 中國文化出版社 is a Hong Kong self-publishing imprint; appears to be an obscure local rubbings collection not held by any reachable library catalog. WorldCat/K10plus/NLC were unreachable (rate-limited/bot-blocked) but Google site:worldcat.org returned no match."
+  },
+  {
+   "id": "mc-xiangyang-lishi-dianji-x-10603",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0) nor NDL (0); no WorldCat record via Google site search. Only publisher/bookstore/bibliography hits. Despite reputable publisher 廣陵書社, no library-catalog holding could be confirmed. (WorldCat/K10plus/NLC unreachable from this environment.)"
+  },
+  {
+   "id": "mc-hunan-zhaoyangyan-shike--10610",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=湖南朝陽岩石刻考釋",
+   "note": "Confirmed in CiNii Books (1 library). Catalog title 湖南朝陽巖石刻考釋; 張京華, 侯永慧, 湯軍; 中国社会科学出版社, 2018.3 (ISBN 978-7-5203-2207-2). Matches given metadata."
+  },
+  {
+   "id": "mc-daozhou-yueyan-moya-shik-10611",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0) nor NDL (0); no WorldCat record via Google site search. Only douban/news/publisher hits. 張京華、陳微 編, 天津人民出版社, 2017 — no reachable library-catalog holding confirmed. (WorldCat/K10plus/NLC unreachable from this environment.)"
+  },
+  {
+   "id": "mc-yuelu-shuyuan-beike-10617",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0) nor NDL (0); no WorldCat record via Google site search. Recent (2023) 湖南大學出版社 title; only publisher/news hits, no catalog record located. May simply be too new to be cataloged in reachable catalogs; WorldCat/NLC were unreachable here."
+  },
+  {
+   "id": "mc-xungu-chuanjin-wugang-mo-10620",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0); no WorldCat record via Google site search. Only sinica/haijiaoshi bibliography and bookstore hits. 劉金濤 編纂, 中南大學出版社, 2017 — local 武岡 archive volume; no reachable library catalog holding confirmed."
+  },
+  {
+   "id": "mc-jinshi-mingwen-zhong-de--10622",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=永順土司金石銘文",
+   "note": "Confirmed in CiNii Books (1 library). Catalog: 金石铭文中的历史记忆 : 永顺土司金石铭文整理研究; 瞿州莲, 瞿宏州; 民族出版社, 2014.4; series 土司文化研究丛书. Matches given metadata."
+  },
+  {
+   "id": "mc-guangzhou-huizu-beike-bi-10627",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=廣州回族碑刻匾聯集",
+   "note": "Confirmed in CiNii Books (2 libraries). Catalog: 广州回族碑刻匾联集; 廣東人民出版社, 2020.1 (ISBN 9787218138695). CiNii lists co-editor 廣州市伊斯蘭教協會 alongside 廣州市回族歷史文化研究會; given author is the lead editor, so no correction made."
+  },
+  {
+   "id": "mc-huangpu-beike-bian-e-jin-10631",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0); no WorldCat record via Google site search. Only publisher (華南理工大學出版社) and bibliography hits. 廣州市黃埔區文化廣電新聞出版局 committee publication, 2017 — no reachable library catalog holding confirmed."
+  },
+  {
+   "id": "mc-nanhai-shenmiao-beike-ta-10634",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=南海神廟碑刻",
+   "note": "Confirmed in CiNii Books (2 libraries). Catalog: 南海神庙碑刻拓片集; 广州出版社, 2007; responsibility 冯少贞, 李珺. The given author '《南海神廟歷史文化叢書》編委會' is the series committee; CiNii records the volume editors as 冯少贞、李珺.",
+   "corrections": {
+    "author": "冯少贞、李珺 编 (series 《南海神廟歷史文化叢書》)"
+   }
+  },
+  {
+   "id": "mc-bao-an-beike-10642",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0) nor NDL (0); no WorldCat record via Google site search. Only publisher (中州古籍出版社) and local-news hits. 深圳市寶安區文體旅遊局 committee publication, 2019 — no reachable library catalog holding confirmed."
+  },
+  {
+   "id": "mc-chaoshan-beiming-yanjiu-10644",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=潮汕碑銘研究",
+   "note": "Confirmed in CiNii Books (2 libraries). Catalog: 潮汕碑铭研究; 陈景熙 主编; 社会科学文献出版社, 2021.10; series 汕头大学国际潮学丛书. Matches given metadata."
+  },
+  {
+   "id": "mc-chaoyang-shike-10645",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books (0); no WorldCat record via Google site search. Only sinica/HK-bookstore hits. 張維、姚奇豐, 天馬圖書有限公司 (Hong Kong self-publishing imprint), 2008 — no reachable library catalog holding confirmed."
+  },
+  {
+   "id": "mc-nan-ao-xian-jinshi-kaol--10647",
+   "in_catalog": false,
+   "note": "南澳縣金石考略 (黃迎濤, 廣東省地圖出版社, 2008): checked CiNii Books, NDL, and WorldCat (cached) — no catalog record. Appears only in scholarly stone-inscription bibliographies, which do not count. Obscure local Nan'ao County epigraphy publication."
+  },
+  {
+   "id": "mc-nan-ao-shike-diaocha-10648",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=南澳石刻調查",
+   "note": "南澳石刻調查 (高健斌、彭亮, 福建教育出版社, 2018.12) — confirmed in CiNii Books (held by 2 libraries); also confirmed in NDL Search (https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=南澳石刻調査) and WorldCat (http://www.worldcat.org/title/1103695869). Series: 『福建与海洋』系列丛书 vol.1. Note: actually published in Fujian (publisher Fujian Education Press), though the inscriptions are in Guangdong."
+  },
+  {
+   "id": "mc-nan-ao-xian-wenwu-zhi-ze-10649",
+   "in_catalog": false,
+   "note": "南澳縣文物志（增修本）(南澳縣文化體育局/文物管理委員會, 天馬出版社, 2004): checked CiNii Books and NDL — no results; WorldCat (cached) — none. A local county cultural-relics gazetteer issued by the county cultural bureau; not held by any catalog that counts."
+  },
+  {
+   "id": "mc-qixingyan-dinghushan-shi-10652",
+   "in_catalog": false,
+   "note": "七星岩鼎湖山石刻精華評注 (黃柏權, 廣東高等教育出版社, 2021; ISBN 9787536170025): checked CiNii Books, NDL, and WorldCat — no catalog record found. Visible only on Chinese book-vending sites (suning, bookschina), which do not count. (The NLC OPAC could not be queried reliably — JS-driven, timed out — but no confirming catalog record was located.)"
+  },
+  {
+   "id": "mc-jinshiyan-gu-moya-beike--10655",
+   "in_catalog": false,
+   "note": "錦石岩古摩崖碑刻集 (沈正邦, 西泠印社出版社, 2011): the exact title is not in any catalog checked. CiNii does hold a DIFFERENT, related title — 丹霞山錦石巖寺志 (ed. 仇江, 西泠印社出版社, 2011.1) — same site/publisher/year but a different work, so not a match. The exact title appears only in stone-inscription bibliographies (haijiaoshi, sinica), which do not count."
+  },
+  {
+   "id": "mc-xiangshan-shike-shidiao-10660",
+   "in_catalog": false,
+   "note": "香山石刻石雕 (張渝麗, 新華出版社, 2009): checked CiNii Books, NDL, and WorldCat (cached) — no catalog record. Despite a national publisher, no library-catalog holding was found."
+  },
+  {
+   "id": "mc-lingchuan-lidai-beiwen-j-10668",
+   "in_catalog": false,
+   "note": "靈川歷代碑文集 (曾橋旺, 中央文獻出版社, 2010): checked CiNii Books, NDL, and WorldCat (cached) — no results. Obscure Guangxi (Lingchuan) regional carved-text collection; no catalog holding."
+  },
+  {
+   "id": "mc-yizhou-beike-ji-10672",
+   "in_catalog": false,
+   "note": "宜州碑刻集 (李楚榮, 廣西美術出版社, 2000): checked CiNii Books, NDL, and WorldCat — no record (CiNii returns the unrelated 宜興碑刻集, a different place). No catalog that counts holds this Yizhou/Guangxi work."
+  },
+  {
+   "id": "mc-luocheng-mulaozu-zizhixi-10678",
+   "in_catalog": false,
+   "note": "羅城仫佬族自治縣碑刻族譜輯録 (羅之勇 等, 廣西人民出版社, 2016): checked CiNii Books, NDL, and WorldCat (cached) — no catalog record found."
+  },
+  {
+   "id": "mc-lingyang-shike-xuanzhu-10679",
+   "in_catalog": false,
+   "note": "靈陽石刻選注 (廣西靈山政協文史資料委員會, 内部印行, 1989): checked CiNii Books — no results. Explicitly an internal (内部印行) county CPPCC wenshi-ziliao publication; not held by any catalog (expected for 内部資料)."
+  },
+  {
+   "id": "mc-liuhouci-shike-xuanzhu-10680",
+   "in_catalog": false,
+   "note": "柳侯祠石刻選注 (柳州市石刻研究組, 柳州日報社, 1983): checked CiNii Books — no results; WorldCat/NDL — none. A 1983 local Liuzhou newspaper-press study-group publication; not catalogued."
+  },
+  {
+   "id": "mc-liuhouci-wenxian-huibian-10681",
+   "in_catalog": false,
+   "note": "柳侯祠文獻匯編 (程朗, 黃山書社, 2004): checked CiNii Books, NDL, and WorldCat (cached search incl. 黃山書社-scoped query) — no matching record. WorldCat direct fetch was rate-limited (HTTP 429) but cached search surfaced no match. No catalog holding confirmed."
+  },
+  {
+   "id": "mc-shitou-ji-guangxi-liuzho-10682",
+   "in_catalog": false,
+   "note": "石頭記——廣西柳州及周邊石刻的時空演繹 (柳州市方志辦, 線裝書局, 2018): checked CiNii Books (Liuzhou stone-inscription query) and WorldCat — no record. Local Liuzhou fangzhi-office publication; not catalogued."
+  },
+  {
+   "id": "mc-hainan-beijie-bianming-e-10683",
+   "in_catalog": false,
+   "note": "海南碑碣匾銘額圖志：龍華·美蘭卷 (周文彰 主編, 海南出版社, 2015): checked CiNii Books, NDL, and WorldCat (cached) — no catalog record. Despite a provincial publisher, no library-catalog holding was found."
+  },
+  {
+   "id": "mc-hainan-beijie-bianming-e-10684",
+   "in_catalog": false,
+   "note": "Not found in any library catalog. Zero hits in NDL and CiNii Books. WebSearch surfaced only bookstore (sanmin, books.com.tw) and baike pages — not catalogs. Hainan provincial committee 内部/project publication; appears uncatalogued in the union catalogs checked."
+  },
+  {
+   "id": "mc-hainan-beijie-bianming-e-10685",
+   "in_catalog": false,
+   "note": "Not found in any library catalog. Same series as 瓊山卷; zero hits in NDL and CiNii Books; only bookstore/baike pages found. Treated as uncatalogued."
+  },
+  {
+   "id": "mc-dazu-shike-quanji-10686",
+   "in_catalog": true,
+   "catalog": "Stanford SearchWorks (Stanford University Libraries)",
+   "catalog_url": "https://searchworks.stanford.edu/?q=%E5%A4%A7%E8%B6%B3%E7%9F%B3%E5%88%BB%E5%85%A8%E9%9B%86&search_field=search",
+   "corrections": {
+    "year": "2017"
+   },
+   "note": "Held at Stanford East Asia Library (19-volume illustrated set, 重慶出版集團/重慶出版社). Catalog gives imprint year 2017 (item lists 2018; 北京 launch was Jan 2018). Not in NDL or CiNii Books. WorldCat WebFetch was rate-limited/blocked but Stanford record confirms a real catalog holding."
+  },
+  {
+   "id": "mc-dazu-shike-yanjiu-wenji-10689",
+   "in_catalog": false,
+   "note": "第2輯 not found as a catalog record. NDL = 0; CiNii Books returns related Dazu conference proceedings but not 大足石刻研究文集 第2輯 (ed. 重慶大足石刻藝術博物館). Only secondary/bibliographic mentions found. Treated as uncatalogued in the catalogs checked."
+  },
+  {
+   "id": "mc-dazu-shike-yanjiu-10691",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=%E5%A4%A7%E8%B6%B3%E7%9F%B3%E5%88%BB%E7%A0%94%E7%A9%B6",
+   "note": "大足石刻研究, 刘长久·胡文和·李永翘编著, 四川省社会科学院出版社 1985.4 — held by 31 libraries per CiNii Books. Matches author/publisher/year as supplied."
+  },
+  {
+   "id": "mc-fuling-baiheliang-10692",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=%E7%99%BD%E9%B6%B4%E6%A2%81",
+   "note": "涪陵白鹤梁, 重庆市文物局・重庆市移民局编著, 文物出版社 2014.11 — present in CiNii Books. Matches the supplied record."
+  },
+  {
+   "id": "mc-baiheliang-tike-wenxian--10693",
+   "in_catalog": false,
+   "note": "白鶴梁題刻文獻彙集校注 (王曉暉, 天津古籍出版社 2015) not found in any library catalog: NDL = 0, CiNii Books = 0. WebSearch surfaced only douban, baike, Amazon and a Japanese used-book dealer (kosho.or.jp) — none are catalogs. WorldCat fetch was blocked (403/429) so unconfirmed there, but no catalog hit obtained."
+  },
+  {
+   "id": "mc-shuixia-beilin-baihelian-10694",
+   "in_catalog": false,
+   "note": "水下碑林：白鶴梁 (陳曦震, 四川人民出版社 1995) not found in a catalog: NDL = 0; not among CiNii 白鶴梁 results (CiNii lists 陳曦震's later 2003 重慶出版社 title 白鶴梁題刻：中國長江水下博物館 instead, not this 1995 one). Only bibliography/secondary mentions found for the 1995 edition."
+  },
+  {
+   "id": "mc-sanxia-guobao-yanjiu-bai-10695",
+   "in_catalog": false,
+   "note": "三峽國寶研究：白鶴梁題刻匯錄與考索 (曾超, 中國文史出版社 2005) not found in any catalog: NDL = 0, CiNii Books = 0. WebSearch surfaced only scholarly bibliographies (sinica 新編碑刻集書目) and similar — explicitly excluded as non-catalogs."
+  },
+  {
+   "id": "mc-longduoshan-beike-xuan-10697",
+   "in_catalog": false,
+   "note": "龍多山碑刻選 (劉智, 重慶出版社 2018) not found in a catalog: NDL = 0, CiNii Books = 0. The only library-domain hit is a 華南師範大學 donation inventory (捐贈目錄), not an OPAC/catalog record. Treated as uncatalogued."
+  },
+  {
+   "id": "mc-jiulong-foyuan-jiulongpo-10705",
+   "in_catalog": false,
+   "note": "九龍佛緣：九龍坡區佛教遺址碑拓輯錄 (道堅, 四川大學出版社 2015) not found in a catalog: NDL = 0, CiNii Books = 0 (CiNii holds the sibling 道堅 titles 巴國佛踪 and 佛國尋蹤 but not this one). Only bookstore/secondary mentions found."
+  },
+  {
+   "id": "mc-baguo-fozong-banan-qu-fo-10706",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=%E9%81%93%E5%A0%85+%E7%A2%91%E6%8B%93%E8%BC%AF%E9%8C%84",
+   "note": "巴國佛踪：巴南區佛教遺址碑拓輯錄, 道堅法師, 四川大學出版社 2015.12 — present in CiNii Books. Matches supplied record (上·下; vol.下 ISBN 9787561495780)."
+  },
+  {
+   "id": "mc-foguo-xunzong-nanchuan-j-10708",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=%E9%81%93%E5%A0%85+%E7%A2%91%E6%8B%93%E8%BC%AF%E9%8C%84",
+   "note": "佛國尋蹤：南川金佛山佛教遺址碑拓輯錄, 道堅法師, 四川大學出版社 2013.9 — present in CiNii Books. Matches supplied record."
+  },
+  {
+   "id": "mc-bayu-jianzai-fojiao-beit-10709",
+   "in_catalog": true,
+   "catalog": "Stanford SearchWorks (also WorldCat)",
+   "catalog_url": "https://searchworks.stanford.edu/view/13939073",
+   "corrections": {
+    "year": "2019"
+   },
+   "note": "巴渝見在佛教碑題輯錄, 楊梅, 巴蜀書社 (成都). Held at Stanford SearchWorks (view/13939073) and WorldCat OCLC 1236842842 (https://search.worldcat.org/oclc/1236842842; ISBN 9787553113371, 346 p.). Catalog gives edition year 2019 (第1版), not 2020."
+  },
+  {
+   "id": "mc-bazhong-shiku-10710",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=巴中石窟+雷玉華",
+   "note": "Confirmed in CiNii Books (13 libraries). 巴中石窟, ed. 楊希明, by 雷玉華・程崇勛, 巴蜀書社 2003.8. Matches."
+  },
+  {
+   "id": "mc-bazhong-shiku-neirong-zo-10711",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=巴中石窟內容總錄",
+   "note": "Confirmed in CiNii Books (17 libraries). 巴中石窟内容总录, 四川省文物管理局・成都文物考古研究所・北京大學中國考古學研究中心・巴州區文物管理所, 四川出版集團:巴蜀書社, 2006.12. Matches."
+  },
+  {
+   "id": "mc-guangyuan-shiku-neirong--10713",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=廣元石窟內容總錄",
+   "note": "Confirmed in NDL. 广元石窟内容总录 issued as a set covering 皇澤寺卷 and 千佛崖卷, 四川省文物管理局, 巴蜀書社, 2008.10. This is the 皇澤寺卷."
+  },
+  {
+   "id": "mc-guangyuan-shiku-neirong--10714",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=廣元石窟內容總錄",
+   "note": "The 千佛崖卷. NDL holds 广元石窟内容总录 as a set (皇澤寺卷+千佛崖卷), 巴蜀書社. NDL record dates the set 2008; other sources give the 千佛崖卷 a 2014 imprint — year not independently verified in catalog, may differ from set date."
+  },
+  {
+   "id": "mc-sichuan-sanjian-tang-son-10715",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB23725659",
+   "note": "Confirmed in CiNii Books (自貢卷, ncid BB23725659), part of series 四川散見唐宋佛道龕窟總錄 (ncid BB2372515X). 周科華・陳剛, 文物出版社, 2017. Matches."
+  },
+  {
+   "id": "mc-sichuan-sanjian-tang-son-10717",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB2372515X",
+   "note": "廣元卷 listed under the CiNii series record 四川散見唐宋佛道龕窟總錄 (ncid BB2372515X) as 廣元卷 2018. 唐飛・俞天喜・高大倫, 文物出版社. Matches."
+  },
+  {
+   "id": "mc-mianyang-kanku-sichuan-s-10718",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=綿陽龕窟",
+   "note": "Confirmed in CiNii Books (19 libraries). 绵阳龛窟:四川绵阳古代造像调查研究报告集, 于春・王婷, 文物出版社, 2010.9, series 四川石窟寺大系. Matches."
+  },
+  {
+   "id": "mc-jiajiang-qianfoya-sichua-10719",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=夾江千佛巖+四川石窟寺大系",
+   "note": "Confirmed in CiNii Books (18 libraries). 夹江千佛岩:四川夹江千佛岩古代摩崖造像考古调查报告, 于春・王婷 (ed. 高大倫・王勝利), 文物出版社, 2012.8, series 四川石窟寺大系. Matches."
+  },
+  {
+   "id": "mc-renshou-niujiaozhai-shik-10720",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=仁壽牛角寨石窟",
+   "note": "Confirmed in CiNii Books (9 libraries). 仁寿牛角寨石窟:四川仁寿牛角寨石窟考古调查报告, 王婷・于春 (ed. 高大倫・田勇), 文物出版社, 2018.12, series 四川石窟寺大系. Matches."
+  },
+  {
+   "id": "mc-anyue-yuanjuedong-sichua-10721",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=安岳圓覺洞",
+   "note": "Confirmed in CiNii Books (9 libraries). 安岳圆觉洞:四川安岳圆觉洞石窟考古调查报告, 于春・王婷 (ed. 高大倫・楊忠華), 文物出版社, 2019, series 四川石窟寺大系. Matches (some vendor pages list 2020 imprint, but CiNii gives 2019)."
+  },
+  {
+   "id": "mc-anyue-wofoyuan-kaogu-dia-10722",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=安岳臥佛院考古調查與研究",
+   "note": "Confirmed in CiNii Books (13 libraries). 安岳卧佛院考古调查与研究, 秦臻・张雪芬・雷玉华, 科学出版社, series 大足学研究文库 甲种第1号. CiNii dates it 2014.12.",
+   "corrections": {
+    "year": "2014"
+   }
+  },
+  {
+   "id": "mc-sichuan-jiajiang-qianfoy-10723",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=四川夾江千佛巖唐代佛教藝術研究",
+   "note": "Confirmed in CiNii Books (11 libraries). 四川夹江千佛岩唐代佛教艺术研究, ed. 高大伦・肥田路美・于春, 四川人民出版社, 2017. Matches."
+  },
+  {
+   "id": "mc-luzhou-shi-bowuguan-cang-10728",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=瀘州市博物館藏宋墓石刻精品",
+   "note": "Confirmed in CiNii Books (7 libraries). 泸州市博物馆藏宋墓石刻精品, 泸州市博物馆编, 中华书局, 2016.8. Matches."
+  },
+  {
+   "id": "mc-ya-an-handai-shike-jingp-10731",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=雅安漢代石刻精品",
+   "note": "Confirmed in CiNii Books (2 libraries). 雅安汉代石刻精品 = Elaborate stone carvings of the Han dynasty in Ya'an city, 雅安市文物管理所・四川省文物考古研究院, 四川人民出版社, 2005.8. Matches."
+  },
+  {
+   "id": "mc-cangxi-xunle-shuyan-qing-10732",
+   "in_catalog": true,
+   "catalog": "Changsha Library OPAC (also Chinese Academy of Sciences Library)",
+   "catalog_url": "https://opac.changshalib.cn/book/902728154",
+   "corrections": {},
+   "note": "《苍溪寻乐书岩：清代洞藏摩崖石刻调查报告》ISBN 9787501068036, 文物出版社 2020.10. Held in Changsha Library OPAC (bib record book/902728154) and the CAS Library OPAC (las.ac.cn, Lanzhou center, call no 81.5363/263). Not in NDL/CiNii/K10plus. WorldCat hard-blocked the fetcher (403/429) throughout."
+  },
+  {
+   "id": "mc-hanyuan-beike-10733",
+   "in_catalog": true,
+   "catalog": "Taishan University of Science and Technology Library OPAC (泰山科技学院)",
+   "catalog_url": "https://lib.tskjxy.edu.cn/opac/openlink.php",
+   "corrections": {
+    "isbn": "978-7-5126-8292-4"
+   },
+   "note": "《汉源碑刻》团结出版社, 2020.11, ISBN 978-7-5126-8292-4. Full bib + holdings + call number indexed in the Taishan Sci-Tech College library OPAC (wxlib/lib.tskjxy.edu.cn). Not in NDL/CiNii/K10plus."
+  },
+  {
+   "id": "mc-tianzhu-gu-beike-kaoshi-10735",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB27514247",
+   "corrections": {},
+   "note": "Cataloged as 清水江文书：天柱古碑刻考释, 政协天柱县第十三届委员会编, 贵州大学出版社 2016.12, 3 vols (上中下). CiNii Books NCID BB27514247, held by 4 libraries."
+  },
+  {
+   "id": "mc-shuizu-diqu-beike-wenxia-10740",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {
+    "isbn": "9787105162291"
+   },
+   "note": "《水族地区碑刻文献探微》蒙耀远著, 吴一文编, 民族出版社 2021.04, ISBN 9787105162291. NOT found in NDL, CiNii, or K10plus; no title-specific OPAC bib record surfaced (NLC/CAS searches returned only generic session pages). WorldCat fetcher was hard-blocked, so a WorldCat holding cannot be confirmed or ruled out. Returning false honestly."
+  },
+  {
+   "id": "mc-yiwen-jinshi-tulu-di-er--10744",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library) and CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA41943508",
+   "corrections": {},
+   "note": "《彝文金石图录》第二辑, 贵州省毕节地区民委等编, 四川民族出版社 1994. In NDL (彜文金石図録 第二集, 1994) and CiNii Books (vol.2 = NCID BA41943508; 2-vol set = BN11471627, held by ~19 libraries)."
+  },
+  {
+   "id": "mc-dali-wuhualou-xinfaxian--10749",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "The corpus entry (1980, 昆明师范学院出版社) is an early internal/typescript version and is NOT catalogued anywhere (not in NDL/CiNii/K10plus/OPACs). The actually-published, catalogued cognate work is 方龄贵·王云《大理五华楼新出元碑选录并考释》, 云南大学出版社 2000, ISBN 9787810681537 (different title, year, and publisher). Returning false for this 1980 form."
+  },
+  {
+   "id": "mc-dali-gubei-cunwen-lu-10750",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "《大理古碑存文录》大理市文化丛书编辑委员会, 云南民族出版社 1996 (part of 大理丛书·金石篇). NOT found in NDL, CiNii, or K10plus; no title-specific OPAC bib record surfaced. WorldCat fetcher hard-blocked. Returning false honestly."
+  },
+  {
+   "id": "mc-dali-fengyi-gubei-wenji-10753",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB16992393",
+   "corrections": {},
+   "note": "Correct title is 大理鳳儀古碑文集 (corpus has 凰儀 — typo for 鳳儀). 马存兆著, 香港科技大学华南研究中心 2013 (泛珠三角历史与社会丛书 3). CiNii Books NCID BB16992393, held by 2 libraries. Also distributed by CUHK Press (ISBN 978-988-15741-7-6)."
+  },
+  {
+   "id": "mc-heqing-beike-jilu-10754",
+   "in_catalog": true,
+   "catalog": "Chinese Academy of Sciences Library OPAC (国家科学图书馆/las.ac.cn)",
+   "catalog_url": "http://opac.las.ac.cn/F/?func=item-global&doc_library=CAS01&doc_number=000418681",
+   "corrections": {},
+   "note": "《鹤庆碑刻辑录》张了·张锡禄, 大理白族自治州南诏史研究会 2001. Title-specific match to a bib record in the CAS Library (National Science Library, CASS) OPAC, doc_number 000418681. Not in NDL/CiNii/K10plus; the OPAC record page itself requires a live session so could not be fetched directly, but it is indexed as a title-specific holding."
+  },
+  {
+   "id": "mc-heqing-longhua-shiba-si--10755",
+   "in_catalog": true,
+   "catalog": "National Library of China OPAC (also CAS Library)",
+   "catalog_url": "http://opac.nlc.cn/F?func=item-global&doc_library=NLC01&doc_number=004053745",
+   "corrections": {},
+   "note": "《鹤庆龙华十八寺碑刻辑录》高金和, 云南民族出版社 2013, ISBN 9787536757738. Title-specific bib records indexed at the National Library of China OPAC and the CAS Library OPAC (las.ac.cn doc_number 000957286). Not in NDL/CiNii/K10plus. OPAC record pages are session-gated so not directly fetchable."
+  },
+  {
+   "id": "mc-dali-eryuan-xian-beike-j-10756",
+   "in_catalog": true,
+   "catalog": "National Library of China OPAC (also CAS Library)",
+   "catalog_url": "https://opac.nlc.cn/F?func=item-global&doc_library=NLC01&doc_number=012782266",
+   "corrections": {},
+   "note": "《大理洱源县碑刻辑录》赵敏·王伟主编, 云南大学出版社 2017, ISBN 9787548228424. Cataloged at the National Library of China (NLC OPAC, doc_number 012782266, multiple copies) and the CAS Library OPAC. (Also available as a CNPeReading ebook via the Old Colony Library Network OverDrive, but the NLC print record is the catalog basis.) Not in NDL/CiNii."
+  },
+  {
+   "id": "mc-shike-jianchuan-10757",
+   "in_catalog": true,
+   "catalog": "Lijiang City Library OPAC (丽江市图书馆)",
+   "catalog_url": "https://www.ljstsg.cn/opac/search?q=石刻剑川&searchWay=title",
+   "corrections": {
+    "year": "2008"
+   },
+   "note": "《石刻剑川》王明达, 云南民族出版社. Lijiang City Library OPAC holds it with call number J314.3/1063; the OPAC gives publication year 2008 (corpus says 2009 — likely printing vs. publication date). Not in NDL/CiNii/K10plus."
+  },
+  {
+   "id": "mc-midu-gudai-beike-jishi-10758",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB27283439",
+   "corrections": {},
+   "note": "《弥渡古代碑刻辑释》黄正发·黄正良·盛代昌, 云南科技出版社 2018.05, ISBN 9787558713354. CiNii Books NCID BB27283439, held by 1 library."
+  },
+  {
+   "id": "mc-xiangyun-beike-10759",
+   "in_catalog": false,
+   "catalog": "",
+   "catalog_url": "",
+   "corrections": {},
+   "note": "《祥云碑刻》李树业, 云南人民出版社 2014. NOT found in NDL, CiNii, or K10plus; no title-specific OPAC bib record surfaced (only references in scholarly articles on Xiangyun water-conservancy inscriptions, which do not count). WorldCat fetcher hard-blocked. Returning false honestly."
+  },
+  {
+   "id": "mc-xiangyun-jinshi-10760",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=祥雲金石",
+   "corrections": {
+    "year": "2016.12"
+   },
+   "note": "Found in CiNii Books as 祥云金石, compiled by 大理白族自治州地方志编纂委员会, 云南民族出版社, 2016.12; part of series 大理地情资料丛书·古迹大理编. 1 holding library. Confirms author/publisher/year as given."
+  },
+  {
+   "id": "mc-ming-qing-dianxi-menghua-10761",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=明清滇西蒙化碑刻",
+   "corrections": {},
+   "note": "Strongly held: CiNii Books lists it (33 libraries), editor 唐立 (Christian Daniels), 東京外国語大学アジア・アフリカ言語文化研究所 (ILCAA), 2015.3. Also in NDL (call no. GE291-C314). All metadata matches."
+  },
+  {
+   "id": "mc-chuxiong-longquan-shuyua-10763",
+   "in_catalog": false,
+   "note": "楚雄龙泉书院碑刻文集: 0 hits in CiNii Books; nothing in NDL or WorldCat index. Only generic publisher-listing pages surfaced. No real library catalog record found — appears to be an obscure local publication."
+  },
+  {
+   "id": "mc-shuangbai-xian-beike-bia-10764",
+   "in_catalog": false,
+   "note": "双柏县碑刻匾额辑录 (双柏县文化和旅游局, 2021): not in CiNii/NDL/WorldCat. Only local news (yunnan.cn) and baike results. A county Culture-and-Tourism-Bureau internal publication; no catalog holds it."
+  },
+  {
+   "id": "mc-lijiang-lidai-beike-jilu-10765",
+   "in_catalog": false,
+   "note": "丽江历代碑刻辑录与研究 (杨林军, 云南民族出版社, 2011/2012): explicitly 0 results in CiNii Books and NDL; no WorldCat record via index search. Only blogs (sina), the sinica 新編碑刻集書目 bibliography, and kongfz — none count. Not found in any library catalog despite being a named-press book."
+  },
+  {
+   "id": "mc-naxizu-diqu-lidai-beike--10766",
+   "in_catalog": false,
+   "note": "纳西族地区历代碑刻辑录与研究 (杨林军): 0 in CiNii and NDL; no WorldCat record found via index search. Only a Yunnan social-science award page, booksees/PDF sites, and bibliographies surfaced. No real catalog record located."
+  },
+  {
+   "id": "mc-baoshan-beike-10767",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=保山碑刻",
+   "corrections": {
+    "author": "保山市文化广电新闻出版局 编 (CiNii lists the Baoshan municipal bureau as editor; 趙家華 not shown as the cataloged author)"
+   },
+   "note": "Found in CiNii Books: 保山碑刻, 云南美术出版社, 2008.5, 1 holding. The cataloged editor is 保山市文化广电新闻出版局, not 趙家華 (Zhao Jiahua may be the working compiler). Publisher and year match."
+  },
+  {
+   "id": "mc-tengchong-shike-10769",
+   "in_catalog": false,
+   "note": "腾冲石刻 (腾冲市文化和旅游局, 云南民族出版社, 2018): not found in CiNii, NDL, or WorldCat index. Only the sinica bibliography and unrelated 2018 epigraphy titles surfaced. No library catalog record."
+  },
+  {
+   "id": "mc-shidian-beike-10770",
+   "in_catalog": false,
+   "note": "施甸碑刻 (杨升义、李月江, 云南科技出版社, 2018): not in CiNii/NDL/WorldCat. Only the sinica 新編碑刻集書目 bibliography appeared (excluded). No real catalog holds it."
+  },
+  {
+   "id": "mc-tonghai-lidai-beike-ji-10772",
+   "in_catalog": false,
+   "note": "通海历代碑刻集 (通海县人民政府, 云南美术出版社, 2014): no CiNii or WorldCat record via index search. Only the douban/qfnu '当代新修地方金石碑刻书备忘录' lists and the sinica bibliography — none are catalogs. Not held."
+  },
+  {
+   "id": "mc-jiangchuan-lishi-beike-10773",
+   "in_catalog": false,
+   "note": "江川历史碑刻 (江川县, 北方文艺出版社, 2006): not in CiNii/NDL/WorldCat. Only the sinica bibliography and unrelated Japanese 'Egawa' records surfaced. No library catalog record found."
+  },
+  {
+   "id": "mc-gubei-yizhen-fuxianhu-zh-10774",
+   "in_catalog": false,
+   "note": "古碑遗珍：抚仙湖周边地区明清碑刻寻考 (周黎, 云南美术出版社, 2017): no catalog record in CiNii/NDL/WorldCat. Searches returned only Fuxian Lake tourism/general pages. Obscure local publication; not held."
+  },
+  {
+   "id": "mc-yiliang-beike-zengbu-ben-10776",
+   "in_catalog": false,
+   "note": "宜良碑刻（增补本）(周恩福, 云南大学出版社, 2016): not found in CiNii (nearest hit is the unrelated 宜興碑刻集) or WorldCat. Only the sinica bibliography surfaced. No catalog record for this Yiliang title."
+  },
+  {
+   "id": "mc-chenggong-lishi-jianzhu--10778",
+   "in_catalog": false,
+   "note": "呈贡历史建筑及碑刻选 (呈贡区委员会, 2013): not in any catalog. Only Wikipedia (Chenggong district, Confucian temple) and Kunming heritage-list pages appeared. A local committee self-publication; no library catalog holds it."
+  },
+  {
+   "id": "mc-jinning-wenshi-ziliao-xu-10779",
+   "in_catalog": false,
+   "note": "晉寧文史資料 is a CPPCC (政協晉寧縣委員會) internal 文史資料 series, not formally published. Found only in local-government/news pages; no record in NDL, CiNii Books, WorldCat, K10plus/GVK, or NLC. Typical 内部資料 not held by any library catalog."
+  },
+  {
+   "id": "mc-qiongzhu-si-bianlian-bei-10780",
+   "in_catalog": false,
+   "note": "Companion volume to 大觀樓匾聯碑刻輯註 (same author 趙浩如, same year/publisher), but unlike that one it is NOT in CiNii Books. No record in NDL, CiNii, K10plus/GVK, or WorldCat site-search. Only book-retailer/bibliography mentions, which do not count."
+  },
+  {
+   "id": "mc-daguanlou-bianlian-beike-10781",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BB14216734",
+   "corrections": {
+    "publisher": "雲南人民出版社",
+    "isbn": "7222001719"
+   },
+   "note": "Confirmed in CiNii Books (ncid BB14216734): 大观楼匾联碑刻辑注, 趙浩如, 云南人民出版社, 1989.10, 57 pp, ISBN 7222001719; holding at Nara National Institute for Cultural Properties. Author/year match; ISBN added."
+  },
+  {
+   "id": "mc-ludian-beike-10782",
+   "in_catalog": false,
+   "note": "鲁甸碑刻 (現代出版社, 2017) not in CiNii Books; absent from NDL, WorldCat site-search, K10plus/GVK. Only Chinese OPAC-style web fragments and retailers surfaced, no confirmable library record."
+  },
+  {
+   "id": "mc-qujing-beike-10783",
+   "in_catalog": false,
+   "note": "曲靖碑刻 (徐發蒼, 雲南民族出版社, 1999) not in CiNii Books; not found in NDL, WorldCat site-search, or K10plus/GVK. Appears only in the Sinica 新編碑刻集書目 bibliography (not a catalog)."
+  },
+  {
+   "id": "mc-luliang-lidai-shike-zhuj-10784",
+   "in_catalog": false,
+   "note": "陸良歷代石刻註解與研究 (王洪斌, 雲南人民出版社, 2016) not in CiNii Books; no hits in NDL, WorldCat site-search, or K10plus/GVK. Only publisher/retailer/bibliography pages."
+  },
+  {
+   "id": "mc-mile-beike-tapian-ji-10785",
+   "in_catalog": false,
+   "note": "彌勒碑刻拓片集 (政協彌勒市委員會, 2021) is a CPPCC committee compilation (likely 内部/limited distribution). No record in NDL, CiNii Books, WorldCat, or K10plus/GVK."
+  },
+  {
+   "id": "mc-lasa-wenwu-zhi-10786",
+   "in_catalog": false,
+   "note": "拉薩文物志 (1985, 西藏自治區文物管理委員會) — part of the 西藏文物志丛书 series. NOT in CiNii Books (0 results in both 拉薩文物志 and 拉萨文物志), not in NDL, not in K10plus/GVK 文物志 list. WorldCat could not be confirmed (blocked WebFetch; site-search returned nothing). Only blogs/CNKI/scholarly citations, which do not count."
+  },
+  {
+   "id": "mc-zhanang-xian-wenwu-zhi-10787",
+   "in_catalog": false,
+   "note": "扎囊縣文物志 (1986, 西藏自治區文物管理委員會) — 西藏文物志丛书. NOT in CiNii Books (0 results), not in NDL or K10plus/GVK. Confirmed to exist via CNKI/scholarly citations only (not catalogs). Sibling volumes 昂仁 and 琼结 ARE in CiNii, but this one is not."
+  },
+  {
+   "id": "mc-naidong-xian-wenwu-zhi-10788",
+   "in_catalog": false,
+   "note": "乃東縣文物志 (1986) — 西藏文物志丛书. NOT in CiNii Books (0 results), absent from NDL and K10plus/GVK; WorldCat unconfirmable. Documented only in scholarly bibliographies (e.g. CASS kaogu article on 索朗旺堆) — not a library catalog."
+  },
+  {
+   "id": "mc-qiongjie-xian-wenwu-zhi-10789",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA83716488",
+   "corrections": {},
+   "note": "Confirmed in CiNii Books (ncid BA83716488): 琼结县文物志, eds. 索朗旺堆 / 康乐, 西藏自治区文物管理委员会, 1986.8. Matches author/publisher/year."
+  },
+  {
+   "id": "mc-cuona-longzi-jiacha-quso-10790",
+   "in_catalog": false,
+   "note": "錯那、隆子、加查、曲松縣文物志 (1993, 西藏人民出版社) — 西藏文物志丛书 vol. The combined-county title returns 0 results in CiNii Books (tried full title and 曲松县文物志); not in NDL or K10plus/GVK; WorldCat unconfirmable. Only CNKI/blog citations."
+  },
+  {
+   "id": "mc-sajia-xietongmen-xian-we-10791",
+   "in_catalog": false,
+   "note": "薩迦、謝通門縣文物志 (1993, 西藏人民出版社) — 西藏文物志丛书. 0 results in CiNii Books (tried full title and 谢通门县文物志); not in NDL or K10plus/GVK; WorldCat unconfirmable. Scholarly-citation/blog mentions only; note some sources give 1993, consistent with the supplied year."
+  },
+  {
+   "id": "mc-angren-xian-wenwu-zhi-10792",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/ncid/BA51911508",
+   "corrections": {},
+   "note": "Confirmed in CiNii Books (ncid BA51911508): 昂仁县文物志, ed. 索朗旺堆 (compilers incl. 李永宪), 西藏人民出版社, 1992.8. Matches author/publisher/year."
+  },
+  {
+   "id": "mc-jilong-xian-wenwu-zhi-10793",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=吉隆県文物志",
+   "note": "Found in CiNii Books: 吉隆县文物志, 索朗旺堆 (ed.); writers 霍巍, 李永宪, 尼玛; 西藏人民出版社, 1993.5; series 西藏文物志丛书. Held by 1 library. Matches given metadata."
+  },
+  {
+   "id": "mc-yadong-gangba-kangma-din-10794",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL. The 西藏文物志丛书 series (1993, 西藏人民出版社) is real, but in CiNii only the 吉隆 volume is held; the volume covering 亞東/崗巴/康馬/定結 counties has no catalog record. WorldCat domain-filtered search returned no record. Obscure regional volume."
+  },
+  {
+   "id": "mc-ali-diqu-wenwu-zhi-10795",
+   "in_catalog": false,
+   "note": "Not found in NDL (該当する資料はありませんでした) nor in CiNii Books (only the 吉隆 volume of the 西藏文物志丛书 series is held). WorldCat HTML search blocked the fetcher (429/403) and its search API is disabled; WorldCat domain-filtered web searches surfaced no record. A real 1993 西藏人民出版社 volume but no library-catalog record located."
+  },
+  {
+   "id": "mc-xianyang-beishi-10796",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=咸陽碑石",
+   "note": "Found in CiNii Books: 咸陽碑石, 张鸿杰 (ed.), 三秦出版社, 1990.12, part of 陕西金石文献汇集. Held by 18 libraries. Matches given metadata."
+  },
+  {
+   "id": "mc-jiaxian-baiyunshan-baiyu-10810",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL for the 碑刻 volume (王富春/張飛榮, 陝西旅遊出版社, 2008; some sources title it 中国佳县白云山白云观碑刻). CiNii has a DIFFERENT Jia-county/Baiyunshan book — 中国・佳县白云山白云观壁画 (murals), 文物出版社 2007 — not this inscriptions volume. WorldCat search surfaced no record."
+  },
+  {
+   "id": "mc-changwu-beichao-zaoxiang-10811",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books, NDL, or WorldCat. Self-published by 長武縣博物館 (2009) — a museum/内部 publication; no library-catalog record located."
+  },
+  {
+   "id": "mc-yulin-hongshixia-shuili--10816",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL; WorldCat/CiNii domain-filtered searches surfaced no record (only douban and the sinica 新編碑刻集書目 bibliography, which do not count). 三秦出版社 2013, ISBN 9787551805889. No library-catalog record located."
+  },
+  {
+   "id": "mc-gaoling-beishi-cuihua-10819",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL; WorldCat domain-filtered search surfaced no record. Full title appears to be 石墨藻鑒：高陵碑石萃華 (三秦出版社, 2017). Only douban/sinica bibliography references found — not catalogs."
+  },
+  {
+   "id": "mc-nanzheng-beishi-jiaoshi-10820",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=南鄭碑石校釈",
+   "note": "Found in CiNii Books: 南郑碑石校释, 王兴成 编著, 三秦出版社, 2019.3. Held by 1 library.",
+   "corrections": {
+    "author": "王興成 編著 (catalog shows 王兴成, not 王成興)",
+    "year": "2019.3"
+   }
+  },
+  {
+   "id": "mc-baoji-daojiao-beishi-ji-10822",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL; WorldCat domain-filtered search surfaced no record. 寶雞道教碑石記, 吳受琚, 社會科學文獻出版社, 2019 — appears only in the sinica 新編碑刻集書目 bibliography and booksellers, which do not count."
+  },
+  {
+   "id": "mc-l-eyang-lingyansi-beishi-10823",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL; WorldCat/CiNii domain-filtered searches surfaced no record. 略陽靈巖寺碑石, 三秦出版社, 2020. No library-catalog record located."
+  },
+  {
+   "id": "mc-wubu-shicheng-beishi-10824",
+   "in_catalog": false,
+   "note": "Not found in CiNii Books or NDL; WorldCat domain-filtered search surfaced no record. 吳堡石城碑石, 慕生樹 等編, 陝西人民出版社, 2020. No library-catalog record located."
+  },
+  {
+   "id": "mc-yan-an-shiku-beike-tiji-10826",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=延安石窟碑刻題記",
+   "note": "Found in CiNii Books: 延安石窟碑刻题记, 延安市文物研究所 编, 陕西新华出版传媒集团 : 陕西人民出版社, 2020.7. Held by 2 libraries. Matches given metadata (publisher confirmed 陝西人民出版社; editor 延安市文物研究所).",
+   "corrections": {
+    "author": "延安市文物研究所 编"
+   }
+  },
+  {
+   "id": "mc-binxian-dafosi-zaoxiang--10827",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=彬県大仏寺造像芸術",
+   "note": "Found in CiNii Books: 彬縣大佛寺造像藝術, 常青 (Chang Qing), 現代出版社, 1998.9. Held by 18 libraries. Matches publisher/year; author identified as 常青.",
+   "corrections": {
+    "author": "常青 (Chang Qing)"
+   }
+  },
+  {
+   "id": "mc-kongtongshan-daojiao-lid-10836",
+   "in_catalog": false,
+   "note": "崆峒山道教歷代碑銘錄 (Pan Yanchuan, 1998). Published by the Kongtong Mountain Daoist Temple Management Committee, Pingliang — a local temple-committee 内部 publication. Not found in CiNii Books, NDL, or WorldCat. Only appears in the Sinica 新編碑刻集書目 bibliography (not a catalog)."
+  },
+  {
+   "id": "mc-wuwei-jinshi-lu-10838",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=武威金石錄",
+   "note": "武威金石錄, 王其英 ed. / 武威市市志編纂委員會, 蘭州大學出版社, 2001.8 (series 武威市地方志叢書). Held in 4 libraries per CiNii Books."
+  },
+  {
+   "id": "mc-qingyang-beiwen-10842",
+   "in_catalog": false,
+   "note": "慶陽碑文 (劉文戈, 甘肅文化出版社, 2021). Not found in CiNii Books, NDL, or WorldCat. Only listed in the Sinica 新編碑刻集書目 bibliography (not a catalog)."
+  },
+  {
+   "id": "mc-lanzhou-gujin-beike-10852",
+   "in_catalog": false,
+   "note": "蘭州古今碑刻 = 蘭州文史資料第21輯 (薛仰敬, 蘭州大學出版社, 2002). A wenshi ziliao (literary-historical materials) serial volume; not found in CiNii Books or NDL. Only in the Sinica 新編碑刻集書目 bibliography (not a catalog)."
+  },
+  {
+   "id": "mc-dunhuang-beiming-zan-xub-10855",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=敦煌碑銘贊續編",
+   "corrections": {
+    "year": "2020"
+   },
+   "note": "敦煌碑铭赞续编, 魏迎春・马振颖, 甘肃文化出版社, in series 敦煌与丝绸之路研究丛书 (ed. 郑炳林). Held in 3 libraries per CiNii Books. CiNii records publication date as 2020.12 (item lists 2021). Not in NDL."
+  },
+  {
+   "id": "mc-pengyang-xian-wenwu-zhi-10859",
+   "in_catalog": false,
+   "note": "彭陽縣文物志 (楊寧國, 彭陽縣文物管理所; 寧夏人民出版社, 2003). County cultural-relics gazetteer / local committee publication. Not found in CiNii Books or WorldCat."
+  },
+  {
+   "id": "mc-yuanzhou-qu-wenwu-zhi-10860",
+   "in_catalog": false,
+   "note": "原州區文物志 (馬東海・王金鐸 eds., 寧夏人民出版社, 2013). Local district cultural-relics gazetteer. Not found in CiNii Books or WorldCat; only in the Sinica 新編碑刻集書目 bibliography (not a catalog)."
+  },
+  {
+   "id": "mc-longde-xian-wenwu-zhi-10861",
+   "in_catalog": false,
+   "note": "隆德縣文物志 (劉世友, 2016, 寧夏人民教育出版社). Local county cultural-relics gazetteer. Not found in CiNii Books, NDL, or WorldCat."
+  },
+  {
+   "id": "mc-zhongwei-xian-wenwu-zhi-10863",
+   "in_catalog": false,
+   "note": "中衛縣文物志 (Zhongwei/Shapotou, 陽光出版社, 2017). Local county cultural-relics gazetteer. Not found in CiNii Books or WorldCat."
+  },
+  {
+   "id": "mc-zhongning-xian-wenwu-zhi-10864",
+   "in_catalog": false,
+   "note": "中寧縣文物志 (季鳳霞 ed., 陽光出版社, 2017). Local county cultural-relics gazetteer. Not found in CiNii Books or WorldCat."
+  },
+  {
+   "id": "mc-yuanzhou-gumu-jicheng-10865",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=原州古墓集成",
+   "note": "原州古墓集成, 寧夏回族自治區固原博物館・中日原州聯合考古隊 ed., 文物出版社, 1999.4 (ISBN 7501011214). Held in 51 libraries per CiNii Books."
+  },
+  {
+   "id": "mc-tulufan-chutu-zhuanzhi-j-10866",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=吐魯番出土磚誌集注",
+   "corrections": {
+    "year": "2003"
+   },
+   "note": "吐魯番出土磚誌集注 (3-part set: セット/上/下), 侯燦・吴美琳, 巴蜀書社. Held in 39 libraries per CiNii Books. CiNii records publication date as 2003.4 (item lists 2004)."
+  },
+  {
+   "id": "mc-gaochang-zhuanji-zengdin-10868",
+   "in_catalog": true,
+   "catalog": "CiNii Books",
+   "catalog_url": "https://ci.nii.ac.jp/books/search?q=高昌磚集",
+   "note": "高昌砖集（增訂本）, 黄文弼, 广西师范大学出版社, 2023.10. The 2023 Guangxi Normal Univ. Press edition is held in 1 library per CiNii Books (CiNii also lists earlier 1951/1980s/1990/2009 editions)."
+  },
+  {
+   "id": "mc-xianggang-miaoyu-beike-z-10871",
+   "in_catalog": true,
+   "catalog": "JULAC / CUHK Library (ExLibris Primo) + HKBU Library",
+   "catalog_url": "https://julac.hosted.exlibrisgroup.com/permalink/f/1fusua3/CUHK_IZ21848358010003407",
+   "note": "香港廟宇碑刻志：歷史與圖錄 (3 vols), 黎志添 (Lai Chi-tim), 香港中文大學出版社 / CUHK Press, 2023 (ISBN 9789882372672). Held across Hong Kong academic libraries; CUHK catalog permalink confirmed and listed in HKBU Library Oct-2023 new-books list. Not in CiNii Books (Japanese union catalog)."
+  },
+  {
+   "id": "mc-xianggang-huawen-beike-j-10873",
+   "in_catalog": false,
+   "note": "香港華文碑刻集（新界編二）, 蕭國健, 顯朝書室 1995. NOT found in any library catalog. Not in CiNii Books (0 results). WorldCat/HathiTrust/K10plus were inaccessible in this environment (403/Cloudflare/Anubis anti-bot), but title-specific WorldCat-restricted searches surfaced no matching record. 顯朝書室 (Hin Chiu Institute) was Siu Kwok-kin's self-publishing imprint; the title appears only on the hkinscriptions.com reference bibliography and publisher/society pages, none of which are catalogs. Honest false."
+  },
+  {
+   "id": "mc-jinshi-mingke-de-dangzai-10877",
+   "in_catalog": false,
+   "note": "金石銘刻的氹仔九澳史（清代氹仔九澳廟宇碑刻鍾銘等集錄研究）, 譚世寶 (谭世宝), 廣東人民出版社 2011, ISBN 9787218067353, 231pp. NOT found in any real library catalog. Not in NDL (0), not in CiNii Books (0). WorldCat inaccessible (403); WorldCat-restricted title searches surfaced no record. All hits were bookstores (books.com.tw, cp1897, bookschina, jd.com) and the macaumemory.mo topic site — none are catalogs. Note: the title is more commonly written with 氹仔 (variant of 凼仔). Honest false."
+  },
+  {
+   "id": "mc-taiwan-diqu-xiancun-beij-10879",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=臺灣地區現存碑碣圖誌",
+   "note": "臺灣地區現存碑碣圖誌：臺南市（上）, 何培夫 主編, 國立中央圖書館臺灣分館 1992. Confirmed in NDL, which explicitly lists the Tainan City editions (Parts 1 & 2, 1992). Also held as part of the full multi-volume set in CiNii Books (NCID BN09489969, https://cir.nii.ac.jp/ncid/BN09489969, 17 holding libraries)."
+  },
+  {
+   "id": "mc-taiwan-diqu-xiancun-beij-10880",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=臺灣地區現存碑碣圖誌",
+   "note": "臺灣地區現存碑碣圖誌：臺南市（下）, 何培夫 主編, 國立中央圖書館臺灣分館 1992. Confirmed in NDL, which explicitly lists the Tainan City editions (Parts 1 & 2, 1992). Also part of the full set in CiNii Books (NCID BN09489969)."
+  },
+  {
+   "id": "mc-taiwan-diqu-xiancun-beij-10884",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=臺灣地區現存碑碣圖誌+屏東縣+臺東縣",
+   "note": "臺灣地區現存碑碣圖誌：屏東縣・臺東縣篇, 何培夫 主編, 國立中央圖書館臺灣分館 1995. Confirmed in NDL as the 屏東縣・臺東縣篇 volume of the set. Also part of the full set in CiNii Books (NCID BN09489969)."
+  },
+  {
+   "id": "mc-taiwan-diqu-xiancun-beij-10886",
+   "in_catalog": true,
+   "catalog": "NDL (National Diet Library, Japan)",
+   "catalog_url": "https://ndlsearch.ndl.go.jp/search?cs=bib&keyword=臺灣地區現存碑碣圖誌+彰化縣",
+   "note": "臺灣地區現存碑碣圖誌：彰化縣篇, 何培夫 主編, 國立中央圖書館臺灣分館 1997. Confirmed in NDL, which explicitly lists the 彰化縣篇 volume dated 1997. Also part of the full set in CiNii Books (NCID BN09489969)."
+  },
+  {
+   "id": "mc-nanying-gu-bei-zhi-10895",
+   "in_catalog": false,
+   "note": "南瀛古碑誌（南瀛文化研究叢書26）, 何培夫 著, 臺南縣政府文化局 2001. NOT found in any accessible library catalog. Not in NDL (0), not in CiNii Books (0); WorldCat-restricted searches surfaced no record (WorldCat itself returned 403). This is a separate Tainan County cultural-bureau publication, distinct from the 臺灣地區現存碑碣圖誌 series, and is the type of local 叢書 title that is likely held only in Taiwan OPACs (NCL/NBINet), which refused automated connections here. Marking false honestly given no catalog hit could be confirmed; it very plausibly exists in Taiwan's NCL."
+  }
+ ]
+}
