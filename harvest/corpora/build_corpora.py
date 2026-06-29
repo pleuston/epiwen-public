@@ -132,15 +132,27 @@ try:
     fo = json.load(open(OUT + "/fanout-counties.json", encoding="utf-8")).get("corpora", [])
 except Exception:
     fo = []
+# verification verdicts (from the corpora-verify workflow), keyed by build id. If present,
+# drop rows that failed verification, apply metadata corrections, and flag web_verified.
+try:
+    verdicts = {v["id"]: v for v in json.load(open(OUT + "/verify-results.json", encoding="utf-8")).get("results", []) if v.get("id")}
+except Exception:
+    verdicts = {}
 for k, x in enumerate(fo):
     if not x.get("title_zh") or not x.get("province"): continue
+    rid = slug(x.get("title_pinyin") or x["title_zh"], 10000 + k)
+    v = verdicts.get(rid)
+    if verdicts and v and not v.get("verified"): continue          # verification dropped it
+    corr = (v or {}).get("corrections") or {}
+    isbn_src = corr.get("isbn") or x.get("isbn")
     records.append({
-        "title_zh": x["title_zh"], "title_pinyin": x.get("title_pinyin", ""), "author": x.get("author", ""),
-        "year": x.get("year", ""), "publisher": x.get("publisher", ""), "scope": "",
-        "isbn": ([re.sub(r"[\s\-]", "", x["isbn"])] if x.get("isbn") else []),
-        "gapfill": False, "web": True, "evidence": x.get("evidence", ""),
-        "id": slug(x.get("title_pinyin") or x["title_zh"], 10000 + k),
-        "section": "province", "region": x.get("region", ""), "province": x["province"],
+        "title_zh": x["title_zh"], "title_pinyin": x.get("title_pinyin", ""),
+        "author": corr.get("author") or x.get("author", ""), "year": corr.get("year") or x.get("year", ""),
+        "publisher": corr.get("publisher") or x.get("publisher", ""), "scope": "",
+        "isbn": ([re.sub(r"[\s\-]", "", isbn_src)] if isbn_src else []),
+        "gapfill": False, "web": True, "web_verified": bool(v and v.get("verified")),
+        "evidence": (v or {}).get("confirmed_source") or x.get("evidence", ""),
+        "id": rid, "section": "province", "region": x.get("region", ""), "province": x["province"],
         "site": "", "category": "", "admin": x.get("admin", ""),
         "locality": clean_loc(x.get("locality", "")), "place": x["province"],
         "holdings": {"vault": False, "sbb": False, "k10plus": False, "harvard": False},
