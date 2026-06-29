@@ -1,0 +1,847 @@
+{
+ "generated": "2026-06-29",
+ "source": "K10plus SRU opac-de-627; SBB = ISIL DE-1/DE-1a/DE-1b (MARC 924 $g); title matches verified vs MARC 880 CJK / 245 pinyin",
+ "count": 78,
+ "with_signatur": 55,
+ "with_online": 16,
+ "holdings": {
+  "mc-shaanxi-beike-zongmu-tiy-5": {
+   "match": "isbn",
+   "ppn": [
+    "1833774779"
+   ],
+   "signatur": [
+    "5 B 96401-1",
+    "5 B 96401-2",
+    "5 B 96401-3",
+    "5 B 96401-4",
+    "5 B 96401-5"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1833774779.pdf"
+   ]
+  },
+  "mc-daojia-jinshi-lue-6": {
+   "match": "isbn",
+   "ppn": [
+    "1039554660"
+   ],
+   "signatur": [
+    "5 B 15085"
+   ],
+   "online": []
+  },
+  "mc-sanjin-shike-daquan-16": {
+   "match": "title",
+   "ppn": [
+    "1852323191",
+    "185232323X",
+    "1852323213",
+    "1852323264"
+   ],
+   "signatur": [
+    "5 C 7892",
+    "5 C 7894",
+    "5 C 7893-1",
+    "5 C 7893-2",
+    "5 C 7895"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1852323191.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/185232323X.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1852323213.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1852323264.pdf"
+   ]
+  },
+  "mc-han-wei-nanbeichao-muzhi-22": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-beichao-fojiao-shike-tuo-23": {
+   "match": "isbn",
+   "ppn": [
+    "1033338249"
+   ],
+   "signatur": [
+    "5 C 965"
+   ],
+   "online": []
+  },
+  "mc-xi-an-beilin-quanji-26": {
+   "match": "title",
+   "ppn": [
+    "1909027693",
+    "1909027685",
+    "1909027677",
+    "1909027669",
+    "1909027650",
+    "1909027642",
+    "1909027634",
+    "1035949113",
+    "1035949105",
+    "1035949091"
+   ],
+   "signatur": [
+    "5 C 8160",
+    "5 C 8159",
+    "5 C 8156",
+    "5 C 8157-1",
+    "5 C 8157-2",
+    "5 C 8157-3",
+    "5 C 8157-4",
+    "5 C 8157-5",
+    "5 C 8157-6",
+    "5 C 8157-7",
+    "5 C 8154-1",
+    "5 C 8154-2",
+    "5 C 8154-3",
+    "5 C 8154-4",
+    "5 C 8154-5",
+    "5 C 8154-6",
+    "5 C 8155",
+    "5 C 8158",
+    "5 B 80154; NfLS",
+    "5 B 80154-1"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027693.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027685.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027677.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027669.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027650.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027642.pdf",
+    "https://www.gbv.de/dms/spk/sbb/toc/1909027634.pdf"
+   ]
+  },
+  "mc-qin-jin-yu-xinchu-muzhi--27": {
+   "match": "title",
+   "ppn": [
+    "1833774795",
+    "1035936097"
+   ],
+   "signatur": [
+    "5 C 7804-1",
+    "5 C 7804-2",
+    "5 C 7804-3",
+    "5 C 7804-4",
+    "5 C 7473"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1833774795.pdf"
+   ]
+  },
+  "mc-bashu-zhenxi-jinshi-wenx-30": {
+   "match": "title",
+   "ppn": [
+    "1681136112",
+    "1681135574",
+    "1681134985",
+    "1681134829",
+    "1681134578",
+    "168113439X",
+    "1681028220",
+    "1681027127",
+    "1681025833",
+    "168102070X"
+   ],
+   "signatur": [
+    "5 B 88726-14",
+    "5 B 88726-13",
+    "5 B 88726-12",
+    "5 B 88726-11",
+    "5 B 88726-10",
+    "5 B 88726-9",
+    "5 B 88726-8",
+    "5 B 88726-7",
+    "5 B 88726-6",
+    "5 B 88726-5"
+   ],
+   "online": []
+  },
+  "mc-taishan-shike-taishan-sh-37": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-changping-shike-60": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-beijing-fojiao-shike-64": {
+   "match": "title",
+   "ppn": [
+    "1036489892"
+   ],
+   "signatur": [
+    "5 A 213112"
+   ],
+   "online": []
+  },
+  "mc-beijing-daojiao-shike-65": {
+   "match": "title",
+   "ppn": [
+    "1035214407"
+   ],
+   "signatur": [
+    "5 A 157426"
+   ],
+   "online": []
+  },
+  "mc-beijing-neicheng-simiao--68": {
+   "match": "isbn",
+   "ppn": [
+    "1684634628"
+   ],
+   "signatur": [
+    "5 C 7709-1",
+    "5 C 7709-2"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1684634628.pdf"
+   ]
+  },
+  "mc-shanxi-beijie-101": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-jinyang-guke-xuan-103": {
+   "match": "title",
+   "ppn": [
+    "1036949931"
+   ],
+   "signatur": [
+    "5 B 70310 ; NfLS"
+   ],
+   "online": []
+  },
+  "mc-jincheng-fojiao-jinshi-l-117": {
+   "match": "isbn",
+   "ppn": [
+    "103598380X"
+   ],
+   "signatur": [
+    "5 A 254810-1",
+    "5 A 254810-2"
+   ],
+   "online": []
+  },
+  "mc-liaoning-sheng-bowuguan--130": {
+   "match": "isbn",
+   "ppn": [
+    "103948462X"
+   ],
+   "signatur": [
+    "5 B 19710"
+   ],
+   "online": []
+  },
+  "mc-liaoning-sheng-bowuguan--131": {
+   "match": "title",
+   "ppn": [
+    "1967974985"
+   ],
+   "signatur": [
+    "5 B 102022"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1967974985.pdf"
+   ]
+  },
+  "mc-liaoyang-beizhi-xuanbian-135": {
+   "match": "title",
+   "ppn": [
+    "1879911973"
+   ],
+   "signatur": [
+    "5 A 272368"
+   ],
+   "online": []
+  },
+  "mc-liaoyang-beizhi-xubian-136": {
+   "match": "title",
+   "ppn": [
+    "1036203980"
+   ],
+   "signatur": [
+    "5 A 243096"
+   ],
+   "online": []
+  },
+  "mc-liaodai-shike-wenbian-140": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-liaodai-shike-wen-xubian-141": {
+   "match": "title",
+   "ppn": [
+    "1034238299"
+   ],
+   "signatur": [
+    "5 A 154217"
+   ],
+   "online": []
+  },
+  "mc-liaohe-beilin-beike-xuan-143": {
+   "match": "title",
+   "ppn": [
+    "1697072208"
+   ],
+   "signatur": [
+    "5 B 72917"
+   ],
+   "online": []
+  },
+  "mc-ji-an-gaogouli-bei-150": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-suzhou-beike-179": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-suzhou-shike-180": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-yanzhou-jinshi-216": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-wuyi-song-yuan-muzhi-jil-219": {
+   "match": "title",
+   "ppn": [
+    "176750912X"
+   ],
+   "signatur": [
+    "5 C 7778"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/176750912X.pdf"
+   ]
+  },
+  "mc-tianzhushan-shangu-liuqu-236": {
+   "match": "title",
+   "ppn": [
+    "1036348709"
+   ],
+   "signatur": [
+    "5 B 43768"
+   ],
+   "online": []
+  },
+  "mc-shilu-jinshi-shuzhi-245": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-henan-fojiao-shike-zaoxi-282": {
+   "match": "title",
+   "ppn": [
+    "103410215X"
+   ],
+   "signatur": [
+    "5 C 1128"
+   ],
+   "online": []
+  },
+  "mc-heluo-muke-shiling-293": {
+   "match": "isbn",
+   "ppn": [
+    "1033118893"
+   ],
+   "signatur": [
+    "5 C 7250"
+   ],
+   "online": []
+  },
+  "mc-yongzhou-shike-321": {
+   "match": "title",
+   "ppn": [
+    "1035695758"
+   ],
+   "signatur": [
+    "5 B 44605"
+   ],
+   "online": []
+  },
+  "mc-yingde-moya-shike-350": {
+   "match": "title",
+   "ppn": [
+    "1876953047"
+   ],
+   "signatur": [
+    "5 A 317477"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1876953047.pdf"
+   ]
+  },
+  "mc-liuzhou-moya-shike-361": {
+   "match": "title",
+   "ppn": [
+    "1833365615"
+   ],
+   "signatur": [
+    "5 B 96478"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1833365615.pdf"
+   ]
+  },
+  "mc-bashu-fojiao-beiwen-jich-388": {
+   "match": "title",
+   "ppn": [
+    "1039677843"
+   ],
+   "signatur": [
+    "5 B 32089"
+   ],
+   "online": []
+  },
+  "mc-yiliang-beike-425": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-shaanxi-jinshi-zhi-442": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-ankang-beishi-447": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-fuping-beike-451": {
+   "match": "title",
+   "ppn": [
+    "1036773582"
+   ],
+   "signatur": [
+    "5 B 65003"
+   ],
+   "online": []
+  },
+  "mc-shaanxi-sheng-kaogu-yanj-454": {
+   "match": "title",
+   "ppn": [
+    "1695587634"
+   ],
+   "signatur": [
+    "5 C 7690"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1695587634.pdf"
+   ]
+  },
+  "mc-songdai-linfulu-beishi-z-457": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-zhaoling-beishi-461": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-longyou-jinshi-lu-470": {
+   "match": "isbn",
+   "ppn": [
+    "1946023299",
+    "1946023140",
+    "1946022969"
+   ],
+   "signatur": [
+    "5 A 329719-33",
+    "5 A 329719-3",
+    "5 A 329719-1"
+   ],
+   "online": []
+  },
+  "mc-qinghai-minzu-minjian-sh-507": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-guyuan-nanjiao-sui-tang--516": {
+   "match": "title",
+   "ppn": [
+    "103919639X"
+   ],
+   "signatur": [
+    "5 B 19142"
+   ],
+   "online": []
+  },
+  "mc-xianggang-miaoyu-beike-z-529": {
+   "match": "isbn",
+   "ppn": [
+    "1887100725",
+    "1887100326"
+   ],
+   "signatur": [
+    "5 B 98586-3",
+    "5 B 98586-2"
+   ],
+   "online": []
+  },
+  "mc-shitou-shang-de-xianggan-531": {
+   "match": "isbn",
+   "ppn": [
+    "1866019651"
+   ],
+   "signatur": [
+    "5 A 309105"
+   ],
+   "online": []
+  },
+  "mc-aomen-mage-shike-535": {
+   "match": "isbn",
+   "ppn": [
+    "178970863X"
+   ],
+   "signatur": [
+    "5 A 286908"
+   ],
+   "online": []
+  },
+  "mc-taiwan-nanbu-beiwen-jich-536": {
+   "match": "title",
+   "ppn": [
+    "1034427148"
+   ],
+   "signatur": [
+    "37853-218"
+   ],
+   "online": []
+  },
+  "mc-taiwan-zhongbu-beiwen-ji-537": {
+   "match": "title",
+   "ppn": [
+    "1034303376"
+   ],
+   "signatur": [
+    "37853-151"
+   ],
+   "online": []
+  },
+  "mc-taiwan-diqu-xiancun-beij-542": {
+   "match": "title",
+   "ppn": [
+    "1684665574",
+    "1039302831",
+    "1039109926",
+    "1038964164",
+    "1038329272"
+   ],
+   "signatur": [
+    "5 B 81596",
+    "5 B 14578",
+    "5 B 3475",
+    "5 B 3336",
+    "5 B 3074"
+   ],
+   "online": []
+  },
+  "mc-chizhou-moya-shike-550": {
+   "match": "title",
+   "ppn": [
+    "1035557932"
+   ],
+   "signatur": [
+    "5 A 188851"
+   ],
+   "online": []
+  },
+  "mc-anhui-moya-shike-jingcui-552": {
+   "match": "isbn",
+   "ppn": [
+    "1035554534"
+   ],
+   "signatur": [
+    "5 B 43817"
+   ],
+   "online": []
+  },
+  "mc-taishan-shike-559": {
+   "match": "isbn",
+   "ppn": [
+    "1033294640",
+    "1033294624",
+    "1033294608"
+   ],
+   "signatur": [
+    "5 B 36019-10",
+    "5 B 36019-9",
+    "5 B 36019-8"
+   ],
+   "online": []
+  },
+  "mc-taishan-jingshiyu-jingan-567": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-zui-shan-taben-taishan-j-569": {
+   "match": "isbn",
+   "ppn": [
+    "1751543803"
+   ],
+   "signatur": [
+    "5 C 7743-1",
+    "5 C 7743-2",
+    "5 C 7743-3",
+    "5 C 7743-4"
+   ],
+   "online": []
+  },
+  "mc-emeishan-zhi-577": {
+   "match": "title",
+   "ppn": [
+    "1036896056",
+    "1039662099",
+    "1034238094",
+    "1039444946",
+    "1033088897"
+   ],
+   "signatur": [
+    "5 A 237607",
+    "5 B 28021-20,[2]",
+    "5 B 38742-268",
+    "5 B 10406",
+    "5 B 33301-236"
+   ],
+   "online": []
+  },
+  "mc-putuo-luojia-shan-zhi-579": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-wutaishan-beike-581": {
+   "match": "isbn",
+   "ppn": [
+    "1697141951"
+   ],
+   "signatur": [
+    "5 A 271085",
+    "5 A 271086",
+    "5 A 271087",
+    "5 A 271088",
+    "5 A 271089"
+   ],
+   "online": []
+  },
+  "mc-wutaishan-beiwen-582": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-bashu-daojiao-beiwen-jic-598": {
+   "match": "title",
+   "ppn": [
+    "1039446930"
+   ],
+   "signatur": [
+    "5 A 89197"
+   ],
+   "online": []
+  },
+  "mc-wuyishan-moya-shike-618": {
+   "match": "isbn",
+   "ppn": [
+    "1033033731"
+   ],
+   "signatur": [
+    "5 B 32432"
+   ],
+   "online": []
+  },
+  "mc-wenzhou-fangbei-lu-623": {
+   "match": "title",
+   "ppn": [
+    "1733149554"
+   ],
+   "signatur": [
+    "5 B 74096"
+   ],
+   "online": []
+  },
+  "mc-dunhuang-mogaoku-neirong-641": {
+   "match": "title",
+   "ppn": [
+    "1034373722"
+   ],
+   "signatur": [
+    "836957-16"
+   ],
+   "online": []
+  },
+  "mc-gongxian-shikusi-648": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-beijing-tushuguan-cang-l-660": {
+   "match": "isbn",
+   "ppn": [
+    "1814955828"
+   ],
+   "signatur": [
+    "5 C 7794-1",
+    "5 C 7794-2",
+    "5 C 7794-3",
+    "5 C 7794-4",
+    "5 C 7794-5",
+    "5 C 7794-6",
+    "5 C 7794-7",
+    "5 C 7794-8",
+    "5 C 7794-9",
+    "5 C 7794-10"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1814955828.pdf"
+   ]
+  },
+  "mc-longmen-shiku-shike-jich-661": {
+   "match": "title",
+   "ppn": [
+    "1729508642"
+   ],
+   "signatur": [
+    "5 B 21586"
+   ],
+   "online": []
+  },
+  "mc-longmen-ershi-pin-664": {
+   "match": "title",
+   "ppn": [
+    "1729573029"
+   ],
+   "signatur": [
+    "2\" 38243-7",
+    "2\" 38243-9"
+   ],
+   "online": []
+  },
+  "mc-fangshan-beike-tongzhi-669": {
+   "match": "isbn",
+   "ppn": [
+    "180897963X"
+   ],
+   "signatur": [
+    "5 B 94848"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/180897963X.pdf"
+   ]
+  },
+  "mc-qufu-rujia-beike-wenxian-688": {
+   "match": "isbn",
+   "ppn": [
+    "1856780333"
+   ],
+   "signatur": [
+    "5 B 96384-1",
+    "5 B 96384-2",
+    "5 B 96384-3"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1856780333.pdf"
+   ]
+  },
+  "mc-hu-xiang-beike-yi-697": {
+   "match": "title",
+   "ppn": [
+    "1034873369"
+   ],
+   "signatur": [
+    "5 A 155093-1"
+   ],
+   "online": []
+  },
+  "mc-wuxi-moya-shike-699": {
+   "match": "isbn",
+   "ppn": [
+    "1806729830"
+   ],
+   "signatur": [
+    "5 B 94978"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/1806729830.pdf"
+   ]
+  },
+  "mc-jiaoshan-beike-701": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-kaicheng-shijing-711": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-xi-an-beilin-mingbei-jin-712": {
+   "match": "none",
+   "ppn": [],
+   "signatur": [],
+   "online": []
+  },
+  "mc-guilin-shike-723": {
+   "match": "title",
+   "ppn": [
+    "178352846X"
+   ],
+   "signatur": [
+    "5 A 296940"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/178352846X.pdf"
+   ]
+  },
+  "mc-guilin-shike-tanwei-727": {
+   "match": "title",
+   "ppn": [
+    "178352846X"
+   ],
+   "signatur": [
+    "5 A 296940"
+   ],
+   "online": [
+    "https://www.gbv.de/dms/spk/sbb/toc/178352846X.pdf"
+   ]
+  }
+ }
+}

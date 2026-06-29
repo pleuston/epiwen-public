@@ -57,6 +57,17 @@ reproduces the same 1,580-row result. Install `opencc` (see `../requirements.txt
 phrase-accurate folding. Verification ran in **both** character forms (136 of 230 catalogue
 hits matched only via the simplified form).
 
+### SBB shelf marks (`sbb-holdings.json`)
+
+For the SBB-held corpora, the StaBi **Signatur** + online links are pulled from the **K10plus
+SRU** (`https://sru.k10plus.de/opac-de-627`, keyless MARCXML — the public base; `k10plus` itself
+is access-denied, and StaBiKat / the K10plus OPAC are JS-/bot-walled). SBB = ISIL **DE-1 / DE-1a /
+DE-1b**; the Signatur is MARC **924 $g** (pure-digit `$a` values are EPNs, dropped). ISBN matches
+are exact; title matches are verified against the record's MARC **880** CJK title (S/T-folded) or
+romanized **245** via pinyin, so a homonym can't inject the wrong shelf mark. **55 of 78** resolved
+(20 by ISBN, 35 by title), 16 with a digitised TOC. `fetch_sbb.js` (scratchpad) regenerates it;
+the SBB badge then links to `stabikat.de/Record/<PPN>` and shows the Signatur.
+
 ## Geography (region → province → county/locality → site)
 
 - The five `## 補遺` "unplaced" gap-fills are filed into their proper geography via

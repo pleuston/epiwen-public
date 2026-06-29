@@ -337,6 +337,22 @@ def compute_locality(r):
 for r in records:
     if not r.get("locality"): r["locality"] = compute_locality(r)
 
+# ── SBB shelf marks + online links (from K10plus SRU opac-de-627; see sbb-holdings.json) ──
+# SBB = ISIL DE-1/DE-1a/DE-1b, Signatur from MARC 924 $g; title matches verified vs MARC 880 / pinyin.
+try:
+    sbb_h = json.load(open(OUT + "/sbb-holdings.json", encoding="utf-8")).get("holdings", {})
+except Exception:
+    sbb_h = {}
+nsbb = 0
+for r in records:
+    h = sbb_h.get(r["id"])
+    if h and h.get("signatur"):
+        r["sbb_signatur"] = h["signatur"]
+        r["sbb_ppn"] = h.get("ppn", [])
+        r["sbb_online"] = h.get("online", [])
+        nsbb += 1
+print("SBB shelf marks attached:", nsbb)
+
 os.makedirs(OUT, exist_ok=True)
 meta = {"generated": "2026-06-26", "count": len(records),
         "source": "obsidian-vault geographic fan-out: AI epigraphic-corpora-topographic-inventory.md",
