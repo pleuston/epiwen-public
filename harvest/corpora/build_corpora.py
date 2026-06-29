@@ -254,6 +254,45 @@ for r in records:
     r["site"] = p.get("site", ""); r["category"] = p.get("category", ""); r["locality"] = p.get("locality", "")
     r["place"] = p.get("place") or p.get("province") or p.get("site") or r["place"]
 
+# ── 新編碑刻集書目 (李仁淵 / 海交史) — authoritative published bibliography. Add entries not
+# already present. Unlike the web fan-out, these are KEPT even when uncatalogued (the source is
+# scholarly), flagged verification_pending; a biblio-catalog-verify.json pass can upgrade them.
+def bib_place(prov):
+    if "專題" in prov or "全區" in prov or "全国" in prov: return ("national", "", "")
+    if "東南亞" in prov: return ("overseas", "東南亞 Southeast Asia", "")
+    if "重慶" in prov or "四川" in prov: return ("province", "西南", "四川")
+    p = {"內蒙": "內蒙古"}.get(prov, prov)
+    return ("province", REGION.get(p, ""), p)
+try:
+    biblio = json.load(open(OUT + "/xinbian-beikeji.json", encoding="utf-8")).get("entries", [])
+except Exception:
+    biblio = []
+try:
+    bibcat = {v["id"]: v for v in json.load(open(OUT + "/biblio-catalog-verify.json", encoding="utf-8")).get("results", []) if v.get("id")}
+except Exception:
+    bibcat = {}
+present = set(re.sub("[^" + CJK + "]", "", r["title_zh"]) for r in records)
+badd = 0
+for e in biblio:
+    t = (e.get("title") or "").strip(); nt = re.sub("[^" + CJK + "]", "", t)
+    if not nt or nt in present: continue
+    present.add(nt); badd += 1
+    sec, reg, prov = bib_place(e.get("province", ""))
+    if "重慶" in t: prov = "重慶"
+    rid = slug(t, 20000 + badd)
+    cv = bibcat.get(rid); in_cat = bool(cv and cv.get("in_catalog")); corr = (cv and cv.get("corrections")) or {}
+    records.append({
+        "title_zh": t, "title_pinyin": "", "author": corr.get("author") or e.get("author", ""),
+        "year": corr.get("year") or e.get("year", ""), "publisher": corr.get("publisher") or e.get("publisher", ""),
+        "scope": "", "isbn": ([re.sub(r"[\s\-]", "", corr["isbn"])] if corr.get("isbn") else []),
+        "gapfill": False, "biblio": True, "web_verified": in_cat, "web_catalog": (cv.get("catalog") if in_cat else ""),
+        "verification_pending": (not in_cat),
+        "evidence": (cv.get("catalog_url") if in_cat else "https://idv.sinica.edu.tw/ryli/stoneinscriptions.htm"),
+        "id": rid, "section": sec, "region": reg, "province": prov, "site": "", "category": "", "admin": "",
+        "locality": "", "place": (prov or ("全國" if sec == "national" else reg) or "東南亞"),
+        "holdings": {"vault": False, "sbb": False, "k10plus": False, "harvard": False},
+    })
+
 # ── county/prefecture level: a `locality` for each entry ───────────────────────
 GENRE = (r"(金石|石刻|碑刻|碑誌|碑志|墓誌|墓志|題記|題刻|題名|摩崖|碑碣|碑帖|碑石|碑銘|貞石|石經|造像|碑林|石窟|"
          r"畫像石|磚銘|磚文|題跋|拓片|拓本|文物|碑錄|碑版|名碑|誌|志|錄|彙編|匯編|輯録|輯校|總目|總集|大全|"
@@ -267,7 +306,9 @@ def compute_locality(r):
     t = re.sub(r"^.{1,9}?(圖書館|博物館|博物院|檔案館|大學|研究院|研究所|文管會|文物局|文化局|文管處|地方誌)[^藏]{0,4}?(藏|新藏|編|)", "", t)
     t = re.sub(r"^(明清以來|明清|清代|清|明代|明|宋元|元明|歷代|近代|當代|近現代|民國|漢魏|隋唐五代|隋唐|唐宋|北朝|南北朝|新出|新發現|新見|出土)", "", t)
     t = re.sub("^(" + re.escape(r["province"]) + ")(省|市|地區|區|自治區)?", "", t)
-    m = re.search(GENRE, t); loc = t[:m.start()] if m else t
+    m = re.search(GENRE, t)
+    if not m: return ""                                            # no genre word → not a clean place+genre title
+    loc = t[:m.start()]
     loc = re.sub(r"(省|市|地區|自治區|自治州|盟|區|縣)$", "", loc).strip("（）()·・ 　")
     for _ in range(4):  # strip trailing era/topic qualifiers left clinging to the place name
         loc2 = re.sub(r"(歷代|歴代|古代|古刻|新出|新見|出土|道教|佛教|工商業|社會史|農業經濟|縣學|寺廟|地區|地区|選|古)$", "", loc).strip()
