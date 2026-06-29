@@ -68,6 +68,17 @@ romanized **245** via pinyin, so a homonym can't inject the wrong shelf mark. **
 (20 by ISBN, 35 by title), 16 with a digitised TOC. `fetch_sbb.js` (scratchpad) regenerates it;
 the SBB badge then links to `stabikat.de/Record/<PPN>` and shows the Signatur.
 
+### SBB digitised TOCs (`sbb-toc.json` → `corpora-toc/*.txt`)
+
+The SBB **856 TOC PDFs** (`gbv.de/dms/spk/sbb/toc/<PPN>.pdf`, scanned tables of contents) are
+OCR'd locally with **PaddleOCR PP-OCRv6** (`lang=ch`): `pdf2png.swift` rasterises each page at 2×
+(PDFKit), `pp_ocr_all.py` runs the recognizer → `sbb-toc.json` ({PPN: text}). 23 PDFs / 400 pages.
+PaddleOCR is used over Apple Vision because it keeps each entry tied to its page number
+(`石门颂…4`). `build_corpora.py` concatenates each corpus's volume-PPNs into `epiwen/corpora-toc/<id>.txt`
+and sets `sbb_toc`; the detail page lazy-loads it as a collapsible "Table of contents". Re-run:
+`node ../fetch_sbb.js` (for the 856 links) → download PDFs → `pdf2png.swift` → `pp_ocr_all.py`
+(needs a Python ≤3.13 venv with `paddlepaddle`+`paddleocr`; PP-OCRv6 models cache in `~/.paddlex`).
+
 ## Geography (region → province → county/locality → site)
 
 - The five `## 補遺` "unplaced" gap-fills are filed into their proper geography via

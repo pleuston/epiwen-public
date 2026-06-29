@@ -353,6 +353,29 @@ for r in records:
         nsbb += 1
 print("SBB shelf marks attached:", nsbb)
 
+# ── SBB digitised-TOC text (PaddleOCR PP-OCRv6 of the 856 TOC PDFs; see sbb-toc.json) ──
+# Per corpus → APP/corpora-toc/<id>.txt (concatenated by volume PPN), fetched lazily on the detail page.
+try:
+    sbb_toc = json.load(open(OUT + "/sbb-toc.json", encoding="utf-8"))
+except Exception:
+    sbb_toc = {}
+TOC_DIR = APP + "/corpora-toc"
+shutil.rmtree(TOC_DIR, ignore_errors=True); os.makedirs(TOC_DIR, exist_ok=True)
+ntoc = 0
+for r in records:
+    urls = r.get("sbb_online") or []
+    parts = []
+    for u in urls:
+        ppn = re.sub(r"\.pdf$", "", u.rsplit("/", 1)[-1])
+        txt = (sbb_toc.get(ppn) or "").strip()
+        if txt:
+            parts.append((("── PPN " + ppn + " ──\n") if len(urls) > 1 else "") + txt)
+    if parts:
+        open(TOC_DIR + "/" + r["id"] + ".txt", "w", encoding="utf-8").write("\n\n".join(parts))
+        r["sbb_toc"] = True
+        ntoc += 1
+print("SBB TOC files written:", ntoc)
+
 os.makedirs(OUT, exist_ok=True)
 meta = {"generated": "2026-06-26", "count": len(records),
         "source": "obsidian-vault geographic fan-out: AI epigraphic-corpora-topographic-inventory.md",
