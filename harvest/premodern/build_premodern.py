@@ -91,7 +91,7 @@ def parse_toc_entry(line):
     if bk:
         title = bk.group(1).strip()
     else:
-        jm = re.search(r"([" + NUM + r"]+卷|不分卷)", parts[0])
+        jm = re.search(r"(殘[" + NUM + r"]*卷|[" + NUM + r"]+卷|不分卷)", parts[0])   # 六藝之一録殘一百三十一卷 → 六藝之一録
         title = (parts[0][:jm.start()] if jm else parts[0]).strip()
     d = a = ""
     for i, p in enumerate(parts):
@@ -147,10 +147,10 @@ for _t in toc_works:                                  # toc_works is in 目錄 o
     for _a in _ANCH4:
         if _ft.startswith(_a): _cur4 = _ANCH4[_a]; break
     if _cur4: CE4[_ft] = _cur4
-def akey(s):                                          # match key: drop 《》, parentheticals, 外N種/卷-counts, non-CJK
+def akey(s):                                          # match key: drop 《》, parentheticals, 外N種/卷-counts; fold 簡/繁/異體
     s = re.sub(r"《([^》]+)》", r"\1", s or ""); s = re.sub(r"[（(][^）)]*[）)]", "", s)
     s = re.sub(r"外[" + NUM + r"]+種.*$", "", s)       # 六藝之一錄外十種 → 六藝之一錄 (第四輯 catalogues bundle 册-mates)
-    s = re.sub(r"([" + NUM + r"]+卷|不分卷).*$", "", s); return norm(s)
+    s = re.sub(r"([" + NUM + r"]+卷|不分卷).*$", "", s); return tfold(s)   # tfold folds 録/錄, 攷/考 … so variant titles merge
 def wp_aliases(path):                                 # frontmatter `aliases:` list of a vault work-page
     try: fm = re.match(r"^---\s*\n(.*?)\n---", open(path, encoding="utf-8").read(), re.S)
     except Exception: return []
