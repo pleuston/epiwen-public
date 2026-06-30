@@ -359,9 +359,37 @@ try:
     sbb_toc = json.load(open(OUT + "/sbb-toc.json", encoding="utf-8"))
 except Exception:
     sbb_toc = {}
+
+# Re-pair orphan OCR lines: a lone page number → previous entry; a lone circled seq-number
+# (〇〇三) → next entry. Applied ONLY when it yields a near-monotonic page sequence (clean
+# single-column TOC); multi-column scans that mis-pair keep their raw OCR instead.
+def _toc_is_page(s): return bool(re.match(r"^[.·…:：\-\s]*\d{1,4}[.·…:：\s]*$", s))
+def _toc_is_seq(s): return bool(re.match(r"^[○〇]+[\d○〇一二三四五六七八九十百]*$", s)) or bool(re.match(r"^[一二三四五六七八九十百]{1,4}$", s))
+def _toc_reflow(text):
+    out, held = [], ""
+    for s in (ln.strip() for ln in text.split("\n")):
+        if not s: continue
+        if _toc_is_seq(s): held = (held + " " + s) if held else s; continue
+        if _toc_is_page(s):
+            pg = re.sub(r"\D", "", s)
+            if out: out[-1] += "  …… " + pg
+            else: out.append(pg)
+            continue
+        if held: s, held = held + " " + s, ""
+        out.append(s)
+    if held: out.append(held)
+    return "\n".join(out)
+def _toc_clean(text):  # return reflowed iff its page sequence is mostly increasing, else raw
+    r = _toc_reflow(text)
+    seq = [int(m.group(1)) for m in (re.search(r"……\s*(\d{1,4})$", l) for l in r.split("\n")) if m]
+    if len(seq) >= 5:
+        inc = sum(1 for i in range(1, len(seq)) if seq[i] >= seq[i - 1] - 2) / (len(seq) - 1)
+        if inc >= 0.85: return r, True
+    return text, False
+
 TOC_DIR = APP + "/corpora-toc"
 shutil.rmtree(TOC_DIR, ignore_errors=True); os.makedirs(TOC_DIR, exist_ok=True)
-ntoc = 0
+ntoc = nreflow = 0
 for r in records:
     urls = r.get("sbb_online") or []
     parts = []
@@ -369,12 +397,13 @@ for r in records:
         ppn = re.sub(r"\.pdf$", "", u.rsplit("/", 1)[-1])
         txt = (sbb_toc.get(ppn) or "").strip()
         if txt:
+            txt, did = _toc_clean(txt); nreflow += did
             parts.append((("── PPN " + ppn + " ──\n") if len(urls) > 1 else "") + txt)
     if parts:
         open(TOC_DIR + "/" + r["id"] + ".txt", "w", encoding="utf-8").write("\n\n".join(parts))
         r["sbb_toc"] = True
         ntoc += 1
-print("SBB TOC files written:", ntoc)
+print("SBB TOC files written:", ntoc, "| volume-TOCs re-paired:", nreflow)
 
 os.makedirs(OUT, exist_ok=True)
 meta = {"generated": "2026-06-26", "count": len(records),
