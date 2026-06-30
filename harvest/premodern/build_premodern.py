@@ -122,8 +122,9 @@ except Exception:
     CALLNO = {}
 def sbb_callno(loc):                                  # K&S locator "S.V:page" → SBB Signatur for 輯 S, 册 V
     m = re.match(r"^([1-4])\.(\d+)", loc or ""); return CALLNO.get(m.group(1) + "," + m.group(2), "") if m else ""
-def akey(s):                                          # match key: drop 《》, parentheticals, 卷-counts, non-CJK
+def akey(s):                                          # match key: drop 《》, parentheticals, 外N種/卷-counts, non-CJK
     s = re.sub(r"《([^》]+)》", r"\1", s or ""); s = re.sub(r"[（(][^）)]*[）)]", "", s)
+    s = re.sub(r"外[" + NUM + r"]+種.*$", "", s)       # 六藝之一錄外十種 → 六藝之一錄 (第四輯 catalogues bundle 册-mates)
     s = re.sub(r"([" + NUM + r"]+卷|不分卷).*$", "", s); return norm(s)
 def wp_aliases(path):                                 # frontmatter `aliases:` list of a vault work-page
     try: fm = re.match(r"^---\s*\n(.*?)\n---", open(path, encoding="utf-8").read(), re.S)
@@ -295,11 +296,24 @@ for w in reg:
         folded += 1; continue
     keep.append(w)
 reg = keep
-for w in reg:                                                # add the SBB call number from the locator
+for w in reg:                                                # add the SBB call number from the 輯.册 locator
     cn = sbb_callno(w.get("skslxb_locator", ""))
     if cn: w["sbb_callno"] = cn
+# 第四輯 (and any work lacking a precise K&S locator) → match K10plus analytic titles for the call number
+try:
+    K10W = {akey(w["title_zh"]): w.get("sbb_callno", "") for w in
+            json.load(open(OUT + "/k10-skslxb-analytics.json", encoding="utf-8")).get("works", []) if w.get("sbb_callno")}
+except Exception:
+    K10W = {}
+for w in reg:
+    if w["in_skslxb"] and not w.get("sbb_callno"):
+        for k in ({akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}):
+            if k and k in K10W: w["sbb_callno"] = K10W[k]; break
+        if not w.get("sbb_callno") and w.get("skslxb_series") == 4:
+            w["sbb_callno"] = "5 B 81572"     # 第四輯 collection at SBB (10 册, -1…-10); 册-precise where K10plus names the work
 print("folded vault gazetteers / dup SKSLXB entries:", folded,
-      "| SBB call numbers added:", sum(1 for w in reg if w.get("sbb_callno")))
+      "| SBB call numbers added:", sum(1 for w in reg if w.get("sbb_callno")),
+      "| via 第四輯 title-match:", sum(1 for w in reg if w.get("sbb_callno", "").startswith("5 B 81572")))
 
 reg.sort(key=lambda w: (0 if w["in_skslxb"] else 1, w.get("skslxb_series") or 9, w["title_zh"]))
 

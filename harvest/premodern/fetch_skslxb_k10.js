@@ -20,7 +20,9 @@ function parseCe(rec){ const v=s1(df(rec,"490")[0]||"","v")||s1(df(rec,"830")[0]
 
 const x = sru(encodeURIComponent("pica.tit=石刻史料新編"), 200);
 const recs = x.split(/<record[ >]/).slice(1);
+function ownSBB(r){ return (df(r,"924").map(b => SBB.test(s1(b,"b")) ? s1(b,"g") : "").filter(Boolean))[0] || ""; }
 const map = {};
+// 第一–三輯: SBB copy on the set records, $g encodes 輯,册 (4"@836959-<輯>,<册>)
 recs.forEach(r => df(r,"924").forEach(b => { if(SBB.test(s1(b,"b"))){ const m=s1(b,"g").match(/836959-(\d+),(\d+)/); if(m) map[m[1]+","+m[2]]=s1(b,"g"); } }));
 const works = [];
 recs.forEach(r => {
@@ -28,7 +30,9 @@ recs.forEach(r => {
   const title=s1(l880(r,"245"),"a")||s1(df(r,"245")[0]||"","a"); if(!new RegExp("["+ZH+"]").test(title)) return;
   const author=s1(l880(r,"100"),"a")||s1(df(r,"100")[0]||"","a")||s1(l880(r,"700"),"a")||"";
   const ji=parseJi(df(r,"490").join(" ")+" "+df(r,"830").join(" ")), ce=parseCe(r);
-  works.push({ ppn:(df(r,"001")[0]||"").trim(), title_zh:title, author, ji, ce, sbb_callno:(ji&&ce&&map[ji+","+ce])||"" });
+  const own=ownSBB(r);                                                       // 第四輯: SBB copy on the work record itself (5 B 81572-N)
+  if(own && ji && ce) map[ji+","+ce]=map[ji+","+ce]||own;
+  works.push({ ppn:(df(r,"001")[0]||"").trim(), title_zh:title, author, ji, ce, sbb_callno: own || (ji&&ce&&map[ji+","+ce]) || "" });
 });
 fs.writeFileSync(path.join(__dirname,"k10-skslxb-analytics.json"), JSON.stringify({
   generated:"2026-06-30", source:'K10plus SRU opac-de-627 pica.tit=石刻史料新編; SBB call number 4"@836959-<輯>,<册> from set records (ISIL DE-1*)',
