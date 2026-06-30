@@ -115,6 +115,24 @@ for raw in open(SKSLXB_TOC, encoding="utf-8"):
         e["series"] = _ser; e["category"] = _cat
         toc_map.setdefault(norm(e["title"]), e); toc_works.append(e)
 
+# ── K10plus-secured SKSLXB structure: per-册 SBB call number (4"@836959-<輯>,<册>) ──
+try:
+    CALLNO = json.load(open(OUT + "/k10-skslxb-analytics.json", encoding="utf-8")).get("callno_map", {})
+except Exception:
+    CALLNO = {}
+def sbb_callno(loc):                                  # K&S locator "S.V:page" → SBB Signatur for 輯 S, 册 V
+    m = re.match(r"^([1-4])\.(\d+)", loc or ""); return CALLNO.get(m.group(1) + "," + m.group(2), "") if m else ""
+def akey(s):                                          # match key: drop 《》, parentheticals, 卷-counts, non-CJK
+    s = re.sub(r"《([^》]+)》", r"\1", s or ""); s = re.sub(r"[（(][^）)]*[）)]", "", s)
+    s = re.sub(r"([" + NUM + r"]+卷|不分卷).*$", "", s); return norm(s)
+def wp_aliases(path):                                 # frontmatter `aliases:` list of a vault work-page
+    try: fm = re.match(r"^---\s*\n(.*?)\n---", open(path, encoding="utf-8").read(), re.S)
+    except Exception: return []
+    if not fm: return []
+    am = re.search(r"^aliases:\s*\n((?:[ \t]*-[ \t]*.*\n?)+)", fm.group(1), re.M)
+    return [re.sub(r"^[ \t]*-[ \t]*", "", ln).strip().strip('"').strip("'")
+            for ln in am.group(1).splitlines() if ln.strip()] if am else []
+
 reg = []; seen = set()
 for page, clist in conc_by_page.items():
     elist = ent_by_page.get(page, [])
@@ -157,7 +175,7 @@ for p in sorted(glob.glob(WORKPAGES + "/*《*》*.md")):
     reg.append({"id": slug(author_py, "wp") + "-" + str(extra), "title_zh": title, "title_pinyin": "",
                 "author_zh": author_zh, "author_pinyin": author_py, "author_id": "", "work_id": "",
                 "dynasty": "", "juan": None, "in_skslxb": False, "skslxb_series": None, "skslxb_locator": "",
-                "catalogue": {}, "editions": [], "relations": [],
+                "catalogue": {}, "editions": [], "relations": [], "aliases": wp_aliases(p),
                 "vault_page": os.path.basename(p)[:-3], "source": "vault epigraphy work page"})
 
 # ── TOC overlay: authoritative 輯 (incl. 第四輯) + add SKSLXB works still missing ──
@@ -254,6 +272,34 @@ for w in reg:
 for w in reg:
     for r in w.get("relations", []):
         r["target_title"] = wx_title_by_id.get(r.get("target"), "")
+
+# ── fold vault gazetteer pages into their SKSLXB twin (alias match) + drop exact SKSLXB dups ──
+# A vault page «三台縣志»(金石) is the same work as the K&S spine «三台金石志» (its frontmatter alias);
+# merge it in (so it inherits the K&S locator + page numbers) rather than listing it under "Other".
+in_idx = {}
+for w in reg:
+    if w["in_skslxb"]: in_idx.setdefault(akey(w["title_zh"]), w)
+keep = []; folded = 0; seen_ik = set()
+for w in reg:
+    if w["in_skslxb"]:
+        sig = (akey(w["title_zh"]), w.get("skslxb_locator", ""))
+        if sig in seen_ik: folded += 1; continue            # exact duplicate SKSLXB entry
+        seen_ik.add(sig); keep.append(w); continue
+    keys = {akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}; keys.discard("")
+    hit = next((in_idx[k] for k in keys if k in in_idx), None)
+    if hit:                                                  # gazetteer twin of an SKSLXB work → merge
+        if not hit.get("vault_page"): hit["vault_page"] = w.get("vault_page", "")
+        al = hit.setdefault("aliases", [])
+        for a in [w["title_zh"]] + (w.get("aliases") or []):
+            if a and a not in al and akey(a) != akey(hit["title_zh"]): al.append(a)
+        folded += 1; continue
+    keep.append(w)
+reg = keep
+for w in reg:                                                # add the SBB call number from the locator
+    cn = sbb_callno(w.get("skslxb_locator", ""))
+    if cn: w["sbb_callno"] = cn
+print("folded vault gazetteers / dup SKSLXB entries:", folded,
+      "| SBB call numbers added:", sum(1 for w in reg if w.get("sbb_callno")))
 
 reg.sort(key=lambda w: (0 if w["in_skslxb"] else 1, w.get("skslxb_series") or 9, w["title_zh"]))
 
