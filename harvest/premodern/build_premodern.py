@@ -115,13 +115,38 @@ for raw in open(SKSLXB_TOC, encoding="utf-8"):
         e["series"] = _ser; e["category"] = _cat
         toc_map.setdefault(norm(e["title"]), e); toc_works.append(e)
 
-# ── K10plus-secured SKSLXB structure: per-册 SBB call number (4"@836959-<輯>,<册>) ──
+# ── K10plus-secured SKSLXB structure: per-册 SBB call numbers ──
+#   第一–三輯 → 4"@836959-<輯>,<册>  (callno_map, looked up by K&S 輯.册 locator)
+#   第四輯    → 5 B 81572-<册>        (no K&S locator; placed via the 目錄's 册-order segmentation)
 try:
-    CALLNO = json.load(open(OUT + "/k10-skslxb-analytics.json", encoding="utf-8")).get("callno_map", {})
+    _k10 = json.load(open(OUT + "/k10-skslxb-analytics.json", encoding="utf-8"))
+    CALLNO = _k10.get("callno_map", {}); K10_WORKS = _k10.get("works", [])
 except Exception:
-    CALLNO = {}
-def sbb_callno(loc):                                  # K&S locator "S.V:page" → SBB Signatur for 輯 S, 册 V
+    CALLNO = {}; K10_WORKS = []
+try:
+    _T2S = json.load(open(OUT + "/../corpora/t2s-charmap.json", encoding="utf-8"))
+except Exception:
+    _T2S = {}
+_VAR = {"攷": "考", "艸": "草"}                        # 異體字 OpenCC t2s doesn't fold (備攷/備考, 艸隸/草隸)
+def tfold(s):                                         # CJK-only, simplified- + 異體字-folded (for SKSLXB title matching)
+    return "".join(_VAR.get(_T2S.get(c, c), _T2S.get(c, c)) for c in norm(s))
+def sbb_callno(loc):                                  # K&S locator "S.V:page" → 第一–三輯 SBB Signatur for 輯 S, 册 V
     m = re.match(r"^([1-4])\.(\d+)", loc or ""); return CALLNO.get(m.group(1) + "," + m.group(2), "") if m else ""
+# 第四輯 册 placement: anchor on the 10 册-leads (六藝之一錄 spans 4–6 → anchor 6), walk the 目錄 in order
+def _leadof(s): return re.sub(r"(外[" + NUM + r"]+種|卷.*|殘.*).*$", "", s or "")
+_ANCH4 = {}
+for _w in K10_WORKS:
+    _m = re.search(r"5 B 81572-(\d+)", _w.get("sbb_callno", ""))
+    if _m:
+        _k = tfold(_leadof(_w["title_zh"]))
+        if _k: _ANCH4[_k] = max(_ANCH4.get(_k, 0), int(_m.group(1)))
+CE4 = {}; _cur4 = None
+for _t in toc_works:                                  # toc_works is in 目錄 order
+    if _t.get("series") != 4: continue
+    _ft = tfold(_t["title"])
+    for _a in _ANCH4:
+        if _ft.startswith(_a): _cur4 = _ANCH4[_a]; break
+    if _cur4: CE4[_ft] = _cur4
 def akey(s):                                          # match key: drop 《》, parentheticals, 外N種/卷-counts, non-CJK
     s = re.sub(r"《([^》]+)》", r"\1", s or ""); s = re.sub(r"[（(][^）)]*[）)]", "", s)
     s = re.sub(r"外[" + NUM + r"]+種.*$", "", s)       # 六藝之一錄外十種 → 六藝之一錄 (第四輯 catalogues bundle 册-mates)
@@ -309,8 +334,9 @@ for w in reg:
     if w["in_skslxb"] and not w.get("sbb_callno"):
         for k in ({akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}):
             if k and k in K10W: w["sbb_callno"] = K10W[k]; break
-        if not w.get("sbb_callno") and w.get("skslxb_series") == 4:
-            w["sbb_callno"] = "5 B 81572"     # 第四輯 collection at SBB (10 册, -1…-10); 册-precise where K10plus names the work
+        if not w.get("sbb_callno") and w.get("skslxb_series") == 4:   # place into its 册 via the 目錄 segmentation
+            ce = CE4.get(tfold(w["title_zh"])) or next((CE4[tfold(a)] for a in (w.get("aliases") or []) if tfold(a) in CE4), None)
+            w["sbb_callno"] = ("5 B 81572-" + str(ce)) if ce else "5 B 81572"
 print("folded vault gazetteers / dup SKSLXB entries:", folded,
       "| SBB call numbers added:", sum(1 for w in reg if w.get("sbb_callno")),
       "| via 第四輯 title-match:", sum(1 for w in reg if w.get("sbb_callno", "").startswith("5 B 81572")))
