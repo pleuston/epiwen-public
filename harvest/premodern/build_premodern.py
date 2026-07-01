@@ -328,6 +328,17 @@ K10IDX = {}
 for kw in K10_WORKS:
     k = akey(kw["title_zh"])
     if k: K10IDX.setdefault(k, kw)
+# OCR'd 官方總目 for 第三輯 考證目錄題跋類 (第33–40 冊): explicit 冊 markers place the bundle-works
+zongmu = {}
+try:
+    _cur = None
+    for _ln in open(KS + "/zongmu-ser3-cat3-4.txt", encoding="utf-8"):
+        _mm = re.search(r"第\s*(\d+)\s*冊", _ln)
+        if _mm: _cur = int(_mm.group(1))
+        _t = re.sub(r"(殘?[" + NUM + r"]+卷|不分卷).*$", "", re.split(r"[…．.]", re.sub(r"第\s*\d+\s*冊", "", _ln).strip())[0]).strip()
+        if norm(_t) and _cur: zongmu.setdefault(norm(_t), _cur)
+except Exception:
+    zongmu = {}
 promoted = 0
 for w in reg:
     if w["in_skslxb"]: continue
@@ -340,7 +351,11 @@ for w in reg:
     loc = next((ocr_loc[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in ocr_loc), "")
     if loc:                                                  # OCR'd K&S 目錄 places it (第三輯 gazetteers the spine missed)
         w["in_skslxb"] = True; w["skslxb_series"] = int(loc.split(".")[0])
-        w["skslxb_locator"] = loc; w["source"] = "石刻史料新編 (K&S OCR 目錄)"; promoted += 1
+        w["skslxb_locator"] = loc; w["source"] = "石刻史料新編 (K&S OCR 目錄)"; promoted += 1; continue
+    ce = next((zongmu[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in zongmu), None)
+    if ce:                                                   # OCR'd 官方總目 (第三輯 考證目錄題跋類)
+        w["in_skslxb"] = True; w["skslxb_series"] = 3
+        w["skslxb_locator"] = "3." + str(ce); w["source"] = "石刻史料新編 (OCR 總目 第三輯)"; promoted += 1
 for w in reg:                                                # add the SBB call number from the 輯.册 locator
     cn = sbb_callno(w.get("skslxb_locator", ""))
     if cn: w["sbb_callno"] = cn
