@@ -408,6 +408,18 @@ for e in entries:
             "source": "石刻史料新編 (K&S OCR gap-fill)"})
         gapfill += 1; have_loc.add(loc); reg_ak.setdefault(akey(t), reg[-1])
 print("gap-filled orphan K&S locators:", gapfill)
+# romanization bridge: give locator-less in_skslxb works their K&S locator (ks-romanized-fills.json,
+# pypinyin(title) ↔ K&S romanized titles, exact + same 輯 — precomputed by build_romanized_fills.py)
+try:
+    _rfills = json.load(open(OUT + "/ks-romanized-fills.json", encoding="utf-8")).get("fills", {})
+except Exception:
+    _rfills = {}
+rfilled = 0
+for w in reg:
+    if w["in_skslxb"] and not re.match(r"^[1-4]\.\d", (w.get("skslxb_locator") or "")):
+        loc = _rfills.get(norm(w["title_zh"]))
+        if loc: w["skslxb_locator"] = loc; w["source"] = (w.get("source") or "") + " +romanized-locator"; rfilled += 1
+print("romanized-bridge locators filled:", rfilled)
 for w in reg:                                                # add the SBB call number from the 輯.册 locator
     cn = sbb_callno(w.get("skslxb_locator", ""))
     if cn: w["sbb_callno"] = cn
