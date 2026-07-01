@@ -349,6 +349,8 @@ K10IDX = {}
 for kw in K10_WORKS:
     k = akey(kw["title_zh"])
     if k: K10IDX.setdefault(k, kw)
+# source (總目/目錄) titles carry 卷數 / 附… tails the clean vault titles don't → strip before matching
+def _sclean(t): return re.sub(r"(附[手錄補校刊考識札]+.*|坿.*|殘?[" + NUM + r"]+卷.*|不分卷.*)$", "", (t or "").strip())
 # OCR'd 官方總目 for 第三輯 考證目錄題跋類 (第33–40 冊): explicit 冊 markers place the bundle-works
 zongmu = {}
 try:
@@ -356,8 +358,8 @@ try:
     for _ln in open(KS + "/zongmu-ser3-cat3-4.txt", encoding="utf-8"):
         _mm = re.search(r"第\s*(\d+)\s*冊", _ln)
         if _mm: _cur = int(_mm.group(1))
-        _t = re.sub(r"(殘?[" + NUM + r"]+卷|不分卷).*$", "", re.split(r"[…．.]", re.sub(r"第\s*\d+\s*冊", "", _ln).strip())[0]).strip()
-        if norm(_t) and _cur: zongmu.setdefault(norm(_t), _cur)
+        _t = _sclean(re.split(r"[…．.]", re.sub(r"第\s*\d+\s*冊", "", _ln).strip())[0])
+        if akey(_t) and _cur: zongmu.setdefault(akey(_t), _cur)
 except Exception:
     zongmu = {}
 # curated 第三輯 地方類 join (series3-difang-datasheet.md: gazetteer《…》→ K&S locator) + the 第三輯
@@ -368,15 +370,17 @@ try:
         _lc = re.search(r"K&S\s+(3\.\d+:\d+(?:-\d+)?)", _ln)
         if not _lc: continue
         _g = re.search(r"《([^》]+)》", _ln)
-        if _g: difang.setdefault(norm(_g.group(1)), _lc.group(1))
+        if _g: difang.setdefault(akey(_sclean(_g.group(1))), _lc.group(1))
         _zm = re.search(r"←\s*\*\*([^*·]+)", _ln)
-        if _zm: difang.setdefault(norm(_zm.group(1)), _lc.group(1))
+        if _zm: difang.setdefault(akey(_sclean(_zm.group(1))), _lc.group(1))
+        _st = re.search(r"standalone[^》]*《([^》]+)》", _ln)   # ⟨standalone — … 《閿鄉金石志一卷》⟩
+        if _st: difang.setdefault(akey(_sclean(_st.group(1))), _lc.group(1))
 except Exception:
     pass
 try:
     for _ln in open(KS + "/series3-missing.csv", encoding="utf-8").read().splitlines()[1:]:
         _c = _ln.split(",")
-        if len(_c) >= 3 and _c[0].strip().isdigit(): difang.setdefault(norm(_c[2]), "3." + _c[0].strip())
+        if len(_c) >= 3 and _c[0].strip().isdigit(): difang.setdefault(akey(_sclean(_c[2])), "3." + _c[0].strip())
 except Exception:
     pass
 promoted = 0
@@ -392,11 +396,11 @@ for w in reg:
     if loc:                                                  # OCR'd K&S 目錄 places it (第三輯 gazetteers the spine missed)
         w["in_skslxb"] = True; w["skslxb_series"] = int(loc.split(".")[0])
         w["skslxb_locator"] = loc; w["source"] = "石刻史料新編 (K&S OCR 目錄)"; promoted += 1; continue
-    ce = next((zongmu[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in zongmu), None)
+    ce = next((zongmu[k] for k in ({akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}) if k in zongmu), None)
     if ce:                                                   # OCR'd 官方總目 (第三輯 考證目錄題跋類)
         w["in_skslxb"] = True; w["skslxb_series"] = 3
         w["skslxb_locator"] = "3." + str(ce); w["source"] = "石刻史料新編 (OCR 總目 第三輯)"; promoted += 1; continue
-    lc2 = next((difang[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in difang), None)
+    lc2 = next((difang[k] for k in ({akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}) if k in difang), None)
     if lc2:                                                  # 第三輯 地方類 join / missing list (gazetteers etc.)
         w["in_skslxb"] = True; w["skslxb_series"] = int(lc2.split(".")[0])
         w["skslxb_locator"] = lc2; w["source"] = "石刻史料新編 (第三輯 地方類/總目 join)"; promoted += 1
