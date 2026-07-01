@@ -68,10 +68,11 @@ LOC_RE = re.compile(r"^\s*([1-4]\.\d+:\d+(?:-\d+)?)")
 ocr_loc = {}
 for _pg, _lines in ocrdata.items():
     for i, ln in enumerate(_lines):
-        m = LOC_RE.match((ln or "").strip())
-        if m and m.group(1) in valid_loc and i + 1 < len(_lines):
-            t = cjk_run(_lines[i + 1])
-            if t: ocr_loc.setdefault(norm(t), m.group(1))
+        s = (ln or "").strip(); m = LOC_RE.match(s)
+        if not (m and m.group(1) in valid_loc): continue
+        t = cjk_run(s[m.end():])                                # title after the locator, SAME line
+        if not t and i + 1 < len(_lines): t = cjk_run(_lines[i + 1])   # else the next line
+        if t: ocr_loc.setdefault(norm(t), m.group(1))
 
 # SKSLXB authoritative 目錄 (all four 輯, incl. 第四輯) from the vault TOC
 SER_ZH = {"一": 1, "二": 2, "三": 3, "四": 4}
@@ -321,6 +322,25 @@ for w in reg:
         folded += 1; continue
     keep.append(w)
 reg = keep
+# promote "Other" works that the CATALOGUE itself breaks out as SKSLXB components (the K10plus
+# analytics carry 輯+册) — e.g. 天發神讖碑考 is catalogued under 第三輯 but our K&S/目錄 spine missed it.
+K10IDX = {}
+for kw in K10_WORKS:
+    k = akey(kw["title_zh"])
+    if k: K10IDX.setdefault(k, kw)
+promoted = 0
+for w in reg:
+    if w["in_skslxb"]: continue
+    kw = next((K10IDX[k] for k in ({akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}) if k in K10IDX), None)
+    if kw:
+        w["in_skslxb"] = True; w["skslxb_series"] = kw.get("ji")
+        if kw.get("ji") and kw.get("ce"): w["skslxb_locator"] = str(kw["ji"]) + "." + str(kw["ce"])
+        if kw.get("sbb_callno"): w["sbb_callno"] = kw["sbb_callno"]
+        w["source"] = "石刻史料新編 (K10plus analytic)"; promoted += 1; continue
+    loc = next((ocr_loc[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in ocr_loc), "")
+    if loc:                                                  # OCR'd K&S 目錄 places it (第三輯 gazetteers the spine missed)
+        w["in_skslxb"] = True; w["skslxb_series"] = int(loc.split(".")[0])
+        w["skslxb_locator"] = loc; w["source"] = "石刻史料新編 (K&S OCR 目錄)"; promoted += 1
 for w in reg:                                                # add the SBB call number from the 輯.册 locator
     cn = sbb_callno(w.get("skslxb_locator", ""))
     if cn: w["sbb_callno"] = cn
