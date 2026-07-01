@@ -339,6 +339,25 @@ try:
         if norm(_t) and _cur: zongmu.setdefault(norm(_t), _cur)
 except Exception:
     zongmu = {}
+# curated 第三輯 地方類 join (series3-difang-datasheet.md: gazetteer《…》→ K&S locator) + the 第三輯
+# missing list (series3-missing.csv: 冊,類,title) — both carry the 冊 / full K&S locator.
+difang = {}
+try:
+    for _ln in open(KS + "/series3-difang-datasheet.md", encoding="utf-8"):
+        _lc = re.search(r"K&S\s+(3\.\d+:\d+(?:-\d+)?)", _ln)
+        if not _lc: continue
+        _g = re.search(r"《([^》]+)》", _ln)
+        if _g: difang.setdefault(norm(_g.group(1)), _lc.group(1))
+        _zm = re.search(r"←\s*\*\*([^*·]+)", _ln)
+        if _zm: difang.setdefault(norm(_zm.group(1)), _lc.group(1))
+except Exception:
+    pass
+try:
+    for _ln in open(KS + "/series3-missing.csv", encoding="utf-8").read().splitlines()[1:]:
+        _c = _ln.split(",")
+        if len(_c) >= 3 and _c[0].strip().isdigit(): difang.setdefault(norm(_c[2]), "3." + _c[0].strip())
+except Exception:
+    pass
 promoted = 0
 for w in reg:
     if w["in_skslxb"]: continue
@@ -355,7 +374,11 @@ for w in reg:
     ce = next((zongmu[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in zongmu), None)
     if ce:                                                   # OCR'd 官方總目 (第三輯 考證目錄題跋類)
         w["in_skslxb"] = True; w["skslxb_series"] = 3
-        w["skslxb_locator"] = "3." + str(ce); w["source"] = "石刻史料新編 (OCR 總目 第三輯)"; promoted += 1
+        w["skslxb_locator"] = "3." + str(ce); w["source"] = "石刻史料新編 (OCR 總目 第三輯)"; promoted += 1; continue
+    lc2 = next((difang[k] for k in ({norm(w["title_zh"])} | {norm(a) for a in (w.get("aliases") or [])}) if k in difang), None)
+    if lc2:                                                  # 第三輯 地方類 join / missing list (gazetteers etc.)
+        w["in_skslxb"] = True; w["skslxb_series"] = int(lc2.split(".")[0])
+        w["skslxb_locator"] = lc2; w["source"] = "石刻史料新編 (第三輯 地方類/總目 join)"; promoted += 1
 for w in reg:                                                # add the SBB call number from the 輯.册 locator
     cn = sbb_callno(w.get("skslxb_locator", ""))
     if cn: w["sbb_callno"] = cn
