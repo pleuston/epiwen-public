@@ -351,6 +351,15 @@ for kw in K10_WORKS:
     if k: K10IDX.setdefault(k, kw)
 # source (總目/目錄) titles carry 卷數 / 附… tails the clean vault titles don't → strip before matching
 def _sclean(t): return re.sub(r"(附[手錄補校刊考識札]+.*|坿.*|殘?[" + NUM + r"]+卷.*|不分卷.*)$", "", (t or "").strip())
+_SEQ = set("一二三四五六七八九十初正續補前後新舊上下甲乙丙丁再重編遺")   # part/edition markers — a 1-char diff here = a DIFFERENT work
+def _typo1(a, b):   # edit distance ≤ 1 AND the differing char is a glyph confusion, not a 序号 (熹/烹 ok, 續/三 not)
+    if a == b or abs(len(a) - len(b)) > 1 or min(len(a), len(b)) < 5: return False
+    i = 0
+    while i < min(len(a), len(b)) and a[i] == b[i]: i += 1
+    if len(a) == len(b):
+        return a[i + 1:] == b[i + 1:] and a[i] not in _SEQ and b[i] not in _SEQ
+    lo, hi = (a, b) if len(a) < len(b) else (b, a)
+    return lo[i:] == hi[i + 1:] and hi[i] not in _SEQ
 # OCR'd 官方總目 for 第三輯 考證目錄題跋類 (第33–40 冊): explicit 冊 markers place the bundle-works
 zongmu = {}
 try:
@@ -403,7 +412,13 @@ for w in reg:
     lc2 = next((difang[k] for k in ({akey(w["title_zh"])} | {akey(a) for a in (w.get("aliases") or [])}) if k in difang), None)
     if lc2:                                                  # 第三輯 地方類 join / missing list (gazetteers etc.)
         w["in_skslxb"] = True; w["skslxb_series"] = int(lc2.split(".")[0])
-        w["skslxb_locator"] = lc2; w["source"] = "石刻史料新編 (第三輯 地方類/總目 join)"; promoted += 1
+        w["skslxb_locator"] = lc2; w["source"] = "石刻史料新編 (第三輯 地方類/總目 join)"; promoted += 1; continue
+    _wt = tfold(w["title_zh"])                               # OCR glyph-typo tolerance vs the OCR'd 目錄 titles
+    if len(_wt) >= 6:
+        _fz = next((l for l, t in loc2title.items() if _typo1(_wt, tfold(t))), None)
+        if _fz:
+            w["in_skslxb"] = True; w["skslxb_series"] = int(_fz.split(".")[0])
+            w["skslxb_locator"] = _fz; w["source"] = "石刻史料新編 (K&S OCR ~typo)"; promoted += 1
 # ── gap-fill: K&S locators (entries.json) with NO register work → attach to a matching work, or add it ──
 _GENRE = re.compile("(金石|碑|誌|志|錄|録|記|目|考|跋|刻|銘|碣|磚|瓦|拓|集|編|略|表|圖|譜|苑|林|遺|存|摭|徵|叢|石)")
 have_loc = set(w.get("skslxb_locator") for w in reg if w.get("skslxb_locator"))
