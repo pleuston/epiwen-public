@@ -102,6 +102,23 @@ def parse_toc_entry(line):
             break
     if bk and not a: a = cjk_run(parts[0][:bk.start()])
     return {"title": title, "dynasty": d, "author": a}
+# a 目錄 line may BUNDLE several works before the 朝代.作者 tail (壬癸金石跋一卷.己庚金石跋一卷.
+# 丁戊金石跋一卷.清.楊守敬 撰) — extract each, cleaning 卷數 / 上下編 / 第N集至第N輯.
+_GENRE_T = re.compile("(金石|碑|誌|志|錄|録|記|目|考|跋|刻|銘|碣|磚|瓦|拓|集|編|略|表|圖|譜|苑|林|遺|存|摭|徵|叢|字|篆|隸|款|識|帖)")
+def toc_titles(line):
+    line = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", line.strip())
+    dm = re.search(r"[.．](?:" + "|".join(DYN) + r"|闕名|不著撰|舊題|滿州)(?=[.．\s])", "." + line)
+    head = ("." + line)[:dm.start()].lstrip(".．") if dm else line
+    out = []
+    for seg in re.split(r"[.．]", head):
+        seg = re.sub(r"(第[" + NUM + r"0-9]+集[至第\s" + NUM + r"0-9輯]*|殘?[" + NUM + r"]+卷|不分卷)$", "", seg.strip())
+        seg = re.sub(r"(上編|下編|坿.*|補遺.*)$", "", seg).strip()
+        if re.match(r"^[" + CJK + r"]{3,14}$", seg) and _GENRE_T.search(seg): out.append(seg)
+    return out
+vault_titles = set()                                          # titles that actually have a vault work-page
+for _p in glob.glob(WORKPAGES + "/*《*》*.md"):
+    _wt = parse_wp(os.path.basename(_p))[0]
+    if _wt: vault_titles.add(norm(_wt))
 toc_map = {}; toc_works = []
 _ser = 0; _cat = ""
 for raw in open(SKSLXB_TOC, encoding="utf-8"):
@@ -115,6 +132,10 @@ for raw in open(SKSLXB_TOC, encoding="utf-8"):
     if e and e["title"] and re.search("[" + CJK + "]", e["title"]):
         e["series"] = _ser; e["category"] = _cat
         toc_map.setdefault(norm(e["title"]), e); toc_works.append(e)
+    for _t in toc_titles(s):                                  # bundled sub-titles — only if a vault page documents it
+        if re.search("[" + CJK + "]", _t) and norm(_t) not in toc_map and norm(_t) in vault_titles:
+            _e = {"title": _t, "dynasty": (e["dynasty"] if e else ""), "author": "", "series": _ser, "category": _cat}
+            toc_map[norm(_t)] = _e; toc_works.append(_e)
 
 # ── K10plus-secured SKSLXB structure: per-册 SBB call numbers ──
 #   第一–三輯 → 4"@836959-<輯>,<册>  (callno_map, looked up by K&S 輯.册 locator)
