@@ -65,14 +65,14 @@ for c in conc: conc_by_page[c.get("page")].append(c)
 # numbers (verified, in K&S) for far more works than the fragile positional alignment did.
 ocrdata = json.load(open(KS + "/ks-applevision-ocr.json", encoding="utf-8"))
 LOC_RE = re.compile(r"^\s*([1-4]\.\d+:\d+(?:-\d+)?)")
-ocr_loc = {}
+ocr_loc = {}; loc2title = {}
 for _pg, _lines in ocrdata.items():
     for i, ln in enumerate(_lines):
         s = (ln or "").strip(); m = LOC_RE.match(s)
         if not (m and m.group(1) in valid_loc): continue
         t = cjk_run(s[m.end():])                                # title after the locator, SAME line
         if not t and i + 1 < len(_lines): t = cjk_run(_lines[i + 1])   # else the next line
-        if t: ocr_loc.setdefault(norm(t), m.group(1))
+        if t: ocr_loc.setdefault(norm(t), m.group(1)); loc2title.setdefault(m.group(1), t)
 
 # SKSLXB authoritative 目錄 (all four 輯, incl. 第四輯) from the vault TOC
 SER_ZH = {"一": 1, "二": 2, "三": 3, "四": 4}
@@ -379,6 +379,35 @@ for w in reg:
     if lc2:                                                  # 第三輯 地方類 join / missing list (gazetteers etc.)
         w["in_skslxb"] = True; w["skslxb_series"] = int(lc2.split(".")[0])
         w["skslxb_locator"] = lc2; w["source"] = "石刻史料新編 (第三輯 地方類/總目 join)"; promoted += 1
+# ── gap-fill: K&S locators (entries.json) with NO register work → attach to a matching work, or add it ──
+_GENRE = re.compile("(金石|碑|誌|志|錄|録|記|目|考|跋|刻|銘|碣|磚|瓦|拓|集|編|略|表|圖|譜|苑|林|遺|存|摭|徵|叢|石)")
+have_loc = set(w.get("skslxb_locator") for w in reg if w.get("skslxb_locator"))
+reg_ak = {}
+for w in reg:
+    for _a in [w["title_zh"]] + (w.get("aliases") or []):
+        reg_ak.setdefault(akey(_a), w)
+gapfill = 0
+for e in entries:
+    loc = e.get("locator")
+    if not loc or loc in have_loc: continue
+    t = loc2title.get(loc)
+    if not t or not _GENRE.search(t): continue               # need a genre-word title (skip mis-OCR'd author names)
+    hit = reg_ak.get(akey(t))
+    if hit and not hit["in_skslxb"]:                         # promote a straggling "Other" work
+        hit["in_skslxb"] = True; hit["skslxb_series"] = e.get("series"); hit["skslxb_locator"] = loc
+        hit["source"] = "石刻史料新編 (K&S OCR gap-fill)"; gapfill += 1; have_loc.add(loc)
+    elif hit and not hit.get("skslxb_locator"):
+        hit["skslxb_locator"] = loc; have_loc.add(loc)
+    elif not hit:                                            # genuinely missing work → add it
+        reg.append({"id": slug(loc, "gap"), "title_zh": t, "title_pinyin": "", "author_zh": "", "author_pinyin": "",
+            "author_id": "", "work_id": "", "dynasty": "", "juan": e.get("juan"), "in_skslxb": True,
+            "skslxb_series": e.get("series"), "skslxb_locator": loc,
+            "skslxb_pages": (str(e.get("page_start")) + "-" + str(e.get("page_end")) if e.get("page_start") else ""),
+            "skslxb_category": "", "period_covered": e.get("period_covered"), "author_dates": e.get("author_dates"),
+            "catalogue": {}, "editions": [], "relations": [], "vault_page": "", "aliases": [],
+            "source": "石刻史料新編 (K&S OCR gap-fill)"})
+        gapfill += 1; have_loc.add(loc); reg_ak.setdefault(akey(t), reg[-1])
+print("gap-filled orphan K&S locators:", gapfill)
 for w in reg:                                                # add the SBB call number from the 輯.册 locator
     cn = sbb_callno(w.get("skslxb_locator", ""))
     if cn: w["sbb_callno"] = cn
