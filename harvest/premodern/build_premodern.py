@@ -65,14 +65,16 @@ for c in conc: conc_by_page[c.get("page")].append(c)
 # numbers (verified, in K&S) for far more works than the fragile positional alignment did.
 ocrdata = json.load(open(KS + "/ks-applevision-ocr.json", encoding="utf-8"))
 LOC_RE = re.compile(r"^\s*([1-4]\.\d+:\d+(?:-\d+)?)")
-ocr_loc = {}; loc2title = {}
+ocr_loc = {}; loc2title = {}; loc2title_all = {}
 for _pg, _lines in ocrdata.items():
     for i, ln in enumerate(_lines):
         s = (ln or "").strip(); m = LOC_RE.match(s)
-        if not (m and m.group(1) in valid_loc): continue
+        if not m: continue
         t = cjk_run(s[m.end():])                                # title after the locator, SAME line
         if not t and i + 1 < len(_lines): t = cjk_run(_lines[i + 1])   # else the next line
-        if t: ocr_loc.setdefault(norm(t), m.group(1)); loc2title.setdefault(m.group(1), t)
+        if not t: continue
+        loc2title_all.setdefault(m.group(1), t)                 # every OCR locator (for typo-match; 冊 gives the call number)
+        if m.group(1) in valid_loc: ocr_loc.setdefault(norm(t), m.group(1)); loc2title.setdefault(m.group(1), t)
 
 # SKSLXB authoritative 目錄 (all four 輯, incl. 第四輯) from the vault TOC
 SER_ZH = {"一": 1, "二": 2, "三": 3, "四": 4}
@@ -350,7 +352,9 @@ for kw in K10_WORKS:
     k = akey(kw["title_zh"])
     if k: K10IDX.setdefault(k, kw)
 # source (總目/目錄) titles carry 卷數 / 附… tails the clean vault titles don't → strip before matching
-def _sclean(t): return re.sub(r"(附[手錄補校刊考識札]+.*|坿.*|殘?[" + NUM + r"]+卷.*|不分卷.*)$", "", (t or "").strip())
+def _sclean(t):
+    t = re.sub(r"[·・][^·・]{1,6}類$", "", (t or "").strip())       # drop ·墓誌類 category qualifier
+    return re.sub(r"(附[手錄補校刊考識札]+.*|坿.*|殘?[" + NUM + r"]+卷.*|不分卷.*)$", "", t)
 _SEQ = set("一二三四五六七八九十初正續補前後新舊上下甲乙丙丁再重編遺")   # part/edition markers — a 1-char diff here = a DIFFERENT work
 def _typo1(a, b):   # edit distance ≤ 1 AND the differing char is a glyph confusion, not a 序号 (熹/烹 ok, 續/三 not)
     if a == b or abs(len(a) - len(b)) > 1 or min(len(a), len(b)) < 5: return False
@@ -414,8 +418,8 @@ for w in reg:
         w["in_skslxb"] = True; w["skslxb_series"] = int(lc2.split(".")[0])
         w["skslxb_locator"] = lc2; w["source"] = "石刻史料新編 (第三輯 地方類/總目 join)"; promoted += 1; continue
     _wt = tfold(w["title_zh"])                               # OCR glyph-typo tolerance vs the OCR'd 目錄 titles
-    if len(_wt) >= 6:
-        _fz = next((l for l, t in loc2title.items() if _typo1(_wt, tfold(t))), None)
+    if len(_wt) >= 5:
+        _fz = next((l for l, t in loc2title_all.items() if _typo1(_wt, tfold(t))), None)
         if _fz:
             w["in_skslxb"] = True; w["skslxb_series"] = int(_fz.split(".")[0])
             w["skslxb_locator"] = _fz; w["source"] = "石刻史料新編 (K&S OCR ~typo)"; promoted += 1
