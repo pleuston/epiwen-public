@@ -15,7 +15,9 @@
   "surrogate_of": "Cao_Quan_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2095679:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Cao_Quan_bei_rubbing_HV2138597.xml",
@@ -33,7 +35,9 @@
   "surrogate_of": "Cao_Quan_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2138597:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Cao_Quan_bei_rubbing_HV236080.xml",
@@ -51,7 +55,9 @@
   "surrogate_of": "Cao_Quan_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:236080:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Cuan_Baozi_bei_rubbing.xml",
@@ -69,7 +75,9 @@
   "surrogate_of": "Cuan_Baozi_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2062962:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Cuan_Baozi_bei_rubbing_HV2063002.xml",
@@ -87,7 +95,9 @@
   "surrogate_of": "Cuan_Baozi_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2063002:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Cuan_Longyan_bei_rubbing_HV2252554.xml",
@@ -105,7 +115,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2252554:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399404.xml",
@@ -123,7 +135,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399404:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399405.xml",
@@ -141,7 +155,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399405:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399406.xml",
@@ -159,7 +175,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399406:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399407.xml",
@@ -177,7 +195,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399407:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399408.xml",
@@ -195,7 +215,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399408:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399409.xml",
@@ -213,7 +235,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399409:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399410.xml",
@@ -231,7 +255,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399410:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399411.xml",
@@ -249,7 +275,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399411:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399412.xml",
@@ -267,7 +295,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399412:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399413.xml",
@@ -285,7 +315,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399413:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399414.xml",
@@ -303,7 +335,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399414:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399415.xml",
@@ -321,7 +355,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399415:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399416.xml",
@@ -339,7 +375,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399416:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399417.xml",
@@ -357,7 +395,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399417:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399418.xml",
@@ -375,7 +415,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399418:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399419.xml",
@@ -393,7 +435,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399419:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399420.xml",
@@ -411,7 +455,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399420:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399421.xml",
@@ -429,7 +475,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399421:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399422.xml",
@@ -447,7 +495,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399422:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399423.xml",
@@ -465,7 +515,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399423:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399424.xml",
@@ -483,7 +535,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399424:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399425.xml",
@@ -501,7 +555,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399425:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399426.xml",
@@ -519,7 +575,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399426:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399427.xml",
@@ -537,7 +595,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399427:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399428.xml",
@@ -555,7 +615,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399428:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399429.xml",
@@ -573,7 +635,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399429:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399430.xml",
@@ -591,7 +655,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399430:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399431.xml",
@@ -609,7 +675,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399431:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399432.xml",
@@ -627,7 +695,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399432:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399433.xml",
@@ -645,7 +715,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399433:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399434.xml",
@@ -663,7 +735,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399434:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399435.xml",
@@ -681,7 +755,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399435:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399436.xml",
@@ -699,7 +775,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399436:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399437.xml",
@@ -717,7 +795,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399437:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399438.xml",
@@ -735,7 +815,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399438:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399439.xml",
@@ -753,7 +835,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399439:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399440.xml",
@@ -771,7 +855,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399440:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399441.xml",
@@ -789,7 +875,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399441:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399442.xml",
@@ -807,7 +895,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399442:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399443.xml",
@@ -825,7 +915,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399443:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399444.xml",
@@ -843,7 +935,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399444:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399445.xml",
@@ -861,7 +955,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399445:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399446.xml",
@@ -879,7 +975,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399446:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399447.xml",
@@ -897,7 +995,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399447:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399448.xml",
@@ -915,7 +1015,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399448:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399449.xml",
@@ -933,7 +1035,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399449:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399450.xml",
@@ -951,7 +1055,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399450:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399451.xml",
@@ -969,7 +1075,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399451:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399452.xml",
@@ -987,7 +1095,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399452:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399453.xml",
@@ -1005,7 +1115,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399453:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399454.xml",
@@ -1023,7 +1135,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399454:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399455.xml",
@@ -1041,7 +1155,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399455:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399456.xml",
@@ -1059,7 +1175,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399456:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399457.xml",
@@ -1077,7 +1195,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399457:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399458.xml",
@@ -1095,7 +1215,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399458:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399459.xml",
@@ -1113,7 +1235,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399459:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399460.xml",
@@ -1131,7 +1255,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399460:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399461.xml",
@@ -1149,7 +1275,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399461:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399462.xml",
@@ -1167,7 +1295,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399462:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399463.xml",
@@ -1185,7 +1315,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399463:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399464.xml",
@@ -1203,7 +1335,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399464:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399465.xml",
@@ -1221,7 +1355,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399465:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399466.xml",
@@ -1239,7 +1375,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399466:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399467.xml",
@@ -1257,7 +1395,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399467:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399468.xml",
@@ -1275,7 +1415,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399468:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399469.xml",
@@ -1293,7 +1435,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399469:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399470.xml",
@@ -1311,7 +1455,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399470:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399471.xml",
@@ -1329,7 +1475,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399471:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399472.xml",
@@ -1347,7 +1495,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399472:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399473.xml",
@@ -1365,7 +1515,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399473:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399474.xml",
@@ -1383,7 +1535,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399474:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399475.xml",
@@ -1401,7 +1555,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399475:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399476.xml",
@@ -1419,7 +1575,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399476:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399477.xml",
@@ -1437,7 +1595,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399477:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399478.xml",
@@ -1455,7 +1615,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399478:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399479.xml",
@@ -1473,7 +1635,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399479:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399480.xml",
@@ -1491,7 +1655,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399480:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399481.xml",
@@ -1509,7 +1675,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399481:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399482.xml",
@@ -1527,7 +1695,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399482:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399483.xml",
@@ -1545,7 +1715,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399483:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399484.xml",
@@ -1563,7 +1735,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399484:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399485.xml",
@@ -1581,7 +1755,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399485:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399486.xml",
@@ -1599,7 +1775,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399486:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399487.xml",
@@ -1617,7 +1795,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399487:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399488.xml",
@@ -1635,7 +1815,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399488:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399489.xml",
@@ -1653,7 +1835,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399489:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399490.xml",
@@ -1671,7 +1855,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399490:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399491.xml",
@@ -1689,7 +1875,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399491:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399492.xml",
@@ -1707,7 +1895,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399492:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399493.xml",
@@ -1725,7 +1915,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399493:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399494.xml",
@@ -1743,7 +1935,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399494:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399495.xml",
@@ -1761,7 +1955,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399495:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399496.xml",
@@ -1779,7 +1975,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399496:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399497.xml",
@@ -1797,7 +1995,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399497:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399498.xml",
@@ -1815,7 +2015,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399498:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399499.xml",
@@ -1833,7 +2035,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399499:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399500.xml",
@@ -1851,7 +2055,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399500:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399501.xml",
@@ -1869,7 +2075,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399501:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399502.xml",
@@ -1887,7 +2095,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399502:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399503.xml",
@@ -1905,7 +2115,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399503:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399504.xml",
@@ -1923,7 +2135,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399504:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399505.xml",
@@ -1941,7 +2155,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399505:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399506.xml",
@@ -1959,7 +2175,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399506:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399507.xml",
@@ -1977,7 +2195,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399507:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399508.xml",
@@ -1995,7 +2215,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399508:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399509.xml",
@@ -2013,7 +2235,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399509:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399510.xml",
@@ -2031,7 +2255,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399510:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399511.xml",
@@ -2049,7 +2275,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399511:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399512.xml",
@@ -2067,7 +2295,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399512:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399513.xml",
@@ -2085,7 +2315,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399513:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399514.xml",
@@ -2103,7 +2335,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399514:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399515.xml",
@@ -2121,7 +2355,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399515:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399516.xml",
@@ -2139,7 +2375,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399516:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Daji_shan_immortals_altar_poem_rubbing_HV4399517.xml",
@@ -2157,7 +2395,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4399517:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Duobaota_bei_rubbing_HV2095677.xml",
@@ -2175,7 +2415,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2095677:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Guan_hai_dao_shi_rubbing_HV9920132.xml",
@@ -2193,7 +2435,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:9920132:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Guan_hai_dao_shi_rubbing_HV9920133.xml",
@@ -2211,7 +2455,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:9920133:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Haodawang_Gwanggaeto_stele_rubbing_HV2174080.xml",
@@ -2229,7 +2475,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2174080:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Hokugi_Unho_zan_zensetsu_rubbing_CBcolbase147075searchid216.xml",
@@ -2247,7 +2495,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Jiucheng_gong_Liquan_ming_rubbing_HV3123033.xml",
@@ -2265,7 +2515,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3123033:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Kankai_shi_Poem_on_Viewing_the_Sea_Zheng_Daozhao_rubbing_JPSdaitoR100000118IDAITOD00.xml",
@@ -2283,7 +2535,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Keiy_Tei_shi_hi_vol_1_2_rubbing_NDL780575.xml",
@@ -2301,7 +2555,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://www.dl.ndl.go.jp/api/iiif/780575/manifest.json",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Keiy_Tei_shi_hi_vol_3_4_rubbing_NDL780576.xml",
@@ -2319,7 +2575,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://www.dl.ndl.go.jp/api/iiif/780576/manifest.json",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Keiy_Tei_shi_hi_vol_5_7_rubbing_NDL780577.xml",
@@ -2337,7 +2595,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://www.dl.ndl.go.jp/api/iiif/780577/manifest.json",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Keiy_Tei_shi_hi_vol_8_10_rubbing_NDL780578.xml",
@@ -2355,7 +2615,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://www.dl.ndl.go.jp/api/iiif/780578/manifest.json",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Keiyo_Tei_Bunko_hi_Zheng_Wengong_Stele_Ming_rubb_rubbing_JPScobas4241.xml",
@@ -2373,7 +2635,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Liqi_bei_rubbing_HV3124188.xml",
@@ -2391,7 +2655,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3124188:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Lun_jing_shu_shi_rubbing_HV10162946.xml",
@@ -2409,7 +2675,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:10162946:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Lun_jing_shu_shi_rubbing_HV2138684.xml",
@@ -2427,7 +2695,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2138684:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Ron_keisho_shi_Poem_on_Discussing_Scriptures_Zhe_rubbing_JPSdaitoR100000118I00000090.xml",
@@ -2440,12 +2710,14 @@
   "date_text": "Original carving Northern Wei, Yongping 4 (北魏・永平4年/511)",
   "region": "",
   "settlement": "(various, via aggregator)",
-  "repository": "Japan Search (ジャ���ンサーチ) — national aggregator",
+  "repository": "Japan Search (ジャパンサーチ) — national aggregator",
   "orig_place": "",
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "SNS1rub.xml",
@@ -2463,7 +2735,9 @@
   "surrogate_of": "SNS_2",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Shichen_bei_rubbing_HV3124187.xml",
@@ -2481,7 +2755,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3124187:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Shiguwen_rubbing_HV2019747.xml",
@@ -2499,7 +2775,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2019747:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Shimen_ming_rubbing_HV2251876.xml",
@@ -2517,7 +2795,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2251876:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Shotaku_Tei_Dosh_Unpo_zan_shi_early_rubbing_of_Z_rubbing_JPStokyomuseumcolectionedot.xml",
@@ -2535,7 +2815,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Shuiniushan_Ma_ju_r_Praj_stele_rubbing_HV3293441.xml",
@@ -2553,7 +2835,9 @@
   "surrogate_of": "SNS_stele",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3293441:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Tai_Jingshiyu_Diamond_rubbing.xml",
@@ -2571,7 +2855,9 @@
   "surrogate_of": "JSY_Diamond",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3942697:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Takuhon_Gi_Tei_Doshvo_zenhi_narabini_Rikucho_hi__rubbing_CBcolbase113819tnmTB229key.xml",
@@ -2589,7 +2875,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Tei_Dosh_daikoku_kyushu_nine_cliff_inscriptions__rubbing_JPSdaitoR100000118I00000089.xml",
@@ -2607,7 +2895,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Tei_Gi_gehi_Lower_Stele_of_Zheng_Xi_rubbing_JPSdaitoR100000118IDAITOD00.xml",
@@ -2625,7 +2915,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Tenchuzan_Tokan_sekishitsu_mei_chodo_Unhozan_dai_rubbing_JPSdaitoR100000118I00000055.xml",
@@ -2643,7 +2935,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Tianzhu_shan_inscription_rubbing_HV2371150.xml",
@@ -2661,7 +2955,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2371150:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Tianzhu_shan_inscription_rubbing_HV41749884.xml",
@@ -2679,7 +2975,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:41749884:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Unho_zan_Tei_Dosh_daiji_Mount_Yunfeng_inscribed__rubbing_JPSdaitoR100000118I00000055.xml",
@@ -2697,7 +2995,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Unho_zan_kankai_shi_full_IIIF_rubbing_volume_rubbing_JPSdignl1187089.xml",
@@ -2715,7 +3015,9 @@
   "surrogate_of": "",
   "provider_label": "Japan Search (ジャパンサーチ) — national aggregator — record",
   "manifest": "https://dl.ndl.go.jp/api/iiif/1187089/manifest.json",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yanta_Shengjiao_xu_rubbing_HV2480946.xml",
@@ -2733,7 +3035,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2480946:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yi_Ying_bei_rubbing.xml",
@@ -2751,7 +3055,9 @@
   "surrogate_of": "Yi_Ying_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2362470:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yi_Ying_bei_rubbing_HV2371668.xml",
@@ -2769,7 +3075,9 @@
   "surrogate_of": "Yi_Ying_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2371668:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yishan_bei_rubbing_HV4516899.xml",
@@ -2787,7 +3095,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:4516899:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yunfeng_shan_cliff_inscription_Lun_jing_shu_shi_rubbing_UCB244384.xml",
@@ -2805,7 +3115,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244384/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yunfeng_shan_cliff_inscription_Lun_jing_shu_shi_rubbing_UCB244401.xml",
@@ -2823,7 +3135,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244401/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yunfeng_shan_cliff_inscription_Lun_jing_shu_shi_rubbing_UCB244436.xml",
@@ -2841,7 +3155,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244436/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yunfeng_shan_cliff_inscription_rubbing_HV1479029.xml",
@@ -2859,7 +3175,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:1479029:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Yunfeng_shan_cliff_inscription_rubbing_HV1885364.xml",
@@ -2877,7 +3195,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:1885364:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zhang_Menglong_bei_rubbing.xml",
@@ -2895,7 +3215,9 @@
   "surrogate_of": "Zhang_Menglong_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2062975:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zhang_Menglong_bei_rubbing_HV2092162.xml",
@@ -2913,7 +3235,9 @@
   "surrogate_of": "Zhang_Menglong_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2092162:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zhang_Menglong_bei_rubbing_HV3353929.xml",
@@ -2931,7 +3255,9 @@
   "surrogate_of": "Zhang_Menglong_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3353929:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zhang_Menglong_bei_rubbing_HV3353930.xml",
@@ -2949,7 +3275,9 @@
   "surrogate_of": "Zhang_Menglong_bei",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3353930:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Daozhao_inscription_rubbing_HV2138683.xml",
@@ -2967,7 +3295,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2138683:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Daozhao_inscription_rubbing_HV2138685.xml",
@@ -2985,7 +3315,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2138685:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Daozhao_inscription_rubbing_HV3710258.xml",
@@ -3003,7 +3335,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:3710258:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Shuzu_Fuzi_miao_bei_rubbing_UCB244798.xml",
@@ -3021,7 +3355,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244798/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Shuzu_Taiji_shan_shi_ren_ti_zi_rubbing_UCB244561.xml",
@@ -3039,7 +3375,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244561/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Shuzu_Tianzhu_shan_ming_e_rubbing_UCB244548.xml",
@@ -3057,7 +3395,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244548/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Shuzu_Tianzhu_shan_ming_rubbing_UCB244549.xml",
@@ -3075,7 +3415,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244549/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Shuzu_Yunju_guan_shan_men_ti_zi_rubbing_UCB244556.xml",
@@ -3093,7 +3435,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244556/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Shuzu_chong_deng_Yunfeng_shan_ji_rubbing_UCB244544.xml",
@@ -3111,7 +3455,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244544/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Wengong_bei_rubbing_HV2084895.xml",
@@ -3129,7 +3475,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://nrs.harvard.edu/URN-3:FHCL:2084895:MANIFEST:3",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Wengong_inscription_rubbing_IMA45749.xml",
@@ -3147,7 +3495,9 @@
   "surrogate_of": "",
   "provider_label": "Indianapolis Museum of Art at Newfields — collection record",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Xi_bei_shi_wen_rubbing_UCB244605.xml",
@@ -3165,7 +3515,9 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244605/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  },
  {
   "name": "Zheng_Xi_shang_bei_rubbing_UCB244378.xml",
@@ -3183,6 +3535,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://digicoll.lib.berkeley.edu/record/244378/export/iiif_manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "inscription",
+  "bearer": ""
  }
 ]

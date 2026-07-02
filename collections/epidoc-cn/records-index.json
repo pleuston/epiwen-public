@@ -2,8 +2,8 @@
  {
   "name": "CLS_1.xml",
   "file": "CLS_1.xml",
-  "record_type": "object",
-  "title_en": "Passage of 98 Characters from the Sutra on the Great Perfection of\n          Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff",
+  "record_type": "inscription",
+  "title_en": "Passage of 98 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff",
   "title_zh": "映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文",
   "editor": "",
   "when": "0570",
@@ -24,13 +24,15 @@
     "sutra": "映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Yingfoyan_object.xml"
  },
  {
   "name": "CLS_10.xml",
   "file": "CLS_10.xml",
-  "record_type": "object",
-  "title_en": "“Buddha King of Great Emptiness”, Formerly on the Boulder near\n          Guanghua Monastery",
+  "record_type": "inscription",
+  "title_en": "“Buddha King of Great Emptiness”, Formerly on the Boulder near Guanghua Monastery",
   "title_zh": "光化寺舊存“大空王佛”刻銘",
   "editor": "",
   "when": "0570",
@@ -51,7 +53,9 @@
     "sutra": "大空王佛",
     "sutra_en": "Buddha King of Great Emptiness"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_10_object.xml"
  },
  {
   "name": "CLS_10_object.xml",
@@ -69,12 +73,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "CLS_2.xml",
   "file": "CLS_2.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "“Perfection of Wisdom” on Radiant Buddha Cliff",
   "title_zh": "映佛巖“般若波羅蜜”刻銘",
   "editor": "",
@@ -96,12 +101,14 @@
     "sutra": "映佛巖“般若波羅蜜”刻銘",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Yingfoyan_object.xml"
  },
  {
   "name": "CLS_3.xml",
   "file": "CLS_3.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Colophon by Wang Zichun on Radiant Buddha Cliff",
   "title_zh": "映佛巖王子椿題名",
   "editor": "",
@@ -123,12 +130,14 @@
     "sutra": "映佛巖王子椿題名",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Yingfoyan_object.xml"
  },
  {
   "name": "CLS_4.xml",
   "file": "CLS_4.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Colophon by Puxi and Others on Radiant Buddha Cliff",
   "title_zh": "映佛巖普憘等題名",
   "editor": "",
@@ -150,13 +159,15 @@
     "sutra": "映佛巖普憘等題名",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Yingfoyan_object.xml"
  },
  {
   "name": "CLS_5.xml",
   "file": "CLS_5.xml",
-  "record_type": "object",
-  "title_en": "Passage on Seventeen Kinds of Emptiness from the Great Perfection of\n          Wisdom Sutra on the Boulder near Guanghua Monastery",
+  "record_type": "inscription",
+  "title_en": "Passage on Seventeen Kinds of Emptiness from the Great Perfection of Wisdom Sutra on the Boulder near Guanghua Monastery",
   "title_zh": "光化寺《摩訶般若波羅蜜經》十七空節文",
   "editor": "",
   "when": "0570",
@@ -177,12 +188,14 @@
     "sutra": "光化寺《摩訶般若波羅蜜經》十七空節文",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Guanghuasi_stone.xml"
  },
  {
   "name": "CLS_6.xml",
   "file": "CLS_6.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Colophon by Wang Zichun and Others on the Boulder near Guanghua Monastery",
   "title_zh": "光化寺刻石王子椿等題名",
   "editor": "",
@@ -204,12 +217,14 @@
     "sutra": "光化寺刻石王子椿等題名",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Guanghuasi_stone.xml"
  },
  {
   "name": "CLS_7.xml",
   "file": "CLS_7.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Colophon by Wang Shigui on the Boulder near Guanghua Monastery",
   "title_zh": "光化寺刻石王世貴題名",
   "editor": "",
@@ -231,12 +246,14 @@
     "sutra": "光化寺刻石王世貴題名",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Guanghuasi_stone.xml"
  },
  {
   "name": "CLS_8.xml",
   "file": "CLS_8.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Colophon by Hu Bin with a Date on the Boulder near Guanghua Monastery",
   "title_zh": "光化寺刻石胡賓題名",
   "editor": "",
@@ -258,12 +275,14 @@
     "sutra": "光化寺刻石胡賓題名",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_Guanghuasi_stone.xml"
  },
  {
   "name": "CLS_9.1.xml",
   "file": "CLS_9.1.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "“Buddha Perceiver of the World’s Sounds” on the Boulder at Guanghua Monastery",
   "title_zh": "光化寺“觀世音佛”刻銘",
   "editor": "",
@@ -285,12 +304,14 @@
     "sutra": "觀世音佛",
     "sutra_en": "Buddha Perceiver of the World’s Sounds (Avalokitêśvara)"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_9_object.xml"
  },
  {
   "name": "CLS_9.2.xml",
   "file": "CLS_9.2.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "“Buddha Amitābha” on the Boulder at Guanghua Monastery",
   "title_zh": "光化寺“阿彌陀佛”刻銘",
   "editor": "",
@@ -312,12 +333,14 @@
     "sutra": "阿彌陀佛",
     "sutra_en": "Buddha Amitābha"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_9_object.xml"
  },
  {
   "name": "CLS_9.3.xml",
   "file": "CLS_9.3.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "“Buddha Maitreya” on the Boulder at Guanghua Monastery",
   "title_zh": "光化寺“弥勒佛”刻銘",
   "editor": "",
@@ -339,7 +362,9 @@
     "sutra": "弥勒佛",
     "sutra_en": "Buddha Maitreya"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "CLS_9_object.xml"
  },
  {
   "name": "CLS_9_object.xml",
@@ -357,7 +382,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "CLS_Guanghuasi_stone.xml",
@@ -375,7 +401,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "CLS_Yingfoyan_object.xml",
@@ -393,12 +420,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "CLS_site.xml",
   "file": "CLS_site.xml",
-  "record_type": "object",
+  "record_type": "site",
   "title_en": "Mount Culai (site)",
   "title_zh": "徂徠山",
   "editor": "",
@@ -411,12 +439,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "site"
  },
  {
   "name": "HDS_9.1.xml",
   "file": "HDS_9.1.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "“Buddha Śikhin”",
   "title_zh": "“式佛”",
   "editor": "",
@@ -438,7 +467,9 @@
     "sutra": "式佛",
     "sutra_en": "Buddha Śikhin"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "HDS_9_object.xml"
  },
  {
   "name": "HDS_9_object.xml",
@@ -456,12 +487,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "HDS_site.xml",
   "file": "HDS_site.xml",
-  "record_type": "object",
+  "record_type": "site",
   "title_en": "Mount Hongding (site)",
   "title_zh": "洪頂山",
   "editor": "",
@@ -474,12 +506,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "site"
  },
  {
   "name": "LQS_LouRui_1.xml",
   "file": "LQS_LouRui_1.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Bodhisattva Mingnan chapter of the Buddhāvataṃsaka-sūtra",
   "title_zh": "大方廣佛華嚴經菩薩明難品",
   "editor": "",
@@ -501,7 +534,9 @@
     "sutra": "大方廣佛華嚴經菩薩明難品",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "LQS_LouRui_stele.xml"
  },
  {
   "name": "LQS_LouRui_stele.xml",
@@ -519,12 +554,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3939/manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "LQS_Miaoji_1.xml",
   "file": "LQS_Miaoji_1.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Excerpted gāthās from the eight assemblies of the Huayan Sutra and the Virtuous Conduct chapter of the Sutra of Immeasurable Meanings",
   "title_zh": "《華嚴經》八會偈文及《無量義經》〈德行品〉節錄",
   "editor": "",
@@ -546,7 +582,9 @@
     "sutra": "《華嚴經》八會偈文及《無量義經》〈德行品〉節錄",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "LQS_Miaoji_stele.xml"
  },
  {
   "name": "LQS_Miaoji_stele.xml",
@@ -564,12 +602,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3941/manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "LQS_site.xml",
   "file": "LQS_site.xml",
-  "record_type": "object",
+  "record_type": "site",
   "title_en": "Lingquan Monastery (site)",
   "title_zh": "靈泉寺",
   "editor": "",
@@ -582,13 +621,14 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "site"
  },
  {
   "name": "SNS_1.xml",
   "file": "SNS_1.xml",
-  "record_type": "object",
-  "title_en": "Passage of 52 Characters from the Sutra on the Great Perfection of\n          Wisdom Spoken by Mañjuśrī",
+  "record_type": "inscription",
+  "title_en": "Passage of 52 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī",
   "title_zh": "《文殊師利所説摩訶般若波羅蜜經》五十二字節文",
   "editor": "",
   "when": "0558",
@@ -607,9 +647,11 @@
     "subtype": "",
     "lang": "lzh",
     "sutra": "《文殊師利所説摩訶般若波羅蜜經》五十二字節文",
-    "sutra_en": "Passage of 52 Characters from the Sutra on the Great Perfection\n                of Wisdom Spoken by Mañjuśrī"
+    "sutra_en": "Passage of 52 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "SNS_1_object.xml"
  },
  {
   "name": "SNS_1_object.xml",
@@ -627,13 +669,14 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "SNS_2.xml",
   "file": "SNS_2.xml",
-  "record_type": "object",
-  "title_en": "Stele from Mount Shuiniu with a Passage on the Correct Law from the\n          Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī",
+  "record_type": "inscription",
+  "title_en": "Stele from Mount Shuiniu with a Passage on the Correct Law from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī",
   "title_zh": "水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文",
   "editor": "",
   "when": "0558",
@@ -654,12 +697,14 @@
     "sutra": "水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "SNS_stele.xml"
  },
  {
   "name": "SNS_3.xml",
   "file": "SNS_3.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Colophon on the Narrow Sides of the Stele from Mount Shuiniu",
   "title_zh": "水牛山《文殊師利所説般若波羅蜜經》碑側題記",
   "editor": "",
@@ -681,12 +726,14 @@
     "sutra": "水牛山《文殊師利所説般若波羅蜜經》碑側題記",
     "sutra_en": ""
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "SNS_stele.xml"
  },
  {
   "name": "SNS_site.xml",
   "file": "SNS_site.xml",
-  "record_type": "object",
+  "record_type": "site",
   "title_en": "Mount Shuiniu (site)",
   "title_zh": "水牛山",
   "editor": "",
@@ -699,7 +746,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "site"
  },
  {
   "name": "SNS_stele.xml",
@@ -717,7 +765,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "WFY_33_cave.xml",
@@ -735,12 +784,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "WFY_33_d_e_Consecration.xml",
   "file": "WFY_33_d_e_Consecration.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Consecration Sutra",
   "title_zh": "灌頂經",
   "editor": "",
@@ -762,12 +812,14 @@
     "sutra": "灌頂經（卷十一）",
     "sutra_en": "Consecration Sutra, juan 11"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "WFY_33_cave.xml"
  },
  {
   "name": "WFY_33_d_e_Consecration_12.xml",
   "file": "WFY_33_d_e_Consecration_12.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Consecration Sutra",
   "title_zh": "灌頂經",
   "editor": "",
@@ -789,12 +841,14 @@
     "sutra": "灌頂經（卷十二）",
     "sutra_en": "Consecration Sutra, juan 12"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "WFY_33_cave.xml"
  },
  {
   "name": "WFY_33_f_Diamond.xml",
   "file": "WFY_33_f_Diamond.xml",
-  "record_type": "object",
+  "record_type": "inscription",
   "title_en": "Diamond Sutra",
   "title_zh": "金剛經",
   "editor": "",
@@ -816,12 +870,14 @@
     "sutra": "金剛經",
     "sutra_en": "Diamond Sutra"
    }
-  ]
+  ],
+  "cn_kind": "inscription",
+  "bearer": "WFY_33_cave.xml"
  },
  {
   "name": "WFY_site.xml",
   "file": "WFY_site.xml",
-  "record_type": "object",
+  "record_type": "site",
   "title_en": "Wofoyuan — Grove of the Reclining Buddha (site)",
   "title_zh": "臥佛院",
   "editor": "",
@@ -834,7 +890,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "site"
  },
  {
   "name": "XNH_east_cave.xml",
@@ -852,7 +909,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3223/manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "XNH_middle_cave.xml",
@@ -870,12 +928,13 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/974/manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  },
  {
   "name": "XNH_site.xml",
   "file": "XNH_site.xml",
-  "record_type": "object",
+  "record_type": "site",
   "title_en": "Xiaonanhai Grottoes (site)",
   "title_zh": "小南海石窟",
   "editor": "",
@@ -888,7 +947,8 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": []
+  "parts": [],
+  "cn_kind": "site"
  },
  {
   "name": "XNH_west_cave.xml",
@@ -906,6 +966,7 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3227/manifest",
-  "parts": []
+  "parts": [],
+  "cn_kind": "objectfile"
  }
 ]
