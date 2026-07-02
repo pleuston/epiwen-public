@@ -128,8 +128,8 @@
   "volume": "",
   "catalog_file": "CLS_site.xml",
   "inscriptions": [],
-  "has_description": false,
-  "prose_file": "",
+  "has_description": true,
+  "prose_file": "CLS_description.xml",
   "seq": 1
  },
  {
@@ -153,7 +153,7 @@
  },
  {
   "id": "CLS_1",
-  "title_en": "Passage of 98 Characters from the Sutra on the Great Perfection of\n                Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff",
+  "title_en": "Passage of 98 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff",
   "title_zh": "映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文",
   "subtype": "",
   "province_en": "",
@@ -248,7 +248,7 @@
  },
  {
   "id": "CLS_5",
-  "title_en": "Passage on Seventeen Kinds of Emptiness from the Great Perfection\n                of Wisdom Sutra on the Boulder near Guanghua Monastery",
+  "title_en": "Passage on Seventeen Kinds of Emptiness from the Great Perfection of Wisdom Sutra on the Boulder near Guanghua Monastery",
   "title_zh": "光化寺《摩訶般若波羅蜜經》十七空節文",
   "subtype": "",
   "province_en": "",
