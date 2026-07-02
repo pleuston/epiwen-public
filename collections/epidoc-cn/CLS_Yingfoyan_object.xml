@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- OBJECT file — 映佛巖 Radiant Buddha Cliff (E25 feature): ONE large boulder bearing FOUR
-     texts distributed over one continuous vertical face (all surfaces azimuth 211°, slope 0°,
-     zenith 90°). The minted-moya counterpart to the SNS_1 fold: here the object node is minted
-     because cardinality is 1 : 4. No face anchors — the surface is continuous; each inscription's
-     msDesc/@corresp targets this object directly, position carried per text (field dims +
-     orientation + per-text GPS in the inscription files). -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_Yingfoyan_object">
   <teiHeader>
     <fileDesc>
@@ -18,10 +12,12 @@
         <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>assembled from <ptr target="sutras:catalog/CLS_1.xml"/>,
+        <bibl>
+          assembled from <ptr target="sutras:catalog/CLS_1.xml"/>,
           <ptr target="sutras:catalog/CLS_2.xml"/>, <ptr target="sutras:catalog/CLS_3.xml"/>,
           <ptr target="sutras:catalog/CLS_4.xml"/> — four per-text records naming the same
-          bearer 映佛巖 in their titles; no upstream object record exists.</bibl>
+          bearer 映佛巖 in their titles; no upstream object record exists.
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -36,7 +32,6 @@
     <body>
       <listObject>
         <object xml:id="CLS_Yingfoyan" type="boulder" ana="crm:E25_Human-Made_Feature">
-
           <objectIdentifier>
             <country xml:lang="zh">中國</country>
             <region xml:lang="zh">山東省</region>
@@ -44,18 +39,12 @@
             <objectName xml:lang="en">Radiant Buddha Cliff</objectName>
             <idno type="support">CLS_Yingfoyan</idno>
           </objectIdentifier>
-
           <msContents>
-            <summary xml:lang="en">Four texts of one 570 CE programme on one continuous face: the
-              98-character sutra excerpt (CLS_1), the engraved title "般若波羅蜜" (CLS_2), and two
-              donor colophons (CLS_3 by Wang Zichun 王子椿, the patron named as producer of CLS_1;
-              CLS_4 by Puxi 普憘 and others, carrying the date 武平元年). The colophons comment on
-              the sutra text they accompany.</summary>
+            <summary xml:lang="en">Four texts of one 570 CE programme on one continuous face: the 98-character sutra excerpt (CLS_1), the engraved title "般若波羅蜜" (CLS_2), and two donor colophons (CLS_3 by Wang Zichun 王子椿, the patron named as producer of CLS_1; CLS_4 by Puxi 普憘 and others, carrying the date 武平元年). The colophons comment on the sutra text they accompany.</summary>
             <msItem n="1" corresp="CLS_1.xml">
               <locus target="#CLS_Yingfoyan"/>
               <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
-              <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of
-                Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
+              <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
               <note type="text-genre">節文 sutra excerpt</note>
               <textLang mainLang="lzh"/>
             </msItem>
@@ -81,7 +70,6 @@
               <textLang mainLang="lzh"/>
             </msItem>
           </msContents>
-
           <physDesc>
             <objectDesc form="boulder">
               <supportDesc>
@@ -94,36 +82,35 @@
                     <term xml:lang="zh">淡色花崗岩</term>
                     <term xml:lang="en">leucogranite</term>
                   </material>
-                  <!-- whole-boulder dimensions: not recorded upstream — the four script fields are
-                       dimensioned per text in the inscription files {whole-object measurement:
-                       from fieldwork/publication at a later pass} -->
                 </support>
               </supportDesc>
               <layoutDesc>
                 <layout>
-                  <p xml:lang="en">One continuous near-vertical face (azimuth 211°, slope 0°,
-                    zenith 90° on all four upstream location records). The horizontal sutra field
-                    (130 × 313 cm, CLS_1) dominates; the single-column title engraving
-                    (124 × 26 cm, CLS_2) and the two colophon fields (136 × 78 cm, CLS_3;
-                    102 × 85 cm, CLS_4) are placed beside it — per-text GPS points in the
-                    inscription files differ only in the metre range.</p>
+                  <p xml:lang="en">One continuous near-vertical face (azimuth 211°, slope 0°, zenith 90° on all four upstream location records). The horizontal sutra field (130 × 313 cm, CLS_1) dominates; the single-column title engraving (124 × 26 cm, CLS_2) and the two colophon fields (136 × 78 cm, CLS_3; 102 × 85 cm, CLS_4) are placed beside it — per-text GPS points in the inscription files differ only in the metre range.</p>
                 </layout>
               </layoutDesc>
             </objectDesc>
+            <decoDesc>
+              <decoNote ana="#decor.none">
+                <p xml:lang="zh">無</p>
+                <p xml:lang="en">none (attested absent)</p>
+                <note type="source">c:decor of the upstream per-text records (CLS_1–CLS_4), verbatim 無 — décor is object-level per the division rule.</note>
+              </decoNote>
+            </decoDesc>
           </physDesc>
-
           <history>
             <origin>
               <origDate when="0570">武平元年 (570)</origDate>
-              <note type="date-source">the upstream date records of CLS_1–3 give the year as
+              <note type="date-source">
+                the upstream date records of CLS_1–3 give the year as
                 c:given source="CLS_4, CLS_8" — the date is carried by the colophons; CLS_4's own
-                record marks 武平元年 as c:original (in-text date).</note>
+                record marks 武平元年 as c:original (in-text date).
+              </note>
               <origPlace>
                 <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
               </origPlace>
             </origin>
           </history>
-
         </object>
       </listObject>
     </body>

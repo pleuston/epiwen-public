@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_10 “大空王佛”, on a LOST stone. A thin object node
-     (CLS_10_object.xml, carrying the stone-level lost-status + provenance) is MINTED for
-     structural uniformity; @corresp points to it. This file keeps the per-record data:
-     condition 佚失 (upstream verbatim), technique 未知 (unknown — unrecoverable from the
-     witnesses), and the script-field dimensions taken FROM the rubbing (witness-primacy). -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_10">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title xml:lang="zh">光化寺舊存“大空王佛”刻銘</title>
-        <title xml:lang="en">“Buddha King of Great Emptiness”, Formerly on the Boulder near
-          Guanghua Monastery</title>
+        <title xml:lang="en">“Buddha King of Great Emptiness”, Formerly on the Boulder near Guanghua Monastery</title>
       </titleStmt>
       <publicationStmt>
         <authority>Epiwen / EpiDoc-CN profile — sample</authority>
@@ -29,8 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">The Buddha name 大空王佛, four monumental characters in one
-              column, on a stone formerly near Guanghua Monastery, now lost.</summary>
+            <summary xml:lang="en">The Buddha name 大空王佛, four monumental characters in one column, on a stone formerly near Guanghua Monastery, now lost.</summary>
             <msItem>
               <title xml:lang="zh">大空王佛</title>
               <title xml:lang="en">Buddha King of Great Emptiness</title>
@@ -41,18 +34,15 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <!-- material: not recorded upstream on this record — absent -->
                   <dimensions type="field" unit="cm">
                     <height unit="cm">105</height>
                     <width unit="cm">35</width>
                   </dimensions>
-                  <note type="dimensions-source">105 × 35 equals the sheet size of rubbing A
+                  <note type="dimensions-source">
+                    105 × 35 equals the sheet size of rubbing A
                     (中國國家圖書館: 高105釐米，寬35釐米) — for a lost stone the measurement is OF
-                    THE WITNESS (witness-primacy).</note>
+                    THE WITNESS (witness-primacy).
+                  </note>
                 </support>
                 <condition ana="#condition.lost">
                   <p xml:lang="zh">佚失</p>
@@ -60,16 +50,16 @@
                 </condition>
               </supportDesc>
               <layoutDesc>
-                <layout columns="1" writtenLines="4" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                <layout columns="1" ruledLines="0" writtenLines="4">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.unknown">
+                  <rs ana="#execution.unknown" type="execution">
                     <term xml:lang="zh">未知</term>
                     <term xml:lang="en">unknown</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -92,7 +82,6 @@
                 <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
               </origPlace>
             </origin>
-            <!-- provenance (the stone's loss) is object-level → on CLS_10_object.xml -->
           </history>
         </msDesc>
         <listWit>
@@ -115,11 +104,14 @@
               <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
               <extent>96 × 22 cm</extent>
               <note xml:lang="zh">C：徂徠山8號拓本。臺北國家圖書館藏品。高96釐米，寬22釐米。</note>
-              <note type="discrepancy">upstream zh note says 徂徠山8號拓本 while the en note says
-                "Rubbing of CLS 10" — both preserved verbatim, unreconciled (wart list).</note>
+              <note type="discrepancy">
+                upstream zh note says 徂徠山8號拓本 while the en note says
+                "Rubbing of CLS 10" — both preserved verbatim, unreconciled (wart list).
+              </note>
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_10.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -138,8 +130,14 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_10.xml"/></ab>
+        <listWit>
+    <witness xml:id="DL"><bibl><ptr target="Dailan_b"/> 4: 481</bibl></witness>
+    <witness xml:id="Taitu"><bibl><ptr target="Taishantuzhi"/> 5: 215</bibl></witness>
+    <witness xml:id="R"><bibl><ptr target="CLS_9.4"/></bibl></witness>
+  </listWit>
+  <ab><lb n="1"/><persName key="bl0002" type="Buddha">大空王佛</persName></ab>
       </div>
+      <div type="translation" xml:lang="en"><p><lb n="1"/><persName key="bg10002" type="Buddha">Buddha King of Great Emptiness</persName></p></div>
     </body>
   </text>
 </TEI>

@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — SNS_3, the donor colophon running over BOTH narrow sides of the stele:
-     the one-text-across-two-faces case, expressed by the space-separated MULTI-TARGET @corresp
-     to both face anchors. The upstream subcolumn scheme (a1, a2 on side a; b1–b4 on side b)
-     is kept in the layout prose. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_3">
   <teiHeader>
     <fileDesc>
@@ -27,9 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Donor colophon (題記) naming the sponsors, continuing across both
-              narrow sides of the stele; 127 glyph positions recorded upstream (82 measured) in
-              subcolumns a1–a2 and b1–b4.</summary>
+            <summary xml:lang="en">Donor colophon (題記) naming the sponsors, continuing across both narrow sides of the stele; 127 glyph positions recorded upstream (82 measured) in subcolumns a1–a2 and b1–b4.</summary>
             <msItem>
               <title xml:lang="zh">水牛山《文殊師利所説般若波羅蜜經》碑側題記</title>
               <textLang mainLang="lzh"/>
@@ -39,20 +33,14 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
-                    <term xml:lang="zh">碑</term>
-                    <term xml:lang="en">stele</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母花崗岩</term>
-                    <term xml:lang="en">biotite granite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">202</height>
                     <width unit="cm">34</width>
                   </dimensions>
-                  <note type="source-dimensions">upstream c:dimensions carries type="manual"
-                    (verbatim attribute).</note>
+                  <note type="source-dimensions">
+                    upstream c:dimensions carries type="manual"
+                    (verbatim attribute).
+                  </note>
                 </support>
                 <condition ana="#condition.poor">
                   <p xml:lang="zh">劣</p>
@@ -61,31 +49,28 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="6" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.u-cut">
+                  <rs ana="#execution.u-cut" type="execution">
                     <term xml:lang="zh">“U”形刻法</term>
                     <term xml:lang="en">U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.polished">
+                  <rs ana="#polishing.polished" type="polishing">
                     <term xml:lang="zh">有</term>
                     <term xml:lang="en">yes</term>
                   </rs>
-                  <p xml:lang="en">The upstream glyph grid uses subcolumns a1, a2 (narrow side a)
-                    and b1, b2, b3, b4 (narrow side b) — six written columns distributed over the
-                    two faces targeted by @corresp.</p>
+                  <p xml:lang="en">The upstream glyph grid uses subcolumns a1, a2 (narrow side a) and b1, b2, b3, b4 (narrow side b) — six written columns distributed over the two faces targeted by @corresp.</p>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
               <handNote scope="sole">
-                <!-- upstream c:script is empty — no script class asserted -->
                 <dimensions type="letterHeight" unit="cm">
                   <height unit="cm" atLeast="1.5" atMost="5.5">1.5–5.5</height>
                 </dimensions>
@@ -112,12 +97,15 @@
             <bibl>
               <orgName role="repository" xml:lang="zh">山東省石刻藝術博物館</orgName>
               <note xml:lang="zh">B：水牛山2號和１號拓片。山東省石刻藝術博物館藏品。刊於《文殊般若經碑》第1－32頁；賴非第57－58頁。</note>
-              <note type="discrepancy">upstream zh says 水牛山2號和１號 ("SNS 2 and SNS 1"); the en
+              <note type="discrepancy">
+                upstream zh says 水牛山2號和１號 ("SNS 2 and SNS 1"); the en
                 note (on this record) says "Rubbing of SNS 2 and SNS 3" — both preserved verbatim,
-                unreconciled (same wart as on SNS_2's witness B).</note>
+                unreconciled (same wart as on SNS_2's witness B).
+              </note>
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Shuiniushan/SNS_3.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -136,13 +124,52 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Shuiniushan/SNS_3.xml"/></ab>
+        <listWit>
+    <witness xml:id="LF1"><bibl><ptr target="LaiFei2007"/> 168</bibl></witness>
+    <witness xml:id="LF2"><bibl><ptr target="LaiFei2007"/> 169</bibl></witness>
+  </listWit>
+  <ab><seg n="SNS_3_a" rend="rl"><lb n="1"/><g ref="U+26007" rend="standard">經</g>主<placeName key="dh0061" type="monastery">白石寺</placeName>比丘<damage>□□、□□</damage>，
+                        <space extent="2"/>仙
+                        <damage><supplied>郞</supplied>□□</damage><persName key="rh0360"><surname><g>髙</g></surname><foreName><g>万</g>太</foreName></persName>，<space extent="2"/><placeName key="dh0062" type="monastery">石窟寺</placeName><persName key="rh0199" type="monk"><addName type="clerical">法<g>嵩</g></addName></persName>。<space extent="4"/>邑人<persName key="rh0200"><placeName key="d00594">兗州</placeName><roleName type="civil">主<g>簿</g></roleName><surname>羊</surname><foreName>穆</foreName></persName>，<space extent="2"/>邑人<persName key="rh0201"><surname>羊</surname><foreName><g>釋</g>子</foreName></persName>。
+
+                        <lb n="2"/><persName key="rh0197"><addName type="donor"><g ref="U+26007" rend="standard">經</g>主</addName><roleName type="military">厲威<g>將</g>軍</roleName>、<roleName type="civil"><placeName key="d00594">兗州</placeName><placeName key="dh0086">東<g>陽</g>平</placeName>太守</roleName>、<roleName type="civil"><placeName key="Dh0087">
+                                    義州</placeName><placeName key="dh0088">五城
+                                </placeName>上郡太守</roleName><placeName key="d01587"><g>太</g>山</placeName><surname>羊</surname><foreName>鍾</foreName></persName>。<space extent="1"/><persName key="rh0361"><roleName type="civil">郡功曹</roleName><surname>束</surname><foreName>市貴</foreName></persName>。
+                        邑人
+                        <persName key="rh0363"><roleName type="civil">奉朝請</roleName><surname>羊</surname><foreName><g>善</g></foreName></persName>，<space extent="2"/>
+                        邑人<persName key="rh0364"><surname>羊</surname><foreName>萬<g>歳</g></foreName></persName>。 </seg></ab><ab><seg n="SNS_3_b" rend="rl"><lb n="1"/><persName type="monk" key="rh0366"><placeName key="dh0061" type="monastery">白石寺</placeName><roleName type="monk">沙門都</roleName>
+                            明建
+                        </persName>、比丘<space extent="1"/><damage>□□</damage>、
+                        <space extent="2"/>比丘<g>僧</g>
+                        □、比丘□了
+                        、
+                        <supplied>比</supplied>丘<damage extent="unknown"/><damage>□□， □□□□□</damage>宋許□，
+                        <persName key="rh0365"><roleName type="civil">郡中正</roleName><surname>束</surname><foreName>扈姜</foreName></persName>，□□
+                        □□□□□□□□束遠□……
+                        <lb n="2"/><placeName key="dh0063" type="monastery"><g>龍</g>華寺</placeName><persName type="monk" key="rh0367"><damage>曇</damage><g>超</g></persName>，<space extent="1"/><persName key="Rh0368"><surname>束</surname><foreName>靈<g>珎</g></foreName></persName>寺□□，
+                        <space extent="2"/>大<space extent="3"/><damage>□□□□□□□□</damage>，中和寺<damage>□□□□</damage>，
+                        □□束□□□，
+                            <persName key="rh0369"><roleName type="civil">郡中正</roleName><surname>束</surname><foreName><g ref="U+2950A" rend="variant">願</g></foreName></persName>，
+                        <space extent="3"/><persName key="rh0370"><roleName type="civil">郡功曹</roleName><surname>束</surname><foreName>□<damage>□</damage></foreName></persName>……
+                        <lb n="3"/><persName key="rh0371"><roleName type="clerical">都維<g>那</g></roleName><surname><g>桒</g></surname><foreName><g>眀</g>逹</foreName></persName>，
+                        <space extent="1"/><persName key="Rh0372"><roleName type="clerical">都維<g>那</g></roleName><surname><supplied>束</supplied></surname></persName><damage>□□□□□□□□□□</damage>……
+                        <lb n="4"/>都維<g>那</g><damage>□□</damage>……
+                        <damage extent="unknown"/></seg></ab>
       </div>
       <div type="commentary">
         <p xml:lang="en">The donor names on the narrow sides identify five individuals; one bearer
           of the surname Yang 羊 is possibly connected to Yang Lie 羊烈, governor of Yangping
           陽平 (558–561) — see the upstream discussion references.</p>
       </div>
+      <div type="translation" xml:lang="en"><p>
+                    Sutra Donors, Monk (<hi rend="italic"><foreign xml:lang="sa">bhikṣu</foreign></hi>) […][…] and  […][…] from Baishi Monastery;
+                    the Reclusive [...],<note>His title may have been Reclusive Gentleman (<hi rend="italic">xianlang </hi><foreign xml:lang="zh">仙郞</foreign>).</note> Gao Wan­tai from […][…];<note>The two missing characters may have been a place name.</note>
+                    Fasong from Shiku Monastery.
+                    The association member, Yang Mu, Recorder of Yan­zhou; the association member Yang Shizi, son of <foreign xml:lang="sa">Śākya</foreign>.</p><p>Sutra Donor Yang Zhong from Mount Tai, General Formidable and Powerful,<note>This title is mentioned several times in the <hi rend="italic">History of the Northern Dynasties</hi> (<hi rend="italic">Beishi </hi><foreign xml:lang="zh">北史</foreign>).</note> Governor of East Yang­ping, Yan­zhou, and Governor of the upper Commandery of Wucheng in Yizhou.<note>Yizhou was established under the Northern Wei dynasty. The seat of this prefecture was located in today’s Weihui <foreign xml:lang="zh">衛輝</foreign> in Henan Province, about 240 km to the west of Mount Shuiniu. According to <ref type="biblio" target="Weishu1974">7: 2486–2487</ref>, it was subdivided into seven commanderies and nineteen counties. The Commandery of Wucheng was established in 547, the fifth year of the <hi rend="italic">wuding</hi> era of the Eastern Wei dynasty.</note>
+                    Shu Shigui of the Commandery Personal Evaluation Section.
+                    The association member, Audience Attendant,<note>According to <ref type="biblio" target="Hucker1985">212</ref>, an “official designation of numerous low-ranking members of the Department of Scholarly Counselors.”</note> Yang Shan.
+                    The association member Yang Wansui. </p><p>The Superintendent of Monks,<note>The Superintendent of Monks (<hi rend="italic">shamen du</hi><foreign xml:lang="zh">沙門都</foreign>) is subordinated to General Superintendent of Monks (<hi rend="italic">shamen tong</hi><foreign xml:lang="zh">沙門統</foreign>). Both are supervised by the Great General Superintendent of Monks (<hi rend="italic">da shamen tong</hi><foreign xml:lang="zh">大沙門統</foreign>), the highest administrative position in the state. For more details see <ref type="biblio" target="XieChongguang2009">51–86</ref>.</note> Mingjian, Monk (<hi rend="italic"><foreign xml:lang="sa">bhikṣu</foreign></hi>) […][…], Monk (<hi rend="italic"><foreign xml:lang="sa">bhikṣu</foreign></hi>) Seng[…], Monk (<hi rend="italic"><foreign xml:lang="sa">bhikṣu</foreign></hi>) […]liao, and Monk (<hi rend="italic"><foreign xml:lang="sa">bhikṣu</foreign></hi>) […][…] from Baishi Monastery.
+                    […][…][…][…][…] Song Xu[…]. Commandery Rectifier, Shu Hujiang. […][…][…][…][…][…][…][…][…][…] Shu Yuan[…] ...</p><p>Tanchao of Longhua Monastery. […][…] from Shu Lingzhen Monastery. Great […][…][…][… ][…][…][…][…]. […][…] […][…] […][…] from Zhonghe Monastery. Commandery Rectifier, Shu Yuan. Shu […][…] of the Commandery Personal Evaluation Section. </p><p>Great Chief Overseer, Sang Mingda. Great Chief Overseer, Shu […][…][…][…][…][…][…][…][…][…]. Great Chief Overseer, […][…] ...</p></div>
     </body>
   </text>
 </TEI>

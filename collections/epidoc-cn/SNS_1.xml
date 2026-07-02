@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — SNS_1: a single-text moya. The model's fold rule would let this record
-     stand alone, but a thin object node (SNS_1_object.xml) is MINTED for structural uniformity
-     (the app traverses site → object → inscription for every bearer); @corresp points to it,
-     and idno[@type="support"] = the object id (SNS_1). Also demonstrated here: the four-witness
-     listWit (rubbings in four named collections) and the two-track glyph-metrics link
-     (SNS_1_glyphs.csv). -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_1">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title xml:lang="zh">《文殊師利所説摩訶般若波羅蜜經》五十二字節文</title>
-        <title xml:lang="en">Passage of 52 Characters from the Sutra on the Great Perfection of
-          Wisdom Spoken by Mañjuśrī</title>
+        <title xml:lang="en">Passage of 52 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī</title>
       </titleStmt>
       <publicationStmt>
         <authority>Epiwen / EpiDoc-CN profile — sample</authority>
@@ -30,12 +23,10 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">A 52-character excerpt of the Mañjuśrī Prajñāpāramitā sutra on an
-              open moya surface of Mount Shuiniu, 52 characters in six columns.</summary>
+            <summary xml:lang="en">A 52-character excerpt of the Mañjuśrī Prajñāpāramitā sutra on an open moya surface of Mount Shuiniu, 52 characters in six columns.</summary>
             <msItem>
               <title xml:lang="zh">《文殊師利所説摩訶般若波羅蜜經》五十二字節文</title>
-              <title xml:lang="en">Passage of 52 Characters from the Sutra on the Great Perfection
-                of Wisdom Spoken by Mañjuśrī</title>
+              <title xml:lang="en">Passage of 52 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī</title>
               <textLang mainLang="lzh"/>
             </msItem>
           </msContents>
@@ -43,20 +34,14 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母花崗岩</term>
-                    <term xml:lang="en">biotite granite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">234</height>
                     <width unit="cm">171</width>
                   </dimensions>
-                  <note type="orientation">azimuth 208°, slope 3°, zenith 87° (upstream c:location,
-                    verbatim); GPS 116.663442, 35.770431, h 99.8 (EPSG:4326, lon-lat verbatim)</note>
+                  <note type="orientation">
+                    azimuth 208°, slope 3°, zenith 87° (upstream c:location,
+                    verbatim); GPS 116.663442, 35.770431, h 99.8 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.excellent">
                   <p xml:lang="zh">除起首二字，保存狀况極佳</p>
@@ -65,19 +50,19 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="6" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut">
+                  <rs ana="#execution.v-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法</term>
                     <term xml:lang="en">V-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -86,18 +71,13 @@
             </objectDesc>
             <handDesc>
               <handNote scope="sole">
-                <!-- upstream c:script is empty — no script class asserted (never invent) -->
-                <p xml:lang="en">52 characters in six columns; 51 glyphs individually measured
-                  upstream (the title counts 52 carved characters — one glyph carries no
-                  measurements; see the linked dataset).</p>
+                <p xml:lang="en">52 characters in six columns; 51 glyphs individually measured upstream (the title counts 52 carved characters — one glyph carries no measurements; see the linked dataset).</p>
                 <dimensions type="letterHeight" unit="cm">
                   <height unit="cm" atLeast="14" atMost="28">14–28</height>
                 </dimensions>
-                <!-- two-track split: the per-glyph metric array is a LINKED dataset, not TEI -->
                 <ptr type="glyph-metrics" target="SNS_1_glyphs.csv"/>
               </handNote>
             </handDesc>
-            <!-- décor (upstream: 無) is object-level → on SNS_1_object.xml (division rule) -->
           </physDesc>
           <history>
             <origin>
@@ -108,12 +88,13 @@
             </origin>
           </history>
         </msDesc>
-        <!-- E-WIT: rubbings as first-class witnesses, each with its holding collection -->
         <listWit>
           <witness xml:id="SNS_1_rub_A" n="A" ana="#witness.rubbing">
             <bibl>
-              <rs type="witness-type" ana="#witness.rubbing"><term xml:lang="zh">拓本</term>
-                <term xml:lang="en">rubbing</term></rs>
+              <rs type="witness-type" ana="#witness.rubbing">
+                <term xml:lang="zh">拓本</term>
+                <term xml:lang="en">rubbing</term>
+              </rs>
               <date when="1998">made 1998</date>
               <orgName role="repository" xml:lang="zh">山東省石刻藝術博物館</orgName>
               <placeName xml:lang="en">Jinan</placeName>
@@ -139,12 +120,15 @@
               <placeName xml:lang="en">Taibei</placeName>
               <extent>2 sheets: 257 × 86 cm; 251 × 101 cm</extent>
               <idno type="accession">12496-1, 12496-2</idno>
-              <note type="discrepancy">upstream zh note gives 編號 12496-1和12496-2; the en note
+              <note type="discrepancy">
+                upstream zh note gives 編號 12496-1和12496-2; the en note
                 gives "Accession numbers 102496-1 and 102496-2" — both preserved verbatim,
-                unreconciled.</note>
+                unreconciled.
+              </note>
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Shuiniushan/SNS_1.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -163,12 +147,40 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Shuiniushan/SNS_1.xml"/></ab>
+        <listWit>
+    <witness xml:id="T_232_1"><bibl><ptr target="T_232"/> 728a26</bibl></witness>
+    <witness xml:id="T_310"><bibl><ptr target="T_310_46"/> 652b16</bibl></witness>
+    <witness xml:id="R1"><bibl><ptr target="BJTSG1989_91"/> 8: 87</bibl></witness>
+    <witness xml:id="R2"><bibl><ptr target="SNS_1.JPG"/></bibl></witness>
+    <witness xml:id="Sun"><bibl><ptr target="Shandongjinshizhi"/> 第9252頁</bibl></witness>
+  </listWit>
+  <ab>
+                    <lb n="01"/>
+                    <lb n=" T08n0232_0728a26" ed="T"/>
+                    <app>
+                        <lem/>
+                        <rdg type="textcritical" wit="T_232_1 T_310">“復次</rdg>
+                    </app>
+                    <persName key="rh0001" reg="Sariputra" type="disciple of Buddha" xml:id="zh-a1" corresp="en-a1">
+                        <supplied source="R1 Sun">舍</supplied>利弗</persName>！汝問：‘云何名<term ref="DFB10724">佛</term>？<lb n="02"/> 云何<term ref="DFB31466">觀佛</term>者？’<term ref="DFB04896">
+                        <g>不</g>
+                        <lb n=" T08n0232_0728a27" ed="T"/>生</term>、<g>不</g>
+                    <term ref="DFB24470">滅</term>， <lb n="03"/>
+                    <term ref="DFB05000">
+                        <g>不</g>來、<g>不</g>去</term>，非<term ref="DFB09526">名</term>、非<term ref="DFB16497">相</term>，是 <lb n="04"/> 名<g>爲</g>佛。如自<lb n=" T08n0232_0728a28" ed="T"/>觀身<term ref="DFB26846">實相</term>， <lb n="05"/> 觀佛亦<g rend="variant">然</g>。<g>唯</g>有智者，乃 <lb n="06"/>
+                    <g rend="variant">能</g>
+                    <g rend="variant">知</g>耳，是<lb n=" T08n0232_0728a29" ed="T"/>名觀佛。” </ab>
       </div>
+      <div type="translation" xml:lang="en"><p>“<persName corresp="zh-a2" key="rh0001" type="disciple of Buddha" xml:id="en-a2">
+                        <foreign xml:lang="sa">Śāriputra</foreign>
+                    </persName>, you ask, what is
+                    it that is named the Buddha? How does one contemplate the Buddha? Not produced,
+                    not extinguished; not come, not gone; not a name, not an attribute—this is
+                    called the Buddha. As one contemplates the real attributes of one’s body, just
+                    so one contemplates the Buddha. Only those with wisdom can understand this. This
+                    is named contemplating the Buddha.” </p></div>
       <div type="bibliography">
-        <listBibl>
-          <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>728a26–29</citedRange></bibl>
-        </listBibl>
+        <listBibl><bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>728a26–29</citedRange></bibl></listBibl>
       </div>
     </body>
   </text>

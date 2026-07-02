@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_1: the 98-character sutra excerpt of 570 CE on 映佛巖 (Radiant Buddha
-     Cliff). THIN physDesc: the object is minted (CLS_Yingfoyan_object.xml) because the boulder
-     bears four texts; @corresp targets the boulder directly (anchor-less idiom — one continuous
-     face). Witness list: seven rubbings in six collections, incl. a joint mounting with CLS_4. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_1">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
-        <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of
-          Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
+        <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
       </titleStmt>
       <publicationStmt>
         <authority>Epiwen / EpiDoc-CN profile — sample</authority>
@@ -28,9 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">The 98-character Mañjuśrī Prajñāpāramitā excerpt, the principal
-              text of the 映佛巖 programme; patron Wang Zichun 王子椿 (named upstream as producer;
-              his colophon is CLS_3).</summary>
+            <summary xml:lang="en">The 98-character Mañjuśrī Prajñāpāramitā excerpt, the principal text of the 映佛巖 programme; patron Wang Zichun 王子椿 (named upstream as producer; his colophon is CLS_3).</summary>
             <msItem>
               <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
               <textLang mainLang="lzh"/>
@@ -40,20 +33,14 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">淡色花崗岩</term>
-                    <term xml:lang="en">leucogranite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">130</height>
                     <width unit="cm">313</width>
                   </dimensions>
-                  <note type="orientation">azimuth 211°, slope 0°, zenith 90° (upstream c:location,
-                    verbatim); GPS 117.393807, 36.011144, h 314.6 (EPSG:4326, lon-lat verbatim)</note>
+                  <note type="orientation">
+                    azimuth 211°, slope 0°, zenith 90° (upstream c:location,
+                    verbatim); GPS 117.393807, 36.011144, h 314.6 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好，左側幾字漶漫</p>
@@ -62,30 +49,31 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="14" ruledLines="0">
-                  <rs type="shape" ana="#shape.horizontal-rectangle">
+                  <rs ana="#shape.horizontal-rectangle" type="shape">
                     <term xml:lang="zh">横長方形</term>
                     <term xml:lang="en">horizontal rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V- and rectangular U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <note type="columns-source">the upstream glyph grid spans columns 1–14
-                    (98 glyph positions, 88 measured).</note>
+                  <note type="columns-source">
+                    the upstream glyph grid spans columns 1–14
+                    (98 glyph positions, 88 measured).
+                  </note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
               <handNote scope="sole">
-                <!-- upstream c:script is empty — no script class asserted -->
                 <dimensions type="letterHeight" unit="cm">
                   <height unit="cm" atLeast="8" atMost="25">8–25</height>
                 </dimensions>
@@ -95,8 +83,10 @@
           <history>
             <origin>
               <origDate when="0570">武平元年 (570)</origDate>
-              <note type="date-source">upstream c:given source="CLS_4, CLS_8" — the year is carried
-                by the dated colophons of the programme.</note>
+              <note type="date-source">
+                upstream c:given source="CLS_4, CLS_8" — the year is carried
+                by the dated colophons of the programme.
+              </note>
               <origPlace>
                 <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
               </origPlace>
@@ -134,8 +124,10 @@
             <bibl>
               <orgName role="repository" xml:lang="en">Private collection, Japan</orgName>
               <note xml:lang="zh">E：徂徠山1號及4號拓本一並裝裱。日本私人藏品。刊於《未来への贈りもの》第28－29頁。</note>
-              <note type="coverage">a joint mounting of the rubbings of CLS_1 AND CLS_4 — one
-                witness object covering two texts of the boulder.</note>
+              <note type="coverage">
+                a joint mounting of the rubbings of CLS_1 AND CLS_4 — one
+                witness object covering two texts of the boulder.
+              </note>
             </bibl>
           </witness>
           <witness xml:id="CLS_1_rub_F" n="F" ana="#witness.rubbing">
@@ -151,6 +143,7 @@
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_1.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -169,8 +162,127 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_1.xml"/></ab>
+        <listWit>
+    <witness xml:id="T_232"><bibl><ptr target="T_232"/> 731a15–21</bibl></witness>
+    <witness xml:id="T_232_1"><bibl><ptr target="T_232"/> 731a15</bibl></witness>
+    <witness xml:id="T_232_2"><bibl><ptr target="T_232"/> 731
+                            註2</bibl></witness>
+    <witness xml:id="T_232_3"><bibl><ptr target="T_232"/> 731a18</bibl></witness>
+    <witness xml:id="T_232_4"><bibl><ptr target="T_232"/> 731
+                            註3</bibl></witness>
+    <witness xml:id="T_232_5"><bibl><ptr target="T_232"/> 731a19</bibl></witness>
+    <witness xml:id="T_232_6"><bibl><ptr target="T_232"/> 731
+                            註4</bibl></witness>
+    <witness xml:id="T_233"><bibl><ptr target="T_233"/> 738a19–24</bibl></witness>
+    <witness xml:id="T_233_1"><bibl><ptr target="T_233"/> 738a19</bibl></witness>
+    <witness xml:id="T_233_2"><bibl><ptr target="T_233"/> 738a23</bibl></witness>
+    <witness xml:id="T_233_3"><bibl><ptr target="T_233"/> 738a22</bibl></witness>
+    <witness xml:id="R1"><bibl><ptr target="CLS_1.jpg"/></bibl></witness>
+    <witness xml:id="R2"><bibl><ptr target="BJTSG1989"/> 8:
+                        72</bibl></witness>
+  </listWit>
+  <ab>
+                    <lb n="01"/>
+                    <lb n="T08n0232_0731a15" ed="T"/>
+                    <persName corresp="en-a1" key="rh0007" reg="Manjusri" type="Bodhisattva" xml:id="zh-a1">
+                        <app>
+                            <lem wit="T_232_1 R1 R2"> 文<g rend="variant">殊</g>
+                                <g rend="variant">師</g>利</lem>
+                            <rdg wit="T_232_1" type="textcritical">文殊師利</rdg>
+                            <rdg wit="T_233_1" type="textcritical">文殊</rdg>
+                        </app>
+                    </persName>白<persName corresp="en-a2" key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="zh-a2">佛</persName>言：“<lb n="02"/>
+                    <persName corresp="en-a3" key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="zh-a3">
+                        <addName corresp="en-a4" type="honorific" xml:id="zh-a4">世<g rend="variant">尊</g>
+                        </addName>
+                    </persName>！何 <app>
+                        <lem wit="R1 R2 T_233_1 T_232_2"/>
+                        <rdg wit="T_232_1" type="textcritical">以</rdg>
+                    </app> 故名<term ref="DFB18363">
+                        <g rend="variant">般</g>
+                        <lb n="T08n0232_0731a16" ed="T"/>若<lb n="03"/>波<g rend="variant">羅</g>
+                        <g>蜜</g>
+                    </term>？”<persName corresp="en-a5" key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="zh-a5">佛</persName>言：“<g rend="variant">般</g>若<lb n="04"/>波<g rend="variant">羅</g>
+                    <g>蜜</g>
+                    <term ref="DFB22333">
+                        <g>無</g>
+                        <g rend="variant">邊</g>
+                    </term>、<term ref="DFB22241">
+                        <g>無</g>
+                        <g>際</g>
+                    </term>，<lb n="05"/>
+                    <g>無</g>
+                    <term ref="DFB09526">名</term>、<lb n="T08n0232_0731a17" ed="T"/>
+                    <term ref="DFB22004">
+                        <g>無</g>相</term>，非思<supplied>量</supplied>
+                    <ptr target="note_zh_1"/>、<lb n="06"/>
+                    <g>無</g>
+                    <g/>
+                    <term ref="DFB29662">
+                        <g rend="variant">歸</g>依</term>、<g>無</g>
+                    <term ref="DFB16865">洲渚</term>，<g>無</g>
+                    <lb n="07"/>犯、<g>無</g>
+                    <g rend="variant">福</g>，<g>無</g>晦、<lb n="T08n0232_0731a18" ed="T"/>
+                    <g>無</g>
+                    <g>朙</g>， <lb n="08"/>
+                    <app>
+                        <lem wit="R1 R2 T_233_3 T_232_4">如</lem>
+                        <rdg wit="T_232_3" type="textcritical">猶如</rdg>
+                    </app>
+                    <term ref="DFB13303">法<g rend="variant">界</g>
+                    </term>
+                    <g>無</g>有<supplied>分齊，
+                        </supplied>
+                    <lb n="09"/>亦<g>無</g>限數，<supplied>是</supplied>名<supplied>般</supplied>
+                    <lb n="10"/>
+                    <lb n="T08n0232_0731a19" ed="T"/>若波羅<supplied>蜜</supplied>，亦名<term ref="DFB21478">菩<lb n="11"/>
+                        <g rend="variant">薩</g>摩訶<supplied>薩</supplied>
+                    </term>行 <supplied>處。非</supplied>
+                    <lb n="12"/>
+                    <app>
+                        <lem wit="R1 T_232_6 T_233_2">行</lem>
+                        <rdg wit="T_232_5" type="textcritical">處</rdg>
+                    </app>、非不<lb n="T08n0232_0731a20" ed="T"/>
+                    <supplied>行</supplied>處，<supplied>悉</supplied>入<ptr target="note_zh_3"/>
+                    <lb n="13"/>
+                    <term ref="DFB00292">
+                        <supplied>壹乗，</supplied>
+                    </term>
+                    <supplied>名</supplied>非行<supplied>處</supplied>。何<lb n="14"/>
+                    <supplied>以</supplied>故？<term ref="DFB21996">
+                        <supplied>無</supplied>
+                        <g rend="variant">念</g>
+                    </term>
+                    <term ref="DFB21912">
+                        <supplied>無</supplied>
+                        <g>作</g>
+                    </term>
+                    <lb n="T08n0232_0731a21" ed="T"/>故。”</ab>
       </div>
+      <div type="translation" xml:lang="en"><p>
+                    <persName key="rh0007" reg="Manjusri" type="Bodhisattva" xml:id="en-a7" corresp="zh-a7">
+                        <foreign xml:lang="sa">Mañjuśrī</foreign>
+                    </persName>
+                    addressed the <persName corresp="zh-a8" xml:id="en-a8" key="bg0004" reg="Sakyamuni" type="Buddha">Buddha</persName>, saying: “<persName key="bg0004" reg="Sakyamuni" type="Buddha" corresp="zh-a9" xml:id="en-a9">
+                        <addName type="honorific" xml:id="en-a10" corresp="zh-a10">World-Honored One</addName>
+                    </persName>, why is it named <hi rend="italic">
+                        <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                    </hi>?” The
+                        <persName key="bg0004" reg="Sakyamuni" type="Buddha" corresp="zh-a11" xml:id="en-a11">Buddha</persName> said: “<hi rend="italic">
+                        <foreign xml:lang="sa">Prajñāpāramitā</foreign>
+                    </hi> is without boundary, without
+                    bourn; without name, without attributes; inconceivable, without refuge, without
+                        sandbank;<ptr target="note_en_1"/> without sin, without merit; without
+                    obscurity, without illumination.<ptr target="note_en_2"/> Like the Realm of the
+                    Law, it is without demarcation and also limitless in number. This is named <hi rend="italic">
+                        <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                    </hi>. It is
+                    also named the Site of Bodhisattva-<foreign xml:lang="sa">Mahāsattva</foreign>
+                        Practice.<ptr target="note_en_3"/> Since it is neither a site of practice
+                    nor of non-practice—all [Sites of Bodhisattva-<foreign xml:lang="sa">Mahāsattva</foreign> Practice] belonging to the One Vehicle—it is named the
+                    Site of Non-Practice. Why is this? Because it is unthought and
+                        unconditioned.”<ptr target="note_en_4"/>
+                </p></div>
       <div type="bibliography">
         <listBibl>
           <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>731a15–21</citedRange></bibl>

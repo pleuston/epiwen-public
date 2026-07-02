@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_6: colophon of Wang Zichun and others on the SW face of the
-     Guanghuasi boulder. THIN physDesc; witnesses at object level. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_6">
   <teiHeader>
     <fileDesc>
@@ -35,20 +33,14 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母角閃石花崗岩</term>
-                    <term xml:lang="en">biotite-hornblende granite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">75</height>
                     <width unit="cm">56</width>
                   </dimensions>
-                  <note type="orientation">azimuth 216°, slope 14°, zenith 76° (upstream, verbatim);
-                    GPS 117.388165, 36.015349, h 237.1 (EPSG:4326, lon-lat verbatim)</note>
+                  <note type="orientation">
+                    azimuth 216°, slope 14°, zenith 76° (upstream, verbatim);
+                    GPS 117.388165, 36.015349, h 237.1 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好</p>
@@ -57,19 +49,19 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="5" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -93,7 +85,7 @@
             </origin>
           </history>
         </msDesc>
-        <!-- witnesses: object-level ensemble rubbings in CLS_Guanghuasi_stone.xml -->
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_6.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -112,8 +104,22 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_6.xml"/></ab>
+        <listWit>
+    <witness xml:id="LF1"><bibl><ptr target="Wang_Lai1991b"/> 414</bibl></witness>
+    <witness xml:id="LF2"><bibl><ptr target="LaiFei2000a"/> 275</bibl></witness>
+    <witness xml:id="An"><bibl><ptr target="AnTingshan1997"/> 38</bibl></witness>
+    <witness xml:id="KN"><bibl><ptr target="Kanda_Nishikawa1972a"/> 65</bibl></witness>
+    <witness xml:id="Lu"><bibl><ptr target="Baqiongshijinshibuzheng"/> 4342</bibl></witness>
+    <witness xml:id="Tokiwa"><bibl><ptr target="Tokiwa1923"/> 96</bibl></witness>
+    <witness xml:id="R"><bibl><ptr target="CLS_5_6_7.jpg"/></bibl></witness>
+  </listWit>
+  <ab><lb n="1"/><persName key="rh0148"><roleName type="military">冠軍<g rend="variant">將</g>軍</roleName><roleName type="civil"><placeName key="d03707"><g>梁</g>父<g rend="variant">縣</g></placeName><lb n="2"/>令</roleName><surname>王</surname><foreName><g rend="variant">子</g>椿</foreName></persName><g>造</g>。
+                    椿<ptr target="note_zh_1"/><lb n="3"/>息<persName key="rh0149"><g>道</g>昇</persName><persName key="rh0150"><foreName><g>道</g>昂</foreName></persName><lb n="4"/><persName key="rh0151"><foreName><g>道</g>昱</foreName></persName><persName key="rh0152"><foreName><g>道</g><choice><unclear cert="0.4">怐</unclear><unclear cert="0.3" resp="KN LF1">恂</unclear><unclear cert="0.2" resp="An">柯</unclear><unclear cert="0.1" resp="LF2">□</unclear></choice></foreName></persName><lb n="5"/><persName key="rh0153" type="monk"><addName type="clerical"><g>僧</g>真</addName></persName><choice><unclear resp="An" cert="0.7">共</unclear><unclear resp="LF2" cert="0.3">□</unclear></choice>造。</ab>
       </div>
+      <div type="translation" xml:lang="en"><p>
+                Made by Wang Zichun, General Commanding the Troops, County Magistrate of Liangfu.
+                Made together by his sons, Daosheng, Dao’ang, Daoyu, Daokou(?) and Sengzhen.
+            </p></div>
     </body>
   </text>
 </TEI>

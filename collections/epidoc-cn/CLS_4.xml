@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_4: the colophon of Puxi 普憘 and others on 映佛巖, carrying the date
-     武平元年 IN ITS TEXT (upstream marks it c:original — this colophon dates the whole programme). -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_4">
   <teiHeader>
     <fileDesc>
@@ -25,8 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Dated donor colophon (武平元年 in the text); 15 glyphs in four
-              columns.</summary>
+            <summary xml:lang="en">Dated donor colophon (武平元年 in the text); 15 glyphs in four columns.</summary>
             <msItem>
               <title xml:lang="zh">映佛巖普憘等題名</title>
               <textLang mainLang="lzh"/>
@@ -36,20 +33,14 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">淡色花崗岩</term>
-                    <term xml:lang="en">leucogranite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">102</height>
                     <width unit="cm">85</width>
                   </dimensions>
-                  <note type="orientation">azimuth 211°, slope 0°, zenith 90° (upstream, verbatim);
-                    GPS 117.393829, 36.011146, h 316.4 (EPSG:4326, lon-lat verbatim)</note>
+                  <note type="orientation">
+                    azimuth 211°, slope 0°, zenith 90° (upstream, verbatim);
+                    GPS 117.393829, 36.011146, h 316.4 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好，其中一字殘損</p>
@@ -58,19 +49,19 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="4" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -88,9 +79,11 @@
           <history>
             <origin>
               <origDate when="0570" evidence="internal-date">武平元年 (570)</origDate>
-              <note type="date-source">upstream marks 武平元年 as c:original on this record —
+              <note type="date-source">
+                upstream marks 武平元年 as c:original on this record —
                 the date stands IN this colophon's text and dates the whole 映佛巖 programme
-                (CLS_1–4).</note>
+                (CLS_1–4).
+              </note>
               <origPlace>
                 <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
               </origPlace>
@@ -114,8 +107,10 @@
             <bibl>
               <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
               <note xml:lang="zh">C：徂徠山4號拓本。臺北國家圖書館藏品。高90釐米，寬102釐米。</note>
-              <note type="discrepancy">upstream zh gives 高90釐米，寬102釐米 while the en note gives
-                "Height: 102 cm, width: 90 cm" (axes swapped) — both preserved verbatim.</note>
+              <note type="discrepancy">
+                upstream zh gives 高90釐米，寬102釐米 while the en note gives
+                "Height: 102 cm, width: 90 cm" (axes swapped) — both preserved verbatim.
+              </note>
             </bibl>
           </witness>
           <witness xml:id="CLS_4_rub_D" n="D" ana="#witness.rubbing">
@@ -145,6 +140,7 @@
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_4.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -163,8 +159,58 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_4.xml"/></ab>
+        <listWit>
+    <witness xml:id="An"><bibl><ptr target="AnTingshan1997"/> 39</bibl></witness>
+    <witness xml:id="LF"><bibl><ptr target="LaiFei2000a"/> 274</bibl></witness>
+    <witness xml:id="_RuanYuan"><bibl><ptr target="Shanzuojinshizhi"/> 14478</bibl></witness>
+    <witness xml:id="WangChang"><bibl><ptr target="Jinshicuibian"/> 597–598</bibl></witness>
+    <witness xml:id="TangZhongmian"><bibl><ptr target="Dailan_b"/> 4: <hi rend="italic">juan</hi> 22, 482</bibl></witness>
+    <witness xml:id="Feng"><bibl><ptr target="Jinshisuo"/> 4: 755–756</bibl></witness>
+  </listWit>
+  <ab>
+                    <lb n="1"/>
+                    <persName key="rh0155" type="monk">
+                        <addName type="clerical">普
+                            <app>
+                                <lem wit="LF">憘</lem>
+                                <rdg wit="_RuanYuan WangChang" type="interpretative">□</rdg>
+                                <rdg wit="TangZhongmian" type="interpretative">憶</rdg>
+                                <rdg wit="Feng" type="interpretative">達</rdg>
+                                <rdg wit="An" type="interpretative">喜</rdg>
+                            </app>
+                        </addName>
+                    </persName>
+                    <lb n="2"/>
+                    <date value="0570">
+                        <name type="reign title">
+                            <g>武</g>平</name>元<g rend="variant">年</g>
+                    </date>
+                    <lb n="3"/>
+                    <term ref="DFB25581">
+                        <g>僧</g>
+                        <g>齊</g>
+                    </term>
+                    <note type="display" xml:id="note_zh_1">“齊”通“齋”，參閲《康熙字典》，第1531頁“齊”。</note>
+                    <note type="ref" xml:id="note_zh_2">An Tingshan transcribes 游.</note>大<g>眾</g>
+                    <g>造</g>
+                    <lb n="4"/>
+                    <persName key="rh0156" type="monk">
+                        <roleName type="clerical">
+                            <g>維</g>
+                            <g ref="U+28697" rend="variant">那</g>
+                        </roleName>
+                        <addName type="clerical">
+                            <g>慧</g>
+                            <g>逰</g>
+                        </addName>
+                    </persName>
+                </ab>
       </div>
+      <div type="translation" xml:lang="en"><p>
+                    <lb n="1"/>Puxi.
+                <lb n="2"/>First year of the <hi rend="italic">wuping</hi> era [570].
+                    <lb n="3"/>Made by the sangha together with the large assembly.
+                    <lb n="4"/>Overseer Huiyou.</p></div>
     </body>
   </text>
 </TEI>

@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_9.3 “弥勒佛” on the LOST stone (see CLS_9.1 for the pattern).
-     Upstream warts preserved: c:format 從長方形 (從 for 縱); the zh witness note is empty
-     (en only). Note the simplified 弥 in the upstream title — verbatim, never normalised. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_9.3">
   <teiHeader>
     <fileDesc>
@@ -26,8 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Buddha name 弥勒佛, in one column (three name-characters; four
-              glyph positions recorded upstream); the third name-column of the lost stone.</summary>
+            <summary xml:lang="en">Buddha name 弥勒佛, in one column (three name-characters; four glyph positions recorded upstream); the third name-column of the lost stone.</summary>
             <msItem>
               <title xml:lang="zh">弥勒佛</title>
               <title xml:lang="en">Buddha Maitreya</title>
@@ -37,30 +33,21 @@
           <physDesc>
             <objectDesc>
               <supportDesc>
-                <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母– 角閃石 – 花崗岩</term>
-                    <term xml:lang="en">biotite-hornblende granite</term>
-                  </material>
-                  <!-- field dimensions: EMPTY upstream (stone lost) — deliberately absent -->
-                </support>
                 <condition ana="#condition.lost">
                   <p xml:lang="en">stone lost — inherited from the object record (CLS_9: 佚失).</p>
                 </condition>
               </supportDesc>
               <layoutDesc>
                 <layout columns="1" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">從長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <note type="discrepancy">upstream c:format reads 從長方形 — apparently 從 for 縱;
-                    preserved verbatim (wart list).</note>
-                  <rs type="frame" ana="#frame.none">
+                  <note type="discrepancy">
+                    upstream c:format reads 從長方形 — apparently 從 for 縱;
+                    preserved verbatim (wart list).
+                  </note>
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">no</term>
                   </rs>
@@ -86,13 +73,18 @@
           <witness xml:id="CLS_9.3_rub_A" n="A" ana="#witness.rubbing">
             <bibl>
               <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
-              <note xml:lang="en">Rubbing of CLS 9.1, 9.2 and 9.3. The Library of Beijing.
-                Published in 8: 17.</note>
-              <note type="discrepancy">the zh witness note is EMPTY on this upstream record (en
-                only) — preserved as found.</note>
+              <note xml:lang="en">
+                Rubbing of CLS 9.1, 9.2 and 9.3. The Library of Beijing.
+                Published in 8: 17.
+              </note>
+              <note type="discrepancy">
+                the zh witness note is EMPTY on this upstream record (en
+                only) — preserved as found.
+              </note>
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_9.3.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -111,8 +103,14 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_9.3.xml"/></ab>
+        <listWit>
+    <witness xml:id="DL"><bibl><ptr target="Dailan_b"/> Vol.4, p.481</bibl></witness>
+    <witness xml:id="Taitu"><bibl><ptr target="Taishantuzhi"/> Vol.5, p.215</bibl></witness>
+    <witness xml:id="R"><bibl><ptr target="CLS_9.1-3"/></bibl></witness>
+  </listWit>
+  <ab><lb n="1"/><persName key="bg0005" type="Buddha"><g ref="U+223CF" rend="standard">弥</g><g rend="variant">勒</g>佛</persName></ab>
       </div>
+      <div type="translation" xml:lang="en"><p><persName key="bg0005" type="Buddha">Buddha Maitreya</persName></p></div>
     </body>
   </text>
 </TEI>

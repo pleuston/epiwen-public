@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_3: the donor colophon (題名) of Wang Zichun 王子椿, patron of the
-     映佛巖 programme (named as producer on the CLS_1 record). THIN physDesc. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_3">
   <teiHeader>
     <fileDesc>
@@ -25,8 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Donor colophon of Wang Zichun 王子椿, commenting on the sutra
-              excerpt CLS_1; 13 glyphs in two columns.</summary>
+            <summary xml:lang="en">Donor colophon of Wang Zichun 王子椿, commenting on the sutra excerpt CLS_1; 13 glyphs in two columns.</summary>
             <msItem>
               <title xml:lang="zh">映佛巖王子椿題名</title>
               <textLang mainLang="lzh"/>
@@ -36,22 +33,19 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="en">leucogranite</term>
-                  </material>
-                  <note type="discrepancy">the zh label of c:mineral is EMPTY on this record while
+                  <note type="discrepancy">
+                    the zh label of c:mineral is EMPTY on this record while
                     the en label reads "leucogranite" — preserved as found (sibling records carry
-                    淡色花崗岩).</note>
+                    淡色花崗岩).
+                  </note>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">136</height>
                     <width unit="cm">78</width>
                   </dimensions>
-                  <note type="orientation">azimuth 211°, slope 0°, zenith 90° (upstream, verbatim);
-                    GPS 117.393835, 36.011143, h 317.8 (EPSG:4326, lon-lat verbatim)</note>
+                  <note type="orientation">
+                    azimuth 211°, slope 0°, zenith 90° (upstream, verbatim);
+                    GPS 117.393835, 36.011143, h 317.8 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好</p>
@@ -60,19 +54,19 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="2" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -113,8 +107,10 @@
             <bibl>
               <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
               <note xml:lang="zh">C：徂徠山3號拓本。臺北國家圖書館藏品。高86.5釐米，寬55釐米。</note>
-              <note type="discrepancy">upstream zh gives 高86.5釐米 while the en note gives
-                "Height: 141.5 cm" — both preserved verbatim, unreconciled.</note>
+              <note type="discrepancy">
+                upstream zh gives 高86.5釐米 while the en note gives
+                "Height: 141.5 cm" — both preserved verbatim, unreconciled.
+              </note>
             </bibl>
           </witness>
           <witness xml:id="CLS_3_rub_D" n="D" ana="#witness.rubbing">
@@ -145,6 +141,7 @@
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_3.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -163,8 +160,31 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_3.xml"/></ab>
+        <listWit>
+    <witness xml:id="An"><bibl><ptr target="AnTingshan1997"/> 39</bibl></witness>
+    <witness xml:id="LF"><bibl><ptr target="LaiFei2000a"/> 274</bibl></witness>
+  </listWit>
+  <ab>
+                                        <lb n="1"/>
+                                        <persName key="rh0148">
+                                                <roleName type="donor">
+                            <g ref="U+26007" rend="variant">經</g>主</roleName>
+                                                <lb n="2"/>
+                                                <roleName type="military">冠軍<g rend="variant">將</g>軍</roleName>
+                                                <roleName type="civil">
+                            <placeName key="d03707">
+                                <g>梁</g>父<g rend="variant">縣</g>
+                            </placeName>令</roleName>
+                                                <surname>王</surname>
+                                                <foreName>
+                                                  <g rend="variant">子</g>椿
+                                                </foreName>
+                                        </persName>
+                                </ab>
       </div>
+      <div type="translation" xml:lang="en"><p>
+                    <lb n="1"/>Sutra Donor <lb n="2"/>Wang Zichun, General Commanding
+                                        the Troops, County Magistrate of Liangfu.</p></div>
     </body>
   </text>
 </TEI>

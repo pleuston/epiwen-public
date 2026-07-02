@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — SNS_2, the sutra excerpt on the 碑陽 (obverse) of the Shuiniushan stele.
-     THIN physDesc (division rule): script-field dimensions, per-text condition, layout (with the
-     attested frame), execution, hand. @corresp points UP to the face anchor in the object file.
-     Whole-stele description (incl. the lost base/head and the ornamental border) lives in
-     SNS_stele.xml. Witness E is a representation-layer showcase: a rubbing carrying its own
-     dated colophons (魏錫曾 1863, 陸恢 1905). -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_2">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title xml:lang="zh">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
-        <title xml:lang="en">Stele from Mount Shuiniu with a Passage on the Correct Law from the
-          Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī</title>
+        <title xml:lang="en">Stele from Mount Shuiniu with a Passage on the Correct Law from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī</title>
         <title xml:lang="zh" type="engraved">文殊般若</title>
         <title xml:lang="en" type="translated">Mañjuśrī Prajñā</title>
       </titleStmt>
@@ -32,8 +25,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">The sutra excerpt on the polished obverse, with the engraved
-              title 文殊般若; 299 glyphs measured upstream in ten columns.</summary>
+            <summary xml:lang="en">The sutra excerpt on the polished obverse, with the engraved title 文殊般若; 299 glyphs measured upstream in ten columns.</summary>
             <msItem>
               <title xml:lang="zh">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
               <textLang mainLang="lzh"/>
@@ -43,23 +35,19 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
-                    <term xml:lang="zh">碑</term>
-                    <term xml:lang="en">stele</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母花崗岩</term>
-                    <term xml:lang="en">biotite granite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">235</height>
                     <width unit="cm">179</width>
                   </dimensions>
-                  <note type="source-dimensions">the upstream c:dimensions element additionally
+                  <note type="source-dimensions">
+                    the upstream c:dimensions element additionally
                     carries the composite content "233/68/15.2" — read as whole-stele data and
-                    recorded (uninterpreted) on the object file SNS_stele.xml.</note>
-                  <note type="orientation">azimuth 28°, slope 3°, zenith 87° (upstream c:location,
-                    verbatim)</note>
+                    recorded (uninterpreted) on the object file SNS_stele.xml.
+                  </note>
+                  <note type="orientation">
+                    azimuth 28°, slope 3°, zenith 87° (upstream c:location,
+                    verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.slightly-damaged">
                   <p xml:lang="zh">微損</p>
@@ -68,31 +56,32 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="10" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut">
+                  <rs ana="#execution.v-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法</term>
                     <term xml:lang="en">V-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.present">
+                  <rs ana="#frame.present" type="frame">
                     <term xml:lang="zh">有</term>
                     <term xml:lang="en">yes</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.polished">
+                  <rs ana="#polishing.polished" type="polishing">
                     <term xml:lang="zh">有</term>
                     <term xml:lang="en">yes</term>
                   </rs>
-                  <note type="decoration">the text field is enclosed by the finely carved
+                  <note type="decoration">
+                    the text field is enclosed by the finely carved
                     ornamental border described on the object file (decoNote #decor.border,
-                    verbatim from this record's c:decor).</note>
+                    verbatim from this record's c:decor).
+                  </note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
               <handNote scope="sole">
-                <!-- upstream c:script is empty — no script class asserted -->
                 <p xml:lang="en">299 glyphs measured upstream in columns 1–10.</p>
                 <dimensions type="letterHeight" unit="cm">
                   <height unit="cm" atLeast="1" atMost="6">1–6</height>
@@ -120,8 +109,10 @@
             <bibl>
               <orgName role="repository" xml:lang="zh">山東省石刻藝術博物館</orgName>
               <note xml:lang="zh">B：水牛山2號和１號拓片。山東省石刻藝術博物館藏品。刊於《文殊般若經碑》第1－32頁；賴非第57－58頁。</note>
-              <note type="discrepancy">upstream zh says 水牛山2號和１號 ("SNS 2 and SNS 1"); the en
-                note says "Rubbing of SNS 2 and SNS 3" — both preserved verbatim, unreconciled.</note>
+              <note type="discrepancy">
+                upstream zh says 水牛山2號和１號 ("SNS 2 and SNS 1"); the en
+                note says "Rubbing of SNS 2 and SNS 3" — both preserved verbatim, unreconciled.
+              </note>
             </bibl>
           </witness>
           <witness xml:id="SNS_2_rub_C" n="C" ana="#witness.rubbing">
@@ -142,12 +133,15 @@
             <bibl>
               <orgName role="repository" xml:lang="en">Ex collection Uno Sesson 宇野雪村 (1912–1995)</orgName>
               <note xml:lang="zh">E：水牛山2號拓本。整體和每個刻字的局部。清同治二年（1863）魏錫曾（1828－1881）和清光緒三十一年（1905）陸恢（1851－1920）題跋。宇野雪村（1912－1995）舊藏。刊於西川寧和神田喜一郎第46－78頁。</note>
-              <note type="paratexts">this rubbing carries its own dated colophons (題跋) by Wei
+              <note type="paratexts">
+                this rubbing carries its own dated colophons (題跋) by Wei
                 Xizeng 魏錫曾 (1863) and Lu Hui 陸恢 (1905) — a witness bearing texts of its own
-                (representation layer: the rubbing as first-class object).</note>
+                (representation layer: the rubbing as first-class object).
+              </note>
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Shuiniushan/SNS_2.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -166,8 +160,261 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Shuiniushan/SNS_2.xml"/></ab>
+        <listWit>
+    <witness xml:id="T_232_1"><bibl><ptr target="T_232"/> 731a11</bibl></witness>
+    <witness xml:id="T_232_2"><bibl><ptr target="T_232"/> 731a, note 1</bibl></witness>
+    <witness xml:id="T_232_3"><bibl><ptr target="T_232"/> 731a14–15</bibl></witness>
+    <witness xml:id="T_232_4"><bibl><ptr target="T_232"/> 731a15</bibl></witness>
+    <witness xml:id="T_232_5"><bibl><ptr target="T_232"/> 731a, note 2</bibl></witness>
+    <witness xml:id="T_232_6"><bibl><ptr target="T_232"/> 731a18</bibl></witness>
+    <witness xml:id="T_232_7"><bibl><ptr target="T_232"/> 731a, note 3</bibl></witness>
+    <witness xml:id="T_232_8"><bibl><ptr target="T_232"/> 731a19</bibl></witness>
+    <witness xml:id="T_232_9"><bibl><ptr target="T_232"/> 731a, note 4</bibl></witness>
+    <witness xml:id="T_232_10"><bibl><ptr target="T_232"/> 731a7</bibl></witness>
+    <witness xml:id="T_233_1"><bibl><ptr target="T_233"/> 738a8</bibl></witness>
+    <witness xml:id="T_233_2"><bibl><ptr target="T_233"/> 738a18–19</bibl></witness>
+    <witness xml:id="T_233_3"><bibl><ptr target="T_233"/> 738a19</bibl></witness>
+    <witness xml:id="T_233_4"><bibl><ptr target="T_233"/> 738a23</bibl></witness>
+    <witness xml:id="T_233_5"><bibl><ptr target="T_233"/> 738a24</bibl></witness>
+    <witness xml:id="R1"><bibl><ptr target="Noch nicht vergeben"/> our rubbing B</bibl></witness>
+    <witness xml:id="BJTSG"><bibl><ptr target="BJTSG1989_91"/> 8: 85</bibl></witness>
+    <witness xml:id="Sun"><bibl><ptr target="Shandongjinshizhi"/> 2, 12: 9252</bibl></witness>
+    <witness xml:id="S1908_1"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 14:
+                            448b3</bibl></witness>
+    <witness xml:id="S1908_2"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 14:
+                            448b9–10</bibl></witness>
+    <witness xml:id="S1908_3"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 14:
+                            448b12</bibl></witness>
+    <witness xml:id="S1908_4"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 14:
+                            448b15</bibl></witness>
+    <witness xml:id="S1908_5"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 14:
+                            448b6</bibl></witness>
+    <witness xml:id="S2186_1"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 17:
+                            108b3</bibl></witness>
+    <witness xml:id="S2186_2"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 17:
+                            108b8</bibl></witness>
+    <witness xml:id="S2186_3"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 17:
+                            108b12</bibl></witness>
+    <witness xml:id="S2186_4"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 17:
+                            108b14–16</bibl></witness>
+    <witness xml:id="S2653_1"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 22:
+                            5a20</bibl></witness>
+    <witness xml:id="S2653_2"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 22:
+                            5a23</bibl></witness>
+    <witness xml:id="S2653_3"><bibl><ptr target="Dunhuangbaozang1981_1986"/> 22:
+                            5b1</bibl></witness>
+  </listWit>
+  <head rend="up center large">
+                    <lb n="01"/>文<g>殊</g>
+                    <g rend="variant">般</g>若 </head>
+                <div>
+                    <ab>
+                        <lb n="1"/>
+                        <lb n="T08n0232_0731a01" ed="T"/>
+                        <g>尒</g>
+                        <lb n="T08n0232_0731a02" ed="T"/>時，<persName corresp="en-a1" xml:id="zh-a1" key="rh0007" reg="Manjusri" type="Bodhisattva">文<g>殊</g>
+                            <g rend="variant">師</g>利<ptr target="note_zh_4"/>
+                        </persName>白<persName key="bg0004" reg="Sakyamuni" type="Buddha" corresp="en-a2" xml:id="zh-a2">佛</persName>言：“<persName xml:id="zh-a3" corresp="en-a3" key="bg0004" reg="Sakyamuni" type="Buddha">
+                            <addName type="honorific" corresp="en-a4" xml:id="zh-a4">
+                                <g rend="variant">世</g>
+                                <g rend="variant">尊</g>
+                            </addName>
+                        </persName>！我觀<g rend="variant">正</g>
+                        <term ref="DFB13149">法</term>
+                        <term ref="DFB22176">
+                            <g>无</g>
+                            <g rend="variant">爲</g>
+                        </term>、<lb n="T08n0232_0731a03" ed="T"/>
+                        <term ref="DFB22004">
+                            <g>无</g>相</term>，<g>无</g>得、<g>无</g>利，<g>无</g>
+                        <term ref="DFB07851">生</term>、<g>无</g>
+                        <term ref="DFB24470">滅</term>，<g>无</g>
+                        <app>
+                            <lem>
+                                <g>来</g>、</lem>
+                            <rdg wit="T_233_1" type="textcritical">去</rdg>
+                        </app>
+                        <g>无</g>
+                        <lb n="2"/>
+                        <app>
+                            <lem>去，</lem>
+                            <rdg wit="T_233_1" type="textcritical">来</rdg>
+                        </app>
+                        <g>无</g>
+                        <term ref="DFB01603">知者</term>、<lb n="T08n0232_0731a04" ed="T"/>
+                        <g>无</g>
+                        <term ref="DFB10454">見者</term>、<g>无</g>
+                        <term ref="DFB11094">
+                            <g>作</g>者</term>。不見<term ref="DFB18363">
+                            <g rend="variant">般</g>若<g rend="variant">波</g>
+                            <g>羅</g>
+                            <g>蜜</g>
+                        </term>，亦不見<g rend="variant">般</g>
+                        <lb n="T08n0232_0731a05" ed="T"/>若<g rend="variant">波</g>
+                        <g>羅</g>
+                        <g>蜜</g>境
+
+                        <g rend="variant">界</g>。非<term ref="DFB29951">
+                            <g rend="variant">證</g>
+                        </term>、非 <lb n="3"/>不<g rend="variant">證</g>，不<g>作</g>
+                        <term ref="DFB29206">
+                            <g rend="variant">戯</g>論，</term>
+                        <ptr target="note_zh_2"/>
+                        <g>无</g>有<lb n="T08n0232_0731a06" ed="T"/>分别。一<g rend="variant">切</g>法<g>无</g>盡、離盡。<g>无</g>
+                        <term ref="DFB03918">
+                            <g>凡</g>夫</term>法，<g>无</g>
+                        <term ref="DFB28476">
+                            <g rend="variant">聲</g>聞</term>法，<lb n="T08n0232_0731a07" ed="T"/>
+                        <g>无</g>
+                        <term ref="DFB24806">
+                            <g rend="variant">辟</g>
+                            <g>支</g>佛</term>法、 <lb n="4"/>佛法。<ptr target="note_zh_5"/> 非得、非不得，不<g>捨</g>生死，不<lb n="T08n0232_0731a08" ed="T"/>
+                        <g rend="variant">證</g>
+                        <term ref="DFB17830">涅<g rend="variant">槃</g>
+                        </term>。非思<g rend="variant">議</g>、非不思<g rend="variant">議</g>，非<g>作</g>、非不<g>作</g>。<term ref="DFB13281">法相</term>
+                        <lb n="T08n0232_0731a09" ed="T"/>如 <lb n="5"/>是，不知云何當學<g rend="variant">般</g>若<g rend="variant">波</g>
+                        <g>羅</g>
+                        <g>蜜</g>？”<lb n="T08n0232_0731a10" ed="T"/>
+                        <g>尒</g>時<persName key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="zh-a5" corresp="en-a5">佛</persName>告 <persName key="rh0007" reg="Manjusri" type="Bodhisattva" corresp="en-a6" xml:id="zh-a6">文<g>殊</g>
+                            <g rend="variant">師</g>利</persName>：“若<g ref="U+43FB" rend="variant">能</g>如是知諸法相，是<lb n="T08n0232_0731a11" ed="T"/>名<ptr target="note_zh_6"/>
+                        <lb n="6"/> 學<g rend="variant">般</g>若<g rend="variant">波</g>
+                        <g>羅</g>
+                        <g>蜜</g>。<term ref="DFB21478">菩<g rend="variant">薩</g>摩訶<g rend="variant">薩</g>
+                        </term>若欲學<term ref="DFB21391">菩<lb n="T08n0232_0731a12" ed="T"/>提</term>自在<term ref="DFB02407">三昧</term>，得是三昧已，照
+                        <g>眀</g>一<g>切</g>
+                        <g>甚</g>
+                        <lb n="7"/>深佛<lb n="T08n0232_0731a13" ed="T"/>法， 及知一<g rend="variant">切</g>諸佛名字，亦<g ref="U+2263B" rend="standard">悉</g>
+                        <g>了</g>
+                        <g>逹</g>諸佛<g rend="variant">世</g>
+                        <g rend="variant">界</g>。”<ptr target="note_zh_7"/>
+                        <lb n="T08n0232_0731a14" ed="T"/>
+                        <app>
+                            <lem wit="R1"/>
+                            <rdg wit="T_232_3 T_233_2 S1908_2 S2186_4 S2653_3" type="textcritical">無有障礙。當如文殊師利所説般若波羅蜜中學</rdg>
+                        </app>
+                        <lb n="T08n0232_0731a15" ed="T"/>
+                        <persName key="rh0007" reg="Manjusri" type="Bodhisattva" xml:id="zh-a7" corresp="en-a7">文<g>殊</g>
+                            <app>
+                                <lem wit="R1 BJTSG T1">
+                                    <g rend="variant">師</g>利</lem>
+                                <rdg wit="T_233_3" type="textcritical"/>
+                            </app>
+                        </persName>白<persName key="bg0004" reg="Sakyamuni" type="Buddha" corresp="en-a8" xml:id="zh-a8">佛</persName>言：“<persName key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="zh-a9" corresp="en-a9">
+                            <addName type="honorific" corresp="en-a10" xml:id="zh-a10">
+                                <g rend="variant">世</g>
+                                <g rend="variant">尊</g>
+                            </addName>
+                        </persName>！何<app>
+                            <lem wit="R1 BJTSG T_232_5"/>
+                            <rdg wit="T_232_4" type="textcritical">以</rdg>
+                        </app>故 <lb n="8"/>名<g rend="variant">般</g>
+                        <lb n="T08n0232_0731a16" ed="T"/>若<g rend="variant">波</g>
+                        <g>羅</g>
+                        <g>蜜</g>？”<persName key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="zh-a11" corresp="en-a11">佛</persName>言：“<g rend="variant">般</g>若<g rend="variant">波</g>
+                        <g>羅</g>
+                        <g>蜜</g>，<g>无</g>
+                        <g rend="variant">邊</g>、<g>无</g>
+                        <g rend="variant">際</g>、
+
+                        <g>无</g>
+                        <term ref="DFB09526">名</term>、<lb n="T08n0232_0731a17" ed="T"/>
+                        <g>无</g>相，<ptr target="note_zh_8"/> 非思<g ref="U+232B9" rend="standard">量</g>、<ptr target="note_zh_3"/>
+                        <g>无</g>
+                        <term ref="DFB29662">
+                            <g rend="variant">歸</g>依</term>、<g>无</g>
+                        <term ref="DFB16865">洲渚</term>、<lb n="9"/>
+                        <g>无</g>犯、<g>无</g>福，<g>无</g>
+                        <g>晦</g>、<lb n="T08n0232_0731a18" ed="T"/>
+                        <g>无</g>
+                        <g>眀</g>，<app>
+                            <lem wit="R1 BJTSG T_232_7">如</lem>
+                            <rdg wit="T_232_6" type="textcritical">猶如</rdg>
+                        </app>
+                        <term ref="DFB13303">法<g rend="variant">界</g>
+                        </term>
+                        <g>无</g>有分<g>齊</g>，亦<g>无</g>限<g rend="variant">數</g>，是名<g rend="variant">般</g>
+                        <lb n="T08n0232_0731a19" ed="T"/>若<g rend="variant">波</g>
+                        <g>羅</g>
+                        <g>蜜</g>，亦名菩<g rend="variant">薩</g>
+                        <lb n="10"/>摩訶<g rend="variant">薩</g>行<g ref="U+458F" rend="variant">處</g>。非<app>
+                            <lem wit="R1 BJTSG T_232_9 T_233_4">行</lem>
+                            <rdg wit="T_232_8" type="textcritical">處</rdg>
+                        </app>、非不<lb n="T08n0232_0731a20" ed="T"/>行<g ref="U+458F" rend="variant">處</g>，<g ref="U+2263B" rend="standard">悉</g>入<term ref="DFB00292">一<g>乗</g>
+                        </term>，名<ptr target="note_zh_9"/>
+                            非行<g ref="U+458F" rend="variant">處</g>。何以故？<term ref="DFB21996">
+                            <g>无</g>
+                            <g rend="variant">念</g>
+                        </term>
+                        <term ref="DFB21912">
+                            <g>无</g>
+                            <g>作</g>
+                        </term>
+                        <lb n="T08n0232_0731a21" ed="T"/>故。”<ptr target="note_zh_10"/>
+                    </ab>
+                </div>
       </div>
+      <div type="translation" xml:lang="en"><head rend="larger">
+                    <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign>
+                </head>
+                <div>
+                    <p>At that time, <persName xml:id="en-a1" corresp="zh-a1" key="rh0007" reg="Manjusri" type="Bodhisattva">
+                            <foreign xml:lang="sa">Mañjuśrī</foreign>
+                        </persName> addressed the <persName key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="en-a2" corresp="zh-a2">Buddha</persName>, and said: “<persName xml:id="en-a3" corresp="zh-a3" key="bg0004" reg="Sakyamuni" type="Buddha">
+                            <addName type="honorific" corresp="zh-a4" xml:id="en-a4">World-Honored
+                            One</addName>
+                        </persName>, I regard the Correct Law as unconditioned, as
+                        without attributes, as unobtainable, as without benefit, as unproduced, as
+                        unextinguished, as without coming or going, as without knower, as without
+                        viewer, as without doer. I do not see <hi rend="italic">
+                            <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                        </hi> [Perfection of Wisdom]
+                        nor do I see the perceptual sphere of <hi rend="italic">
+                            <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                        </hi>. It is neither
+                        confirmation nor disconfirmation, it does not engage in frivolous discourse,
+                        it is without differentiation. The Law in its entirety is inexhaustible, it
+                        transcends exhaustibility. It is without the law of ordinary people, without
+                        the law of Voice-Hearers,<ptr target="note_en_1"/> without the law of
+                            Pratyeka-Buddhas<ptr target="note_en_2"/> or the law of Buddhas. It is
+                        neither obtainable nor unobtainable. It does not relinquish life and death
+                        and does not confirm nirvana. It is neither conceivable nor inconceivable,
+                        neither conditioned nor unconditioned. If the attributes of the Law are like
+                        this, I do not know how one should study <hi rend="italic">
+                            <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                        </hi>.” At that time the
+                            <persName key="bg0004" reg="Sakyamuni" type="Buddha" xml:id="en-a5" corresp="zh-a5">Buddha</persName> told <persName key="rh0007" reg="Manjusri" type="Bodhisattva" corresp="zh-a6" xml:id="en-a6">
+                            <foreign xml:lang="sa">Mañjuśrī</foreign>
+                        </persName>, “If one can
+                        in this way know the attributes of the Law, this is named studying <hi rend="italic">
+                            <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                        </hi>. If
+                        the <foreign xml:lang="sa">bodhisattva-mahāsattva</foreign> wishes to study
+                        the Samadhi [absorption] of Bodhi [enlightenment]-Sovereignty, then, after
+                        attaining this samadhi, he illuminates all exceedingly deep Buddha laws, and
+                        knows without exception all Buddha names, and furthermore thoroughly fathoms
+                        all Buddha worlds.”<ptr target="note_en_3"/>
+                        <persName key="rh0007" reg="Manjusri" type="Bodhisattva" xml:id="en-a7" corresp="zh-a7">
+                            <foreign xml:lang="sa"> Mañjuśrī</foreign>
+                        </persName> addressed the
+                            <persName corresp="zh-a8" xml:id="en-a8" key="bg0004" reg="Sakyamuni" type="Buddha">Buddha</persName> and said: “<persName key="bg0004" reg="Sakyamuni" type="Buddha" corresp="zh-a9" xml:id="en-a9">
+                            <addName type="honorific" xml:id="en-a10" corresp="zh-a10">World-Honored
+                                One</addName>
+                        </persName>, why is it named <hi rend="italic">
+                            <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                        </hi>?” The <persName key="bg0004" reg="Sakyamuni" type="Buddha" corresp="zh-a11" xml:id="en-a11">Buddha</persName> said: “<hi rend="italic">
+                            <foreign xml:lang="sa">Prajñāpāramitā</foreign>
+                        </hi> is without boundary,
+                        without bourn, without name, without attributes, inconceivable, without
+                        refuge, without sandbank,<ptr target="note_en_4"/> without sin, without
+                        merit, without obscurity, without illumination. Like the Realm of the Law it
+                        is without demarcation and also limitless in number. This is named <hi rend="italic">
+                            <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                        </hi>. It
+                        is also named the Site of Bo­dhi­sattva-<foreign xml:lang="sa">Mahāsattva</foreign> Practice. Since it is neither a site of practice
+                        nor of non-practice—all [sites of Bo­dhi­sattva-<foreign xml:lang="sa">Mahāsattva</foreign> Practice] belonging to the One Vehicle—it is named
+                        the Site of Non-Practice. Why is this? Because it is unthought and
+                        unconditioned.” </p>
+                </div></div>
       <div type="bibliography">
         <listBibl>
           <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>731a1–21</citedRange></bibl>

@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_8: the dated colophon of Hu Bin on the ESE face (azimuth 107°) of the
-     Guanghuasi boulder — the SAME object as CLS_5–7 (azimuth 216°) but a DIFFERENT face,
-     expressed here anchor-lessly by the per-text orientation note. Like CLS_4, this colophon
-     carries 武平元年 in its text (upstream c:original). Its own single-text rubbings are listed
-     below; the ensemble sheets covering all four texts live at the object level. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_8">
   <teiHeader>
     <fileDesc>
@@ -28,8 +23,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Dated donor colophon (武平元年 in the text); eight glyphs in two
-              columns, on the ESE face of the boulder.</summary>
+            <summary xml:lang="en">Dated donor colophon (武平元年 in the text); eight glyphs in two columns, on the ESE face of the boulder.</summary>
             <msItem>
               <title xml:lang="zh">光化寺刻石胡賓題名</title>
               <textLang mainLang="lzh"/>
@@ -39,21 +33,15 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母角閃石花崗岩</term>
-                    <term xml:lang="en">biotite-hornblende granite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">60</height>
                     <width unit="cm">33</width>
                   </dimensions>
-                  <note type="orientation">azimuth 107°, slope 19°, zenith 71° (upstream, verbatim)
+                  <note type="orientation">
+                    azimuth 107°, slope 19°, zenith 71° (upstream, verbatim)
                     — a DIFFERENT face from CLS_5–7 (azimuth 216°); GPS 117.388164, 36.015351,
-                    h 236.6 (EPSG:4326, lon-lat verbatim)</note>
+                    h 236.6 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好</p>
@@ -62,19 +50,19 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="2" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -92,9 +80,11 @@
           <history>
             <origin>
               <origDate when="0570" evidence="internal-date">武平元年 (570)</origDate>
-              <note type="date-source">upstream marks 武平元年 as c:original on this record — with
+              <note type="date-source">
+                upstream marks 武平元年 as c:original on this record — with
                 CLS_4 it is one of the two dated colophons from which the whole CLS programme's
-                year derives (c:given source="CLS_4, CLS_8").</note>
+                year derives (c:given source="CLS_4, CLS_8").
+              </note>
               <origPlace>
                 <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
               </origPlace>
@@ -102,7 +92,6 @@
           </history>
         </msDesc>
         <listWit>
-          <!-- the ensemble sheets A/B (all of CLS_5–8 on one paper) are at the object level -->
           <witness xml:id="CLS_8_rub_C" n="C" ana="#witness.rubbing">
             <bibl>
               <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
@@ -129,6 +118,7 @@
             </bibl>
           </witness>
         </listWit>
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_8.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -147,8 +137,13 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_8.xml"/></ab>
+        <listWit>
+    <witness xml:id="R"><bibl><ptr target="CLS_8"/></bibl></witness>
+  </listWit>
+  <ab><lb n="1"/><persName key="rh0154"><roleName type="civil">中<g rend="variant">正</g></roleName>胡<g>賔</g></persName><ptr target="note_zh_1"/><lb n="2"/><date value="0570"><name type="reign title"><g>武</g>平</name>元<g rend="variant">年</g></date></ab>
       </div>
+      <div type="translation" xml:lang="en"><p><lb n="1"/>Rectifier Hu Bin
+               <lb n="2"/>First year of the <hi rend="italic">wuping</hi> era [570].</p></div>
     </body>
   </text>
 </TEI>

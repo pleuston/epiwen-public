@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — CLS_7: the smallest field of the sample (27 × 11 cm, three characters):
-     colophon of Wang Shigui on the SW face of the Guanghuasi boulder. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_7">
   <teiHeader>
     <fileDesc>
@@ -35,20 +33,14 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
-                    <term xml:lang="zh">摩崖</term>
-                    <term xml:lang="en">rock-face</term>
-                  </objectType>
-                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
-                    <term xml:lang="zh">黑雲母角閃石花崗岩</term>
-                    <term xml:lang="en">biotite-hornblende granite</term>
-                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">27</height>
                     <width unit="cm">11</width>
                   </dimensions>
-                  <note type="orientation">azimuth 216°, slope 14°, zenith 76° (upstream, verbatim);
-                    GPS 117.388171, 36.015342, h 236.5 (EPSG:4326, lon-lat verbatim)</note>
+                  <note type="orientation">
+                    azimuth 216°, slope 14°, zenith 76° (upstream, verbatim);
+                    GPS 117.388171, 36.015342, h 236.5 (EPSG:4326, lon-lat verbatim)
+                  </note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好</p>
@@ -56,20 +48,20 @@
                 </condition>
               </supportDesc>
               <layoutDesc>
-                <layout columns="1" writtenLines="3" ruledLines="0">
-                  <rs type="shape" ana="#shape.vertical-rectangle">
+                <layout columns="1" ruledLines="0" writtenLines="3">
+                  <rs ana="#shape.vertical-rectangle" type="shape">
                     <term xml:lang="zh">縱長方形</term>
                     <term xml:lang="en">vertical rectangle</term>
                   </rs>
-                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
                   </rs>
-                  <rs type="frame" ana="#frame.none">
+                  <rs ana="#frame.none" type="frame">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs type="polishing" ana="#polishing.unpolished">
+                  <rs ana="#polishing.unpolished" type="polishing">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
@@ -93,7 +85,7 @@
             </origin>
           </history>
         </msDesc>
-        <!-- witnesses: object-level ensemble rubbings in CLS_Guanghuasi_stone.xml -->
+        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_7.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -112,8 +104,15 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_7.xml"/></ab>
+        <ab>
+                    <persName key="rh0378">
+                        <surname>王</surname>
+                        <foreName>
+                            <g rend="variant">世</g>貴</foreName>
+                    </persName>
+                </ab>
       </div>
+      <div type="translation" xml:lang="en"><p> Wang Shigui </p></div>
     </body>
   </text>
 </TEI>
