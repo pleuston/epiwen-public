@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — the Diamond Sutra on wall f of Cave 33 (single-wall case). Upstream
-     filename (WFY_33_f_Diamond.xml) and root xml:id (WFY_33_Diamond) mirror the catalog
-     byte-for-byte — including their inconsistency (wall-infix in the filename, none in the id);
-     warts preserved, never repaired. The upstream record carries NO physical data (empty
-     c:physicalDescription) — everything absent here is absent there. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WFY_33_Diamond">
   <teiHeader>
     <fileDesc>
@@ -29,30 +24,13 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">The Diamond Sutra (Kumārajīva's version, T 235) on wall f of
-              Cave 33.</summary>
+            <summary xml:lang="en">The Diamond Sutra (Kumārajīva's version, T 235) on wall f of Cave 33.</summary>
             <msItem>
               <title xml:lang="zh">金剛經</title>
               <title xml:lang="en">Diamond Sutra</title>
               <textLang mainLang="lzh"/>
             </msItem>
           </msContents>
-          <physDesc>
-            <objectDesc>
-              <supportDesc>
-                <support>
-                  <objectType ana="#object.cave-wall">
-                    <term xml:lang="zh">窟壁</term>
-                    <term xml:lang="en">cave wall</term>
-                  </objectType>
-                  <!-- script-field dimensions: EMPTY upstream — absent here; the WALL's overall
-                       dimensions (222/235 × 205) are on the wall anchor in WFY_33_cave.xml
-                       {field measurement: from Publication_Sichuan/Section_A_b_Cave33.xml at a
-                       later pass} -->
-                </support>
-              </supportDesc>
-            </objectDesc>
-          </physDesc>
           <history>
             <origin>
               <origPlace>
@@ -61,6 +39,7 @@
             </origin>
           </history>
         </msDesc>
+        <bibl>transcription from <ptr target="sutras:docs/Anyue/WFY_33_Diamond.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -79,12 +58,454 @@
   <text>
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Anyue/WFY_33_Diamond.xml"/></ab>
+        <listWit>
+    <witness xml:id="T_235"><bibl><ptr target="T_235"/> 748c20－757a12</bibl></witness>
+    <witness xml:id="Scan1"><bibl><ptr target="h_33_w_f_mosaic_proc.tif"/></bibl></witness>
+    <witness xml:id="R_YJY_32"><bibl><ptr target="Sassmann 32.jpg"/></bibl></witness>
+  </listWit>
+  <head>《金剛般若波羅蜜經》 </head>
+                <div>
+                    <head>
+                        33號窟<foreign xml:lang="en">f</foreign> 壁 <foreign xml:lang="en">Cave 33, wall f</foreign>
+                    </head>
+                    <ab>
+                        <seg n="WFY_33_f_2" rend="rl">
+                            <lb n="7"/>
+                            <lb ed="T" n="T08n0235_0748c17"/>
+                            <title type="chapter">金<milestone facs="309,46"/>剛<g>般</g>
+                            </title>
+                            <title type="chapter">［<supplied source="T_235">若波羅蜜經</supplied>］</title>
+                            <note>此處所刻為鳩摩羅什譯本，未見譯者名。46號窟<foreign xml:lang="en">f</foreign>壁和71號窟<foreign xml:lang="en">d</foreign>壁《金剛般若波羅蜜經》同此。以下錄文根據石窟壁上刻經轉錄，並以《大正藏》本《金剛般若波羅蜜經》（T#235, 8: 748c16－752c7）對勘補充。文字存異之處，腳註出校。關於字形與補充文字的處理，詳見本卷卷首“凡例”。</note>  <lb n="T08n0235_0748c20" ed="T"/>如<supplied source="T_235">是</supplied>我<supplied source="T_235">聞：</supplied>一<supplied source="T_235">時</supplied>
+                            <note>有關“如是我聞一時”梵文語法的斷句問題，見船山徹<ref target="Funayama2007" type="biblio"/>。</note>
+                            佛在<supplied source="T_235">舍衛國祇樹給孤獨園， <lb n="T08n0235_0748c21" ed="T"/>與大比丘衆</supplied>千二<supplied source="T_235">百五十人俱。尒</supplied>時，<milestone facs="303,224"/>世尊食<lb n="T08n0235_0748c22" ed="T"/>時，<supplied source="T_235"> 著衣持鉢，入舍衛大城乞食。扵其城中， <lb n="T08n0235_0748c23" ed="T"/>次第乞 <lb n="T08n0235_0748c24" ed="T"/>已，還至本處。飯食訖，收衣鉢，洗足
+                                <lb n="T08n0235_0748c24" ed="T"/>已，敷座而坐。時長老須菩提</supplied>
+                            <lb n="8"/>在<milestone facs="304,46"/>大衆中即 <lb n="T08n0235_0748c25" ed="T"/>從<supplied source="T_235">座</supplied>起，偏袒右<supplied source="T_235">肩，右膝著地，合掌恭敬而
+                                <lb n="T08n0235_0748c26" ed="T"/>白佛言：“希有，世尊！如来善護念諸菩薩，善 <lb n="T08n0235_0748c27" ed="T"/>付囑諸</supplied>菩薩。世<milestone facs="298,232"/>
+                            <g>尊</g>！<supplied source="T_235">善男子、善女人發阿耨 <lb n="T08n0235_0748c28" ed="T"/>多羅三藐三菩提心，應云何住？云何降伏 <lb n="T08n0235_0748c29" ed="T"/>其心？”
+                                佛言：“善哉善哉！須菩提！如汝所說，‘如 <lb n="T08n0235_0749a01" ed="T"/>来 </supplied>
+                            <lb n="9"/>善<milestone facs="299,45"/>護念<supplied source="T_235">諸菩</supplied>薩，<supplied source="T_235">善付囑諸菩薩。’</supplied>汝今<supplied source="T_235">諦<lb n="T08n0235_0749a02" ed="T"/>聽，當為汝說。善男子、善女人發阿耨多<lb n="T08n0235_0749a03" ed="T"/>羅</supplied>三<supplied source="T_235">藐三</supplied>菩<supplied source="T_235">提心，應如是住，</supplied>如是<milestone facs="293,232"/>降<supplied source="T_235">伏其<lb n="T08n0235_0749a04" ed="T"/>心。” “唯然。世尊！願樂欲聞。”
+                                <lb n="T08n0235_0749a05" ed="T"/>佛告須菩提：“諸菩薩摩訶薩應如是降伏<lb n="T08n0235_0749a06" ed="T"/>其心：所有一切衆生之類，若卵生、若胎</supplied>
+                            <lb n="10"/>生<milestone facs="294,44"/>、<supplied source="T_235">若</supplied>
+                            <lb n="T08n0235_0749a07" ed="T"/>濕<supplied source="T_235">生、</supplied>若化生，<supplied source="T_235">若</supplied>有色、<supplied source="T_235">若無色，若有想、若無想、<lb n="T08n0235_0749a08" ed="T"/>若非有想非無想，我皆令入</supplied>無餘涅槃<supplied source="T_235">而<lb n="T08n0235_0749a09" ed="T"/>滅度之。如是</supplied>滅度<milestone facs="287,232"/>無<supplied source="T_235">量無數無邊衆生，實<lb n="T08n0235_0749a10" ed="T"/>無衆生得滅度者。何以故？須菩提！若菩薩<lb n="T08n0235_0749a11" ed="T"/>有我相、人相、衆生相、壽者相，即非菩薩。<lb n="T08n0235_0749a12" ed="T"/>復次，須</supplied>
+                            <lb n="11"/>菩<milestone facs="289,44"/>
+                            <supplied source="T_235">提！</supplied>菩<supplied source="T_235">薩扵</supplied>法，<supplied source="T_235">應無</supplied>所<supplied source="T_235">住，</supplied>行<supplied source="T_235">扵布
+                                <lb n="T08n0235_0749a13" ed="T"/>施，所</supplied>謂不<supplied source="T_235">住色布施，</supplied>不<supplied source="T_235">住聲、香、味、觸、法布<lb n="T08n0235_0749a14" ed="T"/>施。須菩提！菩薩應如是布</supplied>施，不住<g>扵</g>
+                            <milestone facs="282,232"/>相。<supplied source="T_235">何<lb n="T08n0235_0749a15" ed="T"/>以故？若菩薩不住相布施，其福徳不可思<lb n="T08n0235_0749a16" ed="T"/>量。須菩提！扵意云何？東方虛空可思量不？” <lb n="T08n0235_0749a17" ed="T"/>“不也，世尊！”
+                                “須菩提！南西</supplied>
+                            <lb n="12"/>北<milestone facs="284,44"/>方、四<supplied source="T_235">維上</supplied>下<supplied source="T_235">虛空</supplied>
+                            <lb n="T08n0235_0749a18" ed="T"/>可思量<supplied source="T_235">不？” “不也，世尊！” “須菩提！菩薩無住相
+                                <lb n="T08n0235_0749a19" ed="T"/>布施，福徳亦復如是，</supplied>不可思<supplied source="T_235">量。須菩提！菩<lb n="T08n0235_0749a20" ed="T"/>薩但</supplied>應<milestone facs="278,231"/>
+                            <supplied source="T_235">如所教住。 <lb n="T08n0235_0749a21" ed="T"/>須菩提！扵意云何？可以身相見如来不？” <lb n="T08n0235_0749a22" ed="T"/>“不也，世尊！不可以身相得見如来。何以<lb n="T08n0235_0749a23" ed="T"/>故？如来所說身相，即非</supplied>
+                            <lb n="13"/>身<milestone facs="278,44"/>相。” 佛<supplied source="T_235">告</supplied>
+                            <g>須</g>菩<supplied source="T_235">提：</supplied>
+                            <lb n="T08n0235_0749a24" ed="T"/>“凡<g>所</g>有相，<g>皆</g> 是
+                                <g>虛</g>
+                            <supplied source="T_235">妄。</supplied>
+                            <g>若</g>
+                            <supplied source="T_235">見諸相非相，則見</supplied>
+                            <lb n="T08n0235_0749a25" ed="T"/>如<supplied source="T_235">来。” <lb n="T08n0235_0749a26" ed="T"/>須菩提白佛言：“世尊！頗有衆生得聞如<lb n="T08n0235_0749a27" ed="T"/>是言</supplied>說<milestone facs="273,231"/>
+                            <supplied source="T_235">章句，生實信不？” 佛告須菩提：“莫<lb n="T08n0235_0749a28" ed="T"/>作是說！如来滅後，後五百歲，有持戒修福
+                                <lb n="T08n0235_0749a29" ed="T"/>者，扵此章句能生信心，以此為實，當知</supplied>
+                            <lb n="14"/>
+                            <lb n="T08n0235_0749b01" ed="T"/>是<milestone facs="274,43"/>人，不<g>扵</g>一佛、二佛、三、<supplied source="T_235">四、</supplied>五佛而<supplied source="T_235">種</supplied>善<supplied source="T_235">根，<lb n="T08n0235_0749b02" ed="T"/>已扵無量千萬佛所種諸善根，聞是章句，
+                                <lb n="T08n0235_0749b03" ed="T"/>乃至一念生淨信者，須菩</supplied>提！<supplied source="T_235">如来悉知悉
+                                    <lb n="T08n0235_0749b04" ed="T"/>見，是諸衆生得如是無量福徳。何以故？是<lb n="T08n0235_0749b05" ed="T"/>諸衆生無復我相、人相、衆生相、壽者相，無法<lb n="T08n0235_0749b06" ed="T"/>相，亦無非法</supplied>
+                            <lb n="15"/>相<milestone facs="269,43"/>。何以故？是諸<g>衆</g>生<supplied source="T_235">若心取</supplied>
+                            <lb n="T08n0235_0749b07" ed="T"/>相，則為<supplied source="T_235">著我、人、衆生、壽者。若取法相，即著<lb n="T08n0235_0749b08" ed="T"/>我、人、衆生、壽者。何以故？若取非法相，即</supplied>著<milestone facs="263,230"/>
+                            <lb n="T08n0235_0749b09" ed="T"/>我、<supplied source="T_235">人、衆生、壽者，是故不應取法，不應取非
+                                <lb n="T08n0235_0749b10" ed="T"/>法。以是義故，如来常說：‘汝等比丘，知我說<lb n="T08n0235_0749b11" ed="T"/>法如筏喻者，法尚應捨，何況</supplied>
+                            <lb n="16"/>非<milestone facs="264,42"/>法。<g>
+                                <lb n="T08n0235_0749b12" ed="T"/>須</g>
+                            <supplied source="T_235">菩提！</supplied>
+                            <g>扵</g>意<supplied source="T_235">云何？如来</supplied>得阿<supplied source="T_235">耨多羅三藐<lb n="T08n0235_0749b13" ed="T"/>三菩提耶？如来有所說法耶？” 須菩提言：“如<lb n="T08n0235_0749b14" ed="T"/>我解佛所說義，無有</supplied>
+                            <g>定</g>
+                            <milestone facs="258,230"/>法<supplied source="T_235">名阿耨多羅三
+                                <lb n="T08n0235_0749b15" ed="T"/>藐三菩提，亦無有定法如来可說。何以故？<lb n="T08n0235_0749b16" ed="T"/>如来所說法，皆不可取、不可說，非法、非非法。<lb n="T08n0235_0749b17" ed="T"/>所以者</supplied>
+                            <lb n="17"/>何<milestone facs="259,42"/>？一切賢<supplied source="T_235">聖</supplied>
+                            <g>皆</g>以<supplied source="T_235">無為法而</supplied>有<supplied source="T_235">差<lb n="T08n0235_0749b18" ed="T"/>別。”</supplied> “<g>須</g>
+                            <supplied source="T_235">菩提！扵意云何？若人滿三千大千世<lb n="T08n0235_0749b19" ed="T"/>界七寳以用布施，是人所得福</supplied>
+                            <g>徳</g>
+                            <milestone facs="253,229"/>，寧為<supplied source="T_235">多不？”
+                                <lb n="T08n0235_0749b20" ed="T"/>須菩提言：“甚多，世尊！何以故？是福徳即非<lb n="T08n0235_0749b21" ed="T"/>福徳</supplied>
+                            <note>“福徳”， 《大正藏》本作“復福”二字 。《大正藏》電子版（CBETA）據《高麗藏》和《磧砂藏》修改為“福德”二字，T#235, 8: 749b21。</note>
+                            <supplied source="T_235">性，是故如来說福徳多。” “若復有人，扵<lb n="T08n0235_0749b22" ed="T"/>此經中受持，乃至四</supplied>
+                            <lb n="18"/>句<milestone facs="254,42"/>偈<g>等</g>，為他人 <g>說</g>，其<supplied source="T_235">
+                                <lb n="T08n0235_0749b23" ed="T"/>福勝彼。</supplied>何<supplied source="T_235">以故？
+                                須菩提！</supplied>一切<supplied source="T_235">諸佛，及諸佛
+                                    <lb n="T08n0235_0749b24" ed="T"/>阿耨多羅三藐三菩提法，皆從此經出。須菩</supplied>
+                            <lb n="T08n0235_0749b25" ed="T"/>提！<g>所</g>
+                            <milestone facs="248,228"/>謂<supplied source="T_235">佛法者，即非佛法。<lb n="T08n0235_0749b26" ed="T"/>須菩提！扵意云何？須陀洹能作是念‘我得<lb n="T08n0235_0749b27" ed="T"/>須陀洹果’ 不？” 須菩提言：“不也，世尊！何以故？<lb n="T08n0235_0749b28" ed="T"/>須陀洹</supplied>
+                            <lb n="19"/>名<milestone facs="249,41"/>為入流，<supplied source="T_235">而無</supplied>
+                            <g>所</g>
+                            <supplied source="T_235">入，不入色、聲、香、<lb n="T08n0235_0749b29" ed="T"/>味、觸、法，是名須陀洹。” “須菩提！扵意云何？斯
+                                <lb n="T08n0235_0749c01" ed="T"/>陀含能作是念‘我得斯陀含果’</supplied>不<milestone facs="243,224"/>？”
+                            <g>須</g>菩<supplied source="T_235">提<lb n="T08n0235_0749c02" ed="T"/>言：“不也，世尊！何以故？斯陀含名一往来，而
+                                <lb n="T08n0235_0749c03" ed="T"/>實無往来，是名斯陀含。” “須菩提！扵意云何？<lb n="T08n0235_0749c04" ed="T"/>阿那含能作是念‘我得</supplied>
+                            <lb n="20"/>阿<milestone facs="244,41"/>
+                            <g>那</g>含果’ 不？��� <g>須</g>菩提<lb n="T08n0235_0749c05" ed="T"/>言：“不<supplied source="T_235">也，世尊！
+                                何</supplied>以故？ <supplied source="T_235">阿那含名為不来，而<lb n="T08n0235_0749c06" ed="T"/>實無来，是故名阿那含。”
+                                    “須菩提！扵意云<lb n="T08n0235_0749c07" ed="T"/>何？阿</supplied>羅<milestone facs="239,224"/>
+                            <g>漢</g>
+                            <supplied source="T_235">能作是念‘我得阿羅漢道’ 不？” 須<lb n="T08n0235_0749c08" ed="T"/>菩提言：“不也，世尊！何以故？實無有法名阿<lb n="T08n0235_0749c09" ed="T"/>羅漢。
+                                    世尊！若阿羅漢作是念‘我得阿羅</supplied>
+                            <lb n="21"/>漢<milestone facs="239,40"/>
+                            <lb n="T08n0235_0749c10" ed="T"/>道’，即為著我、<supplied source="T_235">人、</supplied>衆<milestone facs="238,77"/>生、壽者。<supplied source="T_235">世尊！佛說我得</supplied>
+                            <lb n="T08n0235_0749c11" ed="T"/>無諍三<supplied source="T_235">昧，人中最為第一，是第一離欲阿羅
+                                <lb n="T08n0235_0749c12" ed="T"/>漢。我不作是念‘我是離欲阿羅漢’。世尊！我<lb n="T08n0235_0749c13" ed="T"/>若作是念‘我得阿羅漢道’，世尊則不說‘須<lb n="T08n0235_0749c14" ed="T"/>菩提是樂阿蘭那行者’。以須菩提實無所<lb n="T08n0235_0749c15" ed="T"/>行，而名須</supplied>
+                            <lb n="22"/>菩<milestone facs="234,41"/>提是樂阿蘭那行。” <lb n="T08n0235_0749c16" ed="T"/>佛告<g>須</g>菩提<milestone facs="233,95"/>：“<g>扵</g>
+                            <supplied source="T_235">意</supplied>云<supplied source="T_235">何？</supplied>如<g>来</g>昔<supplied source="T_235">在然燈<lb n="T08n0235_0749c17" ed="T"/>佛所，扵法有所得不？”
+                                “世尊！如来在然燈<lb n="T08n0235_0749c18" ed="T"/>佛所，扵法實無所得。” “須菩提！扵意云何？菩<lb n="T08n0235_0749c19" ed="T"/>薩莊嚴佛土不？” “不也，世尊！何以故？莊嚴佛
+                                <lb n="T08n0235_0749c20" ed="T"/>土者，則非莊嚴，是名莊嚴。” “是故，須菩提！諸</supplied>
+                            <lb n="23"/>
+                            <lb n="T08n0235_0749c21" ed="T"/>菩<milestone facs="229,40"/>薩摩訶<supplied source="T_235">薩應</supplied>如是生清<g>淨</g>
+                            <milestone facs="228,85"/>心，不 <supplied source="T_235">應</supplied>住色<supplied source="T_235">
+                                <lb n="T08n0235_0749c22" ed="T"/>生</supplied>心，不應<supplied source="T_235">住聲、香、味、觸、法生心，應無所<lb n="T08n0235_0749c23" ed="T"/>住而生其心。須菩提！譬如有人身如須彌
+                                <lb n="T08n0235_0749c24" ed="T"/>山王，扵意云何？是身為大不？” 須菩提言：“甚<lb n="T08n0235_0749c25" ed="T"/>大，世尊！何以故？佛說非身，是名大身。” “須菩
+                                <lb n="T08n0235_0749c26" ed="T"/>提！如恒河中所有</supplied>
+                            <note>“有”， 《大正藏》本作“所”字 。《大正藏》電子版（CBETA）據《高麗藏》和《磧砂藏》改為“有”字 ，T#235, 8: 749c26。</note>
+                            <lb n="24"/>
+                            <supplied source="T_235">沙數，</supplied>如<milestone facs="224,49"/>是沙<supplied source="T_235">等</supplied>恒河，<g>扵</g>
+                            <lb n="T08n0235_0749c27" ed="T"/>意云<milestone facs="223,85"/>
+                            <supplied source="T_235">何？是諸恒河沙寧</supplied>為多<supplied source="T_235">不？” 須菩提言：“甚<lb n="T08n0235_0749c28" ed="T"/>多，世尊！但諸恒河尚多無數，何況其沙。” “須菩
+                                <lb n="T08n0235_0749c29" ed="T"/> 提！我今實言告汝。若有善男子、善女人以<lb n="T08n0235_0750a01" ed="T"/>七寳滿尒所恒河沙數三千大千世界，以用<lb n="T08n0235_0750a02" ed="T"/>布施，得福多不？” 須菩提言：</supplied>
+                            <lb n="25"/>
+                            <supplied source="T_235">“甚多，</supplied>世<milestone facs="219,49"/>尊！”
+                                <supplied source="T_235">佛告</supplied>
+                            <g>
+                                <lb n="T08n0235_0750a03" ed="T"/>須</g>
+                            <g>菩</g>提：“<g>若</g>善男子、善女人<g>扵</g>
+                            <milestone facs="216,113"/>
+                            <supplied source="T_235">此經中，乃至<lb n="T08n0235_0750a04" ed="T"/>受持四句偈等，為他人說，而此福徳勝前<lb n="T08n0235_0750a05" ed="T"/>福徳。<lb n="T08n0235_0750a06" ed="T"/>復次，須菩提！隨說是經，乃至四句偈等，當知<lb n="T08n0235_0750a07" ed="T"/>此處一切世間天、人、阿修羅，皆應供養，如佛
+                                <lb n="T08n0235_0750a08" ed="T"/>塔廟，何況有人盡能受持讀誦。</supplied>
+                            <lb n="26"/>
+                            <g>須</g>
+                            <milestone facs="214,40"/>
+                            <supplied source="T_235">菩</supplied>提！<supplied source="T_235">當<lb n="T08n0235_0750a09" ed="T"/>知是</supplied>人，<g>成</g>
+                            <g>就</g>
+                            <g>最</g>上<g>第</g>一<milestone facs="212,92"/>
+                            <supplied source="T_235">希有之法，若是經典<lb n="T08n0235_0750a10" ed="T"/>所在之處，則為有佛，若尊重弟子。”
+                                <lb n="T08n0235_0750a11" ed="T"/>尒時，須菩提白佛言：“世尊！當何名此經？我<lb n="T08n0235_0750a12" ed="T"/>等云何奉持？” 佛告須菩提：“是經名為《金剛般<lb n="T08n0235_0750a13" ed="T"/>若波羅蜜》，以是名字，汝當奉持。所以者何？
+                                <lb n="T08n0235_0750a14" ed="T"/>須菩提！</supplied>
+                            <lb n="27"/>
+                            <supplied source="T_235">佛說</supplied>般<milestone facs="209,49"/>
+                            <supplied source="T_235">若波羅</supplied>
+                            <g>蜜</g>，則非<g>般</g>
+                            <g>若</g>波羅<g>
+                                <lb n="T08n0235_0750a15" ed="T"/>蜜</g>。<g>須</g>菩提！<g>扵</g>意云何？如<milestone facs="205,133"/>
+                            <g>来</g>
+                            <supplied source="T_235">有所說法不？” 須
+                                <lb n="T08n0235_0750a16" ed="T"/>菩提白佛言：“世尊！如来無所說。” “須菩提！扵<lb n="T08n0235_0750a17" ed="T"/>意云何？三千大千世界所有微塵是為多不？” <lb n="T08n0235_0750a18" ed="T"/>須菩提言：“甚多，世尊！”
+                                “須菩提！諸微塵，如来<lb n="T08n0235_0750a19" ed="T"/>說非微塵，是名微塵。</supplied>
+                            <lb n="28"/>
+                            <supplied source="T_235">如来說世界，非</supplied>世<milestone facs="203,65"/>
+                            <g>界</g>，<lb n="T08n0235_0750a20" ed="T"/>是名世<g>界</g>。<g>須</g>菩提！<g>扵</g>意云何？可以三十二<milestone facs="201,142"/>
+                            <supplied source="T_235">
+                                <lb n="T08n0235_0750a21" ed="T"/>相見如来不？” “不也，世尊！</supplied>
+                            <note>《大正藏》本有“不可以三十二相得見如来”十一字。此經每行八十五字，此處若減掉此十一字，總字數則正好符合此壁該經的行格安排。而且，46號窟<foreign xml:lang="en">f</foreign>壁、71號窟<foreign xml:lang="en">d</foreign>壁和山東省泰山經石峪石刻《金剛般若波羅蜜經》皆無此十一字。有關泰山經石峪的石刻經文復原示意圖，見<ref type="biblio" target="SDSKYS_HAW2009">第48頁</ref>，以及《中國佛教石經<hi rend="smaller">•</hi>山東省》第四卷。
+                            </note>
+                            <lb n="T08n0235_0750a22" ed="T"/>
+                            <supplied source="T_235">何以故？ 如来說三十二相，即
+                                <lb n="T08n0235_0750a23" ed="T"/>是非相，是名三十二相。” “須菩提！若有善男<lb n="T08n0235_0750a24" ed="T"/>子、善女人以恒河沙等身命布施，若復有<lb n="T08n0235_0750a25" ed="T"/>人，扵此經中，乃至受持</supplied>
+                            <lb n="29"/>
+                            <supplied source="T_235">四句偈等，為他</supplied>人<milestone facs="198,64"/>
+                            <g>
+                                <lb n="T08n0235_0750a26" ed="T"/>說</g>，其<g>福</g>
+                            <g>甚</g>多。” <g>
+                                <lb n="T08n0235_0750a27" ed="T"/>尒</g>時，<g>須</g>菩提聞<g>說</g>是<milestone facs="196,123"/>
+                            <supplied source="T_235">經，</supplied>深<supplied source="T_235">解</supplied>
+                            <g>義</g>
+                            <supplied source="T_235">趣，涕淚悲<lb n="T08n0235_0750a28" ed="T"/>泣而白佛言：“希有，世尊！佛說如是甚深經<lb n="T08n0235_0750a29" ed="T"/>典，我從昔来所得慧眼，未曾得聞如是之
+                                <lb n="T08n0235_0750b01" ed="T"/>經。世尊！若復有人得聞是經，信心清淨，則<lb n="T08n0235_0750b02" ed="T"/>生實相，當知是人成就第</supplied>
+                            <lb n="30"/>
+                            <supplied source="T_235">一希有功徳。世</supplied>
+                            <g>
+                                <lb n="T08n0235_0750b03" ed="T"/>尊</g>！是<milestone facs="193,68"/>實相者，則是非相，是故如<g>来</g>
+                            <g>說</g>
+                            <milestone facs="191,123"/>
+                            <supplied source="T_235">名</supplied>實<supplied source="T_235">相。<lb n="T08n0235_0750b04" ed="T"/>世尊！我</supplied>今<supplied source="T_235">得聞如是經典，信解受持，不足
+                                <lb n="T08n0235_0750b05" ed="T"/>為難。若當来世，後五百歲，其有衆生得聞
+                                <lb n="T08n0235_0750b06" ed="T"/>是經，信解受持，是人則為第一希有。何以<lb n="T08n0235_0750b07" ed="T"/>故？此人無我相、人相、衆生相、壽者相。所</supplied>
+                            <lb n="31"/>
+                            <supplied source="T_235">以者<lb n="T08n0235_0750b08" ed="T"/>何？我相即</supplied>是<milestone facs="188,64"/>非相，人相、<g>衆</g>
+                            <supplied source="T_235">生</supplied>相、<g>壽</g>者相即<supplied source="T_235">是</supplied>
+                            <lb n="T08n0235_0750b09" ed="T"/>非相。何<milestone facs="186,132"/>
+                            <supplied source="T_235">以故？離一切諸相，則名諸佛。” 佛告<lb n="T08n0235_0750b10" ed="T"/>須菩提：“如是如是！若復有人，得聞是經，不
+                                <lb n="T08n0235_0750b11" ed="T"/>驚、不怖、不畏，當知是人甚為希有。何以故？<lb n="T08n0235_0750b12" ed="T"/>須菩提！如来說第一波羅蜜，非第一波羅<lb n="T08n0235_0750b13" ed="T"/>蜜，是名</supplied>
+                            <lb n="32"/>
+                            <supplied source="T_235">第一波羅蜜。</supplied>
+                            <g>須</g>菩<milestone facs="183,63"/>提！忍<g>辱</g>波羅<g>蜜</g>，如<g>
+                                <lb n="T08n0235_0750b14" ed="T"/>来</g>
+                            <g>說</g>非忍<g>辱</g>波羅<g>蜜</g>。何以故？<g>須</g>菩<milestone facs="180,154"/>
+                            <supplied source="T_235">提！如我<lb n="T08n0235_0750b15" ed="T"/>昔為歌利王割截身體，我扵尒時，無我<lb n="T08n0235_0750b16" ed="T"/>相、無人相、無衆生相、無壽者相。何以故？我
+                                <lb n="T08n0235_0750b17" ed="T"/>扵往昔節節支解時，若有我相、人相、衆生<lb n="T08n0235_0750b18" ed="T"/>相、壽者相，應生瞋恨。須</supplied>
+                            <lb n="33"/>
+                            <supplied source="T_235">菩提！又念</supplied>過<supplied source="T_235">去</supplied>
+                            <g>扵</g>
+                            <milestone facs="179,64"/>
+                            <lb n="T08n0235_0750b19" ed="T"/>五百世作忍辱<supplied source="T_235">仙</supplied>人，<g>扵</g>
+                            <g>尒</g>
+                            <g>所</g>世，無我相、無<lb n="T08n0235_0750b20" ed="T"/>人相、無<g>衆</g>
+                            <milestone facs="175,154"/>
+                            <supplied source="T_235">生相、無壽者相。是故，須菩提！菩<lb n="T08n0235_0750b21" ed="T"/>薩應離一切相，發阿耨多羅三藐三菩提
+                                <lb n="T08n0235_0750b22" ed="T"/>心，不應住色生心，不應住聲、香、味、觸、法<lb n="T08n0235_0750b23" ed="T"/>生心，應生無所住心。若心有住，則為非<lb n="T08n0235_0750b24" ed="T"/>住，</supplied>
+                            <lb n="34"/>
+                            <supplied source="T_235">是故佛</supplied>
+                            <g>說</g>：‘菩<g>薩</g>
+                            <milestone facs="174,59"/>心不應住色布施。’
+                            <g>須</g>菩<lb n="T08n0235_0750b25" ed="T"/>提！<g>菩</g>
+                            <g>薩</g>為利益一切<g>衆</g>生，應如<milestone facs="171,154"/>
+                            是<supplied source="T_235">布施。如<lb n="T08n0235_0750b26" ed="T"/>来說：‘一切諸相，即是非相。’ 又說：‘一切衆生，<lb n="T08n0235_0750b27" ed="T"/>則非衆生。’
+                                須菩提！如来是真語者、實語者、<lb n="T08n0235_0750b28" ed="T"/>如語者、不誑語者、不異語者。須菩提！如来<lb n="T08n0235_0750b29" ed="T"/>所得法，此法無實無</supplied>
+                            <lb n="35"/>
+                            <supplied source="T_235">虛。須菩提！</supplied>
+                            <g>若</g>
+                            <milestone facs="169,58"/>
+                            <g>菩</g>
+                            <g>薩</g>心住
+                            <g>
+                                <lb n="T08n0235_0750c01" ed="T"/>扵</g>法而行布施，如人入闇，則無<g>所</g>見；<g>若</g>菩<milestone facs="166,149"/>
+                            <supplied source="T_235">
+                                <lb n="T08n0235_0750c02" ed="T"/>薩心不住法而行布施，如人有目，日光明<lb n="T08n0235_0750c03" ed="T"/>照，見種種色。須菩提！當来之世，若有善男
+                                <lb n="T08n0235_0750c04" ed="T"/>子、善女人能扵此經受持讀誦，則為如来<lb n="T08n0235_0750c05" ed="T"/>以佛智慧悉知是人，悉見是人，皆</supplied>
+                            <lb n="36"/>得成<supplied source="T_235"/>
+                            <g>就</g>
+                            <milestone facs="164,49"/>
+                            <lb n="T08n0235_0750c06" ed="T"/>無量無邊<g>功</g>
+                            <g>徳</g>。<g>
+                                <lb n="T08n0235_0750c07" ed="T"/>須</g>
+                            <g>菩</g>提！<g>若</g>有善<g>男</g>子、善女人初日<g>分</g>以<milestone facs="161,144"/>恒<lb n="T08n0235_0750c08" ed="T"/>河沙<g>等</g>
+                            <supplied source="T_235">身布施，中日分復以恒河沙等身
+                                <lb n="T08n0235_0750c09" ed="T"/>布施，後日分亦以恒河沙等身布施，如是<lb n="T08n0235_0750c10" ed="T"/>無量百千萬億劫以身布施。若復有人聞此<lb n="T08n0235_0750c11" ed="T"/>經典，信心不逆，其福勝彼，何況</supplied>
+                            <lb n="37"/>書<supplied source="T_235">寫、</supplied>受<milestone facs="159,49"/>持、讀<lb n="T08n0235_0750c12" ed="T"/>誦、為人<g>解</g>
+                            <g>說</g>。<g>須</g>
+                            <g>菩</g>提！以要言之，是<g>經</g>有不<lb n="T08n0235_0750c13" ed="T"/>可思<milestone facs="156,140"/>
+                            <supplied source="T_235">議、不可稱量無邊功徳。如来為發大乘
+                                <lb n="T08n0235_0750c14" ed="T"/>者說，為發最上乘者說。若有人能受持<lb n="T08n0235_0750c15" ed="T"/>讀誦，廣為人說，如来悉知是人，悉見是人，<lb n="T08n0235_0750c16" ed="T"/>皆得成就不可量、不可稱、無有邊、不可思</supplied>
+                            <lb n="38"/>
+                            <supplied source="T_235">議</supplied>
+                            <g>
+                                <lb n="T08n0235_0750c17" ed="T"/>功</g>
+                            <g>徳</g>
+                            <milestone facs="154,44"/>。如是人<g>等</g>，則為荷<g>擔</g>如<g>来</g>阿<g>耨</g>多羅三
+                            <lb n="T08n0235_0750c18" ed="T"/>
+                            <g>藐</g>三菩提<milestone facs="151,131"/>。何以<supplied source="T_235">故？須菩提！若樂小法者，<lb n="T08n0235_0750c19" ed="T"/>著我見、人見、衆生見、壽者見，則扵此經不<lb n="T08n0235_0750c20" ed="T"/>能聽受、讀誦、為人解說。須菩提！在在處處，
+                                <lb n="T08n0235_0750c21" ed="T"/>若有此經，一切世間天、人、阿修羅所應供<lb n="T08n0235_0750c22" ed="T"/>養。當知此處</supplied>
+                            <lb n="39"/>
+                            <supplied source="T_235">則為</supplied>是<milestone facs="150,44"/>
+                            <g>塔</g>，<g>皆</g>應<supplied source="T_235">恭</supplied>敬，作<g>礼</g>
+                            <g>圍</g>
+                            <g>
+                                <lb n="T08n0235_0750c23" ed="T"/>繞</g>，以諸華香而<g>散</g>其<g>處</g>。<g>
+                                <lb n="T08n0235_0750c24" ed="T"/>復</g>次，<g>須</g>菩<milestone facs="146,139"/>
+                            <supplied source="T_235">提！善男子、</supplied>善<supplied source="T_235">女人受持讀誦此經，<lb n="T08n0235_0750c25" ed="T"/>若為人輕賤，是人先世罪業，應墮惡道，以<lb n="T08n0235_0750c26" ed="T"/>今世人輕賤故，先世罪業則為消滅，當<lb n="T08n0235_0750c27" ed="T"/>得阿耨多羅三藐三菩提。須菩提！我念過<lb n="T08n0235_0750c28" ed="T"/>去無</supplied>
+                            <lb n="40"/>
+                            <supplied source="T_235">量阿</supplied>
+                            <g>僧</g>
+                            <milestone facs="145,44"/>
+                            <g>祇</g>
+                            <g>劫</g>，<g>扵</g>
+                            <g>燃</g>
+                            <note>石刻本共有三處“<g>燃</g>”字可辨，《大正藏》本皆作“然”，以下不再贅列。</note>燈<g>佛</g>前，<g>得</g>值八百<lb n="T08n0235_0750c29" ed="T"/>四千<g>万</g>億<g>那</g>由他諸佛，<g>悉</g>
+                            <supplied source="T_235">皆</supplied>供<milestone facs="140,147"/>
+                            <supplied source="T_235">養承</supplied>事，<supplied source="T_235">無空<lb n="T08n0235_0751a01" ed="T"/>過者。若復有人，扵後末世，能受持讀誦此<lb n="T08n0235_0751a02" ed="T"/>經，所得功徳，扵我所供養諸佛功徳，百分<lb n="T08n0235_0751a03" ed="T"/>不及一，千萬億分，乃至算數譬喻所不能<lb n="T08n0235_0751a04" ed="T"/>及。須菩提！若善男</supplied>
+                            <lb n="41"/>
+                            <supplied source="T_235">子、善</supplied>女<milestone facs="140,44"/>人<g>扵</g>後末世，有<g>
+                                <lb n="T08n0235_0751a05" ed="T"/>受</g>持讀誦此<g>經</g>，<g>所</g>
+                            <g>得</g>
+                            <g>功</g>
+                            <g>徳</g>，我<g>若</g>具<g>說</g>者，或<lb n="T08n0235_0751a06" ed="T"/>有人聞<milestone facs="136,156"/>，<supplied source="T_235">心則狂亂，狐疑不信。須菩提！當知<lb n="T08n0235_0751a07" ed="T"/>是經義不可思議，果報亦不可思議。”
+                                <lb n="T08n0235_0751a08" ed="T"/>尒時，須菩提白佛言：“世尊！善男子、善女人<lb n="T08n0235_0751a09" ed="T"/>發阿耨多羅三藐三菩提心，云何應住？</supplied>
+                            <lb n="42"/>
+                            <supplied source="T_235">云</supplied>何<g>
+                                <lb n="T08n0235_0751a10" ed="T"/>降</g>
+                            <milestone facs="135,44"/>伏其心？”
+                            佛告<g>須</g>
+                            <g>菩</g>提：“善<g>男</g>子、善女人<g>
+                                發</g>
+                            <lb n="T08n0235_0751a11" ed="T"/>阿耨多羅三<g>藐</g>三菩提者<milestone facs="131,156"/>，當生<supplied source="T_235">如是心：‘我<lb n="T08n0235_0751a12" ed="T"/>應滅度一切衆生。滅度一切衆生已，而無
+                                <lb n="T08n0235_0751a13" ed="T"/>有一衆生實滅度者。’ 何以故？須菩提！若菩<lb n="T08n0235_0751a14" ed="T"/>薩有我相、人相、衆生相、壽者相，則非菩薩。所<lb n="T08n0235_0751a15" ed="T"/>以者何？須菩提！</supplied>
+                            <lb n="43"/>
+                            <supplied source="T_235">實無</supplied>有<milestone facs="130,43"/>法<g>發</g>阿<g>耨</g>多羅三
+                            <lb n="T08n0235_0751a16" ed="T"/>
+                            <g>藐</g>三菩提者。<g>須</g>
+                            <g>菩</g>提！<g>扵</g>意云何？如<g>来</g>
+                            <g>扵</g>
+                            <g>燃</g>
+                            <note type="ref">“<g>燃</g>”，通“然”。《大正藏》本作“然”。</note>
+                            <lb n="T08n0235_0751a17" ed="T"/>燈佛<milestone facs="125,155"/>
+                            <supplied source="T_235">所，有法得阿耨多羅三藐三菩提不？” <lb n="T08n0235_0751a18" ed="T"/>“不也，世尊！如我解佛所說義，佛扵然燈佛
+                                <lb n="T08n0235_0751a19" ed="T"/>所，無有法得阿耨多羅三藐三菩提。” 佛言：<lb n="T08n0235_0751a20" ed="T"/>“如是如是！須菩提！實無有法，如</supplied>
+                            <lb n="44"/>
+                            <g>来</g>
+                            <supplied source="T_235">得</supplied>阿<milestone facs="125,43"/>
+                            <g>
+                                <lb n="T08n0235_0751a21" ed="T"/>耨</g>多羅三<g>藐</g>三<g>菩</g>提。<g>須</g>菩提！<g>若</g>有法，如<g>来</g>
+                            <lb n="T08n0235_0751a22" ed="T"/>得阿耨多羅三<g>藐</g>三菩<milestone facs="121,155"/>提，<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_235" type="textcritical">者</rdg>
+                            </app>
+                            <g>燃</g>
+                            <note type="ref">“<g>燃</g>”，通“然”。《大正藏》本作“然”。</note>燈<supplied source="T_235">佛則不<lb n="T08n0235_0751a23" ed="T"/>與我受記：汝扵来世，當得作佛，号釋迦<lb n="T08n0235_0751a24" ed="T"/>牟尼。以實無有法得阿耨多羅三藐三菩
+                                <lb n="T08n0235_0751a25" ed="T"/>提，是故然燈佛與我受記，作是言：‘汝扵来<lb n="T08n0235_0751a26" ed="T"/>世，當得作佛，</supplied>
+                            <lb n="45"/>
+                            <g>号</g>
+                            <supplied source="T_234">釋</supplied>迦<milestone facs="150,43"/>
+                            <g>牟</g>尼。’
+                            何以故？如<g>来</g>者，<lb n="T08n0235_0751a27" ed="T"/>即諸法如義。
+                            <g>若</g>有人言‘如<g>来</g>得阿<g>耨</g>多羅<lb n="T08n0235_0751a28" ed="T"/>三<g>藐</g>三菩<milestone facs="115,169"/>
+                            <supplied source="T_235">提。’ 須菩提！實無有法佛得阿耨<lb n="T08n0235_0751a29" ed="T"/>多羅三藐三菩提。須菩提！如来所得阿耨多
+                                <lb n="T08n0235_0751b01" ed="T"/>羅三藐三菩提，扵是中無實無虛。是故如<lb n="T08n0235_0751b02" ed="T"/>来說：‘一切法皆是佛法。’ 須</supplied>
+                            <lb n="46"/>菩<milestone facs="115,34"/>
+                            <supplied source="T_235">提</supplied>！<g>所</g>言一切法<lb n="T08n0235_0751b03" ed="T"/>者，即非一切法，是故名一切法。
+                            <g>須</g>菩提！<g>譬</g>
+                            <lb n="T08n0235_0751b04" ed="T"/>如人身長大。” <g>須</g>菩<milestone facs="110,164"/>
+                            提<supplied source="T_235">言：“世尊！如来說人身<lb n="T08n0235_0751b05" ed="T"/>長大，則為非大身，是名大身。”
+                                “須菩提！菩薩<lb n="T08n0235_0751b06" ed="T"/>亦如是。若作是言‘我當滅度無量衆生’，則<lb n="T08n0235_0751b07" ed="T"/>不名菩薩。何以故？須菩提！實無有法名<lb n="T08n0235_0751b08" ed="T"/>為菩</supplied>
+                            <lb n="47"/>
+                            <g>薩</g>。是故<g>佛</g>
+                            <milestone facs="109,46"/>
+                            <g>說</g>：‘一<supplied source="T_235">切</supplied>法無我、無人、無衆生、 <lb n="T08n0235_0751b09" ed="T"/>無<g>壽</g>者。’
+                                <g>須</g>菩提！<supplied source="T_235">若</supplied>菩薩作是言：‘我<milestone facs="106,155"/>當<g>莊</g>
+                            <supplied source="T_235">嚴<lb n="T08n0235_0751b10" ed="T"/>佛土’，是不名菩薩。何以故？如来說莊嚴佛
+                                <lb n="T08n0235_0751b11" ed="T"/>土者，即非莊嚴，是名莊嚴。須菩提！若菩薩<lb n="T08n0235_0751b12" ed="T"/>通達無我法者，如来說名真是菩薩。<lb n="T08n0235_0751b13" ed="T"/>須菩提！扵意云何？如来</supplied>
+                            <lb n="48"/>有肉眼<milestone facs="105,42"/>不？” “如是，<lb n="T08n0235_0751b14" ed="T"/>世尊！如<g>来</g>有肉眼。”
+                            “<g>須</g>菩提！<g>扵</g>意云何？如<g>来</g>
+                            <lb n="T08n0235_0751b15" ed="T"/>有天眼不？” “如是<milestone facs="101,155"/>，<supplied source="T_235">世尊！如来有天眼。” “須菩<lb n="T08n0235_0751b16" ed="T"/>提！扵意云何？如来有慧眼不？” “如是，世尊！
+                                <lb n="T08n0235_0751b17" ed="T"/>如来有慧眼。” “須菩提！扵意云何？如来有法<lb n="T08n0235_0751b18" ed="T"/>眼不？” “如是，世尊！如来有法眼。” “須菩提！扵<lb n="T08n0235_0751b19" ed="T"/>意云何？</supplied>
+                            <lb n="49"/>如<g>来</g>
+                            有佛<milestone facs="99,47"/>眼不？” “如<supplied source="T_235">是</supplied>，世<g>尊</g>！如<g>来</g>
+                            <lb n="T08n0235_0751b20" ed="T"/>有佛眼。”
+                            “<g>須</g>
+                            <g>菩</g>提！<g>扵</g>意云何？恒河中<g>所</g>有<milestone facs="96,150"/>
+                            <supplied source="T_235">
+                                <lb n="T08n0235_0751b21" ed="T"/>沙，佛說是沙不？” “如是，世尊！如来說是沙。” “須
+                                <lb n="T08n0235_0751b22" ed="T"/>菩提！扵意云何？如一恒河中所有沙，有如<lb n="T08n0235_0751b23" ed="T"/>是等恒河，是諸恒河所有沙數佛世界，如<lb n="T08n0235_0751b24" ed="T"/>是寧為多不？” “甚多，世尊！” 佛告</supplied>
+                            <lb n="50"/>
+                            <g>須</g>菩提<milestone facs="95,41"/>：“<g>尒</g>
+                            <g>所</g>
+                            <g>
+                                <lb n="T08n0235_0751b25" ed="T"/>國</g>
+                            <g>圡</g>中，<g>所</g>有<g>衆</g>生，<g>若</g>干種心，如<g>来</g>
+                            <g>悉</g>知。何<supplied source="T_235">以<lb n="T08n0235_0751b26" ed="T"/>故？如</supplied>
+                            <g>来</g>
+                            <g>說</g>
+                            <milestone facs="91,146"/>諸心，<supplied source="T_235">皆為非心，是名為心。所以
+                                <lb n="T08n0235_0751b27" ed="T"/>者何？須菩提！過去心不可得，現在心不可<lb n="T08n0235_0751b28" ed="T"/>得，未来心不可得。<lb n="T08n0235_0751b29" ed="T"/>須菩提！扵意云何？若有人滿三千大千世 <lb n="T08n0235_0751c01" ed="T"/>界七寳以用布施，是人</supplied>
+                            <lb n="51"/>以是<g>囙</g>
+                            <milestone facs="91,41"/>緣，<g>得</g>
+                            <g>福</g>多<lb n="T08n0235_0751c02" ed="T"/>不？”
+                            “如是，世<g>尊</g>！此人以是<g>囙</g>緣，<g>得</g>
+                            <g>福</g>甚<milestone facs="87,123"/>
+                            <supplied source="T_235">多。” <lb n="T08n0235_0751c03" ed="T"/>“須菩</supplied>提！<g>若</g>
+                            <supplied source="T_235">福徳有實，如来不說得福徳多，<lb n="T08n0235_0751c04" ed="T"/>以福徳無故，如来說得福徳多。
+                                <lb n="T08n0235_0751c05" ed="T"/>須菩提！扵意云何？佛可以具足色身見<lb n="T08n0235_0751c06" ed="T"/>不？” “不也，世尊！如来不應以具足色身見。何<lb n="T08n0235_0751c07" ed="T"/>以故？如来說具足</supplied>
+                            <lb n="52"/>色<milestone facs="85,32"/>身，即非具<g>足</g>色身，是<lb n="T08n0235_0751c08" ed="T"/>名具<g>足</g>色身。”
+                            “<g>須</g>菩提！<g>扵</g>意云何<milestone facs="82,123"/>？<supplied source="T_235">如来可以<lb n="T08n0235_0751c09" ed="T"/>具足諸相見不？” “不也，世尊！如来不應以
+                                <lb n="T08n0235_0751c10" ed="T"/>具足諸相見。何以故？如来說諸相具足，即<lb n="T08n0235_0751c11" ed="T"/>非具足，是名諸相具足。” “須菩提！汝勿謂如<lb n="T08n0235_0751c12" ed="T"/>来作是念：‘我當有所說法。’
+                                莫作是念。</supplied>
+                            <lb n="53"/>何<milestone facs="80,32"/>以<lb n="T08n0235_0751c13" ed="T"/>故？<g>若</g>人言：‘如<g>来</g>有<g>所</g>
+                            <g>說</g>法’，即為謗<g>佛</g>，不<g>
+                                <lb n="T08n0235_0751c14" ed="T"/>能</g>
+                            <g>解</g>我<g>所</g>
+                            <milestone facs="77,122"/>
+                            <g>說</g>
+                            <supplied source="T_235">故。須菩提！說法者，無法可<lb n="T08n0235_0751c15" ed="T"/>說，是名說法。”</supplied>
+                            <note>《大正藏》本《金剛般若波羅蜜經》（T#235, 8: 751c16－751c19）增六十二字：“<lb n="T08n0235_0751c16" ed="T"/>爾時慧命須菩提白佛言：‘世尊！頗有衆生
+                                <lb n="T08n0235_0751c17" ed="T"/>於未來世聞說是法，生信心不？’ 佛言：‘須<lb n="T08n0235_0751c18" ed="T"/>菩提！彼非衆生，非不衆生。何以故？須菩<lb n="T08n0235_0751c19" ed="T"/>提！衆生，衆生者，如来說非衆生，是名衆生。’”。比較該經現存各種版本，唐代中期以前的鳩摩羅什譯本，寫本和石刻本皆無此六十二字，菩提流支譯本（535）則具有。據孔澤<ref type="biblio" target="Conze1957">第53－54頁</ref>以及<ref type="biblio" target="Conze1958">第61頁</ref>，梵文本有此段經文。由此推斷，大約在唐代晚期，極有可能根據梵文本，鳩摩羅什譯本中加入了這段菩提流支所譯的經文。</note>
+                            <supplied source="T_235">
+                                <lb n="T08n0235_0751c20" ed="T"/>須菩提白佛言：“世尊！佛得阿耨多羅三藐<lb n="T08n0235_0751c21" ed="T"/>三菩提，為無所得耶？” “如是如是！須菩提！
+                                <lb n="T08n0235_0751c22" ed="T"/>我扵阿耨多羅三藐三菩提乃至無有少法<lb n="T08n0235_0751c23" ed="T"/>可</supplied>
+                            <note type="ref">Die 62 Zeichen sollen hier nicht bestehen, weil es ca.
+                                85/86 Zeichen in jeder Reihe gibt. Siehe note oben.</note>
+                            <lb n="54"/>
+                            <g>得</g>
+                            <milestone facs="75,32"/>，是名阿<g>耨</g>多羅三<g>藐</g>三<g>菩</g>提。<lb n="T08n0235_0751c24" ed="T"/>復<supplied source="T_235">次</supplied>，<g>須</g>菩提！是法平<milestone facs="72,118"/>
+                            <supplied source="T_235">等，無有高下，是名阿<lb n="T08n0235_0751c25" ed="T"/>耨多羅三藐三菩提；以無我、無人、無衆生、無
+                                <lb n="T08n0235_0751c26" ed="T"/>壽者，修一切善法，則得阿耨多羅三藐三菩<lb n="T08n0235_0751c27" ed="T"/>提。須菩提！所言善法者，如来說非善法，<lb n="T08n0235_0751c28" ed="T"/>是名善法。<lb n="T08n0235_0751c29" ed="T"/>須菩提！若三</supplied>
+                            <lb n="55"/>千<milestone facs="70,32"/>大千世<g>界</g>中<g>所</g>有諸<g>須</g>
+                            <g>弥</g>山<supplied source="T_235">
+                                <lb n="T08n0235_0752a01" ed="T"/>王，如</supplied>是<g>等</g>七<g>寳</g>聚，有<milestone facs="67,118"/>
+                            <supplied source="T_235">人持用布施，若人以<lb n="T08n0235_0752a02" ed="T"/>此《般若波羅蜜經》，乃至四句偈等，受持讀誦、
+                                <lb n="T08n0235_0752a03" ed="T"/>為他人說，扵前福徳百分不及一，百千<lb n="T08n0235_0752a04" ed="T"/>萬億分，乃至算數譬喻所不能及。<lb n="T08n0235_0752a05" ed="T"/>須菩提！扵意云何？汝等勿謂如来作是</supplied>
+                            <lb n="56"/>念<milestone facs="65,32"/>： <lb n="T08n0235_0752a06" ed="T"/>‘我當度<g>衆</g>生。’
+                            <g>須</g>
+                            <g>菩</g>提！莫作是<supplied source="T_235">念。</supplied>何以故？<lb n="T08n0235_0752a07" ed="T"/>實無有<g>衆</g>
+                            <milestone facs="62,118"/>
+                            <supplied source="T_235">生如来度者。若有衆生如来度<lb n="T08n0235_0752a08" ed="T"/>者，如来則有我、人、衆生、壽者。須菩提！如来
+                                <lb n="T08n0235_0752a09" ed="T"/>說有我者，則非有我，而凡夫之人以為有<lb n="T08n0235_0752a10" ed="T"/>我。須菩提！凡夫者，如来說則非凡夫。<lb n="T08n0235_0752a11" ed="T"/>須菩提！扵意云何？可</supplied>
+                            <lb n="57"/>以<milestone facs="60,31"/>三十二相觀如<g>
+                                <lb n="T08n0235_0752a12" ed="T"/>来</g>不？”
+                                <g>須</g>菩提<supplied source="T_235">言：“如</supplied>是如是！以三十二<milestone facs="57,123"/>
+                            <supplied source="T_235">相<lb n="T08n0235_0752a13" ed="T"/>觀如来。” 佛言：“須菩提！若以三十二相觀<lb n="T08n0235_0752a14" ed="T"/>如来者，轉輪聖王則是如来。” 須菩提白佛
+                                <lb n="T08n0235_0752a15" ed="T"/>言：“世尊！如我解佛所說義，不應以三十<lb n="T08n0235_0752a16" ed="T"/>二相觀如来。” 尒時，世尊而說偈言：<lb n="T08n0235_0752a17" ed="T"/>“若以色見我，</supplied>
+                            <lb n="58"/>以<milestone facs="55,31"/>音<g>聲</g>求我， <lb n="T08n0235_0752a18" ed="T"/>是人行<g>耶</g>
+                            <note>“<g>耶</g>”，通“邪”。《大正藏》本作“邪”。</note>道， 不<g>能</g>見<supplied source="T_235">如</supplied>
+                            <g>来</g>。” <lb n="T08n0235_0752a19" ed="T"/>“<g>須</g>菩提！汝<g>若</g>作<milestone facs="52,123"/>
+                            <supplied source="T_235">是念：如来不以具足相故，</supplied>
+                            <lb n="T08n0235_0752a20" ed="T"/>得阿<supplied source="T_235">耨多羅三藐三菩提。須菩提！莫作是<lb n="T08n0235_0752a21" ed="T"/>念。如来不以具足相故，得阿耨多羅三藐<lb n="T08n0235_0752a22" ed="T"/>三菩提。
+                                須菩提！汝若作是念：發阿耨多羅<lb n="T08n0235_0752a23" ed="T"/>三藐三菩提者，說</supplied>
+                            <lb n="59"/>諸<milestone facs="50,31"/>法<g>断</g>
+                            <g>滅</g>。<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_235" type="textcritical">相</rdg>
+                            </app>莫<supplied source="T_235">作</supplied>是<g>
+                                <lb n="T08n0235_0752a24" ed="T"/>念</g>。何以故？<g>發</g>阿耨<supplied source="T_235">多</supplied>羅三<g>藐</g>三菩<milestone facs="47,118"/>
+                            <supplied source="T_235">提心者，<lb n="T08n0235_0752a25" ed="T"/>扵法不說斷滅相。須菩提！若菩薩以滿恒<lb n="T08n0235_0752a26" ed="T"/>河沙等世界七寳布施，若復有人知一切
+                                <lb n="T08n0235_0752a27" ed="T"/>法無我，得成扵忍，此菩薩勝前菩薩所得<lb n="T08n0235_0752a28" ed="T"/>功徳。須菩提！以諸菩薩不受福徳故。”</supplied>
+                            <lb n="60"/>
+                            <g>須</g>
+                            <milestone facs="44,31"/>
+                            <g>
+                                <lb n="T08n0235_0752a29" ed="T"/>菩</g>提白<g>佛</g>言：“世<g>尊</g>！云何菩<g>薩</g>不受<supplied source="T_235">福</supplied>
+                            <g>徳</g>？” “<g>須</g>
+                            <lb n="T08n0235_0752b01" ed="T"/>菩提！菩<milestone facs="42,118"/>
+                            <supplied source="T_235">薩所作福徳，不應貪著，是故說不<lb n="T08n0235_0752b02" ed="T"/>受福徳。<lb n="T08n0235_0752b03" ed="T"/>須菩提！若有人言‘如来若来若去、若坐若
+                                <lb n="T08n0235_0752b04" ed="T"/>臥’，是人不解我所說義。何以故？如来者，無<lb n="T08n0235_0752b05" ed="T"/>所從来，亦無所去，故名如来。<lb n="T08n0235_0752b06" ed="T"/>須菩提！若善男</supplied>
+                            <lb n="61"/>子<milestone facs="40,31"/>、善女人以三千大千世<g>界</g>
+                            <lb n="T08n0235_0752b07" ed="T"/>碎為<g>微</g>
+                            <supplied source="T_235">塵，</supplied>
+                            <g>扵</g>意云何？是<milestone facs="36,118"/>
+                            <supplied source="T_235">微塵衆寧為多不？”
+                                <lb n="T08n0235_0752b08" ed="T"/>“甚多，世尊！何以故？若是微塵衆實有者，佛<lb n="T08n0235_0752b09" ed="T"/>則不說是微塵衆。所以者何？佛說微塵衆，<lb n="T08n0235_0752b10" ed="T"/>則非微塵衆，是名微塵衆。世尊！如来所說
+                                <lb n="T08n0235_0752b11" ed="T"/>三千大千世界，則非世界，是</supplied>
+                            <lb n="62"/>名<milestone facs="35,31"/>世<g>界</g>。何以<lb n="T08n0235_0752b12" ed="T"/>故？<g>若</g>世<g>界</g>實有者，則是一合相。如<g>来</g>
+                            <g>說</g>一合<milestone facs="31,125"/>
+                            <supplied source="T_235">
+                                <lb n="T08n0235_0752b13" ed="T"/>相，則非一合相，是名一合相。” “須菩提！一合<lb n="T08n0235_0752b14" ed="T"/>相者，則是不可說，但凡夫之人貪著其事。
+                                <lb n="T08n0235_0752b15" ed="T"/>須菩提！若人言‘佛說我見、人見、衆生見、壽者 <lb n="T08n0235_0752b16" ed="T"/>見。’ 須菩提！扵意云何？是人解我所說義</supplied>
+                            <lb n="63"/>
+                            <lb n="T08n0235_0752b17" ed="T"/>不<milestone facs="30,30"/>？”“<app>
+                                <lem wit="Scan1">不也</lem>
+                                <rdg wit="T_235" type="textcritical"/>
+                            </app>，世<g>尊</g>！是人不<g>解</g>如<g>来</g>
+                            <g>所</g>
+                            <g>說</g>
+                            <g>義</g>。何以故？<lb n="T08n0235_0752b18" ed="T"/>世尊<g>說</g>
+                            <milestone facs="26,117"/>我<supplied source="T_235">見、人見、衆生見、壽者見，即非我見、
+                                <lb n="T08n0235_0752b19" ed="T"/>人見、衆生見、壽者見，是名我見、人見、衆生見、 <lb n="T08n0235_0752b20" ed="T"/>壽者見。” “須菩提！發阿耨多羅三藐三菩提心<lb n="T08n0235_0752b21" ed="T"/>者，扵一切法，應如是知，如是見，如是信解，
+                                <lb n="T08n0235_0752b22" ed="T"/>不生</supplied>
+                            <lb n="64"/>法<milestone facs="25,31"/>相。<g>須</g>
+                            <g>菩</g>提！<g>所</g>言法相者，如<g>来</g>
+                            <g>說</g>即<lb n="T08n0235_0752b23" ed="T"/>非法相，是<milestone facs="22,109"/>
+                            <supplied source="T_235">名法相。須菩提！若有人以滿<lb n="T08n0235_0752b24" ed="T"/>無量阿僧祇世界七寳持用布施，若有善男
+                                <lb n="T08n0235_0752b25" ed="T"/>子、善女人發菩薩心者，持扵此經，乃至四<lb n="T08n0235_0752b26" ed="T"/>句偈等，受持讀誦，為人演說，其福勝彼。云何<lb n="T08n0235_0752b27" ed="T"/>為人演說？不取扵</supplied>
+                            <lb n="65"/>相<milestone facs="20,31"/>，如如不動。何以故？<lb n="T08n0235_0752b28" ed="T"/>一切有為法，
+                            如夢幻泡影，<supplied source="T_235">
+                                <lb n="T08n0235_0752b29" ed="T"/>如</supplied>露<milestone facs="17,118"/>
+                            <supplied source="T_235">亦如電，應作如是觀。” <lb n="T08n0235_0752b30" ed="T"/>佛說是經已，長老須菩提及諸比丘、比丘尼、
+                                <lb n="T08n0235_0752c01" ed="T"/>優婆塞、優婆夷，一切世間天、人、阿修羅，聞佛  <lb n="T08n0235_0752c02" ed="T"/>所說，皆大歡喜，信受奉行。</supplied>
+                            <supplied source="T_235">
+                                <title type="chapter">［金剛般若波羅蜜  <lb n="T08n0235_0752c03" ed="T"/>經］</title>
+                            </supplied>
+                        </seg>
+                    </ab>
+                    <ab>
+                        <abbr>經文校對：項目研究組；布局復原校記：蔡穗玲</abbr>
+                    </ab>
+                </div>
       </div>
       <div type="bibliography">
-        <listBibl>
-          <bibl type="canonical"><idno type="taisho">T_235</idno><citedRange>748c18–752c3</citedRange></bibl>
-        </listBibl>
+        <listBibl><bibl type="canonical"><idno type="taisho">T_235</idno><citedRange>748c18–752c3</citedRange></bibl></listBibl>
       </div>
     </body>
   </text>

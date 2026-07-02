@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — the Consecration Sutra (灌頂經, T 1331), juan 12: the sibling record of
-     juan 11, joined by @prev on <text>. See WFY_33_d_e_Consecration.xml for the cross-wall
-     pattern notes. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WFY33_Consecration_12">
   <teiHeader>
     <fileDesc>
@@ -27,27 +24,13 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Juan 12 of the Consecration Sutra (T 1331), carved across walls
-              d and e of Cave 33; continues juan 11 (see the @prev join).</summary>
+            <summary xml:lang="en">Juan 12 of the Consecration Sutra (T 1331), carved across walls d and e of Cave 33; continues juan 11 (see the @prev join).</summary>
             <msItem>
               <title xml:lang="zh">灌頂經（卷十二）</title>
               <title xml:lang="en">Consecration Sutra, juan 12</title>
               <textLang mainLang="lzh"/>
             </msItem>
           </msContents>
-          <physDesc>
-            <objectDesc>
-              <supportDesc>
-                <support>
-                  <objectType ana="#object.cave-wall">
-                    <term xml:lang="zh">窟壁</term>
-                    <term xml:lang="en">cave wall</term>
-                  </objectType>
-                  <!-- script-field dimensions: EMPTY upstream — absent here -->
-                </support>
-              </supportDesc>
-            </objectDesc>
-          </physDesc>
           <history>
             <origin>
               <origPlace>
@@ -56,6 +39,7 @@
             </origin>
           </history>
         </msDesc>
+        <bibl>transcription from <ptr target="sutras:docs/Anyue/WFY_33_Consecration_12.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -74,12 +58,651 @@
   <text prev="WFY_33_d_e_Consecration.xml">
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Anyue/WFY_33_Consecration_12.xml"/></ab>
+        <listWit>
+    <witness xml:id="T_1331"><bibl><ptr target="T_1331"/></bibl></witness>
+    <witness xml:id="Scan1"><bibl><ptr target="h_33_w_d_mosaic_proc.tif"/></bibl></witness>
+    <witness xml:id="Scan2"><bibl><ptr target="h_33_w_e_mosaic_proc.tif"/></bibl></witness>
+    <witness xml:id="R_YJY_31"><bibl><ptr target="Sassmann 31.jpg"/></bibl></witness>
+  </listWit>
+  <lb n="T21n1331_0532b07" ed="T"/>
+                <head>《佛說灌頂拔除過罪生死得度經》</head>
+                <div>
+                    <head>33號窟<foreign xml:lang="en">d</foreign> 壁 <foreign xml:lang="en">Cave 33, wall d</foreign>
+                    </head>
+                    <ab>
+                        <milestone unit="juan" n="12"/>
+                        <seg n="WFY_33_d" rend="rl">
+                            <lb n="1"/>
+                            <lb n="T21n1331_0532b07" ed="T"/>
+                            <title type="chapter">［<supplied source="T_1331">佛說灌頂拔除過罪生</supplied>］
+                            </title>
+                            <title type="chapter">死得</title>
+                            <title type="chapter">
+                                <supplied source="T_1331">［度］</supplied>
+                            </title>
+                            <title type="chapter">經</title>
+                            <note>此處風化嚴重，文字漶漫，石窟壁上只能見“死得”與“經”三字。根據以下經文內容及經名所存三字判斷，此處刻經為《灌頂經》卷十二“佛說灌頂拔除過罪生死得度經”，經名錄文據此補充。以下錄文根據石窟壁上刻經轉錄，並以《大正藏》本《灌頂經》卷十二（T#1331, 21: 532b7－536b6）對勘補充。文字存異之處，腳註出校。關於字形與補充文字的處理，詳見本卷卷首“凡例”。《大正藏》本經名後有“卷第十二”四字，此壁第四十八行“佛說灌頂随願往生十方淨圡經”經名後未刻“卷第十一”，此處錄文據此不錄。臥佛院尚存的經文開篇皆未刻譯者，此處錄文據此亦不錄。《大正藏》本卷端下署“東晉天竺三藏帛尸梨蜜多羅譯”。</note>
+                            <lb n="T21n1331_0532b08" ed="T"/>
+                            <lb n="2"/>
+                            <lb n="T21n1331_0532b11" ed="T"/>
+                            <supplied source="T_1331">聞如是：一時<note>有關“如是我聞一時”梵文語法的斷句問題，見船山徹<ref target="Funayama2007" type="biblio"/>。</note>佛遊維耶</supplied>離<supplied source="T_1331">音樂樹下，與八千<lb n="T21n1331_0532b12" ed="T"/>比</supplied>丘<g>衆</g>、<supplied source="T_1331">菩薩三萬六千人俱，國王、大臣、人民<lb n="T21n1331_0532b13" ed="T"/>及諸天龍八部、鬼神</supplied>共會<g>說</g>
+                            <milestone facs="410,213"/>法。<g>扵</g>是文殊<g>師</g>
+                            <lb n="T21n1331_0532b14" ed="T"/>利<supplied source="T_1331">法</supplied>王子菩薩摩訶薩承佛威神<g>從</g>
+                            <g>坐</g>
+                            <note>石刻本共有三處“<g>坐</g>”字可辨，《大正藏》本皆作“座”，以下不再贅列。</note> 而<g>起</g>，<milestone facs="409,307"/>
+                            <lb n="T21n1331_0532b15" ed="T"/>長跪叉手前白佛言：“世尊！<g>願</g>為未<g>来</g>像法<g>衆</g>
+                            <lb n="T21n1331_0532b16" ed="T"/>生宣揚顯<g>說</g>
+                            <milestone facs="409,395"/>往昔過去諸佛名字及清<g>淨</g>
+                            <g>國</g>
+                            <lb n="T21n1331_0532b17" ed="T"/>
+                            <g>圡</g>
+                            <g>莊</g>
+                            <g>嚴</g>
+                            <milestone facs="410,455"/>之事。 <lb n="3"/>
+                            <supplied source="T_1331">願為解說，得聞法要。”<lb n="T21n1331_0532b18" ed="T"/>佛</supplied>告文<supplied source="T_1331">殊師利：“善哉！善哉！汝大慈无量，愍念<lb n="T21n1331_0532b19" ed="T"/>罪苦一切衆生，問此往昔諸佛名字及國圡<lb n="T21n1331_0532b20" ed="T"/>清淨</supplied>
+                            <g>莊</g>
+                            <g>嚴</g>
+                            <milestone facs="404,214"/>之事。利益一切<g>无</g>量<g>衆</g>生，度諸危<lb n="T21n1331_0532b21" ed="T"/>厄，令得<g>安</g>
+                            <g>隱</g>。汝今諦聽諦受<milestone facs="405,308"/>！善思<g>念</g>之！吾當<lb n="T21n1331_0532b22" ed="T"/>為汝<g>分</g>別<g>說</g>之。”<g>衆</g>
+                            <g>坐</g>諸<g>菩</g>
+                            <g>薩</g>摩訶<g>薩</g>
+                            <g>无</g>
+                            <milestone facs="405,389"/>
+                            <g>鞅</g>
+                            <note>石刻本共有四處“<g>鞅</g>”字可辨，《大正藏》本皆作“央”，以下不再贅列。</note>
+                            <g>數</g>
+                            <lb n="T21n1331_0532b23" ed="T"/>
+                            <g>衆</g>及諸應真國王、長者、大臣、人民、天、<g>龍</g>、
+                            <g>鬼</g>、神<milestone facs="406,463"/>、<lb n="4"/>
+                            <lb n="T21n1331_0532b24" ed="T"/>
+                            <supplied source="T_1331">四輩弟</supplied>子<supplied source="T_1331">皆各默然，聽</supplied>佛<g>所</g>
+                            <milestone facs="400,78"/>
+                            <supplied source="T_1331">說，莫不歡喜，一<lb n="T21n1331_0532b25" ed="T"/>心樂聞。
+                                <lb n="T21n1331_0532b26" ed="T"/>佛告文殊師利：“東方去此佛剎十恒河沙世<lb n="T21n1331_0532b27" ed="T"/>界，有佛名曰藥師琉璃光</supplied>如<milestone facs="399,210"/>
+                            <g>来</g>，<g>无</g>
+                            <g>所</g>
+                            <g>著</g>、至真、<lb n="T21n1331_0532b28" ed="T"/>等正覺、明行<g>足</g>、善逝、世<g>閒</g>
+                            <g>解</g>、
+                            <g>无</g>上<milestone facs="400,282"/>士、調<g>御</g>丈夫、<lb n="T21n1331_0532b29" ed="T"/>天人<g>師</g>、佛、世尊，度<g>脫</g>生、老、病、<g>死</g>、
+                                <g>苦</g>患<milestone facs="400,352"/>。此藥<g>師</g>
+                            <lb n="T21n1331_0532c01" ed="T"/>
+                            <g>琉</g>
+                            <g>璃</g>光本<g>所</g>
+                            <g>脩</g>行<g>菩</g>
+                            <g>薩</g>道時，<g>發</g>心自誓行十<milestone facs="400,426"/>
+                            <lb n="T21n1331_0532c02" ed="T"/>二上<g>願</g>，令一切<g>衆</g>生<g>所</g>求<g>皆</g>
+                            <lb n="5"/>
+                            <supplied source="T_1331">得。<lb n="T21n1331_0532c03" ed="T"/>第一願者，使我来世得</supplied>作<milestone facs="394,76"/>佛<supplied source="T_1331">時，
+                                自身光明普<lb n="T21n1331_0532c04" ed="T"/>照十方，三十二相、八十種好而自莊嚴，令一<lb n="T21n1331_0532c05" ed="T"/>切衆生如我无異。<lb n="T21n1331_0532c06" ed="T"/>第二願者，使我来世</supplied>自身<milestone facs="394,214"/>猶如<g>琉</g>
+                            <note>石刻本共有十六處“<g>琉</g>”字可辨，《大正藏》本皆作“瑠”，以下不再贅列。</note>璃，內外明<lb n="T21n1331_0532c07" ed="T"/>徹，淨<supplied source="T_1331">无瑕穢，</supplied>妙色廣大，<g>功</g>
+                            <g>徳</g>
+                            <g>巍</g>
+                            <milestone facs="395,282"/>
+                            <g>巍</g>。<g>安</g>住十方<lb n="T21n1331_0532c08" ed="T"/>如日照世，幽<g>冥</g>
+                            <g>衆</g>生悉蒙開<g>曉</g>。<lb n="T21n1331_0532c09" ed="T"/>
+                            <g>第</g>三<milestone facs="395,349"/>
+                            <g>願</g>者，使我<g>来</g>世智<g>慧</g>廣大，如海<g>无</g>窮，潤<lb n="T21n1331_0532c10" ed="T"/>澤枯涸，<g>无</g>量<g>衆</g>
+                            <milestone facs="394,427"/>生，普使蒙益。<g>悉</g>令飽<g>滿</g>， <lb n="6"/>
+                            <supplied source="T_1331">无飢<lb n="T21n1331_0532c11" ed="T"/>渴想，甘食美饍，悉</supplied>持施與<milestone facs="389,81"/>。 <lb n="T21n1331_0532c12" ed="T"/>
+                            <supplied source="T_1331">第四願者，
+                                使我来世佛道成就，巍巍堂堂，如<lb n="T21n1331_0532c13" ed="T"/>星中之月，消除生死之雲，令无有翳。明照</supplied>世<milestone facs="390,213"/>
+                            <lb n="T21n1331_0532c14" ed="T"/>界，行者見道，熱得清涼，<supplied source="T_1331">解</supplied>除垢<g>穢</g>。
+                            <lb n="T21n1331_0532c15" ed="T"/>
+                            <g>第</g>五<g>願</g>者，使我<g>来</g>世<g>發</g>大<milestone facs="390,304"/>精進，<g>淨</g>持<g>戒</g>地，令<lb n="T21n1331_0532c16" ed="T"/>
+                            <g>无</g>濁<g>穢</g>。慎護<g>所</g>受，令<g>无</g>
+                            <g>缺</g>犯<milestone facs="390,374"/>。<g>亦</g>令一切<g>戒</g>行<lb n="T21n1331_0532c17" ed="T"/>具<g>足</g>，堅持不犯，至<g>无</g>為道。<lb n="T21n1331_0532c18" ed="T"/>
+                            <g>第</g>六<g>願</g>
+                            <milestone facs="391,444"/>者，<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">使我来世</rdg>
+                            </app>
+                            <g>若</g>有<g>衆</g>生 <lb n="7"/>
+                            <supplied source="T_1331">諸根毀</supplied>敗，<milestone facs="384,51"/>盲<lb n="T21n1331_0532c19" ed="T"/>
+                            <supplied source="T_1331">者使</supplied>視，<supplied source="T_1331">䏊者</supplied>能聽，啞<supplied source="T_1331">者得語，軁者能申，跛<lb n="T21n1331_0532c20" ed="T"/>者能行，如是不完具者，悉令具足。<lb n="T21n1331_0532c21" ed="T"/>第七願者，使我来世</supplied>十方<supplied source="T_1331">世界，</supplied>
+                            <g>若</g>有<g>苦</g>
+                            <milestone facs="385,223"/>
+                            <g>惱</g>
+                            <g>无</g>
+                            <lb n="T21n1331_0532c22" ed="T"/>救護者，我<supplied source="T_1331">為</supplied>此<g>等</g>
+                            <app>
+                                <lem wit="Scan1">
+                                    <g>設</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">攝</rdg>
+                            </app>大法藥，令諸疾病<g>皆</g>得<lb n="T21n1331_0532c23" ed="T"/>除愈<milestone facs="385,305"/>，<g>无</g>復<g>苦</g>患，至得佛道。<lb n="T21n1331_0532c24" ed="T"/>
+                            <g>第</g>八<g>願</g>者，使我<g>来</g>世以<g>善</g>業<g>囙</g>
+                            <g>緣</g>，
+                            <milestone facs="386,386"/>為諸愚<g>冥</g>
+                            <lb n="T21n1331_0532c25" ed="T"/>
+                            <g>无</g>量<g>衆</g>生講宣妙法，令得<g>度</g>
+                            <g>脫</g>，入智<g>慧</g>門<milestone facs="386,463"/>， <lb n="8"/>
+
+                            <supplied source="T_1331">普</supplied> <lb n="T21n1331_0532c26" ed="T"/>使明了<milestone facs="379,51"/>
+                            <g>无</g>諸<g>疑</g>惑。  <lb n="T21n1331_0532c27" ed="T"/>
+                            <supplied source="T_1331">第</supplied>九<g>願</g>者，使<milestone facs="380,86"/>我<supplied source="T_1331">来世摧伏惡魔及諸外道，顯 <lb n="T21n1331_0532c28" ed="T"/>揚清淨，无上道法，使入正真，无諸邪僻，迴向 <lb n="T21n1331_0532c29" ed="T"/>菩提，八正覺路。
+                                <lb n="T21n1331_0533a01" ed="T"/>第</supplied>十<g>願</g>者，<supplied source="T_1331">使</supplied>我<g>来</g>世若有<milestone facs="380,257"/>
+                            <g>衆</g>生王法<g>所</g>加，臨 <lb n="T21n1331_0533a02" ed="T"/>當刑戮，<g>无</g>量怖畏，愁憂<g>苦</g>
+                            <g>惱</g>，<g>若</g>復鞭<milestone facs="381,336"/>
+                            <app>
+                                <lem wit="Scan1">韃，</lem>
+                                <rdg wit="T_1331" type="textcritical">撻</rdg>
+                            </app>枷<g>鎖</g>
+                            <lb n="T21n1331_0533a03" ed="T"/>其<g>軆</g>，種種<g>恐</g>懼，<g>逼</g>切其身，如是<g>无</g>
+                            <app>
+                                <lem wit="Scan1">
+                                    <g>邊</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">量</rdg>
+                            </app>諸<g>苦</g>
+                            <milestone facs="381,407"/>
+                            <lb n="T21n1331_0533a04" ed="T"/>
+                            <g>惱</g>
+                            <g>等</g>，<g>悉</g>令<g>解</g>
+                            <g>脫</g>， <g>无</g>有<g>衆</g>
+                            <g>難</g>。<lb n="T21n1331_0533a05" ed="T"/>
+                            <g>第</g>十一<g>願</g>者，<lb n="9"/>使我<g>来</g>世<g>若</g>
+                            <milestone facs="375,53"/>有<g>衆</g>生<supplied source="T_1331">飢</supplied>火<g>所</g>
+                            <g>惱</g>，<lb n="T21n1331_0533a06" ed="T"/>令得種種甘<supplied source="T_1331">美飲食，天諸餚饍，種種无數，悉<lb n="T21n1331_0533a07" ed="T"/>以</supplied>賜<milestone facs="374,153"/>
+                            <supplied source="T_1331">與，令身充足。<lb n="T21n1331_0533a08" ed="T"/>第十二願者，使我来世若有貧、凍、</supplied>裸露<g>衆</g>
+                            <supplied source="T_1331">生，<lb n="T21n1331_0533a09" ed="T"/>即</supplied>得<supplied source="T_1331">衣服。
+                                窮</supplied>乏<milestone facs="375,259"/>之者，施以<g>珎</g>
+                            <g>寳</g>，倉庫盈溢，<g>无</g>
+                            <milestone facs="375,300"/>
+                            <lb n="T21n1331_0533a10" ed="T"/>
+                            <g>所</g>乏少。一切<g>皆</g>受<g>无</g>量快樂，乃至<g>无</g>有一人<lb n="T21n1331_0533a11" ed="T"/>受<g>苦</g>。使諸<g>衆</g>生<milestone facs="375,377"/>和顏<g>悅</g>色，<g>形</g>
+                            <g>貌</g>端<g>嚴，</g>人<g>所</g>
+                            <g>喜</g>
+                            <note>“<g>喜</g>”，通“憙”。《大正藏》本作“憙”。</note>
+                            <lb n="T21n1331_0533a12" ed="T"/>見。琴瑟<g>鼓</g>吹如是<g>无</g>量<g>最</g>上<milestone facs="376,456"/>音聲，<lb n="10"/>施與一<milestone facs="370,45"/>切<lb n="T21n1331_0533a13" ed="T"/>
+                            <g>无</g>量<g>衆</g>生，是為十二<g>微</g>
+                            <g>妙</g>上<g>願</g>。”<lb n="T21n1331_0533a14" ed="T"/>佛告<milestone facs="370,97"/>文<supplied source="T_1331">殊師利：“此藥師琉璃光佛本願功徳</supplied>
+                            <lb n="T21n1331_0533a15" ed="T"/>如<milestone facs="370,153"/>是。<supplied source="T_1331">我今為汝略說其國莊嚴之事。此藥師<lb n="T21n1331_0533a16" ed="T"/>琉璃光如来國圡清淨，无五</supplied>濁，<g>无</g>
+                            <milestone facs="370,257"/>愛欲，<g>无</g>意<lb n="T21n1331_0533a17" ed="T"/>垢。以白銀<g>琉</g>璃為地，<g>宮</g>殿樓閣<g>悉</g>用七<g>寳</g>
+                            <milestone facs="370,326"/>。<g>亦</g>
+                            <lb n="T21n1331_0533a18" ed="T"/>如西方<g>无</g>量<g>壽</g>國，<g>无</g>有異也。有二菩<g>薩</g>，一名<lb n="T21n1331_0533a19" ed="T"/>日<g>曜</g>，
+                            <milestone facs="371,391"/>二名月<g>淨</g>，是二<g>菩</g>
+                            <g>薩</g>次補<g>佛</g>
+                            <g>處</g>。諸<g>善</g>
+                            <g>男</g>
+                            <lb n="T21n1331_0533a20" ed="T"/>子及<g>善</g>女人<milestone facs="371,460"/>
+                            <g>亦</g>
+                            <lb n="11"/>當<milestone facs="365,40"/>
+                            <g>願</g>生彼<g>國</g>
+                            <g>圡</g>也。”文殊<g>師</g>
+                            <lb n="T21n1331_0533a21" ed="T"/>利白<g>佛</g>言：“<g>唯</g>
+                            <g>願</g>演<g>說</g>
+                            <milestone facs="365,101"/>
+                            <supplied source="T_1331">藥師琉璃光如来无量<lb n="T21n1331_0533a22" ed="T"/>功徳，饒益</supplied>
+                            <g>衆</g>生，<milestone facs="365,159"/>令<supplied source="T_1331">得佛道。”
+                                <lb n="T21n1331_0533a23" ed="T"/>佛言：“若有男子、女人新破衆魔，来入正道，得<lb n="T21n1331_0533a24" ed="T"/>聞我說是藥</supplied>
+                            <g>師</g>
+                            <g>琉</g>
+                            <milestone facs="365,256"/>璃光如<g>来</g>名字者，<g>魔</g>家眷<lb n="T21n1331_0533a25" ed="T"/>
+                            <g>属</g>退<g>散</g>馳走。如是<g>无</g>量拔<g>衆</g>生<g>苦</g>
+                            <milestone facs="366,333"/>，我今<g>說</g>之。”
+                            <lb n="T21n1331_0533a26" ed="T"/>佛告文殊<g>師</g>利：“世間有人不<g>解</g>罪、<g>福</g>、慳貪，<milestone facs="366,399"/>不<lb n="T21n1331_0533a27" ed="T"/>知布施今世後世當得其<g>福</g>。世人愚癡，但知<lb n="T21n1331_0533a28" ed="T"/>貪<milestone facs="366,462"/>
+                            <lb n="12"/>惜，<g>寧</g>自<g>割</g>身肉而<g>噉</g>食之<milestone facs="360,70"/>，不肯持錢財布<lb n="T21n1331_0533a29" ed="T"/>施，求<g>後</g>世<supplied source="T_1331">之福。世又有人身不衣食，此大慳<lb n="T21n1331_0533b01" ed="T"/>貪，</supplied>命<milestone facs="360,157"/>終<supplied source="T_1331">已後，當墮餓鬼及在畜生中。聞我<lb n="T21n1331_0533b02" ed="T"/>說是藥師琉璃光如来名字之</supplied>時，<milestone facs="360,255"/>
+                            <g>无</g>不<g>解</g>
+                            <g>脫</g>
+                            <lb n="T21n1331_0533b03" ed="T"/>憂<g>苦</g>者也，<g>皆</g>作信心，貪福畏罪。人<g>從</g>
+                            <milestone facs="361,319"/>索頭與<lb n="T21n1331_0533b04" ed="T"/>頭，索眼與眼，乞妻與妻，匃子與子，求金銀<milestone facs="361,384"/>
+                            <g>珎</g>
+                            <lb n="T21n1331_0533b05" ed="T"/>
+                            <g>寳</g>，
+                            <g>皆</g>大布施。一時<g>歡</g>喜，即<g>發</g>
+                            <g>无</g>上<g>正</g>真道意。”<lb n="T21n1331_0533b06" ed="T"/>佛言<milestone facs="361,454"/>：“ <g>若</g>復 <lb n="13"/>有人受<g>佛</g>
+                            <g>淨</g>
+                            <g>戒</g>
+                            <milestone facs="354,56"/>，<g>遵</g>奉<g>眀</g>法，不<g>解</g>罪<lb n="T21n1331_0533b07" ed="T"/>
+                            <g>福</g>。<app>
+                                <lem wit="Scan1">
+                                    <g>唯</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">雖</rdg>
+                            </app>知<g>眀</g>
+                            <g>經</g>，不及中<milestone facs="354,106"/>義，<supplied source="T_1331">不能分別曉了中<lb n="T21n1331_0533b08" ed="T"/>事。以自貢高，</supplied>恒常<milestone facs="355,160"/>矒<supplied source="T_1331">憒，乃與世間衆魔從事，
+                                <lb n="T21n1331_0533b09" ed="T"/>更作縛著，不解行之。戀著婦女恩愛之</supplied>情。口<lb n="T21n1331_0533b10" ed="T"/>為<milestone facs="355,261"/>
+                            <g>說</g>空，行在有中。不<g>能</g>
+                            <g>發</g>
+                            <g>覺</g>，復不自知，但能<lb n="T21n1331_0533b11" ed="T"/>論說他人是非。如此人<g>輩</g>，
+                            <g>皆</g>當<g>堕</g>
+                            <milestone facs="356,361"/>三<g>惡</g>道中。<lb n="T21n1331_0533b12" ed="T"/>聞我<g>說</g>是藥<g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光佛本<g>願</g>
+                            <g>功</g>
+                            <milestone facs="356,417"/>
+                            <g>徳</g>，
+                            <g>无</g>
+                            <supplied source="T_1331">不歡<lb n="T21n1331_0533b13" ed="T"/>喜，念欲捨</supplied>家，行作沙門
+                            <lb n="14"/>者也<milestone facs="350,43"/>。”
+                            <lb n="T21n1331_0533b14" ed="T"/> <g>佛</g>言：“世<g>閒</g>有人好自<g>稱</g>譽，<g>皆</g>是貢高，當<g>堕</g>
+                            <lb n="T21n1331_0533b15" ed="T"/>三<g>惡</g>道<milestone facs="349,113"/>
+                            <supplied source="T_1331">中。後還為人作牛馬、奴婢，生下</supplied>賤中<lb n="T21n1331_0533b16" ed="T"/>人，當<milestone facs="350,165"/>乘<supplied source="T_1331">其力，負重而行，困苦疲極，亡失人身。
+                                <lb n="T21n1331_0533b17" ed="T"/>聞我</supplied>說<supplied source="T_1331">是藥師瑠璃光佛</supplied>如<milestone facs="350,252"/>
+                            <g>来</g>本<g>願</g>
+                            <g>功</g>
+                            <g>徳</g>者，<lb n="T21n1331_0533b18" ed="T"/>
+                            <g>皆</g>當一心<g>歡</g>喜踊躍，更作<supplied source="T_1331">謙</supplied>敬，即得<g>解</g>
+                            <g>脫</g>
+                            <g>衆</g>
+                            <lb n="T21n1331_0533b19" ed="T"/>
+                            <g>苦</g>之患，長<milestone facs="351,352"/>得歡<supplied source="T_1331">樂，聰明</supplied>智慧，遠離惡道，得生<lb n="T21n1331_0533b20" ed="T"/>善<supplied source="T_1331">處，
+                            </supplied>與<supplied source="T_1331">善知識</supplied>共相值遇，<g>无</g>
+                            <milestone facs="352,445"/>復憂<g>惱</g>，離 <lb n="15"/>諸<g>魔</g>
+                            <milestone facs="345,44"/>
+                            <lb n="T21n1331_0533b21" ed="T"/>
+                            <g>縛</g>。”
+                            <app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">長得安隱</rdg>
+                            </app>
+                            <lb n="T21n1331_0533b22" ed="T"/>
+                            <g>佛</g>言：“世<g>閒</g>愚<g>癡</g>人<g>輩</g>，<g>兩</g>舌<g>鬪</g>諍，<g>惡</g>口罵詈，更<lb n="T21n1331_0533b23" ed="T"/>相<milestone facs="345,114"/>
+                            <supplied source="T_1331">嫌恨。或就山神、樹下鬼神、日</supplied>月之神、南斗<lb n="T21n1331_0533b24" ed="T"/>北<milestone facs="345,174"/>
+                            <supplied source="T_1331">辰諸鬼神所作諸呪誓。
+                                或作人名字，或作<lb n="T21n1331_0533b25" ed="T"/>人形像，或作</supplied>符書，以<milestone facs="346,261"/>相厭禱，<g>呪</g>咀言<g>說</g>。聞我<lb n="T21n1331_0533b26" ed="T"/>
+                            <g>說</g>是藥<g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光<supplied source="T_1331">佛本願</supplied>
+                            <g>功</g>
+                            <milestone facs="346,334"/>
+                            <g>徳</g>，<supplied source="T_1331">无不兩作和
+                                <lb n="T21n1331_0533b27" ed="T"/>解，</supplied>俱<supplied source="T_1331">生慈心，惡意悉滅。各各歡喜，无復</supplied>
+                            <g>惡</g>念<milestone facs="346,418"/>。” <lb n="T21n1331_0533b28" ed="T"/>
+                            <supplied source="T_1331">佛言：“</supplied>若四<g>輩</g>弟子，比丘、比丘尼、<lb n="16"/>清信士、清信<lb n="T21n1331_0533b29" ed="T"/>女<milestone facs="340,56"/>，
+                            常<g>脩</g>月六<g>齋</g>、
+                            <g>年</g>三長<g>齋</g>，<g>或</g>晝<g>夜</g>精<g>懃</g>
+                            <note type="ref">“<g>懃</g>”，通“勤”。《大正藏》本作“勤”。</note>，一<milestone facs="340,117"/>
+                            <supplied source="T_1331">心<lb n="T21n1331_0533c01" ed="T"/>苦行，願欲往生西方</supplied>阿<g>弥</g>
+                            <g>陁</g>佛國者，憶<milestone facs="340,174"/>念 <supplied source="T_1331">晝<lb n="T21n1331_0533c02" ed="T"/>夜。若一日、二日、三日、四日、五日、六日、七日，或<lb n="T21n1331_0533c03" ed="T"/> 復中悔。聞</supplied>我<milestone facs="340,252"/>
+                            <g>說</g>是<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">藥師</rdg>
+                            </app>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光佛本<g>願</g>
+                            <g>功</g>
+                            <g>徳</g>，<lb n="T21n1331_0533c04" ed="T"/>盡其壽命，欲終之日，有八菩<milestone facs="341,326"/>
+                            <g>薩</g>，<supplied source="T_1331">其名曰：<lb n="T21n1331_0533c05" ed="T"/>文殊師</supplied>利<supplied source="T_1331">菩薩、觀世音菩薩、</supplied>得大<milestone facs="342,388"/>勢<supplied source="T_1331">菩薩、 <lb n="T21n1331_0533c06" ed="T"/>无盡</supplied>意<supplied source="T_1331">菩薩、</supplied>寳壇華菩薩<milestone facs="342,447"/>、<supplied source="T_1331">藥王菩薩、</supplied>
+                            <lb n="17"/>藥上<g>菩</g>
+                            <milestone facs="335,46"/>
+                            <lb n="T21n1331_0533c07" ed="T"/>
+                            <g>薩</g>、<g>弥</g>
+                            <g>勒</g>
+                            <g>菩</g>
+                            <g>薩</g>，是八<g>菩</g>
+                            <g>薩</g>，<g>皆</g>當飛往，迎其精<lb n="T21n1331_0533c08" ed="T"/>神，不<milestone facs="335,116"/>
+                            <g>經</g>
+                            <supplied source="T_1331">八難，生蓮華中，自</supplied>然音樂而相娛樂<milestone facs="336,173"/>。”<lb n="T21n1331_0533c09" ed="T"/>
+                            <supplied source="T_1331">佛言：“假使壽命自欲盡時，臨終之日，得聞我
+                                <lb n="T21n1331_0533c10" ed="T"/>說是藥師瑠</supplied>璃<milestone facs="335,254"/>光佛本<g>願</g>
+                            <g>功</g>
+                            <supplied source="T_1331">徳者，命終之後，<lb n="T21n1331_0533c11" ed="T"/>皆</supplied>得上<supplied source="T_1331">生天上，不復歷三惡道中。天上福盡，<lb n="T21n1331_0533c12" ed="T"/>若下生人間，當為帝王家作子，或於豪姓、長
+                                <lb n="T21n1331_0533c13" ed="T"/>者、居士、富貴家生，皆當端正、聰明、智慧、</supplied>
+                            <lb n="18"/>
+                            <supplied source="T_1331">高才、</supplied>
+                            <lb n="T21n1331_0533c14" ed="T"/>
+                            <g>勇</g>
+                            <milestone facs="330,47"/>
+                            <g>猛</g>。<g>若</g>是女人，化成<g>男</g>子，<g>无</g>復<g>憂</g>
+                            <g>苦</g>患難者<lb n="T21n1331_0533c15" ed="T"/>也。”<lb n="T21n1331_0533c16" ed="T"/>
+                            <g>佛</g>語：“<supplied source="T_1331">文殊！我稱譽顯</supplied>
+                            <g>說</g>
+                            <milestone facs="330,155"/>
+                            <app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">藥師</rdg>
+                            </app>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光佛至真<lb n="T21n1331_0533c17" ed="T"/>
+                            <supplied source="T_1331">等正覺，本所脩集无量行願功徳如是。”文殊 <lb n="T21n1331_0533c18" ed="T"/>師利</supplied>從坐<milestone facs="330,255"/>而起，長跪叉<supplied source="T_1331">手，白佛言：“世尊！佛去<lb n="T21n1331_0533c19" ed="T"/>世後，當以此法開</supplied>化十方一<supplied source="T_1331">切衆生，使其受<lb n="T21n1331_0533c20" ed="T"/>持是經典也。若有男子、女人愛樂是經，受持 <lb n="T21n1331_0533c21" ed="T"/>讀誦宣通之者，復能專念。若</supplied>
+                            <lb n="19"/>一<milestone facs="325,38"/>
+                            <supplied source="T_1331">日、二日、</supplied>三日、
+                            <lb n="T21n1331_0533c22" ed="T"/>四日、五日，乃至七日，憶<g>念</g>不忘，<g>能</g>以好素<milestone facs="325,107"/>帛<app>
+                                <lem wit="Scan1"/>
+                                <lb n="T21n1331_0533c23" ed="T"/>
+                                <rdg wit="T_1331" type="textcritical">紙</rdg>
+                            </app>書取<supplied source="T_1331">是經，五色雜綵作囊盛</supplied>之者，是時<milestone facs="326,174"/>當<lb n="T21n1331_0533c24" ed="T"/>
+                            <supplied source="T_1331">有諸天善神、四天大王、龍神八部，當来營衛，
+                                <lb n="T21n1331_0533c25" ed="T"/>愛敬</supplied>此<milestone facs="326,255"/>
+                            <g>經</g>。<g>能</g>日日作<supplied source="T_1331">禮，是持經者不墮橫
+                                <lb n="T21n1331_0533c26" ed="T"/>死，所在安隱，惡氣消滅，諸魔鬼神亦不中害。”<lb n="T21n1331_0533c27" ed="T"/>佛言：“如是如是！如汝所說。”文殊師利言：“天尊<lb n="T21n1331_0533c28" ed="T"/>所說言无不善。”
+                                <lb n="T21n1331_0533c29" ed="T"/>佛言：“文</supplied>
+                            <lb n="20"/>殊！<milestone facs="320,38"/>
+                            <supplied source="T_1331">若有</supplied>
+                            <g>善</g>
+                            <g>男</g>子、<g>善</g>女人<g>等</g>，<g>發</g>心造立<lb n="T21n1331_0534a01" ed="T"/>藥<g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光如<g>来</g>
+                            <g>形</g>像<milestone facs="320,115"/>，供<supplied source="T_1331">養禮拜，懸雜色幡
+                                <lb n="T21n1331_0534a02" ed="T"/>蓋，燒香散華，</supplied>歌<supplied source="T_1331">詠讚歎，圍繞百匝，還本座<lb n="T21n1331_0534a03" ed="T"/>處，端坐思惟，念藥師瑠璃</supplied>光<milestone facs="320,255"/>佛<g>无</g>量<g>功</g>
+                            <g>徳</g>。<supplied source="T_1331">若<lb n="T21n1331_0534a04" ed="T"/>有男子、女人，七日七夜菜食長齋，供養禮拜
+                                <lb n="T21n1331_0534a05" ed="T"/>藥師瑠璃光佛，求心中所願者，无不獲得。求<lb n="T21n1331_0534a06" ed="T"/>長壽得長壽，求富饒得富饒，求安隱得安</supplied>
+                            <lb n="21"/>
+                            <g>隱</g>
+                            <milestone facs="315,38"/>，<lb n="T21n1331_0534a07" ed="T"/>
+                            <supplied source="T_1331">求</supplied>
+                            <g>男</g>女得<g>男</g>女，求官位得官位。<g>若</g>命過已，<g>後</g>
+                            <lb n="T21n1331_0534a08" ed="T"/>欲生<g>妙</g>樂天<milestone facs="315,119"/>上<supplied source="T_1331">者，亦當禮敬藥師瑠璃光佛<lb n="T21n1331_0534a09" ed="T"/>至真等正覺。若欲上生三十三天者，亦當禮<lb n="T21n1331_0534a10" ed="T"/>敬瑠璃光佛，</supplied>必<milestone facs="316,253"/>得往生。<g>若</g>欲<supplied source="T_1331">與明師世世相<lb n="T21n1331_0534a11" ed="T"/>值遇者，亦當禮敬瑠璃光佛。”<lb n="T21n1331_0534a12" ed="T"/>佛告文殊：“若欲生十方妙樂國圡者，亦當禮
+                                <lb n="T21n1331_0534a13" ed="T"/>敬瑠璃光佛。欲得生兜率天見彌勒者，亦<lb n="T21n1331_0534a14" ed="T"/>應禮敬瑠璃光佛。若欲遠諸邪道，亦應</supplied>
+                            <lb n="22"/>
+                            <lb n="T21n1331_0534a15" ed="T"/>
+                            <g>礼</g>
+                            <milestone facs="310,38"/>
+                            <g>敬</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>
+                            <g>璃</g>光<g>佛</g>。<g>若</g>
+                            <g>夜</g>
+                            <g>惡</g>夢鳥<g>鳴</g>、百<g>怪</g>、蜚尸、<g>耶</g>
+                            <note>石刻本共有兩處“<g>耶</g>”字可辨，《大正藏》本皆作“邪”，以下不再贅列。</note>
+                            <lb n="T21n1331_0534a16" ed="T"/>忤、<g>魍</g>
+                            <g>魎</g>、
+                            <g>鬼</g>神之<g>所</g>
+                            <milestone facs="310,121"/>
+                            <supplied source="T_1331">嬈者，亦當禮敬瑠</supplied>璃光<lb n="T21n1331_0534a17" ed="T"/>佛。若<supplied source="T_1331">為</supplied>水火<g>所</g>焚漂<milestone facs="310,183"/>
+                            <supplied source="T_1331">者，亦當禮敬瑠璃光<lb n="T21n1331_0534a18" ed="T"/>佛。若入山谷為虎狼、熊羆、蒺䔧、諸獸、象龍、蚖
+                                <lb n="T21n1331_0534a19" ed="T"/>蛇、蝮蠍，種種雜類，若有惡心来相向者，心當<lb n="T21n1331_0534a20" ed="T"/>存念瑠璃光佛，山中諸難不能為害。若他方<lb n="T21n1331_0534a21" ed="T"/>怨賊偷竊惡人，怨家債主欲来侵陵，心當存
+                                <lb n="T21n1331_0534a22" ed="T"/>念瑠璃</supplied>
+                            <lb n="23"/>光<milestone facs="306,38"/>
+                            <g>佛</g>，則不為<g>害</g>。以善<g>男</g>
+                            <app>
+                                <lem wit="Scan1">子</lem>
+                                <rdg wit="T_1331" type="textcritical">女</rdg>
+                            </app>
+                            <g>礼</g>
+                            <g>敬</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>
+                            <lb n="T21n1331_0534a23" ed="T"/>
+                            <g>璃</g>光如<g>来</g>
+                            <g>功</g>
+                            <g>徳</g>，<g>所</g>
+                            <g>致</g>華<g>報</g>如<milestone facs="305,121"/>是，況<supplied source="T_1331">果報也。是<lb n="T21n1331_0534a24" ed="T"/>故</supplied>吾今勸諸四<milestone facs="306,164"/>
+                            <supplied source="T_1331">輩，</supplied>
+                            <g>礼</g>
+                            <supplied source="T_1331">事瑠</supplied>璃光<supplied source="T_1331">佛至真等<lb n="T21n1331_0534a25" ed="T"/>正覺。”
+                                <lb n="T21n1331_0534a26" ed="T"/>佛告文殊：“我但為汝略說藥師瑠璃光佛禮<lb n="T21n1331_0534a27" ed="T"/>敬功徳。若使我廣說是瑠璃光佛无量功徳，
+                                <lb n="T21n1331_0534a28" ed="T"/>與一切人求心中所願者，從一劫至一劫故，<lb n="T21n1331_0534a29" ed="T"/>无不周遍。其世間人，若有著床痿黃、困篤惡<lb n="T21n1331_0534b01" ed="T"/>病，連年累月</supplied>
+                            <lb n="24"/>不<milestone facs="301,38"/>
+                            <g>差</g>者，聞我<g>說</g>是<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">藥師</rdg>
+                            </app>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>
+                            <g>璃</g>光<lb n="T21n1331_0534b02" ed="T"/>
+                            <g>佛</g>名字之時，<g>橫</g>病之厄，<g>无</g>不<g>除</g>愈<milestone facs="300,119"/>，<g>唯</g>
+                            <supplied source="T_1331">宿殃不<lb n="T21n1331_0534b03" ed="T"/>請耳。” </supplied>
+                            <lb n="T21n1331_0534b04" ed="T"/>佛告文殊：“<g>若</g>
+                            <app>
+                                <lem wit="Scan1">有</lem>
+                                <rdg wit="T_1331" type="textcritical"/>
+                            </app>男子、女人受三自<milestone facs="301,185"/>歸，<supplied source="T_1331">若五戒、<lb n="T21n1331_0534b05" ed="T"/>若十戒、若善信菩薩二十四戒、若沙門二百<lb n="T21n1331_0534b06" ed="T"/>五十戒、若比丘尼五百戒、若菩薩戒，若破是<lb n="T21n1331_0534b07" ed="T"/>諸戒，若能至心一懺悔者，復聞我說藥師
+                                <lb n="T21n1331_0534b08" ed="T"/>瑠璃光佛，終不墮三惡道中，必得解脫。若人<lb n="T21n1331_0534b09" ed="T"/>愚癡，不受父母、師友教誨，不</supplied>
+                            <lb n="25"/>信<milestone facs="296,38"/>
+                            <g>佛</g>，不信<g>經</g>
+                            <g>戒</g>，<lb n="T21n1331_0534b10" ed="T"/>不信聖<g>僧</g>，應<g>堕</g>三<g>惡</g>道中者，<app>
+                                <lem wit="Scan1">忘</lem>
+                                <rdg wit="T_1331" type="textcritical">亡</rdg>
+                            </app>失人種，受畜<milestone facs="296,119"/>
+                            <lb n="T21n1331_0534b11" ed="T"/>生<supplied source="T_1331">身，聞我說是瑠</supplied>璃光佛善<g>願</g>
+                            <g>功</g>
+                            <g>徳</g>者，即得<lb n="T21n1331_0534b12" ed="T"/>
+                            <g>解</g>
+                            <g>脫</g>。” <lb n="T21n1331_0534b13" ed="T"/>佛<milestone facs="296,192"/>
+                            <supplied source="T_1331">告文殊：“世有惡人，雖受佛禁戒，觸事違犯，<lb n="T21n1331_0534b14" ed="T"/>或殺无道，偷竊他人財寳，欺詐妄語，婬他婦
+                                <lb n="T21n1331_0534b15" ed="T"/>女，飲酒鬪亂，兩舌惡口，罵詈毀人，犯戒為惡，  <lb n="T21n1331_0534b16" ed="T"/>復祠祀鬼神。有如是過罪，當墮地獄</supplied>中。<supplied source="T_1331">若當<lb n="T21n1331_0534b17" ed="T"/>屠割，若抱銅柱，若臥鐵床，若</supplied>
+                            <lb n="26"/>鐵<milestone facs="291,39"/>
+                            <g>鉤</g>出<g>舌</g>，<g>若</g>洋<lb n="T21n1331_0534b18" ed="T"/>銅<g>灌</g>口者，聞我<g>說</g>是藥<g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>
+                            <g>璃</g>光<g>佛</g>，<g>无</g>不即<lb n="T21n1331_0534b19" ed="T"/>
+                            <g>得</g>
+                            <milestone facs="291,119"/>
+                            <g>解</g>
+                            <supplied source="T_1331">脫者也。”佛告</supplied>文殊：“其世<g>閒</g>人，豪貴下<supplied source="T_1331">賤，</supplied>
+                            <lb n="T21n1331_0534b20" ed="T"/>不信佛，不<milestone facs="291,194"/>信
+                            <supplied source="T_1331">經道，不信沙門，不信有須陀<lb n="T21n1331_0534b21" ed="T"/>洹，不信有斯陀含，不信有阿那含，不信有阿
+                                <lb n="T21n1331_0534b22" ed="T"/>羅漢，不信有辟支佛，不信有十住菩薩，不信<lb n="T21n1331_0534b23" ed="T"/>有三世之事，不信有十方諸佛，不信有本師<lb n="T21n1331_0534b24" ed="T"/>釋迦</supplied>文<supplied source="T_1331">佛，不信人死神明更生，</supplied>
+                            <lb n="27"/>善<milestone facs="286,39"/>者受<g>福</g>，<g>惡</g>
+                            <lb n="T21n1331_0534b25" ed="T"/>者受<g>殃</g>，有如是之罪，應<g>堕</g>
+                            <app>
+                                <lem wit="Scan1">三</lem>
+                                <rdg wit="T_1331" type="textcritical"/>
+                            </app>
+                            <g>惡</g>道<app>
+                                <lem wit="Scan1">中。</lem>
+                                <rdg wit="T_1331" type="textcritical"/>
+                            </app>聞我<g>說</g>是<milestone facs="286,119"/>
+                            <lb n="T21n1331_0534b26" ed="T"/>藥<supplied source="T_1331">師瑠璃光佛名</supplied>字之者，一切過罪，自然消<lb n="T21n1331_0534b27" ed="T"/>滅。” <lb n="T21n1331_0534b28" ed="T"/>佛告文<milestone facs="286,198"/>
+                            <supplied source="T_1331">殊：“若有善男子、善女人，聞我說是藥<lb n="T21n1331_0534b29" ed="T"/>師瑠璃光佛至真等正覺，其誰不發无上正
+                                <lb n="T21n1331_0534c01" ed="T"/>真道意，後皆當得作佛。人居世間，仕官不遷，<lb n="T21n1331_0534c02" ed="T"/>治生不得，飢寒困厄，亡失財產，无</supplied>復方<supplied source="T_1331">計，聞<lb n="T21n1331_0534c03" ed="T"/>我說是藥師</supplied>
+                            <lb n="28"/>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃<milestone facs="281,42"/>光<g>佛</g>，各各<g>得</g>心中<g>所</g>
+                            <g>願</g>。仕<lb n="T21n1331_0534c04" ed="T"/>
+                            <g>官</g>
+                            <g>皆</g>
+                            <g>得</g>
+                            <g>髙</g>
+                            <g>遷</g>，財物自然長<milestone facs="281,115"/>益，飲<supplied source="T_1331">食充饒，皆得<lb n="T21n1331_0534c05" ed="T"/>富</supplied>貴。<g>若</g>為縣官<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">之</rdg>
+                            </app>
+                            <g>所</g>拘<supplied source="T_1331">錄</supplied>，惡人<supplied source="T_1331">侵</supplied>枉；若為<milestone facs="282,199"/>
+                            <lb n="T21n1331_0534c06" ed="T"/>
+                            <supplied source="T_1331"> 怨家所得便者，心當存念瑠璃光佛。若他<lb n="T21n1331_0534c07" ed="T"/>婦女生產難者，皆當念是瑠璃光佛，兒
+                                <lb n="T21n1331_0534c08" ed="T"/>則易生，身體平正，无諸疾痛，六情完具，聰<lb n="T21n1331_0534c09" ed="T"/>明智慧，壽命得長，不遭抂橫，</supplied>善神擁<supplied source="T_1331">護，不為<lb n="T21n1331_0534c10" ed="T"/>惡鬼舐</supplied>
+                            <lb n="29"/>其<milestone facs="276,39"/>頭也。”
+                            <lb n="T21n1331_0534c11" ed="T"/> <g>佛</g>
+                            <g>說</g>是語時，阿難在右<g>邊</g>，<g>佛</g>
+                            <g>顧</g>語阿<g>難</g>言：“汝<lb n="T21n1331_0534c12" ed="T"/>信我<milestone facs="276,117"/>為<supplied source="T_1331">文殊師利說往昔</supplied>東方過十恒<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">河</rdg>
+                            </app>沙，<lb n="T21n1331_0534c13" ed="T"/>有佛名藥<g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光<milestone facs="277,200"/>
+                            <supplied source="T_1331">本願功徳者不？” 阿難白<lb n="T21n1331_0534c14" ed="T"/>佛言：“唯天中天佛之所說，何敢不信耶！” 佛
+                                <lb n="T21n1331_0534c15" ed="T"/>復語阿難言：“其世間人雖有眼、耳、鼻、舌、身、意，<lb n="T21n1331_0534c16" ed="T"/>人常用是六事以自迷惑，但信世間魔邪之
+                                <lb n="T21n1331_0534c17" ed="T"/>言，不信至真</supplied>至誠、度<supplied source="T_1331">世苦切之語。如是輩</supplied>
+                            <lb n="30"/> <lb n="T21n1331_0534c18" ed="T"/>人，<milestone facs="271,38"/>
+                            <g>難</g>可<g>開</g>化也。”阿<g>難</g>白<g>佛</g>言：“世<g>尊</g>！世人多有<lb n="T21n1331_0534c19" ed="T"/>
+                            <g>惡</g>
+                            <g>逆</g>下賤之者<milestone facs="271,113"/>。<supplied source="T_1331">若聞佛說經，開人耳目，</supplied>破治<lb n="T21n1331_0534c20" ed="T"/>人病，除人陰<g>冥</g>，使覩光明，<g>解</g>人<g>疑</g>結<milestone facs="272,201"/>，去<supplied source="T_1331">人重<lb n="T21n1331_0534c21" ed="T"/>罪，千劫萬劫，无復憂患，皆因佛說是藥師瑠
+                                <lb n="T21n1331_0534c22" ed="T"/>璃光佛本願功徳，悉令安隱，得其福也。” 佛言：<lb n="T21n1331_0534c23" ed="T"/>“阿難！汝口為言善，而汝內心狐疑，不信我言。<lb n="T21n1331_0534c24" ed="T"/>阿難！汝莫作是念，以自毀敗汝之功徳。”</supplied>佛<lb n="T21n1331_0534c25" ed="T"/>言：“<supplied source="T_1331">阿難！我見汝心，我知</supplied>
+                            <lb n="31"/>汝<milestone facs="367,38"/>意。汝知之不？”
+                            阿<g>難</g>
+                            <lb n="T21n1331_0534c26" ed="T"/>即以頭面<g>著</g>地，長跪白佛言：“<g>審</g>
+                            <milestone facs="267,110"/>如<supplied source="T_1331">天中天所<lb n="T21n1331_0534c27" ed="T"/> 說。我造次</supplied>聞佛<g>說</g>是藥<g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光極大尊貴，<lb n="T21n1331_0534c28" ed="T"/>智慧<milestone facs="267,204"/>
+                            <supplied source="T_1331">巍巍，難可度量，我心有小疑耳，敢不首<lb n="T21n1331_0534c29" ed="T"/>伏。” 佛言：“汝智慧狹劣，少見少聞。汝聞我說深
+                                <lb n="T21n1331_0535a01" ed="T"/>妙之法，无上空義，應生信敬貴重之心，必當<lb n="T21n1331_0535a02" ed="T"/>得至无上正真道也。”</supplied>
+                            <lb n="T21n1331_0535a03" ed="T"/>文殊<supplied source="T_1331">問佛言：“世尊！佛說是</supplied>
+                            <lb n="32"/>藥<milestone facs="262,39"/>
+                            <g>師</g>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光如<lb n="T21n1331_0535a04" ed="T"/>
+                            <g>来</g>
+                            <g>无</g>量<g>功</g>
+                            <g>徳</g>，如是不<g>審</g>，誰肯信此言<milestone facs="262,108"/>
+                            <supplied source="T_1331">者？”
+                                佛答<lb n="T21n1331_0535a05" ed="T"/>文殊言：“唯</supplied>有百億諸菩<g>薩</g>摩訶<g>薩</g>，當信是言<lb n="T21n1331_0535a06" ed="T"/>耳。<g>唯</g>有十<milestone facs="262,205"/>方<supplied source="T_1331">三世諸佛當信是言。”
+                                    <lb n="T21n1331_0535a07" ed="T"/>佛言：“我說是藥師瑠璃光佛如来本願功徳，<lb n="T21n1331_0535a08" ed="T"/>難可得見，何況得聞，亦難得說，難得書寫，<lb n="T21n1331_0535a09" ed="T"/>亦難得讀。文殊師利！若有男子、女人能信是
+                                    <lb n="T21n1331_0535a10" ed="T"/>經，受持讀誦，書著竹帛，復能</supplied>
+                            <lb n="33"/>為<milestone facs="257,38"/>他人<g>解</g>
+                            <g>說</g>中<lb n="T21n1331_0535a11" ed="T"/>
+                            <g>義</g>，此<g>皆</g>先世已<g>發</g>道意，今<g>復</g>
+                            <g>得</g>聞此<g>微</g>妙<milestone facs="257,111"/>
+                            <lb n="T21n1331_0535a12" ed="T"/>
+                            <supplied source="T_1331">法。開化十方无量</supplied>
+                            <g>衆</g>生，當知此人必當<g>得</g>至<lb n="T21n1331_0535a13" ed="T"/>
+                            <g>无</g>上正真道也。” <lb n="T21n1331_0535a14" ed="T"/>佛告阿難<milestone facs="257,209"/>：“
+                            <supplied source="T_1331">我作佛以来，從生死復至生死，勤<lb n="T21n1331_0535a15" ed="T"/>苦累劫，无所不經，无所不歷，无所不作，无所
+                                <lb n="T21n1331_0535a16" ed="T"/>不為，如是不可思議，況復瑠璃光佛本願功<lb n="T21n1331_0535a17" ed="T"/>徳者乎？汝所以有疑者，亦復如是。阿難！汝聞<lb n="T21n1331_0535a18" ed="T"/>佛</supplied>所<supplied source="T_1331">說，</supplied>汝<supplied source="T_1331">諦信</supplied>之，<supplied source="T_1331">莫作疑惑。</supplied>
+                            <lb n="34"/>佛語<milestone facs="252,43"/>至誠，<g>无</g>有<lb n="T21n1331_0535a19" ed="T"/>
+                            <g>虛</g>偽，<g>亦</g>
+                            <g>无</g>二言。<g>佛</g>為信者施，不為<g>疑</g>者說<milestone facs="252,114"/>
+                            <supplied source="T_1331">也。
+                                <lb n="T21n1331_0535a20" ed="T"/>阿難！汝莫作小</supplied>
+                            <g>疑</g>，以<g>毀</g>大<g>乘</g>之業。汝却<g>後</g>
+                            <g>亦</g>
+                            <lb n="T21n1331_0535a21" ed="T"/>當<supplied source="T_1331">發摩</supplied>訶衍<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">心</rdg>
+                            </app>，莫以小<milestone facs="252,206"/>道<supplied source="T_1331">毀汝功徳也。”
+                                阿<lb n="T21n1331_0535a22" ed="T"/>難言：“唯唯！天中天！我從今日以去，无復尒心。<lb n="T21n1331_0535a23" ed="T"/>唯佛自當知我心耳。” <lb n="T21n1331_0535a24" ed="T"/>佛語阿難：“此經能照諸天宮宅。若三災起時，
+                                <lb n="T21n1331_0535a25" ed="T"/>中有天人發心念此瑠璃光佛本願</supplied>功<supplied source="T_1331">徳經<lb n="T21n1331_0535a26" ed="T"/>者，皆得離於彼處</supplied>
+                            <lb n="35"/>之難<milestone facs="247,42"/>。是<g>經</g>
+                            <g>能</g>
+                            <g>除</g>水<g>涸</g>不<lb n="T21n1331_0535a27" ed="T"/>調。是<g>經</g>
+                            <g>能</g>
+                            <g>除</g>他方<g>逆</g>賊，<g>悉</g>令<g>断</g>滅<milestone facs="247,115"/>。<supplied source="T_1331">四方夷狄<lb n="T21n1331_0535a28" ed="T"/>各還</supplied>
+                            <g>正</g>治，不相<g>嬈</g>
+                            <g>惱</g>。<g>國</g>
+                            <g>圡</g>交通，人<supplied source="T_1331">民</supplied>歡<supplied source="T_1331">樂</supplied>。是<lb n="T21n1331_0535a29" ed="T"/>
+                            <g>經</g>
+                            <g>能</g>
+                            <g>除</g>穀<milestone facs="247,208"/>
+                            <supplied source="T_1331">貴飢凍。是經能滅惡星變怪。是經<lb n="T21n1331_0535b01" ed="T"/>能除疫毒之病。是經能救三惡道苦，地獄、餓
+                                <lb n="T21n1331_0535b02" ed="T"/>鬼、畜生等苦。若人得聞此經典者，无不解脫<lb n="T21n1331_0535b03" ed="T"/>厄難者也。” <lb n="T21n1331_0535b04" ed="T"/>尒時，衆中有一菩薩名曰救脫，從座而起，整<lb n="T21n1331_0535b05" ed="T"/>衣</supplied>
+                            <lb n="36"/>服<milestone facs="242,38"/>，叉手合掌而白<g>佛</g>言：“我<g>等</g>今日聞<g>佛</g>世
+                            <lb n="T21n1331_0535b06" ed="T"/>
+                            <g>尊</g>演<g>說</g>過東方<milestone facs="242,115"/>
+                            <app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">十</rdg>
+                            </app>恒<supplied source="T_1331">河沙世界有佛號</supplied>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>
+                            <lb n="T21n1331_0535b07" ed="T"/>璃光，一切<g>衆</g>會，靡不<g>歡</g>喜<milestone facs="242,178"/>。” <supplied source="T_1331">救脫</supplied>菩薩又白<lb n="T21n1331_0535b08" ed="T"/>佛言<milestone facs="242,209"/>：“若<supplied source="T_1331">族姓男女其有尫羸，著床痛惱无救<lb n="T21n1331_0535b09" ed="T"/>護者，我今當勸請衆僧七日七夜齋戒一
+                                <lb n="T21n1331_0535b10" ed="T"/>心，受持八禁六時行道，四十九遍讀是經典。<lb n="T21n1331_0535b11" ed="T"/>勸然七層之燈，亦勸懸五色續命神幡。” 阿難<lb n="T21n1331_0535b12" ed="T"/>問救脫菩</supplied>
+                            <lb n="37"/>
+                            <g>薩</g>
+                            <milestone facs="238,40"/>言：“續命<g>幡</g>燈，法則云何？”<g>救</g>
+                            <g>脫</g>
+                            <g>菩</g>
+                            <lb n="T21n1331_0535b13" ed="T"/>
+                            <g>薩</g>語阿<g>難</g>言：“神<g>幡</g>五色<milestone facs="237,118"/>
+                            <supplied source="T_1331">四十九尺。燈</supplied>
+                            <g>亦</g>復<g>尒</g>，<lb n="T21n1331_0535b14" ed="T"/>七層之燈，一層七燈，燈<supplied source="T_1331">如車</supplied>輪。<g>若</g>遭厄難，閉<milestone facs="238,210"/>
+                            <lb n="T21n1331_0535b15" ed="T"/>
+                            <supplied source="T_1331">在牢獄，枷鎖著身，亦應造立五色神幡，然四<lb n="T21n1331_0535b16" ed="T"/>十九燈。應放雜類衆生至四十九。可得過度
+                                <lb n="T21n1331_0535b17" ed="T"/>危厄之難，不為諸橫惡鬼所持。” <lb n="T21n1331_0535b18" ed="T"/>救脫菩薩語阿難言：“若國王、大臣及諸輔相、<lb n="T21n1331_0535b19" ed="T"/>王子、妃主、中宮、</supplied>
+                            <lb n="38"/>綵<milestone facs="233,39"/>女，<g>若</g>為病<g>苦</g>
+                            <g>所</g>
+                            <g>惱</g>，<g>亦</g>應造<lb n="T21n1331_0535b20" ed="T"/>立五<g>色</g>繒<g>幡</g>，然燈續<g>眀</g>，
+                            <g>救</g>諸<milestone facs="232,115"/>生<supplied source="T_1331">命，散雜色</supplied>華，<lb n="T21n1331_0535b21" ed="T"/>燒<g>衆</g>名香。王當放<supplied source="T_1331">赦屈厄之人，徒</supplied>鎖 <g>解</g>
+                            <g>脫</g>。王<lb n="T21n1331_0535b22" ed="T"/>
+                            <g>得</g>其<milestone facs="232,211"/>
+                            <supplied source="T_1331">福，天下太平，雨澤以時，人民歡樂，惡龍<lb n="T21n1331_0535b23" ed="T"/>攝毒，无病苦者，四方夷狄，不生逆害，國圡通<lb n="T21n1331_0535b24" ed="T"/>洞，慈心相向，无諸怨害，
+                                四海歌詠，稱王之<lb n="T21n1331_0535b25" ed="T"/>徳。乘此福祿，在意所生，見佛聞法，信受教誨，<lb n="T21n1331_0535b26" ed="T"/>從是福</supplied>
+                            <lb n="39"/>
+                            <g>報</g>
+                            <milestone facs="227,39"/>，至<g>无</g>上道。” <lb n="T21n1331_0535b27" ed="T"/>阿<g>難</g>又問<g>救</g>
+                            <g>脫</g>
+                            <g>菩</g>
+                            <g>薩</g>言：“命可續也？” <g>救</g>
+                            <g>脫</g>
+                            <g>菩</g>
+                            <g>薩</g>
+                            <milestone facs="227,82"/>
+                            <lb n="T21n1331_0535b28" ed="T"/>
+                            <supplied source="T_1331"> 答阿難言：</supplied>“我聞世尊<g>說</g>有諸<supplied source="T_1331">橫，勸造幡蓋，令<lb n="T21n1331_0535b29" ed="T"/>其</supplied>
+                            <g>脩</g>
+                            <g>福</g>。”
+                            又言：“阿難<milestone facs="228,213"/>！ <supplied source="T_1331">昔沙彌救蟻，以脩福故，盡<lb n="T21n1331_0535c01" ed="T"/>其壽命，不更苦患，身體安寧，福徳力強，使之<lb n="T21n1331_0535c02" ed="T"/>然也。” 阿難因復問救脫菩薩言：“橫有幾種？”
+                                <lb n="T21n1331_0535c03" ed="T"/>救脫菩薩答阿難言：“世尊說言，橫乃无數，略<lb n="T21n1331_0535c04" ed="T"/>而言之，大橫有九。一者橫病。二者橫有口舌。</supplied>
+                            <lb n="40"/>
+                            <lb n="T21n1331_0535c05" ed="T"/>三<milestone facs="223,38"/>者<g>橫</g>遭縣官。四者身<g>羸</g>
+                            <g>无</g>
+                            <g>福</g>，又持<g>戒</g>不<g>完</g>，<lb n="T21n1331_0535c06" ed="T"/>
+                            <g>橫</g>為<g>鬼</g>神之<milestone facs="223,119"/>
+                            <supplied source="T_1331">所得便。五者</supplied>橫為劫賊<g>所</g>剝<milestone facs="223,159"/>。<supplied source="T_1331">六
+                                <lb n="T21n1331_0535c07" ed="T"/>者橫為</supplied>水火<supplied source="T_1331">災漂。</supplied>七者橫為雜類<supplied source="T_1331">禽獸所噉。
+                                    <lb n="T21n1331_0535c08" ed="T"/>八者橫為怨讎符書、厭禱邪神牽引，未得其<lb n="T21n1331_0535c09" ed="T"/>福但受其殃。先亡牽引，亦名橫死。九者有病<lb n="T21n1331_0535c10" ed="T"/>不治，又不脩福，湯藥不順，針炙失度，不值良
+                                    <lb n="T21n1331_0535c11" ed="T"/>醫，為病所困，於是滅亡。又信世</supplied>
+                            <lb n="41"/>
+                            <g>閒</g>
+                            <milestone facs="218,39"/>妖㜸之<g>師</g>，
+                            <lb n="T21n1331_0535c12" ed="T"/>為作<g>恐</g>動寒<g>熱</g>，言語妄<g>發</g>禍<g>福</g>。<g>所</g>犯者多<milestone facs="218,115"/>心 <lb n="T21n1331_0535c13" ed="T"/>
+                            <supplied source="T_1331">不自正，不能自定，卜</supplied>問覓禍<milestone facs="218,157"/>。<supplied source="T_1331">殺猪狗牛羊種 <lb n="T21n1331_0535c14" ed="T"/>種衆生，解奏</supplied>神明、呼諸<milestone facs="218,213"/>
+                            <supplied source="T_1331">邪妖魍魎鬼神，請乞<lb n="T21n1331_0535c15" ed="T"/>福祚。欲望長生，終不能得。愚癡迷惑，信邪倒
+                                <lb n="T21n1331_0535c16" ed="T"/>見，死入地獄，展轉其中，无解脫時。是名九<lb n="T21n1331_0535c17" ed="T"/>橫。”<lb n="T21n1331_0535c18" ed="T"/>救脫菩薩語阿難言：“其世間人痿黃之病，困<lb n="T21n1331_0535c19" ed="T"/>篤著床，求生不得，求</supplied>
+                            <lb n="42"/>死<milestone facs="213,39"/>不得，考<g>楚</g>
+                            <g>万</g>端。此<lb n="T21n1331_0535c20" ed="T"/>病人者，<g>或</g>其前世造作<g>惡</g>業，罪過<g>所</g>招<milestone facs="213,116"/>，
+                            <supplied source="T_1331">殃咎<lb n="T21n1331_0535c21" ed="T"/>所引，故使然也。”</supplied>
+                            <lb n="T21n1331_0535c22" ed="T"/>救脫菩<milestone facs="213,156"/>
+                            <supplied source="T_1331">薩語</supplied>阿難<supplied source="T_1331">言：“閻羅王者主</supplied>領世<g>閒</g>名<milestone facs="213,207"/>
+                            <lb n="T21n1331_0535c23" ed="T"/>籍<supplied source="T_1331">之記。若人為惡，作諸非法，无孝順心，造作<lb n="T21n1331_0535c24" ed="T"/>五逆，破滅三寳，无君臣法。又有衆生，不持五
+                                <lb n="T21n1331_0535c25" ed="T"/>戒，不信正法，設有受者，多所毀犯，於是地下<lb n="T21n1331_0535c26" ed="T"/>鬼神及伺候者奏上五官，五官料簡，除死定<lb n="T21n1331_0535c27" ed="T"/>生，或</supplied>
+                            <lb n="43"/>注<milestone facs="208,39"/>錄精神，未判是非。<g>若</g>已<g>定</g>者，<g>奏</g>上<lb n="T21n1331_0535c28" ed="T"/>
+                            <g>閻</g>羅，<g>閻</g>羅<g>監</g>察，<g>随</g>
+                            <milestone facs="208,116"/>
+                            <supplied source="T_1331">罪輕重，考而治</supplied>之。世間<supplied source="T_1331">痿<lb n="T21n1331_0535c29" ed="T"/>黃之病，困篤不死，一絕一生，由</supplied>其罪福<milestone facs="208,211"/>，未<supplied source="T_1331">得<lb n="T21n1331_0536a01" ed="T"/>料簡，錄其精神，在彼王所，或七日、二三七日，<lb n="T21n1331_0536a02" ed="T"/>乃至七七日名籍定者，放其精神，還其身中。
+                                <lb n="T21n1331_0536a03" ed="T"/>如從夢中，見其善惡，其人若明了者，信驗罪<lb n="T21n1331_0536a04" ed="T"/>福。是故我今勸諸四輩，造續命神旛，</supplied>
+                            <lb n="44"/>
+                            <g>燃</g>
+                            <note>石刻本共有兩處“<g>燃</g>”字可辨，《大正藏》本皆作“然”，以下不再贅列。</note> 四<milestone facs="204,41"/>十<lb n="T21n1331_0536a05" ed="T"/>九燈，放諸生命，以此<app>
+                                <lem wit="Scan1">
+                                    <g>幡</g>
+                                </lem>、
+                                <rdg wit="T_1331" type="textcritical">旛</rdg>
+                            </app>燈，放生<g>功</g>
+                            <g>徳</g>，<g>拔</g>彼精<lb n="T21n1331_0536a06" ed="T"/>神<milestone facs="204,109"/>，
+                            <supplied source="T_1331">令得度苦，今世後世，不遭厄難。”救脫菩薩
+                                <lb n="T21n1331_0536a07" ed="T"/>語阿難言：“</supplied>如<g>来</g>世尊，<g>說</g>
+                            <milestone facs="204,210"/>是<supplied source="T_1331">經典，威神功徳，利
+                                <lb n="T21n1331_0536a08" ed="T"/>益不少。”座中諸鬼神有十二神王，從座而起，<lb n="T21n1331_0536a09" ed="T"/>往到佛所，胡跪合掌，白佛言：“我等十二鬼神，<lb n="T21n1331_0536a10" ed="T"/>在所作護。若城邑聚落、空閑林中，若四輩弟
+                                <lb n="T21n1331_0536a11" ed="T"/>子誦持此經，令所結願，</supplied>
+                            <lb n="45"/>
+                            <g>无</g>
+                            <milestone facs="199,38"/>求不得。”阿<g>難</g>問言：<lb n="T21n1331_0536a12" ed="T"/>“
+                                其名云何？為我<g>說</g>之！”<g>救</g>
+                            <g>脫</g>
+                            <g>菩</g>
+                            <g>薩</g>言<milestone facs="198,112"/>：“
+                            <supplied source="T_1331">灌頂章句，<lb n="T21n1331_0536a13" ed="T"/>其名如是。<lb n="T21n1331_0536a14" ed="T"/>神名金毘羅。神名和耆羅。神名彌佉羅。<lb n="T21n1331_0536a15" ed="T"/>神名安陀羅。神名摩尼羅。神名宋林羅。
+                                <lb n="T21n1331_0536a16" ed="T"/>神名因持羅。神名波耶羅。神名摩休羅。<lb n="T21n1331_0536a17" ed="T"/>神名真陀羅。神名照頭羅。神名毘伽羅。”<lb n="T21n1331_0536a18" ed="T"/>救脫菩薩語阿難言：“此諸鬼神，別有七千，以
+                                <lb n="T21n1331_0536a19" ed="T"/>為眷属，皆悉叉手</supplied>
+                            <lb n="46"/>
+                            <g>低</g>
+                            <milestone facs="194,39"/>頭，<g>聽</g>
+                            <g>佛</g>世<g>尊</g>
+                            <g>說</g>是<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">藥師</rdg>
+                            </app>
+                            <lb n="T21n1331_0536a20" ed="T"/>
+                            <g>琉</g>
+                            <note type="ref">“<g>琉</g>”，通“瑠”。《大正藏》本作“瑠”。</note>璃光如<g>来</g>本<g>願</g>
+                            <g>功</g>
+                            <g>徳</g>，莫<milestone facs="193,111"/>
+                            <supplied source="T_1331">不一時捨鬼神形，<lb n="T21n1331_0536a21" ed="T"/>得受人身，長得度脫，无衆惱患。若人疾急厄
+                                <lb n="T21n1331_0536a22" ed="T"/>難之日，當以五色縷結其名字。得如願已，然<lb n="T21n1331_0536a23" ed="T"/>後解結，令人得福。灌頂章句法應如是，即說<lb n="T21n1331_0536a24" ed="T"/>呪曰：<lb n="T21n1331_0536a25" ed="T"/>南謨鼻殺（所界反。下同）遮俱，嚧吠瑠璃耶，鉢波
+                                <lb n="T21n1331_0536a26" ed="T"/>喝邏社耶，哆姪他，鼻殺遮鼻殺遮，娑婆，<lb n="T21n1331_0536a27" ed="T"/>揭帝，薩婆訶。”<lb n="T21n1331_0536a28" ed="T"/>佛說是經時，比丘僧八千人、諸菩薩三萬六<lb n="T21n1331_0536a29" ed="T"/>千人、諸</supplied>
+                            <lb n="47"/>天、<milestone facs="189,39"/>
+                            <g>龍</g>、
+                            <g>鬼</g>、神、八部大王，<g>无</g>不<g>歡</g>
+                            <g>喜</g>。阿<g>難</g>
+                            <lb n="T21n1331_0536b01" ed="T"/>
+                            <g>從</g>
+                            <g>坐</g>
+                            <note type="ref">“<g>坐</g>”，通“座”。《大正藏》本作“座”。</note>而<milestone facs="188,112"/>
+                            <supplied source="T_1331">起，前白佛言：“演說此法，當何名之？”
+                                <lb n="T21n1331_0536b02" ed="T"/>佛言：“此經凡有三名：</supplied>一名<supplied source="T_1331">《藥師瑠璃光佛本
+                                    <lb n="T21n1331_0536b03" ed="T"/>願功徳》，二名《灌頂章句十二神王結願神呪》，<lb n="T21n1331_0536b04" ed="T"/>三名《拔除過罪生死得度》。”佛說經竟，大衆人<lb n="T21n1331_0536b05" ed="T"/>民作禮奉行。</supplied>
+                            <title type="chapter">［<supplied source="T_1331">佛說<lb n="T21n1331_0536b06" ed="T"/>灌頂拔除過罪生死得度經</supplied>］</title>
+                        </seg>
+                    </ab>
+                    <ab>
+                        <abbr>經文校對：項目研究組</abbr>
+                    </ab>
+                </div>
       </div>
       <div type="bibliography">
-        <listBibl>
-          <bibl type="canonical"><idno type="taisho">T_1331</idno><citedRange>528c–536b</citedRange></bibl>
-        </listBibl>
+        <listBibl><bibl type="canonical"><idno type="taisho">T_1331</idno><citedRange>528c–536b</citedRange></bibl></listBibl>
       </div>
     </body>
   </text>

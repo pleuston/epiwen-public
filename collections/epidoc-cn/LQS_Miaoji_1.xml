@@ -34,10 +34,6 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
-                    <term xml:lang="zh">刻經碑</term>
-                    <term xml:lang="en">sutra stele</term>
-                  </objectType>
                   <note type="field-dimensions" xml:lang="zh">上游未著錄字面尺寸（整碑尺寸見器物檔 LQS_Miaoji_stele.xml）</note>
                 </support>
               </supportDesc>
@@ -69,9 +65,7 @@
   </teiHeader>
   <text>
     <body>
-      <div type="edition" xml:lang="lzh">
-        <ab/>
-      </div>
+      <div type="edition" xml:lang="lzh"><ab/></div>
       <div type="bibliography">
         <listBibl>
           <bibl>《安陽縣金石錄》，卷二，頁21。（收錄於《石刻史料新編》輯一，第八冊，頁13839。）</bibl>

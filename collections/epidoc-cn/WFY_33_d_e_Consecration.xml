@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- INSCRIPTION file — the Consecration Sutra (灌頂經, T 1331), juan 11, running over walls d AND
-     e of Cave 33: the cross-wall case. Expressed by (a) the space-separated MULTI-TARGET @corresp
-     to both wall anchors, and (b) the lateral join to its sibling record (juan 12) via @next on
-     <text> — the catalog records the programme as TWO records (one per juan); we mirror that
-     exactly instead of inventing a spanning record. Root xml:id mirrors the upstream record id
-     (WFY33_Consecration_11 — no underscore after WFY: upstream wart, preserved). -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WFY33_Consecration_11">
   <teiHeader>
     <fileDesc>
@@ -30,28 +24,13 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">Juan 11 of the Consecration Sutra (T 1331), carved across walls
-              d and e of Cave 33; continued by juan 12 (see the @next join).</summary>
+            <summary xml:lang="en">Juan 11 of the Consecration Sutra (T 1331), carved across walls d and e of Cave 33; continued by juan 12 (see the @next join).</summary>
             <msItem>
               <title xml:lang="zh">灌頂經（卷十一）</title>
               <title xml:lang="en">Consecration Sutra, juan 11</title>
               <textLang mainLang="lzh"/>
             </msItem>
           </msContents>
-          <physDesc>
-            <objectDesc>
-              <supportDesc>
-                <support>
-                  <objectType ana="#object.cave-wall">
-                    <term xml:lang="zh">窟壁</term>
-                    <term xml:lang="en">cave wall</term>
-                  </objectType>
-                  <!-- script-field dimensions: EMPTY upstream — absent here; the two walls'
-                       overall dimensions are on their anchors in WFY_33_cave.xml -->
-                </support>
-              </supportDesc>
-            </objectDesc>
-          </physDesc>
           <history>
             <origin>
               <origPlace>
@@ -60,6 +39,7 @@
             </origin>
           </history>
         </msDesc>
+        <bibl>transcription from <ptr target="sutras:docs/Anyue/WFY_33_Consecration_11.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -78,12 +58,514 @@
   <text next="WFY_33_d_e_Consecration_12.xml">
     <body>
       <div type="edition" xml:lang="lzh">
-        <ab><ptr type="transcription" target="sutras:docs/Anyue/WFY_33_Consecration_11.xml"/></ab>
+        <listWit>
+    <witness xml:id="T_1331"><bibl><ptr target="T_1331"/></bibl></witness>
+    <witness xml:id="Scan1"><bibl><ptr target="h_33_w_d_mosaic_proc.tif"/></bibl></witness>
+    <witness xml:id="Scan2"><bibl><ptr target="h_33_w_e_mosaic_proc.tif"/></bibl></witness>
+    <witness xml:id="R_YJY_31"><bibl><ptr target="Sassmann 31.jpg"/></bibl></witness>
+  </listWit>
+  <lb n="T21n1331_0528c23" ed="T"/>  <head>《佛說灌頂随願往生十方淨圡經》</head>
+                <div>
+                    <head>33號窟<foreign xml:lang="en">d</foreign> 壁 <foreign xml:lang="en">Cave 33, wall d</foreign>
+                    </head>
+                    <ab>
+                        <milestone unit="juan" n="11"/>
+                        <seg n="WFY_33_d" rend="rl">
+                            <lb n="48"/>
+                            <lb n="T21n1331_0528c23" ed="T"/> <title type="chapter">佛<milestone facs="184,35"/>
+                                <g>說</g>灌頂<g>随</g>
+                                <g>願</g>往生十方<g>淨</g>
+                                <g>圡</g>
+                                <g>經</g>
+                            </title>
+                            <note>以下錄文根據石窟壁上刻經轉錄，並以《大正藏》本《灌頂經》卷十一（T#1331, 21: 528c23－532b4）對勘補充。文字存異之處，腳註出校。關於字形與補充文字的處理，詳見本卷卷首“凡例”。《大正藏》本經名後有“卷第十一”四字，石窟壁上未刻。</note>
+                            <lb n="T21n1331_0528c27" ed="T"/>聞如是：一時<note>有關“如是我聞一時”梵文語法的斷句問題，見船山徹<ref target="Funayama2007" type="biblio"/>。</note>
+<g>佛</g>在鳩<milestone facs="184,110"/>
+                            <supplied source="T_1331">尸那竭國娑羅雙樹間。
+                                <lb n="T21n1331_0528c28" ed="T"/> 尒時世尊般涅槃時，十方國圡，无央數衆，天<lb n="T21n1331_0528c29" ed="T"/> 龍八部，悉皆悲號歎息，禽獸雜類，悉皆如是，<lb n="T21n1331_0529a01" ed="T"/> 来到佛所，稽首作礼，畢訖却坐。世尊告曰：“若
+                                <lb n="T21n1331_0529a02" ed="T"/> 有疑者，今皆當問。正覺滅度，多所矜愍。設有<lb n="T21n1331_0529a03" ed="T"/> 問者，為究竟說。”<lb n="T21n1331_0529a04" ed="T"/> 尒時他方國圡有一菩薩名曰</supplied>
+                            <lb n="49"/>普<milestone facs="179,35"/>廣，<g>從</g>
+                            <g>坐</g>
+                            <note type="ref">“<g>坐</g>”，通“座”。《大正藏》本作“座”。</note>而 <lb n="T21n1331_0529a05" ed="T"/> <g>起</g>，
+                            <g>稽</g>首作<g>礼</g>而白<g>佛</g>言：“四<g>輩</g>弟子！臨終之日<lb n="T21n1331_0529a06" ed="T"/> <g>若</g>已<milestone facs="179,117"/>終<supplied source="T_1331">者，願欲往生</supplied>十方國<g>圡</g>
+                            <milestone facs="179,152"/>，<supplied source="T_1331">脩何功徳而<lb n="T21n1331_0529a07" ed="T"/> 得往生？”
+                                <lb n="T21n1331_0529a08" ed="T"/> 佛告普廣菩薩摩訶薩：“汝能愍念四輩弟子<lb n="T21n1331_0529a09" ed="T"/> 及未来世諸衆生等，問此願生因緣之福。汝<lb n="T21n1331_0529a10" ed="T"/> 今諦聽，吾當為汝而演說之。”
+                                <lb n="T21n1331_0529a11" ed="T"/> 佛告普廣菩薩摩訶薩：“若四輩弟子，若臨終<lb n="T21n1331_0529a12" ed="T"/> 時若未終</supplied>者，<supplied source="T_1331">願生東方香林剎者，其</supplied>
+                            <lb n="50"/>佛<milestone facs="174,35"/>
+                            <g>号</g>曰<lb n="T21n1331_0529a13" ed="T"/> ‘入精進<g>菩</g>
+                            <g>薩</g>，<g>无</g>
+                            <g>鞅</g>
+                            <note type="ref">“<g>鞅</g>”，通“央”。《大正藏》本作“央”。</note>
+                            <g>數</g>
+                            <g>國</g>
+                            <g>圡</g>
+                            <g>莊</g>
+                            <g>嚴</g>’。<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">若人</rdg>
+                            </app>
+                            臨終之<lb n="T21n1331_0529a14" ed="T"/>日<milestone facs="174,98"/>
+                             <g>願</g>生彼者，<g>随</g>
+                            <g>願</g>
+                            <supplied source="T_1331">往生。”</supplied>
+                            <lb n="T21n1331_0529a15" ed="T"/>佛告普廣菩<g>薩</g>
+                            <milestone facs="174,152"/>
+                            <supplied source="T_1331">摩訶薩：“若有善男子、善女人
+                                <lb n="T21n1331_0529a16" ed="T"/>等，臨終之日願生東南方金林剎者，其佛號<lb n="T21n1331_0529a17" ed="T"/>曰‘盡精進菩薩，无央數國圡莊嚴’。若人臨<lb n="T21n1331_0529a18" ed="T"/>終願生彼者，随願往生。”
+                                <lb n="T21n1331_0529a19" ed="T"/>佛告普廣菩薩摩訶薩：“若有善男子、善女人<lb n="T21n1331_0529a20" ed="T"/>等，臨終之日願生南方樂林剎</supplied>者，其<supplied source="T_1331">佛號曰<lb n="T21n1331_0529a21" ed="T"/>‘不捨樂菩薩，</supplied>
+                            <lb n="51"/>
+                            <g>无</g>
+                            <milestone facs="169,34"/>
+                            <g>鞅</g>
+                            <note type="ref">“<g>鞅</g>”，通“央”。《大正藏》本作“央”。</note>
+                            <g>數</g>
+                            <g>國</g>
+                            <g>圡</g>
+                            <g>莊</g>
+                            <g>嚴</g>’。<g>若</g>人命終<g>願</g>
+                            <lb n="T21n1331_0529a22" ed="T"/>生彼者，<g>随</g>
+                            <g>願</g>
+                            <g>往</g>生。”<lb n="T21n1331_0529a23" ed="T"/>佛告普廣<milestone facs="169,119"/>
+                            <supplied source="T_1331">菩薩</supplied>摩訶<g>薩</g>：“<g>若</g>有<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">善</rdg>
+                            </app>男<milestone facs="169,153"/>
+                            <supplied source="T_1331">子、善女人<lb n="T21n1331_0529a24" ed="T"/>等，臨終之日願生西南方寳林剎者，其佛號<lb n="T21n1331_0529a25" ed="T"/>曰‘上精進菩薩，无央數國圡莊嚴’。若臨終時<lb n="T21n1331_0529a26" ed="T"/>願生彼者，随願往生。”
+                                <lb n="T21n1331_0529a27" ed="T"/>佛告普廣菩薩摩訶薩：“若有善男子、善女人<lb n="T21n1331_0529a28" ed="T"/>等，臨終之日願生西方華林剎者，其佛號曰<lb n="T21n1331_0529a29" ed="T"/>‘習精進菩薩，无</supplied>
+                            <lb n="52"/>
+                            <g>鞅</g>
+                            <note type="ref">“<g>鞅</g>”，通“央”。《大正藏》本作“央”。</note>
+                            <g>數</g>
+                            <milestone facs="164,38"/>
+                            <g>國</g>
+                            <g>圡</g>
+                            <g>莊</g>
+                            <g>嚴</g>。’<g>若</g>人臨終<g>願</g>
+                            <lb n="T21n1331_0529b01" ed="T"/>生彼者，<g>随</g>
+                            <g>願</g>
+                            <g>往</g>生<milestone facs="164,96"/>。”<lb n="T21n1331_0529b02" ed="T"/>佛告普廣<g>菩</g>
+                            <g>薩</g>摩訶<g>薩</g>：“<g>若</g>有<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">善</rdg>
+                            </app>男子、<g>善</g>
+                            <milestone facs="164,153"/>
+                            <supplied source="T_1331">女人<lb n="T21n1331_0529b03" ed="T"/>等，臨終之日願生西北方金剛剎者，其佛號<lb n="T21n1331_0529b04" ed="T"/>曰‘一乘度菩薩，无央數國圡莊嚴’。若人臨終
+                                <lb n="T21n1331_0529b05" ed="T"/>願生彼者，随願往生。”<lb n="T21n1331_0529b06" ed="T"/>佛告普廣菩薩摩訶薩：“若有善男子、善女人<lb n="T21n1331_0529b07" ed="T"/>等臨終之日願生北方道林剎者，其佛號曰
+                                <lb n="T21n1331_0529b08" ed="T"/>‘行精進菩薩，无央數國圡莊</supplied>
+                            <lb n="53"/>
+                            <g>嚴</g>
+                            <milestone facs="159,39"/>’。<g>若</g>人臨終<g>願</g>
+                            <lb n="T21n1331_0529b09" ed="T"/>生彼者，<g>随</g>
+                            <g>願</g>
+                            <g>往</g>生。”<lb n="T21n1331_0529b10" ed="T"/>
+                            <g>佛</g>告普廣菩<g>薩</g>摩<milestone facs="159,104"/>訶<g>薩</g>：“<g>若</g>有<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">善</rdg>
+                            </app>
+                            <g>男</g>子、<g>善</g>女人<lb n="T21n1331_0529b11" ed="T"/>
+                            <g>等</g>，臨終之日<g>願</g>
+                            <milestone facs="159,157"/>
+                            <supplied source="T_1331">生東北方青蓮剎者，其佛<lb n="T21n1331_0529b12" ed="T"/>號曰‘悲精進菩薩，无央數國圡莊嚴’。若人臨<lb n="T21n1331_0529b13" ed="T"/>終願生彼者，随願往生。”
+                                <lb n="T21n1331_0529b14" ed="T"/>佛告普廣菩薩摩訶薩：“若有善男子、善女人<lb n="T21n1331_0529b15" ed="T"/>等，臨終之日願生下方水精剎者，其佛號曰<lb n="T21n1331_0529b16" ed="T"/>‘淨命精進菩薩，无央數國圡</supplied>
+                            <lb n="54"/>
+                            <g>莊</g>
+                            <milestone facs="154,34"/>
+                            <g>嚴</g>’。<g>若</g>人臨終<lb n="T21n1331_0529b17" ed="T"/>
+                            <g>願</g>生彼者，<g>随</g>
+                            <g>願</g>
+                            <g>往</g>生。”<lb n="T21n1331_0529b18" ed="T"/>
+                            <g>佛</g>告普廣菩<g>薩</g>
+                            <milestone facs="155,103"/>摩訶<g>薩</g>：“<g>若</g>有<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">善</rdg>
+                            </app>
+                            <g>男</g>子、善女人<lb n="T21n1331_0529b19" ed="T"/>
+                            <g>等</g>命終之日<milestone facs="154,157"/>
+                            <g>願</g>
+                            <supplied source="T_1331">生上方欲林剎者，其佛號曰<lb n="T21n1331_0529b20" ed="T"/>‘至誠精進菩薩，无央數國圡莊嚴’。若人臨終<lb n="T21n1331_0529b21" ed="T"/>願生彼者，随願往生。”
+                                <lb n="T21n1331_0529b22" ed="T"/>佛告普廣菩薩摩訶薩：“若四輩男女，臨終之<lb n="T21n1331_0529b23" ed="T"/>日願生十方佛剎圡者，當洗除身體，著鮮潔<lb n="T21n1331_0529b24" ed="T"/>之衣，燒衆名香，懸</supplied>繒<supplied source="T_1331">旛蓋，歌詠三寳，</supplied>
+                            <lb n="55"/>讀<milestone facs="149,34"/>
+                            <app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">誦</rdg>
+                            </app>
+                            <g>尊</g>
+                            <lb n="T21n1331_0529b25" ed="T"/>
+                            <g>經</g>。廣為病者<g>說</g>因<g>緣</g>。<g>譬</g>
+                            <g>喻</g>言<g>辞</g>
+                            <g>微</g>妙，<g>經</g>義<milestone facs="150,98"/>
+                            <lb n="T21n1331_0529b26" ed="T"/>
+                            <g>苦</g>空非身四大假合。<g>形</g>如芭蕉，中<g>无</g>有實，又<lb n="T21n1331_0529b27" ed="T"/>如電<milestone facs="149,161"/>
+                            <supplied source="T_1331">光，不得久停，故云色不久鮮，當歸敗壞。<lb n="T21n1331_0529b28" ed="T"/>精誠行道，可得度苦，随心所願，无不獲果。”
+                                <lb n="T21n1331_0529b29" ed="T"/>佛又復告普廣菩薩摩訶薩：“十方妙圡，通<lb n="T21n1331_0529c01" ed="T"/>洞无窮，不可度量。諸佛如来所居淨圡，亦復<lb n="T21n1331_0529c02" ed="T"/>无量，不可稱數。今我扵此大衆之</supplied>中，為諸四
+                            <lb n="T21n1331_0529c03" ed="T"/>
+                            <supplied source="T_1331">輩未来</supplied>之<supplied source="T_1331">世像法衆</supplied>
+                            <lb n="56"/>生<milestone facs="145,34"/>
+                            <g>說</g>是十方諸<g>佛</g>
+                            <g>國</g>
+                            <g>圡</g> <lb n="T21n1331_0529c04" ed="T"/>及<g>佛</g>名<g>号</g>，不可<app>
+                                <lem wit="Scan1">
+                                    <g>勝</g>記，</lem>
+                                <rdg wit="T_1331" type="textcritical">稱說</rdg>
+                            </app>略演少<milestone facs="144,95"/>耳。”普廣<g>菩</g>
+                            <g>薩</g>摩<lb n="T21n1331_0529c05" ed="T"/>訶<g>薩</g>又白<g>佛</g>言：“世<g>尊</g>！十方佛剎<milestone facs="144,160"/>
+                            <supplied source="T_1331">淨妙國圡有<lb n="T21n1331_0529c06" ed="T"/>差別不？”佛言：“普廣！无差別也。”普廣又白佛言：<lb n="T21n1331_0529c07" ed="T"/>“世尊！何故經中讚歎阿彌陀剎，七寳諸樹、宮
+                                <lb n="T21n1331_0529c08" ed="T"/>殿樓閣，諸願生者，皆悉随彼心中所欲應<lb n="T21n1331_0529c09" ed="T"/>念而至？”<lb n="T21n1331_0529c10" ed="T"/>佛告普廣菩薩摩訶薩：“汝不解我意。娑婆
+                                <lb n="T21n1331_0529c11" ed="T"/>世界，人多貪</supplied>濁，信向者少，<supplied source="T_1331">習邪</supplied>者多。<supplied source="T_1331">不信正</supplied>
+                            <lb n="T21n1331_0529c12" ed="T"/>
+                            <lb n="57"/>法<milestone facs="140,33"/>，不<g>能</g>專一。心<g>乱</g>
+                            <g>无</g>志，實<g>无</g>
+                            <g>差</g>別。令諸<g>衆</g>生<lb n="T21n1331_0529c13" ed="T"/>
+                            <g>專</g>心有在，是<milestone facs="140,101"/>故讚<g>歎</g>彼<g>國</g>
+                            <g>圡</g>耳。諸<g>往</g>生者，<g>悉</g>
+                            <lb n="T21n1331_0529c14" ed="T"/>
+                            <g>随</g>彼<g>願</g>， <g>无</g>不獲<milestone facs="140,161"/>
+                            <supplied source="T_1331">果。”<lb n="T21n1331_0529c15" ed="T"/>普廣菩薩復白佛言：“若四衆男女，若命未終<lb n="T21n1331_0529c16" ed="T"/>若已終者，我今當勸脩諸福業，得生十方諸
+                                <lb n="T21n1331_0529c17" ed="T"/>佛剎也。”佛言：“善哉！普廣菩薩摩訶薩！随意<lb n="T21n1331_0529c18" ed="T"/>教導十方人也。”普廣菩薩語四輩言：“若人臨<lb n="T21n1331_0529c19" ed="T"/>終未終之</supplied>日，當為<supplied source="T_1331">燒</supplied>香，<supplied source="T_1331">然</supplied>燈<supplied source="T_1331">續明，扵塔</supplied>
+                            <lb n="58"/>寺<milestone facs="135,33"/>中<lb n="T21n1331_0529c20" ed="T"/>表<g>剎</g>之上懸命過<g>幡</g>，<g>轉</g>讀<g>尊</g>
+                            <g>經</g>，竟三七日。<g>所</g>
+                            <lb n="T21n1331_0529c21" ed="T"/>以然者<milestone facs="135,108"/>，命終之人在中陰中身如小兒，罪福<lb n="T21n1331_0529c22" ed="T"/>未定<milestone facs="135,162"/>。
+                            <supplied source="T_1331">應為脩福，願亡者神使生十方无量剎<lb n="T21n1331_0529c23" ed="T"/>圡，承此功徳，必得往生。亡者在世，若有罪
+                                <lb n="T21n1331_0529c24" ed="T"/>業，應堕八難，幡燈功徳，必得解脫。若善願應
+                                <lb n="T21n1331_0529c25" ed="T"/>生父母在異方不得疾生，以幡燈功徳，皆得<lb n="T21n1331_0529c26" ed="T"/>疾生，无復留難。若得生已，</supplied>當<supplied source="T_1331">為</supplied>人作<g>福</g>
+                            <g>徳</g>之<lb n="T21n1331_0529c27" ed="T"/>子，不<supplied source="T_1331">為邪</supplied>
+                            <lb n="59"/>
+                            <g>鬼</g>
+                            <milestone facs="130,33"/>，
+                            <app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">之</rdg>
+                            </app>
+                            <g>所</g>得便<app>
+                                <lem wit="Scan1">也。</lem>
+                                <rdg wit="T_1331" type="textcritical"/>
+                            </app>種族<g>豪</g>
+                            <g>强</g>，是故應<g>脩</g>
+                            <lb n="T21n1331_0529c28" ed="T"/>
+                            <g>幡</g>燈<g>功</g>
+                            <g>徳</g>。諸過命<milestone facs="130,104"/>者，<g>脩</g>行<g>福</g>業，至心懇惻，應
+                            <lb n="T21n1331_0529c29" ed="T"/>代亡者悔過<milestone facs="130,161"/>
+                            <supplied source="T_1331">衆罪， 罪垢即滅。為亡者脩福，如<lb n="T21n1331_0530a01" ed="T"/>餉遠人，无不獲果。譬如世間犯罪之人，心中
+                                <lb n="T21n1331_0530a02" ed="T"/>思惟，望諸親属求諸大力，救其危厄，今日燒<lb n="T21n1331_0530a03" ed="T"/>香，望得解脫。為亡者稱其名號，脩諸功徳，以
+                                <lb n="T21n1331_0530a04" ed="T"/>福徳之力，緣是解脫，亦復如</supplied>是，<g>逕</g>
+                            <note>“<g>逕</g>”，通“徑”。《大正藏》本作“徑”。</note>生十方，<g>无</g>
+                            <lb n="T21n1331_0530a05" ed="T"/>
+                            <supplied source="T_1331">願不得。”</supplied>
+                            <lb n="T21n1331_0530a06" ed="T"/>
+                            <lb n="60"/>普<milestone facs="125,33"/>廣<g>菩</g>
+                            <g>薩</g>又白<g>佛</g>言：“<g>若</g>人在世，不<g>皈</g>
+                            <note>“<g>皈</g>”，通“歸”。《大正藏》本作“歸”。</note>三<g>寳</g>，不<lb n="T21n1331_0530a07" ed="T"/>行法戒<milestone facs="124,98"/>，<g>若</g>其命終應<g>堕</g>三塗，受諸<g>苦</g>痛，其人<lb n="T21n1331_0530a08" ed="T"/>臨終，方<milestone facs="125,163"/>
+                            <supplied source="T_1331">欲精誠，歸命三寳，受行法戒，悔過罪<lb n="T21n1331_0530a09" ed="T"/>釁，發露懺謝，改更脩善。臨壽終時聞說經法，
+                                <lb n="T21n1331_0530a10" ed="T"/>善師化導，得聞法音。欲終之日，生是善心，得
+                                <lb n="T21n1331_0530a11" ed="T"/>解脫不？”佛言普廣菩薩摩訶薩：“若有男子、<lb n="T21n1331_0530a12" ed="T"/>善女人等，臨終之時得生</supplied>此心，<g>无</g>不<g>解</g>
+                            <g>脫</g>
+                            <supplied source="T_1331">衆<lb n="T21n1331_0530a13" ed="T"/>苦者</supplied>
+                            <lb n="61"/>也<milestone facs="121,31"/>。<g>所</g>以者何？如人負債，依附王者，債主
+                            <lb n="T21n1331_0530a14" ed="T"/>便畏，不<g>從</g>求財。此<g>譬</g>
+                            <milestone facs="120,102"/>
+                            <g>亦</g>然。天帝放<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">赦</rdg>
+                            </app>，
+                            <g>閻</g>羅除<lb n="T21n1331_0530a15" ed="T"/>
+                            <supplied source="T_1331">遣，</supplied>及諸五官伺候之神，反<milestone facs="120,163"/>
+                            <supplied source="T_1331">更恭敬，不生惡心。<lb n="T21n1331_0530a16" ed="T"/>緣此福故，不堕惡道，解脫厄難，随心所願，皆<lb n="T21n1331_0530a17" ed="T"/>得往生。”
+                                <lb n="T21n1331_0530a18" ed="T"/>普廣菩薩復白佛言：“又有衆生，不信三寳，不<lb n="T21n1331_0530a19" ed="T"/>行法戒，或時生信，或時誹謗，或時父母、兄<lb n="T21n1331_0530a20" ed="T"/>弟、親族，卒得病苦，緣此命終。或堕在三塗八
+                                <lb n="T21n1331_0530a21" ed="T"/>難</supplied>之中，受諸<g>苦</g>
+                            <supplied source="T_1331">惱，无有</supplied>
+                            <lb n="62"/>休<milestone facs="115,32"/>息。父母、兄弟及諸
+                            <lb n="T21n1331_0530a22" ed="T"/>親族為其<g>脩</g>
+                            <g>福</g>，為得<g>福</g>不？”<g>佛</g>
+                            <milestone facs="115,98"/>言：“普廣！為此人<lb n="T21n1331_0530a23" ed="T"/>
+                            <g>脩</g>
+                            <g>福</g>，七<supplied source="T_1331">分</supplied>之中為獲一也。何故<g>尒</g>乎<milestone facs="115,162"/>？<supplied source="T_1331">緣其前<lb n="T21n1331_0530a24" ed="T"/>世不信道徳，故使福徳七分獲一。若以亡者，<lb n="T21n1331_0530a25" ed="T"/>嚴身之具、堂宇室宅、園林浴池，以施三寳，此
+                                <lb n="T21n1331_0530a26" ed="T"/>福最多，功徳力強，可得拔彼地獄之殃。以是<lb n="T21n1331_0530a27" ed="T"/>因緣，便得解脫憂苦之患，長得度脫，往</supplied>生十<lb n="T21n1331_0530a28" ed="T"/>
+                            <supplied source="T_1331">方</supplied>諸<supplied source="T_1331">佛淨圡。”<lb n="T21n1331_0530a29" ed="T"/>普廣菩</supplied>
+                            <g>薩</g>復白<supplied source="T_1331">佛言：“若四</supplied>
+                            <lb n="63"/>
+                            <g>輩</g>
+                            <milestone facs="110,33"/>
+                            <g>男</g>女<g>善</g>
+                            <g>解</g>法戒，<lb n="T21n1331_0530b01" ed="T"/>知身如幻，精<g>懃</g>
+                            <note>石刻本共有兩處“<g>懃</g>”字可辨，《大正藏》本皆作“勤”，以下不再贅列。</note>
+                            <g>脩</g>
+                            <g>習</g>，行菩提道<milestone facs="110,98"/>。未終之時，<g>逆</g>
+                            <lb n="T21n1331_0530b02" ed="T"/>
+                            <g>脩</g>三七，<g>燃</g>
+                            <note type="ref">“<g>燃</g>”，通“然”。《大正藏》本作“然”。</note>燈續明，懸<app>
+                                <lem wit="Scan1">雑<g>幡</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">繒旛</rdg>
+                            </app>
+                            <g>盖</g>，請召<g>衆</g>
+                            <milestone facs="110,165"/>
+                            <supplied source="T_1331">僧，轉<lb n="T21n1331_0530b03" ed="T"/>讀尊經，脩諸福業，得福多不？”佛言：“普廣！其福<lb n="T21n1331_0530b04" ed="T"/>无量，不可度量，随心所願，獲其果實。”普廣菩
+                                <lb n="T21n1331_0530b05" ed="T"/>薩白佛言：“世尊！若四輩男女，若臨終時，若已<lb n="T21n1331_0530b06" ed="T"/>過命，是其亡日，我今亦勸造作</supplied>黃<supplied source="T_1331">幡，懸著剎<lb n="T21n1331_0530b07" ed="T"/>上，使獲福</supplied>
+                            <g>徳</g>，<g>離</g>八難<supplied source="T_1331">苦，得生</supplied>
+                            <lb n="64"/>十<milestone facs="106,31"/>方諸佛<g>淨</g>
+                            <lb n="T21n1331_0530b08" ed="T"/>
+                            <g>圡</g>。<g>幡</g>
+                            <g>盖</g>供養，<g>随</g>心<g>所</g>
+                            <g>願</g>至成菩提<milestone facs="105,91"/>。<g>幡</g>
+                            <g>随</g>風<g>轉</g>，<lb n="T21n1331_0530b09" ed="T"/>破碎都盡至成<g>微</g>塵。風吹<g>幡</g>
+                            <supplied source="T_1331">塵，</supplied>其福<g>无</g>量<milestone facs="105,166"/>。<supplied source="T_1331">幡<lb n="T21n1331_0530b10" ed="T"/>一轉時轉輪王位，乃至吹塵小王之位，其報<lb n="T21n1331_0530b11" ed="T"/>无量。燈四十九，照諸幽冥，苦痛衆生，蒙此<lb n="T21n1331_0530b12" ed="T"/>光明，皆得相見。緣此福徳，拔彼衆生，悉得休<lb n="T21n1331_0530b13" ed="T"/>息。”
+                                <lb n="T21n1331_0530b14" ed="T"/>佛告普廣：“若四輩男女，若行齋戒，心當存想，<lb n="T21n1331_0530b15" ed="T"/>請十方僧，不擇善惡，持戒</supplied>毀<supplied source="T_1331">戒，</supplied>高下<supplied source="T_1331">之行，到</supplied>
+                            <lb n="65"/>
+                            <lb n="T21n1331_0530b16" ed="T"/>諸<milestone facs="100,32"/>
+                            <g>塔</g>寺請<g>僧</g>之時，<app>
+                                <lem wit="Scan1">次<g>第</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">僧次</rdg>
+                            </app>供養，<g>无</g>別<g>異</g>想，其福<lb n="T21n1331_0530b17" ed="T"/>
+                            <g>最</g>多<milestone facs="100,100"/>，
+                                <g>无</g>量<g>无</g>
+                            <g>邊</g>。<g>若</g>
+                            <g>值</g>羅<g>漢</g>四道果人及大心<lb n="T21n1331_0530b18" ed="T"/>者，緣此<milestone facs="100,165"/>
+                            <supplied source="T_1331">功徳，受福无窮，一聞說法，可得至道，<lb n="T21n1331_0530b19" ed="T"/>无上涅槃。”<lb n="T21n1331_0530b20" ed="T"/>佛告普廣及大衆人民、天龍八部諸鬼神等：<lb n="T21n1331_0530b21" ed="T"/>“
+                                各各諦聽，思惟吾言。我今欲扵此大衆之中，<lb n="T21n1331_0530b22" ed="T"/>說那舍長者本昔因緣、罪福之事。此大長者，<lb n="T21n1331_0530b23" ed="T"/>居羅閱祇國，恒</supplied>
+                            <g>脩</g>
+                            <supplied source="T_1331">仁</supplied>義，<supplied source="T_1331">飢窮乏</supplied>
+                            <lb n="66"/>者<milestone facs="96,32"/>。沙門、婆羅<lb n="T21n1331_0530b24" ed="T"/>門諸求索者，<g>悉</g>欲供養，<g>无</g>所遺<g>惜</g>。父<milestone facs="95,101"/>母大慳，<lb n="T21n1331_0530b25" ed="T"/>
+                            <g>无</g>供養心。長者有<g>緣</g>，行至他方。<g>晨</g>朝<milestone facs="96,164"/>
+                            <supplied source="T_1331">澡洗，著<lb n="T21n1331_0530b26" ed="T"/>衣結束已畢，跪拜父母，叉手白言：‘今有緣事，<lb n="T21n1331_0530b27" ed="T"/>往至他方，有少財物，分為三分。一分供養，供
+                                <lb n="T21n1331_0530b28" ed="T"/>給父母；一分珎寳，施諸沙門及貧之者；餘有<lb n="T21n1331_0530b29" ed="T"/>一分，自欲持行。’ 父母言：‘受。扵兒行後，脩諸福<lb n="T21n1331_0530c01" ed="T"/>徳，若有人来，</supplied>
+                            <g>從</g>求索<supplied source="T_1331">者，悉當</supplied>
+                            <lb n="67"/>施<milestone facs="91,31"/>與。’<g>扵</g>是長者<lb n="T21n1331_0530c02" ed="T"/>便<g>辞</g>父母，<g>遠</g>至他方。如是去後，父母<milestone facs="91,99"/>
+                            <g>耶</g>
+                            <note type="ref">“<g>耶</g>”，通“邪”。《大正藏》本作“邪”。</note>見，<g>无</g>
+                            <lb n="T21n1331_0530c03" ed="T"/>
+                            <g>念</g>子心，<app>
+                                <lem wit="Scan1">婆羅門、沙門</lem>
+                                <rdg wit="T_1331" type="textcritical">沙門、婆羅門</rdg>
+                            </app>及貧乏者<g>往</g>
+                            <g>從</g>乞匃<milestone facs="91,168"/>，<supplied source="T_1331">慳<lb n="T21n1331_0530c04" ed="T"/>貪邪見，</supplied>
+                            <g>无</g>
+                            <supplied source="T_1331">施與心。子行去後，若干日數，應還<lb n="T21n1331_0530c05" ed="T"/>到舍，父母計其應還歸家，往到市所，取猪
+                                <lb n="T21n1331_0530c06" ed="T"/>羊骨頭蹄膏血、果蓏雜穀，持散家中。那舍長<lb n="T21n1331_0530c07" ed="T"/>者從遠方還，見其父母，歡喜无量，接足礼拜，<lb n="T21n1331_0530c08" ed="T"/>問訊起</supplied>居。父<supplied source="T_1331">母亦復歡喜</supplied>
+                            <lb n="68"/>踊<milestone facs="86,31"/>
+                            <g>躍</g>語<g>那</g>
+                            <g>舍</g>言：“我<lb n="T21n1331_0530c09" ed="T"/>
+                            <g>扵</g>汝行<g>後</g>為汝<g>設</g>
+                            <g>福</g>，沙門、婆羅門<milestone facs="86,102"/>、<g>國</g>中<g>孤</g>老、<lb n="T21n1331_0530c10" ed="T"/>貧窮乞者，以汝財物<supplied source="T_1331">悉施</supplied>與之。”兒聞<milestone facs="86,168"/>
+                            <supplied source="T_1331">設福布<lb n="T21n1331_0530c11" ed="T"/>施貧乏，心大歡喜。又語兒言：“我亦復請諸沙<lb n="T21n1331_0530c12" ed="T"/>門，設福始竟，今日家中草穢狼藉，猶未掃除。”
+                                <lb n="T21n1331_0530c13" ed="T"/>兒見狼藉，相貌如是，信其父母，為設福徳，倍<lb n="T21n1331_0530c14" ed="T"/>復歡喜，踊躍无量。久後之間，父母衰老，得諸<lb n="T21n1331_0530c15" ed="T"/>病</supplied>
+                            <g>苦</g>，便<supplied source="T_1331">即命終。那舍</supplied>
+                            <lb n="69"/>即<milestone facs="81,31"/>便<g>殯</g>
+                            <g>殮</g>
+                            <g>屍</g>骸，<g>安</g>
+                            <g>厝</g>粗<lb n="T21n1331_0530c16" ed="T"/>
+                            <g>畢</g>，<g>從</g>父母命終<g>轉</g>讀<g>尊</g>
+                            <g>經</g>，<g>燒</g>香<milestone facs="81,103"/>
+                            <g>礼</g>
+                            <g>拜</g>，歌<g>詠</g>
+                            <g>讚</g>
+                            <lb n="T21n1331_0530c17" ed="T"/>
+                            <g>歎</g>，
+                                <g>无</g>一時廢，竟于<supplied source="T_1331">三七</supplied>
+                            <g>經</g>聲不<milestone facs="81,165"/>
+                            <supplied source="T_1331">絕。作是思惟：<lb n="T21n1331_0530c18" ed="T"/>我父母在世，極憂念我，多脩福徳。今我又復，<lb n="T21n1331_0530c19" ed="T"/>請諸聖衆。想我父母，緣此功徳故，應往生十
+                                <lb n="T21n1331_0530c20" ed="T"/>方剎圡，供養恭敬，面見諸佛。<lb n="T21n1331_0530c21" ed="T"/>扵是那舍忽得重病，奄便欲死，唯心上暖。家<lb n="T21n1331_0530c22" ed="T"/>中大小，未便殯斂。至</supplied>七日後，乃得<g>蘇</g>
+                            <supplied source="T_1331">解。家</supplied>
+                            <lb n="70"/>中<milestone facs="76,31"/>
+                            <lb n="T21n1331_0530c23" ed="T"/>問言：“<g>那</g>
+                            <g>舍</g>長者病<g>苦</g>如是，本死今<g>甦</g>，
+                            <g>從</g>何而<lb n="T21n1331_0530c24" ed="T"/>
+                            <g>来</g>？”長者<milestone facs="77,104"/>
+                            <g>那</g>舍語其家言：“我<g>數</g>日<supplied source="T_1331">来，善神將<lb n="T21n1331_0530c25" ed="T"/>我示</supplied>以福<milestone facs="76,163"/>
+                            <supplied source="T_1331">堂无極之樂，又到地獄，靡不經歷，<lb n="T21n1331_0530c26" ed="T"/>眼中所覩，唯苦痛耳。今我又見餓鬼住處，所
+                                <lb n="T21n1331_0530c27" ed="T"/>生父母在中受苦，見我来看，悲號懊惱，欲求<lb n="T21n1331_0530c28" ed="T"/>免脫，不能得出。我思父母，在世之時，大脩福<lb n="T21n1331_0530c29" ed="T"/>徳，意謂生天，而更堕在餓鬼獄中，</supplied>受諸<g>苦</g>
+                            <supplied source="T_1331">惱。”</supplied>
+                            <lb n="T21n1331_0531a01" ed="T"/>那<supplied source="T_1331">舍長</supplied>
+                            <lb n="71"/>者<milestone facs="72,31"/>
+                            <g>說</g>此語已，向其家中懊<g>惱</g>
+                            <g>流</g>淚：“我<lb n="T21n1331_0531a02" ed="T"/>今家中當作何方<g>功</g>
+                            <g>徳</g>之力<milestone facs="71,111"/>，<supplied source="T_1331">拔我父母使得<lb n="T21n1331_0531a03" ed="T"/>解脫？”那舍長者又自思惟：我父母昔病苦之<lb n="T21n1331_0531a04" ed="T"/>時，大脩福徳。欲終未終及命終，已然燈續明，
+                                <lb n="T21n1331_0531a05" ed="T"/>轉經行道，齋戒一心，乃至三七未曾懈廢。而<lb n="T21n1331_0531a06" ed="T"/>今父母而更生此罪苦地獄，必當有意。便問<lb n="T21n1331_0531a07" ed="T"/>親族及諸耆宿。耆宿答言：“我不了此深妙之
+                                <lb n="T21n1331_0531a08" ed="T"/>事，可往</supplied>諮問佛<supplied source="T_1331">世尊</supplied>也。”<g>扵</g>
+                            <supplied source="T_1331">是</supplied>
+                            <lb n="72"/>長<milestone facs="67,31"/>者便<g>往</g>到<lb n="T21n1331_0531a09" ed="T"/>
+                            <g>佛</g>
+                            <g>所</g>，頭面作<g>礼</g>，胡跪合掌而白佛言：“欲<milestone facs="66,96"/>有<g>啟</g>
+                            <lb n="T21n1331_0531a10" ed="T"/>請，<supplied source="T_1331">唯願世尊慈愍</supplied>不<milestone facs="66,133"/>
+                            <supplied source="T_1331">怪。”佛言：“便說。”長者那舍<lb n="T21n1331_0531a11" ed="T"/>說向因緣：“父母在世，常脩</supplied>福<supplied source="T_1331">徳，及命終後，為<lb n="T21n1331_0531a12" ed="T"/>供三七，至安厝畢，謂言生天，而更堕在地獄<lb n="T21n1331_0531a13" ed="T"/>中。已問耆宿，耆宿不了。今故問佛，為我決<lb n="T21n1331_0531a14" ed="T"/>疑。緣我重病，奄便欲死，七日乃蘇。善神將我
+                                <lb n="T21n1331_0531a15" ed="T"/>經歷地獄，靡不周遍，</supplied>以是因緣，得見父<supplied source="T_1331">母在</supplied>
+                            <lb n="73"/>
+                            <lb n="T21n1331_0531a16" ed="T"/>
+                            <g>苦</g>
+                            <milestone facs="62,31"/>
+                            <g>劇</g>地。<g>脩</g>
+                            <g>福</g>如此，而更<g>堕</g>罪，不<g>解</g>
+                            <g>所</g>以，今故<lb n="T21n1331_0531a17" ed="T"/>問佛<milestone facs="61,91"/>。<g>唯</g>
+                            <g>願</g>世尊<supplied source="T_1331">解釋我疑，脩何福</supplied>業<milestone facs="61,134"/>，
+                            <supplied source="T_1331">令我父<lb n="T21n1331_0531a18" ed="T"/>母解脫厄難，不遭苦患，悉得生天，封受自<lb n="T21n1331_0531a19" ed="T"/>然，</supplied>快樂<g>无</g>
+                            <supplied source="T_1331">極，得</supplied>涅<supplied source="T_1331">槃道。”
+                                <lb n="T21n1331_0531a20" ed="T"/>佛語：“長者！汝一心諦聽我之所說。汝前欲行，<lb n="T21n1331_0531a21" ed="T"/>往至他方，留財寳物，與汝父母，令汝父母，脩<lb n="T21n1331_0531a22" ed="T"/>諸福徳。父母邪見，欺誑扵汝，實不脩福，妄言
+                                <lb n="T21n1331_0531a23" ed="T"/>為作，脩諸</supplied>福<supplied source="T_1331">緣。</supplied>以慳貪故，<supplied source="T_1331">堕彼</supplied>
+                            <lb n="74"/>地<milestone facs="57,30"/>獄。”長者聞<lb n="T21n1331_0531a24" ed="T"/>
+                            <g>佛</g>神口<g>所</g>
+                            <g>說</g>，<g>疑</g>惑永<g>除</g>，作如是言：“是我之<milestone facs="57,106"/>
+                            <supplied source="T_1331">過，<lb n="T21n1331_0531a25" ed="T"/>非父母咎。”即扵佛</supplied>前代<milestone facs="57,135"/>
+                            <supplied source="T_1331">其父母，悔過此罪慳<lb n="T21n1331_0531a26" ed="T"/>貪之殃，長者父母扵彼地獄小得休息。
+                                <lb n="T21n1331_0531a27" ed="T"/>佛</supplied>語：“長<milestone facs="57,227"/>
+                            <supplied source="T_1331">者！今我借汝</supplied>天眼<milestone facs="57,253"/>，<app>
+                                <lem wit="Scan1">
+                                    <g>所</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">使</rdg>
+                            </app>汝<supplied source="T_1331">得見父母休<lb n="T21n1331_0531a28" ed="T"/>息。”長者扵是承佛威</supplied>神，<supplied source="T_1331">見其父母皆得休息。<lb n="T21n1331_0531a29" ed="T"/>那舍長者又白佛言：“今者又當作何福業，使我
+                                <lb n="T21n1331_0531b01" ed="T"/>父母解脫彼苦？”</supplied>佛語長者：<supplied source="T_1331">“今請諸聖衆，</supplied>
+                            <lb n="75"/>安<milestone facs="52,30"/> <lb n="T21n1331_0531b02" ed="T"/>居三月。行道欲竟，可<g>還</g>家中，作百味飲食之 <lb n="T21n1331_0531b03" ed="T"/>具種<milestone facs="52,102"/>
+                            <supplied source="T_1331">種甘美，以好淨器盛</supplied>持供<milestone facs="52,137"/>
+                            <supplied source="T_1331">養，及好衣服 <lb n="T21n1331_0531b04" ed="T"/>種種華香、金銀珎寳雜碎供具以施扵</supplied>僧，令
+                            <lb n="T21n1331_0531b05" ed="T"/>汝<supplied source="T_1331">得福，使汝父母</supplied>
+                            <g>解</g>
+                            <g>脫</g>此<supplied source="T_1331">難，</supplied>不復<supplied source="T_1331">更受餓鬼 <lb n="T21n1331_0531b06" ed="T"/>形也。” <lb n="T21n1331_0531b07" ed="T"/>長</supplied>者<supplied source="T_1331">那舍即如</supplied>佛言，<supplied source="T_1331">還家供辦，不違尊教。作 <lb n="T21n1331_0531b08" ed="T"/>供養已，緣此生天，封受自然，无為快樂。“汝今 <lb n="T21n1331_0531b09" ed="T"/>欲見汝父母所生宮殿處不？今更以</supplied>
+                            <lb n="76"/>威<milestone facs="47,31"/>神，令 <lb n="T21n1331_0531b10" ed="T"/>汝得見，不復<app>
+                                <lem wit="Scan1">生</lem>
+                                <rdg wit="T_1331" type="textcritical">受</rdg>
+                            </app>
+                            <g>苦</g>。”<app>
+                                <lem wit="Scan1"/>
+                                <rdg wit="T_1331" type="textcritical">長者</rdg>
+                            </app>承佛威神之力，見其 <lb n="T21n1331_0531b11" ed="T"/>父<milestone facs="46,104"/>
+                            <supplied source="T_1331">母生在天上，諸天娛</supplied>樂，自在随<milestone facs="46,147"/>
+                            <supplied source="T_1331">意，无復罣 <lb n="T21n1331_0531b12" ed="T"/>礙。佛告那舍：“罪福</supplied>如是，不可不慎。如長者 <lb n="T21n1331_0531b13" ed="T"/>眼<g>所</g>見，心<g>所</g>開，故<milestone facs="47,252"/>言<supplied source="T_1331">自作</supplied>自得，非天<supplied source="T_1331">與</supplied>人。如 <lb n="T21n1331_0531b14" ed="T"/>長者父母<supplied source="T_1331">雖在餓鬼，其罪小輕。一切餓鬼，受
+                                <lb n="T21n1331_0531b15" ed="T"/>罪甚重，不可具說。長者父母其罪輕者，有小 <lb n="T21n1331_0531b16" ed="T"/>福徳，扶接使尒。</supplied>長者<supplied source="T_1331">脩福，竟于三七日，</supplied>
+                            <lb n="77"/>
+                            <g>扵</g>
+                            <milestone facs="42,32"/>
+                            <lb n="T21n1331_0531b17" ed="T"/>諸餓<g>鬼</g>，受罪<g>輕</g>也。<g>所</g>以然者前章中言，<g>若</g>人<lb n="T21n1331_0531b18" ed="T"/>在世<milestone facs="42,101"/>，不識<supplied source="T_1331">三寳，不脩齋戒，</supplied>
+                            <g>无</g>善<g>師</g>教，過<milestone facs="41,150"/>
+                            <supplied source="T_1331">命已<lb n="T21n1331_0531b19" ed="T"/>後，兄弟、父母、親属、</supplied>知識<supplied source="T_1331">為其脩福，七</supplied>分之中，<lb n="T21n1331_0531b20" ed="T"/>為獲一也<milestone facs="41,225"/>。
+                            是故長者父母有<supplied source="T_1331">罪，雖在地獄餓<lb n="T21n1331_0531b21" ed="T"/>鬼之中，受罪</supplied>輕者，緣<supplied source="T_1331">脩福故，七分獲一。今脩
+                                <lb n="T21n1331_0531b22" ed="T"/>福</supplied>徳，供養<supplied source="T_1331">衆僧，</supplied>以是<supplied source="T_1331">因緣解脫衆難，故得生<lb n="T21n1331_0531b23" ed="T"/>天。”
+                                    <lb n="T21n1331_0531b24" ed="T"/>佛告普廣菩薩摩訶薩：“若</supplied>人未<supplied source="T_1331">終臨終之</supplied>
+                            <lb n="78"/>日<milestone facs="37,31"/>，<lb n="T21n1331_0531b25" ed="T"/>
+                            <g>若</g>
+                            已終竟又是終日，父母、親族、知識、朋友為<lb n="T21n1331_0531b26" ed="T"/>命<milestone facs="36,95"/>終者<g>脩</g>諸<supplied source="T_1331">福業，齋</supplied>戒一心，洗浴身體，著<supplied source="T_1331">鮮<lb n="T21n1331_0531b27" ed="T"/>潔之衣，一心礼敬十方</supplied>諸<milestone facs="37,186"/>佛，又當稱揚十方<lb n="T21n1331_0531b28" ed="T"/>佛<g>号</g>，別以華香供養諸佛<milestone facs="37,247"/>，可得解脫<supplied source="T_1331">憂</supplied>苦之<supplied source="T_1331">
+                                <lb n="T21n1331_0531b29" ed="T"/>患，得昇天</supplied>上<supplied source="T_1331">證</supplied>泥洹<supplied source="T_1331">道。”<lb n="T21n1331_0531c01" ed="T"/>佛告普廣</supplied>菩<g>薩</g>
+                            <supplied source="T_1331">摩訶</supplied>薩：“若未終<supplied source="T_1331">時</supplied>
+                            <g>礼</g>
+                            <supplied source="T_1331">拜十方<lb n="T21n1331_0531c02" ed="T"/>諸佛，命終之人，所生之處，常得值佛，千劫萬<lb n="T21n1331_0531c03" ed="T"/>劫，億萬劫數，重罪之殃，</supplied>
+                            <lb n="79"/>
+                            <g>无</g>
+                            <milestone facs="32,32"/>不<app>
+                                <lem wit="Scan1">
+                                    <g>解</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">得</rdg>
+                            </app>
+                            <g>脫</g>。<g>亦</g>復當為<g>
+                                <lb n="T21n1331_0531c04" ed="T"/>說</g>是灌頂<g>无</g>上章句，三世諸佛，天中<milestone facs="32,110"/>
+                            <supplied source="T_1331">之天，各<lb n="T21n1331_0531c05" ed="T"/>皆順本。三世</supplied>如<milestone facs="32,128"/>来<g>說是</g>
+                            <supplied source="T_1331">无</supplied>上<supplied source="T_1331">總持</supplied>章<supplied source="T_1331">句。普廣<lb n="T21n1331_0531c06" ed="T"/>菩</supplied>
+                            <g>薩</g>摩訶<g>薩</g>！汝<milestone facs="33,206"/>當諦聽，我今為汝及一切衆<lb n="T21n1331_0531c07" ed="T"/>
+                            <supplied source="T_1331">生</supplied>諸<supplied source="T_1331">病</supplied>
+                            <g>苦</g>
+                            <supplied source="T_1331">者，若</supplied>其臨終，<supplied source="T_1331">若已終竟，</supplied>復<supplied source="T_1331">是終日，
+                                <lb n="T21n1331_0531c08" ed="T"/>聞此章句，所生之處，當得見佛，不堕八難，遠<lb n="T21n1331_0531c09" ed="T"/>扵惡道。”扵是世尊在大衆中，宣說諸佛无上<lb n="T21n1331_0531c10" ed="T"/>章句，即作偈頌而說之曰：</supplied>
+                        </seg>
+                    </ab>
+                </div>
+                <div>
+                    <head>33號窟<foreign xml:lang="en">e</foreign> 壁 <foreign xml:lang="en">Cave 33, wall e</foreign>
+                    </head>
+                    <ab>
+                        <seg n="WFY_33_e_1" rend="rl">
+                            <milestone unit="juan" n="11"/>
+                            <lb n="1"/>
+                            <lb n="T21n1331_0531c11" ed="T"/>“波利<supplied source="T_1331">富樓</supplied>那 遮利<milestone facs="563,67"/>三<app>
+                                <lem wit="Scan1">
+                                    <g>曼</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">慢</rdg>
+                            </app>
+                            <g>阤</g> <lb n="T21n1331_0531c12" ed="T"/>達舍尼羅佉 摩訶<g>毗</g>羅訶 <lb n="T21n1331_0531c13" ed="T"/>伽帝<milestone facs="563,120"/>三<app>
+                                <lem wit="Scan1">
+                                    <g>曼</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">慢</rdg>
+                            </app>
+                            <g>阤</g> <g>毗</g>
+                            <g>阤</g>摩伽<supplied source="T_1331">帝 <lb n="T21n1331_0531c14" ed="T"/>摩訶</supplied>伽<supplied source="T_1331">利波 波帝婆彌</supplied>
+                            <g>阤</g> <supplied source="T_1331">
+                                <lb n="T21n1331_0531c15" ed="T"/>娑</supplied>婆<supplied source="T_1331">婁</supplied>伽<supplied source="T_1331">提 脩鉢利富那 <lb n="T21n1331_0531c16" ed="T"/>阿</supplied>利那<g>達</g>摩 摩訶<g>毗</g>波提 <lb n="T21n1331_0531c17" ed="T"/>帝
+                            利<g>毗</g>波伽 <g>脩</g>勒<supplied source="T_1331">波僧祇 <lb n="T21n1331_0531c18" ed="T"/>醯帝三博叉 摩訶三慢陀<lb n="T21n1331_0531c19" ed="T"/> 阿陀摩羅尼 阿利摩羅多 <lb n="T21n1331_0531c20" ed="T"/>毘鼓三慢陀 達尼佉羅陀。”
+                                <lb n="T21n1331_0531c21" ed="T"/>佛語普廣菩薩摩訶薩：“是為灌頂无上章句，<lb n="T21n1331_0531c22" ed="T"/>必定不二。解除亡者无量罪厄，令過命者<lb n="T21n1331_0531c23" ed="T"/>得</supplied>
+                            <lb n="2"/>生天<milestone facs="558,46"/>上，随心<g>所</g>
+                            <g>願</g>，往生十方。此大章句，真<lb n="T21n1331_0531c24" ed="T"/>實之言，在<g>所</g>
+                            <g>生</g>
+                            <g>處</g>，常見<milestone facs="558,127"/>十方<g>微</g>妙<supplied source="T_1331">淨圡。若在<lb n="T21n1331_0531c25" ed="T"/>世時應當受持如是章</supplied>句，<supplied source="T_1331">齋戒一心，為過命<lb n="T21n1331_0531c26" ed="T"/>者，七</supplied>日七夜，受<app>
+                                <lem wit="Scan1">
+                                    <g>行</g>
+                                </lem>
+                                <rdg wit="T_1331" type="textcritical">持</rdg>
+                            </app>八<g>禁</g>，長齋菜食，<g>礼</g>敬十<lb n="T21n1331_0531c27" ed="T"/>方諸<supplied source="T_1331">佛世尊。當發大誓：‘願我獲得僧那僧涅，
+                                <lb n="T21n1331_0531c28" ed="T"/>諸衆生輩使向无上正真大道。’”<lb n="T21n1331_0531c29" ed="T"/>尒時世尊說是語已，告諸大衆善男子、善女<lb n="T21n1331_0532a01" ed="T"/>人等，及天龍八部一切鬼神：“汝等衆輩聞說<lb n="T21n1331_0532a02" ed="T"/>十方</supplied>
+                            <lb n="3"/>淨佛國<milestone facs="554,51"/>
+                            <g>圡</g>，復聞<g>說</g>是那舍長者<g>囙</g>緣罪<lb n="T21n1331_0532a03" ed="T"/>福，生信心不？”<lb n="T21n1331_0532a04" ed="T"/>普廣菩薩<milestone facs="553,135"/>復<g>從</g>
+                            <supplied source="T_1331">坐起，白世尊言：“說是十方<lb n="T21n1331_0532a05" ed="T"/>諸</supplied>佛<g>淨</g>
+                            <g>圡</g>，<g>无</g>量<supplied source="T_1331">功徳，莊嚴快</supplied>樂。復得聞是那<lb n="T21n1331_0532a06" ed="T"/>舍<g>囙</g>
+                            <g>緣</g>。世<g>尊</g>又<g>說</g>
+                            <g>衆</g>
+                            <g>事</g>
+                            <g>囙</g>
+                            <supplied source="T_1331">
+                                <g>緣</g>，甚善！心大歡<lb n="T21n1331_0532a07" ed="T"/>喜，踊躍无量。世尊說是多所利益，後世衆生，
+                                <lb n="T21n1331_0532a08" ed="T"/>
+                                <g>緣</g>此解脫，以為軌則，不復貪悋，資生之物，聞<lb n="T21n1331_0532a09" ed="T"/>此經言，但生施心，无所愛惜，随意施與，貧乏<lb n="T21n1331_0532a10" ed="T"/>使足，國圡豐饒，施</supplied>
+                            <lb n="4"/>心平<g>等</g>。如<milestone facs="549,54"/>是漸漸積<g>功</g>累<lb n="T21n1331_0532a11" ed="T"/>
+                            <g>徳</g>，
+                            <g>悉</g>成佛道。”<lb n="T21n1331_0532a12" ed="T"/>普廣菩<g>薩</g>摩訶<g>薩</g>又白<milestone facs="549,130"/>佛言：
+                            <supplied source="T_1331">“若四輩男女，欲<lb n="T21n1331_0532a13" ed="T"/>脩學是，願生淨圡，灌頂經典，有幾事行，得此</supplied>
+                            <lb n="T21n1331_0532a14" ed="T"/>
+                            <g>經</g>法？”<g>佛</g>言：“普廣！有十二<g>事</g>，可得<g>脩</g>學是<supplied source="T_1331">經典<lb n="T21n1331_0532a15" ed="T"/>也。一者、不信九十五種邪見之道。二者、堅持<lb n="T21n1331_0532a16" ed="T"/>禁戒，至終不犯。三者、勤學禪定，教未學者。四<lb n="T21n1331_0532a17" ed="T"/>者、忍辱不瞋，見惡不惱。五者、常樂布施，愍念
+                                <lb n="T21n1331_0532a18" ed="T"/>孤老。六者、常勤精進，晝夜不懈。七者、</supplied>
+                            <lb n="5"/>
+                            <g>若</g>行<g>来</g>
+                            <milestone facs="544,51"/>
+                            <lb n="T21n1331_0532a19" ed="T"/>出入，朝拜<g>塔</g>像及諸<g>尊</g>長，然後捨去。八者、合
+                            <lb n="T21n1331_0532a20" ed="T"/>集<g>衆</g>人，為作<milestone facs="543,130"/>
+                            <supplied source="T_1331">唱</supplied>導，普<supplied source="T_1331">得信心。九者、不貪世榮、<lb n="T21n1331_0532a21" ed="T"/>衣服、伎樂、資生之物，常好苦行，</supplied>依四依法。十<lb n="T21n1331_0532a22" ed="T"/>者、行此法時，<g>无</g>
+                            <g>所</g>悕望，但欲利益諸<g>衆</g>生<supplied source="T_1331">輩，<lb n="T21n1331_0532a23" ed="T"/>不扵其中悕人利養。十一者、至終不諂，邪命<lb n="T21n1331_0532a24" ed="T"/>自活。十二者、行此經時，不擇富貴豪樂之人，
+                                <lb n="T21n1331_0532a25" ed="T"/>貧苦求者，等心看之，无有異想。是為十二正<lb n="T21n1331_0532a26" ed="T"/>化之事。”時普廣聞此心大歡喜：“我當奉</supplied>
+                            <lb n="6"/>
+                            行，至<lb n="T21n1331_0532a27" ed="T"/>終<milestone facs="539,51"/>不犯。”
+                            <lb n="T21n1331_0532a28" ed="T"/>佛<g>說</g>
+                            <g>經</g>竟，是諸大<g>衆</g>
+                            <g>无</g>不歡<g>喜</g>。阿難<g>囙</g>
+                            <g>從</g>
+                            <g>坐</g>
+                            <lb n="T21n1331_0532a29" ed="T"/>起：“演說法竟<milestone facs="539,136"/>當何 <supplied source="T_1331">名之？”</supplied>佛<supplied source="T_1331">語</supplied>阿難：“此<supplied source="T_1331">經名為<lb n="T21n1331_0532b01" ed="T"/>《普</supplied>廣所<supplied source="T_1331">問十方淨圡随願往</supplied>生<app>
+                                <lem wit="Scan1">經</lem>
+                                <rdg wit="T_1331" type="textcritical"/>
+                            </app>》。亦名《那<g>舍</g>罪<lb n="T21n1331_0532b02" ed="T"/>
+                            <g>福</g>
+                            <g>囙</g>
+                            <g>緣</g>》，又名《灌頂无上章句》。”佛說<supplied source="T_1331">是經已，四<lb n="T21n1331_0532b03" ed="T"/>衆、人民、天龍八部，聞佛所說，作</supplied>
+                            <g>礼</g>
+                            <supplied source="T_1331">奉行。</supplied>
+                            <lb n="T21n1331_0532b04" ed="T"/>
+                            <title type="chapter">佛說灌頂</title>
+                            <title type="chapter">［<supplied source="T_1331">随願</supplied>］
+                            </title>
+                            <title type="chapter">往</title>
+                            <title type="chapter">［<supplied source="T_1331">生十方</supplied>］
+                            </title>
+                            <title type="chapter">淨</title>
+                            <title type="chapter">
+                                <supplied source="T_1331">［土］</supplied>
+                            </title>
+                            <title type="chapter">經</title>
+                        </seg>
+                    </ab>
+                    <ab>
+                        <abbr>經文校對：項目研究組</abbr>
+                    </ab>
+                </div>
       </div>
       <div type="bibliography">
-        <listBibl>
-          <bibl type="canonical"><idno type="taisho">T_1331</idno><citedRange>528c–536b</citedRange></bibl>
-        </listBibl>
+        <listBibl><bibl type="canonical"><idno type="taisho">T_1331</idno><citedRange>528c–536b</citedRange></bibl></listBibl>
       </div>
     </body>
   </text>
