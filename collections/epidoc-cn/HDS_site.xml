@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SITE file — 洪頂山 Mount Hongding (HDS). TEI <place> with two nested slope SUBSITES
+     derived from the per-inscription azimuths in the catalog (<c:location azimuth>):
+     north-slope surfaces face ~S (azimuth 199–230), south-slope surfaces face ~N (351–34).
+     The 16-text panel HDS_9 sits on the NORTH slope (HDS_9.1 azimuth 221). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HDS_site">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">洪頂山</title>
+        <title xml:lang="en">Mount Hongding (site)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="site">HDS</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="sutras:catalog/HDS_site.xml"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="HDS" type="site" subtype="mountain" ana="crm:E27_Site">
+          <placeName xml:lang="zh">洪頂山</placeName>
+          <placeName xml:lang="en">Mount Hongding</placeName>
+          <country xml:lang="zh">中國</country>
+          <region xml:lang="zh">山東省</region>
+          <region xml:lang="en">Shandong Province</region>
+          <location>
+            <geo>36.064 116.238</geo>
+          </location>
+          <note type="source-coordinates">upstream lon-lat verbatim: 116.238, 36.064 (EPSG:4326)</note>
+          <!-- nested subsites (CRM: each P89 falls within the site) come LAST in <place> -->
+          <place xml:id="HDS_N" type="subsite" subtype="slope">
+            <placeName xml:lang="zh">北坡（北麓）</placeName>
+            <placeName xml:lang="en">north slope</placeName>
+            <note type="azimuth">surfaces face ~S: inscription azimuths 199–230 (e.g. HDS_9.1 = 221;
+              the catalog title of HDS_16.2 itself says 北麓)</note>
+            <linkGrp type="objects">
+              <ptr type="object" target="HDS_9_object.xml#HDS_9"/>
+            </linkGrp>
+          </place>
+          <place xml:id="HDS_S" type="subsite" subtype="slope">
+            <placeName xml:lang="zh">南坡（南麓）</placeName>
+            <placeName xml:lang="en">south slope</placeName>
+            <note type="azimuth">surfaces face ~N: inscription azimuths 351–34 (e.g. the 法洪 cluster
+              HDS_17–23; the catalog title of HDS_22 itself says 南麓). Objects not in this sample —
+              see sutras:catalog/HDS_site.xml for the full inscription list.</note>
+          </place>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

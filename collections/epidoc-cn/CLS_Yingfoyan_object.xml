@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — 映佛巖 Radiant Buddha Cliff (E25 feature): ONE large boulder bearing FOUR
+     texts distributed over one continuous vertical face (all surfaces azimuth 211°, slope 0°,
+     zenith 90°). The minted-moya counterpart to the SNS_1 fold: here the object node is minted
+     because cardinality is 1 : 4. No face anchors — the surface is continuous; each inscription's
+     msDesc/@corresp targets this object directly, position carried per text (field dims +
+     orientation + per-text GPS in the inscription files). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_Yingfoyan_object">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">映佛巖</title>
+        <title xml:lang="en">Radiant Buddha Cliff (inscribed boulder)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">CLS_Yingfoyan</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>assembled from <ptr target="sutras:catalog/CLS_1.xml"/>,
+          <ptr target="sutras:catalog/CLS_2.xml"/>, <ptr target="sutras:catalog/CLS_3.xml"/>,
+          <ptr target="sutras:catalog/CLS_4.xml"/> — four per-text records naming the same
+          bearer 映佛巖 in their titles; no upstream object record exists.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="CLS_Yingfoyan" type="boulder" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">映佛巖</objectName>
+            <objectName xml:lang="en">Radiant Buddha Cliff</objectName>
+            <idno type="support">CLS_Yingfoyan</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">Four texts of one 570 CE programme on one continuous face: the
+              98-character sutra excerpt (CLS_1), the engraved title "般若波羅蜜" (CLS_2), and two
+              donor colophons (CLS_3 by Wang Zichun 王子椿, the patron named as producer of CLS_1;
+              CLS_4 by Puxi 普憘 and others, carrying the date 武平元年). The colophons comment on
+              the sutra text they accompany.</summary>
+            <msItem n="1" corresp="CLS_1.xml">
+              <locus target="#CLS_Yingfoyan"/>
+              <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
+              <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of
+                Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
+              <note type="text-genre">節文 sutra excerpt</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="2" corresp="CLS_2.xml">
+              <locus target="#CLS_Yingfoyan"/>
+              <title xml:lang="zh">映佛巖“般若波羅蜜”刻銘</title>
+              <title xml:lang="en">“Perfection of Wisdom” on Radiant Buddha Cliff</title>
+              <note type="text-genre">刻銘 title engraving</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="3" corresp="CLS_3.xml">
+              <locus target="#CLS_Yingfoyan"/>
+              <title xml:lang="zh">映佛巖王子椿題名</title>
+              <title xml:lang="en">Colophon by Wang Zichun on Radiant Buddha Cliff</title>
+              <note type="text-genre">題名 donor colophon (comments on the sutra excerpt CLS_1)</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="4" corresp="CLS_4.xml">
+              <locus target="#CLS_Yingfoyan"/>
+              <title xml:lang="zh">映佛巖普憘等題名</title>
+              <title xml:lang="en">Colophon by Puxi and Others on Radiant Buddha Cliff</title>
+              <note type="text-genre">題名 donor colophon (carries the date 武平元年)</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc form="boulder">
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖（巨石）</term>
+                    <term xml:lang="en">inscribed boulder / rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">淡色花崗岩</term>
+                    <term xml:lang="en">leucogranite</term>
+                  </material>
+                  <!-- whole-boulder dimensions: not recorded upstream — the four script fields are
+                       dimensioned per text in the inscription files {whole-object measurement:
+                       from fieldwork/publication at a later pass} -->
+                </support>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <p xml:lang="en">One continuous near-vertical face (azimuth 211°, slope 0°,
+                    zenith 90° on all four upstream location records). The horizontal sutra field
+                    (130 × 313 cm, CLS_1) dominates; the single-column title engraving
+                    (124 × 26 cm, CLS_2) and the two colophon fields (136 × 78 cm, CLS_3;
+                    102 × 85 cm, CLS_4) are placed beside it — per-text GPS points in the
+                    inscription files differ only in the metre range.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <note type="date-source">the upstream date records of CLS_1–3 give the year as
+                c:given source="CLS_4, CLS_8" — the date is carried by the colophons; CLS_4's own
+                record marks 武平元年 as c:original (in-text date).</note>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

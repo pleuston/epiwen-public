@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — the 水牛山 stele (E22 made-object). Whole-monument description lives HERE
+     (division rule); the per-text script-field data lives in the inscription files SNS_2.xml
+     (碑陽 obverse) and SNS_3.xml (碑側 both narrow sides). No upstream object record exists —
+     the corpus records this one 碑 as two per-text records; assembling the shared stone is
+     precisely the point of this file. Faces are nested identity-anchor <object>s (LAST, per
+     the TEI content model of <object>). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_stele_doc">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">水牛山文殊般若碑</title>
+        <title xml:lang="en">Mañjuśrī Prajñā stele of Mount Shuiniu</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">SNS_stele</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>assembled from <ptr target="sutras:catalog/SNS_2.xml"/> and
+          <ptr target="sutras:catalog/SNS_3.xml"/> — one 碑 recorded upstream as two per-text
+          records; no upstream object record exists.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="SNS_stele" type="monument" subtype="stele" ana="crm:E22_Human-Made_Object">
+
+          <!-- 1. identity -->
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">水牛山文殊般若碑</objectName>
+            <objectName xml:lang="en">Mañjuśrī Prajñā stele of Mount Shuiniu</objectName>
+            <idno type="support">SNS_stele</idno>
+          </objectIdentifier>
+
+          <!-- 2. texts borne (object→inscription junction; machine link = msItem/@corresp) -->
+          <msContents>
+            <summary xml:lang="en">Two texts: the sutra excerpt (with engraved title 文殊般若) on the
+              obverse; the donor colophon running across both narrow sides.</summary>
+            <msItem n="1" corresp="SNS_2.xml">
+              <locus target="#SNS_stele_yang">碑陽 obverse</locus>
+              <title xml:lang="zh">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
+              <title xml:lang="zh" type="engraved">文殊般若</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="2" corresp="SNS_3.xml">
+              <locus target="#SNS_stele_ce_a #SNS_stele_ce_b">碑側 both narrow sides</locus>
+              <title xml:lang="zh">水牛山《文殊師利所説般若波羅蜜經》碑側題記</title>
+              <title xml:lang="en">Colophon on the Narrow Sides of the Stele from Mount Shuiniu</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <!-- 3. WHOLE-OBJECT physical description -->
+          <physDesc>
+            <objectDesc form="stele">
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
+                    <term xml:lang="zh">碑</term>
+                    <term xml:lang="en">stele</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母花崗岩</term>
+                    <term xml:lang="en">biotite granite</term>
+                  </material>
+                  <!-- whole-stele dimensions: NOT asserted. The upstream c:dimensions of SNS_2
+                       carries attributes height=235 width=179 (read here as the 碑陽 script field,
+                       recorded in SNS_2.xml) AND the uninterpreted composite element content below. -->
+                  <note type="source-dimensions">upstream SNS_2 c:dimensions element content,
+                    verbatim: "233/68/15.2" — a whole-stele height/width/thickness candidate;
+                    left uninterpreted (R4).</note>
+                </support>
+                <condition>
+                  <p xml:lang="zh">碑座與碑額佚失。</p>
+                  <p xml:lang="en">The base and the head of the stele are missing.</p>
+                  <note type="source">from the c:decor field of sutras:catalog/SNS_2.xml, verbatim
+                    (first clause); the monument is otherwise well preserved — see the per-text
+                    condition statements in SNS_2.xml (微損) and SNS_3.xml (劣).</note>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <p xml:lang="en">Free-standing stele; main text on the polished obverse within a
+                    carved ornamental border, donor colophon continuing over both narrow sides.
+                    Obverse surface azimuth 28° (upstream c:location of SNS_2).</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote ana="#decor.border">
+                <p xml:lang="zh">經文由雕刻精緻的飾帶所環繞。</p>
+                <p xml:lang="en">The main text is enclosed by a finely carved ornated border.</p>
+                <note type="source">c:decor of sutras:catalog/SNS_2.xml, verbatim (second clause;
+                  "ornated" sic upstream).</note>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+
+          <!-- 4. history: object→site junction -->
+          <history>
+            <origin>
+              <origDate notBefore="0558" notAfter="0661">公元五五八到六六一年 (558–661)</origDate>
+              <origPlace>
+                <placeName ref="SNS_site.xml#SNS" xml:lang="zh">水牛山</placeName>
+              </origPlace>
+            </origin>
+            <!-- provenance (found / current location): no assertion in the upstream records read;
+                 add from fieldwork or publications at a later pass -->
+          </history>
+
+          <!-- 5. faces: nested identity-anchor objects, LAST -->
+          <object xml:id="SNS_stele_yang" type="face" n="碑陽" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">碑陽</objectName>
+              <objectName xml:lang="en">obverse</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="SNS_stele_ce_a" type="face" n="碑側a" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">碑側（甲）</objectName>
+              <objectName xml:lang="en">narrow side a</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="SNS_stele_ce_b" type="face" n="碑側b" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">碑側（乙）</objectName>
+              <objectName xml:lang="en">narrow side b</objectName>
+            </objectIdentifier>
+          </object>
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

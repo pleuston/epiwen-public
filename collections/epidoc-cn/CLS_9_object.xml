@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — the LOST Buddha-names stone formerly near 光化寺 Guanghua Monastery (E25).
+     Built from the catalog's own combined record CLS_9 (光化寺舊存佛名三則), which functions as
+     the object-level record for the three Buddha-name texts CLS_9.1–9.3 — the same
+     overview-record ≡ object-file mapping as HDS_9. condition = LOST (佚失): the stone survives
+     only through its witnesses, so the recorded dimensions (105 × 94) are those OF THE RUBBING
+     (identical to rubbing A's sheet size) — witness-primacy for lost carvings. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_9_object">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺舊存佛名三則</title>
+        <title xml:lang="en">Three Buddha Names, Formerly on the Boulder near Guanghua Monastery</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">CLS_9_stone</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>from the combined record <ptr target="sutras:catalog/CLS_9.xml"/> (+ the three
+          per-text records CLS_9.1–9.3). The upstream combined record is, functionally, the
+          object record of the lost stone.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="CLS_9_stone" type="boulder" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">光化寺舊存佛名三則刻石</objectName>
+            <objectName xml:lang="en">Lost Buddha-names stone, formerly near Guanghua Monastery</objectName>
+            <idno type="support">CLS_9</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">Three Buddha names (11 characters in three columns) of the 570 CE
+              programme, on one stone now lost: 觀世音佛 · 阿彌陀佛 · 弥勒佛. Known only through the
+              rubbings listed below.</summary>
+            <msItem n="1" corresp="CLS_9.1.xml">
+              <locus target="#CLS_9_stone"/>
+              <title xml:lang="zh">光化寺“觀世音佛”刻銘</title>
+              <title xml:lang="en">“Buddha Perceiver of the World’s Sounds” on the Boulder at Guanghua Monastery</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="2" corresp="CLS_9.2.xml">
+              <locus target="#CLS_9_stone"/>
+              <title xml:lang="zh">光化寺“阿彌陀佛”刻銘</title>
+              <title xml:lang="en">“Buddha Amitābha” on the Boulder at Guanghua Monastery</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="3" corresp="CLS_9.3.xml">
+              <locus target="#CLS_9_stone"/>
+              <title xml:lang="zh">光化寺“弥勒佛”刻銘</title>
+              <title xml:lang="en">“Buddha Maitreya” on the Boulder at Guanghua Monastery</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc form="boulder">
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖（巨石）</term>
+                    <term xml:lang="en">inscribed boulder / rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母– 角閃石 – 花崗岩</term>
+                    <term xml:lang="en">biotite-hornblende granite</term>
+                  </material>
+                  <note type="material-source">material stated on the per-text records CLS_9.1–9.3
+                    (zh spacing verbatim); necessarily derived from pre-loss documentation.</note>
+                  <dimensions type="overall" unit="cm">
+                    <height unit="cm">105</height>
+                    <width unit="cm">94</width>
+                  </dimensions>
+                  <note type="dimensions-source">the recorded 105 × 94 equals the sheet size of
+                    rubbing A (中國國家圖書館: 高105釐米，寬94釐米) — for a lost stone the
+                    measurement is OF THE WITNESS, not of the rock (witness-primacy).</note>
+                </support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="3">
+                  <p xml:lang="en">Three vertical name-columns on one field; combined glyph heights
+                    14–55 cm (measured from the rubbing; the eleven glyphs are dimensioned on the
+                    upstream combined record, not on the per-text records).</p>
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+            <provenance type="lost">
+              <p xml:lang="zh">佚失（upstream condition, verbatim）；標題稱「舊存」。</p>
+              <p xml:lang="en">Stone lost (upstream: 佚失 / "stone lost"); the title's 舊存 marks it
+                as "formerly preserved" near Guanghua Monastery. {date and circumstances of loss:
+                from the site publication at a later pass}</p>
+            </provenance>
+          </history>
+
+          <!-- witnesses of the lost stone (from the upstream combined record CLS_9, verbatim) -->
+          <note type="witnesses" xml:lang="zh">A：徂徠山9號拓本。高105釐米，寬94釐米。中國國家圖書館藏品。刊於《北京圖書館藏中國歷代石刻拓本匯編》第8册：第17頁。
+            B：徂徠山9號拓本。高104釐米，寬106釐米。日本西川寧舊藏。刊於伏見冲敬 第7頁；西川寧和神田喜一郎第55－56頁。
+            C：徂徠山9號拓本。刊於関野貞和常盤大定第1册：圖108；重印於関野貞和常盤大定圖册11：第76頁，第3圖。
+            D：徂徠山9號拓本。臺北國家圖書館藏品。高110釐米，寬108釐米。</note>
+          <note type="witnesses" xml:lang="en">A: National Library of China, Beijing; 105 × 94 cm;
+            published in 匯編 8: 17 · B: ex collection Nishikawa Yasushi 西川寧, Japan; 104 × 106 cm
+            · C: published by Sekino Tadashi and Tokiwa Daijō (1: fig. 108; Plates 11: 76(3)) ·
+            D: National Central Library, Taibei; 110 × 108 cm. These witnesses are the ONLY access
+            to the lost stone; the per-text records CLS_9.1–9.3 point back to them.</note>
+
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — the LOST stone formerly near 光化寺 bearing the single text CLS_10 (E25).
+     MINTED FOR STRUCTURAL UNIFORMITY (see SNS_1_object.xml): the fold rule would let CLS_10.xml
+     stand alone, but the app traverses site → object → inscription uniformly. Carries the
+     stone-level lost-status (condition 佚失 verbatim + provenance type="lost"); the script-field
+     data (from the rubbing) stays on the inscription. All data from catalog/CLS_10.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_10_object">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺舊存“大空王佛”刻石</title>
+        <title xml:lang="en">Lost stone formerly near Guanghua Monastery bearing CLS_10</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">CLS_10</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>minted for structural uniformity (single-text bearer); all data from
+          <ptr target="sutras:catalog/CLS_10.xml"/> — no upstream object record exists.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="CLS_10" type="boulder" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">光化寺舊存“大空王佛”刻石</objectName>
+            <objectName xml:lang="en">Lost stone formerly near Guanghua Monastery</objectName>
+            <idno type="support">CLS_10</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">One text: the Buddha name 大空王佛.</summary>
+            <msItem n="1" corresp="CLS_10.xml">
+              <locus target="#CLS_10"/>
+              <title xml:lang="zh">光化寺舊存“大空王佛”刻銘</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <!-- material: not recorded upstream — absent; whole-stone dimensions unknown
+                       (the 105 × 35 field on the inscription file is the RUBBING's sheet size) -->
+                </support>
+                <condition ana="#condition.lost">
+                  <p xml:lang="zh">佚失</p>
+                  <p xml:lang="en">stone lost</p>
+                </condition>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+            <provenance type="lost">
+              <p xml:lang="zh">佚失；標題稱「舊存」。</p>
+              <p xml:lang="en">Stone lost; the title's 舊存 marks it as "formerly preserved" near
+                Guanghua Monastery. Known only through the rubbings listed on the inscription
+                file (witness-primacy). {date and circumstances of loss: from the site
+                publication at a later pass}</p>
+            </provenance>
+          </history>
+
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

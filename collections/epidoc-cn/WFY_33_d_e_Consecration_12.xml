@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — the Consecration Sutra (灌頂經, T 1331), juan 12: the sibling record of
+     juan 11, joined by @prev on <text>. See WFY_33_d_e_Consecration.xml for the cross-wall
+     pattern notes. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WFY33_Consecration_12">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh" type="abbreviated">灌頂經</title>
+        <title xml:lang="en" type="abbreviated">Consecration Sutra</title>
+        <title xml:lang="en" type="supplied">Consecration Sutra, juan 12</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">WFY_33_d_e_Consecration_12.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="WFY_33_cave.xml#WFY_33_d WFY_33_cave.xml#WFY_33_e">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">四川省</region>
+            <idno type="edition">WFY33_Consecration_12</idno>
+            <idno type="support">WFY_33</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/WFY_33_d_e_Consecration_12.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">Juan 12 of the Consecration Sutra (T 1331), carved across walls
+              d and e of Cave 33; continues juan 11 (see the @prev join).</summary>
+            <msItem>
+              <title xml:lang="zh">灌頂經（卷十二）</title>
+              <title xml:lang="en">Consecration Sutra, juan 12</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.cave-wall">
+                    <term xml:lang="zh">窟壁</term>
+                    <term xml:lang="en">cave wall</term>
+                  </objectType>
+                  <!-- script-field dimensions: EMPTY upstream — absent here -->
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName ref="WFY_site.xml#WFY_A" xml:lang="zh">卧佛院南崖A區</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text prev="WFY_33_d_e_Consecration.xml">
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Anyue/WFY_33_Consecration_12.xml"/></ab>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl type="canonical"><idno type="taisho">T_1331</idno><citedRange>528c–536b</citedRange></bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

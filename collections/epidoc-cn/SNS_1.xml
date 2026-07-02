@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — SNS_1: a single-text moya. The model's fold rule would let this record
+     stand alone, but a thin object node (SNS_1_object.xml) is MINTED for structural uniformity
+     (the app traverses site → object → inscription for every bearer); @corresp points to it,
+     and idno[@type="support"] = the object id (SNS_1). Also demonstrated here: the four-witness
+     listWit (rubbings in four named collections) and the two-track glyph-metrics link
+     (SNS_1_glyphs.csv). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">《文殊師利所説摩訶般若波羅蜜經》五十二字節文</title>
+        <title xml:lang="en">Passage of 52 Characters from the Sutra on the Great Perfection of
+          Wisdom Spoken by Mañjuśrī</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">SNS_1.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="SNS_1_object.xml#SNS_1">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">SNS_1</idno>
+            <idno type="support">SNS_1</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/SNS_1.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">A 52-character excerpt of the Mañjuśrī Prajñāpāramitā sutra on an
+              open moya surface of Mount Shuiniu, 52 characters in six columns.</summary>
+            <msItem>
+              <title xml:lang="zh">《文殊師利所説摩訶般若波羅蜜經》五十二字節文</title>
+              <title xml:lang="en">Passage of 52 Characters from the Sutra on the Great Perfection
+                of Wisdom Spoken by Mañjuśrī</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母花崗岩</term>
+                    <term xml:lang="en">biotite granite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">234</height>
+                    <width unit="cm">171</width>
+                  </dimensions>
+                  <note type="orientation">azimuth 208°, slope 3°, zenith 87° (upstream c:location,
+                    verbatim); GPS 116.663442, 35.770431, h 99.8 (EPSG:4326, lon-lat verbatim)</note>
+                </support>
+                <condition ana="#condition.excellent">
+                  <p xml:lang="zh">除起首二字，保存狀况極佳</p>
+                  <p xml:lang="en">excellent, except for the first two characters</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="6" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut">
+                    <term xml:lang="zh">“V”形刻法</term>
+                    <term xml:lang="en">V-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <!-- upstream c:script is empty — no script class asserted (never invent) -->
+                <p xml:lang="en">52 characters in six columns; 51 glyphs individually measured
+                  upstream (the title counts 52 carved characters — one glyph carries no
+                  measurements; see the linked dataset).</p>
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="14" atMost="28">14–28</height>
+                </dimensions>
+                <!-- two-track split: the per-glyph metric array is a LINKED dataset, not TEI -->
+                <ptr type="glyph-metrics" target="SNS_1_glyphs.csv"/>
+              </handNote>
+            </handDesc>
+            <!-- décor (upstream: 無) is object-level → on SNS_1_object.xml (division rule) -->
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0558" notAfter="0661">公元五五八到六六一年 (558–661)</origDate>
+              <origPlace>
+                <placeName ref="SNS_site.xml#SNS" xml:lang="zh">水牛山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <!-- E-WIT: rubbings as first-class witnesses, each with its holding collection -->
+        <listWit>
+          <witness xml:id="SNS_1_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <rs type="witness-type" ana="#witness.rubbing"><term xml:lang="zh">拓本</term>
+                <term xml:lang="en">rubbing</term></rs>
+              <date when="1998">made 1998</date>
+              <orgName role="repository" xml:lang="zh">山東省石刻藝術博物館</orgName>
+              <placeName xml:lang="en">Jinan</placeName>
+              <note xml:lang="zh">A：水牛山1號拓片。山東省石刻藝術博物館藏品。1998年拓製，2007年拍攝。見《山東北朝摩崖刻經全集》水牛山：第1－10頁；安廷山第127頁；賴非第59頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_1_rub_B" n="B" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
+              <note xml:lang="zh">B：水牛山1號拓片，中國圖書館藏品。見《北京圖書館藏中國歷代石刻拓本匯編》第8册：第87頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_1_rub_C" n="C" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="ja">京都大学人文科学研究所</orgName>
+              <idno type="accession">NAN0667X</idno>
+              <note xml:lang="zh">C：水牛山1號拓片。京都大学人文科学研究所藏品。編號：NAN0667X。見京都大学人文科学研究所所蔵石刻拓本資料，查詢於2016年11月21日。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_1_rub_D" n="D" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">中央研究院歷史語言研究所</orgName>
+              <placeName xml:lang="en">Taibei</placeName>
+              <extent>2 sheets: 257 × 86 cm; 251 × 101 cm</extent>
+              <idno type="accession">12496-1, 12496-2</idno>
+              <note type="discrepancy">upstream zh note gives 編號 12496-1和12496-2; the en note
+                gives "Accession numbers 102496-1 and 102496-2" — both preserved verbatim,
+                unreconciled.</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Shuiniushan/SNS_1.xml"/></ab>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>728a26–29</citedRange></bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

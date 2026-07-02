@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LQS_site">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">靈泉寺</title>
+        <title xml:lang="en">Lingquan Monastery (site)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — ASCDC import</authority>
+        <idno type="site">LQS</idno>
+        <availability status="restricted"><p>Metadata from the ASCDC 佛教藝術圖典與知識系統 (buddhism.ascdc.sinica.edu.tw), retrieved 2026-07-02; imported for demonstration and published in the Epiwen public corpus; rights remain with ASCDC.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="ascdc:T09010000"/> — ASCDC record 靈泉寺 (作品類型 佛寺; 年代 東魏武定四年; 保存地點 安陽縣)</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="ascdc" matchPattern="(.+)" replacementPattern="https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="LQS" type="site" subtype="monastery" ana="crm:E27_Site">
+          <placeName xml:lang="zh">靈泉寺</placeName>
+          <placeName xml:lang="en">Lingquan Monastery</placeName>
+          <country xml:lang="zh">中國</country>
+          <region xml:lang="zh">河南省</region>
+          <settlement xml:lang="zh">安陽縣</settlement>
+          <note type="description" xml:lang="zh">靈泉寺位於安陽縣西南30公里的寶山東南麓。為南北朝、隋、唐時期北方的著名佛寺，素有「河朔第一古剎」之稱。據北宋紹聖元年（1094年）「有隋相州天禧鎮寶山靈泉寺傳法高僧靈裕法師傳並序」碑文記載，寺院創建於東魏武定四年（546年），原名寶山寺，隋開皇年間，文帝楊堅取群山之泉及該寺高僧靈裕法師法名之首，改寶山寺為靈泉寺。（節錄自：河南古代建築保護研究所，《寶山靈泉寺》（河南人民出版社，1991），頁1-2。）</note>
+          <note type="founded" xml:lang="zh">東魏武定四年（546年），原名寶山寺（ASCDC：年代 武定四年；朝代 東魏；執政帝王 東魏孝靜帝）</note>
+          <note type="witnesses" xml:lang="zh">婁叡華嚴經碑、大乘妙偈碑外景（ASCDC O00010000，作品類型：外景）：從寳山望向婁叡華嚴經碑、大乘妙偈碑碑亭。IIIF manifest: https://buddhism.ascdc.sinica.edu.tw/api/GET/2512/manifest</note>
+          <linkGrp type="objects">
+            <ptr type="object" target="LQS_LouRui_stele.xml#LQS_LouRui_stele"/>
+            <ptr type="object" target="LQS_Miaoji_stele.xml#LQS_Miaoji_stele"/>
+          </linkGrp>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

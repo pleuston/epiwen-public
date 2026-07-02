@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LQS_Miaoji_stele_doc">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">大乘妙偈碑</title>
+        <title xml:lang="en">Stele of Wondrous Mahāyāna Gāthās</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — ASCDC import</authority>
+        <idno type="object">LQS_Miaoji_stele</idno>
+        <availability status="restricted"><p>Metadata from the ASCDC 佛教藝術圖典與知識系統 (buddhism.ascdc.sinica.edu.tw), retrieved 2026-07-02; imported for demonstration and published in the Epiwen public corpus; rights remain with ASCDC.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="ascdc:S00070000"/> — ASCDC record 大乘妙偈碑 (作品類型 刻經碑; 保存地點 安陽縣)</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="ascdc" matchPattern="(.+)" replacementPattern="https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="LQS_Miaoji_stele" type="monument" subtype="sutra-stele" ana="crm:E22_Human-Made_Object">
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">河南省</region>
+            <settlement xml:lang="zh">安陽縣</settlement>
+            <objectName xml:lang="zh">大乘妙偈碑</objectName>
+            <objectName xml:lang="en">Stele of Wondrous Mahāyāna Gāthās</objectName>
+            <idno type="support">LQS_Miaoji_stele</idno>
+          </objectIdentifier>
+          <msContents>
+            <summary xml:lang="zh">方形石碑，節錄《華嚴經》八會的部份偈文及《無量義經》〈德行品〉。</summary>
+            <msItem n="1" corresp="LQS_Miaoji_1.xml">
+              <title xml:lang="zh">《華嚴經》八會偈文及《無量義經》〈德行品〉節錄</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
+                    <term xml:lang="zh">刻經碑</term>
+                    <term xml:lang="en">sutra stele</term>
+                  </objectType>
+                  <dimensions type="overall" unit="cm">
+                    <height unit="cm">211</height>
+                    <width unit="cm">92</width>
+                    <depth unit="cm">26</depth>
+                  </dimensions>
+                  <note type="shape" xml:lang="zh">方形（ASCDC 石窟類型欄，verbatim）</note>
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0562">河清元年</origDate>
+              <note type="source-date" xml:lang="zh">ASCDC：年代 河清元年；朝代 北齊；執政帝王 武成帝</note>
+              <origPlace>
+                <placeName ref="LQS_site.xml#LQS" xml:lang="zh">靈泉寺</placeName>
+              </origPlace>
+            </origin>
+          </history>
+          <note type="alt-titles" xml:lang="zh">佛會說發願文及大乘妙偈碑並陰側</note>
+          <note type="associated-persons" xml:lang="zh">使持節都督岐州諸軍事車騎大將軍岐州刺使長孫舍冬</note>
+          <note type="iiif-manifest">https://buddhism.ascdc.sinica.edu.tw/api/GET/3941/manifest</note>
+          <note type="witnesses" xml:lang="zh">婁叡華嚴經碑、大乘妙偈碑外景（ASCDC O00010000，作品類型：外景）：從寳山望向婁叡華嚴經碑、大乘妙偈碑碑亭。IIIF manifest: https://buddhism.ascdc.sinica.edu.tw/api/GET/2512/manifest</note>
+          <note type="place-evidence" xml:lang="zh">外景記錄 O00010000 從寳山望向婁叡華嚴經碑、大乘妙偈碑碑亭；保存地點 安陽縣。</note>
+          <object xml:id="LQS_Miaoji_stele_front" type="face" n="正面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">正面</objectName>
+              <objectName xml:lang="en">front</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0007MP00</note>
+          </object>
+          <object xml:id="LQS_Miaoji_stele_back" type="face" n="背面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">背面</objectName>
+              <objectName xml:lang="en">back</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0007MJ00</note>
+          </object>
+          <object xml:id="LQS_Miaoji_stele_left" type="face" n="左面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">左面</objectName>
+              <objectName xml:lang="en">left side</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0007PM00</note>
+          </object>
+          <object xml:id="LQS_Miaoji_stele_right" type="face" n="右面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">右面</objectName>
+              <objectName xml:lang="en">right side</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0007JM00</note>
+          </object>
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

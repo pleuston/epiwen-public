@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_8: the dated colophon of Hu Bin on the ESE face (azimuth 107°) of the
+     Guanghuasi boulder — the SAME object as CLS_5–7 (azimuth 216°) but a DIFFERENT face,
+     expressed here anchor-lessly by the per-text orientation note. Like CLS_4, this colophon
+     carries 武平元年 in its text (upstream c:original). Its own single-text rubbings are listed
+     below; the ensemble sheets covering all four texts live at the object level. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_8">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺刻石胡賓題名</title>
+        <title xml:lang="en">Colophon by Hu Bin with a Date on the Boulder near Guanghua Monastery</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">CLS_8.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="CLS_Guanghuasi_stone.xml#CLS_Guanghuasi">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">CLS_8</idno>
+            <idno type="support">CLS_Guanghuasi</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/CLS_8.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">Dated donor colophon (武平元年 in the text); eight glyphs in two
+              columns, on the ESE face of the boulder.</summary>
+            <msItem>
+              <title xml:lang="zh">光化寺刻石胡賓題名</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母角閃石花崗岩</term>
+                    <term xml:lang="en">biotite-hornblende granite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">60</height>
+                    <width unit="cm">33</width>
+                  </dimensions>
+                  <note type="orientation">azimuth 107°, slope 19°, zenith 71° (upstream, verbatim)
+                    — a DIFFERENT face from CLS_5–7 (azimuth 216°); GPS 117.388164, 36.015351,
+                    h 236.6 (EPSG:4326, lon-lat verbatim)</note>
+                </support>
+                <condition ana="#condition.good">
+                  <p xml:lang="zh">良好</p>
+                  <p xml:lang="en">good</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                    <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
+                    <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="7" atMost="13">7–13</height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0570" evidence="internal-date">武平元年 (570)</origDate>
+              <note type="date-source">upstream marks 武平元年 as c:original on this record — with
+                CLS_4 it is one of the two dated colophons from which the whole CLS programme's
+                year derives (c:given source="CLS_4, CLS_8").</note>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <!-- the ensemble sheets A/B (all of CLS_5–8 on one paper) are at the object level -->
+          <witness xml:id="CLS_8_rub_C" n="C" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
+              <note xml:lang="zh">C：徂徠山8號拓片。北京中國國家圖書館藏品。刊於《北京圖書館藏中國歷代石刻拓本匯編》第8册：第17頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_8_rub_D" n="D" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="ja">西川寧舊藏（日本）</orgName>
+              <extent>63.5 × 40 cm</extent>
+              <note xml:lang="zh">D：徂徠山8號拓本。日本西川寧舊藏。高63.5釐米，寬40釐米。刊於伏見冲敬第10頁，以及西川寧和神田喜一郎第59頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_8_rub_E" n="E" ana="#witness.rubbing">
+            <bibl>
+              <note xml:lang="zh">E：徂徠山8號拓本。刊於関野貞和常盤大定第1册：圖108；重印於関野貞和常盤大定圖册11：第76頁，圖2。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_8_rub_F" n="F" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
+              <extent>75 × 56 cm</extent>
+              <note xml:lang="zh">F：徂徠山8號拓本。臺北國家圖書館藏品。高75釐米，寬56釐米。</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_8.xml"/></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

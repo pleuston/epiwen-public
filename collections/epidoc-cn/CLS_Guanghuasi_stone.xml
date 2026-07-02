@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — the inscribed boulder near 光化寺 Guanghua Monastery (E25 feature), bearing
+     FOUR texts on at least TWO faces: CLS_5/6/7 on the SW face (azimuth 216°) and CLS_8 on an
+     ESE face (azimuth 107°). Like 映佛巖, anchor-less: faces are distinguished per text by the
+     orientation notes in the inscription files, not by nested face anchors (README discusses
+     when to prefer which idiom). The single-boulder identity of CLS_5–8 is the project's
+     determination (see sourceDesc). Object-level listWit: the ensemble rubbings that cover
+     several of the texts on one sheet. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_Guanghuasi_stone">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺刻石</title>
+        <title xml:lang="en">Inscribed boulder near Guanghua Monastery</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">CLS_Guanghuasi</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>assembled from <ptr target="sutras:catalog/CLS_5.xml"/>–<ptr target="sutras:catalog/CLS_8.xml"/>
+          (titles: 光化寺刻石／"on the Boulder near Guanghua Monastery"). The single-boulder
+          identity of CLS_5–8 is the project editor's determination from the shared bearer naming,
+          the joint ensemble rubbings, and the adjacent GPS points; CLS_8's azimuth (107° vs 216°)
+          places it on a different face of the same boulder. {verify against the site publication}</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="CLS_Guanghuasi" type="boulder" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">光化寺刻石</objectName>
+            <objectName xml:lang="en">Inscribed boulder near Guanghua Monastery</objectName>
+            <idno type="support">CLS_Guanghuasi</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">Four texts of the 570 CE programme: the Seventeen-Kinds-of-Emptiness
+              excerpt (CLS_5) with the colophons of Wang Zichun and others (CLS_6), Wang Shigui
+              (CLS_7) on the SW face, and the dated colophon of Hu Bin (CLS_8) on the ESE face.</summary>
+            <msItem n="1" corresp="CLS_5.xml">
+              <locus target="#CLS_Guanghuasi"/>
+              <title xml:lang="zh">光化寺《摩訶般若波羅蜜經》十七空節文</title>
+              <title xml:lang="en">Passage on Seventeen Kinds of Emptiness from the Great Perfection
+                of Wisdom Sutra on the Boulder near Guanghua Monastery</title>
+              <note type="text-genre">節文 sutra excerpt</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="2" corresp="CLS_6.xml">
+              <locus target="#CLS_Guanghuasi"/>
+              <title xml:lang="zh">光化寺刻石王子椿等題名</title>
+              <title xml:lang="en">Colophon by Wang Zichun and Others on the Boulder near Guanghua Monastery</title>
+              <note type="text-genre">題名 donor colophon</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="3" corresp="CLS_7.xml">
+              <locus target="#CLS_Guanghuasi"/>
+              <title xml:lang="zh">光化寺刻石王世貴題名</title>
+              <title xml:lang="en">Colophon by Wang Shigui on the Boulder near Guanghua Monastery</title>
+              <note type="text-genre">題名 donor colophon</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="4" corresp="CLS_8.xml">
+              <locus target="#CLS_Guanghuasi"/>
+              <title xml:lang="zh">光化寺刻石胡賓題名</title>
+              <title xml:lang="en">Colophon by Hu Bin with a Date on the Boulder near Guanghua Monastery</title>
+              <note type="text-genre">題名 dated donor colophon (武平元年)</note>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc form="boulder">
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖（巨石）</term>
+                    <term xml:lang="en">inscribed boulder / rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母角閃石花崗岩</term>
+                    <term xml:lang="en">biotite-hornblende granite</term>
+                  </material>
+                  <!-- whole-boulder dimensions: not recorded upstream -->
+                </support>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <p xml:lang="en">Texts on at least two faces of one boulder: CLS_5–7 on the SW
+                    face (azimuth 216°, slope 14°, zenith 76°), CLS_8 on an ESE face (azimuth 107°,
+                    slope 19°, zenith 71°). The horizontal sutra field (97 × 126 cm) with the
+                    colophons (75 × 56, 27 × 11, 60 × 33 cm) beside and around it.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <note type="date-source">upstream: c:given source="CLS_4, CLS_8"; CLS_8's own record
+                marks 武平元年 as c:original (in-text date).</note>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+
+          <!-- object-level witnesses: the ensemble rubbings covering several texts on one sheet
+               (recorded identically on the upstream records of CLS_5–8); per-text-only rubbings
+               stay in the inscription files (e.g. CLS_8's own C–F) -->
+          <note type="witnesses" xml:lang="zh">A：徂徠山5號、6號、7號和8號拓於同一紙。山東石刻藝術博物館藏品。拍攝於2007年。
+            B：徂徠山5號、6號、7號和8號拓於同一紙。山東石刻藝術博物館藏品。刊於《山東北朝摩崖刻經全集》徂徠山：第20頁；安廷山第37頁。
+            C：徂徠山5號、6號和7號拓於同一紙。高130釐米，寬203釐米。日本西川寧舊藏。刊於伏見冲敬第8－9頁；西川寧和神田喜一郎第57－58頁。
+            D：徂徠山5號、6號和7號拓於同一紙。臺北國家圖書館藏品。高102釐米，寬209釐米。</note>
+          <note type="witnesses" xml:lang="en">Ensemble rubbings: A (CLS 5–8 on one sheet; Shandong
+            Stone Carving Art Museum, Jinan; photographed 2007) · B (CLS 5–8 on one sheet; same
+            collection; published Culai Shan: 20; 37) · C (CLS 5–7 on one sheet; 130 × 203 cm; ex
+            collection Nishikawa Yasushi 西川寧, Japan) · D (CLS 5–7 on one sheet; National Central
+            Library, Taibei; 102 × 209 cm). Coverage varies per sheet — A/B witness all four texts,
+            C/D only the SW face (CLS_5–7).</note>
+
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

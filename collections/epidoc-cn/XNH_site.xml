@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="XNH_site">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">小南海石窟</title>
+        <title xml:lang="en">Xiaonanhai Grottoes (site)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — ASCDC import</authority>
+        <idno type="site">XNH</idno>
+        <availability status="restricted"><p>Metadata from the ASCDC 佛教藝術圖典與知識系統 (buddhism.ascdc.sinica.edu.tw), retrieved 2026-07-02; imported for demonstration and published in the Epiwen public corpus; rights remain with ASCDC.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>assembled from the three ASCDC cave records <ptr target="ascdc:G01010000"/> (中窟), <ptr target="ascdc:G01020000"/> (東窟), <ptr target="ascdc:G01030000"/> (西窟) — no upstream site record exists.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="ascdc" matchPattern="(.+)" replacementPattern="https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="XNH" type="site" subtype="cave-temple-complex" ana="crm:E27_Site">
+          <placeName xml:lang="zh">小南海石窟</placeName>
+          <placeName xml:lang="en">Xiaonanhai Grottoes</placeName>
+          <country xml:lang="zh">中國</country>
+          <region xml:lang="zh">河南省</region>
+          <settlement xml:lang="zh">安陽縣</settlement>
+          <note type="description" xml:lang="zh">小南海石窟位於安陽縣西南約三十公里，善應村龜蓋山南麓的崖壁，面臨洹水，臨近小南海水庫。此地在東魏、北齊之間是佛教聖地，許多禪修高僧在此活動。附近留存的佛教遺跡有寶山靈泉寺等。現存洞窟三座，目前所見東、中、西三個小石窟並不相連，原來北朝時此地石窟群的面貌如何已很難想像。三窟石刻造像、風格、題材大同小異。（節錄自：顏娟英，〈北齊小南海石窟與僧稠〉，《佛教思想的傳承與發展：印順導師九秩華誕祝壽文集》（台北：東大圖書公司，1995），頁561；河南省古代建築保護研究所，〈河南省安陽靈泉寺石窟及小南海石窟〉，《文物》，1988年第4期，頁12。）</note>
+          <linkGrp type="objects">
+            <ptr type="object" target="XNH_middle_cave.xml#XNH_middle"/>
+            <ptr type="object" target="XNH_east_cave.xml#XNH_east"/>
+            <ptr type="object" target="XNH_west_cave.xml#XNH_west"/>
+          </linkGrp>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

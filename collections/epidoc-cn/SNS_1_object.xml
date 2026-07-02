@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — the moya surface of Mount Shuiniu bearing the single text SNS_1 (E25 feature).
+     MINTED FOR STRUCTURAL UNIFORMITY: the model's fold rule would let the inscription record
+     stand alone (1 surface : 1 text), but the Epiwen app traverses site → object → inscription
+     uniformly, so every bearer gets an object node — accepted redundancy, documented in README.
+     The upstream corpus has no object record; all data from catalog/SNS_1.xml. Object xml:id =
+     the support key (SNS_1), matching idno[@type="support"] on the inscription. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_1_object">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">水牛山摩崖（SNS_1）</title>
+        <title xml:lang="en">Moya surface of Mount Shuiniu bearing SNS_1</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">SNS_1</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>minted for structural uniformity (single-text bearer); all data from
+          <ptr target="sutras:catalog/SNS_1.xml"/> — no upstream object record exists.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="SNS_1" type="moya" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">水牛山摩崖（SNS_1）</objectName>
+            <objectName xml:lang="en">Moya surface of Mount Shuiniu bearing SNS_1</objectName>
+            <idno type="support">SNS_1</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">One text: the 52-character Mañjuśrī Prajñāpāramitā excerpt.</summary>
+            <msItem n="1" corresp="SNS_1.xml">
+              <locus target="#SNS_1"/>
+              <title xml:lang="zh">《文殊師利所説摩訶般若波羅蜜經》五十二字節文</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母花崗岩</term>
+                    <term xml:lang="en">biotite granite</term>
+                  </material>
+                  <!-- whole-surface dimensions beyond the script field: not recorded upstream;
+                       the script field (234 × 171) is on the inscription file -->
+                </support>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <p xml:lang="en">One near-vertical open rock surface (azimuth 208°, slope 3°,
+                    zenith 87°) carrying a single script field.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote ana="#decor.none">
+                <p xml:lang="zh">無</p>
+                <p xml:lang="en">none</p>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origDate notBefore="0558" notAfter="0661">公元五五八到六六一年 (558–661)</origDate>
+              <origPlace>
+                <placeName ref="SNS_site.xml#SNS" xml:lang="zh">水牛山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

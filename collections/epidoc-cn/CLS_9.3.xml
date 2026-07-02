@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_9.3 “弥勒佛” on the LOST stone (see CLS_9.1 for the pattern).
+     Upstream warts preserved: c:format 從長方形 (從 for 縱); the zh witness note is empty
+     (en only). Note the simplified 弥 in the upstream title — verbatim, never normalised. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_9.3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺“弥勒佛”刻銘</title>
+        <title xml:lang="en">“Buddha Maitreya” on the Boulder at Guanghua Monastery</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">CLS_9.3.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="CLS_9_object.xml#CLS_9_stone">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">CLS_9.3</idno>
+            <idno type="support">CLS_9</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/CLS_9.3.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">Buddha name 弥勒佛, in one column (three name-characters; four
+              glyph positions recorded upstream); the third name-column of the lost stone.</summary>
+            <msItem>
+              <title xml:lang="zh">弥勒佛</title>
+              <title xml:lang="en">Buddha Maitreya</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母– 角閃石 – 花崗岩</term>
+                    <term xml:lang="en">biotite-hornblende granite</term>
+                  </material>
+                  <!-- field dimensions: EMPTY upstream (stone lost) — deliberately absent -->
+                </support>
+                <condition ana="#condition.lost">
+                  <p xml:lang="en">stone lost — inherited from the object record (CLS_9: 佚失).</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">從長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <note type="discrepancy">upstream c:format reads 從長方形 — apparently 從 for 縱;
+                    preserved verbatim (wart list).</note>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">no</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <p xml:lang="en">Glyph positions recorded upstream, none measured (stone lost).</p>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="CLS_9.3_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
+              <note xml:lang="en">Rubbing of CLS 9.1, 9.2 and 9.3. The Library of Beijing.
+                Published in 8: 17.</note>
+              <note type="discrepancy">the zh witness note is EMPTY on this upstream record (en
+                only) — preserved as found.</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_9.3.xml"/></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

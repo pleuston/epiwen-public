@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — SNS_2, the sutra excerpt on the 碑陽 (obverse) of the Shuiniushan stele.
+     THIN physDesc (division rule): script-field dimensions, per-text condition, layout (with the
+     attested frame), execution, hand. @corresp points UP to the face anchor in the object file.
+     Whole-stele description (incl. the lost base/head and the ornamental border) lives in
+     SNS_stele.xml. Witness E is a representation-layer showcase: a rubbing carrying its own
+     dated colophons (魏錫曾 1863, 陸恢 1905). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_2">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
+        <title xml:lang="en">Stele from Mount Shuiniu with a Passage on the Correct Law from the
+          Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī</title>
+        <title xml:lang="zh" type="engraved">文殊般若</title>
+        <title xml:lang="en" type="translated">Mañjuśrī Prajñā</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">SNS_2.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="SNS_stele.xml#SNS_stele_yang">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">SNS_2</idno>
+            <idno type="support">SNS_stele</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/SNS_2.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">The sutra excerpt on the polished obverse, with the engraved
+              title 文殊般若; 299 glyphs measured upstream in ten columns.</summary>
+            <msItem>
+              <title xml:lang="zh">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
+                    <term xml:lang="zh">碑</term>
+                    <term xml:lang="en">stele</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母花崗岩</term>
+                    <term xml:lang="en">biotite granite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">235</height>
+                    <width unit="cm">179</width>
+                  </dimensions>
+                  <note type="source-dimensions">the upstream c:dimensions element additionally
+                    carries the composite content "233/68/15.2" — read as whole-stele data and
+                    recorded (uninterpreted) on the object file SNS_stele.xml.</note>
+                  <note type="orientation">azimuth 28°, slope 3°, zenith 87° (upstream c:location,
+                    verbatim)</note>
+                </support>
+                <condition ana="#condition.slightly-damaged">
+                  <p xml:lang="zh">微損</p>
+                  <p xml:lang="en">slightly damaged</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="10" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut">
+                    <term xml:lang="zh">“V”形刻法</term>
+                    <term xml:lang="en">V-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.present">
+                    <term xml:lang="zh">有</term>
+                    <term xml:lang="en">yes</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.polished">
+                    <term xml:lang="zh">有</term>
+                    <term xml:lang="en">yes</term>
+                  </rs>
+                  <note type="decoration">the text field is enclosed by the finely carved
+                    ornamental border described on the object file (decoNote #decor.border,
+                    verbatim from this record's c:decor).</note>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <!-- upstream c:script is empty — no script class asserted -->
+                <p xml:lang="en">299 glyphs measured upstream in columns 1–10.</p>
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="1" atMost="6">1–6</height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0558" notAfter="0661">公元五五八到六六一年 (558–661)</origDate>
+              <origPlace>
+                <placeName ref="SNS_site.xml#SNS" xml:lang="zh">水牛山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="SNS_2_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">Private collection, Heidelberg</orgName>
+              <note xml:lang="zh">A：水牛山2號拓片。海德堡私人藏品。刊於《菩提心──科隆東亞藝術博物館一周年紀念展》第53頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_2_rub_B" n="B" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">山東省石刻藝術博物館</orgName>
+              <note xml:lang="zh">B：水牛山2號和１號拓片。山東省石刻藝術博物館藏品。刊於《文殊般若經碑》第1－32頁；賴非第57－58頁。</note>
+              <note type="discrepancy">upstream zh says 水牛山2號和１號 ("SNS 2 and SNS 1"); the en
+                note says "Rubbing of SNS 2 and SNS 3" — both preserved verbatim, unreconciled.</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_2_rub_C" n="C" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
+              <note xml:lang="zh">C：水牛山2號拓片。中國國家圖書館藏品。刊於《北京圖書館藏中國歷代石刻拓本匯編》第8册：第85頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_2_rub_D" n="D" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
+              <idno type="accession">金0844</idno>
+              <extent>192.5 × 66.5 cm</extent>
+              <note xml:lang="zh">D：水牛山2號拓片。臺北國家圖書館藏品，編號：金0844。高192.5釐米，寬66.5釐米。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_2_rub_E" n="E" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">Ex collection Uno Sesson 宇野雪村 (1912–1995)</orgName>
+              <note xml:lang="zh">E：水牛山2號拓本。整體和每個刻字的局部。清同治二年（1863）魏錫曾（1828－1881）和清光緒三十一年（1905）陸恢（1851－1920）題跋。宇野雪村（1912－1995）舊藏。刊於西川寧和神田喜一郎第46－78頁。</note>
+              <note type="paratexts">this rubbing carries its own dated colophons (題跋) by Wei
+                Xizeng 魏錫曾 (1863) and Lu Hui 陸恢 (1905) — a witness bearing texts of its own
+                (representation layer: the rubbing as first-class object).</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Shuiniushan/SNS_2.xml"/></ab>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>731a1–21</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_233</idno><citedRange>738a6–24</citedRange></bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

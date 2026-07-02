@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_5: the Seventeen-Kinds-of-Emptiness excerpt on the SW face of the
+     Guanghuasi boulder. THIN physDesc. Witnesses: the ensemble rubbings (one sheet covering
+     several texts of this boulder) live at the OBJECT level (CLS_Guanghuasi_stone.xml). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_5">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺《摩訶般若波羅蜜經》十七空節文</title>
+        <title xml:lang="en">Passage on Seventeen Kinds of Emptiness from the Great Perfection of
+          Wisdom Sutra on the Boulder near Guanghua Monastery</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">CLS_5.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="CLS_Guanghuasi_stone.xml#CLS_Guanghuasi">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">CLS_5</idno>
+            <idno type="support">CLS_Guanghuasi</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/CLS_5.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">The principal sutra excerpt of the boulder (82 glyph positions,
+              79 measured, in thirteen columns), on the SW face.</summary>
+            <msItem>
+              <title xml:lang="zh">光化寺《摩訶般若波羅蜜經》十七空節文</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母角閃石花崗岩</term>
+                    <term xml:lang="en">biotite-hornblende granite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">97</height>
+                    <width unit="cm">126</width>
+                  </dimensions>
+                  <note type="orientation">azimuth 216°, slope 14°, zenith 76° (upstream, verbatim);
+                    GPS 117.388174, 36.015342, h 237.2 (EPSG:4326, lon-lat verbatim)</note>
+                </support>
+                <condition ana="#condition.fair">
+                  <p xml:lang="zh">尚可</p>
+                  <p xml:lang="en">reasonable</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="13" ruledLines="0">
+                  <rs type="shape" ana="#shape.horizontal-rectangle">
+                    <term xml:lang="zh">横長方形</term>
+                    <term xml:lang="en">horizontal rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                    <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
+                    <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="2" atMost="23">2–23</height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <!-- witnesses: see the object-level ensemble rubbings (A/B cover CLS_5–8 on one sheet;
+             C/D cover CLS_5–7) in CLS_Guanghuasi_stone.xml — witness inheritance -->
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_5.xml"/></ab>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl type="canonical"><idno type="taisho">T_223</idno><citedRange>383a26–29</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_1509</idno><citedRange>661b3–6</citedRange></bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

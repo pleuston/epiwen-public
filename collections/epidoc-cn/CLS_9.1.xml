@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_9.1 “觀世音佛”: one of the three Buddha names on the LOST stone
+     (object CLS_9_object.xml, condition #condition.lost). Upstream field dimensions are EMPTY —
+     they stay ABSENT here (never invented); the physical data of the lost stone survives only
+     via the witnesses listed on the object file (witness-primacy for lost carvings). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_9.1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">光化寺“觀世音佛”刻銘</title>
+        <title xml:lang="en">“Buddha Perceiver of the World’s Sounds” on the Boulder at Guanghua Monastery</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">CLS_9.1.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="CLS_9_object.xml#CLS_9_stone">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">CLS_9.1</idno>
+            <idno type="support">CLS_9</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/CLS_9.1.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">Buddha name 觀世音佛, four characters in one column; the first of
+              the three name-columns of the lost stone.</summary>
+            <msItem>
+              <title xml:lang="zh">觀世音佛</title>
+              <title xml:lang="en">Buddha Perceiver of the World’s Sounds (Avalokitêśvara)</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite-hornblende" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母– 角閃石 – 花崗岩</term>
+                    <term xml:lang="en">biotite-hornblende granite</term>
+                  </material>
+                  <note type="material-source">zh spacing verbatim from the upstream record;
+                    necessarily derived from pre-loss documentation.</note>
+                  <!-- field dimensions: EMPTY upstream (stone lost) — deliberately absent here;
+                       the combined field (105 × 94, from the rubbing) is on the object file -->
+                </support>
+                <condition ana="#condition.lost">
+                  <p xml:lang="en">stone lost — condition statement inherited from the object
+                    record (upstream per-text condition labels are empty; the combined record
+                    CLS_9 carries 佚失 / "stone lost").</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="4" ruledLines="0">
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">no</term>
+                  </rs>
+                  <!-- format/technique: EMPTY upstream on this record — absent here -->
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <p xml:lang="en">Four glyph positions recorded upstream, none measured (stone
+                  lost); the combined glyph heights of all three names (14–55 cm, from the
+                  rubbing) are on the object file.</p>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="CLS_9.1_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
+              <note xml:lang="zh">徂徠山9.1號，9.2號和9.3號拓本。北京國家圖書館。</note>
+              <note type="coverage">one rubbing covering all three Buddha names — the same witness
+                family as the object-level rubbing A (匯編 8: 17).</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_9.1.xml"/></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

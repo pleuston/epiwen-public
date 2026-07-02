@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — 臥佛院 Cave 33 (E25 feature): the cave IS the object; its walls d/e/f are
+     nested part-objects, each carrying its own monument-level geometry (per-wall dimensions from
+     the upstream cave record's c:walls block, verbatim source strings preserved). Six texts are
+     borne on the walls; three are built out as sample inscription files, three remain upstream
+     references. The Consecration Sutra runs over walls d AND e in two catalog records
+     (juan 11 / juan 12 of T 1331) — two inscription files joined by @next/@prev, each
+     @corresp-ing BOTH walls. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WFY_33_cave">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">臥佛院 33 號窟</title>
+        <title xml:lang="en">Wofoyuan Cave 33</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">WFY_33</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="sutras:catalog/WFY_33_Cave.xml"/> — the upstream cave record
+          (root type="cave", parent="WFY_Section_A") with the per-wall dimensions block.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="WFY_33" type="cave" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">四川省</region>
+            <settlement xml:lang="zh">安岳</settlement>
+            <objectName xml:lang="zh">臥佛院 33 號窟</objectName>
+            <objectName xml:lang="en">Wofoyuan Cave 33</objectName>
+            <idno type="support">WFY_33</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">Six texts on walls d/e/f: the Consecration Sutra (灌頂經, T 1331,
+              juan 11 and 12) running over walls d and e; the Deathbed Injunction and Six Gates
+              texts on wall e; the Diamond Sutra and the Sutra of the Wise and the Foolish on
+              wall f.</summary>
+            <msItem n="1" corresp="WFY_33_d_e_Consecration.xml">
+              <locus target="#WFY_33_d #WFY_33_e">walls d + e</locus>
+              <title xml:lang="zh">灌頂經（卷十一）</title>
+              <title xml:lang="en">Consecration Sutra, juan 11</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="2" corresp="WFY_33_d_e_Consecration_12.xml">
+              <locus target="#WFY_33_d #WFY_33_e">walls d + e</locus>
+              <title xml:lang="zh">灌頂經（卷十二）</title>
+              <title xml:lang="en">Consecration Sutra, juan 12</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="3" corresp="sutras:catalog/WFY_33_e_DeathbedInjunction.xml">
+              <locus target="#WFY_33_e">wall e</locus>
+              <title xml:lang="zh">遺教經</title>
+              <title xml:lang="en">Deathbed Injunction (Bequeathed Teachings) Sutra</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="4" corresp="WFY_33_f_Diamond.xml">
+              <locus target="#WFY_33_f">wall f</locus>
+              <title xml:lang="zh">金剛經</title>
+              <title xml:lang="en">Diamond Sutra</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="5" corresp="sutras:catalog/WFY_33_e_SixGates.xml">
+              <locus target="#WFY_33_e">wall e</locus>
+              <title xml:lang="zh">六門陀羅尼經</title>
+              <title xml:lang="en">Six Gates text</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="6" corresp="sutras:catalog/WFY_33_f_WiseandFoolish.xml">
+              <locus target="#WFY_33_f">wall f</locus>
+              <title xml:lang="zh">賢愚經</title>
+              <title xml:lang="en">Sutra of the Wise and the Foolish</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.cave">
+                    <term xml:lang="zh">石窟（刻經窟）</term>
+                    <term xml:lang="en">rock-cut text cave</term>
+                  </objectType>
+                  <!-- whole-cave dimensions: empty upstream (c:dimensions height="" width="") -->
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origPlace>
+                <placeName ref="WFY_site.xml#WFY_A" xml:lang="zh">卧佛院南崖A區</placeName>
+              </origPlace>
+            </origin>
+          </history>
+
+          <!-- upstream cave-record fields, verbatim -->
+          <note type="cave-location">southern cliff</note>
+          <note type="cluster">29, 33</note>
+          <note type="construction">completed</note>
+          <note type="cave-type">text cave</note>
+          <note type="source-coordinates">upstream lon-lat verbatim: 105.316486,30.301747 (EPSG:4326)</note>
+
+          <!-- walls: nested part-objects WITH their own geometry (LAST, per content model) -->
+          <object xml:id="WFY_33_d" type="wall" n="d" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">d壁</objectName>
+              <objectName xml:lang="en">wall d</objectName>
+            </objectIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <dimensions type="overall" unit="cm">
+                      <height n="front" unit="cm">221</height>
+                      <height n="back" unit="cm">233</height>
+                      <width unit="cm">190</width>
+                    </dimensions>
+                    <note type="source">d壁：前部高221釐米，後部高233釐米，寬190釐米。</note>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </object>
+          <object xml:id="WFY_33_e" type="wall" n="e" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">e壁</objectName>
+              <objectName xml:lang="en">wall e</objectName>
+            </objectIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <dimensions type="overall" unit="cm">
+                      <height n="west" unit="cm">233</height>
+                      <height n="centre" unit="cm">245</height>
+                      <height n="east" unit="cm">235</height>
+                      <width unit="cm">252</width>
+                    </dimensions>
+                    <note type="source">e壁：西端高233釐米，中央高245釐米，東端高235釐米，寬252釐米。</note>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </object>
+          <object xml:id="WFY_33_f" type="wall" n="f" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">f壁</objectName>
+              <objectName xml:lang="en">wall f</objectName>
+            </objectIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <dimensions type="overall" unit="cm">
+                      <height n="front" unit="cm">222</height>
+                      <height n="back" unit="cm">235</height>
+                      <width unit="cm">205</width>
+                    </dimensions>
+                    <note type="source">f壁：前部高222釐米，後部高235釐米，寬205釐米。</note>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </object>
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OBJECT file — the HDS_9 sixteen-text panel on the north slope of 洪頂山 (E25 feature).
+     Built 1:1 from the catalog's own record catalog/HDS_9.xml, whose root carries
+     type="overview" — the corpus itself already invented the object tier for this case: an
+     object-level record describing ONE bounded surface (310 × 823 cm) that carries sixteen
+     vertical script fields (HDS_9.1–9.16), each dimensioned in its own per-text record.
+     The sixteen fields are the TEXTS' script fields, not monument parts — hence NO nested
+     face/wall anchors here; every HDS_9.x @corresp targets this object directly and carries
+     idno[@type="support"] = HDS_9 as the shared-support query key. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HDS_9_object">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">洪頂山9.1號至9.16號整體概覽</title>
+        <title xml:lang="en">Combined View of HDS 9.1 to HDS 9.16 (the sixteen-text panel)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="object">HDS_9</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="sutras:catalog/HDS_9.xml"/> — the upstream record is typed
+          "overview"; it maps 1:1 onto this object file.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="HDS_9" type="panel" ana="crm:E25_Human-Made_Feature">
+
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <objectName xml:lang="zh">洪頂山9號刻面</objectName>
+            <objectName xml:lang="en">HDS 9 panel (sixteen Buddha-name fields)</objectName>
+            <idno type="support">HDS_9</idno>
+          </objectIdentifier>
+
+          <msContents>
+            <summary xml:lang="en">Sixteen Buddha-name texts (HDS_9.1–9.16) in sixteen vertical
+              fields on one bounded surface; HDS_9.2–9.8 are the Seven Buddhas of the Past.
+              This sample builds out HDS_9.1; the remaining fifteen follow the identical
+              pattern from their catalog records.</summary>
+            <msItem n="1" corresp="HDS_9.1.xml">
+              <locus target="#HDS_9"/>
+              <title xml:lang="zh">“式佛”</title>
+              <title xml:lang="en">“Buddha Śikhin”</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <msItem n="2" corresp="sutras:catalog/HDS_9.2.xml">
+              <locus target="#HDS_9"/>
+              <title xml:lang="zh">“維衛佛”</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+            <!-- HDS_9.3 … HDS_9.16: identical pattern; see sutras:catalog/HDS_9.3.xml etc. -->
+          </msContents>
+
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.panel" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">組合刻面（摩崖）</term>
+                    <term xml:lang="en">multi-text panel on a rock-face</term>
+                  </objectType>
+                  <material ana="#material.limestone.fossiliferous" ref="http://vocab.getty.edu/aat/300011286">
+                    <term xml:lang="zh">蘆台特階含化石的石灰岩</term>
+                    <term xml:lang="en">fossiliferous Lutetian limestone</term>
+                  </material>
+                  <dimensions type="overall" unit="cm">
+                    <height unit="cm">310</height>
+                    <width unit="cm">823</width>
+                  </dimensions>
+                </support>
+                <condition ana="#condition.good">
+                  <p xml:lang="zh">尚佳</p>
+                  <p xml:lang="en">good</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <rs type="shape" ana="#shape.horizontal-rectangle">
+                    <term xml:lang="zh">橫長方形，含十六個縱長方形</term>
+                    <term xml:lang="en">horizontal rectangle composed of sixteen vertical rectangles</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut #execution.feibai">
+                    <term xml:lang="zh">“V”形、“凵”形刻法和“飛白刻”</term>
+                    <term xml:lang="en">V-shaped carving, rectangular U-shaped carving and “flying white” carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">no</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">no</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <decoDesc>
+              <decoNote ana="#decor.none">
+                <p xml:lang="zh">無</p>
+                <p xml:lang="en">no</p>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <origDate notBefore="0550" notAfter="0564">天保元年至河清三年 (550–564; from the
+                per-text records, e.g. HDS_9.1)</origDate>
+              <origPlace>
+                <placeName ref="HDS_site.xml#HDS_N" xml:lang="zh">洪頂山北坡</placeName>
+              </origPlace>
+            </origin>
+          </history>
+
+          <!-- object-level witnesses (from the upstream overview record, verbatim) — they cover
+               all sixteen texts; the per-text records inherit them (README: witness inheritance) -->
+          <note type="witnesses" xml:lang="zh">A: 洪頂山9.1號至9.16號整體拓片，製作於1998年，山東省石刻藝術博物館典藏。
+            B: 洪頂山9.1號至9.16號尚未發表的整體拓片，山東省石刻藝術博物館典藏，局部照片拍攝於2004年。
+            未拍攝過整體照片的拓片B糾正了拓片A將9.14號佛名中的“千”字拓成“十”字的錯誤。</note>
+          <note type="witnesses" xml:lang="en">A: rubbing of the whole HDS 9.1–9.16 group, made 1998;
+            Shandong Stone Carving Art Museum, Jinan. B: unpublished rubbing of the whole group,
+            same collection, photographed in sections in 2004. Rubbing B corrects rubbing A's
+            mistake of reading 十 instead of 千 in the Buddha name HDS 9.14 — a witness correcting
+            a witness.</note>
+
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

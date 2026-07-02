@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_4: the colophon of Puxi 普憘 and others on 映佛巖, carrying the date
+     武平元年 IN ITS TEXT (upstream marks it c:original — this colophon dates the whole programme). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_4">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">映佛巖普憘等題名</title>
+        <title xml:lang="en">Colophon by Puxi and Others on Radiant Buddha Cliff</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">CLS_4.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="CLS_Yingfoyan_object.xml#CLS_Yingfoyan">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">CLS_4</idno>
+            <idno type="support">CLS_Yingfoyan</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/CLS_4.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">Dated donor colophon (武平元年 in the text); 15 glyphs in four
+              columns.</summary>
+            <msItem>
+              <title xml:lang="zh">映佛巖普憘等題名</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">淡色花崗岩</term>
+                    <term xml:lang="en">leucogranite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">102</height>
+                    <width unit="cm">85</width>
+                  </dimensions>
+                  <note type="orientation">azimuth 211°, slope 0°, zenith 90° (upstream, verbatim);
+                    GPS 117.393829, 36.011146, h 316.4 (EPSG:4326, lon-lat verbatim)</note>
+                </support>
+                <condition ana="#condition.good">
+                  <p xml:lang="zh">良好，其中一字殘損</p>
+                  <p xml:lang="en">good, one character damaged</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="4" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                    <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
+                    <term xml:lang="en">V-shaped carving, rectangular U-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="10.2" atMost="23.5">10.2–23.5</height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0570" evidence="internal-date">武平元年 (570)</origDate>
+              <note type="date-source">upstream marks 武平元年 as c:original on this record —
+                the date stands IN this colophon's text and dates the whole 映佛巖 programme
+                (CLS_1–4).</note>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="CLS_4_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">山東石刻藝術博物館</orgName>
+              <note xml:lang="zh">A：徂徠山4號拓本。山東石刻藝術博物館藏品。2007年拍攝。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_4_rub_B" n="B" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">山東石刻藝術博物館</orgName>
+              <note xml:lang="zh">B：徂徠山4號拓本。山東石刻藝術博物館藏品。刊於《山東北朝摩崖刻經全集》徂徠山: 第18頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_4_rub_C" n="C" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
+              <note xml:lang="zh">C：徂徠山4號拓本。臺北國家圖書館藏品。高90釐米，寬102釐米。</note>
+              <note type="discrepancy">upstream zh gives 高90釐米，寬102釐米 while the en note gives
+                "Height: 102 cm, width: 90 cm" (axes swapped) — both preserved verbatim.</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_4_rub_D" n="D" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">Private collection, Japan</orgName>
+              <note xml:lang="zh">D：徂徠山1號及4號拓本合裝。日本私人藏品。刊於《未来への贈りもの》第28－29頁。</note>
+              <note type="coverage">the joint mounting with CLS_1 (same witness object as CLS_1's E).</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_4_rub_E" n="E" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="ja">西川寧舊藏（日本）</orgName>
+              <extent>107 × 85 cm</extent>
+              <note xml:lang="zh">E: 徂徠山4號。日本西川寧舊藏。高107釐米，寬85釐米。刊於伏見冲敬第13頁；西川寧和神田喜一郎第62頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_4_rub_F" n="F" ana="#witness.woodcut">
+            <bibl>
+              <date when="1821">道光元年 (1821)</date>
+              <note xml:lang="zh">F：摹刻徂徠山4號拓本。刊於清道光元年刻本《金石索》第4册：第755頁，影印本見樋口銅牛第40頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_4_rub_G" n="G" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">泰安市博物館</orgName>
+              <note xml:lang="zh">G：徂徠山4號拓本。泰安市博物館藏品。刊於《泰山石刻大觀》第一函，第三卷，第59頁。</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_4.xml"/></ab>
+      </div>
+    </body>
+  </text>
+</TEI>

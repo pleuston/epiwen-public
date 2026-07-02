@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LQS_Miaoji_1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">《華嚴經》八會偈文及《無量義經》〈德行品〉節錄</title>
+        <title xml:lang="en">Excerpted gāthās from the eight assemblies of the Huayan Sutra and the Virtuous Conduct chapter of the Sutra of Immeasurable Meanings</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — ASCDC import</authority>
+        <idno type="filename">LQS_Miaoji_1.xml</idno>
+        <availability status="restricted"><p>Metadata from the ASCDC 佛教藝術圖典與知識系統 (buddhism.ascdc.sinica.edu.tw), retrieved 2026-07-02; imported for demonstration and published in the Epiwen public corpus; rights remain with ASCDC.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="LQS_Miaoji_stele.xml#LQS_Miaoji_stele">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">河南省</region>
+            <settlement xml:lang="zh">安陽縣</settlement>
+            <idno type="edition">LQS_Miaoji_1</idno>
+            <idno type="support">LQS_Miaoji_stele</idno>
+            <altIdentifier type="ascdc">
+              <idno>S00070000</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="zh">方形石碑，節錄《華嚴經》八會的部份偈文及《無量義經》〈德行品〉。</summary>
+            <msItem>
+              <title xml:lang="zh">《華嚴經》八會偈文及《無量義經》〈德行品〉節錄</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
+                    <term xml:lang="zh">刻經碑</term>
+                    <term xml:lang="en">sutra stele</term>
+                  </objectType>
+                  <note type="field-dimensions" xml:lang="zh">上游未著錄字面尺寸（整碑尺寸見器物檔 LQS_Miaoji_stele.xml）</note>
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0562">河清元年</origDate>
+              <origPlace>
+                <placeName ref="LQS_site.xml#LQS" xml:lang="zh">靈泉寺</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="ascdc" matchPattern="(.+)" replacementPattern="https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab/>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>《安陽縣金石錄》，卷二，頁21。（收錄於《石刻史料新編》輯一，第八冊，頁13839。）</bibl>
+          <bibl>《河朔金石目》卷二，頁7。（收錄於《石刻史料新編》輯二，第十二冊，頁3963。）</bibl>
+          <bibl>《河朔訪古新錄》卷二，頁7。（收錄於《石刻史料新編》輯二，第十二冊，頁8897。）</bibl>
+          <bibl>《金石萃編補目》卷一，頁6。（收錄於《石刻史料新編》輯三，第卅七冊，頁486。）</bibl>
+          <bibl>《八瓊室金石補正》卷二十二，頁38-39。（收錄於《石刻史料新編》輯一，第六冊，頁4352-4353。）</bibl>
+          <bibl>《語石》卷四，頁39。（收錄於《石刻史料新編》輯二，第十六冊，頁11937。）</bibl>
+          <bibl>常盤大定、關野貞著，《支那文化史跡》解說第五卷，頁71。圖版64。</bibl>
+          <bibl>張總，〈華嚴經偈刻石略考〉，《記念慧可大師圓寂1423年暨邯鄲二祖文化與地論學派國際學術研討會論文集》，頁236-260。</bibl>
+          <bibl>李裕群，〈靈泉寺北齊婁睿《華嚴經碑》研究〉，《考古學報》，2012年第1期，頁63-82。</bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

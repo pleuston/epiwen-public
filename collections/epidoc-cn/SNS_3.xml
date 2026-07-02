@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — SNS_3, the donor colophon running over BOTH narrow sides of the stele:
+     the one-text-across-two-faces case, expressed by the space-separated MULTI-TARGET @corresp
+     to both face anchors. The upstream subcolumn scheme (a1, a2 on side a; b1–b4 on side b)
+     is kept in the layout prose. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">水牛山《文殊師利所説般若波羅蜜經》碑側題記</title>
+        <title xml:lang="en">Colophon on the Narrow Sides of the Stele from Mount Shuiniu</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">SNS_3.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="SNS_stele.xml#SNS_stele_ce_a SNS_stele.xml#SNS_stele_ce_b">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">SNS_3</idno>
+            <idno type="support">SNS_stele</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/SNS_3.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">Donor colophon (題記) naming the sponsors, continuing across both
+              narrow sides of the stele; 127 glyph positions recorded upstream (82 measured) in
+              subcolumns a1–a2 and b1–b4.</summary>
+            <msItem>
+              <title xml:lang="zh">水牛山《文殊師利所説般若波羅蜜經》碑側題記</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
+                    <term xml:lang="zh">碑</term>
+                    <term xml:lang="en">stele</term>
+                  </objectType>
+                  <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">黑雲母花崗岩</term>
+                    <term xml:lang="en">biotite granite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">202</height>
+                    <width unit="cm">34</width>
+                  </dimensions>
+                  <note type="source-dimensions">upstream c:dimensions carries type="manual"
+                    (verbatim attribute).</note>
+                </support>
+                <condition ana="#condition.poor">
+                  <p xml:lang="zh">劣</p>
+                  <p xml:lang="en">poor</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="6" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.u-cut">
+                    <term xml:lang="zh">“U”形刻法</term>
+                    <term xml:lang="en">U-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.polished">
+                    <term xml:lang="zh">有</term>
+                    <term xml:lang="en">yes</term>
+                  </rs>
+                  <p xml:lang="en">The upstream glyph grid uses subcolumns a1, a2 (narrow side a)
+                    and b1, b2, b3, b4 (narrow side b) — six written columns distributed over the
+                    two faces targeted by @corresp.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <!-- upstream c:script is empty — no script class asserted -->
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="1.5" atMost="5.5">1.5–5.5</height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0558" notAfter="0661">公元五五八到六六一年 (558–661)</origDate>
+              <origPlace>
+                <placeName ref="SNS_site.xml#SNS" xml:lang="zh">水牛山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="SNS_3_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">汶上縣中都博物館</orgName>
+              <note xml:lang="zh">A：水牛山3號拓片。汶上縣中都博物館藏品。2009年拍攝</note>
+            </bibl>
+          </witness>
+          <witness xml:id="SNS_3_rub_B" n="B" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">山東省石刻藝術博物館</orgName>
+              <note xml:lang="zh">B：水牛山2號和１號拓片。山東省石刻藝術博物館藏品。刊於《文殊般若經碑》第1－32頁；賴非第57－58頁。</note>
+              <note type="discrepancy">upstream zh says 水牛山2號和１號 ("SNS 2 and SNS 1"); the en
+                note (on this record) says "Rubbing of SNS 2 and SNS 3" — both preserved verbatim,
+                unreconciled (same wart as on SNS_2's witness B).</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Shuiniushan/SNS_3.xml"/></ab>
+      </div>
+      <div type="commentary">
+        <p xml:lang="en">The donor names on the narrow sides identify five individuals; one bearer
+          of the surname Yang 羊 is possibly connected to Yang Lie 羊烈, governor of Yangping
+          陽平 (558–561) — see the upstream discussion references.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

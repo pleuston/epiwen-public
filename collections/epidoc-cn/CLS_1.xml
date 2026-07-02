@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_1: the 98-character sutra excerpt of 570 CE on 映佛巖 (Radiant Buddha
+     Cliff). THIN physDesc: the object is minted (CLS_Yingfoyan_object.xml) because the boulder
+     bears four texts; @corresp targets the boulder directly (anchor-less idiom — one continuous
+     face). Witness list: seven rubbings in six collections, incl. a joint mounting with CLS_4. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
+        <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of
+          Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">CLS_1.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="CLS_Yingfoyan_object.xml#CLS_Yingfoyan">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">CLS_1</idno>
+            <idno type="support">CLS_Yingfoyan</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/CLS_1.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">The 98-character Mañjuśrī Prajñāpāramitā excerpt, the principal
+              text of the 映佛巖 programme; patron Wang Zichun 王子椿 (named upstream as producer;
+              his colophon is CLS_3).</summary>
+            <msItem>
+              <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">淡色花崗岩</term>
+                    <term xml:lang="en">leucogranite</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">130</height>
+                    <width unit="cm">313</width>
+                  </dimensions>
+                  <note type="orientation">azimuth 211°, slope 0°, zenith 90° (upstream c:location,
+                    verbatim); GPS 117.393807, 36.011144, h 314.6 (EPSG:4326, lon-lat verbatim)</note>
+                </support>
+                <condition ana="#condition.good">
+                  <p xml:lang="zh">良好，左側幾字漶漫</p>
+                  <p xml:lang="en">good, apart from some worn characters in the left half</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="14" ruledLines="0">
+                  <rs type="shape" ana="#shape.horizontal-rectangle">
+                    <term xml:lang="zh">横長方形</term>
+                    <term xml:lang="en">horizontal rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
+                    <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
+                    <term xml:lang="en">V- and rectangular U-shaped carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">none</term>
+                  </rs>
+                  <note type="columns-source">the upstream glyph grid spans columns 1–14
+                    (98 glyph positions, 88 measured).</note>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <!-- upstream c:script is empty — no script class asserted -->
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="8" atMost="25">8–25</height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0570">武平元年 (570)</origDate>
+              <note type="date-source">upstream c:given source="CLS_4, CLS_8" — the year is carried
+                by the dated colophons of the programme.</note>
+              <origPlace>
+                <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <listWit>
+          <witness xml:id="CLS_1_rub_A" n="A" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">山東石刻藝術博物館</orgName>
+              <note xml:lang="zh">A：徂徠山1號拓本。山東石刻藝術博物館藏品。2007年拍攝。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_1_rub_B" n="B" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">山東石刻藝術博物館</orgName>
+              <note xml:lang="zh">B：徂徠山1號拓本。山東石刻藝術博物館藏品。刊於《山東北朝摩崖刻經全集》徂徠山：第1－17頁；安廷山第40頁； 賴非第64－65頁； 《山東佛教刻經全集》第2卷：第4－21頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_1_rub_C" n="C" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Library of China, Beijing</orgName>
+              <extent>136 × 242 cm</extent>
+              <note xml:lang="zh">C：徂徠山1號拓本。中國國家圖書館藏品。高136釐米，寬242 釐米。刊於《北京圖書館藏中國歷代石刻拓本匯編》第8册：第72頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_1_rub_D" n="D" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">National Central Library, Taibei</orgName>
+              <extent>137 × 328 cm</extent>
+              <note xml:lang="zh">D：徂徠山1號拓本。臺北國家圖書館藏品。高137釐米，寬328 釐米。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_1_rub_E" n="E" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="en">Private collection, Japan</orgName>
+              <note xml:lang="zh">E：徂徠山1號及4號拓本一並裝裱。日本私人藏品。刊於《未来への贈りもの》第28－29頁。</note>
+              <note type="coverage">a joint mounting of the rubbings of CLS_1 AND CLS_4 — one
+                witness object covering two texts of the boulder.</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_1_rub_F" n="F" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="ja">西川寧舊藏（日本）</orgName>
+              <note xml:lang="zh">F：徂徠山1號拓本。日本西川寧舊藏。整體和每個刻字局部刊於伏見冲敬第14－63頁；西川寧和神田喜一郎第4－53頁。</note>
+            </bibl>
+          </witness>
+          <witness xml:id="CLS_1_rub_G" n="G" ana="#witness.rubbing">
+            <bibl>
+              <orgName role="repository" xml:lang="zh">泰安市博物館</orgName>
+              <note xml:lang="zh">G：徂徠山1號拓本。泰安市博物館藏品。刊於《泰山石刻大觀》第一函，第三卷，第57頁和第60頁。</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <ab><ptr type="transcription" target="sutras:docs/Culaishan/CLS_1.xml"/></ab>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>731a15–21</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_233</idno><citedRange>738a19–24</citedRange></bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

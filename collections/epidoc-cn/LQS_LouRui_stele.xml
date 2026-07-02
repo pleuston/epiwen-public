@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LQS_LouRui_stele_doc">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">北齊司徒公婁叡華嚴經碑</title>
+        <title xml:lang="en">Huayan Sutra stele of Situ Gong Lou Rui (Northern Qi)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — ASCDC import</authority>
+        <idno type="object">LQS_LouRui_stele</idno>
+        <availability status="restricted"><p>Metadata from the ASCDC 佛教藝術圖典與知識系統 (buddhism.ascdc.sinica.edu.tw), retrieved 2026-07-02; imported for demonstration and published in the Epiwen public corpus; rights remain with ASCDC.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="ascdc:S00060000"/> — ASCDC record 北齊司徒公婁叡華嚴經碑 (作品類型 刻經碑; 保存地點 安陽縣)</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="ascdc" matchPattern="(.+)" replacementPattern="https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="LQS_LouRui_stele" type="monument" subtype="sutra-stele" ana="crm:E22_Human-Made_Object">
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">河南省</region>
+            <settlement xml:lang="zh">安陽縣</settlement>
+            <objectName xml:lang="zh">北齊司徒公婁叡華嚴經碑</objectName>
+            <objectName xml:lang="en">Huayan Sutra stele of Situ Gong Lou Rui (Northern Qi)</objectName>
+            <idno type="support">LQS_LouRui_stele</idno>
+          </objectIdentifier>
+          <msContents>
+            <summary xml:lang="zh">方形石碑，刻滿〈大方廣佛華嚴經菩薩明難品〉，由北齊東安王婁叡發心雕造。</summary>
+            <msItem n="1" corresp="LQS_LouRui_1.xml">
+              <title xml:lang="zh">大方廣佛華嚴經菩薩明難品</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
+                    <term xml:lang="zh">刻經碑</term>
+                    <term xml:lang="en">sutra stele</term>
+                  </objectType>
+                  <dimensions type="overall" unit="cm">
+                    <height unit="cm">230</height>
+                    <width unit="cm">98</width>
+                    <depth unit="cm">28</depth>
+                  </dimensions>
+                  <note type="shape" xml:lang="zh">方形（ASCDC 石窟類型欄，verbatim）</note>
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0562">河清元年</origDate>
+              <note type="source-date" xml:lang="zh">ASCDC：年代 河清元年；朝代 北齊；執政帝王 武成帝</note>
+              <origPlace>
+                <placeName ref="LQS_site.xml#LQS" xml:lang="zh">靈泉寺</placeName>
+              </origPlace>
+            </origin>
+          </history>
+          <note type="alt-titles" xml:lang="zh">後齊婁叡造華嚴經碑、大方廣佛華嚴經碑、齊大方廣佛華嚴經碑、靈泉寺華嚴經、婁叡造華嚴經碑、華嚴經偈、大方廣佛華嚴經菩薩明難品、華嚴經碑（北齊）</note>
+          <note type="associated-persons" xml:lang="zh">王世子假節督、岐州諸軍事揚烈將軍、岐州刺史儀同三司左右直長大賢真內備身正都督、食廣州南陽峽城縣幹、海虞伯子彦、第二子通直散騎侍郎仲彥、寺檀越主司徒公使持節都督瀛冀光岐豐、五州諸軍事瀛冀光岐豐、五州刺史食常山郡幹東安王婁叡、東安王郡君楊</note>
+          <note type="iiif-manifest">https://buddhism.ascdc.sinica.edu.tw/api/GET/3939/manifest</note>
+          <note type="witnesses" xml:lang="zh">婁叡華嚴經碑、大乘妙偈碑外景（ASCDC O00010000，作品類型：外景）：從寳山望向婁叡華嚴經碑、大乘妙偈碑碑亭。IIIF manifest: https://buddhism.ascdc.sinica.edu.tw/api/GET/2512/manifest</note>
+          <note type="place-evidence" xml:lang="zh">ASCDC 其他題名含「靈泉寺華嚴經」；參考文獻李裕群〈靈泉寺北齊婁睿《華嚴經碑》研究〉；外景記錄 O00010000 從寳山望向兩碑碑亭。</note>
+          <object xml:id="LQS_LouRui_stele_front" type="face" n="正面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">正面</objectName>
+              <objectName xml:lang="en">front</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0006MP00</note>
+          </object>
+          <object xml:id="LQS_LouRui_stele_back" type="face" n="背面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">背面</objectName>
+              <objectName xml:lang="en">back</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0006MJ00</note>
+          </object>
+          <object xml:id="LQS_LouRui_stele_left" type="face" n="左面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">左面</objectName>
+              <objectName xml:lang="en">left side</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0006PM00</note>
+          </object>
+          <object xml:id="LQS_LouRui_stele_right" type="face" n="右面" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">右面</objectName>
+              <objectName xml:lang="en">right side</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">S0006JM00</note>
+          </object>
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

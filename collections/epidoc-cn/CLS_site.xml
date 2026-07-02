@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SITE file — 徂徠山 Mount Culai (CLS). TEI <place> linking FOUR bearers (user-determined
+     grouping of the 13 catalog inscriptions):
+       ① 映佛巖 Radiant Buddha Cliff boulder — CLS_1–4 (object file CLS_Yingfoyan_object.xml)
+       ② the boulder near 光化寺 Guanghua Monastery — CLS_5–8 (object file CLS_Guanghuasi_stone.xml)
+       ③ a LOST stone formerly near Guanghua Monastery — CLS_9 = CLS_9.1–9.3 (CLS_9_object.xml)
+       ④ another LOST stone — CLS_10 (CLS_10_object.xml — a thin object node minted for
+         structural uniformity; the fold rule is retired in this sample). -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_site">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">徂徠山</title>
+        <title xml:lang="en">Mount Culai (site)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="site">CLS</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="sutras:catalog/CLS_site.xml"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="CLS" type="site" subtype="mountain" ana="crm:E27_Site">
+          <placeName xml:lang="zh">徂徠山</placeName>
+          <placeName xml:lang="en">Mount Culai</placeName>
+          <country xml:lang="zh">中國</country>
+          <region xml:lang="zh">山東省</region>
+          <region xml:lang="en">Shandong Province</region>
+          <location>
+            <geo>36.0112 117.3938</geo>
+          </location>
+          <note type="source-coordinates">upstream lon-lat verbatim: 117.3938, 36.0112 (EPSG:4326)</note>
+          <note type="toponym" xml:lang="zh">光化寺（②③④之相鄰寺院地名，見各記錄標題「光化寺」／「光化寺舊存」）</note>
+          <note type="toponym" xml:lang="en">Guanghua Monastery 光化寺 is the anchoring toponym of bearers ②–④
+            ("on the boulder near Guanghua Monastery" / 舊存 "formerly [preserved] at").</note>
+          <linkGrp type="objects">
+            <ptr type="object" target="CLS_Yingfoyan_object.xml#CLS_Yingfoyan"/>
+            <ptr type="object" target="CLS_Guanghuasi_stone.xml#CLS_Guanghuasi"/>
+            <ptr type="object" target="CLS_9_object.xml#CLS_9_stone"/>
+            <ptr type="object" target="CLS_10_object.xml#CLS_10"/>
+          </linkGrp>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

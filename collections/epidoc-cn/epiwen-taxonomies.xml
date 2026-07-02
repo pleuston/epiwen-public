@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- epiwen-taxonomies.xml — the central controlled-vocabulary registry of the epiwen-sample set.
+     Analogue of I.Sicily's alists/ISicily-taxonomies.xml: every @ana="#category.id" in the sample
+     files resolves HERE; @ref carries the external authority URI on the instance elements.
+     Getty AAT refs are asserted only where verified; EAGLE refs are kept as MIRRORED references
+     (the eagle-network.eu vocabulary server is dead; URIs preserved for identity, not resolution).
+     Categories marked {verify} are local mints awaiting an external anchor. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="epiwen-taxonomies">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">Epiwen 樣本控制詞表</title>
+        <title xml:lang="en">Epiwen sample — controlled-vocabulary taxonomies</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="registry">epiwen-taxonomies</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Value set harvested from sutras-data catalog records (SNS, CLS, HDS, WFY) and the
+          I.Sicily taxonomy model (alists/ISicily-taxonomies.xml); Getty AAT ids verified 2026-06
+          (see physDesc-assembly §1.4).</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+
+        <taxonomy xml:id="objectTypes">
+          <desc xml:lang="zh">器物類型</desc>
+          <desc xml:lang="en">Object / monument types</desc>
+          <category xml:id="object.stele">
+            <catDesc xml:lang="zh"><gloss>碑</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>stele</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300007023">AAT stelae (carries the zh labels 碑／石碑／豎石碑)</ref>
+              <ref type="eagle" subtype="mirrored" target="https://www.eagle-network.eu/voc/objtyp/lod/250">EAGLE stele (dead server; mirrored reference)</ref>
+            </catDesc>
+          </category>
+          <category xml:id="object.rock-face">
+            <catDesc xml:lang="zh"><gloss>摩崖</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>rock-face (natural cliff/boulder surface bearing carving)</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300404733">AAT rock-face (I.Sicily precedent for moya)</ref>
+            </catDesc>
+          </category>
+          <category xml:id="object.boulder">
+            <catDesc xml:lang="zh"><gloss>刻經石／巨石</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>free-standing inscribed boulder</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300404733">narrower-than AAT rock-face; local leaf</ref>
+            </catDesc>
+          </category>
+          <category xml:id="object.panel">
+            <catDesc xml:lang="zh"><gloss>組合刻面</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>multi-text panel on a rock-face (one bounded surface carrying several script fields)</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300404733">parent = AAT rock-face; local leaf</ref>
+            </catDesc>
+          </category>
+          <category xml:id="object.cave">
+            <catDesc xml:lang="zh"><gloss>石窟</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>rock-cut cave (text cave) — local mint {verify Getty}</gloss></catDesc>
+          </category>
+          <category xml:id="object.cave-wall">
+            <catDesc xml:lang="zh"><gloss>窟壁</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>cave wall — local mint (DHARMA "wall" precedent)</gloss></catDesc>
+          </category>
+          <category xml:id="object.jingchuang">
+            <catDesc xml:lang="zh"><gloss>經幢</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>sutra pillar — the documented pure local mint (unused in this sample);
+              nearest AAT: monumental pillars</gloss>
+              <ref type="getty" subtype="nearest" target="http://vocab.getty.edu/aat/300132482">AAT monumental pillars (NOT 經幢; recorded as nearest-parent only)</ref>
+            </catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="materials">
+          <desc xml:lang="zh">材質</desc>
+          <desc xml:lang="en">Materials</desc>
+          <category xml:id="material.granite.biotite">
+            <catDesc xml:lang="zh"><gloss>黑雲母花崗岩</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>biotite granite</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300011183">parent = AAT granite (rock)</ref>
+            </catDesc>
+          </category>
+          <category xml:id="material.granite.leuco">
+            <catDesc xml:lang="zh"><gloss>淡色花崗岩</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>leucogranite</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300011183">parent = AAT granite (rock)</ref>
+            </catDesc>
+          </category>
+          <category xml:id="material.granite.biotite-hornblende">
+            <catDesc xml:lang="zh"><gloss>黑雲母角閃石花崗岩</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>biotite-hornblende granite</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300011183">parent = AAT granite (rock)</ref>
+            </catDesc>
+          </category>
+          <category xml:id="material.limestone.fossiliferous">
+            <catDesc xml:lang="zh"><gloss>含化石石灰岩</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>fossiliferous limestone (instances keep the upstream stage detail
+              蘆台特階含化石的石灰岩 "fossiliferous Lutetian limestone" verbatim)</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300011286">parent = AAT limestone</ref>
+            </catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="conditions">
+          <desc xml:lang="zh">狀況</desc>
+          <desc xml:lang="en">Condition (object- or text-level; instance labels stay verbatim)</desc>
+          <category xml:id="condition.excellent">
+            <catDesc xml:lang="zh"><gloss>極佳</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>excellent</gloss></catDesc>
+          </category>
+          <category xml:id="condition.good">
+            <catDesc xml:lang="zh"><gloss>良好／尚佳</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>good (upstream uses both 良好 and 尚佳; the instance keeps its own wording)</gloss></catDesc>
+          </category>
+          <category xml:id="condition.fair">
+            <catDesc xml:lang="zh"><gloss>尚可</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>reasonable / fair</gloss></catDesc>
+          </category>
+          <category xml:id="condition.slightly-damaged">
+            <catDesc xml:lang="zh"><gloss>微損</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>slightly damaged</gloss></catDesc>
+          </category>
+          <category xml:id="condition.poor">
+            <catDesc xml:lang="zh"><gloss>劣</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>poor</gloss></catDesc>
+          </category>
+          <category xml:id="condition.lost">
+            <catDesc xml:lang="zh"><gloss>佚失（舊存）</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>stone lost — the carving survives only through witnesses
+              (rubbings, transcriptions); 舊存 "formerly preserved at …" in upstream titles</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="executions">
+          <desc xml:lang="zh">刻法</desc>
+          <desc xml:lang="en">Carving / execution techniques</desc>
+          <category xml:id="execution.v-cut">
+            <catDesc xml:lang="zh"><gloss>“V”形刻法</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>V-shaped cut</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300053847">parent = AAT incised</ref>
+            </catDesc>
+          </category>
+          <category xml:id="execution.u-cut">
+            <catDesc xml:lang="zh"><gloss>“U”形刻法</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>U-shaped cut</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300053847">parent = AAT incised</ref>
+            </catDesc>
+          </category>
+          <category xml:id="execution.kan-cut">
+            <catDesc xml:lang="zh"><gloss>“凵”形刻法</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>rectangular-U ("kan" 凵) cut</gloss>
+              <ref type="getty" target="http://vocab.getty.edu/aat/300053847">parent = AAT incised</ref>
+            </catDesc>
+          </category>
+          <category xml:id="execution.feibai">
+            <catDesc xml:lang="zh"><gloss>飛白刻</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>"flying-white" carving (rendering the dry-brush feibai effect in stone)
+              — pure local mint</gloss></catDesc>
+          </category>
+          <category xml:id="execution.unknown">
+            <catDesc xml:lang="zh"><gloss>未知</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>unknown (stone lost; technique unrecoverable from witnesses)</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="surfaceTreatments">
+          <desc xml:lang="zh">磨光</desc>
+          <desc xml:lang="en">Surface preparation</desc>
+          <category xml:id="polishing.polished">
+            <catDesc xml:lang="zh"><gloss>磨光（有）</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>surface polished</gloss></catDesc>
+          </category>
+          <category xml:id="polishing.unpolished">
+            <catDesc xml:lang="zh"><gloss>未磨（無）</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>not polished — attested absent (無), not merely unrecorded</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="scripts">
+          <desc xml:lang="zh">書體</desc>
+          <desc xml:lang="en">Script styles (upstream c:script is empty throughout the sample —
+            categories provided for the profile; instances assert @ana only where a source names the script)</desc>
+          <category xml:id="script.kaishu">
+            <catDesc xml:lang="zh"><gloss>楷書</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>regular script (kaishu) — local mint {verify Getty}</gloss></catDesc>
+          </category>
+          <category xml:id="script.lishu">
+            <catDesc xml:lang="zh"><gloss>隸書</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>clerical script (lishu) — local mint {verify Getty}</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="shapes">
+          <desc xml:lang="zh">形制（外形）</desc>
+          <desc xml:lang="en">Field / object shapes (格式)</desc>
+          <category xml:id="shape.vertical-rectangle">
+            <catDesc xml:lang="zh"><gloss>縱長方形</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>vertical rectangle</gloss></catDesc>
+          </category>
+          <category xml:id="shape.horizontal-rectangle">
+            <catDesc xml:lang="zh"><gloss>橫長方形</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>horizontal rectangle</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="features">
+          <desc xml:lang="zh">紋飾／邊框（含「無」之明確記錄）</desc>
+          <desc xml:lang="en">Decoration and frame — including explicit attested-absence (無 is fieldwork
+            data, deliberately encoded rather than omitted)</desc>
+          <category xml:id="decor.none">
+            <catDesc xml:lang="zh"><gloss>無紋飾</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>no decoration (attested absent)</gloss></catDesc>
+          </category>
+          <category xml:id="decor.border">
+            <catDesc xml:lang="zh"><gloss>飾帶／邊飾</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>carved ornamental border enclosing the text field</gloss></catDesc>
+          </category>
+          <category xml:id="frame.present">
+            <catDesc xml:lang="zh"><gloss>有邊框</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>frame present</gloss></catDesc>
+          </category>
+          <category xml:id="frame.none">
+            <catDesc xml:lang="zh"><gloss>無邊框</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>no frame (attested absent)</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="witnessTypes">
+          <desc xml:lang="zh">見證類型</desc>
+          <desc xml:lang="en">Witness types (reproductions attesting the text/surface)</desc>
+          <category xml:id="witness.rubbing">
+            <catDesc xml:lang="zh"><gloss>拓本</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>ink rubbing — local mint {verify Getty}</gloss></catDesc>
+          </category>
+          <category xml:id="witness.woodcut">
+            <catDesc xml:lang="zh"><gloss>摹刻（木刻翻刻拓本）</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>woodcut reproduction of a rubbing (e.g. in the 1821 金石索)</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Registry document. The controlled vocabularies of the epiwen-sample live in
+        <gi>classDecl</gi> above; this body is a placeholder required by the TEI content model.
+        Grid/ruling absence (界格 無) is not a category: it is encoded as
+        <att>ruledLines</att>="0" on <gi>layout</gi> (explicit zero = checked and absent).</p>
+    </body>
+  </text>
+</TEI>

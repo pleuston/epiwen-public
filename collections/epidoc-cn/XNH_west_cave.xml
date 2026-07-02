@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="XNH_west_doc">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">小南海石窟西窟</title>
+        <title xml:lang="en">Xiaonanhai Grottoes, West Cave</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — ASCDC import</authority>
+        <idno type="object">XNH_west</idno>
+        <availability status="restricted"><p>Metadata from the ASCDC 佛教藝術圖典與知識系統 (buddhism.ascdc.sinica.edu.tw), retrieved 2026-07-02; imported for demonstration and published in the Epiwen public corpus; rights remain with ASCDC.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="ascdc:G01030000"/> — ASCDC record 小南海石窟西窟 (作品類型 石窟; 石窟類型 禪窟; 保存地點 安陽縣)</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="ascdc" matchPattern="(.+)" replacementPattern="https://buddhism.ascdc.sinica.edu.tw/buddhism/layer1.php?id1=$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listObject>
+        <object xml:id="XNH_west" type="cave" ana="crm:E25_Human-Made_Feature">
+          <objectIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">河南省</region>
+            <settlement xml:lang="zh">安陽縣</settlement>
+            <objectName xml:lang="zh">小南海石窟西窟</objectName>
+            <objectName xml:lang="en">Xiaonanhai Grottoes, West Cave</objectName>
+            <idno type="support">XNH_west</idno>
+          </objectIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.cave">
+                    <term xml:lang="zh">石窟</term>
+                    <term xml:lang="en">rock-cut cave</term>
+                  </objectType>
+                  <dimensions type="overall" unit="cm">
+                    <height unit="cm">176</height>
+                    <width unit="cm">136</width>
+                    <depth unit="cm">176</depth>
+                  </dimensions>
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0550" notAfter="0559">天保元年─天保十年</origDate>
+              <note type="source-date" xml:lang="zh">ASCDC：年代 天保元年─天保十年；朝代 北齊；執政帝王 北齊文宣帝</note>
+              <origPlace>
+                <placeName ref="XNH_site.xml#XNH" xml:lang="zh">小南海石窟</placeName>
+              </origPlace>
+            </origin>
+          </history>
+          <note type="cave-type" xml:lang="zh">禪窟</note>
+          <note type="description" xml:lang="zh">西窟坐東朝西，平面略呈方形，窟內造像皆為高浮雕。窟內頂呈覆斗式，三壁三佛。（節錄自：河南省古代建築保護研究所，〈河南省安陽靈泉寺石窟及小南海石窟〉，《文物》，1988年第4期，頁11。）</note>
+          <note type="iiif-manifest">https://buddhism.ascdc.sinica.edu.tw/api/GET/3227/manifest</note>
+          <object xml:id="XNH_west_south" type="wall" n="南壁" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">南壁</objectName>
+              <objectName xml:lang="en">south wall</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">G0103MP00</note>
+          </object>
+          <object xml:id="XNH_west_north" type="wall" n="北壁" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">北壁</objectName>
+              <objectName xml:lang="en">north wall</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">G0103MJ00</note>
+          </object>
+          <object xml:id="XNH_west_east" type="wall" n="東壁" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">東壁</objectName>
+              <objectName xml:lang="en">east wall</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">G0103PM00</note>
+          </object>
+          <object xml:id="XNH_west_west" type="wall" n="西壁" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">西壁</objectName>
+              <objectName xml:lang="en">west wall</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">G0103JM00</note>
+          </object>
+          <object xml:id="XNH_west_exterior" type="wall" n="外壁" ana="crm:E25_Human-Made_Feature">
+            <objectIdentifier>
+              <objectName xml:lang="zh">外壁</objectName>
+              <objectName xml:lang="en">exterior wall</objectName>
+            </objectIdentifier>
+            <note type="ascdc-layer2">G0103IM00</note>
+          </object>
+        </object>
+      </listObject>
+    </body>
+  </text>
+</TEI>

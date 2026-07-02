@@ -1,0 +1,4 @@
+{
+  "title": "EpiDoc-CN profile — sample set",
+  "description": "The citable demonstration set of the Epiwen / EpiDoc-CN three-level model (site → object/monument → inscription) as mutually linked TEI files: 4 sites, 8 objects, 19 inscriptions, the epiwen-taxonomies registry, and the SNS_1 glyph-metrics CSV. Draft sample, not for publication; populated only with verbatim sutras-data catalog values. Source: stonehistory vault, AI/spaces/epidoc-cn-profile/epiwen-sample (2026-07-02); folder structure flattened so intra-set relative links (FILE.xml#id, *.csv) resolve in one folder."
+}

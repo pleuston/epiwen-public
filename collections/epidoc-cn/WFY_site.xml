@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SITE file — 臥佛院 Wofoyuan (WFY), Anyue, Sichuan. TEI <place> with the Section A cliff zone
+     as a nested subsite place, giving the 4-tier chain of the cave-temple archetype:
+     site (place) → section (place) → cave (OBJECT, WFY_33_cave.xml) → wall → inscription.
+     The upstream section record (catalog/WFY_Section_A_site.xml) "comprises" caves 29 and 33;
+     this sample builds out Cave 33. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WFY_site">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">臥佛院</title>
+        <title xml:lang="en">Wofoyuan — Grove of the Reclining Buddha (site)</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="site">WFY</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><ptr target="sutras:catalog/WFY_site.xml"/></bibl>
+        <bibl><ptr target="sutras:catalog/WFY_Section_A_site.xml"/></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="WFY" type="site" subtype="cave-temple-complex" ana="crm:E27_Site">
+          <placeName xml:lang="zh">臥佛院</placeName>
+          <placeName xml:lang="en">Wofoyuan</placeName>
+          <country xml:lang="zh">中國</country>
+          <region xml:lang="zh">四川省</region>
+          <region xml:lang="en">Sichuan Province</region>
+          <settlement xml:lang="zh">安岳</settlement>
+          <settlement xml:lang="en">Anyue</settlement>
+          <location>
+            <geo>30.302314 105.316629</geo>
+          </location>
+          <note type="source-coordinates">upstream lon-lat verbatim: 105.316629,30.302314 (EPSG:4326)</note>
+          <!-- nested subsite LAST: the Section A cliff zone (upstream: 卧佛院南崖A區) -->
+          <place xml:id="WFY_A" type="subsite" subtype="section">
+            <placeName xml:lang="zh">卧佛院南崖A區</placeName>
+            <placeName xml:lang="en">WFY Section A</placeName>
+            <note type="comprises">upstream section record comprises caves 29 and 33
+              (c:relation type="comprises"); this sample builds out Cave 33 only</note>
+            <linkGrp type="objects">
+              <ptr type="object" target="WFY_33_cave.xml#WFY_33"/>
+            </linkGrp>
+          </place>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

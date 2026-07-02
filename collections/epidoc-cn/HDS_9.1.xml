@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — HDS_9.1 “式佛”: the CANONICAL THIN template of the sample set.
+     The msDesc @corresp points UP to the shared support (the sixteen-text panel object);
+     idno[@type="support"]=HDS_9 is the queryable shared-support key (all sixteen sibling texts
+     carry it). physDesc here holds ONLY the text-specific data (division rule): the script
+     FIELD dimensions, per-text condition, layout/execution, and the hand (letter heights from
+     the two measured glyphs). objectType/material are thin @ana/@ref duplicates for EpiDoc-
+     aggregator self-sufficiency — the object file is the authority. Transcription is DELEGATED
+     to the upstream corpus via <ptr>. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HDS_9.1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh">“式佛”</title>
+        <title xml:lang="en">“Buddha Śikhin”</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <idno type="filename">HDS_9.1.xml</idno>
+        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="HDS_9_object.xml#HDS_9">
+          <msIdentifier>
+            <country xml:lang="zh">中國</country>
+            <region xml:lang="zh">山東省</region>
+            <idno type="edition">HDS_9.1</idno>
+            <idno type="support">HDS_9</idno>
+            <altIdentifier type="sutras-data">
+              <idno>catalog/HDS_9.1.xml</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary xml:lang="en">One Buddha name, two monumental (榜書) characters in one
+              column — the first field of the sixteen-text panel; possibly the opening of a
+              planned second set of Seven Buddhas (see the upstream discussion notes).</summary>
+            <msItem>
+              <title xml:lang="zh">式佛</title>
+              <title xml:lang="en">Buddha Śikhin</title>
+              <textLang mainLang="lzh"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <objectType ana="#object.panel" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face panel</term>
+                  </objectType>
+                  <material ana="#material.limestone.fossiliferous" ref="http://vocab.getty.edu/aat/300011286">
+                    <term xml:lang="zh">蘆台特階含化石的石灰岩</term>
+                    <term xml:lang="en">fossiliferous Lutetian limestone</term>
+                  </material>
+                  <dimensions type="field" unit="cm">
+                    <height unit="cm">126</height>
+                    <width unit="cm">65</width>
+                  </dimensions>
+                  <note type="orientation">azimuth 221°, slope 14°, zenith 76° (upstream c:location,
+                    verbatim); GPS 116.238655,36.064448, h 147.2 (EPSG:4326, lon-lat verbatim)</note>
+                </support>
+                <condition ana="#condition.good">
+                  <p xml:lang="zh">尚佳</p>
+                  <p xml:lang="en">good</p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="2" ruledLines="0">
+                  <rs type="shape" ana="#shape.vertical-rectangle">
+                    <term xml:lang="zh">縱長方形</term>
+                    <term xml:lang="en">vertical rectangle</term>
+                  </rs>
+                  <rs type="execution" ana="#execution.kan-cut #execution.feibai">
+                    <term xml:lang="zh">“凵”形刻法和“飛白”刻</term>
+                    <term xml:lang="en">rectangular U-shaped carving and “flying white” carving</term>
+                  </rs>
+                  <rs type="frame" ana="#frame.none">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">no</term>
+                  </rs>
+                  <rs type="polishing" ana="#polishing.unpolished">
+                    <term xml:lang="zh">無</term>
+                    <term xml:lang="en">no</term>
+                  </rs>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole">
+                <!-- upstream c:script is empty — no script class asserted (never invent) -->
+                <p xml:lang="en">榜書 monumental characters.</p>
+                <dimensions type="letterHeight" unit="cm">
+                  <height unit="cm" atLeast="42" atMost="66">42–66</height>
+                </dimensions>
+                <note type="glyphs">the two glyphs are dimensioned upstream: 式 (column 1, row 1)
+                  h 42 × w 60; 佛 (column 1, row 2) h 66 × w 49 (cm).</note>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0550" notAfter="0564">天保元年至河清三年 (550–564)</origDate>
+              <origPlace>
+                <placeName ref="HDS_site.xml#HDS_N" xml:lang="zh">洪頂山北坡</placeName>
+              </origPlace>
+            </origin>
+          </history>
+        </msDesc>
+        <!-- witnesses: the whole-panel rubbings live at the OBJECT level (HDS_9_object.xml);
+             this text inherits them (README: witness inheritance) -->
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
+        <prefixDef ident="sutras" matchPattern="(.+)" replacementPattern="https://github.com/StoneSutras/sutras-data/blob/master/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lzh">Literary Chinese</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" xml:lang="lzh">
+        <!-- transcription DELEGATED to the upstream corpus -->
+        <ab><ptr type="transcription" target="sutras:docs/Hongdingshan/HDS_9.1.xml"/></ab>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl type="canonical"><idno type="taisho">T_1332</idno><citedRange>536c3</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_1336</idno><citedRange>627a20</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_1339</idno><citedRange>650c3</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_1393</idno><citedRange>910b16</citedRange></bibl>
+          <bibl type="canonical"><idno type="taisho">T_2045</idno><citedRange>178a13</citedRange></bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>
