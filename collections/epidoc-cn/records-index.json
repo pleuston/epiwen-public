@@ -1129,25 +1129,6 @@
   "cn_kind": "site"
  },
  {
-  "name": "XNH_east_cave.xml",
-  "file": "XNH_east_cave.xml",
-  "record_type": "object",
-  "title_en": "Xiaonanhai Grottoes, East Cave",
-  "title_zh": "小南海石窟東窟",
-  "editor": "",
-  "when": "0550",
-  "date_text": "天保元年─天保十年",
-  "region": "河南省",
-  "settlement": "",
-  "repository": "",
-  "orig_place": "",
-  "surrogate_of": "",
-  "provider_label": "",
-  "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3223/manifest",
-  "parts": [],
-  "cn_kind": "objectfile"
- },
- {
   "name": "XNH_middle_cave.xml",
   "file": "XNH_middle_cave.xml",
   "record_type": "object",
@@ -1184,24 +1165,5 @@
   "manifest": "",
   "parts": [],
   "cn_kind": "site"
- },
- {
-  "name": "XNH_west_cave.xml",
-  "file": "XNH_west_cave.xml",
-  "record_type": "object",
-  "title_en": "Xiaonanhai Grottoes, West Cave",
-  "title_zh": "小南海石窟西窟",
-  "editor": "",
-  "when": "0550",
-  "date_text": "天保元年─天保十年",
-  "region": "河南省",
-  "settlement": "",
-  "repository": "",
-  "orig_place": "",
-  "surrogate_of": "",
-  "provider_label": "",
-  "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3227/manifest",
-  "parts": [],
-  "cn_kind": "objectfile"
  }
 ]
