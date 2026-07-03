@@ -73,7 +73,17 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "CLS_10",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺舊存“大空王佛”刻銘",
+    "sutra_en": "",
+    "corresp": "CLS_10.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -382,7 +392,35 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "CLS_9.1",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺“觀世音佛”刻銘",
+    "sutra_en": "“Buddha Perceiver of the World’s Sounds” on the Boulder at Guanghua Monastery",
+    "corresp": "CLS_9.1.xml"
+   },
+   {
+    "n": "2",
+    "head": "CLS_9.2",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺“阿彌陀佛”刻銘",
+    "sutra_en": "“Buddha Amitābha” on the Boulder at Guanghua Monastery",
+    "corresp": "CLS_9.2.xml"
+   },
+   {
+    "n": "3",
+    "head": "CLS_9.3",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺“弥勒佛”刻銘",
+    "sutra_en": "“Buddha Maitreya” on the Boulder at Guanghua Monastery",
+    "corresp": "CLS_9.3.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -401,7 +439,44 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "CLS_5",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺《摩訶般若波羅蜜經》十七空節文",
+    "sutra_en": "Passage on Seventeen Kinds of Emptiness from the Great Perfection of Wisdom Sutra on the Boulder near Guanghua Monastery",
+    "corresp": "CLS_5.xml"
+   },
+   {
+    "n": "2",
+    "head": "CLS_6",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺刻石王子椿等題名",
+    "sutra_en": "Colophon by Wang Zichun and Others on the Boulder near Guanghua Monastery",
+    "corresp": "CLS_6.xml"
+   },
+   {
+    "n": "3",
+    "head": "CLS_7",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺刻石王世貴題名",
+    "sutra_en": "Colophon by Wang Shigui on the Boulder near Guanghua Monastery",
+    "corresp": "CLS_7.xml"
+   },
+   {
+    "n": "4",
+    "head": "CLS_8",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "光化寺刻石胡賓題名",
+    "sutra_en": "Colophon by Hu Bin with a Date on the Boulder near Guanghua Monastery",
+    "corresp": "CLS_8.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -420,7 +495,44 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "CLS_1",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文",
+    "sutra_en": "Passage of 98 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff",
+    "corresp": "CLS_1.xml"
+   },
+   {
+    "n": "2",
+    "head": "CLS_2",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "映佛巖“般若波羅蜜”刻銘",
+    "sutra_en": "“Perfection of Wisdom” on Radiant Buddha Cliff",
+    "corresp": "CLS_2.xml"
+   },
+   {
+    "n": "3",
+    "head": "CLS_3",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "映佛巖王子椿題名",
+    "sutra_en": "Colophon by Wang Zichun on Radiant Buddha Cliff",
+    "corresp": "CLS_3.xml"
+   },
+   {
+    "n": "4",
+    "head": "CLS_4",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "映佛巖普憘等題名",
+    "sutra_en": "Colophon by Puxi and Others on Radiant Buddha Cliff",
+    "corresp": "CLS_4.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -487,7 +599,26 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "HDS_9.1",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "“式佛”",
+    "sutra_en": "“Buddha Śikhin”",
+    "corresp": "HDS_9.1.xml"
+   },
+   {
+    "n": "2",
+    "head": "“維衛佛”",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "“維衛佛”",
+    "sutra_en": "",
+    "corresp": ""
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -554,7 +685,17 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3939/manifest",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "LQS_LouRui_1",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "大方廣佛華嚴經菩薩明難品",
+    "sutra_en": "",
+    "corresp": "LQS_LouRui_1.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -602,7 +743,17 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "https://buddhism.ascdc.sinica.edu.tw/api/GET/3941/manifest",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "LQS_Miaoji_1",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "《華嚴經》八會偈文及《無量義經》〈德行品〉節錄",
+    "sutra_en": "",
+    "corresp": "LQS_Miaoji_1.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -669,7 +820,17 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "SNS_1",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "《文殊師利所説摩訶般若波羅蜜經》五十二字節文",
+    "sutra_en": "",
+    "corresp": "SNS_1.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -765,7 +926,26 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "SNS_2",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文",
+    "sutra_en": "",
+    "corresp": "SNS_2.xml"
+   },
+   {
+    "n": "2",
+    "head": "SNS_3",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "水牛山《文殊師利所説般若波羅蜜經》碑側題記",
+    "sutra_en": "Colophon on the Narrow Sides of the Stele from Mount Shuiniu",
+    "corresp": "SNS_3.xml"
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
@@ -784,7 +964,62 @@
   "surrogate_of": "",
   "provider_label": "",
   "manifest": "",
-  "parts": [],
+  "parts": [
+   {
+    "n": "1",
+    "head": "WFY_33_d_e_Consecration",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "灌頂經（卷十一）",
+    "sutra_en": "Consecration Sutra, juan 11",
+    "corresp": "WFY_33_d_e_Consecration.xml"
+   },
+   {
+    "n": "2",
+    "head": "WFY_33_d_e_Consecration_12",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "灌頂經（卷十二）",
+    "sutra_en": "Consecration Sutra, juan 12",
+    "corresp": "WFY_33_d_e_Consecration_12.xml"
+   },
+   {
+    "n": "3",
+    "head": "遺教經",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "遺教經",
+    "sutra_en": "Deathbed Injunction (Bequeathed Teachings) Sutra",
+    "corresp": ""
+   },
+   {
+    "n": "4",
+    "head": "WFY_33_f_Diamond",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "金剛經",
+    "sutra_en": "Diamond Sutra",
+    "corresp": "WFY_33_f_Diamond.xml"
+   },
+   {
+    "n": "5",
+    "head": "六門陀羅尼經",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "六門陀羅尼經",
+    "sutra_en": "Six Gates text",
+    "corresp": ""
+   },
+   {
+    "n": "6",
+    "head": "賢愚經",
+    "subtype": "",
+    "lang": "lzh",
+    "sutra": "賢愚經",
+    "sutra_en": "Sutra of the Wise and the Foolish",
+    "corresp": ""
+   }
+  ],
   "cn_kind": "objectfile"
  },
  {
