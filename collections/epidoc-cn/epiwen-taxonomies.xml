@@ -15,7 +15,7 @@
       <publicationStmt>
         <authority>Epiwen / EpiDoc-CN profile — sample</authority>
         <idno type="registry">epiwen-taxonomies</idno>
-        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+        <availability status="restricted"><p>Draft sample, not for publication.</p></availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>Value set harvested from sutras-data catalog records (SNS, CLS, HDS, WFY) and the
@@ -222,6 +222,41 @@
           <category xml:id="frame.none">
             <catDesc xml:lang="zh"><gloss>無邊框</gloss></catDesc>
             <catDesc xml:lang="en"><gloss>no frame (attested absent)</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="textGenres">
+          <desc xml:lang="zh">文體</desc>
+          <desc xml:lang="en">Text genres (the third axis: object-type ≠ text-genre ≠ witness;
+            referenced from profileDesc/textClass/catRef)</desc>
+          <category xml:id="genre.jiewen">
+            <catDesc xml:lang="zh"><gloss>節文</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>sutra excerpt</gloss></catDesc>
+          </category>
+          <category xml:id="genre.keming">
+            <catDesc xml:lang="zh"><gloss>刻銘</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>engraved title / name-engraving</gloss></catDesc>
+          </category>
+          <category xml:id="genre.timing">
+            <catDesc xml:lang="zh"><gloss>題名</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>donor colophon (name record)</gloss></catDesc>
+          </category>
+          <category xml:id="genre.tiji">
+            <catDesc xml:lang="zh"><gloss>題記</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>colophon / dedicatory record</gloss></catDesc>
+          </category>
+          <category xml:id="genre.foming">
+            <catDesc xml:lang="zh"><gloss>佛名</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>Buddha name</gloss></catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="tradition">
+          <desc xml:lang="zh">傳統</desc>
+          <desc xml:lang="en">Religious/intellectual tradition</desc>
+          <category xml:id="tradition.buddhist">
+            <catDesc xml:lang="zh"><gloss>佛</gloss></catDesc>
+            <catDesc xml:lang="en"><gloss>Buddhist</gloss></catDesc>
           </category>
         </taxonomy>
 

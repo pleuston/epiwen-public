@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- INSCRIPTION file — CLS_1: the 98-character sutra excerpt of 570 CE on 映佛巖 (Radiant Buddha
+     Cliff). THIN physDesc: the object is minted (CLS_Yingfoyan_object.xml) because the boulder
+     bears four texts; @corresp targets the boulder directly (anchor-less idiom — one continuous
+     face). Witness list: seven rubbings in six collections, incl. a joint mounting with CLS_4. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CLS_1">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
-        <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
+        <title xml:lang="en">Passage of 98 Characters from the Sutra on the Great Perfection of
+          Wisdom Spoken by Mañjuśrī on Radiant Buddha Cliff</title>
+        <respStmt>
+          <resp>sample encoding (Epiwen / EpiDoc-CN profile)</resp>
+          <name>Stone Sutras project</name>
+        </respStmt>
+        <funder><!-- {confirm: DFG / Heidelberg Academy wording} --></funder>
       </titleStmt>
+      <editionStmt>
+        <edition n="epidoc-cn-0.1-sample">Epiwen sample encoding, profile draft 0.1</edition>
+      </editionStmt>
       <publicationStmt>
         <authority>Epiwen / EpiDoc-CN profile — sample</authority>
         <idno type="filename">CLS_1.xml</idno>
-        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+        <availability status="restricted">
+          <p>Draft sample, not for publication.</p>
+          <licence><!-- {confirm: CC BY 4.0 proposed} --></licence>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <msDesc corresp="CLS_Yingfoyan_object.xml#CLS_Yingfoyan">
@@ -23,9 +39,24 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary xml:lang="en">The 98-character Mañjuśrī Prajñāpāramitā excerpt, the principal text of the 映佛巖 programme; patron Wang Zichun 王子椿 (named upstream as producer; his colophon is CLS_3).</summary>
+            <summary xml:lang="en">The 98-character Mañjuśrī Prajñāpāramitā excerpt, the principal
+              text of the 映佛巖 programme; patron Wang Zichun 王子椿 (named upstream as producer;
+              his colophon is CLS_3).</summary>
             <msItem>
               <title xml:lang="zh">映佛巖《文殊師利所説摩訶般若波羅蜜經》九十八字節文</title>
+              <!-- canonical-text identity IN msContents (decision 2026-07-02); citedRanges in the
+                   body bibliography. The @ref targets the corpus's own sutra records. -->
+              <title xml:lang="zh" type="canonical"
+                     ref="sutras:biblio/sutras/T_232_Great_Perfection_Wisdom_Manjusri.xml">文殊師利所説摩訶般若波羅蜜經</title>
+              <bibl type="canonical">
+                <idno type="cbeta">T08n0232</idno>
+                <idno type="taisho">T_232</idno>
+              </bibl>
+              <bibl type="canonical" subtype="parallel">
+                <idno type="cbeta">T08n0233</idno>
+                <idno type="taisho">T_233</idno>
+                <note>parallel translation, cf. sutras:biblio/sutras/T_233_Perfection_Wisdom_Manjusri.xml</note>
+              </bibl>
               <textLang mainLang="lzh"/>
             </msItem>
           </msContents>
@@ -33,14 +64,20 @@
             <objectDesc>
               <supportDesc>
                 <support>
+                  <objectType ana="#object.rock-face" ref="http://vocab.getty.edu/aat/300404733">
+                    <term xml:lang="zh">摩崖</term>
+                    <term xml:lang="en">rock-face</term>
+                  </objectType>
+                  <material ana="#material.granite.leuco" ref="http://vocab.getty.edu/aat/300011183">
+                    <term xml:lang="zh">淡色花崗岩</term>
+                    <term xml:lang="en">leucogranite</term>
+                  </material>
                   <dimensions type="field" unit="cm">
                     <height unit="cm">130</height>
                     <width unit="cm">313</width>
                   </dimensions>
-                  <note type="orientation">
-                    azimuth 211°, slope 0°, zenith 90° (upstream c:location,
-                    verbatim); GPS 117.393807, 36.011144, h 314.6 (EPSG:4326, lon-lat verbatim)
-                  </note>
+                  <note type="orientation">azimuth 211°, slope 0°, zenith 90° (upstream c:location,
+                    verbatim); GPS 117.393807, 36.011144, h 314.6 (EPSG:4326, lon-lat verbatim)</note>
                 </support>
                 <condition ana="#condition.good">
                   <p xml:lang="zh">良好，左側幾字漶漫</p>
@@ -49,31 +86,30 @@
               </supportDesc>
               <layoutDesc>
                 <layout columns="14" ruledLines="0">
-                  <rs ana="#shape.horizontal-rectangle" type="shape">
+                  <rs type="shape" ana="#shape.horizontal-rectangle">
                     <term xml:lang="zh">横長方形</term>
                     <term xml:lang="en">horizontal rectangle</term>
                   </rs>
-                  <rs ana="#execution.v-cut #execution.kan-cut" type="execution">
+                  <rs type="execution" ana="#execution.v-cut #execution.kan-cut">
                     <term xml:lang="zh">“V”形刻法和“凵”形刻法</term>
                     <term xml:lang="en">V- and rectangular U-shaped carving</term>
                   </rs>
-                  <rs ana="#frame.none" type="frame">
+                  <rs type="frame" ana="#frame.none">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <rs ana="#polishing.unpolished" type="polishing">
+                  <rs type="polishing" ana="#polishing.unpolished">
                     <term xml:lang="zh">無</term>
                     <term xml:lang="en">none</term>
                   </rs>
-                  <note type="columns-source">
-                    the upstream glyph grid spans columns 1–14
-                    (98 glyph positions, 88 measured).
-                  </note>
+                  <note type="columns-source">the upstream glyph grid spans columns 1–14
+                    (98 glyph positions, 88 measured).</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
               <handNote scope="sole">
+                <!-- upstream c:script is empty — no script class asserted -->
                 <dimensions type="letterHeight" unit="cm">
                   <height unit="cm" atLeast="8" atMost="25">8–25</height>
                 </dimensions>
@@ -83,13 +119,19 @@
           <history>
             <origin>
               <origDate when="0570">武平元年 (570)</origDate>
-              <note type="date-source">
-                upstream c:given source="CLS_4, CLS_8" — the year is carried
-                by the dated colophons of the programme.
-              </note>
+              <note type="date-source">upstream c:given source="CLS_4, CLS_8" — the year is carried
+                by the dated colophons of the programme.</note>
               <origPlace>
                 <placeName ref="CLS_site.xml#CLS" xml:lang="zh">徂徠山</placeName>
               </origPlace>
+              <!-- production agents (decision 2026-07-02): persName @role children of origin —
+                   exports as ONE E12 Production with P14.1-qualified agents -->
+              <persName role="patron" xml:lang="zh">王子椿</persName>
+              <note type="role-source">the upstream c:producer names Wang Zichun WITHOUT a role
+                attribute; the patron reading follows his 題名 colophons (CLS_3, CLS_6) and the
+                title of 冠軍將軍梁父縣令 transmitted in the epigraphic literature. Authority
+                anchor (CBDB/DILA): {at a later pass}. Composer/calligrapher/carver: not named
+                upstream — no roles invented.</note>
             </origin>
           </history>
         </msDesc>
@@ -124,10 +166,8 @@
             <bibl>
               <orgName role="repository" xml:lang="en">Private collection, Japan</orgName>
               <note xml:lang="zh">E：徂徠山1號及4號拓本一並裝裱。日本私人藏品。刊於《未来への贈りもの》第28－29頁。</note>
-              <note type="coverage">
-                a joint mounting of the rubbings of CLS_1 AND CLS_4 — one
-                witness object covering two texts of the boulder.
-              </note>
+              <note type="coverage">a joint mounting of the rubbings of CLS_1 AND CLS_4 — one
+                witness object covering two texts of the boulder.</note>
             </bibl>
           </witness>
           <witness xml:id="CLS_1_rub_F" n="F" ana="#witness.rubbing">
@@ -143,10 +183,19 @@
             </bibl>
           </witness>
         </listWit>
-        <bibl>transcription and translation from <ptr target="sutras:docs/Culaishan/CLS_1.xml"/> (Heidelberg Stone Sutras project), inlined 2026-07-02</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <projectDesc>
+        <p>Epiwen / EpiDoc-CN profile sample: a linked three-level model (site → object →
+          inscription) for the Chinese Buddhist stone-sutra corpus; transcriptions delegated to
+          the sutras-data corpus; controlled values resolve in epiwen-taxonomies.xml.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Transcription and diplomatic conventions are those of the upstream corpus edition
+          (see the delegation pointer in the edition div). No Chinese analogue of the Leiden
+          Conventions exists; the profile's own sigla declaration is pending (workshop item E17).</p>
+      </editorialDecl>
       <listPrefixDef>
         <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
         <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
@@ -157,7 +206,26 @@
       <langUsage>
         <language ident="lzh">Literary Chinese</language>
       </langUsage>
+      <textClass>
+        <!-- text-genre as machine-readable classification (decision 2026-07-02);
+             resolves in epiwen-taxonomies.xml#textGenres -->
+        <catRef scheme="#textGenres" target="#genre.jiewen"/>
+        <keywords scheme="#tradition">
+          <term xml:lang="zh">佛</term>
+          <term xml:lang="en">Buddhist</term>
+        </keywords>
+      </textClass>
     </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-07-02" who="#epiwen-sample">generated from
+        sutras-data:catalog/CLS_1.xml (verbatim values); front matter extended per the
+        workshop decisions of 2026-07-02 (canonical-text identity in msContents; typed
+        scholarship bibliography; production agents in origin; text-genre catRef).</change>
+      <change when="2026-07-07" who="#epiwen-sample">app-corpus merge: inline transcription
+        (edition div with text-witness listWit + ab) and the translation div, from the
+        division-of-description pass of 2026-07-02, grafted into the 0.1-sample header
+        template.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -284,9 +352,300 @@
                         unconditioned.”<ptr target="note_en_4"/>
                 </p></div>
       <div type="bibliography">
-        <listBibl>
+        <!-- canonical anchors: identity also in msContents (decision 2026-07-02) -->
+        <listBibl type="canonical">
           <bibl type="canonical"><idno type="taisho">T_232</idno><citedRange>731a15–21</citedRange></bibl>
           <bibl type="canonical"><idno type="taisho">T_233</idno><citedRange>738a19–24</citedRange></bibl>
+        </listBibl>
+        <!-- modern + premodern (金石學) scholarship, VERBATIM from the upstream c:references
+             block; @type keeps the upstream epigraphic|modern distinction (decision 2026-07-02) -->
+        <listBibl type="transcription">
+          <bibl type="epigraphic">
+            <idno type="citekey">Jinshicuibian</idno>
+            <citedRange>597</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Sekino_Tokiwa1925_31</idno>
+            <citedRange>2: 162–163</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Adachi1972</idno>
+            <citedRange>63–64</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">AnTingshan1997</idno>
+            <citedRange>40</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">LaiFei2000a</idno>
+            <citedRange>274</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Taishanshikedaguan</idno>
+            <citedRange>1: no. 3: 56</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">LaiFei2007</idno>
+            <citedRange>43</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">SD_Shikeyishu_bwg2015</idno>
+            <citedRange>1: 46</citedRange>
+          </bibl>
+        </listBibl>
+        <listBibl type="illustration">
+          <bibl type="modern">
+            <idno type="citekey">Sekino_Tokiwa1925_31</idno>
+            <citedRange>1: fig. 107</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Tokiwa1938</idno>
+            <citedRange>fig. 27</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Tokiwa_Sekino1939-1941</idno>
+            <citedRange>Plates 11: 75</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Kanda_Nishikawa1972a</idno>
+            <citedRange>65</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">BJTSG1989</idno>
+            <citedRange>8: 72</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">SD_BCMykj1992</idno>
+            <citedRange>Culai Shan: 1–17</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">AnTingshan1997</idno>
+            <citedRange>40</citedRange>
+            <note>identical with and .</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">LaiFei2000a</idno>
+            <citedRange>64–65</citedRange>
+            <note>Identical with and Culai Shan: 1 and 4.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">LaiFei2007</idno>
+            <citedRange>44</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Mirai_okurimono2007</idno>
+            <citedRange>28–29</citedRange>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">SD_Shikeyishu_bwg2015</idno>
+            <citedRange>1: 46, 47; 2: 4–21</citedRange>
+          </bibl>
+        </listBibl>
+        <listBibl type="discussion">
+          <bibl type="epigraphic">
+            <idno type="citekey">Taianfuzhi</idno>
+            <citedRange>64: 229</citedRange>
+            <note xml:lang="zh">成城：“北齊般若波羅密經石刻：在光化寺東南三里許映佛巖上一長石，書‘般若波羅密經冠軍將軍梁父縣令王子椿’［徂徠山2號和3號］十七字。下層書《般若波羅密經》［徂徠山1號］，前半尚可讀，後半殘缺。末書 ‘武平元年僧齋大衆造’［徂徠山4號］。尾復有三字類押狀，不可識。此與前刻並一時所造。皆分書，字大小不齊。蓋因石爲之。大者徑九寸許，小者五寸許。古拙可愛。從無搨者。” 成城同聶鈫一樣，識讀該字作“經”字，應在“般若波羅蜜”字下（徂徠山2號），即認爲此處爲經名。他忽略下方“主”字，因而没有合讀“經主”二字。這被許多後世金石學家以訛傳訛。</note>
+            <note xml:lang="en">Cheng Cheng: “Northern Qi stone inscription of the Perfection of Wisdom Sutra: three miles to the southeast of Guanghua Monastery is Radiant Buddha Cliff, on top, on a high stone, are the 17 characters: ‘Perfection of Wisdom Sutra, General Commanding the Troops, County Magistrate of Liangfu, Wang Zichun’ [CLS 2, CLS 3]. In the lower register is the Perfection of Wisdom Sutra [CLS 1], of which the former half is still legible, but the latter half destroyed. At the end it says ‘First year of the wuping era. Made by the sangha together with the large assembly’ [CLS 4], after which three characters, like a cipher, cannot be made out. This and the former [inscription] were carved at the same time; they are all in symmetrical clerical script with characters in uneven sizes, probably as a consequence of the stone. The diameter of the large ones is about 9 inches and the small ones about 5 inches. They are lovely in their ancient awkwardness. No one has ever made rubbings. Cheng Cheng, following Nie Wen, read the character “jing 經”, “sutra”, as belonging to the “Perfection of Wisdom” 般若波羅密 (CLS 2), putting it into the sutra title. He ignored the character “zhu 主”, directly below, and did not render “jingzhu 經主” as “Sutra Donor”, at the beginning of CLS 3. A mistake which many later epigraphers followed.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Taishandaoliji_b</idno>
+            <citedRange>9: 44–45; 67</citedRange>
+            <note xml:lang="zh">聶鈫：“薤山東北爲圓瓦崖，爲大悲菴。東南三里爲映佛巖，上刻隸書‘般若波羅蜜經冠軍將軍梁父縣令王子椿’十七字。其文云：‘文殊師利曰佛言世尊何故名般若波羅蜜佛言般若波羅蜜無□無□無名無相非□□無歸依無洲□無□無福無□無□如凡界無古今□亦無’，闕三十二字。” 聶鈫誤讀“法”字作“凡”字。 論及泰山時， 聶鈫評徂徠山刻銘：“北齊武平時，梁父令王子椿好内典，嘗於徂來山刻石經二，俱隸書，字跡古勁，與此如出一手。則是經或亦子椿書耶？”</note>
+            <note xml:lang="en">Nie Wen: “Northeast of Mount Xie is the Round Tile Cliff with the Great Compassion Shrine. Three miles to the southeast is Radiant Buddha Cliff, on which 17 characters, reading ‘Perfection of Wisdom Sutra, General Commanding the Troops, County Magistrate of Liangfu, Wang Zichun’ were carved in clerical script. The sutra text reads: ‘Mañjuśrī addressed the Buddha, saying: “World-Honored One, why is it named prajñāpāramitā ?” The Buddha said: “ Prajñāpāramitā is without [...], without [...]; without name, without attributes; in[...], without refuge, without [sand]bank; without [...], without merit; without [...], without [...]. Like the Realm of the Ordinary, it is without past or present [...] also without”’. Thirty-two characters are missing.” In his transcription, Nie Wen erroneously reads fan 凡 for fa 法. When writing about Mount Tai, Nie Wen gives the following comment on the Mount Culai inscriptions: “In the wuping era of the Northern Qi, the Magistrate of Liangfu, Wang Zichun, loved Buddhist texts. He came once to Mount Culai and carved two sutra texts into the stone. They are both in clerical script; the characters are ancient and vigorous, and seem to have come from the same hand as those [of the Diamond Sutra at Mount Tai]. Then, was this sutra [at Mount Tai] perhaps also written by [Wang] Zichun?”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Taishantuzhi</idno>
+            <citedRange>5: 155; 215</citedRange>
+            <note xml:lang="zh">朱孝纯描述地形及地理位置時， 寫道：“又東南爲映佛巖，上鐫‘般若波羅蜜經’，亦隸書。映佛巖東五里爲松山。” 朱孝纯：“徂徠諸山金石及碎刻。‘般若波羅蜜經’。王子椿八分書，武平元年。（在徂徠山映佛巖）按，王子椿書。字巨細不等，大者徑尺許，其可識者：‘般若波羅蜜經’‘冠軍將軍梁父縣令王子椿’‘文殊師利曰佛言：世尊，何故名般若波羅蜜？佛言：般若波羅蜜無□、無□、無名、無相、非□□，無歸依，無洲□，無□、無福、無□、無□，如凡界，無古今□亦無’（下缺三十二字）。” 朱孝纯的録文同聶鈫9: 67，並稱佚失32字。他也誤讀“法”字作“凡”字。</note>
+            <note xml:lang="en">In his description of the topography and landmarks, Zhu Xiaochun writes: “Further south-east [of CLS 5] is the Radiant Buddha Cliff, on which is engraved the Great Perfection of Wisdom Sutra, which is also written in clerical script. Five miles east of the Radiant Buddha Cliff is Mount Song.” Zhu Xiaochun: “Epigraphica at the ranges of Mount Culai and fragmentary inscriptions. Perfection of Wisdom Sutra by Wang Zichun in symmetrical clerical script, dated to the first year of the wuping era. (Located at Radiant Buddha Cliff at Mount Culai). I note that the characters written by Wang Zichun are uneven in size; the diameter of the larger ones measures about 1 foot. Among them, the following [inscriptions] are legible: The Perfection of Wisdom Sutra; [one inscription reading] ‘Wang Zichun, General Commanding the Troops and County Magistrate of Liangfu’; [one inscription reading] ‘Mañjuśrī addressed the Buddha, saying: “World-Honored One, why is it named prajñāpāramitā ?” The Buddha said: “ Prajñāpāramitā is without [...], without [...]; without name, without attributes; in[...], without refuge, without sandbank; [...] without [...], without merit; without [...], without [...]. Like the Realm of the Ordinary, it is without past or present [...] also without”’ (below, 32 characters are missing). Zhu Xiaochun’s transcription of the sutra text is identical to that made by Nie Wen in his 9: 67, where he says that 32 characters are missing. Zhu Xiaochun also perpetuates the erroneous reading, fan 凡 for fa 法.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Qianyantangjinshiwenbawei</idno>
+            <citedRange>18767</citedRange>
+            <note xml:lang="zh">錢大昕：“‘般若波羅蜜經’。武平元年。右‘般若波羅蜜經’，字徑一尺或七八寸不等。蓋因石爲之。亦王子椿書也。首云‘文殊師利白佛言世尊何故名般若波羅蜜佛言般若波羅蜜無□無□無名無相’，以下多闕文，亦聶劒光所贈。劒光又言：泰山有石經峪，平廣畝許，刻金剛經於上。字大如斗，不記姓名年代。明王世懋疑爲宋元人筆，而無所指實。今驗其字迹古勁，與徂來二刻如出一手，當亦出子椿筆，宋元人不能如此涥朴也。予昔登岱，親見彼刻，而未及搨，因附識之。” 錢大昕僅引用經文前四行半，且有兩字無法辨識。</note>
+            <note xml:lang="en">Qian Daxin: “Perfection of Wisdom Sutra. Dated to the first year of the wuping era. The diameter of one character of the above Perfection of Wisdom Sutra varies between 1 foot and 7–8 inches. Now, following [the characters] on the stone, I think that it was also written by Wang Zichun. The beginning reads ‘Mañjuśrī addressed the Buddha, saying: “World-Honored One, why is it named prajñāpāramitā ?” The Buddha said: “ Prajñāpāramitā is without[...], without [...]; without name, without attributes;...’; the text below is rather incomplete. [I] also received [this rubbing] as a gift from Nie Jianguang [Nie Wen 聶鈫; 1711–1796]. In addition, Nie Jianguang says: ‘At Mount Tai is Stone Sutra Valley. Its flat surface is about one mu, on which the Diamond Sutra is carved. The characters are as large as a peck, but there is no record of a name, nor of a date. Wang Shimao [1536–1588] of the Ming dynasty thought that, it might have been written by someone from the Song or Yuan dynasties, but he could not offer any evidence. Now, I have examined the traces of these characters; they are ancient and vigorous, and seem to have come from the same hand as that of the two Culai inscriptions. They must also have come from the brush of [Wang] Zichun; calligraphers of the Song or Yuan dynasties could not have been so unsophisticated and plain.’ I [Qian Daxin] once climbed Mount Dai and saw those inscriptions with my own eyes, but was unable to make rubbings; that is why I appended my thoughts here.” Qian Daxin quotes only the first four and a half columns of the sutra text and is unable to read two characters.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Taishanshuji</idno>
+            <citedRange>8: 94</citedRange>
+            <note xml:lang="zh">宋思仁：“薤山東北爲圓瓦崖大悲菴。東南三里爲映佛巖，巖上刻‘般若波羅密經’，亦王子椿隸書。”</note>
+            <note xml:lang="en">Song Siren: “Northeast of Mount Xie is the Round Tile Cliff with the Great Compassion Shrine. Three miles to the southeast is Radiant Buddha Cliff, on which the Perfection of Wisdom Sutra is carved; it was also written by Wang Zichun in clerical script.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Dailan_b</idno>
+            <citedRange>4:</citedRange>
+            <note xml:lang="zh">唐仲冕：“薤山在寨山東八里，下爲蘭溪，水如柳汁。東南流過鎮里村，西南入小汶。其上有光化禪寺，創於元魏，宋祥符年賜號崇慶。”“映佛巖在圓瓦崖東南三里，壁高丈餘。勒隸書‘般若波羅密經，冠軍將軍梁父縣令王子椿’十七字。下方寬平若臺。勒經文字徑尺及七八寸不等。蓋因石爲之。”“北齊‘般若波羅蜜經’石刻。文可識者：‘文殊師利曰佛言世尊何故名般若波羅蜜佛言般若波羅密無□無□無名無相非□□無皈依無洲□無□無福無□無□如凡界無古今□亦無’(缺三十二字)。” 唐仲冕援引部分經文，其録文近似，但與聶鈫《泰山道里記》卷九，第67頁所録不全然一致。 唐仲冕亦發現一不復存在的刻銘，其中提到佛經：“金安升卿題名。文曰: ‘岱下金安升卿與……游徂徠探古迹。……得冠軍石經於佛谷。……明昌壬子孟夏記。’ 右真書勒屏風巖石上。”</note>
+            <note xml:lang="en">Tang Zhongmian: “Mount Xie is situated eight miles east of Mount Zhai; at the foot runs the Lan Brook, with water like willow juice. To the southeast, it passes by the villages of the commandery; to the southwest, it flows into the Little Wen River. On top [of Mount Xie] is Guanghua Meditation Monastery, which was founded under the Original Wei [Northern Wei, 386–534] dynasty. In the xiangfu era [1008–1016] of the Song dynasty, the monastery was granted the name Chongqing [Monastery]. ... The Radiant Buddha Cliff is three miles south-east of Round Tile Cliff; the rock face is more than 10 feet high. Seventeen characters were carved in clerical script: ‘Perfection of Wisdom Sutra [CLS 1], General Commanding the Troops, County Magistrate of Liangfu, Wang Zichun [CLS 2 and CLS 3].’ Below is a wide and flat area like a platform. The diameter of the engraved characters varies between seven to eight inches and one foot, which is probably due to the stone.” [...] Northern Qi. In the Perfection of Wisdom Sutra carved on the stone, the following text can be read: ‘Mañjuśrī addressed the Buddha, saying: “World-Honored One, why is it named prajñāpāramitā ?” The Buddha said: “ Prajñāpāramitā is without [...], without [...]; without name, without attributes; in[...], without conversion, without [sand]bank; without [...], without merit; without [...], without [...]. Like the Realm of the Ordinary, it is without past or present [...] also without”’ (Thirty-two characters are missing).” Tang Zhongmian quotes the sutra text incompletely. His transcript is close to, but not identical to that by Nie Wen in 9: 67. Tang Zhongmian also discovered an inscription, which is no longer extant, and in which Buddhist sutras are mentioned: “Colophon by An Shengqing of the Jin dynasty. The text reads: ‘[I,] An Shengqing from the foot of Mount Dai, together with [...] roamed over Mount Culai in search of ancient remains. [...] [We] found an army general’s stone sutra in the Buddha Valley. First summer month in the renzi year of the mingchang era [1192].’ This is carved in regular script on a rock at Folding Screen Cliff.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Shanzuobeimu</idno>
+            <citedRange>14828</citedRange>
+            <note xml:lang="zh">段松苓：“北齊徂來山佛經磨崖四段。武平元年。‘文殊’一段。‘般若’一段。‘冠軍’一段。‘普憘’一段。經文十四行，行七字。字徑五寸。正書，含隸意。在徂來山大悲菴東南二里映佛巖下。經文止十三行。”</note>
+            <note xml:lang="en">Duan Songling: “Polished cliff carving from the Northern Qi dynasty on Mount Culai in four sections, with a Buddhist sutra. Dated to the first year of the wuping era. One section starts with ‘Wenshu’; one section starts with ‘wisdom’; one section starts with ‘General Commanding [the Troops]’; one section starts with ‘Puxi’. The sutra text has 14 columns, with seven characters in each column. The diameter of one character measures 5 inches. Written in standard script, with features of clerical script. The inscription is located below on Radiant Buddha Cliff, two miles southeast of the Great Compassion Shrine at Mount Culai. After 13 columns, the sutra text ends.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Shanzuojinshizhi</idno>
+            <citedRange>14478</citedRange>
+            <note xml:lang="zh">阮元：“徂來山佛經摩崖。武平元年刻。八分書。崖高四尺六寸，廣一丈餘。在泰安縣徂來山大悲菴東南二里映佛巖下。右刻經文‘文殊師利’云云，凡十四行，行七字，徑六寸。即鄒縣尖山所刻，此多六十五字，然仍非全文也。……筆法俱同，經文當是一時所刻也。”</note>
+            <note xml:lang="en">Ruan Yuan: “Polished cliff carving of a Buddhist sutra on Mount Culai. Carved in the first year of the wuping era; in symmetrical clerical script. The cliff measures 4 feet 6 inches in height, and more than 10 feet in width. The inscription is located below the Radiant Buddha Cliff, two miles southeast of the Great Compassion Shrine at Mount Culai, Tai’an County. The sutra text reads ‘Mañjuśrī’ and so on. It has a total of 14 columns, with seven characters in each column; the diameter of one character measures 6 inches. Here are 65 more characters than are carved at Mount Jian in Zoucheng (JS 6), thus the text [at Mount Jian] is incomplete. ... The calligraphy is the same in all [CLS 1, 2, 3, 4], thus the sutra texts must have been carved at the same time [as the colophon CLS 4, dated 570].”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Taishanzhi_b</idno>
+            <citedRange>7: 365</citedRange>
+            <note xml:lang="zh">金棨：“《般若波羅密經》磨崖(隸書)。武平元年。右刻在光化寺東南里許映佛巖上，字體大小與《大般若經》同，作二層刻。……下層書經文。半多殘缺。”</note>
+            <note xml:lang="en">Jin Qi: “Polished cliff inscription of the Perfection of Wisdom Sutra (clerical script), dated to the first year of the wuping era. The above inscription was carved on Radiant Buddha cliff, about one mile southeast of Guanghua Monastery. The size of the characters is the same as that of the Great Wisdom Sutra (CLS 5). Two registers are carved. ... The sutra text is written in the lower register. More than half is damaged and incomplete.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Huanyufangbeilu</idno>
+            <citedRange>19871</citedRange>
+            <note xml:lang="zh">孫星衍：“映佛巖佛經摩崖。八分書。武平元年。山東泰安。”</note>
+            <note xml:lang="en">Sun Xingyan: “Polished cliff inscription of a Buddhist sutra at Radiant Buddha Cliff, symmetrical clerical script. Dated to the first year of wuping era. Located in Tai’an, Shandong.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Penglaisuyue2010</idno>
+            <citedRange>193</citedRange>
+            <note xml:lang="zh">黄易《岱麓訪碑廿四圖•大汶口》題跋：“汶河自岱東而西，至大汶口，水嚙石露，勢比涌潮。石橋屈曲，驅車往還，望徂徠山咫尺，嵐翠撲人衣裾。曩遣工入山，搨得北齊佛經。映佛巖磨崖佛名，齊梁父令王子椿書。元鹿森篆‘貧樂岩’‘演易齋’諸刻。”</note>
+            <note xml:lang="en">In the colophon in his album, Twenty-four Illustrations of Enquiries into Stelae Around Mount Dai: Dawenkou, Huang Yi writes: “From the east of Mount Tai, the Wen River [flows] west as far as Dawenkou. Its waters, powerful as a tidal bore, gnaw at the exposed stones. Over stone bridges zigzagging, carts come and go. I gaze at Mount Culai, so near; blue mists descend on one’s garments. The other day I sent workers into the mountain to take rubbings of a Buddhist sutra of the Northern Qi. The Buddha names of the polished cliff at Radiant Buddha Cliff were written by the County Magistrate of Liangfu under the Qi dynasty, Wang Zichun. Lu Sen [Lu Maozhi 鹿茂之] of the Yuan dynasty wrote in seal script the inscriptions ‘Ordinary Man’s Pleasure Cliff’ and ‘Studio for Practicing the [Book of] Changes’.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Jinshicuibian</idno>
+            <citedRange>597–598</citedRange>
+            <note xml:lang="zh">王昶：“映佛巖磨崖。磨崖横廣一丈四尺，高六尺。又横廣四尺四寸，字徑六寸，行七字，得十四行（徂徠山1號）。……在泰安縣徂來山映佛巖。……薤山東南三里映佛巖上刻隸書‘般若波羅蜜經冠軍將軍梁父縣令王子椿’十七字（徂徠山2和3號），後有四字類押狀，不可識（徂徠山4號）。字徑一尺及七寸不等。蓋因石爲之。（《泰山道里記》）按：映佛巖磨崖凡三段。第一段‘文殊師利白佛言’云云，十四行，九十八字（徂徠山1號）。前半段與鄒縣尖山所刻相同（尖山6號）。此段增多六十五字。泐者，十六字可識者，較聶氏《道里記》多十餘字。……其‘文殊師利’云云之東面有‘彌勒佛’等六行。……此三段並在徂來山大悲庵東南二里映佛巖下，白石如屏，石而寬平。大字深刻，泐者無幾。黄司馬易親至其處，言之甚詳。” 王昶引用聶鈫部分録文。他並未注意到有兩篇經文刊刻於石，一處在映佛巖，另一處在光化寺附近的巨石上。由於認爲所有刻經皆在映佛巖，他將其分成三區。第一區爲徂徠山1號，第二區爲徂徠山2號、3號和4號，就第三區將徂徠山9號佛名作出分類，不過徂徠山9號原位於巨石之上，而非“‘文殊師利’云云之東面有‘彌勒佛’等六行”。</note>
+            <note xml:lang="en">Wang Chang: “Polished cliff inscription at Radiant Buddha Cliff. The polished cliff measures 14 feet in width, and 6 feet in height. One inscription measures 4 feet 4 inches in width, and the diameter of one character is 6 inches. The inscription has seven characters in each column, with a total of 14 columns. ... Located at Radiant Buddha Cliff at Mount Culai in Tai’an County. ... An Itinerary of Mount Tai [by Nie Wen] says: ‘At Radiant Buddha Cliff, three miles southeast of Mount Xie, 17 characters were carved in clerical script, reading “Perfection of Wisdom Sutra, General Commanding the Troops, County Magistrate of Liangfu, Wang Zichun (CLS 2 and 3). Next, there are four characters, which seem to be a signature, that I cannot decipher (last column of CLS 4). The characters have an irregular diameter ranging from 1 foot to 17 inches, which is probably due to the stone.’ I note that the polished cliff inscription of Radiant Buddha Cliff has three sections in all. The first section reads ‘Mañjuśrī addressed the Buddha, saying’ and so on, written in 14 columns, in a total of 98 characters (CLS 1). The first half of this section is identical with an inscription carved at Mount Jian in Zou County (JS 6), but has in addition 65 characters. But in the veins only 16 are legible. Compared with Nie [Wen]’s Itinerary, here are ten additional characters. ... On the east side of the inscription reading ‘Mañjuśrī’ and so on are six columns reading ‘Buddha Maitreya’ and so on. ... These three sections are all on a white rock, wide and flat like a screen, on the lower part of Radiant Buddha Cliff, two miles southeast of Great Compassion Shrine at Mount Culai. The large characters were cut deeply into the rock, which has very few veins. The Commander Huang Yi [1744–1802] went there himself, and gave a very detailed description of the site.” Wang Chang quotes Nie Wen incompletely. He does not realize that two sutra passages were carved, one at Radiant Buddha Cliff, and one on the boulder close to Guanghua Monastery. As he thinks that all inscriptions are located at Radiant Buddha Cliff, he divides them into three sections. The first section is CLS 1, the second section comprises CLS 2,3 and 4, and in the third section he groups the Buddha names of CLS 9, which are actually located on the boulder, and not “on the east side of the inscription reading ‘Mañjuśrī’ and so on”.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Jinshisuo</idno>
+            <citedRange>4: 753–754</citedRange>
+            <note xml:lang="zh">馮雲鵬和馮雲鵷：“北齊王子椿徂來山摩崖。在泰安縣徂來山映佛巖。此摩崖石高漢尺七尺有奇，廣四尺四寸。大字濶一尺五寸，小字一尺或三四寸不等。其第一段刻‘文殊師利白佛言’云云，不録此。”</note>
+            <note xml:lang="en">Feng Yunpeng and Feng Yunyuan: “Polished cliff inscription at Mount Culai by Wang Zichun of the Northern Qi dynasty. Located at Radiant Buddha Cliff, Mount Culai, Tai’an County. The rock of this polished cliff inscription measures a little more than 7 Han feet in height, and 4 feet 4 inches in width. The larger characters are 1 foot 5 inches wide, the smaller characters from 1 foot to 3–4 inches in width. The first section reads ‘Mañjuśrī addressed the Buddha, saying’ and so on; I do not transcribe it here.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Jinshihuimufenbian</idno>
+            <citedRange>21119</citedRange>
+            <note xml:lang="zh">吴式芬：“後齊佛經摩崖。八分書。經文‘文殊師利’云云，十四行。……字徑尺餘至五寸不等。徂徠山。大悲庵東南二里映佛巖下。” 馮雲鵬記録尺寸相近，但不完全相同。</note>
+            <note xml:lang="en">Wu Shifen: “Polished cliff inscription of a Buddhist sutra from the Latter Qi [dynasty]. Symmetrical clerical script. The sutra text starts with ‘Mañjuśrī’ and so on, in 14 columns. ... The diameter of these characters varies from more than 1 foot to 5 inches. Located at Mount Culai, at the foot of Radiant Buddha Cliff, two miles to the southeast of the Great Compassion Shrine.” Feng Yunpeng gives similar, but different measurements.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Jungulu</idno>
+            <citedRange>6: 33</citedRange>
+            <note xml:lang="zh">吴式芬：“映佛巖佛經摩崖。八分書。山東泰安。武平元年。經文十四行。”</note>
+            <note xml:lang="en">Wu Shifen: “Polished cliff inscription of a Buddhist sutra at Radiant Buddha Cliff, symmetrical clerical script. Located in Tai’an, Shandong. Dated to the first year of the wuping era. The sutra text has 14 columns.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Yifengtangjinshiwenzimu</idno>
+            <citedRange>19550</citedRange>
+            <note xml:lang="zh">繆荃孫：“徂徠山題刻三段。在山東泰安。……‘大般若經’摩崖。王子椿造。分書。武平元年。” 此條目並不確指徂徠山1號或是徂徠山5號。</note>
+            <note xml:lang="en">Under the heading “Three sections of inscriptions on Mount Culai in Tai’an, Shandong”, Miao Quansun says: “Cliff inscription of the Great Wisdom Sutra. Made by Wang Zichun in symmetrical clerical script. First year of the wuping era.” It is not clear if this entry refers to CLS 1 or CLS 5.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Feijianzhaishendingliuchaozhengshubeimu</idno>
+            <citedRange>520</citedRange>
+            <note xml:lang="zh">譚廷獻和魏錫曾：“北齊。映佛巖磨厓。字徑六寸，必佳。附評曰：予未去，閩稼孫已得王子椿各拓本矣。遒峻不凡，可云勝絶。徂徠不遠，氊蠟甚稀，予迄今尚未有藏本也。” 譚廷獻和魏錫曾僅提到映佛巖刻經和現存王子椿精拓。</note>
+            <note xml:lang="en">Tan Tingxian and Wei Xizeng: “Northern Qi dynasty. Polished cliff inscription on Radiant Buddha Cliff. The diameter of one character measures 6 inches, certainly fine. Further evaluation: I did not go [to the site, but] Jiasun (Wei Xisheng) from Fujian Province already obtained all rubbings of [the inscriptions by] Wang Zichun. They were executed with unusual force and vigor, it can be said that they are exceptionally excellent. Mount Culai is not far, but rubbings [from there] are very rare. Until today, I have still not got hold of a copy.” Tan Tingxian and Wei Xizeng only mention the sutra inscription at Radiant Buddha Cliff and the existence of excellent rubbings of the Wang Zichun inscriptions.</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Shanzuonanbeichaoshikecunmu</idno>
+            <citedRange>14887</citedRange>
+            <note xml:lang="zh">尹彭壽：“北齊徂徠山‘大般若經’摩崖。八分書。徂徠山光化寺東南。”</note>
+            <note xml:lang="en">Yin Pengshou: “Northern Qi polished Cliff inscription of the Great Perfection of Wisdom Sutra on Mount Culai. Symmetrical clerical script. Southeast of Guanghua Monastery on Mount Culai. ”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Shanzuofangbeilu</idno>
+            <citedRange>9071</citedRange>
+            <note xml:lang="zh">法偉堂：“映佛崖佛經摩巖。八分書。凡十四行。武平元年。……徂徠山大悲菴東南二里。”</note>
+            <note xml:lang="en">Fa Weitang: “Polished cliff inscription of a Buddhist sutra at Radiant Buddha Cliff. Symmetrical clerical script in a total of 14 columns. Dated to the first year of the wuping era. ... Located on Mount Culai, two miles southeast of Great Compassion Shrine.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Xubuhuanyufangbeilu</idno>
+            <citedRange>20345</citedRange>
+            <note xml:lang="zh">劉聲木：“徂徠山‘般若波羅蜜經’。正書。摩崖。無年月。山東泰安。”</note>
+            <note xml:lang="en">Liu Shengmu: “Mount Culai, Sutra on the Perfection of Wisdom; undated polished cliff inscription, in standard script. Shandong, Tai’an.”</note>
+          </bibl>
+          <bibl type="epigraphic">
+            <idno type="citekey">Yushi</idno>
+            <citedRange>286</citedRange>
+            <note xml:lang="zh">葉昌熾：“徂徠山映佛巖有‘大般若經’，錢竹汀謂，皆齊武平中王子椿所刻。”</note>
+            <note xml:lang="en">Ke Changsi: “On Radiant Buddha Cliff on Mount Culai is a Great Wisdom Sutra; Qian Zhuting [Qian Daxin; 1728–1804] says that it was all carved by Wang Zichun during the wuping era.”</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Tokiwa1923</idno>
+            <citedRange>96</citedRange>
+            <note xml:lang="zh">常盤大定撰文介紹了映佛巖三個區的整體佈局，包含上方徂徠山2號和3號，中間徂徠山4號的録文。對於徂徠山1號，他僅指出其位置。其後他轉述了王昶對聶鈫的看法，重點討論徂徠山4號風化嚴重的刻字。 重印於常盤大定。</note>
+            <note xml:lang="en">Tokiwa gives a layout text for the three sections at Radiant Buddha Cliff, with a transcription of two passages, CLS 2 and CLS 3, above, and CLS 4 in the center, while for CLS 1 below, he indicates only the position. Thereafter he paraphrases Wang Chang’s discussion of Nie Wen, concentrating on the heavily weathered characters of CLS 4. Reprinted in .</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Sekino_Tokiwa1925_31</idno>
+            <citedRange>2: 162–163</citedRange>
+            <note xml:lang="zh">常盤大定與関野貞記録經文，但稱有16字不可見。</note>
+            <note xml:lang="en">Tokiwa and Sekino transcribe the sutra passage, but mark a total of 16 characters as illegible.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Tokiwa_Sekino1939-1941</idno>
+            <citedRange>Text 11: 72</citedRange>
+            <note xml:lang="zh">常盤大定與関野貞提到位於大悲閣東南兩里處映佛巖上巨石所刻九十八字經文。</note>
+            <note xml:lang="en">Tokiwa and Sekino mention the sutra passage of 98 characters on the huge granite boulder called Radiant Buddha Cliff, which is located about two Chinese miles to the southeast of Great Compassion Hall 大悲閣.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Fushimi1971</idno>
+            <citedRange>2–3</citedRange>
+            <note xml:lang="zh">伏見冲敬引用了聶鈫《泰山道里記》不完整的録文並將其補充完整。</note>
+            <note xml:lang="en">Fushimi quotes Nie Wen’s incomplete transcription from An Itinerary of Mount Tai and then completes the transcription of the passage.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Adachi1972</idno>
+            <citedRange>63–64</citedRange>
+            <note xml:lang="zh">足立豐給出此段的完整録文，補充了風化所缺失的文字，且標註王昶已提過此16字。他提及阮元，認爲需要關注尖山更爲簡短的刻經。他還提到阮元的看法，此處與徂徠山2號相似的書法風格表明其年代相仿。</note>
+            <note xml:lang="en">Adachi gives a complete transcription of the passage, supplying the weathered characters, but notes that Wang Chang already mentioned 16 destroyed characters. Referring to Ruan Yuan, he draws attention to the inscription at Mount Jian, which was considerably shorter. He also mentions Ruan Yuan’s opinion that, the similarity in calligraphic style argues for a date contemporary with CLS 2.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">BJTSG1989</idno>
+            <citedRange>8: 72</citedRange>
+            <note xml:lang="zh">此書編者辨識此拓片爲鄒城尖山的刻經，但指出文字排版與嶧山五華頂的刻經不同（嶧山1號），與徂徠山1號相同。中國國家圖書館給出的尺寸與徂徠山1號相符，雖説其出版的拓片中，共14行刻經却衹有11行可見。</note>
+            <note xml:lang="en">The editors of identify this rubbing as the sutra passage carved at Mount Yi in Zoucheng, but note that the layout of the characters does not match the inscription at Mount Yi’s Summit of the Five Flowers (Yi 1). Instead, it agrees with the layout of the inscription CLS 1. The measurements given by the National Library of China, Beijing, are also in accordance with CLS 1, even though the rubbing published there shows only 11 out of 14 columns of the inscription.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Wang_Lai1991a</idno>
+            <citedRange>12</citedRange>
+            <note xml:lang="zh">王思禮與賴非稱此刻經每行7字，共14行，位於映佛巖巨石上三個刻經區的下方。他們列出刻經尺寸爲高135釐米，寬340釐米，但未辨識經文。</note>
+            <note xml:lang="en">Wang Sili and Lai Fei say that a sutra text in 14 columns, with 7 characters in each column, is located in the lowest of three registers of inscriptions on a giant boulder at Radiant Buddha Cliff. They give measurements for the inscription (135 cm x 340 cm), but do not identify the sutra text.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">AnTingshan1997</idno>
+            <citedRange>39–41</citedRange>
+            <note xml:lang="zh">安廷山提供了映佛巖巨石的尺寸以及詳細的形狀描繪。他認爲巨石南邊爲三處刻經區。在最底部的刻經區，每行7字，共14行的經文刊刻於石。他記録其中能辨認的61字。他未辨識該經文，但詳述其中13處“無”字。</note>
+            <note xml:lang="en">An Tingshan gives measurements of the giant boulder on the mountain peak called Radiant Buddha Cliff, as well as a detailed description of its shape. He says that the south side of this boulder carries inscriptions in three registers. In the lowest register, a sutra text is carved in 14 columns with 7 characters in each column. He gives a transcription of the 61 characters that he could decipher. Although he does not identify the sutra text, he discusses in great detail the 13 characters reading “without” (wu 無).</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">Taishanshikedaguan</idno>
+            <citedRange>1: no. 3: 56</citedRange>
+            <note xml:lang="zh">該書編者簡要描述了映佛巖巨石上的徂徠山1號、2號、3號及4號刻經的分佈並給出了録文。</note>
+            <note xml:lang="en">The editors briefly describe the distribution of inscriptions CLS 1, CLS 2, CLS 3 and CLS 4 on the natural boulder at Radiant Buddha Cliff and give their transcriptions.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">ZhangZong2003a</idno>
+            <citedRange>3</citedRange>
+            <note>Zhang Zong mentions the Sutra on the Perfection of Wisdom Spoken by Mañjuśrī , carved with colophons in the first year of the wuping era of the Northern Qi dynasty (570), and situated on a mountain peak, as one of two inscription sites at Mount Culai in Xintai.</note>
+            <note xml:lang="zh">張總提及《文殊師利所説般若波羅蜜經》與題記均刻於北齊武平元年（570），位於山頂，是新泰徂徠山兩處刻經之一。</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">LaiFei2006</idno>
+            <citedRange>20</citedRange>
+            <note xml:lang="zh">賴非提到《文殊師利所説般若波羅蜜經》於北齊武平元年（570）刻於新泰徂徠山映佛巖，與刻於泰山經石峪的《金剛經》同爲“泰山之陽”的摩崖刻經。</note>
+            <note xml:lang="en">Lai Fei mentions the Sutra on the Perfection of Wisdom Spoken by Mañjuśrī carved in the first year of the wuping era (570) on Radiant Buddha Cliff at Mount Culai in Xintai, together with the Diamond Sutra in Sutra Stone Valley on Mount Tai, as the group of polished cliff inscriptions “south of Mount Tai (Tai Shan zhi yang 泰山之陽)”.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">LaiFei2007</idno>
+            <citedRange>42–45</citedRange>
+            <note xml:lang="zh">賴非簡述映佛巖及其刻經。他提到刻經所據經文並給出録文。</note>
+            <note>Lai Fei gives a short description of Radiant Buddha Cliff and its inscriptions, including measurements. He mentions the sutra from which the passage has been taken and gives a transcription.</note>
+          </bibl>
+          <bibl type="modern">
+            <idno type="citekey">SD_Shikeyishu_bwg2015</idno>
+            <citedRange>1: 46</citedRange>
+            <note xml:lang="zh">該書主編賴非重申了賴非第42－45頁的内容，然而忽略了刻字保存情况。</note>
+            <note xml:lang="en">The main editor, Lai Fei, repeats the information given in 42–45, but omits the description of each character’s state of preservation.</note>
+          </bibl>
         </listBibl>
       </div>
     </body>
