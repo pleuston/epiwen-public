@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- OBJECT file — the 水牛山 stele (E22 made-object). Whole-monument description lives HERE
-     (division rule); the per-text script-field data lives in the inscription files SNS_2.xml
-     (碑陽 obverse) and SNS_3.xml (碑側 both narrow sides). No upstream object record exists —
-     the corpus records this one 碑 as two per-text records; assembling the shared stone is
-     precisely the point of this file. Faces are nested identity-anchor <object>s (LAST, per
-     the TEI content model of <object>). -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════════════
+     OBJECT file — the the Shuiniushan 水牛山 stele annotated reference example
+
+     WHAT: the MONUMENT record — TEI <object> with full internals (msContents, physDesc,
+     history, nested part-objects; all verified legal TEI P5, tei_all-valid).
+     WHY:  the object/text separation. One stone bears many texts (here: sutra on the obverse,
+     donor colophon over both narrow sides); the stone's identity, whole-monument description,
+     parts and location history live here once while each text keeps its own thin file.
+     DIVISION RULE: object = general/whole-object description; inscription = script-field
+     dimensions, hand, per-text condition.
+     CONTENT-MODEL constraints (TEI-fixed): objectIdentifier → msContents → physDesc →
+     history → notes → nested <object>s LAST; no bare <p> beside msContents/physDesc.
+     ★ = controlled vocabulary   ⇄ = link junction.   Full walk: element-walkthrough.md.
+     ═══════════════════════════════════════════════════════════════════════════════════════ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SNS_stele_doc">
   <teiHeader>
     <fileDesc>
       <titleStmt>
+        <!-- record name: zh verbatim · en translation (· optional zh-Latn-x-pinyin).
+             This object name is PROJECT-COINED — the corpus has no object record; honesty
+             about that lives in sourceDesc below. -->
         <title xml:lang="zh">水牛山文殊般若碑</title>
         <title xml:lang="en">Mañjuśrī Prajñā stele of Mount Shuiniu</title>
       </titleStmt>
       <publicationStmt>
         <authority>Epiwen / EpiDoc-CN profile — sample</authority>
+        <!-- the object's record id = the <object> xml:id below = the support key its texts
+             carry in idno[@type="support"] — one identifier, three appearances, one thing -->
         <idno type="object">SNS_stele</idno>
-        <availability status="restricted"><p>Demonstration set, published in the Epiwen public corpus; rights remain with the source providers.</p></availability>
+        <availability status="restricted"><p>Draft sample, not for publication.</p></availability>
       </publicationStmt>
       <sourceDesc>
+        <!-- THE ASSEMBLY NOTE (proposed: REQUIRED on every object file): the provenance of
+             the record itself. Most monuments have no upstream object record — the corpus
+             catalogues per-text. This says exactly which records the object was reconstructed
+             from, and would flag any grouping that is the project's own determination
+             (cf. CLS_Guanghuasi_stone.xml: "…the project editor's determination {verify}").
+             ⇄ ptr → upstream catalog records. -->
         <bibl>assembled from <ptr target="sutras:catalog/SNS_2.xml"/> and
           <ptr target="sutras:catalog/SNS_3.xml"/> — one 碑 recorded upstream as two per-text
           records; no upstream object record exists.</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <!-- resolvable-prefix block: identical in every file of the set -->
       <listPrefixDef>
         <prefixDef ident="crm" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
         <prefixDef ident="crmtex" matchPattern="(.+)" replacementPattern="http://www.cidoc-crm.org/extensions/crmtex/$1"/>
@@ -34,28 +54,62 @@
   <text>
     <body>
       <listObject>
+        <!-- @xml:id: THE anchor — targets of the site's ptr and of every msDesc/@corresp.
+             @ana: the ONTOLOGY class. E22_Human-Made_Object = movable, self-identical
+             monument (碑 · 經幢 · 墓誌 · 造像碑). Cliff surfaces, cave walls, niches are
+             crm:E25_Human-Made_Feature instead — the E22/E25 split is the profile's
+             deliberate divergence from EpiOnt's movable-carrier bias (E84).
+             ★ @type/@subtype from the objectTypes taxonomy. -->
         <object xml:id="SNS_stele" type="monument" subtype="stele" ana="crm:E22_Human-Made_Object">
 
-          <!-- 1. identity -->
+          <!-- ── 1. IDENTITY ─────────────────────────────────────────────────────────── -->
           <objectIdentifier>
             <country xml:lang="zh">中國</country>
             <region xml:lang="zh">山東省</region>
             <objectName xml:lang="zh">水牛山文殊般若碑</objectName>
             <objectName xml:lang="en">Mañjuśrī Prajñā stele of Mount Shuiniu</objectName>
+            <!-- the SUPPORT KEY: every inscription on this stone carries
+                 <idno type="support">SNS_stele</idno> — "other texts on this stone" is the
+                 query for siblings sharing this value  ⇄ -->
             <idno type="support">SNS_stele</idno>
+            <!-- THE MUSEUM SLOTS — the OBJECT's current keeper (collection logic of the profile).
+                 Filled here because the stele is recorded as held in the county museum rather
+                 than in situ on 水牛山: the object's repository lives HERE, on the object; the
+                 site of origin stays in origPlace below; the RUBBINGS' collections live on each
+                 <witness> in the inscription files — three collection questions, three homes,
+                 never conflated. For a stele in a 碑林 or a 墓誌 in a museum, add <institution>
+                 (governing body) / <repository> (the museum) / <collection> + <idno
+                 type="inventory">; paired with <provenance type="moved"> in history below.
+                 {verify: our upstream data attests only rubbing SNS_3/A at this museum, NOT the
+                 stele's relocation; confirm the object was moved here and supply the accession
+                 number before promotion.} -->
+            <institution xml:lang="zh">汶上縣</institution>
+            <institution xml:lang="en">Wenshang County</institution>
+            <repository xml:lang="zh">汶上縣中都博物館</repository>
+            <repository xml:lang="en">Wenshang Municipal Museum (Zhongdu Museum)</repository>
+            <idno type="inventory"><!-- {accession no. — source} --></idno>
           </objectIdentifier>
 
-          <!-- 2. texts borne (object→inscription junction; machine link = msItem/@corresp) -->
+          <!-- ── 2. TEXTS BORNE (object → inscriptions)  ⇄ ──────────────────────────────
+               One msItem per text = the CRM edge  P56 bears feature (epont:carriesText).
+               The machine link is msItem/@corresp → the inscription FILE (TEI does not allow
+               a <ptr> child inside msItem — verified); <locus @target> pins WHICH face
+               carries it (space-separated multi-target for spans). -->
           <msContents>
             <summary xml:lang="en">Two texts: the sutra excerpt (with engraved title 文殊般若) on the
               obverse; the donor colophon running across both narrow sides.</summary>
             <msItem n="1" corresp="SNS_2.xml">
               <locus target="#SNS_stele_yang">碑陽 obverse</locus>
               <title xml:lang="zh">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
+              <!-- title @type="engraved" = 原題, the title AS CARVED on the stone — a
+                   different fact from the catalogue title above it (four title layers:
+                   given · engraved · translated · canonical) -->
               <title xml:lang="zh" type="engraved">文殊般若</title>
               <textLang mainLang="lzh"/>
             </msItem>
             <msItem n="2" corresp="SNS_3.xml">
+              <!-- ONE text across TWO faces: multi-target locus (and the inscription's
+                   msDesc/@corresp mirrors both targets back)  ⇄ -->
               <locus target="#SNS_stele_ce_a #SNS_stele_ce_b">碑側 both narrow sides</locus>
               <title xml:lang="zh">水牛山《文殊師利所説般若波羅蜜經》碑側題記</title>
               <title xml:lang="en">Colophon on the Narrow Sides of the Stele from Mount Shuiniu</title>
@@ -63,26 +117,41 @@
             </msItem>
           </msContents>
 
-          <!-- 3. WHOLE-OBJECT physical description -->
+          <!-- ── 3. WHOLE-OBJECT PHYSICAL DESCRIPTION (the division rule's object half) ── -->
           <physDesc>
-            <objectDesc form="stele">
+            <objectDesc form="stele">   <!-- ★ gross shape/form class -->
               <supportDesc>
                 <support>
+                  <!-- THE DUAL-POINTER PATTERN (I.Sicily), Epiwen-extended:
+                       @ana → local taxonomy id (epiwen-taxonomies.xml — ONE registry file)
+                       @ref → Getty AAT URI (only where a real record exists: AAT 300007023
+                              itself carries the zh labels 碑/石碑/豎石碑)
+                       and — the Epiwen signature — the BILINGUAL VALUE LABELS ride inside
+                       as <term> children (stock EpiDoc puts a bare word here). ★ -->
                   <objectType ana="#object.stele" ref="http://vocab.getty.edu/aat/300007023">
                     <term xml:lang="zh">碑</term>
                     <term xml:lang="en">stele</term>
                   </objectType>
+                  <!-- ★ materials taxonomy; Getty parent granite 300011183. The mineralogy is
+                       carried verbatim (three different granites at CLS!) -->
                   <material ana="#material.granite.biotite" ref="http://vocab.getty.edu/aat/300011183">
                     <term xml:lang="zh">黑雲母花崗岩</term>
                     <term xml:lang="en">biotite granite</term>
                   </material>
-                  <!-- whole-stele dimensions: NOT asserted. The upstream c:dimensions of SNS_2
-                       carries attributes height=235 width=179 (read here as the 碑陽 script field,
-                       recorded in SNS_2.xml) AND the uninterpreted composite element content below. -->
+                  <!-- whole-stele dimensions: NOT asserted, because the upstream value is an
+                       UNINTERPRETED COMPOSITE — the verbatim-first rule: composites are kept
+                       as source notes, never silently parsed. (The attribute pair 235×179 is
+                       the 碑陽 SCRIPT FIELD and lives on SNS_2.xml as dimensions
+                       type="field".) When a clean measurement exists, it goes here as
+                       <dimensions type="overall" unit="cm"> — unit is ALWAYS cm. -->
                   <note type="source-dimensions">upstream SNS_2 c:dimensions element content,
                     verbatim: "233/68/15.2" — a whole-stele height/width/thickness candidate;
                     left uninterpreted (R4).</note>
                 </support>
+                <!-- MONUMENT-level condition (the texts carry their own): here recovered from
+                     a per-text record and source-noted — base and head of the stele are LOST.
+                     ★ conditions taxonomy would apply if classed; bilingual <p> pair, zh
+                     verbatim. -->
                 <condition>
                   <p xml:lang="zh">碑座與碑額佚失。</p>
                   <p xml:lang="en">The base and the head of the stele are missing.</p>
@@ -92,6 +161,8 @@
                 </condition>
               </supportDesc>
               <layoutDesc>
+                <!-- the OVERALL arrangement of texts on the monument (prose). The per-text
+                     layout (columns, ruling, execution) lives on each inscription. -->
                 <layout>
                   <p xml:lang="en">Free-standing stele; main text on the polished obverse within a
                     carved ornamental border, donor colophon continuing over both narrow sides.
@@ -99,6 +170,9 @@
                 </layout>
               </layoutDesc>
             </objectDesc>
+            <!-- ★ features taxonomy (decor.border here; decor.none / frame.none elsewhere —
+                 attested absence 無 is encoded, never omitted). "ornated" sic upstream:
+                 warts are preserved, listed in README, never silently repaired. -->
             <decoDesc>
               <decoNote ana="#decor.border">
                 <p xml:lang="zh">經文由雕刻精緻的飾帶所環繞。</p>
@@ -109,19 +183,38 @@
             </decoDesc>
           </physDesc>
 
-          <!-- 4. history: object→site junction -->
+          <!-- ── 4. HISTORY: dating + the object → site link  ⇄ ─────────────────────── -->
           <history>
             <origin>
+              <!-- machine dates in ISO attributes; the CHINESE DATE STRING VERBATIM as
+                   content. ★ future: reign-era CV anchored to DILA time/ (workshop D15).
+                   Agents (persName @role, exporting to one E12 Production with P14.1 roles)
+                   belong in the INSCRIPTIONS' origin — none are transmitted for this stele. -->
               <origDate notBefore="0558" notAfter="0661">公元五五八到六六一年 (558–661)</origDate>
               <origPlace>
+                <!-- ⇄ THE upward link: object → site place -->
                 <placeName ref="SNS_site.xml#SNS" xml:lang="zh">水牛山</placeName>
               </origPlace>
             </origin>
-            <!-- provenance (found / current location): no assertion in the upstream records read;
-                 add from fieldwork or publications at a later pass -->
+            <!-- later life events as typed <provenance>: type="found" (first record) ·
+                 "observed" (autopsy) · "moved" (→ fills the museum slots above) · "lost"
+                 (佚失 → witness-primacy: see CLS_9/CLS_10). -->
+            <provenance type="moved">
+              <p xml:lang="en">Moved from Mount Shuiniu to the
+                <orgName xml:lang="en">Wenshang Municipal Museum (Zhongdu Museum)</orgName>.
+                {verify: date and circumstances of the relocation — not in the upstream records
+                read; only rubbing SNS_3/A is independently attested at this museum.}</p>
+            </provenance>
           </history>
 
-          <!-- 5. faces: nested identity-anchor objects, LAST -->
+          <!-- ── 5. PARTS: the faces — nested <object>s, LAST (CRM: P46 has part)  ⇄ ────
+               Identity-only ANCHORS whose @xml:id is what locus/@target (above) and each
+               inscription's msDesc/@corresp (from the other side) point at. ★ parts CV
+               (碑陽/碑陰/碑側/碑額 · 幢座/幢身/幢頂 · 誌石/誌蓋). A part MAY carry its own
+               physDesc when it has monument-level geometry — the WFY cave walls do
+               (per-wall dimensions); plain stele faces do not. Boulders WITHOUT named faces
+               go anchor-less instead (映佛巖): texts @corresp the object itself, position
+               carried per-text as orientation notes. -->
           <object xml:id="SNS_stele_yang" type="face" n="碑陽" ana="crm:E25_Human-Made_Feature">
             <objectIdentifier>
               <objectName xml:lang="zh">碑陽</objectName>
