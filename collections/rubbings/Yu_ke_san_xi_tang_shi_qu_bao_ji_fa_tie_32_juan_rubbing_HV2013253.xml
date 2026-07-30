@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Yu ke san xi tang shi qu bao ji fa tie: 32 juan</title>
+        <editor role="editor">Epiwen import</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Yu_ke_san_xi_tang_shi_qu_bao_ji_fa_tie_32_juan_rubbing_HV2013253.xml</idno>
+        <availability><licence target="https://curiosity.lib.harvard.edu/chinese-rubbings">Harvard Library digital collections — open access</licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country>
+            <settlement>Cambridge, MA</settlement>
+            <repository>Harvard-Yenching Library, Harvard University</repository>
+            <idno type="hollis">9553303</idno>
+            <idno type="shelf">TP0001</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Rubbing from stele of  &quot;Yu ke san xi tang shi qu bao ji fa tie&quot;-- a model-letter compendia engraved in 15th yr. of  Qianlong, Qing Dynasty (1750).</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc form="拓本">
+              <supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history><origin><origDate>1914</origDate></origin></history>
+          <additional>
+            <listBibl>
+              <bibl><ref type="record" target="https://viewer.lib.harvard.edu/viewer/URN-3:FHCL:2013253">Harvard Library record</ref></bibl>
+              <bibl><ref type="iiif-manifest" target="https://iiif.lib.harvard.edu/manifests/drs:10222012">IIIF manifest (deep-zoom)</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc>
+      <change when="2026-07-30" who="#epiwen">Imported from Harvard LibraryCloud (URN-3:FHCL:2013253) via the Epiwen rubbing harvest; images served live from Harvard IIIF. Harvested 2026-06-26 — https://github.com/pleuston/epiwen-public/commits/main/harvest/harvard-rubbings.json.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://mps.lib.harvard.edu/assets/images/drs:10222033/full/,1000/0/default.jpg"/>
+  </facsimile>
+  <text><body><div type="edition"><p>Ink rubbing — see the source record / IIIF for images.</p></div></body></text>
+</TEI>
