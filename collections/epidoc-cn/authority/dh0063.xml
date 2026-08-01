@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="dh0063">
+    <authority lang="zh">
+        <geographic>龍華寺</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Longhuasi</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Longhua Monastery</geographic>
+    </variant>
+    <note type="place-type">historical</note>
+    <note type="attested">558–661</note>
+    <note>Monastery cited in the SNS_3 colophon. {verify: location not securely attested.}</note>
+</mads>

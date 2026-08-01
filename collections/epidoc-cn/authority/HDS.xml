@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="HDS">
+    <authority lang="zh">
+        <geographic>洪頂山</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Hongdingshan</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Mount Hongding</geographic>
+    </variant>
+    <note type="place-type">site</note>
+    <note type="province">山東省</note>
+    <note type="coordinates">116.238,36.064</note>
+</mads>

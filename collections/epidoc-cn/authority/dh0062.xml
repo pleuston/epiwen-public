@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="dh0062">
+    <authority lang="zh">
+        <geographic>石窟寺</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Shikusi</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Shiku Monastery</geographic>
+    </variant>
+    <note type="place-type">historical</note>
+    <note type="attested">558–661</note>
+    <note>Monastery cited in the SNS_3 colophon. {verify: location not securely attested.}</note>
+</mads>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="county_wenshang">
+    <authority lang="zh">
+        <geographic>汶上縣</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Wenshang Xian</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Wenshang County</geographic>
+    </variant>
+    <note type="place-type">county</note>
+    <note type="province">山東省</note>
+    <note>Current keeper of the SNS stele (汶上縣中都博物館) — see SNS_stele.xml.</note>
+</mads>

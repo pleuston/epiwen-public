@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="county_anyang">
+    <authority lang="zh">
+        <geographic>安陽縣</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Anyang Xian</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Anyang County</geographic>
+    </variant>
+    <note type="place-type">county</note>
+    <note type="province">河南省</note>
+    <note>Settlement of the LQS and XNH sites.</note>
+</mads>

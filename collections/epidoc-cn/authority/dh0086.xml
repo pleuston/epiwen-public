@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="dh0086">
+    <authority lang="zh">
+        <geographic>東陽平</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Dongyangping</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Dongyangping</geographic>
+    </variant>
+    <note type="place-type">historical</note>
+    <note type="attested">558–661</note>
+    <note>Cited in the SNS_3 colophon. {verify: modern province not securely attested — not assigned.}</note>
+</mads>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="CLS">
+    <authority lang="zh">
+        <geographic>徂徠山</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Culaishan</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Mount Culai</geographic>
+    </variant>
+    <note type="place-type">site</note>
+    <note type="province">山東省</note>
+    <note type="coordinates">117.3938,36.0112</note>
+</mads>

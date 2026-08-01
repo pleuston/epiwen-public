@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="prov_henan">
+    <authority lang="zh">
+        <geographic>河南省</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Henan Sheng</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Henan Province</geographic>
+    </variant>
+    <note type="place-type">province</note>
+    <note type="province">河南省</note>
+    <note>Province vocabulary used by the corpus (region element).</note>
+</mads>

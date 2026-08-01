@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="dh0088">
+    <authority lang="zh">
+        <geographic>五城</geographic>
+    </authority>
+    <variant transliteration="pinyin">
+        <geographic>Wucheng</geographic>
+    </variant>
+    <variant lang="en" type="translation">
+        <geographic>Wucheng Commandery</geographic>
+    </variant>
+    <note type="place-type">historical</note>
+    <note type="attested">558–661</note>
+    <note>Cited in the SNS_3 colophon (義州五城上郡太守). {verify: modern province not securely attested.}</note>
+</mads>
