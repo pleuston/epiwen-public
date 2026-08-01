@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
-"""build_places.py — generate the geographic authority register for the
-EpiDoc-CN corpus.
+"""build_places.py — SEEDER for the geographic authority register (run once).
+
+⚠️  The XML records are now the SOURCE OF TRUTH, and this script rewrites them
+    from the hardcoded table below — so re-running it would DISCARD any edit
+    made in the authority editor. It refuses to run unless you pass --force.
+
+    To rebuild the browser index after a record changes, use the derived
+    builder instead (it never touches the XML):
+
+        python3 harvest/places/build_index.py
+
+    That is also what .github/workflows/authority-index.yml runs on push.
+    Use this seeder only to add/restate places from the table below, and
+    re-check the diff before committing.
 
 Writes MADS records to  collections/epidoc-cn/authority/<id>.xml
 and the browser index to collections/epidoc-cn/authority-index.json
@@ -27,6 +39,7 @@ Run from the repo root:  python3 harvest/places/build_places.py
 """
 
 import json
+import sys
 import os
 
 OUT_DIR = "collections/epidoc-cn/authority"
@@ -136,6 +149,13 @@ def mads(pid, zh, py, en, ptype, prov, coords, date, note):
 def main():
     if not os.path.isdir("collections/epidoc-cn"):
         raise SystemExit("run from the epiwen-data-public repo root")
+    # The XML is authoritative now — re-seeding would silently discard edits
+    # made in the authority editor.
+    if "--force" not in sys.argv and os.path.isdir(OUT_DIR):
+        raise SystemExit(
+            "refusing to re-seed: %s already exists and the XML is the source of "
+            "truth.\n  To rebuild only the index:  python3 harvest/places/build_index.py"
+            "\n  To seed anyway (OVERWRITES records):  --force" % OUT_DIR)
     os.makedirs(OUT_DIR, exist_ok=True)
 
     index = []

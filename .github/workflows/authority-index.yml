@@ -1,0 +1,59 @@
+name: Rebuild authority indexes
+
+# Keeps collections/<pkg>/authority-index.json — what the Places page reads —
+# in step with the MADS records under collections/<pkg>/authority/.
+# Runs whenever a record changes, however it was changed: the in-app authority
+# editor, a hand-edit, or a bulk import.
+#
+# No loop: the trigger watches the RECORDS (authority/**), while the job only
+# ever writes the INDEX (authority-index.json), which that filter excludes.
+
+on:
+  push:
+    paths:
+      - "collections/*/authority/**"
+      - "harvest/places/build_index.py"
+      - ".github/workflows/authority-index.yml"
+  workflow_dispatch:        # allow a manual rebuild from the Actions tab
+
+permissions:
+  contents: write           # repo default is read-only; this job commits
+
+concurrency:                # don't race two pushes into the same index
+  group: authority-index
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Rebuild the derivable authority indexes
+        run: |
+          set -euo pipefail
+          # --all: the script discovers its own collections (its DERIVABLE set).
+          # Doing it here instead meant passing a newline-separated list through
+          # an unquoted variable, which word-splits differently per shell and
+          # silently rebuilt nothing. It also refuses collections whose index
+          # holds curated fields the XML lacks (e.g. rubbings), which a rebuild
+          # would delete. Malformed XML fails the run instead of shipping a
+          # half-built index.
+          python3 harvest/places/build_index.py --all
+
+      - name: Commit the index if it changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- 'collections/*/authority-index.json'; then
+            echo "index already up to date"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add collections/*/authority-index.json
+          git commit -m "authority index: rebuild from records [automated]"
+          git push
